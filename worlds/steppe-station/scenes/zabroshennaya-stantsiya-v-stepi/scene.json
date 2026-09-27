@@ -80,9 +80,19 @@
       "light": "#5a3a22"
     },
     {
+      "x": 0.285,
+      "y": 0.715,
+      "id": "e5628a737",
+      "flip": false,
+      "kind": "campfire",
+      "size": 0.045,
+      "color": "#1a1310",
+      "light": "#ff7a33"
+    },
+    {
       "x": 0.54,
       "y": 0.72,
-      "id": "e5628a737",
+      "id": "eafc4c8b4",
       "flip": false,
       "kind": "lamp",
       "size": 0.15,
@@ -92,7 +102,7 @@
     {
       "x": 0.5,
       "y": 0.735,
-      "id": "eafc4c8b4",
+      "id": "ea5ae52ca",
       "flip": false,
       "kind": "bench",
       "size": 0.045,
@@ -102,7 +112,7 @@
     {
       "x": 0.18,
       "y": 0.76,
-      "id": "ea5ae52ca",
+      "id": "e81d17263",
       "flip": false,
       "kind": "rock",
       "size": 0.035,
@@ -112,7 +122,7 @@
     {
       "x": 0.44,
       "y": 0.79,
-      "id": "e81d17263",
+      "id": "e8c3582c1",
       "flip": false,
       "kind": "rock",
       "size": 0.03,
@@ -122,7 +132,7 @@
     {
       "x": 0.85,
       "y": 0.82,
-      "id": "e8c3582c1",
+      "id": "ea9afef13",
       "flip": false,
       "kind": "rock",
       "size": 0.04,
@@ -132,7 +142,7 @@
     {
       "x": 0.85,
       "y": 0.4,
-      "id": "ea9afef13",
+      "id": "eef24bf76",
       "flip": true,
       "kind": "bird",
       "size": 0.02,
