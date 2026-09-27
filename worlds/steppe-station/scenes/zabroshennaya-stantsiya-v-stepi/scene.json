@@ -1,0 +1,161 @@
+{
+  "sky": {
+    "top": "#2b2038",
+    "bottom": "#f4a35d",
+    "middle": "#c9622f"
+  },
+  "light": {
+    "tint": "#ff8c42",
+    "grain": 0.3,
+    "vignette": 0.35,
+    "tintStrength": 0.25
+  },
+  "stars": {
+    "color": "#f5e6c8",
+    "density": 0.12
+  },
+  "title": "Заброшенная станция в степи",
+  "layers": [
+    {
+      "y": 0.6,
+      "kind": "hills",
+      "color": "#a9765a",
+      "drift": 0,
+      "height": 0.04,
+      "lights": 0,
+      "density": 0.3,
+      "roughness": 0.15
+    },
+    {
+      "y": 0.62,
+      "kind": "fog",
+      "color": "#e8b38a",
+      "drift": 0.25,
+      "height": 0.05,
+      "lights": 0,
+      "density": 0.3,
+      "roughness": 0.3
+    },
+    {
+      "y": 0.68,
+      "kind": "ground",
+      "color": "#4a3a26",
+      "drift": 0,
+      "height": 0,
+      "lights": 0,
+      "density": 0.4,
+      "roughness": 0.4
+    }
+  ],
+  "caption": "Степь молчит, фонарь горит, а перекати-поле катится в закат.",
+  "objects": [
+    {
+      "x": 0.7,
+      "y": 0.68,
+      "id": "eadebbb4c",
+      "flip": false,
+      "kind": "tower",
+      "size": 0.24,
+      "color": "#221a15",
+      "light": null
+    },
+    {
+      "x": 0.33,
+      "y": 0.7,
+      "id": "e78e89b4d",
+      "flip": false,
+      "kind": "house",
+      "size": 0.16,
+      "color": "#1c1510",
+      "light": null
+    },
+    {
+      "x": 0.335,
+      "y": 0.665,
+      "id": "ee41fec56",
+      "flip": false,
+      "kind": "window",
+      "size": 0.02,
+      "color": "#1c1510",
+      "light": "#5a3a22"
+    },
+    {
+      "x": 0.54,
+      "y": 0.72,
+      "id": "e5628a737",
+      "flip": false,
+      "kind": "lamp",
+      "size": 0.15,
+      "color": "#151210",
+      "light": "#ffcf8a"
+    },
+    {
+      "x": 0.5,
+      "y": 0.735,
+      "id": "eafc4c8b4",
+      "flip": false,
+      "kind": "bench",
+      "size": 0.045,
+      "color": "#181310",
+      "light": null
+    },
+    {
+      "x": 0.18,
+      "y": 0.76,
+      "id": "ea5ae52ca",
+      "flip": false,
+      "kind": "rock",
+      "size": 0.035,
+      "color": "#5c4530",
+      "light": null
+    },
+    {
+      "x": 0.44,
+      "y": 0.79,
+      "id": "e81d17263",
+      "flip": false,
+      "kind": "rock",
+      "size": 0.03,
+      "color": "#5c4530",
+      "light": null
+    },
+    {
+      "x": 0.85,
+      "y": 0.82,
+      "id": "e8c3582c1",
+      "flip": false,
+      "kind": "rock",
+      "size": 0.04,
+      "color": "#5c4530",
+      "light": null
+    },
+    {
+      "x": 0.85,
+      "y": 0.4,
+      "id": "ea9afef13",
+      "flip": true,
+      "kind": "bird",
+      "size": 0.02,
+      "color": "#1c1510",
+      "light": null
+    }
+  ],
+  "particles": [
+    {
+      "kind": "dust",
+      "wind": 0.75,
+      "color": "#cba876",
+      "density": 0.55
+    }
+  ],
+  "celestials": [
+    {
+      "x": 0.76,
+      "y": 0.63,
+      "glow": 0.8,
+      "kind": "sun",
+      "size": 0.09,
+      "color": "#ffb15c"
+    }
+  ]
+}
