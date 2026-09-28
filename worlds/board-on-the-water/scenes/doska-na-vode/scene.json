@@ -1,4 +1,9 @@
 {
+  "sky": {
+    "top": "#2f3150",
+    "bottom": "#efc29c",
+    "middle": "#a8788a"
+  },
   "light": {
     "haze": 0.35,
     "tint": "#ffb88a",
@@ -6,6 +11,10 @@
     "vignette": 0.55,
     "hazeColor": "#eec1a0",
     "tintStrength": 0.12
+  },
+  "stars": {
+    "color": "#f5e9ff",
+    "density": 0.08
   },
   "title": "Доска на воде",
   "camera": {
@@ -15,57 +24,53 @@
       "forward": 0.5
     }
   },
+  "layers": [
+    {
+      "y": 0.18,
+      "kind": "clouds",
+      "color": "#c89295",
+      "drift": 0.04,
+      "height": 0.06,
+      "density": 0.3,
+      "roughness": 0.5
+    },
+    {
+      "y": 0.33,
+      "kind": "clouds",
+      "color": "#e7b39d",
+      "drift": 0.03,
+      "height": 0.03,
+      "density": 0.25,
+      "roughness": 0.4
+    },
+    {
+      "y": 0.47,
+      "kind": "mountains",
+      "color": "#a07e8f",
+      "height": 0.035,
+      "density": 0.3,
+      "roughness": 0.35
+    },
+    {
+      "y": 0.47,
+      "kind": "water",
+      "color": "#8a6f80",
+      "drift": 0.02,
+      "height": 0,
+      "glitter": 1
+    },
+    {
+      "y": 0.468,
+      "kind": "fog",
+      "color": "#f0c6a6",
+      "drift": 0.02,
+      "height": 0.03,
+      "density": 0.5
+    }
+  ],
   "caption": "Партия, которую некуда торопить.",
   "horizon": 0.47,
   "objects": [
-    {
-      "id": "e0829e0ff",
-      "sky": true,
-      "name": "Небо",
-      "color": "#a8788a"
-    },
-    {
-      "id": "e98ca7fdc",
-      "sky": true,
-      "name": "Первые звёзды",
-      "color": "#f5e9ff"
-    },
-    {
-      "id": "efb1c61eb",
-      "sky": true,
-      "name": "Солнце",
-      "color": "#fff0cf"
-    },
-    {
-      "id": "e2d5aee18",
-      "sky": true,
-      "name": "Высокие облака",
-      "color": "#c89295"
-    },
-    {
-      "id": "eb01df136",
-      "sky": true,
-      "name": "Перистые полосы у солнца",
-      "color": "#e7b39d"
-    },
-    {
-      "id": "e76aca190",
-      "sky": true,
-      "name": "Дальние острова",
-      "color": "#a07e8f"
-    },
-    {
-      "id": "e47b02ac3",
-      "sky": true,
-      "name": "Море",
-      "color": "#8a6f80"
-    },
-    {
-      "id": "eb1426488",
-      "sky": true,
-      "name": "Дымка у горизонта",
-      "color": "#f0c6a6"
-    },
     {
       "x": 0.5,
       "id": "e56f72ff0",
@@ -75,6 +80,7 @@
         6.3,
         1.2
       ],
+      "kind": "custom",
       "name": "Доска — ряд 1",
       "color": "#4b322d",
       "height": 0.5,
@@ -89,6 +95,7 @@
         8.8,
         0.73
       ],
+      "kind": "custom",
       "name": "Доска — ряд 2",
       "color": "#4b322d",
       "height": 0.5,
@@ -103,6 +110,7 @@
         11.3,
         0.54
       ],
+      "kind": "custom",
       "name": "Доска — ряд 3",
       "color": "#4b322d",
       "height": 0.5,
@@ -117,6 +125,7 @@
         11.7,
         0.43
       ],
+      "kind": "custom",
       "name": "Доска — ряд 4",
       "color": "#4b322d",
       "height": 0.5,
@@ -131,6 +140,7 @@
         11.3,
         0.36
       ],
+      "kind": "custom",
       "name": "Доска — ряд 5",
       "color": "#4b322d",
       "height": 0.5,
@@ -145,6 +155,7 @@
         11,
         0.31
       ],
+      "kind": "custom",
       "name": "Доска — ряд 6",
       "color": "#4b322d",
       "height": 0.5,
@@ -159,6 +170,7 @@
         10.8,
         0.28
       ],
+      "kind": "custom",
       "name": "Доска — ряд 7",
       "color": "#4b322d",
       "height": 0.5,
@@ -173,6 +185,7 @@
         10.9,
         0.29
       ],
+      "kind": "custom",
       "name": "Доска — ряд 8",
       "color": "#4b322d",
       "height": 0.5,
@@ -187,6 +200,7 @@
         8,
         0.3
       ],
+      "kind": "custom",
       "name": "Белый слон",
       "color": "#e3caa6",
       "height": 2.5,
@@ -201,6 +215,7 @@
         -1.2,
         0.3
       ],
+      "kind": "custom",
       "name": "Белый король",
       "color": "#e3caa6",
       "height": 3.4,
@@ -215,6 +230,7 @@
         6.4,
         0.3
       ],
+      "kind": "custom",
       "name": "Белый ферзь",
       "color": "#e3caa6",
       "height": 3,
@@ -229,6 +245,7 @@
         2.2,
         0.2
       ],
+      "kind": "custom",
       "name": "Игрок",
       "color": "#261c25",
       "height": 1.75,
@@ -244,6 +261,7 @@
         -0.7,
         0.3
       ],
+      "kind": "custom",
       "name": "Белая пешка",
       "color": "#e3caa6",
       "height": 1.6,
@@ -258,6 +276,7 @@
         3.9,
         0.3
       ],
+      "kind": "custom",
       "name": "Чёрный конь",
       "color": "#241a21",
       "height": 2.3,
@@ -272,6 +291,7 @@
         -0.7,
         0.3
       ],
+      "kind": "custom",
       "name": "Чёрная пешка",
       "color": "#241a21",
       "height": 1.6,
@@ -286,6 +306,7 @@
         -2.4,
         0.35
       ],
+      "kind": "custom",
       "name": "Чёрная ладья",
       "color": "#241a21",
       "height": 1.9,
@@ -300,24 +321,11 @@
         6,
         0.35
       ],
+      "kind": "custom",
       "name": "Чёрный слон",
       "color": "#241a21",
       "height": 2.5,
       "distance": 6
-    },
-    {
-      "x": 0.5,
-      "id": "e47485016",
-      "box": [
-        -5.8,
-        -4.6,
-        5.8,
-        1.4
-      ],
-      "name": "Пылинки в закатном свете",
-      "color": "#ffe0b8",
-      "height": 5,
-      "distance": 4
     }
   ],
   "captions": [
@@ -335,6 +343,24 @@
       "at": 30,
       "for": 8,
       "text": "Конь смотрит на закат и не торопится."
+    }
+  ],
+  "particles": [
+    {
+      "kind": "dust",
+      "wind": 0.08,
+      "color": "#ffe0b8",
+      "density": 0.1
+    }
+  ],
+  "celestials": [
+    {
+      "x": 0.24,
+      "y": 0.3,
+      "glow": 0.75,
+      "kind": "sun",
+      "size": 0.06,
+      "color": "#fff0cf"
     }
   ]
 }
