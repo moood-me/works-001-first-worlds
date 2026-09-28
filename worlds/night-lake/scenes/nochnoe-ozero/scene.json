@@ -1,102 +1,176 @@
 {
-  "sky": {
-    "top": "#080d1f",
-    "bottom": "#28395c",
-    "middle": "#141f3d"
-  },
   "light": {
+    "haze": 0.3,
     "tint": "#1b2a4a",
     "grain": 0.18,
     "vignette": 0.45,
+    "hazeColor": "#23345a",
     "tintStrength": 0.15
   },
-  "stars": {
-    "color": "#ffffff",
-    "density": 0.6
-  },
   "title": "Ночное озеро",
-  "layers": [
-    {
-      "y": 0.5,
-      "kind": "mountains",
-      "color": "#3a4a6d",
-      "drift": 0,
-      "height": 0.12,
-      "lights": 0,
-      "density": 0.4,
-      "roughness": 0.3
-    },
-    {
-      "y": 0.6,
-      "kind": "forest",
-      "color": "#1a2438",
-      "drift": 0,
-      "height": 0.18,
-      "lights": 0.03,
-      "density": 0.7,
-      "roughness": 0.6
-    },
-    {
-      "y": 0.7,
-      "kind": "water",
-      "color": "#132140",
-      "drift": 0.15,
-      "height": 0,
-      "lights": 0,
-      "density": 0,
-      "roughness": 0.1
+  "camera": {
+    "walk": {
+      "back": 3,
+      "side": 3,
+      "forward": 4
     }
-  ],
+  },
   "caption": "Тихий огонёк качается над тёмной водой.",
+  "horizon": 0.56,
   "objects": [
     {
-      "x": 0.5,
-      "y": 0.7,
-      "id": "ea8e8c0b8",
-      "flip": false,
-      "kind": "bridge",
-      "size": 0.14,
-      "color": "#0f1728",
-      "light": null
+      "id": "efe6d3de1",
+      "sky": true,
+      "name": "Небо"
+    },
+    {
+      "id": "e47393851",
+      "sky": true,
+      "name": "Звёзды"
+    },
+    {
+      "id": "e579d4f05",
+      "sky": true,
+      "name": "Луна"
+    },
+    {
+      "id": "e837e5350",
+      "sky": true,
+      "name": "Облака"
+    },
+    {
+      "id": "e407cc991",
+      "sky": true,
+      "name": "Озеро"
     },
     {
       "x": 0.5,
-      "y": 0.615,
-      "id": "e8e6438eb",
-      "flip": false,
-      "kind": "figure",
-      "pose": "sit",
-      "size": 0.05,
-      "color": "#0b1220",
-      "light": "#ffd27a"
+      "id": "e0b7403a1",
+      "box": [
+        -1500,
+        -60,
+        1500,
+        60
+      ],
+      "name": "Горы",
+      "color": "#34446a",
+      "height": 45,
+      "distance": 700
     },
     {
-      "x": 0.52,
-      "y": 0.615,
-      "id": "ea1502dda",
-      "flip": false,
-      "kind": "lantern",
-      "size": 0.02,
-      "color": "#2a2010",
-      "light": "#ffd27a"
-    }
-  ],
-  "particles": [
+      "x": 0.5,
+      "id": "e158dcc93",
+      "box": [
+        -900,
+        -45,
+        300,
+        45
+      ],
+      "name": "Лес на том берегу",
+      "color": "#121b2e",
+      "height": 26,
+      "distance": 380
+    },
     {
-      "kind": "fireflies",
-      "wind": 0.1,
+      "x": 0.5,
+      "id": "e71fdecde",
+      "box": [
+        -700,
+        -16,
+        700,
+        8
+      ],
+      "name": "Туман над водой",
+      "height": 12,
+      "distance": 220
+    },
+    {
+      "x": 0.44,
+      "id": "eb7d113d5",
+      "box": [
+        -24.5,
+        -1.6,
+        0.6,
+        1.6
+      ],
+      "name": "Мостик",
+      "color": "#0e1628",
+      "height": 1.4,
+      "distance": 12
+    },
+    {
+      "x": 0.44,
+      "id": "ebb5d9a90",
+      "box": [
+        -0.8,
+        -0.9,
+        4.2,
+        1.95
+      ],
+      "name": "Ребёнок с фонариком",
+      "color": "#0d1424",
+      "height": 0.75,
+      "distance": 11.9,
+      "elevation": 0.75
+    },
+    {
+      "x": 0.55,
+      "id": "ea58d1637",
+      "box": [
+        -5,
+        -3.6,
+        6.5,
+        3.6
+      ],
+      "name": "Светлячки",
       "color": "#ffd27a",
-      "density": 0.2
+      "height": 3,
+      "distance": 9
+    },
+    {
+      "x": 0.92,
+      "id": "e1e803e7e",
+      "box": [
+        -1.6,
+        -2.2,
+        1.6,
+        2.2
+      ],
+      "name": "Камыш у воды",
+      "color": "#0a101c",
+      "height": 1.5,
+      "distance": 6
+    },
+    {
+      "x": 0.08,
+      "id": "ee7aa7c14",
+      "box": [
+        -3,
+        -2.1,
+        1.3,
+        0.8
+      ],
+      "name": "Камыш на берегу",
+      "color": "#0b111e",
+      "height": 1.8,
+      "distance": 4
     }
   ],
-  "celestials": [
+  "captions": [
     {
-      "x": 0.78,
-      "y": 0.16,
-      "glow": 0.8,
-      "kind": "moon",
-      "size": 0.07,
-      "color": "#e8eef7"
+      "at": 3,
+      "for": 7,
+      "text": "Луч фонарика трогает чёрную воду."
+    },
+    {
+      "at": 13,
+      "for": 7,
+      "text": "Где-то внизу плеснула рыба — круги расходятся медленно."
+    },
+    {
+      "at": 23,
+      "for": 8,
+      "text": "Он считает светлячков и сбивается на седьмом."
     }
   ]
 }
