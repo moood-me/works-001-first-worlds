@@ -1,195 +1,300 @@
 {
-  "sky": {
-    "top": "#1a0b2e",
-    "bottom": "#ff3fa4",
-    "middle": "#6a1b8f"
-  },
   "light": {
+    "haze": 0.22,
     "tint": "#ff2fd6",
     "grain": 0.12,
-    "vignette": 0.35,
-    "tintStrength": 0.25
-  },
-  "stars": {
-    "color": "#ffd6f7",
-    "density": 0.5
+    "vignette": 0.4,
+    "hazeColor": "#7a2a86",
+    "tintStrength": 0.18
   },
   "title": "Дискотека",
-  "layers": [
-    {
-      "y": 0.62,
-      "kind": "mountains",
-      "color": "#3a1f5d",
-      "drift": 0,
-      "height": 0.12,
-      "lights": 0,
-      "density": 0.5,
-      "roughness": 0.4
-    },
-    {
-      "y": 0.72,
-      "kind": "city",
-      "color": "#2a1140",
-      "drift": 0,
-      "height": 0.3,
-      "lights": 0.9,
-      "density": 0.8,
-      "roughness": 0.3
-    },
-    {
-      "y": 1,
-      "kind": "ground",
-      "color": "#1c0a2e",
-      "drift": 0,
-      "height": 0,
-      "lights": 0,
-      "density": 0.5,
-      "roughness": 0.2
+  "camera": {
+    "walk": {
+      "back": 2,
+      "side": 3,
+      "forward": 5
     }
-  ],
+  },
   "caption": "Огни сверкают, музыка не умолкает",
+  "horizon": 0.6,
   "objects": [
     {
+      "id": "e85a05a25",
+      "sky": true,
+      "name": "Небо"
+    },
+    {
+      "id": "e25d1c2a9",
+      "sky": true,
+      "name": "Звёзды"
+    },
+    {
+      "id": "ea6955f98",
+      "sky": true,
+      "name": "Розовые облака"
+    },
+    {
+      "id": "ee9cdf415",
+      "sky": true,
+      "name": "Луна",
+      "color": "#f2f2ff"
+    },
+    {
+      "id": "edee3506a",
+      "sky": true,
+      "name": "Мятная планета",
+      "color": "#7cffda"
+    },
+    {
       "x": 0.5,
-      "y": 0.8,
-      "id": "ecf942658",
-      "flip": false,
-      "kind": "tower",
-      "pose": null,
-      "size": 0.3,
+      "y": 0.603,
+      "id": "e32d0fe06",
+      "box": [
+        -800,
+        -110,
+        800,
+        6
+      ],
+      "name": "Далёкие горы",
+      "color": "#3a1f5d",
+      "height": 70
+    },
+    {
+      "x": 0.5,
+      "y": 0.608,
+      "id": "e86eeabe7",
+      "box": [
+        -430,
+        -100,
+        430,
+        4
+      ],
+      "name": "Город в огнях",
+      "color": "#2a1140",
+      "height": 60,
+      "flicker": 0.25
+    },
+    {
+      "x": 0.5,
+      "y": 0.7,
+      "id": "ebd603d9e",
+      "box": [
+        -70,
+        -2,
+        70,
+        10
+      ],
+      "name": "Площадь",
+      "color": "#1c0a2e",
+      "height": 1
+    },
+    {
+      "x": 0.5,
+      "y": 0.72,
+      "id": "e06948719",
+      "box": [
+        -15,
+        -12,
+        15,
+        0
+      ],
+      "name": "Блёстки в воздухе",
+      "color": "#ffe07a",
+      "height": 10
+    },
+    {
+      "x": 0.5,
+      "y": 0.75,
+      "id": "e1cac7e57",
+      "box": [
+        -40,
+        -2,
+        40,
+        8
+      ],
+      "name": "Танцпол",
+      "color": "#170a26",
+      "height": 1
+    },
+    {
+      "x": 0.5,
+      "y": 0.765,
+      "id": "e075cd084",
+      "box": [
+        -9,
+        -9.5,
+        9,
+        0.4
+      ],
+      "name": "Диско-башня",
       "color": "#140a22",
-      "light": "#ff2fd6"
+      "height": 5
     },
     {
       "x": 0.32,
       "y": 0.78,
-      "id": "e4adb5d3c",
-      "flip": false,
-      "kind": "lamp",
-      "pose": null,
-      "size": 0.14,
+      "id": "e9655c445",
+      "box": [
+        -25,
+        -48,
+        25,
+        0.4
+      ],
+      "name": "Голубой прожектор",
       "color": "#140a22",
-      "light": "#29e0ff"
+      "height": 2.5
     },
     {
       "x": 0.68,
       "y": 0.78,
-      "id": "e57b66b98",
-      "flip": true,
-      "kind": "lamp",
-      "pose": null,
-      "size": 0.14,
+      "id": "e3972d8e4",
+      "box": [
+        -25,
+        -48,
+        25,
+        0.4
+      ],
+      "name": "Жёлтый прожектор",
       "color": "#140a22",
-      "light": "#fff23d"
+      "height": 2.6
     },
     {
       "x": 0.18,
-      "y": 0.55,
-      "id": "e829f4914",
-      "flip": false,
-      "kind": "lantern",
-      "pose": null,
-      "size": 0.025,
-      "color": "#140a22",
-      "light": "#ff2fd6"
+      "y": 0.8,
+      "id": "e2bc948c8",
+      "box": [
+        -1,
+        -9.5,
+        1,
+        1
+      ],
+      "name": "Розовый фонарик",
+      "sway": 2.5,
+      "color": "#ff2fd6",
+      "height": 0.4,
+      "flicker": 0.2,
+      "elevation": 2.35
     },
     {
-      "x": 0.5,
-      "y": 0.47,
-      "id": "e07ff9d2b",
-      "flip": false,
-      "kind": "lantern",
-      "pose": null,
-      "size": 0.025,
-      "color": "#140a22",
-      "light": "#fff23d"
+      "x": 0.615,
+      "y": 0.8,
+      "id": "e77cfbf4a",
+      "box": [
+        -1,
+        -9.5,
+        1,
+        1.2
+      ],
+      "name": "Жёлтый фонарик-звезда",
+      "sway": 1.8,
+      "color": "#fff23d",
+      "height": 0.6,
+      "flicker": 0.15,
+      "elevation": 3.1
     },
     {
       "x": 0.82,
-      "y": 0.55,
-      "id": "eb1f5bad1",
-      "flip": false,
-      "kind": "lantern",
-      "pose": null,
-      "size": 0.025,
-      "color": "#140a22",
-      "light": "#29e0ff"
+      "y": 0.8,
+      "id": "e3291d53b",
+      "box": [
+        -1,
+        -9.5,
+        1,
+        1.2
+      ],
+      "name": "Голубой фонарик",
+      "sway": 2.2,
+      "color": "#29e0ff",
+      "height": 0.6,
+      "flicker": 0.2,
+      "elevation": 2.45
     },
     {
       "x": 0.25,
-      "y": 0.93,
-      "id": "e2ec7157d",
-      "flip": false,
-      "kind": "figure",
-      "pose": "walk",
-      "size": 0.16,
-      "color": "#0a0512",
-      "light": null
+      "y": 0.86,
+      "id": "ec9bc93e3",
+      "box": [
+        -0.9,
+        -2.3,
+        0.9,
+        0.15
+      ],
+      "name": "Танцор с поднятыми руками",
+      "color": "#170b26",
+      "height": 1.8
     },
     {
       "x": 0.42,
-      "y": 0.96,
-      "id": "e37b26517",
-      "flip": false,
-      "kind": "figure",
-      "pose": "stand",
-      "size": 0.18,
-      "color": "#0a0512",
-      "light": null
+      "y": 0.885,
+      "id": "e62763500",
+      "box": [
+        -0.9,
+        -2.1,
+        0.9,
+        0.15
+      ],
+      "name": "Девушка в платье",
+      "color": "#170b26",
+      "height": 1.7
     },
     {
       "x": 0.6,
-      "y": 0.96,
-      "id": "e3e62166f",
-      "flip": true,
-      "kind": "figure",
-      "pose": "walk",
-      "size": 0.17,
-      "color": "#0a0512",
-      "light": null
+      "y": 0.88,
+      "id": "e6fcb3e12",
+      "box": [
+        -0.9,
+        -2.3,
+        0.9,
+        0.15
+      ],
+      "name": "Прыгун",
+      "color": "#170b26",
+      "height": 1.75
     },
     {
       "x": 0.78,
-      "y": 0.93,
-      "id": "eeaa8e203",
-      "flip": true,
-      "kind": "figure",
-      "pose": "stand",
-      "size": 0.15,
-      "color": "#0a0512",
-      "light": null
-    }
-  ],
-  "particles": [
-    {
-      "kind": "fireflies",
-      "wind": 0.2,
-      "color": "#ffe07a",
-      "density": 0.7
+      "y": 0.85,
+      "id": "e66b3de8d",
+      "box": [
+        -0.9,
+        -2.3,
+        0.9,
+        0.15
+      ],
+      "name": "Парень в кепке",
+      "color": "#170b26",
+      "height": 1.8
     },
-    {
-      "kind": "embers",
-      "wind": 0.3,
-      "color": "#ff4fd8",
-      "density": 0.4
-    }
-  ],
-  "celestials": [
     {
       "x": 0.5,
-      "y": 0.16,
-      "glow": 1,
-      "kind": "planet",
-      "size": 0.1,
-      "color": "#f2f2ff"
+      "y": 0.9,
+      "id": "ea091c14e",
+      "box": [
+        -6.5,
+        -8,
+        6.5,
+        0.3
+      ],
+      "name": "Конфетти",
+      "color": "#ff4fd8",
+      "height": 7
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "Шар над сценой рассыпает зайчиков по всем плечам"
     },
     {
-      "x": 0.82,
-      "y": 0.1,
-      "glow": 0.8,
-      "kind": "planet",
-      "size": 0.03,
-      "color": "#7cffda"
+      "at": 12,
+      "for": 7,
+      "text": "Кто-то впервые решился выйти в круг"
+    },
+    {
+      "at": 21,
+      "for": 8,
+      "text": "Жёлтый прожектор ищет, кого бы ещё позвать"
     }
   ]
 }
