@@ -7,6 +7,85 @@
     "hazeColor": "#7e8693",
     "tintStrength": 0.12
   },
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "old pier at night, solo piano, few notes, deep silence between them, longing",
+        "weight": 1
+      },
+      {
+        "text": "warm distant organ drone like a single lit window across the lake",
+        "weight": 0.5
+      },
+      {
+        "text": "soft moonlight string pad, very slow, silver and cold",
+        "weight": 0.35
+      },
+      {
+        "text": "lonely oboe melody over still water, tender and sad",
+        "weight": 0
+      },
+      {
+        "text": "harp harmonics like moonlight on ripples",
+        "weight": 0
+      },
+      {
+        "text": "whispered choir, far away, one voice among many silent ones",
+        "weight": 0
+      },
+      {
+        "text": "felt piano and tape hiss, intimate and fragile",
+        "weight": 0
+      },
+      {
+        "text": "deep bowed double bass, night heaviness, slow",
+        "weight": 0
+      },
+      {
+        "text": "Ólafur Arnalds style piano and strings, quiet hope",
+        "weight": 0
+      },
+      {
+        "text": "music box counting lights on the other shore, one, two, one",
+        "weight": 0
+      },
+      {
+        "text": "gentle guitar harmonics and reverb, misty night",
+        "weight": 0
+      },
+      {
+        "text": "low hum of a distant boat engine turned into a drone",
+        "weight": 0
+      },
+      {
+        "text": "crystal bowl tones, meditative, cold air",
+        "weight": 0
+      },
+      {
+        "text": "slow waltz on a faraway accordion, memory of summer",
+        "weight": 0
+      },
+      {
+        "text": "sparse vibraphone, blue night, a jazz ballad without drums",
+        "weight": 0
+      },
+      {
+        "text": "ambient field of reeds and water, softly musical",
+        "weight": 0
+      },
+      {
+        "text": "wordless lullaby hummed by a child, very quiet",
+        "weight": 0
+      },
+      {
+        "text": "cinematic swell with a single French horn, hope rising and falling",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
   "title": "Надежда",
   "camera": {
     "walk": {
