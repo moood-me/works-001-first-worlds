@@ -1,0 +1,184 @@
+{
+  "sky": {
+    "top": "#0a1220",
+    "bottom": "#6b6478",
+    "middle": "#2c3b52"
+  },
+  "light": {
+    "haze": 0.45,
+    "tint": "#39435a",
+    "grain": 0.3,
+    "vignette": 0.5,
+    "hazeColor": "#4a5468",
+    "tintStrength": 0.22
+  },
+  "stars": {
+    "color": "#cdd6e8",
+    "density": 0.15
+  },
+  "title": "Надежда",
+  "camera": {
+    "walk": {
+      "back": 2,
+      "side": 4,
+      "forward": 6
+    }
+  },
+  "layers": [
+    {
+      "y": 0.4,
+      "kind": "mountains",
+      "color": "#5a6b82",
+      "height": 0.1,
+      "density": 0.4,
+      "roughness": 0.4
+    },
+    {
+      "y": 0.4,
+      "kind": "forest",
+      "color": "#232f3d",
+      "height": 0.13,
+      "lights": 0.04,
+      "density": 0.65,
+      "roughness": 0.6
+    },
+    {
+      "y": 0.39,
+      "kind": "fog",
+      "color": "#8b96a8",
+      "drift": 0.05,
+      "height": 0.05,
+      "density": 0.5,
+      "roughness": 0.3
+    },
+    {
+      "y": 0.4,
+      "kind": "water",
+      "color": "#2a3446",
+      "drift": 0.04,
+      "height": 0,
+      "density": 0.3,
+      "glitter": 0.6,
+      "roughness": 0.2
+    },
+    {
+      "y": 0.65,
+      "kind": "fog",
+      "color": "#3d4554",
+      "drift": -0.04,
+      "height": 0.1,
+      "density": 0.4,
+      "roughness": 0.4
+    },
+    {
+      "y": 0.93,
+      "kind": "ground",
+      "color": "#0d0f14",
+      "height": 0,
+      "density": 0.5,
+      "roughness": 0.7
+    }
+  ],
+  "caption": "здесь тихо, и только маленький огонёк не даёт погаснуть надежде",
+  "horizon": 0.4,
+  "objects": [
+    {
+      "x": 0.03,
+      "y": 0.93,
+      "id": "e1465ce66",
+      "kind": "pine",
+      "size": 0.42,
+      "color": "#0d1117",
+      "light": null
+    },
+    {
+      "x": 0.76,
+      "y": 0.397,
+      "id": "e9c2b0bbb",
+      "kind": "window",
+      "size": 0.018,
+      "color": "#2a2015",
+      "light": "#ffb066"
+    },
+    {
+      "x": 0.4,
+      "y": 0.87,
+      "id": "ebe847bcd",
+      "kind": "custom",
+      "name": "девочка",
+      "sway": 1.5,
+      "color": "#12151d",
+      "height": 1,
+      "elevation": 0
+    },
+    {
+      "x": 0.46,
+      "y": 0.875,
+      "id": "e7c2f2a99",
+      "kind": "lantern",
+      "size": 0.045,
+      "color": "#3a2e22",
+      "light": "#ffb066"
+    },
+    {
+      "x": 0.55,
+      "y": 0.92,
+      "id": "e45174658",
+      "kind": "rock",
+      "size": 0.04,
+      "color": "#10131a",
+      "light": null
+    },
+    {
+      "x": 0.97,
+      "y": 0.9,
+      "id": "e7db521f7",
+      "flip": true,
+      "kind": "pine",
+      "size": 0.3,
+      "color": "#0d1117",
+      "light": null
+    }
+  ],
+  "captions": [
+    {
+      "at": 1,
+      "for": 7,
+      "text": "она сидит у пустого озера и считает круги на воде"
+    },
+    {
+      "at": 9,
+      "for": 7,
+      "text": "где-то на том берегу горит одно окно"
+    },
+    {
+      "at": 17,
+      "for": 8,
+      "text": "надежда — это когда идёшь на свет, которого, может, там и нет"
+    }
+  ],
+  "particles": [
+    {
+      "kind": "leaves",
+      "wind": 0.3,
+      "color": "#8a6a3f",
+      "density": 0.2
+    },
+    {
+      "kind": "dust",
+      "wind": 0.1,
+      "color": "#aab4c4",
+      "density": 0.15
+    }
+  ],
+  "celestials": [
+    {
+      "x": 0.7,
+      "y": 0.18,
+      "glow": 0.45,
+      "kind": "moon",
+      "size": 0.045,
+      "color": "#dfe4ee"
+    }
+  ]
+}
