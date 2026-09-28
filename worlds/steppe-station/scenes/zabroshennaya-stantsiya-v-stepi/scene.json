@@ -110,9 +110,29 @@
       "light": null
     },
     {
+      "x": 0.12,
+      "y": 0.735,
+      "id": "e81d17263",
+      "flip": false,
+      "kind": "house",
+      "size": 0.1,
+      "color": "#1c1510",
+      "light": null
+    },
+    {
+      "x": 0.6,
+      "y": 0.705,
+      "id": "e8c3582c1",
+      "flip": true,
+      "kind": "house",
+      "size": 0.08,
+      "color": "#221a15",
+      "light": null
+    },
+    {
       "x": 0.18,
       "y": 0.76,
-      "id": "e81d17263",
+      "id": "ea9afef13",
       "flip": false,
       "kind": "rock",
       "size": 0.035,
@@ -122,7 +142,7 @@
     {
       "x": 0.44,
       "y": 0.79,
-      "id": "e8c3582c1",
+      "id": "eef24bf76",
       "flip": false,
       "kind": "rock",
       "size": 0.03,
@@ -132,7 +152,7 @@
     {
       "x": 0.85,
       "y": 0.82,
-      "id": "ea9afef13",
+      "id": "ebe76c892",
       "flip": false,
       "kind": "rock",
       "size": 0.04,
@@ -142,7 +162,7 @@
     {
       "x": 0.85,
       "y": 0.4,
-      "id": "eef24bf76",
+      "id": "e31c3be69",
       "flip": true,
       "kind": "bird",
       "size": 0.02,
