@@ -1,9 +1,4 @@
 {
-  "sky": {
-    "top": "#1a212e",
-    "bottom": "#7e8693",
-    "middle": "#374255"
-  },
   "light": {
     "haze": 0.45,
     "tint": "#6a7a9a",
@@ -11,10 +6,6 @@
     "vignette": 0.6,
     "hazeColor": "#7e8693",
     "tintStrength": 0.12
-  },
-  "stars": {
-    "color": "#d8dde8",
-    "density": 0.28
   },
   "title": "Надежда",
   "camera": {
@@ -24,68 +15,74 @@
       "forward": 6
     }
   },
-  "layers": [
-    {
-      "y": 0.3,
-      "kind": "clouds",
-      "color": "#434d5e",
-      "drift": 0.04,
-      "height": 0.08,
-      "density": 0.18,
-      "roughness": 0.6
-    },
-    {
-      "y": 0.558,
-      "kind": "mountains",
-      "color": "#5d6777",
-      "height": 0.11,
-      "density": 0.5,
-      "roughness": 0.6
-    },
-    {
-      "y": 0.566,
-      "kind": "forest",
-      "color": "#2e3744",
-      "height": 0.045,
-      "lights": 0,
-      "density": 0.7,
-      "roughness": 0.5
-    },
-    {
-      "y": 0.566,
-      "kind": "water",
-      "color": "#394455",
-      "drift": 0.04,
-      "height": 0,
-      "density": 0.5,
-      "glitter": 0.7,
-      "roughness": 0.2
-    },
-    {
-      "y": 0.565,
-      "kind": "fog",
-      "color": "#8a929d",
-      "drift": 0.03,
-      "height": 0.05,
-      "density": 0.45,
-      "roughness": 0.4
-    },
-    {
-      "y": 0.67,
-      "kind": "fog",
-      "color": "#6c7685",
-      "drift": -0.02,
-      "height": 0.035,
-      "density": 0.3,
-      "roughness": 0.5
-    }
-  ],
-  "caption": "Hope",
+  "caption": "Ночь. Старая пристань. Тишина.",
   "horizon": 0.56,
   "objects": [
     {
+      "id": "ee3349ac2",
+      "sky": true,
+      "name": "Небо"
+    },
+    {
+      "id": "ee88e0c63",
+      "sky": true,
+      "name": "Звёзды"
+    },
+    {
+      "id": "e99f551e4",
+      "sky": true,
+      "name": "Луна и лунная дорожка"
+    },
+    {
+      "id": "e87e949df",
+      "sky": true,
+      "name": "Облака"
+    },
+    {
+      "x": 0.5,
+      "id": "ecd532172",
+      "box": [
+        -4500,
+        -115,
+        4500,
+        10
+      ],
+      "name": "Дальние горы",
+      "color": "#596373",
+      "height": 95,
+      "distance": 2400
+    },
+    {
+      "x": 0.5,
+      "id": "e72a26bed",
+      "box": [
+        -1900,
+        -24,
+        1900,
+        8
+      ],
+      "name": "Холмы за лесом",
+      "color": "#434c5b",
+      "height": 16,
+      "distance": 900
+    },
+    {
+      "x": 0.5,
+      "id": "ef4220464",
+      "box": [
+        -800,
+        -26,
+        800,
+        3
+      ],
+      "name": "Лес на том берегу",
+      "color": "#2e3744",
+      "height": 14,
+      "reflect": true,
+      "distance": 250
+    },
+    {
       "x": 0.7,
-      "y": 0.567,
       "id": "ee070e573",
       "box": [
         -9,
@@ -93,14 +90,70 @@
         9,
         1
       ],
-      "kind": "custom",
       "name": "Дом на том берегу",
       "color": "#252c37",
       "height": 5,
       "period": 30,
       "flicker": 0.25,
       "reflect": true,
+      "distance": 240,
       "elevation": 0
+    },
+    {
+      "x": 0.7,
+      "id": "ea27f01ac",
+      "box": [
+        -12,
+        -1,
+        12,
+        30
+      ],
+      "name": "Отблеск окна на воде",
+      "color": "#f0b870",
+      "height": 2,
+      "distance": 238
+    },
+    {
+      "x": 0.8,
+      "id": "ec243a03b",
+      "box": [
+        -220,
+        -1.6,
+        180,
+        70
+      ],
+      "name": "Озеро",
+      "color": "#394455",
+      "height": 2,
+      "distance": 40
+    },
+    {
+      "x": 0.5,
+      "id": "e43fd1ecf",
+      "box": [
+        -140,
+        -3,
+        140,
+        0.5
+      ],
+      "name": "Туман у того берега",
+      "color": "#8a929d",
+      "height": 1,
+      "distance": 30
+    },
+    {
+      "x": 0.5,
+      "id": "e0a57a245",
+      "box": [
+        -70,
+        -1.2,
+        70,
+        0.4
+      ],
+      "name": "Дымка над водой",
+      "color": "#6c7685",
+      "height": 0.5,
+      "distance": 16
     },
     {
       "x": 0.4,
@@ -111,7 +164,6 @@
         0.7,
         0.3
       ],
-      "kind": "custom",
       "name": "Старая пристань и девочка",
       "color": "#1b2029",
       "height": 1.8,
@@ -130,7 +182,6 @@
         0.9,
         0.1
       ],
-      "kind": "custom",
       "name": "Камыш",
       "sway": 1.5,
       "color": "#151a21",
@@ -138,6 +189,20 @@
       "period": 40,
       "reflect": true,
       "elevation": 0
+    },
+    {
+      "x": 0.45,
+      "id": "e0a1f31c9",
+      "box": [
+        -8,
+        -4,
+        8,
+        0.5
+      ],
+      "name": "Пылинки в воздухе",
+      "color": "#c8ccd6",
+      "height": 3,
+      "distance": 5
     }
   ],
   "captions": [
@@ -160,24 +225,6 @@
       "at": 32,
       "for": 10,
       "text": "Значит, кто-то ещё не спит."
-    }
-  ],
-  "particles": [
-    {
-      "kind": "dust",
-      "wind": 0.05,
-      "color": "#c8ccd6",
-      "density": 0.12
-    }
-  ],
-  "celestials": [
-    {
-      "x": 0.8,
-      "y": 0.2,
-      "glow": 0.5,
-      "kind": "moon",
-      "size": 0.045,
-      "color": "#dedcd0"
     }
   ]
 }
