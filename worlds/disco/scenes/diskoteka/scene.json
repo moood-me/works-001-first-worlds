@@ -7,6 +7,85 @@
     "hazeColor": "#7a2a86",
     "tintStrength": 0.18
   },
+  "music": {
+    "bpm": 118,
+    "density": 0.75,
+    "prompts": [
+      {
+        "text": "joyful disco, four-on-the-floor, funky bass, shimmering strings, glitter ball",
+        "weight": 1
+      },
+      {
+        "text": "nu-disco with bright synth stabs and handclaps, open-air dance floor at night",
+        "weight": 0.7
+      },
+      {
+        "text": "funky rhythm guitar chicks and a slap bass groove",
+        "weight": 0.4
+      },
+      {
+        "text": "Italo disco arpeggiated synths, retro and dreamy",
+        "weight": 0
+      },
+      {
+        "text": "French house filter sweeps, warm and bouncy",
+        "weight": 0
+      },
+      {
+        "text": "70s soul horn section, celebratory riffs",
+        "weight": 0
+      },
+      {
+        "text": "roller-disco boogie with talkbox-like synth lead",
+        "weight": 0
+      },
+      {
+        "text": "tropical house marimba and steel drums, sunny and light",
+        "weight": 0
+      },
+      {
+        "text": "city pop groove, glossy chords, playful bass",
+        "weight": 0
+      },
+      {
+        "text": "deep house piano chords, late-night warmth",
+        "weight": 0
+      },
+      {
+        "text": "funky clavinet and wah guitar, party energy",
+        "weight": 0
+      },
+      {
+        "text": "synthwave pads and gated drums, neon night",
+        "weight": 0
+      },
+      {
+        "text": "Afro-disco percussion, congas and shakers, dancing in a circle",
+        "weight": 0
+      },
+      {
+        "text": "string disco break, soaring violins, pure joy",
+        "weight": 0
+      },
+      {
+        "text": "electro swing with brass and a bouncy beat",
+        "weight": 0
+      },
+      {
+        "text": "dreamy balearic groove, soft and sunny, cool-down",
+        "weight": 0
+      },
+      {
+        "text": "chiptune disco, playful 8-bit bleeps over a dance beat",
+        "weight": 0
+      },
+      {
+        "text": "gospel-house piano and claps, uplifting, everyone joins in",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.75
+  },
   "title": "Дискотека",
   "camera": {
     "walk": {
