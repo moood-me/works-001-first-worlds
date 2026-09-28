@@ -23,8 +23,8 @@
       "drift": 0,
       "height": 0.04,
       "lights": 0,
-      "density": 0.3,
-      "roughness": 0.15
+      "density": 0.35,
+      "roughness": 0.22
     },
     {
       "y": 0.62,
@@ -43,8 +43,8 @@
       "drift": 0,
       "height": 0,
       "lights": 0,
-      "density": 0.4,
-      "roughness": 0.4
+      "density": 0.45,
+      "roughness": 0.5
     }
   ],
   "caption": "Степь молчит, фонарь горит, а перекати-поле катится в закат.",
@@ -56,7 +56,7 @@
       "flip": false,
       "kind": "tower",
       "size": 0.24,
-      "color": "#221a15",
+      "color": "#3a2b1f",
       "light": null
     },
     {
@@ -66,7 +66,7 @@
       "flip": false,
       "kind": "house",
       "size": 0.16,
-      "color": "#1c1510",
+      "color": "#241a12",
       "light": null
     },
     {
@@ -115,8 +115,8 @@
       "id": "e81d17263",
       "flip": false,
       "kind": "house",
-      "size": 0.1,
-      "color": "#1c1510",
+      "size": 0.11,
+      "color": "#2e2116",
       "light": null
     },
     {
@@ -125,8 +125,8 @@
       "id": "e8c3582c1",
       "flip": true,
       "kind": "house",
-      "size": 0.08,
-      "color": "#221a15",
+      "size": 0.07,
+      "color": "#362a1e",
       "light": null
     },
     {
@@ -146,7 +146,7 @@
       "flip": false,
       "kind": "rock",
       "size": 0.03,
-      "color": "#5c4530",
+      "color": "#6b6255",
       "light": null
     },
     {
@@ -156,16 +156,36 @@
       "flip": false,
       "kind": "rock",
       "size": 0.04,
-      "color": "#5c4530",
+      "color": "#4a3c2c",
+      "light": null
+    },
+    {
+      "x": 0.25,
+      "y": 0.775,
+      "id": "e31c3be69",
+      "flip": false,
+      "kind": "flower",
+      "size": 0.02,
+      "color": "#8a7a52",
       "light": null
     },
     {
       "x": 0.85,
       "y": 0.4,
-      "id": "e31c3be69",
+      "id": "ebb201a1b",
       "flip": true,
       "kind": "bird",
       "size": 0.02,
+      "color": "#1c1510",
+      "light": null
+    },
+    {
+      "x": 0.89,
+      "y": 0.37,
+      "id": "e8b3038ed",
+      "flip": true,
+      "kind": "bird",
+      "size": 0.016,
       "color": "#1c1510",
       "light": null
     }
@@ -176,6 +196,12 @@
       "wind": 0.75,
       "color": "#cba876",
       "density": 0.55
+    },
+    {
+      "kind": "embers",
+      "wind": 0.2,
+      "color": "#ff9d4d",
+      "density": 0.25
     }
   ],
   "celestials": [
