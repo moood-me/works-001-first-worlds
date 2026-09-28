@@ -1,0 +1,102 @@
+{
+  "sky": {
+    "top": "#080d1f",
+    "bottom": "#28395c",
+    "middle": "#141f3d"
+  },
+  "light": {
+    "tint": "#1b2a4a",
+    "grain": 0.18,
+    "vignette": 0.45,
+    "tintStrength": 0.15
+  },
+  "stars": {
+    "color": "#ffffff",
+    "density": 0.6
+  },
+  "title": "Ночное озеро",
+  "layers": [
+    {
+      "y": 0.5,
+      "kind": "mountains",
+      "color": "#3a4a6d",
+      "drift": 0,
+      "height": 0.12,
+      "lights": 0,
+      "density": 0.4,
+      "roughness": 0.3
+    },
+    {
+      "y": 0.6,
+      "kind": "forest",
+      "color": "#1a2438",
+      "drift": 0,
+      "height": 0.18,
+      "lights": 0.03,
+      "density": 0.7,
+      "roughness": 0.6
+    },
+    {
+      "y": 0.7,
+      "kind": "water",
+      "color": "#132140",
+      "drift": 0.15,
+      "height": 0,
+      "lights": 0,
+      "density": 0,
+      "roughness": 0.1
+    }
+  ],
+  "caption": "Тихий огонёк качается над тёмной водой.",
+  "objects": [
+    {
+      "x": 0.5,
+      "y": 0.7,
+      "id": "ea8e8c0b8",
+      "flip": false,
+      "kind": "bridge",
+      "size": 0.14,
+      "color": "#0f1728",
+      "light": null
+    },
+    {
+      "x": 0.5,
+      "y": 0.685,
+      "id": "e8e6438eb",
+      "flip": false,
+      "kind": "figure",
+      "pose": "sit",
+      "size": 0.05,
+      "color": "#0b1220",
+      "light": "#ffd27a"
+    },
+    {
+      "x": 0.52,
+      "y": 0.685,
+      "id": "ea1502dda",
+      "flip": false,
+      "kind": "lantern",
+      "size": 0.02,
+      "color": "#2a2010",
+      "light": "#ffd27a"
+    }
+  ],
+  "particles": [
+    {
+      "kind": "fireflies",
+      "wind": 0.1,
+      "color": "#ffd27a",
+      "density": 0.2
+    }
+  ],
+  "celestials": [
+    {
+      "x": 0.78,
+      "y": 0.16,
+      "glow": 0.8,
+      "kind": "moon",
+      "size": 0.07,
+      "color": "#e8eef7"
+    }
+  ]
+}
