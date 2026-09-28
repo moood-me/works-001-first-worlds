@@ -1,0 +1,183 @@
+{
+  "sky": {
+    "top": "#1a212e",
+    "bottom": "#7e8693",
+    "middle": "#374255"
+  },
+  "light": {
+    "haze": 0.45,
+    "tint": "#6a7a9a",
+    "grain": 0.35,
+    "vignette": 0.6,
+    "hazeColor": "#7e8693",
+    "tintStrength": 0.12
+  },
+  "stars": {
+    "color": "#d8dde8",
+    "density": 0.28
+  },
+  "title": "Надежда",
+  "camera": {
+    "walk": {
+      "back": 3,
+      "side": 4,
+      "forward": 6
+    }
+  },
+  "layers": [
+    {
+      "y": 0.3,
+      "kind": "clouds",
+      "color": "#434d5e",
+      "drift": 0.04,
+      "height": 0.08,
+      "density": 0.18,
+      "roughness": 0.6
+    },
+    {
+      "y": 0.558,
+      "kind": "mountains",
+      "color": "#5d6777",
+      "height": 0.11,
+      "density": 0.5,
+      "roughness": 0.6
+    },
+    {
+      "y": 0.566,
+      "kind": "forest",
+      "color": "#2e3744",
+      "height": 0.045,
+      "lights": 0,
+      "density": 0.7,
+      "roughness": 0.5
+    },
+    {
+      "y": 0.566,
+      "kind": "water",
+      "color": "#394455",
+      "drift": 0.04,
+      "height": 0,
+      "density": 0.5,
+      "glitter": 0.7,
+      "roughness": 0.2
+    },
+    {
+      "y": 0.565,
+      "kind": "fog",
+      "color": "#8a929d",
+      "drift": 0.03,
+      "height": 0.05,
+      "density": 0.45,
+      "roughness": 0.4
+    },
+    {
+      "y": 0.67,
+      "kind": "fog",
+      "color": "#6c7685",
+      "drift": -0.02,
+      "height": 0.035,
+      "density": 0.3,
+      "roughness": 0.5
+    }
+  ],
+  "caption": "Hope",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "x": 0.7,
+      "y": 0.567,
+      "id": "ee070e573",
+      "box": [
+        -9,
+        -11,
+        9,
+        1
+      ],
+      "kind": "custom",
+      "name": "Дом на том берегу",
+      "color": "#252c37",
+      "height": 5,
+      "period": 30,
+      "flicker": 0.25,
+      "reflect": true,
+      "elevation": 0
+    },
+    {
+      "x": 0.4,
+      "id": "e5da580dd",
+      "box": [
+        -15.5,
+        -1.9,
+        0.7,
+        0.3
+      ],
+      "kind": "custom",
+      "name": "Старая пристань и девочка",
+      "color": "#1b2029",
+      "height": 1.8,
+      "period": 60,
+      "reflect": true,
+      "distance": 10,
+      "elevation": 0
+    },
+    {
+      "x": 0.93,
+      "y": 0.99,
+      "id": "e338371a3",
+      "box": [
+        -0.9,
+        -1.8,
+        0.9,
+        0.1
+      ],
+      "kind": "custom",
+      "name": "Камыш",
+      "sway": 1.5,
+      "color": "#151a21",
+      "height": 1.7,
+      "period": 40,
+      "reflect": true,
+      "elevation": 0
+    }
+  ],
+  "captions": [
+    {
+      "at": 4,
+      "for": 8,
+      "text": "Каждый вечер она приходит на старую пристань."
+    },
+    {
+      "at": 14,
+      "for": 7,
+      "text": "Считает огни на том берегу."
+    },
+    {
+      "at": 23,
+      "for": 7,
+      "text": "Сегодня — один."
+    },
+    {
+      "at": 32,
+      "for": 10,
+      "text": "Значит, кто-то ещё не спит."
+    }
+  ],
+  "particles": [
+    {
+      "kind": "dust",
+      "wind": 0.05,
+      "color": "#c8ccd6",
+      "density": 0.12
+    }
+  ],
+  "celestials": [
+    {
+      "x": 0.8,
+      "y": 0.2,
+      "glow": 0.5,
+      "kind": "moon",
+      "size": 0.045,
+      "color": "#dedcd0"
+    }
+  ]
+}
