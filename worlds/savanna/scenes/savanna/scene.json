@@ -7,6 +7,27 @@
     "hazeColor": "#e8d2a4",
     "tintStrength": 0.1
   },
+  "music": {
+    "bpm": 84,
+    "prompts": [
+      {
+        "text": "slow African kora and soft hand percussion, warm evening, spacious",
+        "weight": 1
+      },
+      {
+        "text": "ambient pads with distant wind, dusty savanna heat haze",
+        "weight": 0.6
+      },
+      {
+        "text": "minimal marimba ostinato",
+        "weight": 0
+      },
+      {
+        "text": "cinematic strings, wide and slow",
+        "weight": 0
+      }
+    ]
+  },
   "title": "Саванна",
   "camera": {
     "walk": {
