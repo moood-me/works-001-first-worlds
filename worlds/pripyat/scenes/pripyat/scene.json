@@ -7,6 +7,85 @@
     "hazeColor": "#b8bcb2",
     "tintStrength": 0.12
   },
+  "music": {
+    "bpm": 60,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "abandoned city ambient, cold wind drone, rusty creaks, deep melancholy",
+        "weight": 1
+      },
+      {
+        "text": "detuned upright piano in an empty school hall, slow and broken",
+        "weight": 0.5
+      },
+      {
+        "text": "distant Soviet-era waltz on a warped record, barely audible",
+        "weight": 0.3
+      },
+      {
+        "text": "low Geiger-like clicks woven into a slow rhythmic texture",
+        "weight": 0
+      },
+      {
+        "text": "creaking ferris wheel metal turned into a slow haunting melody",
+        "weight": 0
+      },
+      {
+        "text": "bowed strings, long dissonant notes resolving very slowly",
+        "weight": 0
+      },
+      {
+        "text": "children's song on a music box, slowing down and stopping",
+        "weight": 0
+      },
+      {
+        "text": "dark ambient drone with crows far away, overcast sky",
+        "weight": 0
+      },
+      {
+        "text": "solo trumpet elegy, far off, echoing between empty blocks",
+        "weight": 0
+      },
+      {
+        "text": "Slavic women's choir, sorrowful folk lament, distant",
+        "weight": 0
+      },
+      {
+        "text": "tape loops of old radio broadcasts dissolving into noise",
+        "weight": 0
+      },
+      {
+        "text": "glass and metal wind chimes, sparse, in the ruins",
+        "weight": 0
+      },
+      {
+        "text": "slow post-industrial percussion, hollow and reverberant",
+        "weight": 0
+      },
+      {
+        "text": "Johann Johannsson style minimal strings and electronics, grief and beauty",
+        "weight": 0
+      },
+      {
+        "text": "falling leaves: soft granular piano grains drifting down",
+        "weight": 0
+      },
+      {
+        "text": "organ drone in a cold empty hall, subdued and grave",
+        "weight": 0
+      },
+      {
+        "text": "birch forest wind turned into a gentle synth wash, life returning",
+        "weight": 0
+      },
+      {
+        "text": "lonely accordion, slow, a memory of May Day",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.25
+  },
   "title": "Припять",
   "caption": "Здесь теперь живут только ветер и деревья.",
   "horizon": 0.6,
