@@ -7,6 +7,85 @@
     "hazeColor": "#7c86a6",
     "tintStrength": 0.12
   },
+  "music": {
+    "bpm": 64,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "solo felt piano, soft and hesitant, night by a lake, waiting for someone",
+        "weight": 1
+      },
+      {
+        "text": "warm glowing pad like lantern light on dark water, slow breathing swells",
+        "weight": 0.6
+      },
+      {
+        "text": "distant cello, one long sad phrase with hope at the end",
+        "weight": 0.3
+      },
+      {
+        "text": "music box melody, slightly out of tune, a childhood lullaby",
+        "weight": 0
+      },
+      {
+        "text": "gentle harp arpeggios like ripples reaching the shore",
+        "weight": 0
+      },
+      {
+        "text": "breathy wordless female hum, far away across the water",
+        "weight": 0
+      },
+      {
+        "text": "soft granular textures of night crickets and reeds, ambient",
+        "weight": 0
+      },
+      {
+        "text": "glass harmonica tones, fragile and shimmering like fireflies",
+        "weight": 0
+      },
+      {
+        "text": "Joe Hisaishi style bittersweet strings, tender and cinematic",
+        "weight": 0
+      },
+      {
+        "text": "slow nylon-string guitar, quiet lakeside ballad",
+        "weight": 0
+      },
+      {
+        "text": "low clarinet melody, warm and melancholic, folk lullaby",
+        "weight": 0
+      },
+      {
+        "text": "celesta twinkles over a deep drone, starry night",
+        "weight": 0
+      },
+      {
+        "text": "heartbeat-slow kick under ambient pads, patient and steady",
+        "weight": 0
+      },
+      {
+        "text": "distant foghorn-like brass swells, lonely harbour at night",
+        "weight": 0
+      },
+      {
+        "text": "kalimba notes dropping one by one like the first stars",
+        "weight": 0
+      },
+      {
+        "text": "string quartet, pianissimo, a hymn for someone who is late",
+        "weight": 0
+      },
+      {
+        "text": "Nordic folk fiddle, slow and mournful, lake mist",
+        "weight": 0
+      },
+      {
+        "text": "modular synth sequence at a whisper, a lantern swinging",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
   "title": "Надежда · Hope",
   "camera": {
     "walk": {
