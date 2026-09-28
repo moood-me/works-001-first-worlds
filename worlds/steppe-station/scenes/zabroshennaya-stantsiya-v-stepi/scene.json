@@ -1,217 +1,345 @@
 {
-  "sky": {
-    "top": "#2b2038",
-    "bottom": "#f4a35d",
-    "middle": "#c9622f"
-  },
   "light": {
+    "haze": 0.3,
     "tint": "#ff8c42",
-    "grain": 0.3,
-    "vignette": 0.35,
-    "tintStrength": 0.25
-  },
-  "stars": {
-    "color": "#f5e6c8",
-    "density": 0.12
+    "grain": 0.28,
+    "vignette": 0.4,
+    "hazeColor": "#dca070",
+    "tintStrength": 0.22
   },
   "title": "Заброшенная станция в степи",
-  "layers": [
-    {
-      "y": 0.6,
-      "kind": "hills",
-      "color": "#a9765a",
-      "drift": 0,
-      "height": 0.04,
-      "lights": 0,
-      "density": 0.35,
-      "roughness": 0.22
-    },
-    {
-      "y": 0.62,
-      "kind": "fog",
-      "color": "#e8b38a",
-      "drift": 0.25,
-      "height": 0.05,
-      "lights": 0,
-      "density": 0.3,
-      "roughness": 0.3
-    },
-    {
-      "y": 0.68,
-      "kind": "ground",
-      "color": "#4a3a26",
-      "drift": 0,
-      "height": 0,
-      "lights": 0,
-      "density": 0.45,
-      "roughness": 0.5
+  "camera": {
+    "walk": {
+      "back": 4,
+      "side": 4,
+      "forward": 8
     }
-  ],
+  },
   "caption": "Степь молчит, фонарь горит, а перекати-поле катится в закат.",
+  "horizon": 0.64,
   "objects": [
+    {
+      "id": "ec7a42270",
+      "sky": true,
+      "name": "Небо"
+    },
+    {
+      "id": "e99562055",
+      "sky": true,
+      "name": "Солнце"
+    },
+    {
+      "id": "e393389b6",
+      "sky": true,
+      "name": "Облака"
+    },
+    {
+      "id": "e2e11911b",
+      "sky": true,
+      "name": "Птица"
+    },
+    {
+      "id": "e1f696e59",
+      "sky": true,
+      "name": "Вторая птица"
+    },
+    {
+      "id": "e3ce45541",
+      "sky": true,
+      "name": "Дальние холмы",
+      "color": "#a9765a"
+    },
+    {
+      "id": "ee90d3f22",
+      "sky": true,
+      "name": "Увалы",
+      "color": "#7e5646"
+    },
+    {
+      "x": 0.5,
+      "id": "e78b65ae4",
+      "box": [
+        -1750,
+        -27,
+        1750,
+        4
+      ],
+      "name": "Марево над степью",
+      "color": "#ecb282",
+      "height": 24,
+      "distance": 600
+    },
+    {
+      "x": 0.5,
+      "id": "e1ca58b41",
+      "box": [
+        -170,
+        -1.9,
+        170,
+        80
+      ],
+      "name": "Степь",
+      "color": "#4a3a26",
+      "height": 2,
+      "distance": 80
+    },
+    {
+      "x": 0.5,
+      "id": "e3382feae",
+      "box": [
+        -170,
+        -2.2,
+        170,
+        4
+      ],
+      "name": "Блики на рельсах",
+      "color": "#ffe6b0",
+      "height": 1,
+      "distance": 79
+    },
     {
       "x": 0.7,
       "y": 0.68,
-      "id": "eadebbb4c",
-      "flip": false,
-      "kind": "tower",
-      "size": 0.24,
+      "id": "e3b8fbef9",
+      "box": [
+        -13,
+        -12.6,
+        6.3,
+        1.4
+      ],
+      "name": "Водонапорная башня",
       "color": "#3a2b1f",
-      "light": null
+      "height": 12
     },
     {
       "x": 0.33,
       "y": 0.7,
-      "id": "e78e89b4d",
-      "flip": false,
-      "kind": "house",
-      "size": 0.16,
+      "id": "eb2c01244",
+      "box": [
+        -13,
+        -5.8,
+        5.6,
+        1.3
+      ],
+      "name": "Здание станции",
       "color": "#241a12",
-      "light": null
+      "height": 5.2,
+      "flicker": 0.3
     },
     {
-      "x": 0.335,
-      "y": 0.665,
-      "id": "ee41fec56",
-      "flip": false,
-      "kind": "window",
-      "size": 0.02,
-      "color": "#1c1510",
-      "light": "#5a3a22"
+      "x": 0.5,
+      "y": 0.705,
+      "id": "e86ec8b64",
+      "box": [
+        -27,
+        -1.2,
+        27.5,
+        0.4
+      ],
+      "name": "Далёкое перекати-поле",
+      "color": "#876c48",
+      "height": 0.55
+    },
+    {
+      "x": 0.58,
+      "y": 0.705,
+      "id": "e51e257cd",
+      "box": [
+        -5,
+        -2.8,
+        2.6,
+        0.9
+      ],
+      "name": "Ржавая цистерна",
+      "color": "#4a2e20",
+      "height": 2.3
     },
     {
       "x": 0.285,
       "y": 0.715,
-      "id": "e5628a737",
-      "flip": false,
-      "kind": "campfire",
-      "size": 0.045,
+      "id": "e7c7cb5ca",
+      "box": [
+        -1.9,
+        -8,
+        6.4,
+        0.8
+      ],
+      "name": "Костёр",
       "color": "#1a1310",
-      "light": "#ff7a33"
+      "height": 1.2,
+      "flicker": 0.5
     },
     {
       "x": 0.54,
       "y": 0.72,
-      "id": "eafc4c8b4",
-      "flip": false,
-      "kind": "lamp",
-      "size": 0.15,
+      "id": "eca147e3f",
+      "box": [
+        -4.1,
+        -4.9,
+        2.1,
+        1.4
+      ],
+      "name": "Фонарь",
       "color": "#151210",
-      "light": "#ffcf8a"
+      "height": 4.6,
+      "flicker": 0.15
     },
     {
       "x": 0.5,
       "y": 0.735,
-      "id": "ea5ae52ca",
-      "flip": false,
-      "kind": "bench",
-      "size": 0.045,
+      "id": "e7590464b",
+      "box": [
+        -2.9,
+        -1.1,
+        1.2,
+        0.75
+      ],
+      "name": "Скамейка",
       "color": "#181310",
-      "light": null
+      "height": 0.95
     },
     {
       "x": 0.12,
       "y": 0.735,
-      "id": "e81d17263",
-      "flip": false,
-      "kind": "house",
-      "size": 0.11,
-      "color": "#2e2116",
-      "light": null
+      "id": "eac3c22eb",
+      "box": [
+        -5,
+        -2.8,
+        2.2,
+        0.85
+      ],
+      "name": "Старый сарай",
+      "color": "#5a4c3e",
+      "height": 2.5
     },
     {
-      "x": 0.6,
-      "y": 0.705,
-      "id": "e8c3582c1",
-      "flip": true,
-      "kind": "house",
-      "size": 0.07,
-      "color": "#362a1e",
-      "light": null
+      "x": 0.5,
+      "y": 0.75,
+      "id": "e57b91104",
+      "box": [
+        -20,
+        -1.4,
+        20,
+        0.4
+      ],
+      "name": "Перекати-поле",
+      "color": "#8a6e48",
+      "height": 0.75
     },
     {
       "x": 0.18,
       "y": 0.76,
-      "id": "ea9afef13",
-      "flip": false,
-      "kind": "rock",
-      "size": 0.035,
+      "id": "ed0819e95",
+      "box": [
+        -1.8,
+        -0.7,
+        0.8,
+        0.35
+      ],
+      "name": "Валун",
       "color": "#5c4530",
-      "light": null
-    },
-    {
-      "x": 0.44,
-      "y": 0.79,
-      "id": "eef24bf76",
-      "flip": false,
-      "kind": "rock",
-      "size": 0.03,
-      "color": "#6b6255",
-      "light": null
-    },
-    {
-      "x": 0.85,
-      "y": 0.82,
-      "id": "ebe76c892",
-      "flip": false,
-      "kind": "rock",
-      "size": 0.04,
-      "color": "#4a3c2c",
-      "light": null
+      "height": 0.55
     },
     {
       "x": 0.25,
       "y": 0.775,
-      "id": "e31c3be69",
-      "flip": false,
-      "kind": "flower",
-      "size": 0.02,
+      "id": "e57bbb589",
+      "box": [
+        -0.8,
+        -0.9,
+        1,
+        0.1
+      ],
+      "name": "Сухая трава",
       "color": "#8a7a52",
-      "light": null
+      "height": 0.7
+    },
+    {
+      "x": 0.44,
+      "y": 0.79,
+      "id": "e5655b99e",
+      "box": [
+        -1.6,
+        -0.5,
+        1,
+        0.3
+      ],
+      "name": "Плоский камень",
+      "color": "#6b6255",
+      "height": 0.35
+    },
+    {
+      "x": 0.5,
+      "y": 0.8,
+      "id": "e3d6546d4",
+      "box": [
+        -12.5,
+        -1.1,
+        12.5,
+        0.3
+      ],
+      "name": "Маленькое перекати-поле",
+      "color": "#967650",
+      "height": 0.5
     },
     {
       "x": 0.85,
-      "y": 0.4,
-      "id": "ebb201a1b",
-      "flip": true,
-      "kind": "bird",
-      "size": 0.02,
-      "color": "#1c1510",
-      "light": null
+      "y": 0.82,
+      "id": "e7ea58e3c",
+      "box": [
+        -1.7,
+        -0.55,
+        1,
+        0.25
+      ],
+      "name": "Камни",
+      "color": "#4a3c2c",
+      "height": 0.5
     },
     {
-      "x": 0.89,
-      "y": 0.37,
-      "id": "e8b3038ed",
-      "flip": true,
-      "kind": "bird",
-      "size": 0.016,
-      "color": "#1c1510",
-      "light": null
-    }
-  ],
-  "particles": [
-    {
-      "kind": "dust",
-      "wind": 0.75,
+      "x": 0.5,
+      "id": "eedca57e7",
+      "box": [
+        -24,
+        -5,
+        24,
+        0.4
+      ],
+      "name": "Пыль на ветру",
       "color": "#cba876",
-      "density": 0.55
+      "height": 5,
+      "distance": 7
     },
     {
-      "kind": "embers",
-      "wind": 0.2,
-      "color": "#ff9d4d",
-      "density": 0.25
+      "x": 0.93,
+      "y": 0.97,
+      "id": "ed0d1ea34",
+      "box": [
+        -1.2,
+        -1.3,
+        1.7,
+        0.1
+      ],
+      "name": "Ковыль",
+      "color": "#d8b989",
+      "height": 1
     }
   ],
-  "celestials": [
+  "captions": [
     {
-      "x": 0.76,
-      "y": 0.63,
-      "glow": 0.8,
-      "kind": "sun",
-      "size": 0.09,
-      "color": "#ffb15c"
+      "at": 5,
+      "for": 8,
+      "text": "Последний поезд прошёл здесь так давно, что рельсы забыли его вес."
+    },
+    {
+      "at": 17,
+      "for": 8,
+      "text": "Ветер пересчитывает шпалы и каждый раз сбивается."
+    },
+    {
+      "at": 29,
+      "for": 9,
+      "text": "А фонарь всё равно зажигается — по привычке."
     }
   ]
 }
