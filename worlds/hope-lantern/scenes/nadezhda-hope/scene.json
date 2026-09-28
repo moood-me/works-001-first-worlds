@@ -1,20 +1,11 @@
 {
-  "sky": {
-    "top": "#1a2040",
-    "bottom": "#948ca6",
-    "middle": "#3a4368"
-  },
   "light": {
-    "haze": 0.45,
+    "haze": 0.38,
     "tint": "#2a3050",
     "grain": 0.35,
     "vignette": 0.55,
     "hazeColor": "#7c86a6",
     "tintStrength": 0.12
-  },
-  "stars": {
-    "color": "#dfe3f2",
-    "density": 0.3
   },
   "title": "Надежда · Hope",
   "camera": {
@@ -24,58 +15,104 @@
       "forward": 6
     }
   },
-  "layers": [
-    {
-      "y": 0.522,
-      "kind": "mountains",
-      "color": "#4a5376",
-      "height": 0.1,
-      "density": 0.55,
-      "roughness": 0.6
-    },
-    {
-      "y": 0.527,
-      "kind": "forest",
-      "color": "#2f3854",
-      "height": 0.05,
-      "lights": 0,
-      "density": 0.85,
-      "roughness": 0.65
-    },
-    {
-      "y": 0.53,
-      "kind": "water",
-      "color": "#2b3452",
-      "drift": 0.05,
-      "glitter": 0.9
-    },
-    {
-      "y": 0.525,
-      "kind": "fog",
-      "color": "#8c96b4",
-      "drift": 0.12,
-      "height": 0.045,
-      "density": 0.5
-    }
-  ],
   "caption": "Фонарь горит, пока кто-то ждёт.",
   "horizon": 0.52,
   "objects": [
     {
+      "id": "ece0ffebc",
+      "sky": true,
+      "name": "небо"
+    },
+    {
+      "id": "e1f25a150",
+      "sky": true,
+      "name": "звёзды"
+    },
+    {
+      "id": "e7b7e2722",
+      "sky": true,
+      "name": "луна"
+    },
+    {
+      "id": "e31810071",
+      "sky": true,
+      "name": "облака"
+    },
+    {
+      "id": "ea13cae94",
+      "sky": true,
+      "name": "озеро"
+    },
+    {
+      "x": 0.5,
+      "id": "e14f2d3dd",
+      "box": [
+        -1300,
+        -36,
+        1300,
+        3
+      ],
+      "name": "дальние холмы",
+      "color": "#353d5e",
+      "height": 32,
+      "reflect": true,
+      "distance": 900
+    },
+    {
+      "x": 0.5,
+      "id": "e5c8764e3",
+      "box": [
+        -900,
+        -32,
+        900,
+        3
+      ],
+      "name": "лес на том берегу",
+      "color": "#2f3854",
+      "height": 28,
+      "reflect": true,
+      "distance": 520
+    },
+    {
+      "x": 0.5,
+      "id": "e57c0f0ef",
+      "box": [
+        -800,
+        -10,
+        800,
+        4
+      ],
+      "name": "туман над водой",
+      "color": "#8c96b4",
+      "height": 12,
+      "distance": 300
+    },
+    {
+      "x": 0.56,
+      "id": "e3c40e97f",
+      "box": [
+        -14,
+        -0.1,
+        1.5,
+        1.8
+      ],
+      "name": "блики и рябь у причала",
+      "color": "#ffae62",
+      "height": 1.8,
+      "distance": 9.05
+    },
+    {
       "x": 0.56,
       "id": "eb713bcf4",
       "box": [
-        -13.2,
-        -1.3,
+        -13.3,
+        -1.45,
         0.3,
-        0.1
+        0.12
       ],
-      "kind": "custom",
       "name": "старый причал",
       "color": "#151926",
-      "frames": 6,
       "height": 1.1,
-      "period": 12,
       "reflect": true,
       "distance": 9,
       "elevation": 0
@@ -89,16 +126,28 @@
         0.6,
         0.5
       ],
-      "kind": "custom",
       "name": "девочка с фонарём",
       "color": "#141826",
-      "frames": 12,
       "height": 0.75,
-      "period": 14,
       "flicker": 0.35,
       "reflect": true,
       "distance": 8.95,
       "elevation": 1
+    },
+    {
+      "x": 0.7,
+      "id": "e077ffa07",
+      "box": [
+        -6,
+        -3,
+        6,
+        0.3
+      ],
+      "name": "светлячки",
+      "color": "#ffcf8a",
+      "height": 2.5,
+      "reflect": true,
+      "distance": 7
     },
     {
       "x": 0.9,
@@ -109,9 +158,7 @@
         1.2,
         0.2
       ],
-      "kind": "custom",
       "name": "камыши",
-      "sway": 2.5,
       "color": "#10131d",
       "height": 1.7,
       "reflect": true,
@@ -143,24 +190,6 @@
     {
       "at": 36,
       "text": "Но фонарь горит."
-    }
-  ],
-  "particles": [
-    {
-      "kind": "fireflies",
-      "wind": 0.05,
-      "color": "#ffcf8a",
-      "density": 0.05
-    }
-  ],
-  "celestials": [
-    {
-      "x": 0.74,
-      "y": 0.3,
-      "glow": 0.55,
-      "kind": "moon",
-      "size": 0.045,
-      "color": "#efe4cc"
     }
   ]
 }

@@ -1,9 +1,9 @@
-var p = e.phase * 6.2832,
-  b = 0.008 * Math.sin(p) + 0.004 * Math.sin(2 * p + 1);
+var t = e.t,
+  b = 0.008 * Math.sin(t * 0.9) + 0.004 * Math.sin(t * 1.93 + 1);
 var C = "#141826";
 g.lineCap = "round";
 g.lineJoin = "round";
-var a2 = 0.1 * Math.sin(p + 1.9) + 0.03 * Math.sin(3 * p);
+var a2 = 0.1 * Math.sin(t * 0.41 + 1.9) + 0.03 * Math.sin(t * 1.17);
 var gx = -0.03 + Math.sin(a2) * 0.4,
   gy = -0.05 + Math.cos(a2) * 0.4;
 g.strokeStyle = "#0f121c";
@@ -26,7 +26,7 @@ g.lineTo(0.03, -0.12);
 g.quadraticCurveTo(0.06, -0.06, 0.02, 0);
 g.closePath();
 g.fill();
-var a1 = 0.13 * Math.sin(p) + 0.04 * Math.sin(2 * p + 0.7);
+var a1 = 0.13 * Math.sin(t * 0.47) + 0.04 * Math.sin(t * 1.29 + 0.7);
 var fx = 0.01 + Math.sin(a1) * 0.41,
   fy = -0.05 + Math.cos(a1) * 0.41;
 g.strokeStyle = C;
@@ -39,13 +39,14 @@ g.fillStyle = C;
 g.beginPath();
 g.ellipse(fx + 0.04, fy + 0.01, 0.075, 0.04, 0, 0, 6.2832);
 g.fill();
-var hx = -0.1,
-  hy = -0.62 + b * 1.3;
+var nod = 0.006 * Math.sin(t * 0.23 + 2) + 0.003 * Math.sin(t * 0.61);
+var hx = -0.1 + nod * 0.5,
+  hy = -0.62 + b * 1.3 + nod;
 g.fillRect(-0.18, -0.57 + b, 0.07, 0.09);
 g.beginPath();
 g.arc(hx, hy, 0.095, 0, 6.2832);
 g.fill();
-var hw = 0.012 * Math.sin(p * 2 + 0.5) + 0.008 * Math.sin(p * 3);
+var hw = 0.012 * Math.sin(t * 0.83 + 0.5) + 0.008 * Math.sin(t * 1.37);
 g.fillStyle = "#10131e";
 g.beginPath();
 g.moveTo(hx + 0.05, hy - 0.09);
@@ -54,7 +55,7 @@ g.quadraticCurveTo(hx - 0.1, hy + 0.21, hx - 0.05, hy + 0.08);
 g.quadraticCurveTo(hx + 0.02, hy - 0.02, hx + 0.08, hy - 0.05);
 g.closePath();
 g.fill();
-var f = 0.03 * Math.sin(p * 2 + 0.5) + 0.02 * Math.sin(p * 3);
+var f = 0.03 * Math.sin(t * 0.71 + 0.5) + 0.02 * Math.sin(t * 1.53);
 g.fillStyle = "#6e3a42";
 g.beginPath();
 g.ellipse(-0.18, -0.52 + b, 0.085, 0.045, 0.2, 0, 6.2832);
@@ -82,10 +83,11 @@ g.moveTo(-0.25, -0.5 + b);
 g.lineTo(-0.13, -0.47 + b);
 g.stroke();
 var lx = -0.72,
-  ly = -0.12;
+  ly = -0.12,
+  fl = 0.86 + 0.09 * Math.sin(t * 7.3) + 0.05 * Math.sin(t * 12.7);
 g.globalCompositeOperation = "source-atop";
 var rg = g.createRadialGradient(lx, ly, 0, lx, ly, 0.9);
-rg.addColorStop(0, "rgba(255,170,90,0.55)");
+rg.addColorStop(0, "rgba(255,170,90," + 0.55 * fl + ")");
 rg.addColorStop(1, "rgba(255,170,90,0)");
 g.fillStyle = rg;
 g.fillRect(-1.2, -1, 1.8, 1.6);
@@ -98,12 +100,24 @@ gl.addColorStop(0.5, "#ffb865");
 gl.addColorStop(1, "#b8672e");
 g.fillStyle = gl;
 g.fillRect(lx - 0.055, -0.2, 0.11, 0.17);
+var fh = 0.05 + 0.008 * Math.sin(t * 9.1) + 0.005 * Math.sin(t * 13.7),
+  fw = 0.004 * Math.sin(t * 6.3);
+g.fillStyle = "rgba(255,250,225,0.95)";
+g.beginPath();
+g.moveTo(lx - 0.012, -0.07);
+g.quadraticCurveTo(lx - 0.014 + fw, -0.07 - fh * 0.6, lx + fw * 2, -0.07 - fh);
+g.quadraticCurveTo(lx + 0.014 + fw, -0.07 - fh * 0.6, lx + 0.012, -0.07);
+g.closePath();
+g.fill();
 g.strokeStyle = "#1a1d28";
 g.lineWidth = 0.012;
 g.strokeRect(lx - 0.055, -0.2, 0.11, 0.17);
+g.lineWidth = 0.007;
 g.beginPath();
-g.moveTo(lx, -0.2);
-g.lineTo(lx, -0.03);
+g.moveTo(lx - 0.03, -0.2);
+g.lineTo(lx - 0.03, -0.03);
+g.moveTo(lx + 0.03, -0.2);
+g.lineTo(lx + 0.03, -0.03);
 g.stroke();
 g.fillStyle = "#1a1d28";
 g.beginPath();
