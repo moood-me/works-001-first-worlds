@@ -7,6 +7,85 @@
     "hazeColor": "#dca070",
     "tintStrength": 0.22
   },
+  "music": {
+    "bpm": 72,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "lonely slide guitar over a slow dusty drone, desert sunset, wide open space",
+        "weight": 1
+      },
+      {
+        "text": "distant harmonica, sparse and breathy, echoing across an empty plain",
+        "weight": 0.5
+      },
+      {
+        "text": "low wind-like synth pad, warm tape hiss, the hum of an old power line",
+        "weight": 0.35
+      },
+      {
+        "text": "Ennio Morricone style spaghetti western whistle, faraway and slow",
+        "weight": 0
+      },
+      {
+        "text": "fingerpicked baritone acoustic guitar, patient, like a walk along rails",
+        "weight": 0
+      },
+      {
+        "text": "rusty metallic percussion, creaking wood and distant clanks, slow ritual rhythm",
+        "weight": 0
+      },
+      {
+        "text": "steppe throat singing drone, deep overtone hum, no words",
+        "weight": 0
+      },
+      {
+        "text": "dombra plucked melody from the Kazakh steppe, gentle and nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "train-rhythm brushed snare, like wheels on joints, fading into silence",
+        "weight": 0
+      },
+      {
+        "text": "pedal steel guitar swells, golden hour, americana ambient",
+        "weight": 0
+      },
+      {
+        "text": "warm lo-fi tape loop of an old station radio, crackle and faint melody",
+        "weight": 0
+      },
+      {
+        "text": "bowed saw, eerie and tender, a ghost of a song",
+        "weight": 0
+      },
+      {
+        "text": "minimal piano notes falling like the last light, lots of space between them",
+        "weight": 0
+      },
+      {
+        "text": "slow shoegaze guitar wall, sunset haze, reverb for miles",
+        "weight": 0
+      },
+      {
+        "text": "accordion waltz heard from a far-off village, carried by the wind",
+        "weight": 0
+      },
+      {
+        "text": "deep sub-bass pulse like the ground remembering a train",
+        "weight": 0
+      },
+      {
+        "text": "tumbleweed shuffle: soft shakers and brushed percussion, loose and lazy",
+        "weight": 0
+      },
+      {
+        "text": "cinematic low strings, vast and quiet, the end of a long day",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.45
+  },
   "title": "Заброшенная станция в степи",
   "camera": {
     "walk": {
