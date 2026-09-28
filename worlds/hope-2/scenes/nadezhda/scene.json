@@ -7,6 +7,85 @@
     "hazeColor": "#4a5468",
     "tintStrength": 0.2
   },
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "empty lake under the moon, sparse piano, rings spreading on water, fragile hope",
+        "weight": 1
+      },
+      {
+        "text": "warm lantern-glow pad, slow and steady, a light that may not be there",
+        "weight": 0.5
+      },
+      {
+        "text": "pine wind drone, soft and cold, night mist",
+        "weight": 0.3
+      },
+      {
+        "text": "single cello line, searching and patient",
+        "weight": 0
+      },
+      {
+        "text": "glass marimba notes like drops falling into the lake",
+        "weight": 0
+      },
+      {
+        "text": "distant choir, one sustained chord, like faith",
+        "weight": 0
+      },
+      {
+        "text": "Harold Budd style soft piano over reverb clouds",
+        "weight": 0
+      },
+      {
+        "text": "slow fingerpicked guitar, walking toward a far window",
+        "weight": 0
+      },
+      {
+        "text": "deep subtle heartbeat pulse under ambient textures",
+        "weight": 0
+      },
+      {
+        "text": "kalimba and soft bells, counting circles on the water",
+        "weight": 0
+      },
+      {
+        "text": "breathy shakuhachi, lonely, over mist",
+        "weight": 0
+      },
+      {
+        "text": "slow string orchestra, bittersweet, the edge of tears",
+        "weight": 0
+      },
+      {
+        "text": "granular piano fragments drifting like fog",
+        "weight": 0
+      },
+      {
+        "text": "soft Rhodes and brushed cymbals, a quiet night walk",
+        "weight": 0
+      },
+      {
+        "text": "humming bowed metal, eerie and beautiful, moonlight",
+        "weight": 0
+      },
+      {
+        "text": "folk lullaby on a wooden flute, slow and soft",
+        "weight": 0
+      },
+      {
+        "text": "tape-degraded orchestral sample, a faded memory",
+        "weight": 0
+      },
+      {
+        "text": "warm major-key swell arriving at the end, a light in the window",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
   "title": "Надежда",
   "camera": {
     "walk": {
