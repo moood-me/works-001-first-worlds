@@ -1,5 +1,7 @@
 const k = e.state.krechet || 0;
 if (k <= 0.001 || k >= 0.999) return;
+g.scale(0.08, 0.08);
+const L = (lx, ly, r, c, a) => e.light(lx * 0.08, ly * 0.08, r * 0.08, c, a); // lights don't follow g.scale
 const x = -450 + 900 * k;
 g.save();
 g.translate(x, 0);
@@ -16,10 +18,10 @@ g.lineTo(-56, -10);
 g.closePath();
 g.fill();
 g.restore();
-e.light(x - 46, -7, 7, "#ff4a3c", 0.55);
-e.light(x + 4, -38, 6, "#fff6e0", 0.5);
-e.light(x + 34, -8, 4, "#ffd296", 0.35);
-e.light(x - 22, -8, 4, "#ffd296", 0.35);
+L(x - 46, -7, 7, "#ff4a3c", 0.55);
+L(x + 4, -38, 6, "#fff6e0", 0.5);
+L(x + 34, -8, 4, "#ffd296", 0.35);
+L(x - 22, -8, 4, "#ffd296", 0.35);
 for (let j = 1; j < 6; j++) {
   g.fillStyle = `rgba(255,90,70,${0.25 / j})`;
   g.fillRect(x - 50, 4 + j * 7, 8, 3);

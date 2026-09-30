@@ -1,6 +1,6 @@
 scene.on("change", "signal", (v) => {
   if (!v || !(scene.get("krechet") > 0)) return;
-  const his = String(v).includes("——"),
+  const his = (String(v).match(/—/g) || []).length >= 3,
     pat = his ? ["s", "s", "s", "l"] : ["s", "s"];
   let t = 4;
   for (const p of pat) {
