@@ -6,8 +6,8 @@ gr.addColorStop(0.75, "#1a2440");
 gr.addColorStop(1, "#0a0d18");
 g.fillStyle = gr;
 g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
-const mx = A * 0.225,
-  my = 0.2;
+const mx = A * 0.2,
+  my = 0.37;
 const m = g.createRadialGradient(mx, my, 0, mx, my, 0.16);
 m.addColorStop(0, "rgba(230,235,215,0.5)");
 m.addColorStop(0.15, "rgba(200,210,230,0.18)");
