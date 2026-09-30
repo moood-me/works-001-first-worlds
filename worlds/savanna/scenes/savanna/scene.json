@@ -13,7 +13,7 @@
     "prompts": [
       {
         "text": "slow African kora and soft hand percussion, warm savanna evening, spacious",
-        "weight": 1
+        "weight": 1.0
       },
       {
         "text": "ambient pads with distant wind, dusty heat haze, shimmering air",
@@ -25,63 +25,63 @@
       },
       {
         "text": "mbira patterns, hypnotic and gentle, golden hour",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "Ali Farka Touré style desert blues guitar, relaxed and hypnotic",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "balafon melody, bright wooden tones, lively but calm",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "distant wordless choir, warm and earthy, pan-African harmonies",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "talking drum calls echoing across the plain",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "ngoni plucked lines over a slow groove",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "cinematic wildlife-documentary strings, majestic and slow",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "soft marimba ostinato with wind chimes, lazy afternoon",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "desert ambient synth drone, heat and silence, vultures circling",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "kalimba lullaby, a young giraffe close to its mother",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "Tuareg guitar trance, slow and dusty",
-        "weight": 0
+        "weight": 0.7
       },
       {
         "text": "low bamboo flute, breathy, dusk",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "deep bass and hand drums, ceremonial and patient",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "lush Afro-jazz piano and upright bass, sunset",
-        "weight": 0
+        "weight": 0.0
       },
       {
         "text": "gentle rain-stick and ambient pads, the first cool breeze of evening",
-        "weight": 0
+        "weight": 0.0
       }
     ],
     "brightness": 0.6
