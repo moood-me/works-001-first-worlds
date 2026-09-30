@@ -6,15 +6,15 @@ for (const a of [a0, a0 + Math.PI]) {
     c = Math.cos(a);
   flash = Math.max(flash, Math.pow(Math.max(0, -c), 12));
   // across the screen its length shows as sin; pointing away it shortens and thins
-  const L = 380 * Math.abs(s) * (0.35 + 0.65 * Math.max(0, c) + 0.3),
+  const L = 300 * Math.abs(s) * (0.45 + 0.55 * Math.max(0, c)),
     dir = Math.sign(s) || 1,
     dy = 6 * (1 - Math.abs(s)) + 8;
-  const w0 = 1.2,
-    w1 = 9 + 22 * (1 - Math.abs(s));
+  const w0 = 0.7,
+    w1 = 3 + 9 * (1 - Math.abs(s));
   const inten = (0.35 + 0.65 * Math.abs(s)) * (c > 0 ? 0.8 : 1);
   const gr = g.createLinearGradient(0, 0, dir * L, dy);
-  gr.addColorStop(0, `rgba(255,236,190,${0.4 * inten})`);
-  gr.addColorStop(0.3, `rgba(255,225,170,${0.14 * inten})`);
+  gr.addColorStop(0, `rgba(255,236,190,${0.3 * inten})`);
+  gr.addColorStop(0.25, `rgba(255,225,170,${0.09 * inten})`);
   gr.addColorStop(1, "rgba(255,220,170,0)");
   g.fillStyle = gr;
   for (const k of [2, 1]) {
@@ -29,7 +29,7 @@ for (const a of [a0, a0 + Math.PI]) {
   }
   g.globalAlpha = 1;
 }
-const R = 3 + flash * 70;
+const R = 2.5 + flash * 45;
 const f = g.createRadialGradient(0, 0, 0, 0, 0, R);
 f.addColorStop(0, `rgba(255,248,225,${0.45 + flash * 0.5})`);
 f.addColorStop(0.15, `rgba(255,215,150,${0.2 + flash * 0.3})`);

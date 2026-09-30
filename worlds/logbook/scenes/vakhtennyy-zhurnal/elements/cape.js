@@ -43,8 +43,8 @@ for (let i = 0; i < 900; i++) {
   g.stroke();
 }
 // the path: worn, a little lighter, winding to the tower door
-g.strokeStyle = "rgba(70,74,84,0.55)";
-g.lineWidth = 1.8;
+g.strokeStyle = "rgba(52,56,66,0.5)";
+g.lineWidth = 0.9;
 g.beginPath();
 g.moveTo(8, 52);
 g.bezierCurveTo(10, 30, -2, 20, 0, 4);

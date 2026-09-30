@@ -3,7 +3,7 @@ for (let i = 0; i < 40; i++) {
   const x = -38 + e.rnd() * 66,
     h = e.rnd(),
     ph = Math.sin(e.t * 1.1 - i * 0.55 + h * 2);
-  const a = Math.pow(Math.max(0, ph), 2) * 0.22;
+  const a = Math.pow(Math.max(0, ph), 2) * 0.12;
   if (a < 0.01) continue;
   const r = 0.8 + h * 1.6 + ph * 0.8,
     f = g.createRadialGradient(x, 0, 0, x, 0, r);
