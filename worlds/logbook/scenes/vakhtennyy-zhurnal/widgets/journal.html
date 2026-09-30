@@ -1,0 +1,44 @@
+<style>
+  .closed, .book { pointer-events: auto; }
+  .closed { position: absolute; right: 0; top: 0; width: 150px; height: 56px; border-radius: 28px; border: 1px solid rgba(240,200,130,.5);
+    background: rgba(10,14,22,.62); color: #f6e7c8; font: 20px Georgia, serif; cursor: pointer; backdrop-filter: blur(4px); }
+  .closed:hover { background: rgba(240,180,90,.22); }
+  .book { display: none; position: absolute; inset: 0; border-radius: 4px 10px 10px 4px; color: #2a2016; padding: 34px 30px 60px 44px; box-sizing: border-box;
+    background: repeating-linear-gradient(transparent 0 35px, rgba(70,90,140,.16) 35px 36px), linear-gradient(175deg, #f2e5c6, #e3d0a6);
+    box-shadow: 0 30px 70px rgba(0,0,0,.7), inset 0 0 50px rgba(110,70,20,.25); font: 21px/1.5 Georgia, serif; overflow: hidden; }
+  .book::before { content: ""; position: absolute; top: 0; bottom: 0; left: 30px; width: 1px; background: rgba(170,60,50,.3); }
+  .open .book { display: block; } .open .closed { display: none; }
+  .jh { font-size: 14px; letter-spacing: .2em; text-transform: uppercase; color: #7a5a30; text-align: center; margin-bottom: 18px; }
+  .e { margin: 0 0 20px; } .d { font-size: 15px; opacity: .8; } .t { font-size: 20px; }
+  .h-k { font-style: italic; color: #223153; } .h-n, .h-a { font-family: "Segoe Script", "Brush Script MT", cursive; color: #6a2b1d; }
+  .h-a { color: #5b2d58; } .h-b { font-family: "Courier New", monospace; color: #303030; } .h-c, .h-m { font-family: "Comic Sans MS", cursive; color: #1f5580; }
+  .h-m { color: #1f6b5a; } .h-d { color: #6f6a62; font-style: italic; } .h-e { font-family: Verdana, sans-serif; color: #1c3a8a; font-size: 17px; }
+  .h-f { font-family: "Trebuchet MS", sans-serif; color: #3d4d2a; }
+  .margin { display: block; margin: 6px 0 0 auto; text-align: right; font-family: "Comic Sans MS", cursive; color: #1f6b5a; font-size: 18px; transform: rotate(-2deg); }
+  .nav { position: absolute; left: 0; right: 0; bottom: 14px; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+  .nav button { font: 17px Georgia, serif; border: 1px solid rgba(120,80,30,.45); background: rgba(120,80,30,.08); color: #3a2a18; border-radius: 18px; padding: 6px 16px; cursor: pointer; }
+  .nav button:disabled { opacity: .3; } .pos { font-size: 14px; color: #8a6a40; }
+</style>
+<div id="w">
+  <button class="closed" id="open">Журнал</button>
+  <div class="book"><div class="jh">Вахтенный журнал маяка</div><div id="page"></div>
+    <div class="nav"><button id="prev">← Раньше</button><span class="pos" id="pos"></span><button id="next">Позже →</button><button id="close">Закрыть</button></div>
+  </div>
+</div>
+<script>
+  const E = [["3 марта 1986","k","Ветер N 4, снег с дождём. Принял маяк у Ефимыча. Он сказал: «С лампой вслух не разговаривай. Про себя — можно»."],["19 июня 1988","k","Штиль, ясно. Поднималась девушка с почты, принесла газеты за месяц. Зовут Нина. Попросил приходить чаще. «Столько газет не бывает», — сказала она."],["20 июня 1988","n","Газеты кончились. Пришла без газет. — Н."],["14 ноября 1990","k","Ветер NW 6. Приходила женщина, плакала, потом смеялась. Оставила варежки на перилах. Пусть висят — вдруг вернётся."],["2 августа 1991","a","Мы поженились утром, а вечером поднялись сюда. Ветер такой, что фата улетела в море. Пусть плывёт. — О. и К."],["12 мая 1994","k","Ветер S 2, ясно. У нас сын, Дмитрий. Зажёг огонь на час раньше положенного — пусть все знают. Выговор из управления приму с радостью."],["9 января 1997","k","Шторм, ветер N 9. Лопнуло стекло в северной раме. Заклеил. Держит. Митя проспал всю ночь и ничего не заметил."],["без даты","c","Я здесь был. Мне девять лет. Смотритель дал подержать ключ от лампы. Он тяжёлый. — Лёва"],["11 июля 2001","m","Сегодня я сам заправил лампу. Пролил немного. Папа сказал, что «немного» — это полведра. — Митя, 7 лет"],["30 октября 2004","b","Плановая проверка оборудования. Замечаний нет. Чай у смотрителя лучше, чем в управлении. — техник Жуков"],["6 марта 2008","k","Ветер E 3, туман до обеда. Митя учит сигналы. Придумал свой: три коротких, один длинный — «вижу тебя». Сказал, это будет наш."],["2 сентября 2013","k","Ветер SW 4, дождь. Митя ушёл матросом на «Кречет». Поругались. Я сказал лишнее. Он не обернулся с катера.","Папа, я всё равно буду смотреть на свет. — М."],["17 сентября 2014","k","Ветер SW 5. Нина спустилась в посёлок насовсем. Говорит: маяк — не дом. Может, и права. Обещал ей починить калитку."],["30 сентября 2015","k","NW 5, туман. «Кречет» — в 00:40. Подал знак. Ответа нет. Может, не его вахта."],["май 2017","d","Уезжаю завтра насовсем. Хотела посмотреть на свет сверху, а не снизу. Сверху он тише."],["4 октября 2018","k","N 3, ясно. «Кречет» — 00:35. Знак. Ответа нет. Фитиль коптит, надо менять."],["21 июня 2019","e","Сдала экзамен. Никому ещё не сказала. Сказала маяку. Он мигнул — засчитываю."],["8 февраля 2021","k","Ветер NE 7, мокрый снег. Пришёл кот. Сам, по лестнице, сто двенадцать ступеней. Назвал Фитилём. Остался."],["без даты","d","Здесь хорошо молчать."],["2 октября 2022","k","NW 6. «Кречет» — 00:50. Знак. Ответа нет. Нина передала пирог. Съели с Фитилём."],["14 ноября 2023","a","Была здесь ровно тридцать три года назад — в тот день плакала. Сегодня пришла посмеяться ещё раз. Варежки, говорят, так и висят? — В."],["15 марта 2025","k","Ветер S 2. Письмо из управления: весной будущего года — автоматика. Мне предлагают домик в посёлке. Не ответил. Фитиль тоже не ответил."],["30 сентября 2025","k","NW 4. «Кречет» — 00:45. Знак. Ответа нет."],["16 августа 2026","f","Шли пешком от станции четыре часа. Стоило. Смотритель напоил чаем и ничего не спросил. — трое с рюкзаками"]];
+  const pages = []; for (let i = E.length; i > 0; i -= 4) pages.unshift(E.slice(Math.max(0, i - 4), i));
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const $ = id => root.getElementById(id);
+  let p = pages.length - 1;
+  const show = () => {
+    $('page').innerHTML = pages[p].map(([d, h, t, note]) => '<div class="e h-' + h + '"><div class="d">' + esc(d) + '</div><div class="t">' + esc(t) + '</div>'
+      + (note ? '<span class="margin">' + esc(note) + '</span>' : '') + '</div>').join('');
+    $('pos').textContent = 'стр. ' + (p + 1) + ' из ' + pages.length;
+    $('prev').disabled = p === 0; $('next').disabled = p === pages.length - 1;
+  };
+  $('open').onclick = () => { $('w').classList.add('open'); widget.style.zIndex = 5; show(); };
+  $('close').onclick = () => { $('w').classList.remove('open'); widget.style.zIndex = ''; };
+  $('prev').onclick = () => { if (p > 0) { p--; show(); } };
+  $('next').onclick = () => { if (p < pages.length - 1) { p++; show(); } };
+</script>

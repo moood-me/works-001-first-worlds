@@ -1,0 +1,248 @@
+{
+  "light": {
+    "haze": 0.45,
+    "tint": "#1a2340",
+    "grain": 0.35,
+    "vignette": 0.55,
+    "hazeColor": "#1b2438",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "solitary night at a lighthouse, slow ambient piano, distant foghorn pads, rain on glass",
+        "weight": 1.2
+      },
+      {
+        "text": "sparse cello and warm analog pads, maritime melancholy, very slow",
+        "weight": 0.8
+      },
+      {
+        "text": "field-recording sea waves with soft drones, lo-fi tape hiss",
+        "weight": 0.5
+      },
+      {
+        "text": "nordic folk accordion, gentle and tired, late night",
+        "weight": 0
+      },
+      {
+        "text": "minimal music box melody, lullaby, far away",
+        "weight": 0
+      },
+      {
+        "text": "dark ambient wind and low strings, storm building",
+        "weight": 0
+      },
+      {
+        "text": "soviet-era radio waltz, crackling, played quietly in another room",
+        "weight": 0
+      },
+      {
+        "text": "hopeful dawn strings, slow crescendo, sea at first light",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "title": "Вахтенный журнал",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "Одна ночь на маяке. Лампа, линза, погода, огни в море — и строчка, которую оставишь ты.",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Ночное небо"
+    },
+    {
+      "x": 0.5,
+      "id": "sea-far",
+      "name": "Море",
+      "color": "#0b1322",
+      "depth": 4600,
+      "plane": true,
+      "width": 12000,
+      "distance": 2600,
+      "elevation": -3
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "name": "Море у мыса",
+      "color": "#0a1120",
+      "depth": 300,
+      "plane": true,
+      "width": 700,
+      "distance": 150,
+      "elevation": -3
+    },
+    {
+      "x": 0.8,
+      "id": "moonpath",
+      "box": [
+        -45,
+        -1,
+        45,
+        120
+      ],
+      "name": "Лунная дорожка",
+      "height": 20,
+      "distance": 250,
+      "elevation": -3
+    },
+    {
+      "x": 0.84,
+      "id": "krechet",
+      "box": [
+        -120,
+        -40,
+        120,
+        30
+      ],
+      "name": "«Кречет»",
+      "color": "#06080c",
+      "height": 30,
+      "distance": 3200
+    },
+    {
+      "x": 0.34,
+      "id": "cape",
+      "name": "Мыс",
+      "color": "#0c0f15",
+      "depth": 104,
+      "plane": true,
+      "width": 110,
+      "distance": 52,
+      "elevation": 0
+    },
+    {
+      "x": 0.265,
+      "id": "tower",
+      "box": [
+        -16,
+        -46,
+        16,
+        2
+      ],
+      "name": "Маяк",
+      "color": "#15171c",
+      "height": 34,
+      "distance": 90,
+      "elevation": 0
+    },
+    {
+      "x": 0.265,
+      "id": "beam",
+      "box": [
+        -420,
+        -80,
+        420,
+        60
+      ],
+      "name": "Луч маяка",
+      "height": 34,
+      "distance": 90,
+      "elevation": 31.2
+    },
+    {
+      "x": 0.62,
+      "id": "foam",
+      "box": [
+        -40,
+        -3,
+        30,
+        3
+      ],
+      "name": "Прибой",
+      "height": 6,
+      "distance": 60,
+      "elevation": -3
+    },
+    {
+      "x": 0.44,
+      "id": "keeper",
+      "box": [
+        -0.9,
+        -2.05,
+        1.1,
+        0.2
+      ],
+      "name": "Савелий Андреич, смотритель",
+      "color": "#0d0f14",
+      "height": 1.78,
+      "distance": 14
+    },
+    {
+      "x": 0.5,
+      "id": "fitil",
+      "box": [
+        -0.35,
+        -0.4,
+        0.35,
+        0.05
+      ],
+      "name": "Кот Фитиль",
+      "color": "#0a0b0e",
+      "height": 0.3,
+      "distance": 13
+    },
+    {
+      "x": 0.63,
+      "id": "bottle",
+      "box": [
+        -0.3,
+        -0.3,
+        0.3,
+        0.06
+      ],
+      "name": "Бутылка у камней",
+      "color": "#2c4a3c",
+      "height": 0.3,
+      "distance": 9
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.5,
+      "y": 0.5,
+      "id": "rain",
+      "name": "Дождь",
+      "width": 2600,
+      "height": 1080
+    },
+    {
+      "x": 0.02,
+      "y": 0.03,
+      "id": "watch",
+      "name": "Вахта",
+      "width": 360,
+      "anchor": "top-left",
+      "height": 70
+    },
+    {
+      "x": 0.985,
+      "y": 0.03,
+      "id": "journal",
+      "name": "Вахтенный журнал",
+      "width": 560,
+      "anchor": "top-right",
+      "height": 760
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 9,
+      "text": "Сто двенадцать ступеней. На каждом витке — узкое окно, и в каждом окне море чуть темнее."
+    },
+    {
+      "at": 12,
+      "for": 8,
+      "text": "Смотритель ждёт у тропы. Весной, говорят, поставят автомат."
+    }
+  ]
+}

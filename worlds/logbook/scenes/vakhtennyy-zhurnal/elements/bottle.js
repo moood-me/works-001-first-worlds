@@ -1,0 +1,17 @@
+g.fillStyle = "#0b0d12";
+g.beginPath();
+g.ellipse(-0.1, 0, 0.3, 0.07, 0, 0, 7);
+g.fill();
+g.save();
+g.translate(0.02, -0.05);
+g.rotate(-0.35);
+g.fillStyle = "rgba(70,120,95,0.85)";
+g.fillRect(-0.04, -0.2, 0.08, 0.2);
+g.fillRect(-0.018, -0.27, 0.036, 0.08);
+g.fillStyle = "#6a4a2a";
+g.fillRect(-0.02, -0.29, 0.04, 0.03);
+g.fillStyle = "rgba(230,215,180,0.7)";
+g.fillRect(-0.025, -0.16, 0.03, 0.11);
+g.fillStyle = "rgba(210,255,230,0.35)";
+g.fillRect(0.018, -0.19, 0.01, 0.15);
+g.restore();
