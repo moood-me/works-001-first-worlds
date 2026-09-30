@@ -59,6 +59,7 @@ const shadow = (w) => {
   E(c, 4, 0, w, w * 0.28);
   c.fill();
 };
+
 c.fillStyle = "rgba(40,30,20,.22)";
 E(c, 0, 0, 0.4, 0.12);
 c.fill();

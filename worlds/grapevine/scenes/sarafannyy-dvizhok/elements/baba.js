@@ -59,6 +59,7 @@ const shadow = (w) => {
   E(c, 4, 0, w, w * 0.28);
   c.fill();
 };
+
 // the bench behind her, then her (the demo's drawing, px → metres)
 c.fillStyle = "rgba(40,30,20,.18)";
 E(c, 0, 0, 1.9, 0.2);

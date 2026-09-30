@@ -1,5 +1,6 @@
 const gr = g.createLinearGradient(0, -28, 0, 28);
-gr.addColorStop(0, "#a8cc72");
+gr.addColorStop(0, "#8dbd5d");
+gr.addColorStop(0.3, "#a2c86c");
 gr.addColorStop(1, "#7fb152");
 g.fillStyle = gr;
 g.fillRect(-36, -28, 72, 56);
@@ -98,3 +99,16 @@ g.fill();
 g.fillStyle = "rgba(40,30,20,0.16)";
 g.fillRect(-15, -8, 11, 3);
 g.fillRect(6, -10, 11, 3);
+// feathered edges: the yard melts into the meadow
+g.globalCompositeOperation = "destination-out";
+const fade = (x0, y0, x1, y1) => {
+  const f = g.createLinearGradient(x0, y0, x1, y1);
+  f.addColorStop(0, "rgba(0,0,0,1)");
+  f.addColorStop(1, "rgba(0,0,0,0)");
+  g.fillStyle = f;
+  g.fillRect(-36, -28, 72, 56);
+};
+fade(-36, 0, -26, 0);
+fade(36, 0, 26, 0);
+fade(0, -28, 0, -20);
+g.globalCompositeOperation = "source-over";

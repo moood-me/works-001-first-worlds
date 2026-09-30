@@ -59,6 +59,7 @@ const shadow = (w) => {
   E(c, 4, 0, w, w * 0.28);
   c.fill();
 };
+
 // his stump under him
 c.fillStyle = "rgba(40,30,20,.2)";
 E(c, 0, 0.45, 0.55, 0.1);
@@ -74,7 +75,7 @@ for (const r of [0.08, 0.16, 0.25]) {
   E(c, 0, 0, r, r * 0.3);
   c.stroke();
 }
-c.scale(0.0115, 0.0115);
+c.scale(0.019, 0.019);
 const sw = Math.sin(t * 1.7) * 6,
   br = Math.sin(t * 2) * 0.5;
 c.lineCap = "round";

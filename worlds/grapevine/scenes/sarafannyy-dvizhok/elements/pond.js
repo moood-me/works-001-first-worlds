@@ -59,6 +59,7 @@ const shadow = (w) => {
   E(c, 4, 0, w, w * 0.28);
   c.fill();
 };
+
 c.scale(0.045, 0.045);
 const b = Math.sin(t * 1.2) * 1.2;
 [-9, 9].forEach((dx) => {

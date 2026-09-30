@@ -59,7 +59,8 @@ const shadow = (w) => {
   E(c, 4, 0, w, w * 0.28);
   c.fill();
 };
-c.scale(0.0125, 0.0125);
+
+c.scale(0.028, 0.028);
 const ph = t % 3.2,
   d = ph < 0.5 ? Math.sin((ph / 0.5) * PI) : 0,
   hx = d * 3.5,
