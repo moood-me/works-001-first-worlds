@@ -46,6 +46,17 @@
     ],
     "brightness": 0.3
   },
+  "state": {
+    "dawn": 0,
+    "lamp": 0.45,
+    "line": null,
+    "time": "20:00",
+    "watch": "Первая вахта · лампа",
+    "signal": null,
+    "krechet": 0,
+    "weather": null,
+    "krechet_flash": false
+  },
   "title": "Вахтенный журнал",
   "camera": {
     "mode": "walk"
@@ -57,6 +68,20 @@
       "id": "sky",
       "sky": true,
       "name": "Ночное небо"
+    },
+    {
+      "x": 0.66,
+      "id": "dawnwater",
+      "box": [
+        -2200,
+        -1,
+        2200,
+        700
+      ],
+      "name": "Рассвет на воде",
+      "height": 60,
+      "distance": 1800,
+      "elevation": -3
     },
     {
       "x": 0.5,
@@ -98,10 +123,10 @@
       "x": 0.84,
       "id": "krechet",
       "box": [
-        -120,
-        -40,
-        120,
-        30
+        -600,
+        -190,
+        600,
+        60
       ],
       "name": "«Кречет»",
       "color": "#06080c",

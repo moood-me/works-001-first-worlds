@@ -1,1 +1,5 @@
-<div style="font:14px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#f3e4c6;text-shadow:0 1px 4px #000,0 0 12px #000">Первая вахта<b style="display:block;font:italic 20px Georgia,serif;letter-spacing:0;text-transform:none;font-weight:normal">20:00 · лампа</b></div>
+<div id="w" style="font:14px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#f3e4c6;text-shadow:0 1px 4px #000,0 0 12px #000"><span id="n"></span><b id="t" style="display:block;font:italic 22px Georgia,serif;letter-spacing:0;text-transform:none;font-weight:normal"></b></div>
+<script>
+  const show = () => { root.getElementById('n').textContent = String(MooodState.get('watch') || '').split(' · ')[0]; root.getElementById('t').textContent = (MooodState.get('time') || '') + (String(MooodState.get('watch') || '').includes(' · ') ? ' · ' + String(MooodState.get('watch')).split(' · ')[1] : ''); };
+  MooodState.on('load', show); MooodState.on('change', show); show();
+</script>

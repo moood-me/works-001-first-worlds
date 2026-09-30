@@ -5,7 +5,8 @@
   let last = performance.now();
   const f = now => {
     const dt = Math.min(0.05, (now - last) / 1000); last = now;
-    g.clearRect(0, 0, 1300, 540); g.strokeStyle = 'rgba(170,185,210,0.14)'; g.lineWidth = 0.7; g.beginPath();
+    const d = MooodState.get('dawn') || 0;
+    g.clearRect(0, 0, 1300, 540); g.strokeStyle = 'rgba(170,185,210,' + (0.14 * Math.max(0, 1 - d * 1.5)) + ')'; g.lineWidth = 0.7; g.beginPath();
     for (const r of R) {
       r.y += 300 * r.v * dt; r.x += 52 * r.v * dt;
       if (r.y > 545) { r.y = -12; r.x = Math.random() * 1500 - 100; }

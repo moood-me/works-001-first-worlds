@@ -1,5 +1,7 @@
-const a0 = e.t * 0.55;
+const a0 = e.t * 0.55,
+  I = (0.3 + 0.7 * (e.state.lamp ?? 0.45)) * (1 - 0.6 * (e.state.dawn || 0));
 g.globalCompositeOperation = "lighter";
+g.globalAlpha = 1;
 let flash = 0;
 for (const a of [a0, a0 + Math.PI]) {
   const s = Math.sin(a),
@@ -11,7 +13,7 @@ for (const a of [a0, a0 + Math.PI]) {
     dy = 6 * (1 - Math.abs(s)) + 8;
   const w0 = 0.7,
     w1 = 3 + 9 * (1 - Math.abs(s));
-  const inten = (0.35 + 0.65 * Math.abs(s)) * (c > 0 ? 0.8 : 1);
+  const inten = I * (0.35 + 0.65 * Math.abs(s)) * (c > 0 ? 0.8 : 1);
   const gr = g.createLinearGradient(0, 0, dir * L, dy);
   gr.addColorStop(0, `rgba(255,236,190,${0.3 * inten})`);
   gr.addColorStop(0.25, `rgba(255,225,170,${0.09 * inten})`);
@@ -29,6 +31,7 @@ for (const a of [a0, a0 + Math.PI]) {
   }
   g.globalAlpha = 1;
 }
+flash *= I;
 const R = 2.5 + flash * 45;
 const f = g.createRadialGradient(0, 0, 0, 0, 0, R);
 f.addColorStop(0, `rgba(255,248,225,${0.45 + flash * 0.5})`);
