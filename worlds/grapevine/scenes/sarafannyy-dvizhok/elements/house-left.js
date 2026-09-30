@@ -1,0 +1,61 @@
+const wg = g.createLinearGradient(-5, 0, 5, 0);
+wg.addColorStop(0, "#ecc88f");
+wg.addColorStop(1, "#d4b07a");
+g.fillStyle = wg;
+g.fillRect(-5, -4.2, 10, 4.2);
+g.fillStyle = "rgba(110,70,40,.35)";
+g.fillRect(-5, -4.2, 10, 0.2);
+g.fillRect(-5, -0.25, 10, 0.25);
+const rg = g.createLinearGradient(0, -8, 0, -4);
+rg.addColorStop(0, "#b4553f");
+rg.addColorStop(1, "#963a26");
+g.fillStyle = rg;
+g.beginPath();
+g.moveTo(-5.6, -4);
+g.lineTo(0, -7.8);
+g.lineTo(5.6, -4);
+g.closePath();
+g.fill();
+g.strokeStyle = "rgba(0,0,0,.14)";
+g.lineWidth = 0.06;
+for (let i = 1; i < 6; i++) {
+  const y = -7.8 + (3.8 * i) / 6,
+    h = (5.6 * i) / 6;
+  g.beginPath();
+  g.moveTo(-h, y);
+  g.lineTo(h, y);
+  g.stroke();
+}
+g.fillStyle = "#8b4a36";
+g.fillRect(2.2, -7.6, 0.6, 1.8);
+g.fillStyle = "#6d3527";
+g.fillRect(2.1, -7.7, 0.8, 0.2);
+g.fillStyle = "#7b4b2b";
+g.fillRect(-1, -2.2, 1.1, 2.2);
+g.fillStyle = "#e0b060";
+g.beginPath();
+g.arc(-0.1, -1.1, 0.06, 0, 7);
+g.fill();
+for (const x of [-3.6, 1.8]) {
+  g.fillStyle = "#6b4a30";
+  g.fillRect(x - 0.1, -3.1, 1.5, 1.3);
+  const w = g.createLinearGradient(0, -3, 0, -1.9);
+  w.addColorStop(0, "#96bed2");
+  w.addColorStop(1, "#6e96af");
+  g.fillStyle = w;
+  g.fillRect(x, -3, 1.3, 1.1);
+  g.fillStyle = "#6b4a30";
+  g.fillRect(x + 0.61, -3, 0.08, 1.1);
+  g.fillRect(x, -2.49, 1.3, 0.08);
+  g.fillStyle = "rgba(230,120,120,.55)";
+  g.beginPath();
+  g.moveTo(x, -3);
+  g.lineTo(x + 0.45, -3);
+  g.lineTo(x, -2.1);
+  g.fill();
+  g.beginPath();
+  g.moveTo(x + 1.3, -3);
+  g.lineTo(x + 0.85, -3);
+  g.lineTo(x + 1.3, -2.1);
+  g.fill();
+}
