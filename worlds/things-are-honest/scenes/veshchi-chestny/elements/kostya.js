@@ -1,0 +1,48 @@
+// crouched by a toolbox in the passage, hammering; broad back, cap
+const k = Math.sin(e.t * 3.2),
+  up = Math.max(0, k);
+g.fillStyle = "#3a2a18";
+g.fillRect(0.22, -0.22, 0.42, 0.22);
+g.fillStyle = "#5a4020";
+g.fillRect(0.22, -0.24, 0.42, 0.04);
+g.fillStyle = "#1c2230";
+g.beginPath();
+g.moveTo(-0.3, 0);
+g.lineTo(-0.34, -0.3);
+g.quadraticCurveTo(-0.4, -0.72, -0.18, -0.9);
+g.quadraticCurveTo(0.05, -0.98, 0.18, -0.82);
+g.quadraticCurveTo(0.22, -0.5, 0.1, -0.3);
+g.lineTo(0.14, 0);
+g.closePath();
+g.fill();
+g.fillStyle = "#c89878";
+g.beginPath();
+g.ellipse(0.1, -0.98, 0.08, 0.09, 0, 0, 7);
+g.fill();
+g.fillStyle = "#222";
+g.beginPath();
+g.ellipse(0.08, -1.04, 0.1, 0.045, 0, Math.PI, 0);
+g.fill();
+g.fillRect(0.08, -1.05, 0.13, 0.025);
+const ax = 0.32,
+  ay = -0.42 - up * 0.3;
+g.strokeStyle = "#1c2230";
+g.lineWidth = 0.07;
+g.beginPath();
+g.moveTo(0.08, -0.78);
+g.quadraticCurveTo(0.26, -0.55, ax, ay);
+g.stroke();
+g.strokeStyle = "#6a4a2a";
+g.lineWidth = 0.03;
+g.beginPath();
+g.moveTo(ax, ay);
+g.lineTo(ax + 0.18, ay + 0.02);
+g.stroke();
+g.fillStyle = "#555";
+g.fillRect(ax + 0.15, ay - 0.04, 0.05, 0.1);
+g.fillStyle = "rgba(255,210,140,0.12)";
+g.beginPath();
+g.moveTo(0.18, -0.82);
+g.quadraticCurveTo(0.22, -0.5, 0.1, -0.3);
+g.lineTo(0.05, -0.8);
+g.fill();

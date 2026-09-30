@@ -1,0 +1,270 @@
+{
+  "light": {
+    "haze": 0.05,
+    "tint": "#3a2412",
+    "grain": 0.3,
+    "vignette": 0.6,
+    "hazeColor": "#1a1008",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "a slow Soviet-era waltz on a valve radio in another room, crackle, muffled, melancholic",
+        "weight": 1.2
+      },
+      {
+        "text": "ticking clock, sparse felt piano, quiet house at night, intimate",
+        "weight": 0.8
+      },
+      {
+        "text": "solo cello, low and restrained, family grief, very slow",
+        "weight": 0.5
+      },
+      {
+        "text": "music box lullaby, old, slightly out of tune",
+        "weight": 0
+      },
+      {
+        "text": "accordion, autumn village, warm and sad",
+        "weight": 0
+      },
+      {
+        "text": "mysterious low strings and soft pulses, investigation, suspense without drama",
+        "weight": 0
+      },
+      {
+        "text": "choir hum, distant, like a memory",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.25
+  },
+  "title": "Вещи честны",
+  "camera": {
+    "look": 0.02,
+    "mode": "diorama"
+  },
+  "caption": "Семейная загадка на один вечер.",
+  "horizon": 0.47,
+  "objects": [
+    {
+      "id": "night",
+      "sky": true,
+      "name": "Ночь за окном"
+    },
+    {
+      "x": 0.5,
+      "id": "floor",
+      "name": "Пол",
+      "color": "#2a1a0e",
+      "depth": 4.3,
+      "plane": true,
+      "width": 14,
+      "distance": 2.35,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "wall",
+      "box": [
+        -7.5,
+        -4.6,
+        7.5,
+        0.05
+      ],
+      "name": "Стена с обоями",
+      "color": "#3b2a1f",
+      "height": 2.8,
+      "distance": 4.5
+    },
+    {
+      "x": 0.86,
+      "id": "kitchen",
+      "box": [
+        -3.2,
+        -3.2,
+        3.2,
+        0.1
+      ],
+      "name": "Кухня за дверью",
+      "color": "#5a3a1e",
+      "height": 2.6,
+      "distance": 8.5
+    },
+    {
+      "x": 0.845,
+      "id": "vera",
+      "box": [
+        -0.6,
+        -1.5,
+        0.6,
+        0.05
+      ],
+      "name": "Тётя Вера",
+      "color": "#2a1e1a",
+      "height": 1.35,
+      "distance": 7.9
+    },
+    {
+      "x": 0.8,
+      "id": "kostya",
+      "box": [
+        -0.7,
+        -1.2,
+        0.7,
+        0.05
+      ],
+      "name": "Дядя Костя",
+      "color": "#1a1410",
+      "height": 1.05,
+      "distance": 5.9
+    },
+    {
+      "x": 0.912,
+      "id": "door",
+      "box": [
+        -0.6,
+        -2.35,
+        0.08,
+        0.2
+      ],
+      "name": "Дверь",
+      "color": "#3a2412",
+      "height": 2.2,
+      "distance": 4.42
+    },
+    {
+      "x": 0.47,
+      "id": "photo",
+      "box": [
+        -0.4,
+        -0.72,
+        0.4,
+        0.04
+      ],
+      "name": "Фотография 1952 года",
+      "color": "#cdbb95",
+      "height": 0.7,
+      "distance": 4.44,
+      "elevation": 1.4
+    },
+    {
+      "x": 0.595,
+      "id": "clock",
+      "box": [
+        -0.2,
+        -1.2,
+        0.2,
+        0.55
+      ],
+      "name": "Часы-ходики",
+      "color": "#6e4226",
+      "height": 1.1,
+      "distance": 4.44,
+      "elevation": 1.2
+    },
+    {
+      "x": 0.66,
+      "id": "dresser",
+      "box": [
+        -0.8,
+        -1.5,
+        0.8,
+        0.06
+      ],
+      "name": "Комод с лампой",
+      "color": "#4a2a16",
+      "height": 1.5,
+      "distance": 4.15
+    },
+    {
+      "x": 0.64,
+      "id": "box",
+      "box": [
+        -0.16,
+        -0.14,
+        0.16,
+        0.02
+      ],
+      "name": "Шкатулка",
+      "color": "#8a6a3a",
+      "height": 0.12,
+      "distance": 4.02,
+      "elevation": 0.86
+    },
+    {
+      "x": 0.715,
+      "id": "radio",
+      "box": [
+        -0.3,
+        -0.4,
+        0.3,
+        0.02
+      ],
+      "name": "Радиоприёмник",
+      "color": "#6e4226",
+      "height": 0.36,
+      "distance": 4.02,
+      "elevation": 0.86
+    },
+    {
+      "x": 0.235,
+      "id": "nina",
+      "box": [
+        -1.3,
+        -1.05,
+        1.25,
+        0.06
+      ],
+      "name": "Бабушка Нина",
+      "color": "#d9ccb2",
+      "height": 1,
+      "distance": 3.2
+    },
+    {
+      "x": 0.6,
+      "id": "dust",
+      "box": [
+        -0.9,
+        -0.9,
+        0.9,
+        0.5
+      ],
+      "name": "Пылинки",
+      "height": 1.2,
+      "distance": 3,
+      "elevation": 0.9
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.97,
+      "id": "notebook",
+      "name": "Блокнот",
+      "width": 470,
+      "anchor": "bottom-left",
+      "height": 330
+    }
+  ],
+  "captions": [
+    {
+      "at": 1.5,
+      "for": 8,
+      "text": "Осень. Ты приехала попрощаться с бабушкой Ниной. Врач сказал — неделя, может, две."
+    },
+    {
+      "at": 10,
+      "for": 8,
+      "text": "С общей фотографии 1952 года кто-то аккуратно вырезан — по контуру, как из журнала."
+    },
+    {
+      "at": 19,
+      "for": 9,
+      "text": "Люди знают, что важно, но говорят неправду. Вещи не врут — но понимают всё буквально."
+    }
+  ]
+}
