@@ -1,0 +1,283 @@
+{
+  "light": {
+    "haze": 0.12,
+    "tint": "#ffb070",
+    "grain": 0.22,
+    "vignette": 0.55,
+    "hazeColor": "#3a3048",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.35,
+    "prompts": [
+      {
+        "text": "Solo upright piano, soft felt hammers, intimate close-miked, slow late-evening jazz ballad",
+        "weight": 1.2
+      },
+      {
+        "text": "Lo-fi jazz piano with warm vinyl crackle, brushed snare, mellow upright bass",
+        "weight": 0.8
+      },
+      {
+        "text": "Gentle neo-classical piano, sparse notes, long sustain pedal, calm and tender",
+        "weight": 0.6
+      },
+      {
+        "text": "Warm Rhodes electric piano, slow chord progression, tape saturation",
+        "weight": 0.3
+      },
+      {
+        "text": "Bill Evans style impressionist chords, rubato, quiet late night piano trio",
+        "weight": 0
+      },
+      {
+        "text": "Cozy bossa nova with nylon-string guitar and soft electric piano",
+        "weight": 0
+      },
+      {
+        "text": "Ambient drone with distant city hum and soft evolving pads",
+        "weight": 0
+      },
+      {
+        "text": "Muted trumpet melody over smoky 1950s club jazz",
+        "weight": 0
+      },
+      {
+        "text": "Minimal Satie-like gymnopedie, slow waltz on a slightly detuned piano",
+        "weight": 0
+      },
+      {
+        "text": "Downtempo chillhop beat, dusty drums, jazzy sampled chords",
+        "weight": 0
+      },
+      {
+        "text": "Cello and piano duet, tender chamber music, warm room",
+        "weight": 0
+      },
+      {
+        "text": "Music box lullaby with soft bells and gentle reverb",
+        "weight": 0
+      },
+      {
+        "text": "Fingerpicked acoustic guitar, indie folk, warm wooden room",
+        "weight": 0
+      },
+      {
+        "text": "Late night blues piano, slow shuffle, empty bar room",
+        "weight": 0
+      },
+      {
+        "text": "Breathy tenor saxophone ballad, slow tempo, smoky",
+        "weight": 0
+      },
+      {
+        "text": "Ambient piano with long reverb tails and quiet apartment field recordings",
+        "weight": 0
+      },
+      {
+        "text": "Warm nostalgic string quartet, slow and lyrical",
+        "weight": 0
+      },
+      {
+        "text": "Spacious Nordic jazz, ECM style, double bass and piano, lots of silence",
+        "weight": 0
+      },
+      {
+        "text": "1970s instrumental soul, Hammond organ and clean guitar, slow groove",
+        "weight": 0
+      },
+      {
+        "text": "Dreamy retro 80s synth pads, night city glow",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.4
+  },
+  "state": {
+    "lights": 1
+  },
+  "title": "Лофт с пианино",
+  "camera": {
+    "mode": "diorama"
+  },
+  "caption": "Тёплый свет, кирпич и тишина между нотами.",
+  "horizon": 0.42,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Вечернее небо"
+    },
+    {
+      "x": 0.4,
+      "id": "city",
+      "box": [
+        -600,
+        -100,
+        600,
+        10
+      ],
+      "name": "Город за окном",
+      "height": 70,
+      "distance": 350
+    },
+    {
+      "x": 0.586,
+      "id": "wall",
+      "box": [
+        -16,
+        -12,
+        16,
+        0.4
+      ],
+      "name": "Кирпичная стена с окном",
+      "height": 5,
+      "distance": 7
+    },
+    {
+      "x": 0.5,
+      "id": "ceiling",
+      "name": "Потолок с балками",
+      "depth": 7.5,
+      "plane": true,
+      "width": 32,
+      "distance": 3.25,
+      "elevation": 4.75
+    },
+    {
+      "x": 0.5,
+      "id": "floor",
+      "name": "Дощатый пол",
+      "depth": 7.5,
+      "plane": true,
+      "width": 32,
+      "distance": 3.25
+    },
+    {
+      "x": 0.596,
+      "id": "rug",
+      "name": "Ковёр",
+      "depth": 2.6,
+      "plane": true,
+      "width": 3.2,
+      "distance": 5.2,
+      "rotation": 4,
+      "elevation": 0.01
+    },
+    {
+      "x": 0.591,
+      "id": "piano",
+      "box": [
+        -0.95,
+        -2.45,
+        0.95,
+        0.1
+      ],
+      "name": "Пианино",
+      "height": 2.3,
+      "distance": 6.6
+    },
+    {
+      "x": 0.6,
+      "id": "bench",
+      "box": [
+        -0.6,
+        -0.85,
+        0.6,
+        0.1
+      ],
+      "name": "Банкетка и кот",
+      "height": 0.85,
+      "distance": 6
+    },
+    {
+      "x": 0.4,
+      "id": "plant",
+      "box": [
+        -1.8,
+        -2.8,
+        1.8,
+        0.1
+      ],
+      "name": "Монстера",
+      "height": 1.8,
+      "distance": 6.5
+    },
+    {
+      "x": 0.58,
+      "id": "motes",
+      "box": [
+        -1.7,
+        -3.2,
+        1.7,
+        0.1
+      ],
+      "name": "Пылинки в свете",
+      "height": 3,
+      "distance": 5
+    },
+    {
+      "x": 0.556,
+      "id": "bulbs",
+      "box": [
+        -0.9,
+        -2.4,
+        0.9,
+        0.4
+      ],
+      "name": "Лампочки Эдисона",
+      "height": 2.5,
+      "distance": 5.4,
+      "elevation": 2.5
+    },
+    {
+      "x": 0.23,
+      "id": "sidetable",
+      "box": [
+        -0.35,
+        -1.25,
+        0.35,
+        0.1
+      ],
+      "name": "Столик с чашкой",
+      "height": 0.6,
+      "distance": 2.6
+    },
+    {
+      "x": 0.107,
+      "id": "armchair",
+      "box": [
+        -0.85,
+        -1.15,
+        0.85,
+        0.1
+      ],
+      "name": "Кожаное кресло с пледом",
+      "height": 1.05,
+      "distance": 2.8
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "Город за окном зажигает свои окна."
+    },
+    {
+      "at": 11,
+      "for": 7,
+      "text": "Крышка открыта — кто-то только что играл."
+    },
+    {
+      "at": 20,
+      "for": 8,
+      "text": "Кот занял банкетку и уступать не собирается."
+    },
+    {
+      "at": 31,
+      "for": 6,
+      "text": "Щелчок по лампочкам — и свет погаснет."
+    }
+  ]
+}

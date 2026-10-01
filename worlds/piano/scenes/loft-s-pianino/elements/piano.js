@@ -1,0 +1,170 @@
+var Lt = e.state.lights == null ? 1 : e.state.lights;
+var t = e.t;
+var gb = g.createLinearGradient(-0.78, 0, 0.78, 0);
+gb.addColorStop(0, "#1c110c");
+gb.addColorStop(0.3, "#3a2318");
+gb.addColorStop(0.5, "#2e1b13");
+gb.addColorStop(1, "#160d09");
+g.fillStyle = gb;
+g.fillRect(-0.75, -1.28, 1.5, 1.28);
+g.fillStyle = "#2a1912";
+g.fillRect(-0.79, -1.33, 1.58, 0.06);
+g.fillStyle = "rgba(255,190,120," + (0.08 + 0.15 * Lt) + ")";
+g.fillRect(-0.79, -1.33, 1.58, 0.012);
+g.strokeStyle = "rgba(0,0,0,0.45)";
+g.lineWidth = 0.014;
+g.strokeRect(-0.64, -1.21, 1.28, 0.3);
+g.strokeStyle = "rgba(255,190,130,0.1)";
+g.lineWidth = 0.006;
+g.strokeRect(-0.62, -1.19, 1.24, 0.26);
+g.fillStyle = "#1e120d";
+g.fillRect(-0.7, -0.9, 1.4, 0.04);
+g.fillStyle = "#d6c7aa";
+g.beginPath();
+g.moveTo(-0.27, -1.12);
+g.lineTo(-0.01, -1.11);
+g.lineTo(-0.01, -0.9);
+g.lineTo(-0.27, -0.9);
+g.closePath();
+g.fill();
+g.fillStyle = "#e0d2b6";
+g.beginPath();
+g.moveTo(0.01, -1.11);
+g.lineTo(0.27, -1.13);
+g.lineTo(0.27, -0.9);
+g.lineTo(0.01, -0.9);
+g.closePath();
+g.fill();
+g.strokeStyle = "rgba(60,40,30,0.4)";
+g.lineWidth = 0.002;
+g.beginPath();
+for (var s = 0; s < 4; s++) {
+  for (var l = 0; l < 5; l++) {
+    var yy = -1.08 + s * 0.045 + l * 0.006;
+    g.moveTo(-0.25, yy);
+    g.lineTo(-0.03, yy);
+    g.moveTo(0.03, yy);
+    g.lineTo(0.25, yy);
+  }
+}
+g.stroke();
+g.fillStyle = "rgba(255,180,100," + 0.12 * Lt + ")";
+g.fillRect(-0.27, -1.13, 0.54, 0.23);
+g.fillStyle = "#120a07";
+g.fillRect(-0.7, -0.86, 1.4, 0.08);
+var kx = -0.66,
+  kw = 1.32 / 52;
+g.fillStyle = "#e3d7c2";
+g.fillRect(kx, -0.78, 1.32, 0.045);
+g.strokeStyle = "rgba(60,45,35,0.5)";
+g.lineWidth = 0.002;
+g.beginPath();
+for (var i = 1; i < 52; i++) {
+  g.moveTo(kx + i * kw, -0.78);
+  g.lineTo(kx + i * kw, -0.735);
+}
+g.stroke();
+var pat = [1, 1, 0, 1, 1, 1, 0];
+g.fillStyle = "#120b08";
+for (var i2 = 0; i2 < 51; i2++) {
+  if (pat[(i2 + 5) % 7]) {
+    g.fillRect(kx + (i2 + 1) * kw - kw * 0.3, -0.78, kw * 0.6, 0.026);
+  }
+}
+g.fillStyle = "rgba(255,200,140," + 0.1 * Lt + ")";
+g.fillRect(kx, -0.78, 1.32, 0.045);
+g.fillStyle = "#24150f";
+g.fillRect(-0.72, -0.735, 1.44, 0.04);
+g.fillStyle = "rgba(255,190,120,0.12)";
+g.fillRect(-0.72, -0.735, 1.44, 0.006);
+g.fillStyle = "#2a1912";
+g.fillRect(-0.8, -0.88, 0.1, 0.19);
+g.fillRect(0.7, -0.88, 0.1, 0.19);
+var ug = g.createLinearGradient(0, -0.69, 0, -0.5);
+ug.addColorStop(0, "rgba(0,0,0,0.5)");
+ug.addColorStop(1, "rgba(0,0,0,0)");
+g.fillStyle = ug;
+g.fillRect(-0.75, -0.69, 1.5, 0.19);
+g.strokeStyle = "rgba(0,0,0,0.45)";
+g.lineWidth = 0.014;
+g.strokeRect(-0.6, -0.6, 1.2, 0.48);
+g.strokeStyle = "rgba(255,190,130,0.07)";
+g.lineWidth = 0.006;
+g.strokeRect(-0.58, -0.58, 1.16, 0.44);
+g.fillStyle = "#1a0f0b";
+g.fillRect(-0.77, -0.06, 1.54, 0.06);
+g.fillStyle = "#a8854a";
+for (var p = -1; p <= 1; p++) {
+  g.fillRect(p * 0.11 - 0.025, -0.05, 0.05, 0.014);
+}
+var gl = g.createLinearGradient(-0.5, 0, -0.2, 0);
+gl.addColorStop(0, "rgba(255,210,160,0)");
+gl.addColorStop(0.5, "rgba(255,210,160,0.07)");
+gl.addColorStop(1, "rgba(255,210,160,0)");
+g.fillStyle = gl;
+g.fillRect(-0.5, -1.27, 0.3, 0.4);
+g.fillRect(-0.5, -0.6, 0.3, 0.5);
+var tg = g.createRadialGradient(-0.45, -1.3, 0, -0.45, -1.3, 0.9);
+tg.addColorStop(0, "rgba(255,175,95," + 0.22 * Lt + ")");
+tg.addColorStop(1, "rgba(255,175,95,0)");
+g.fillStyle = tg;
+g.fillRect(-0.8, -1.33, 1.6, 0.9);
+g.fillStyle = "#4a3d33";
+g.fillRect(0.02, -1.37, 0.3, 0.04);
+g.fillStyle = "#34403d";
+g.fillRect(0.04, -1.405, 0.27, 0.035);
+g.fillStyle = "#5e3a2c";
+g.fillRect(0.03, -1.44, 0.25, 0.035);
+g.fillStyle = "#6e5430";
+g.beginPath();
+g.ellipse(-0.45, -1.34, 0.08, 0.015, 0, 0, 6.283);
+g.fill();
+g.strokeStyle = "#7d6036";
+g.lineWidth = 0.014;
+g.beginPath();
+g.moveTo(-0.45, -1.34);
+g.lineTo(-0.45, -1.6);
+g.stroke();
+g.fillStyle = "#8a6a3a";
+g.beginPath();
+g.moveTo(-0.58, -1.57);
+g.lineTo(-0.32, -1.57);
+g.quadraticCurveTo(-0.34, -1.7, -0.45, -1.71);
+g.quadraticCurveTo(-0.56, -1.7, -0.58, -1.57);
+g.fill();
+g.fillStyle = "rgba(255,215,150," + (0.2 + 0.75 * Lt) + ")";
+g.beginPath();
+g.ellipse(-0.45, -1.57, 0.13, 0.012, 0, 0, 6.283);
+g.fill();
+e.light(-0.45, -1.56, 1.3, "#ffb35c", 0.7 * Lt);
+g.fillStyle = "#a89a88";
+g.beginPath();
+g.moveTo(0.5, -1.33);
+g.quadraticCurveTo(0.44, -1.4, 0.5, -1.47);
+g.lineTo(0.5, -1.52);
+g.lineTo(0.56, -1.52);
+g.lineTo(0.56, -1.47);
+g.quadraticCurveTo(0.62, -1.4, 0.56, -1.33);
+g.closePath();
+g.fill();
+for (var q = 0; q < 6; q++) {
+  var a = -0.35 + q * 0.14 + (e.rnd() - 0.5) * 0.05;
+  var len = 0.55 + e.rnd() * 0.3;
+  var sw = Math.sin(t * 0.5 + q * 1.7) * 0.012 + Math.sin(t * 0.31 + q) * 0.008;
+  var tx = 0.53 + Math.sin(a) * len + sw * len * 4,
+    ty = -1.5 - Math.cos(a) * len;
+  g.strokeStyle = "#8c7a5e";
+  g.lineWidth = 0.006;
+  g.beginPath();
+  g.moveTo(0.53, -1.5);
+  g.quadraticCurveTo(0.53 + Math.sin(a) * len * 0.4, -1.5 - Math.cos(a) * len * 0.6, tx, ty);
+  g.stroke();
+  g.fillStyle = "rgba(212,190,150,0.55)";
+  g.save();
+  g.translate(tx, ty);
+  g.rotate(a + sw * 3);
+  g.beginPath();
+  g.ellipse(0, 0.05, 0.035, 0.12, 0, 0, 6.283);
+  g.fill();
+  g.restore();
+}
