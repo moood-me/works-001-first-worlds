@@ -1,0 +1,67 @@
+var t = e.t;
+var sw = Math.sin(t * 0.7) * 0.025 + Math.sin(t * 1.13 + 1) * 0.012;
+g.fillStyle = "#1e1a1e";
+g.fillRect(2.45, -1.75, 0.11, 2.35);
+g.fillRect(2.45, -1.75, 0.38, 0.06);
+g.fillStyle = "rgba(255,190,120,0.3)";
+g.fillRect(2.53, -1.69, 0.03, 2.25);
+var lx = 2.76 + sw,
+  ly = -1.38;
+g.strokeStyle = "#1e1a1e";
+g.lineWidth = 0.015;
+g.beginPath();
+g.moveTo(2.76, -1.69);
+g.lineTo(lx, ly - 0.2);
+g.stroke();
+var hg = g.createRadialGradient(lx, ly, 0, lx, ly, 0.7);
+hg.addColorStop(0, "rgba(255,205,140,0.55)");
+hg.addColorStop(0.35, "rgba(255,180,110,0.15)");
+hg.addColorStop(1, "rgba(255,180,110,0)");
+g.fillStyle = hg;
+g.beginPath();
+g.arc(lx, ly, 0.7, 0, 6.283);
+g.fill();
+g.fillStyle = "#ffd598";
+g.fillRect(lx - 0.07, ly - 0.12, 0.14, 0.22);
+var fl = 0.9 + 0.1 * Math.sin(t * 7.3) * Math.sin(t * 3.1);
+g.fillStyle = "#fff3d6";
+g.beginPath();
+g.ellipse(lx, ly + 0.0, 0.022 * fl, 0.05 * fl, 0, 0, 6.283);
+g.fill();
+g.strokeStyle = "#221d20";
+g.lineWidth = 0.022;
+g.strokeRect(lx - 0.07, ly - 0.12, 0.14, 0.22);
+g.beginPath();
+g.moveTo(lx, ly - 0.12);
+g.lineTo(lx, ly + 0.1);
+g.stroke();
+g.fillStyle = "#221d20";
+g.beginPath();
+g.moveTo(lx - 0.1, ly - 0.11);
+g.lineTo(lx, ly - 0.21);
+g.lineTo(lx + 0.1, ly - 0.11);
+g.closePath();
+g.fill();
+g.fillRect(lx - 0.09, ly + 0.1, 0.18, 0.035);
+e.light(lx, ly, 5, "#ffb46a", 1.1);
+g.globalCompositeOperation = "lighter";
+for (var i = 0; i < 20; i++) {
+  var yy = 0.68 + i * 0.105;
+  var w = (0.05 + 0.3 * (i / 20)) * (0.45 + 0.55 * Math.abs(Math.sin(t * 1.1 + i * 2.1)));
+  var a = 0.42 * (1 - i / 23) * (0.55 + 0.45 * Math.sin(t * 1.9 + i * 1.3));
+  g.globalAlpha = a;
+  g.fillStyle = "#ffbf78";
+  g.fillRect(lx - w / 2 + Math.sin(t * 0.8 + i) * 0.035, yy, w, 0.028);
+}
+g.globalCompositeOperation = "source-over";
+for (var k = 0; k < 2; k++) {
+  var an = t * (1.6 + k * 0.55) + k * 3;
+  var mx = lx + 0.28 * Math.cos(an) + 0.08 * Math.sin(t * 3.1 + k);
+  var my = ly - 0.05 + 0.18 * Math.sin(an * 1.3 + k);
+  g.globalAlpha = 0.75;
+  g.fillStyle = "#f3dfbe";
+  g.beginPath();
+  g.arc(mx, my, 0.012, 0, 6.283);
+  g.fill();
+}
+g.globalAlpha = 1;
