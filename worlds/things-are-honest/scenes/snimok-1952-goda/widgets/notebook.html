@@ -1,0 +1,23 @@
+<style>
+  .b { position: absolute; left: 0; bottom: 0; pointer-events: auto; }
+  .btn { width: 64px; height: 64px; border-radius: 50%; border: 1px solid rgba(255,207,138,.5); background: rgba(20,12,6,.7); cursor: pointer; font-size: 30px; }
+  .page { display: none; width: 440px; padding: 22px 24px 20px; box-sizing: border-box; border-radius: 4px; color: #2a2016; font: italic 19px/1.45 Georgia, serif;
+    background: repeating-linear-gradient(transparent 0 29px, rgba(58,47,120,.18) 29px 30px), linear-gradient(170deg, #efe2c2, #dcc99e);
+    box-shadow: 0 16px 40px rgba(0,0,0,.6); transform: rotate(-1.5deg); }
+  .open .page { display: block; } .open .btn { display: none; }
+  h3 { margin: 0 0 8px; font: 15px Georgia, serif; letter-spacing: .15em; text-transform: uppercase; color: #3a2f78; }
+  p { margin: 0 0 8px; } small { display: block; margin-top: 8px; font-style: normal; font-size: 14px; color: #6a5a40; cursor: pointer; }
+</style>
+<div class="b" id="b">
+  <button class="btn" id="o" title="Блокнот">📓</button>
+  <div class="page"><h3>Блокнот</h3>
+    <p>Ночь на 14 марта 1953 года. О ней не говорят.</p>
+    <p>С общей фотографии 1952 года аккуратно вырезан человек.</p>
+    <p>Спрашивай людей и вещи. Записывай. Предъявляй людям то, что сказали вещи.</p>
+    <small id="c">закрыть</small></div>
+</div>
+<script>
+  const b = root.getElementById('b');
+  root.getElementById('o').onclick = () => b.classList.add('open');
+  root.getElementById('c').onclick = () => b.classList.remove('open');
+</script>

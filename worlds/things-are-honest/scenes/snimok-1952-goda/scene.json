@@ -1,0 +1,108 @@
+{
+  "light": {
+    "haze": 0,
+    "tint": "#3a2412",
+    "grain": 0.35,
+    "vignette": 0.72,
+    "hazeColor": "#1a1008",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.15,
+    "prompts": [
+      {
+        "text": "ticking clock, sparse felt piano, quiet house at night, intimate",
+        "weight": 0.9
+      },
+      {
+        "text": "mysterious low strings and soft pulses, investigation, suspense without drama",
+        "weight": 0.6
+      },
+      {
+        "text": "solo cello, low and restrained, family grief, very slow",
+        "weight": 0.5
+      },
+      {
+        "text": "a slow Soviet-era waltz on a valve radio in another room, crackle, muffled, melancholic",
+        "weight": 0.35
+      },
+      {
+        "text": "music box lullaby, old, slightly out of tune",
+        "weight": 0
+      },
+      {
+        "text": "accordion, autumn village, warm and sad",
+        "weight": 0
+      },
+      {
+        "text": "choir hum, distant, like a memory",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.22
+  },
+  "state": {
+    "flip": 0,
+    "tremble": 0.3,
+    "back_text": "Дача, июнь 1952.\nВсе вместе.",
+    "lamp_glow": 0.8,
+    "paper_bend": 0.4,
+    "cutout_shape": "man",
+    "edge_details": "sleeve,button,collar,shadow",
+    "fingers_holding": "both",
+    "handwritten_back_hint": 0.35
+  },
+  "title": "Снимок 1952 года",
+  "camera": {
+    "look": 0,
+    "mode": "diorama"
+  },
+  "caption": "Вещь помнит, кого из неё вынули.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "room",
+      "sky": true,
+      "name": "Комната вне фокуса"
+    },
+    {
+      "id": "photo",
+      "sky": true,
+      "name": "Фотография 1952 года в руках"
+    },
+    {
+      "id": "motes",
+      "sky": true,
+      "name": "Пылинки в свете лампы"
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.97,
+      "id": "notebook",
+      "name": "Блокнот",
+      "width": 470,
+      "anchor": "bottom-left",
+      "height": 330
+    }
+  ],
+  "captions": [
+    {
+      "at": 1.5,
+      "for": 7,
+      "text": "Края волнистые — так обрезали в ателье. Бумага тёплая от лампы."
+    },
+    {
+      "at": 10,
+      "for": 8,
+      "text": "Ножницы шли по контуру медленно. Только у воротника рука дрогнула."
+    },
+    {
+      "at": 19,
+      "for": 8,
+      "text": "На плече женщины в белом осталась чужая рука."
+    }
+  ]
+}
