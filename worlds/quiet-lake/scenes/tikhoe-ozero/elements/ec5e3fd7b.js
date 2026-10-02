@@ -15,9 +15,9 @@ gr.addColorStop(0.885, "#dd8358");
 gr.addColorStop(0.954, "#f4ad6c");
 gr.addColorStop(1, "#ffd39a");
 g.fillStyle = gr;
-g.fillRect(-0.3, -0.4, A + 0.6, H + 0.405);
+g.fillRect(-0.35, -0.4, A + 0.7, H + 0.405);
 g.fillStyle = "#d88a60";
-g.fillRect(-0.3, H, A + 0.6, 0.8);
+g.fillRect(-0.35, H, A + 0.7, 0.8);
 for (var i = 0; i < 26; i++) {
   var sx = R() * A,
     sy = -0.35 + Math.pow(R(), 1.4) * 0.5,
