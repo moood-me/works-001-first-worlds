@@ -1,0 +1,11 @@
+g.fillStyle = "#18181e";
+g.fillRect(-27, -20 - e.rnd() * 8, 22.5, 28.4);
+g.fillRect(4.5, -16 - e.rnd() * 10, 22.5, 26.4);
+g.strokeStyle = "#101014";
+g.lineWidth = 0.25;
+g.beginPath();
+g.moveTo(-3.6, 0);
+g.lineTo(-3.6, -5);
+g.quadraticCurveTo(-3.6, -5.4, -3.1, -5.3);
+g.stroke();
+e.light(-3, -5.1, 5, "#e0a060", 0.45);

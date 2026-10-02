@@ -1,0 +1,28 @@
+const s = e.state,
+  t = e.t;
+const on = s.phone === "звонит" && Math.sin(t * 2.6) > 0;
+const fl = 0.93 + 0.04 * Math.sin(t * 29) * Math.sin(t * 2.3) + (on ? 0.12 : 0);
+g.fillStyle = "rgba(200,228,214,0.07)";
+g.fillRect(-0.55, -2.3, 1.1, 2.2);
+g.fillStyle = "rgba(230,240,235,0.06)";
+g.beginPath();
+g.moveTo(-0.5, -2.25);
+g.lineTo(-0.3, -2.25);
+g.lineTo(-0.5, -1.5);
+g.fill();
+g.fillStyle = "#1a1d1f";
+g.fillRect(-0.62, -2.48, 1.24, 0.2);
+g.fillRect(-0.6, -2.3, 0.07, 2.3);
+g.fillRect(0.53, -2.3, 0.07, 2.3);
+g.fillRect(-0.03, -2.3, 0.06, 2.3);
+for (const y of [-1.7, -1.05, -0.4]) g.fillRect(-0.6, y, 1.2, 0.045);
+g.fillRect(-0.6, -0.12, 1.2, 0.12);
+g.fillStyle = "rgba(222,236,226," + 0.6 * fl + ")";
+g.fillRect(-0.42, -2.45, 0.84, 0.13);
+g.fillStyle = "#1a1d1f";
+g.font = "bold 0.095px sans-serif";
+g.textAlign = "center";
+g.textBaseline = "middle";
+g.fillText("ТЕЛЕФОН", 0, -2.385);
+g.fillStyle = "rgba(200,215,220,0.12)";
+g.fillRect(-0.62, -2.5, 1.24, 0.025);

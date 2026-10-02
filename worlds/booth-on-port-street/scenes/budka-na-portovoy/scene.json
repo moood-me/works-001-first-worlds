@@ -1,1 +1,356 @@
-{}
+{
+  "light": {
+    "haze": 0.45,
+    "tint": "#2a3550",
+    "grain": 0.35,
+    "vignette": 0.62,
+    "hazeColor": "#24262d",
+    "tintStrength": 0.15
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "lonely tenor saxophone over slow brushed drums, late-night film noir, smoky and close-miked",
+        "weight": 1.4
+      },
+      {
+        "text": "sparse upright bass walking slowly, 1950s noir detective score, long pauses between notes",
+        "weight": 1
+      },
+      {
+        "text": "muted trumpet with harmon mute drifting over rain, nocturnal and melancholic",
+        "weight": 0.8
+      },
+      {
+        "text": "soft rain on asphalt and distant city hum blended into ambient pads",
+        "weight": 0.6
+      },
+      {
+        "text": "slow felt piano chords in a minor key, empty hotel lobby at 3 am",
+        "weight": 0.5
+      },
+      {
+        "text": "dark jazz in the style of Bohren und der Club of Gore, glacial tempo, vibraphone and bass",
+        "weight": 0
+      },
+      {
+        "text": "vibraphone notes ringing out in reverb, cool jazz, lonely city night",
+        "weight": 0
+      },
+      {
+        "text": "Angelo Badalamenti style dreamy noir synth pads, slow and ominous",
+        "weight": 0
+      },
+      {
+        "text": "cinematic string tremolo, low cellos, suspense of an unanswered phone",
+        "weight": 0
+      },
+      {
+        "text": "crackling vinyl record of a 1940s torch song instrumental, distant radio in an empty room",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi noir hip hop beat, dusty drums, rain, slow and introspective",
+        "weight": 0
+      },
+      {
+        "text": "solo clarinet in low register, blue and hesitant, film noir interlude",
+        "weight": 0
+      },
+      {
+        "text": "brushed snare and ride cymbal only, barely there, 3 am pulse",
+        "weight": 0
+      },
+      {
+        "text": "hammond organ held chords, smoky bar after closing time",
+        "weight": 0
+      },
+      {
+        "text": "distant foghorn tones and harbour ambience turned into a drone",
+        "weight": 0
+      },
+      {
+        "text": "detuned electric guitar with tremolo, slow surf noir, reverb-drenched",
+        "weight": 0
+      },
+      {
+        "text": "Miles Davis Ascenseur pour l'echafaud style improvised trumpet, nocturnal Paris noir",
+        "weight": 0
+      },
+      {
+        "text": "minimalist ambient piano with long sustain pedal, solitude and space",
+        "weight": 0
+      },
+      {
+        "text": "neo-noir synthwave, slow analog bass, neon reflections in rain",
+        "weight": 0
+      },
+      {
+        "text": "chamber jazz trio playing a slow ballad, quiet and introverted",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "car": "нет",
+    "man": "у фонаря",
+    "carX": 0,
+    "gone": 0,
+    "lamp": "горит",
+    "neon": "мигает",
+    "rain": 0.7,
+    "walk": 0,
+    "phone": "молчит",
+    "window": "свет",
+    "cigarette": true
+  },
+  "title": "Будка на Портовой",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Дождь, фонарь и будка, которая не звонит.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "небо"
+    },
+    {
+      "id": "port",
+      "box": [
+        -220,
+        -70,
+        220,
+        0.5
+      ],
+      "name": "порт вдали",
+      "color": "#15161c",
+      "across": 30,
+      "height": 40,
+      "distance": 170
+    },
+    {
+      "id": "street_far1",
+      "box": [
+        -27,
+        -30,
+        27,
+        0.4
+      ],
+      "name": "улица вдаль",
+      "across": 6,
+      "height": 22,
+      "distance": 32
+    },
+    {
+      "id": "street_far2",
+      "box": [
+        -27,
+        -30,
+        27,
+        0.4
+      ],
+      "name": "улица дальше",
+      "across": 6,
+      "height": 22,
+      "distance": 55
+    },
+    {
+      "id": "street_far3",
+      "box": [
+        -27,
+        -30,
+        27,
+        0.4
+      ],
+      "name": "конец улицы",
+      "across": 6,
+      "height": 22,
+      "distance": 90
+    },
+    {
+      "id": "cross_road",
+      "name": "переулок",
+      "color": "#0c0e12",
+      "depth": 96.6,
+      "plane": true,
+      "width": 9,
+      "across": 6,
+      "distance": 62
+    },
+    {
+      "id": "hotel",
+      "box": [
+        -15,
+        -12.2,
+        7.2,
+        0.4
+      ],
+      "name": "отель «Маяк»",
+      "color": "#16151a",
+      "across": -6,
+      "height": 11.5,
+      "distance": 18
+    },
+    {
+      "id": "corner",
+      "box": [
+        -0.3,
+        -10.5,
+        18,
+        0.4
+      ],
+      "name": "угловой дом",
+      "across": 11,
+      "height": 10,
+      "distance": 18
+    },
+    {
+      "id": "sidewalk",
+      "name": "тротуар",
+      "color": "#1a1b1f",
+      "depth": 4,
+      "plane": true,
+      "width": 22,
+      "across": -10,
+      "distance": 15.7,
+      "elevation": 0.12
+    },
+    {
+      "id": "sidewalk_r",
+      "name": "тротуар за углом",
+      "depth": 4,
+      "plane": true,
+      "width": 11,
+      "across": 16.5,
+      "distance": 15.7,
+      "elevation": 0.12
+    },
+    {
+      "id": "road",
+      "name": "мокрая мостовая",
+      "color": "#0c0e12",
+      "depth": 11.7,
+      "plane": true,
+      "width": 44,
+      "across": 0,
+      "distance": 7.85
+    },
+    {
+      "id": "lamp",
+      "box": [
+        -2.2,
+        -5.4,
+        3.6,
+        0.3
+      ],
+      "name": "фонарь",
+      "color": "#121317",
+      "across": -2.5,
+      "height": 5.2,
+      "distance": 14.6
+    },
+    {
+      "id": "man",
+      "box": [
+        -0.8,
+        -2.6,
+        7.6,
+        0.2
+      ],
+      "name": "человек в плаще",
+      "color": "#0b0c10",
+      "across": -1.6,
+      "height": 1.8,
+      "distance": 15
+    },
+    {
+      "id": "booth",
+      "box": [
+        -0.7,
+        -2.6,
+        0.7,
+        0.1
+      ],
+      "name": "телефонная будка",
+      "color": "#1a1d1f",
+      "across": 3.2,
+      "height": 2.5,
+      "distance": 14.8
+    },
+    {
+      "id": "rain_far",
+      "box": [
+        -14,
+        -7,
+        14,
+        0.2
+      ],
+      "name": "дождь у фонаря",
+      "across": -1.8,
+      "height": 7,
+      "distance": 14.2
+    },
+    {
+      "id": "car",
+      "box": [
+        -30,
+        -2.5,
+        30,
+        0.4
+      ],
+      "name": "машина",
+      "across": 0,
+      "height": 1.45,
+      "distance": 6
+    },
+    {
+      "id": "rain_near",
+      "box": [
+        -9,
+        -8,
+        9,
+        0.3
+      ],
+      "name": "дождь",
+      "across": 0,
+      "height": 8,
+      "distance": 3.5
+    },
+    {
+      "id": "booth_back",
+      "box": [
+        -1.7,
+        -2.7,
+        1.7,
+        0.3
+      ],
+      "name": "нутро будки",
+      "color": "#1a1d1f",
+      "across": 3.2,
+      "height": 2.5,
+      "distance": 15.2
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 6,
+      "text": "Три часа ночи. Порт спит."
+    },
+    {
+      "at": 10,
+      "for": 7,
+      "text": "Сорок минут телефон в будке молчит."
+    },
+    {
+      "at": 19,
+      "for": 7,
+      "text": "Он считает окна напротив. Горит одно."
+    }
+  ]
+}
