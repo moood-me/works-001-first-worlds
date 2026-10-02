@@ -8,13 +8,13 @@ gr.addColorStop(0.62, "#4a1670");
 gr.addColorStop(0.86, "#9c2a88");
 gr.addColorStop(1, "#f0489e");
 g.fillStyle = gr;
-g.fillRect(0, -0.35, w, h + 0.36);
+g.fillRect(-0.35, -0.35, w + 0.7, h + 0.36);
 var gb = g.createLinearGradient(0, h, 0, 1.25);
 gb.addColorStop(0, "#b8358c");
 gb.addColorStop(0.15, "#2a0f3e");
 gb.addColorStop(1, "#10061b");
 g.fillStyle = gb;
-g.fillRect(0, h, w, 1.25 - h);
+g.fillRect(-0.35, h, w + 0.7, 1.25 - h);
 g.globalCompositeOperation = "lighter";
 var cs = ["#ff3fa4", "#6a2cff", "#23b8e8"];
 for (var i = 0; i < 3; i++) {

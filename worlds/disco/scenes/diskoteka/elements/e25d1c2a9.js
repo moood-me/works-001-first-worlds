@@ -1,7 +1,7 @@
 var w = e.aspect,
   T = Math.PI * 2;
 for (var i = 0; i < 140; i++) {
-  var x = e.rnd() * w,
+  var x = e.rnd() * (w + 0.7) - 0.35,
     y = -0.35 + e.rnd() * 0.85,
     s = 0.0007 + e.rnd() * e.rnd() * 0.003,
     ph = e.rnd() * T,
