@@ -1,1 +1,343 @@
-{}
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#5a3a50",
+    "grain": 0.3,
+    "vignette": 0.5,
+    "hazeColor": "#6e5263",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 92,
+    "density": 0.4,
+    "prompts": [
+      {
+        "text": "tinny 1990s Russian synth-pop playing from a cheap cassette boombox in a courtyard, warbly worn tape, nostalgic",
+        "weight": 1.3
+      },
+      {
+        "text": "lazy summer evening lo-fi beat with cassette wow and flutter, crickets, distant traffic",
+        "weight": 0.9
+      },
+      {
+        "text": "post-punk 1980s Russian style, chorus guitar and steady bass, melancholic courtyard evening",
+        "weight": 0.6
+      },
+      {
+        "text": "deadpan slow waltz on a cheap Casio keyboard, tender and ironic",
+        "weight": 0.5
+      },
+      {
+        "text": "hard bass, pumping four-on-the-floor kick and rubbery synth bass, heard quietly from another yard",
+        "weight": 0.25
+      },
+      {
+        "text": "three-chord acoustic guitar strummed on a bench, street song, slightly out of tune",
+        "weight": 0
+      },
+      {
+        "text": "eurodance 1995 through blown speakers, cheesy synth stabs",
+        "weight": 0
+      },
+      {
+        "text": "soviet estrada brass band, comic and pompous",
+        "weight": 0
+      },
+      {
+        "text": "lazy dub reggae with spring reverb and deep bass",
+        "weight": 0
+      },
+      {
+        "text": "slow twangy surf guitar, dusk, reverb",
+        "weight": 0
+      },
+      {
+        "text": "8-bit chiptune melody like an old Dendy cartridge",
+        "weight": 0
+      },
+      {
+        "text": "balalaika pizzicato, comic and sneaky",
+        "weight": 0
+      },
+      {
+        "text": "tuba and accordion oompah, playful",
+        "weight": 0
+      },
+      {
+        "text": "ambient city evening drone, distant trams and dogs",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi hip hop with vinyl crackle, laid back",
+        "weight": 0
+      },
+      {
+        "text": "warm synthwave pads at sunset, slow",
+        "weight": 0
+      },
+      {
+        "text": "jazz brushes and upright bass, lounge, sleepy",
+        "weight": 0
+      },
+      {
+        "text": "italo disco bassline, 1980s drum machine, sunset glow",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.45
+  },
+  "state": {
+    "dusk": 0,
+    "lamp": "не горит",
+    "tape": "играет",
+    "zina": "на балконе",
+    "tries": 41,
+    "engine": "молчит",
+    "shells": 0.2
+  },
+  "title": "Копейка у гаражей",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Пятница, без двадцати девять. Копейку заводят с апреля.",
+  "horizon": 0.66,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "небо"
+    },
+    {
+      "x": 0.5,
+      "id": "dvor",
+      "name": "двор",
+      "color": "#2b262d",
+      "depth": 76,
+      "plane": true,
+      "width": 260,
+      "distance": 60
+    },
+    {
+      "x": 0.8,
+      "id": "devyatka",
+      "box": [
+        -22,
+        -30,
+        22,
+        0.5
+      ],
+      "name": "девятиэтажка",
+      "color": "#3e3a48",
+      "height": 28,
+      "distance": 70
+    },
+    {
+      "x": 0.15,
+      "id": "khrush",
+      "box": [
+        -15,
+        -16,
+        15,
+        0.5
+      ],
+      "name": "хрущёвка",
+      "color": "#5a4245",
+      "height": 15,
+      "distance": 28
+    },
+    {
+      "x": 0.15,
+      "id": "zina",
+      "box": [
+        2.9,
+        -6.2,
+        6.8,
+        0.2
+      ],
+      "name": "Баба Зина",
+      "height": 3,
+      "distance": 27.9
+    },
+    {
+      "x": 0.66,
+      "id": "garazhi",
+      "box": [
+        -11,
+        -3.6,
+        11,
+        0.3
+      ],
+      "name": "гаражи",
+      "height": 3,
+      "distance": 17
+    },
+    {
+      "x": 0.47,
+      "id": "fonar",
+      "box": [
+        -16,
+        -8,
+        13,
+        0.5
+      ],
+      "name": "фонарь",
+      "color": "#4a4650",
+      "height": 7.6,
+      "distance": 14
+    },
+    {
+      "x": 0.02,
+      "id": "topol",
+      "box": [
+        -7,
+        -15,
+        7,
+        0.3
+      ],
+      "name": "тополь",
+      "color": "#231e22",
+      "height": 14,
+      "distance": 11
+    },
+    {
+      "x": 0.5,
+      "id": "asfalt",
+      "name": "асфальт",
+      "color": "#2f2b31",
+      "depth": 22,
+      "plane": true,
+      "width": 60,
+      "distance": 13
+    },
+    {
+      "x": 0.6,
+      "id": "kopeyka",
+      "box": [
+        -2.8,
+        -2.6,
+        3.2,
+        0.3
+      ],
+      "name": "копейка",
+      "color": "#8c3b31",
+      "height": 1.5,
+      "distance": 10
+    },
+    {
+      "x": 0.6,
+      "id": "magnitola",
+      "box": [
+        -0.7,
+        -1.9,
+        0.5,
+        -0.3
+      ],
+      "name": "магнитола",
+      "color": "#26242a",
+      "height": 0.35,
+      "distance": 9.95
+    },
+    {
+      "x": 0.6,
+      "id": "serega",
+      "box": [
+        1.3,
+        -0.7,
+        3.3,
+        0.15
+      ],
+      "name": "Серёга (из-под машины)",
+      "height": 0.5,
+      "distance": 9.85
+    },
+    {
+      "id": "e54b2cccd",
+      "distance": 7.6
+    },
+    {
+      "id": "e847ad765",
+      "distance": 7.55
+    },
+    {
+      "x": 0.42,
+      "id": "ec6dc3316",
+      "distance": 6.2
+    },
+    {
+      "x": 0.79,
+      "id": "e7126e96e",
+      "distance": 8.2
+    },
+    {
+      "x": 0.27,
+      "id": "lavka",
+      "box": [
+        -1.1,
+        -1.1,
+        1.1,
+        0.2
+      ],
+      "name": "лавочка",
+      "color": "#4e6a48",
+      "height": 0.95,
+      "distance": 7.6
+    },
+    {
+      "x": 0.27,
+      "id": "tolyan",
+      "box": [
+        -0.6,
+        -1.8,
+        0.6,
+        0.1
+      ],
+      "name": "Толян",
+      "height": 1.7,
+      "distance": 7.55
+    },
+    {
+      "x": 0.42,
+      "id": "vitek",
+      "box": [
+        -0.6,
+        -1.2,
+        1.6,
+        0.12
+      ],
+      "name": "Витёк",
+      "height": 1.1,
+      "distance": 6.2
+    },
+    {
+      "x": 0.79,
+      "id": "baron",
+      "box": [
+        -0.8,
+        -0.7,
+        1,
+        0.1
+      ],
+      "name": "пёс Барон",
+      "color": "#7a6450",
+      "height": 0.5,
+      "distance": 8.2
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "Пятница, без двадцати девять. Копейку заводят с апреля."
+    },
+    {
+      "at": 11,
+      "for": 7,
+      "text": "Лавочка свободна: на ней не сидят, на ней стоят ногами."
+    },
+    {
+      "at": 20,
+      "for": 8,
+      "text": "Баба Зина всё видит. Баба Зина всё помнит. С девяносто третьего года."
+    }
+  ]
+}

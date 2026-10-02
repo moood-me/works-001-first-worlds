@@ -1,0 +1,64 @@
+const s = e.state,
+  t = e.t;
+let L = s.lamp === "горит" ? 1 : 0;
+if (s.lamp === "мигает") {
+  const n = Math.sin(t * 13.1) * Math.sin(t * 2.7) + 0.5 * Math.sin(t * 0.9);
+  L = n > 0.3 ? 0.1 : n > 0.1 ? 0.55 : 1;
+}
+g.strokeStyle = "rgba(25,22,28,0.8)";
+g.lineWidth = 0.025;
+g.beginPath();
+g.moveTo(-16, -6.2);
+g.quadraticCurveTo(-8, -5.6, 0, -6.9);
+g.quadraticCurveTo(6, -5.9, 13, -6.6);
+g.stroke();
+if (L > 0) {
+  let c = g.createLinearGradient(0, -7.3, 0, 0);
+  c.addColorStop(0, "rgba(255,200,130," + 0.16 * L + ")");
+  c.addColorStop(1, "rgba(255,200,130,0.02)");
+  g.fillStyle = c;
+  g.beginPath();
+  g.moveTo(1.1, -7.35);
+  g.lineTo(1.5, -7.35);
+  g.lineTo(3.8, 0);
+  g.lineTo(-1.2, 0);
+  g.closePath();
+  g.fill();
+  g.save();
+  g.translate(1.3, 0);
+  g.scale(1, 0.14);
+  let p = g.createRadialGradient(0, 0, 0, 0, 0, 3.4);
+  p.addColorStop(0, "rgba(255,200,130," + 0.35 * L + ")");
+  p.addColorStop(1, "rgba(255,200,130,0)");
+  g.fillStyle = p;
+  g.beginPath();
+  g.arc(0, 0, 3.4, 0, 7);
+  g.fill();
+  g.restore();
+  e.light(1.3, -7.35, 7, "#ffc070", 0.85 * L);
+}
+g.fillStyle = "#4a4650";
+g.beginPath();
+g.moveTo(-0.13, 0);
+g.lineTo(-0.08, -7.2);
+g.lineTo(0.08, -7.2);
+g.lineTo(0.13, 0);
+g.fill();
+g.fillStyle = "rgba(20,18,24,0.6)";
+for (let y = -6.6; y < -0.5; y += 0.7) g.fillRect(-0.025, y, 0.05, 0.12);
+g.fillStyle = "rgba(255,170,110,0.18)";
+g.fillRect(-0.12, -7.2, 0.05, 7.2);
+g.strokeStyle = "#38343e";
+g.lineWidth = 0.07;
+g.beginPath();
+g.moveTo(0, -7);
+g.quadraticCurveTo(0.15, -7.6, 1.15, -7.5);
+g.stroke();
+g.fillStyle = "#2e2a33";
+g.beginPath();
+g.ellipse(1.3, -7.46, 0.36, 0.1, 0, 0, 7);
+g.fill();
+g.fillStyle = "rgba(255,214,150," + (0.12 + 0.88 * L) + ")";
+g.beginPath();
+g.ellipse(1.3, -7.38, 0.24, 0.04, 0, 0, 7);
+g.fill();

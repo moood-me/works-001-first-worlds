@@ -1,0 +1,50 @@
+const s = e.state,
+  t = e.t,
+  en = s.engine;
+const tap = s.tape === "играет" ? Math.max(0, Math.sin((t * Math.PI * 92) / 60)) ** 4 * 0.04 : 0;
+const kick = en === "завелась" ? Math.abs(Math.sin(t * 6)) * 0.08 : 0;
+const kn = 0.05 * Math.sin(t * 0.7) + 0.03 * Math.sin(t * 1.9) + kick;
+g.fillStyle = "#1a191f";
+g.fillRect(1.55, -0.15, 1.25, 0.12);
+g.strokeStyle = "#1a191f";
+g.lineWidth = 0.12;
+g.lineCap = "round";
+g.beginPath();
+g.moveTo(1.6, -0.1);
+g.lineTo(2.2, -0.44 - kn);
+g.lineTo(2.55, -0.08);
+g.stroke();
+g.fillStyle = "rgba(240,240,240,0.85)";
+for (const o of [0, 0.02, 0.04]) g.fillRect(1.95, -0.15 + o, 0.82, 0.01);
+g.strokeStyle = "rgba(240,240,240,0.8)";
+g.lineWidth = 0.01;
+g.beginPath();
+for (const o of [0.05, 0.07]) {
+  g.moveTo(1.65, -0.15 + o - 0.1);
+  g.lineTo(2.2 - 0.03, -0.44 - kn - 0.05 + o);
+}
+g.stroke();
+g.fillStyle = "#e6e0d6";
+g.fillRect(2.78, -0.14, 0.06, 0.1);
+g.fillRect(2.5, -0.12, 0.06, 0.08);
+g.fillStyle = "#2c4f8a";
+g.save();
+g.translate(2.9, -0.09);
+g.rotate(-0.3 - tap * 4);
+g.beginPath();
+g.ellipse(0.02, -0.04, 0.05, 0.11, 0, 0, 7);
+g.fill();
+g.restore();
+g.beginPath();
+g.ellipse(2.62, -0.06, 0.11, 0.045, 0.1, 0, 7);
+g.fill();
+g.fillStyle = "#9a9aa2";
+g.save();
+g.translate(3.05, 0.04);
+g.rotate(0.4);
+g.fillRect(-0.12, -0.012, 0.24, 0.024);
+g.beginPath();
+g.arc(0.13, 0, 0.03, 0, 7);
+g.fill();
+g.restore();
+e.at(1.7, -0.4);
