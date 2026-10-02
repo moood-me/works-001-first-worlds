@@ -8,7 +8,7 @@ b.addColorStop(0, "rgba(240,198,166,0)");
 b.addColorStop(0.55, "rgba(240,198,166,0.5)");
 b.addColorStop(1, "rgba(240,198,166,0)");
 g.fillStyle = b;
-g.fillRect(-0.2, H0 - 0.025, W + 0.4, 0.045);
+g.fillRect(-0.35, H0 - 0.025, W + 0.7, 0.045);
 for (i = 0; i < 9; i++) {
   var w = 0.25 + e.rnd() * 0.35,
     v = 0.0015 + e.rnd() * 0.002,
