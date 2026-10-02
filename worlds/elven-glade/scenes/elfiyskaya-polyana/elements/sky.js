@@ -6,9 +6,9 @@ gr.addColorStop(0, "#050a17");
 gr.addColorStop(0.55, "#0d1b33");
 gr.addColorStop(1, "#1f3550");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, A + 0.2, hz + 0.41);
+g.fillRect(-0.35, -0.4, A + 0.7, hz + 0.41);
 for (var i = 0; i < 260; i++) {
-  var x = e.rnd() * A,
+  var x = e.rnd() * (A + 0.7) - 0.35,
     y = -0.35 + Math.pow(e.rnd(), 1.4) * (hz + 0.2),
     b = e.rnd();
   g.fillStyle = "rgba(225,235,255," + (0.2 + b * 0.6) * (1 - (y / hz) * 0.6) + ")";
@@ -38,6 +38,6 @@ var hg = g.createLinearGradient(0, hz - 0.12, 0, hz + 0.01);
 hg.addColorStop(0, "rgba(60,90,120,0)");
 hg.addColorStop(1, "rgba(70,105,135,0.6)");
 g.fillStyle = hg;
-g.fillRect(-0.1, hz - 0.12, A + 0.2, 0.13);
+g.fillRect(-0.35, hz - 0.12, A + 0.7, 0.13);
 g.fillStyle = "#0c1824";
-g.fillRect(-0.1, hz, A + 0.2, 1.3 - hz);
+g.fillRect(-0.35, hz, A + 0.7, 1.3 - hz);
