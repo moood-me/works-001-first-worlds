@@ -1,0 +1,16 @@
+g.fillStyle = "#1f222c";
+g.fillRect(-0.07, -4.1, 0.14, 4.1);
+g.fillRect(-0.16, -0.4, 0.32, 0.4);
+g.beginPath();
+g.moveTo(-0.28, -4.15);
+g.lineTo(0.28, -4.15);
+g.lineTo(0.18, -4.45);
+g.lineTo(-0.18, -4.45);
+g.closePath();
+g.fill();
+var gl = g.createRadialGradient(0, -4.05, 0.02, 0, -4.05, 0.3);
+gl.addColorStop(0, "rgba(255,226,170,1)");
+gl.addColorStop(1, "rgba(255,200,130,0)");
+g.fillStyle = gl;
+g.fillRect(-0.3, -4.35, 0.6, 0.6);
+e.light(0, -4.05, 7, "#ffd49a", 0.75);
