@@ -10,21 +10,21 @@ gr.addColorStop(0.625, "#f0a15c");
 gr.addColorStop(0.7, "#d98c58");
 gr.addColorStop(1, "#7a5040");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
 var sx = 0.76 * A;
 var hg = g.createRadialGradient(sx, 0.62, 0, sx, 0.62, A * 0.9);
 hg.addColorStop(0, "rgba(255,190,120,0.35)");
 hg.addColorStop(0.4, "rgba(240,140,90,0.12)");
 hg.addColorStop(1, "rgba(200,100,80,0)");
 g.fillStyle = hg;
-g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
 var cg = g.createRadialGradient(0, 0.6, 0, 0, 0.6, A * 0.7);
 cg.addColorStop(0, "rgba(90,60,90,0.25)");
 cg.addColorStop(1, "rgba(90,60,90,0)");
 g.fillStyle = cg;
-g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
 for (var i = 0; i < 80; i++) {
-  var x = e.rnd() * A,
+  var x = e.rnd() * (A + 0.7) - 0.35,
     y = -0.35 + e.rnd() * 0.62,
     s = e.rnd(),
     ph = e.rnd() * 6.28;
