@@ -1,0 +1,306 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#2b2233",
+    "grain": 0.3,
+    "vignette": 0.6,
+    "hazeColor": "#1b2438",
+    "tintStrength": 0.08
+  },
+  "music": {
+    "bpm": 62,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "close interior of a lighthouse lantern room at night, slow ambient piano, the soft tick of clockwork, rain ticking on glass",
+        "weight": 1.2
+      },
+      {
+        "text": "sparse cello and warm analog pads, maritime melancholy, very slow",
+        "weight": 0.8
+      },
+      {
+        "text": "rain against window panes, field recording under soft low drones, lo-fi tape hiss",
+        "weight": 0.5
+      },
+      {
+        "text": "distant ship horn and low brass swells over a dark sea",
+        "weight": 0.3
+      },
+      {
+        "text": "nordic folk accordion, gentle and tired, late night",
+        "weight": 0
+      },
+      {
+        "text": "minimal music box melody, lullaby, far away",
+        "weight": 0
+      },
+      {
+        "text": "dark ambient wind and low strings, storm building",
+        "weight": 0
+      },
+      {
+        "text": "soviet-era radio waltz, crackling, played quietly in another room",
+        "weight": 0
+      },
+      {
+        "text": "hopeful dawn strings, slow crescendo, sea at first light",
+        "weight": 0
+      },
+      {
+        "text": "solo glass harmonica, crystalline and slowly turning, like light through a lens",
+        "weight": 0
+      },
+      {
+        "text": "morse-like pulsing synth over a quiet pad, a signal sent across dark water",
+        "weight": 0
+      },
+      {
+        "text": "solo clarinet in the low register, tender and stubborn, a night watch",
+        "weight": 0
+      },
+      {
+        "text": "soft rhodes chords and barely-there brushed snare, slow jazz at two in the morning, kerosene warmth",
+        "weight": 0
+      },
+      {
+        "text": "bleak minimalist strings, a father waiting, restrained grief",
+        "weight": 0
+      },
+      {
+        "text": "tense low synth pulse, a searchlight sweeping the sea, cinematic suspense",
+        "weight": 0
+      },
+      {
+        "text": "quiet balalaika tremolo, slow, a russian coastal village asleep",
+        "weight": 0
+      },
+      {
+        "text": "foghorn drones and deep sea rumble, vast dark ambient",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "dawn": 0,
+    "lamp": 0.6,
+    "line": null,
+    "rain": 0.4,
+    "time": "00:40",
+    "watch": "Ночная вахта · сигнал",
+    "signal": null,
+    "krechet": 0.3,
+    "shutter": 0,
+    "weather": null,
+    "keeper_pose": "stand",
+    "fitil_present": true,
+    "krechet_flash": false,
+    "keeper_present": true,
+    "krechet_answer": null
+  },
+  "title": "Фонарная",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Под куполом маяка: линза, лампа, мокрые стёкла — и огни «Кречета» справа в море.",
+  "horizon": 0.46,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Ночное небо"
+    },
+    {
+      "x": 0.5,
+      "id": "sea-far",
+      "name": "Море",
+      "color": "#0b1322",
+      "depth": 4600,
+      "plane": true,
+      "width": 12000,
+      "distance": 2600,
+      "elevation": -30
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "name": "Море под маяком",
+      "color": "#0a1120",
+      "depth": 300,
+      "plane": true,
+      "width": 700,
+      "distance": 250,
+      "elevation": -30
+    },
+    {
+      "x": 0.68,
+      "id": "moonpath",
+      "box": [
+        -360,
+        -8,
+        360,
+        960
+      ],
+      "name": "Лунная дорожка",
+      "height": 160,
+      "distance": 2000,
+      "elevation": -30
+    },
+    {
+      "id": "rainout",
+      "box": [
+        -22,
+        -16,
+        22,
+        4
+      ],
+      "name": "Дождь за стеклом",
+      "across": 0,
+      "height": 12,
+      "distance": 9
+    },
+    {
+      "id": "krechet",
+      "box": [
+        -850,
+        -200,
+        320,
+        60
+      ],
+      "name": "«Кречет»",
+      "color": "#06080d",
+      "across": 420,
+      "height": 25,
+      "distance": 900,
+      "elevation": -30
+    },
+    {
+      "id": "lantern",
+      "box": [
+        -16,
+        -22,
+        16,
+        10
+      ],
+      "name": "Фонарная: стёкла, парапет, купол",
+      "color": "#0f0d0c",
+      "across": 0,
+      "height": 3.4,
+      "distance": 5.1
+    },
+    {
+      "id": "floor",
+      "name": "Чугунный пол",
+      "color": "#16120f",
+      "depth": 5.2,
+      "plane": true,
+      "width": 5.2,
+      "across": -0.25,
+      "distance": 2.6,
+      "elevation": 0
+    },
+    {
+      "id": "lens",
+      "box": [
+        -3,
+        -4.9,
+        3,
+        0.3
+      ],
+      "name": "Линза Френеля и керосиновая лампа",
+      "color": "#c8964f",
+      "across": -0.25,
+      "height": 2.9,
+      "flicker": 0.15,
+      "distance": 2.6
+    },
+    {
+      "id": "lensbeam",
+      "box": [
+        -14,
+        -6,
+        14,
+        6
+      ],
+      "name": "Лучи линзы",
+      "across": -0.25,
+      "height": 3,
+      "distance": 2.595
+    },
+    {
+      "id": "keeper",
+      "box": [
+        -1.6,
+        -2.4,
+        1.6,
+        1.5
+      ],
+      "name": "Савелий Андреич, смотритель",
+      "color": "#15110e",
+      "across": 0.6,
+      "height": 1.8,
+      "distance": 2.59
+    },
+    {
+      "id": "fitil",
+      "box": [
+        -0.25,
+        -0.42,
+        0.25,
+        0.35
+      ],
+      "name": "Кот Фитиль",
+      "color": "#121011",
+      "across": -1.92,
+      "height": 0.36,
+      "distance": 4.26,
+      "elevation": 1.05
+    },
+    {
+      "id": "table",
+      "name": "Столик с вахтенным журналом",
+      "color": "#2b1f16",
+      "depth": 0.56,
+      "plane": true,
+      "width": 0.72,
+      "across": 0.95,
+      "distance": 2.3,
+      "elevation": 0.75
+    },
+    {
+      "id": "tablelegs",
+      "box": [
+        -0.55,
+        -1,
+        0.45,
+        0.05
+      ],
+      "name": "Ножки столика",
+      "color": "#1b130d",
+      "across": 0.95,
+      "height": 0.75,
+      "distance": 2.02
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.03,
+      "id": "watch",
+      "name": "Вахта",
+      "width": 360,
+      "anchor": "top-left",
+      "height": 70
+    },
+    {
+      "x": 0.02,
+      "y": 0.12,
+      "id": "journal",
+      "name": "Вахтенный журнал",
+      "width": 560,
+      "anchor": "top-left",
+      "height": 760
+    }
+  ]
+}
