@@ -6,4 +6,4 @@ gr.addColorStop(0.4, "#8eaab7");
 gr.addColorStop(0.78, "#dccba2");
 gr.addColorStop(1, "#f2d9a6");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.35, A + 0.2, H + 0.37);
+g.fillRect(-0.35, -0.35, A + 0.7, H + 0.37);

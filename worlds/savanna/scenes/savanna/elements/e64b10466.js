@@ -7,7 +7,7 @@ r.addColorStop(0.12, "rgba(255,218,160,0.35)");
 r.addColorStop(0.45, "rgba(255,205,140,0.1)");
 r.addColorStop(1, "rgba(255,200,130,0)");
 g.fillStyle = r;
-g.fillRect(-0.1, -0.35, A + 0.2, 0.97);
+g.fillRect(-0.35, -0.35, A + 0.7, 0.97);
 let c = g.createRadialGradient(sx, sy, 0, sx, sy, 0.04);
 c.addColorStop(0, "#fffbee");
 c.addColorStop(0.55, "rgba(255,244,214,0.95)");

@@ -31,4 +31,4 @@ let hz = g.createLinearGradient(0, H - 0.05, 0, H);
 hz.addColorStop(0, "rgba(240,222,184,0)");
 hz.addColorStop(1, "rgba(240,222,184,0.55)");
 g.fillStyle = hz;
-g.fillRect(-0.1, H - 0.05, A + 0.2, 0.05);
+g.fillRect(-0.35, H - 0.05, A + 0.7, 0.05);
