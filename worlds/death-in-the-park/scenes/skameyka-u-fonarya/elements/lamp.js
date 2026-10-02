@@ -1,0 +1,79 @@
+var K = typeof globalThis !== "undefined" ? globalThis : {},
+  S = e.state || {},
+  st = S.stillness || 0,
+  W = K.__dpk,
+  w;
+if (W) {
+  var dt = e.t - W.l;
+  if (dt > 0 && dt < 0.5) W.w += dt * (1 - st);
+  if (dt !== 0) W.l = e.t;
+  w = W.w;
+} else {
+  K.__dpk = { w: e.t, l: e.t };
+  w = e.t * (1 - st);
+}
+var L = S.lamp == null ? 0.75 : S.lamp,
+  X = -1.15,
+  C = "#131219";
+var hz = g.createRadialGradient(X, -3.5, 0, X, -3.5, 4.2);
+hz.addColorStop(0, "rgba(255,200,135," + 0.14 * L + ")");
+hz.addColorStop(1, "rgba(255,200,135,0)");
+g.fillStyle = hz;
+g.fillRect(X - 4.2, -7.7, 8.4, 7.8);
+g.fillStyle = C;
+g.beginPath();
+g.moveTo(X - 0.07, 0);
+g.lineTo(X + 0.07, 0);
+g.lineTo(X + 0.045, -3.3);
+g.lineTo(X - 0.045, -3.3);
+g.closePath();
+g.fill();
+g.beginPath();
+g.moveTo(X - 0.14, 0);
+g.lineTo(X + 0.14, 0);
+g.quadraticCurveTo(X + 0.12, -0.25, X + 0.07, -0.4);
+g.lineTo(X - 0.07, -0.4);
+g.quadraticCurveTo(X - 0.12, -0.25, X - 0.14, 0);
+g.fill();
+g.fillRect(X - 0.07, -2.95, 0.14, 0.05);
+g.fillStyle = "rgba(255,190,120," + 0.18 * L + ")";
+g.fillRect(X - 0.07, -2.95, 0.14, 0.012);
+g.beginPath();
+g.moveTo(X - 0.1, -3.3);
+g.lineTo(X + 0.1, -3.3);
+g.lineTo(X + 0.17, -3.72);
+g.lineTo(X - 0.17, -3.72);
+g.closePath();
+var lg = g.createRadialGradient(X, -3.52, 0, X, -3.52, 0.25);
+lg.addColorStop(0, "rgba(255,244,214," + (0.4 + 0.6 * L) + ")");
+lg.addColorStop(1, "rgba(232,160,80," + (0.3 + 0.6 * L) + ")");
+g.fillStyle = lg;
+g.fill();
+g.strokeStyle = C;
+g.lineWidth = 0.025;
+g.stroke();
+g.beginPath();
+g.moveTo(X, -3.3);
+g.lineTo(X, -3.72);
+g.stroke();
+g.fillStyle = C;
+g.beginPath();
+g.moveTo(X - 0.24, -3.72);
+g.quadraticCurveTo(X, -3.97, X + 0.24, -3.72);
+g.closePath();
+g.fill();
+g.fillRect(X - 0.015, -4.02, 0.03, 0.12);
+var ha = g.createRadialGradient(X, -3.52, 0, X, -3.52, 0.9);
+ha.addColorStop(0, "rgba(255,220,170," + 0.35 * L + ")");
+ha.addColorStop(1, "rgba(255,220,170,0)");
+g.fillStyle = ha;
+g.beginPath();
+g.arc(X, -3.52, 0.9, 0, Math.PI * 2);
+g.fill();
+e.light(X, -3.52, 2.5 + 3 * L, "#ffc47a", 0.25 + 0.75 * L);
+var mx = X + Math.sin(w * 2.3) * 0.35 + Math.sin(w * 3.7) * 0.12,
+  my = -3.5 + Math.sin(w * 1.9 + 1) * 0.25 + Math.cos(w * 2.9) * 0.1;
+g.fillStyle = "rgba(235,220,195," + (0.3 + 0.5 * L) + ")";
+g.beginPath();
+g.ellipse(mx, my, 0.022, 0.012, Math.sin(w * 9), 0, Math.PI * 2);
+g.fill();

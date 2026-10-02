@@ -1,0 +1,199 @@
+{
+  "light": {
+    "haze": 0.4,
+    "tint": "#2a3360",
+    "grain": 0.3,
+    "vignette": 0.65,
+    "hazeColor": "#2e3552",
+    "tintStrength": 0.12
+  },
+  "state": {
+    "gap": 3.96,
+    "met": false,
+    "lamp": 0.75,
+    "offer": "none",
+    "hero_x": -2.6,
+    "death_x": 1.36,
+    "hero_to": -2.6,
+    "death_to": 1.36,
+    "hero_look": "death",
+    "hero_pose": "stand",
+    "stillness": 0,
+    "death_look": "ahead",
+    "death_pose": "sit",
+    "hero_moving": false,
+    "death_moving": false
+  },
+  "title": "Скамейка у фонаря",
+  "camera": {
+    "mode": "walk",
+    "follow": [
+      "hero"
+    ]
+  },
+  "caption": "Скамейка под фонарём. Место для двоих.",
+  "horizon": 0.45,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Синий вечер"
+    },
+    {
+      "x": 0.5,
+      "id": "lawn",
+      "name": "Пустой газон",
+      "color": "#1a2125",
+      "depth": 92,
+      "plane": true,
+      "width": 260,
+      "distance": 46
+    },
+    {
+      "x": 0.5,
+      "id": "trees",
+      "box": [
+        -110,
+        -22,
+        110,
+        1
+      ],
+      "name": "Деревья парка",
+      "color": "#14162a",
+      "height": 18,
+      "distance": 48
+    },
+    {
+      "x": 0.5,
+      "id": "lamps",
+      "box": [
+        -30,
+        -4.5,
+        30,
+        0.4
+      ],
+      "name": "Дальние фонари",
+      "color": "#ffd9a0",
+      "height": 3.8,
+      "flicker": 0.05,
+      "distance": 30
+    },
+    {
+      "x": 0.5,
+      "id": "mist",
+      "box": [
+        -60,
+        -3,
+        60,
+        0.6
+      ],
+      "name": "Туман над газоном",
+      "color": "#465078",
+      "height": 3,
+      "distance": 22
+    },
+    {
+      "x": 0.5,
+      "id": "near_trees",
+      "box": [
+        -8,
+        -13,
+        8,
+        0.4
+      ],
+      "name": "Старые деревья у скамейки",
+      "color": "#100f17",
+      "height": 9,
+      "distance": 7
+    },
+    {
+      "x": 0.5,
+      "id": "lamp",
+      "box": [
+        -5.5,
+        -8,
+        3.5,
+        0.3
+      ],
+      "name": "Фонарь у скамейки",
+      "color": "#ffcf86",
+      "height": 4,
+      "flicker": 0.06,
+      "distance": 5.7
+    },
+    {
+      "x": 0.5,
+      "id": "path",
+      "name": "Мокрая дорожка",
+      "color": "#44444b",
+      "depth": 3.3,
+      "plane": true,
+      "width": 40,
+      "distance": 3.3,
+      "elevation": 0.01
+    },
+    {
+      "x": 0.5,
+      "id": "bench",
+      "box": [
+        -0.8,
+        -1.1,
+        3,
+        0.4
+      ],
+      "name": "Скамейка",
+      "color": "#3a2a21",
+      "height": 0.95,
+      "distance": 5.15
+    },
+    {
+      "x": 0.5,
+      "id": "death",
+      "box": [
+        -7.5,
+        -2.4,
+        7.5,
+        0.5
+      ],
+      "name": "Смерть",
+      "color": "#121118",
+      "height": 1.95,
+      "distance": 4.95
+    },
+    {
+      "x": 0.5,
+      "id": "hero",
+      "box": [
+        -7.5,
+        -2.1,
+        7.5,
+        0.5
+      ],
+      "name": "Ты",
+      "color": "#3a3d45",
+      "height": 1.75,
+      "distance": 4.95
+    },
+    {
+      "x": 0.5,
+      "id": "leaves",
+      "box": [
+        -4,
+        -5.2,
+        4,
+        0.3
+      ],
+      "name": "Падающие листья",
+      "color": "#9a6a2a",
+      "height": 5,
+      "distance": 3.6
+    }
+  ],
+  "captions": [
+    {
+      "at": 14,
+      "for": 7,
+      "text": "Пар от дыхания — только у тебя."
+    }
+  ]
+}
