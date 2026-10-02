@@ -1,0 +1,232 @@
+{
+  "light": {
+    "haze": 0.5,
+    "tint": "#2c2a48",
+    "grain": 0.32,
+    "vignette": 0.68,
+    "hazeColor": "#2e2c3e",
+    "tintStrength": 0.14
+  },
+  "state": {
+    "dusk": 0.3,
+    "gate": 0,
+    "mist": 0.25,
+    "lamps": 1,
+    "hero_x": -5,
+    "at_gate": false,
+    "death_x": -12,
+    "flicker": 0.2,
+    "hero_face": 1,
+    "gate_locked": true,
+    "hero_action": "stand",
+    "death_action": "follow",
+    "hero_through": 0,
+    "mist_gathers": false,
+    "death_through": 0
+  },
+  "title": "У ворот парка",
+  "camera": {
+    "mode": "walk",
+    "follow": [
+      "hero",
+      "death"
+    ]
+  },
+  "caption": "Ворота впереди. Кто-то — позади.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Темнеющее небо"
+    },
+    {
+      "x": 0.5,
+      "id": "lawn",
+      "name": "Газон",
+      "color": "#1c201b",
+      "depth": 120,
+      "plane": true,
+      "width": 200,
+      "distance": 60
+    },
+    {
+      "x": 0.5,
+      "id": "trees",
+      "box": [
+        -90,
+        -20,
+        90,
+        1
+      ],
+      "name": "Деревья в глубине парка",
+      "color": "#15131a",
+      "height": 16,
+      "distance": 30
+    },
+    {
+      "x": 0.5,
+      "id": "beyond",
+      "box": [
+        -4,
+        -9,
+        17,
+        1
+      ],
+      "name": "Бледный свет за воротами",
+      "color": "#c8d2e0",
+      "height": 6,
+      "distance": 20
+    },
+    {
+      "x": 0.5,
+      "id": "mist_far",
+      "box": [
+        -50,
+        -5,
+        50,
+        0.5
+      ],
+      "name": "Туман за оградой",
+      "color": "#8a8698",
+      "height": 4,
+      "distance": 13
+    },
+    {
+      "x": 0.5,
+      "id": "path",
+      "name": "Мокрая дорожка",
+      "color": "#4e4842",
+      "depth": 7,
+      "plane": true,
+      "width": 70,
+      "distance": 10.5,
+      "elevation": 0.01
+    },
+    {
+      "x": 0.5,
+      "id": "lamps",
+      "box": [
+        -12,
+        -4.2,
+        4,
+        0.2
+      ],
+      "name": "Фонари вдоль дорожки",
+      "color": "#ffcf86",
+      "height": 3.6,
+      "distance": 10.6
+    },
+    {
+      "x": 0.5,
+      "id": "fence",
+      "box": [
+        -45,
+        -3.2,
+        45,
+        0.3
+      ],
+      "name": "Ограда и ворота",
+      "color": "#0f0e13",
+      "height": 2.6,
+      "distance": 11.5
+    },
+    {
+      "x": 0.5,
+      "id": "gate_lamps",
+      "box": [
+        3,
+        -3.6,
+        10,
+        0.3
+      ],
+      "name": "Фонари на столбах ворот",
+      "color": "#ffcf86",
+      "height": 3.3,
+      "distance": 11.45
+    },
+    {
+      "x": 0.5,
+      "id": "death",
+      "box": [
+        -20,
+        -2.8,
+        20,
+        0.3
+      ],
+      "name": "Смерть",
+      "color": "#0e0d12",
+      "height": 2.1,
+      "distance": 9.25
+    },
+    {
+      "x": 0.5,
+      "id": "hero",
+      "box": [
+        -13,
+        -2.2,
+        13,
+        0.3
+      ],
+      "name": "Ты",
+      "color": "#3c3f46",
+      "height": 1.75,
+      "distance": 9
+    },
+    {
+      "x": 0.5,
+      "id": "mist_low",
+      "box": [
+        -16,
+        -1.4,
+        16,
+        0.4
+      ],
+      "name": "Низкий туман у земли",
+      "color": "#7a7688",
+      "height": 1,
+      "distance": 8.3
+    },
+    {
+      "x": 0.5,
+      "id": "leaves",
+      "box": [
+        -11,
+        -7,
+        11,
+        0.3
+      ],
+      "name": "Падающие листья",
+      "color": "#8a5a26",
+      "height": 6,
+      "distance": 8
+    },
+    {
+      "x": 0.5,
+      "id": "near_trees",
+      "box": [
+        -12,
+        -16,
+        12,
+        0.5
+      ],
+      "name": "Ближние стволы",
+      "sway": 0.3,
+      "color": "#120f14",
+      "height": 14,
+      "distance": 6.5
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 6,
+      "text": "Дорожка раздваивается у ворот."
+    },
+    {
+      "at": 10,
+      "for": 7,
+      "text": "Фонарь у калитки гаснет и снова вспоминает, что он фонарь."
+    }
+  ]
+}
