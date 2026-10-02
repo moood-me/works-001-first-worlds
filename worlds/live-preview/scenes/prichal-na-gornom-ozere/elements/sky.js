@@ -8,15 +8,15 @@ gr.addColorStop(0.75, "#5d5873");
 gr.addColorStop(0.93, "#a38083");
 gr.addColorStop(1, "#bf9282");
 g.fillStyle = gr;
-g.fillRect(0, -0.35, A, H + 0.36);
+g.fillRect(-0.35, -0.35, A + 0.7, H + 0.36);
 var rg = g.createRadialGradient(A * 0.68, H, 0, A * 0.68, H, 0.55);
 rg.addColorStop(0, "rgba(236,176,136,0.38)");
 rg.addColorStop(0.5, "rgba(200,140,130,0.12)");
 rg.addColorStop(1, "rgba(200,140,130,0)");
 g.fillStyle = rg;
-g.fillRect(0, -0.35, A, H + 0.36);
+g.fillRect(-0.35, -0.35, A + 0.7, H + 0.36);
 for (var i = 0; i < 80; i++) {
-  var x = e.rnd() * A,
+  var x = e.rnd() * (A + 0.7) - 0.35,
     y = -0.35 + e.rnd() * (H + 0.1),
     b = e.rnd();
   var tw = 0.65 + 0.35 * Math.sin(t * (0.3 + b * 0.7) + i * 2.3);
@@ -45,7 +45,7 @@ wg.addColorStop(0.06, "#6a6278");
 wg.addColorStop(0.3, "#363a55");
 wg.addColorStop(1, "#151a2a");
 g.fillStyle = wg;
-g.fillRect(0, H, A, 1.26 - H);
+g.fillRect(-0.35, H, A + 0.7, 1.26 - H);
 var sg = g.createRadialGradient(A * 0.68, H, 0, A * 0.68, H, 0.45);
 sg.addColorStop(0, "rgba(236,176,136,0.25)");
 sg.addColorStop(1, "rgba(236,176,136,0)");
