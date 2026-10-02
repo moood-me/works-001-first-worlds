@@ -7,10 +7,10 @@ gr.addColorStop(0.475, "#c98568");
 gr.addColorStop(0.5, "#4a3a50");
 gr.addColorStop(1, "#120f18");
 g.fillStyle = gr;
-g.fillRect(-0.2, -0.35, W + 0.4, 1.6);
+g.fillRect(-0.35, -0.35, W + 0.7, 1.6);
 g.fillStyle = "#f3e6d0";
 for (var i = 0; i < 40; i++) {
-  var x = e.rnd() * W,
+  var x = e.rnd() * (W + 0.7) - 0.35,
     y = -0.35 + e.rnd() * 0.5;
   g.globalAlpha = 0.2 + e.rnd() * 0.4;
   g.beginPath();
@@ -18,7 +18,7 @@ for (var i = 0; i < 40; i++) {
   g.fill();
 }
 for (var j = 0; j < 260; j++) {
-  var x2 = e.rnd() * W,
+  var x2 = e.rnd() * (W + 0.7) - 0.35,
     y2 = 0.43 + Math.pow(e.rnd(), 1.5) * 0.4;
   g.globalAlpha = 0.25 + e.rnd() * 0.5;
   g.fillStyle = e.rnd() < 0.8 ? "#ffb870" : "#d8e0ff";
