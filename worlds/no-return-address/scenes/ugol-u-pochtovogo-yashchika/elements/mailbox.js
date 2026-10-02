@@ -1,0 +1,33 @@
+var s = e.state;
+g.fillStyle = "#14161a";
+g.fillRect(-0.04, -0.6, 0.08, 0.6);
+var bg = g.createLinearGradient(-0.3, 0, 0.3, 0);
+bg.addColorStop(0, "#2a3340");
+bg.addColorStop(1, "#151a21");
+g.fillStyle = bg;
+g.beginPath();
+g.moveTo(-0.28, -0.55);
+g.lineTo(-0.28, -1.0);
+g.quadraticCurveTo(0, -1.25, 0.28, -1.0);
+g.lineTo(0.28, -0.55);
+g.closePath();
+g.fill();
+g.fillStyle = "#07080a";
+g.fillRect(-0.15, -0.98, 0.3, 0.035);
+g.strokeStyle = "rgba(240,190,120," + 0.3 * s.lamp + ")";
+g.lineWidth = 0.015;
+g.beginPath();
+g.moveTo(-0.27, -1.0);
+g.quadraticCurveTo(-0.15, -1.13, 0, -1.15);
+g.stroke();
+g.fillStyle = "rgba(200,190,170,0.35)";
+g.fillRect(-0.1, -0.82, 0.2, 0.08);
+if (s.letter === "на мостовой") {
+  g.save();
+  g.translate(0.5, -0.01);
+  g.scale(1, 0.35);
+  g.rotate(0.3);
+  g.fillStyle = "#bdb5a2";
+  g.fillRect(-0.11, -0.07, 0.22, 0.14);
+  g.restore();
+}

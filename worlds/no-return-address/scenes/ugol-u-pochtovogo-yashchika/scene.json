@@ -1,1 +1,252 @@
-{}
+{
+  "light": {
+    "haze": 0.45,
+    "tint": "#1a2a3a",
+    "grain": 0.35,
+    "vignette": 0.62,
+    "hazeColor": "#2b3038",
+    "tintStrength": 0.15
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.35,
+    "prompts": [
+      {
+        "text": "1940s film noir score, muted trumpet solo over brushed snare, smoky and slow",
+        "weight": 1.4
+      },
+      {
+        "text": "late-night jazz trio, upright bass walking slowly, sparse piano chords, rain-soaked city",
+        "weight": 1.2
+      },
+      {
+        "text": "lonely tenor saxophone ballad, breathy, lots of reverb, 2am bar after closing",
+        "weight": 0.8
+      },
+      {
+        "text": "suspenseful string tremolo, low cellos, detective film tension",
+        "weight": 0.5
+      },
+      {
+        "text": "vibraphone with soft mallets, minor ninth chords, mysterious and cool",
+        "weight": 0
+      },
+      {
+        "text": "dark ambient drone with distant city hum and rain texture",
+        "weight": 0
+      },
+      {
+        "text": "Bernard Herrmann style psychological thriller strings, staccato and uneasy",
+        "weight": 0
+      },
+      {
+        "text": "cool jazz quartet, 1950s West Coast, muted trumpet and baritone sax",
+        "weight": 0
+      },
+      {
+        "text": "solo piano in an empty hotel lobby, slow rubato, minor key, dusty",
+        "weight": 0
+      },
+      {
+        "text": "trip-hop noir beat, vinyl crackle, slow broken drums, Rhodes piano",
+        "weight": 0
+      },
+      {
+        "text": "theremin melody over low organ, eerie 1950s mystery",
+        "weight": 0
+      },
+      {
+        "text": "harp glissandi and celesta, secret letter being opened, delicate suspense",
+        "weight": 0
+      },
+      {
+        "text": "bowed double bass and pizzicato ticking like a clock, footsteps in the dark",
+        "weight": 0
+      },
+      {
+        "text": "Ennio Morricone style whistling melody, distant and melancholic",
+        "weight": 0
+      },
+      {
+        "text": "Chet Baker style trumpet and quiet guitar, romantic and tired",
+        "weight": 0
+      },
+      {
+        "text": "slow blues guitar with tremolo amp, smoky, sparse",
+        "weight": 0
+      },
+      {
+        "text": "1950s French cinema jazz, improvised muted trumpet over an empty elevator shaft of reverb",
+        "weight": 0
+      },
+      {
+        "text": "minimal music box melody, slightly out of tune, a kept secret",
+        "weight": 0
+      },
+      {
+        "text": "low brass swells and timpani rolls, a revelation in a dark room",
+        "weight": 0
+      },
+      {
+        "text": "neo-noir synthwave, analog pads, slow arpeggio, wet neon streets",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "car": false,
+    "lamp": 1,
+    "rain": 0.7,
+    "woman": "у ящика",
+    "letter": "в руке",
+    "watcher": true
+  },
+  "title": "Угол у почтового ящика",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Письмо без обратного адреса",
+  "horizon": 0.58,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Ночное небо"
+    },
+    {
+      "x": 0.5,
+      "id": "city",
+      "box": [
+        -90,
+        -40,
+        90,
+        1
+      ],
+      "name": "Город",
+      "height": 25,
+      "distance": 70
+    },
+    {
+      "x": 0.5,
+      "id": "fog",
+      "box": [
+        -60,
+        -6,
+        60,
+        0.5
+      ],
+      "name": "Туман",
+      "height": 4,
+      "distance": 30
+    },
+    {
+      "x": 0.5,
+      "id": "street",
+      "name": "Мокрая мостовая",
+      "depth": 40,
+      "plane": true,
+      "width": 60,
+      "distance": 20
+    },
+    {
+      "x": 0.86,
+      "id": "house",
+      "box": [
+        -5,
+        -17,
+        9,
+        0.3
+      ],
+      "name": "Дом напротив",
+      "height": 16,
+      "distance": 11
+    },
+    {
+      "x": 0.33,
+      "id": "lamp",
+      "box": [
+        -1.5,
+        -5.3,
+        2.5,
+        0.2
+      ],
+      "name": "Фонарь",
+      "height": 5,
+      "flicker": 0.12,
+      "reflect": true,
+      "distance": 8.5
+    },
+    {
+      "x": 0.485,
+      "id": "mailbox",
+      "box": [
+        -0.6,
+        -1.4,
+        0.9,
+        0.15
+      ],
+      "name": "Почтовый ящик",
+      "height": 1.2,
+      "reflect": true,
+      "distance": 7.4
+    },
+    {
+      "x": 0.43,
+      "id": "woman",
+      "box": [
+        -1.5,
+        -2,
+        1,
+        0.15
+      ],
+      "name": "Женщина в плаще",
+      "height": 1.75,
+      "reflect": true,
+      "distance": 7.5
+    },
+    {
+      "x": 0.03,
+      "id": "corner",
+      "box": [
+        -3,
+        -9,
+        1.2,
+        0.3
+      ],
+      "name": "Угол дома",
+      "height": 8,
+      "distance": 4
+    },
+    {
+      "x": 0.5,
+      "id": "rain",
+      "box": [
+        -10,
+        -8,
+        10,
+        0.3
+      ],
+      "name": "Дождь",
+      "height": 7,
+      "distance": 6
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "Дождь знает все адреса."
+    },
+    {
+      "at": 11,
+      "for": 7,
+      "text": "Она пишет без обратного."
+    },
+    {
+      "at": 21,
+      "for": 8,
+      "text": "В окне напротив кто-то не спит."
+    }
+  ]
+}
