@@ -5,7 +5,7 @@ gr.addColorStop(0, "#6aaee4");
 gr.addColorStop(0.6, "#9fcbec");
 gr.addColorStop(1, "#f7e4c4");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, A + 0.2, hz + 0.41);
+g.fillRect(-0.35, -0.4, A + 0.7, hz + 0.41);
 const sx = A * 0.2,
   sy = hz - 0.2;
 const s = g.createRadialGradient(sx, sy, 0.005, sx, sy, 0.3);
@@ -19,7 +19,7 @@ g.arc(sx, sy, 0.025, 0, 7);
 g.fill();
 g.fillStyle = "rgba(255,255,255,0.75)";
 for (let i = 0; i < 6; i++) {
-  const cx = e.rnd() * A,
+  const cx = e.rnd() * (A + 0.7) - 0.35,
     cy = -0.2 + e.rnd() * 0.45,
     k = 0.03 + e.rnd() * 0.03;
   for (let j = 0; j < 5; j++) {
@@ -29,4 +29,4 @@ for (let i = 0; i < 6; i++) {
   }
 }
 g.fillStyle = "#7ea88a";
-g.fillRect(-0.1, hz, A + 0.2, 1.3 - hz);
+g.fillRect(-0.35, hz, A + 0.7, 1.3 - hz);
