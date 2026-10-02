@@ -1,1 +1,260 @@
-{}
+{
+  "light": {
+    "haze": 0.4,
+    "tint": "#3a5a8a",
+    "grain": 0.3,
+    "vignette": 0.6,
+    "hazeColor": "#1a2638",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "dark ambient fantasy, low bowed cello drones, distant wind through fir trees, mysterious and patient",
+        "weight": 1.4
+      },
+      {
+        "text": "glass harmonica shimmering softly, slow eerie intervals, sense of a secret beneath the ground",
+        "weight": 1.1
+      },
+      {
+        "text": "music box melody slowed down and reverberating from deep inside a stone well",
+        "weight": 0.9
+      },
+      {
+        "text": "celesta and harp arpeggios, sparse, like cold light rising in mist",
+        "weight": 0.6
+      },
+      {
+        "text": "nordic folk nyckelharpa playing a hushed modal tune at midnight",
+        "weight": 0
+      },
+      {
+        "text": "deep sub bass pulses like a slow heartbeat under the earth",
+        "weight": 0
+      },
+      {
+        "text": "breathy wooden flute, distant and lonely, long reverb tails",
+        "weight": 0
+      },
+      {
+        "text": "ethereal choir pads without words, very soft, ghostly whisper texture",
+        "weight": 0
+      },
+      {
+        "text": "dulcimer plucked gently, medieval mystery, candlelit chamber",
+        "weight": 0
+      },
+      {
+        "text": "granular textures of dripping water and metallic chimes, ambient electronic",
+        "weight": 0
+      },
+      {
+        "text": "slow detuned felt piano, intimate, mysterious lullaby",
+        "weight": 0
+      },
+      {
+        "text": "tibetan singing bowls resonating, low and meditative",
+        "weight": 0
+      },
+      {
+        "text": "string quartet tremolo sul ponticello, suspenseful, quiet",
+        "weight": 0
+      },
+      {
+        "text": "old fantasy film score, french horn swelling from a distance, awe and unease",
+        "weight": 0
+      },
+      {
+        "text": "kalimba notes falling like water drops into a dark well",
+        "weight": 0
+      },
+      {
+        "text": "hurdy-gurdy drone with soft frame drum, ancient forest ritual",
+        "weight": 0
+      },
+      {
+        "text": "dark cinematic ambient, slow evolving synth pads, cold blue atmosphere",
+        "weight": 0
+      },
+      {
+        "text": "solo viola d'amore, sympathetic strings ringing, melancholic riddle",
+        "weight": 0
+      },
+      {
+        "text": "bowed cymbal and waterphone, eerie, sparse, haunted woods",
+        "weight": 0
+      },
+      {
+        "text": "soft brushed hand drum and low clarinet, a secret journey at night",
+        "weight": 0
+      },
+      {
+        "text": "minimalist ambient guitar swells with tape echo, foggy and nostalgic",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "fog": 0.6,
+    "echo": 0,
+    "glow": 0.55,
+    "runes": 0.3,
+    "lantern": true,
+    "lid_open": false,
+    "seeker_here": true,
+    "seeker_step": 0.15
+  },
+  "title": "Колодец шёпотов",
+  "camera": {
+    "area": [
+      -3,
+      3,
+      0,
+      9
+    ],
+    "mode": "walk"
+  },
+  "caption": "Колодец помнит каждое слово, сказанное над ним.",
+  "horizon": 0.54,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Ночное небо"
+    },
+    {
+      "x": 0.5,
+      "id": "far_forest",
+      "box": [
+        -170,
+        -26,
+        170,
+        2
+      ],
+      "name": "Дальний ельник",
+      "height": 20,
+      "distance": 90
+    },
+    {
+      "x": 0.5,
+      "id": "mid_forest",
+      "box": [
+        -70,
+        -22,
+        70,
+        1
+      ],
+      "name": "Ельник за поляной",
+      "height": 16,
+      "distance": 34
+    },
+    {
+      "x": 0.5,
+      "id": "ground",
+      "name": "Поляна",
+      "color": "#0f1519",
+      "depth": 44,
+      "plane": true,
+      "width": 90,
+      "distance": 22,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "fog",
+      "box": [
+        -45,
+        -5,
+        45,
+        1
+      ],
+      "name": "Туман",
+      "height": 3,
+      "distance": 17
+    },
+    {
+      "id": "well",
+      "box": [
+        -1.6,
+        -4,
+        1.6,
+        0.4
+      ],
+      "name": "Колодец",
+      "color": "#2a3138",
+      "across": 2.5,
+      "height": 2.5,
+      "flicker": 0.15,
+      "distance": 13
+    },
+    {
+      "id": "echo",
+      "box": [
+        -1.5,
+        -4.2,
+        1.5,
+        0
+      ],
+      "name": "Эхо колодца",
+      "across": 2.5,
+      "height": 2.6,
+      "distance": 12.95
+    },
+    {
+      "id": "seeker",
+      "box": [
+        -4.5,
+        -4,
+        1.2,
+        2.2
+      ],
+      "name": "Искательница",
+      "across": 1.3,
+      "height": 1.65,
+      "flicker": 0.35,
+      "distance": 12.3
+    },
+    {
+      "x": 0.5,
+      "id": "grass",
+      "box": [
+        -7,
+        -1.8,
+        7,
+        1
+      ],
+      "name": "Высокая трава",
+      "height": 1,
+      "distance": 5
+    },
+    {
+      "id": "old_fir",
+      "box": [
+        -4.5,
+        -18,
+        4.5,
+        0.3
+      ],
+      "name": "Старая ель",
+      "across": -7.2,
+      "height": 16,
+      "distance": 8
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 9,
+      "text": "Сто лет колодец стоял заколоченным. Этой ночью из щелей сочится свет."
+    },
+    {
+      "at": 13,
+      "for": 9,
+      "text": "Говорят, он отвечает — но только тем, кто спрашивает шёпотом."
+    }
+  ]
+}
