@@ -1,1 +1,293 @@
-{}
+{
+  "light": {
+    "haze": 0.18,
+    "tint": "#1a2240",
+    "grain": 0.25,
+    "vignette": 0.5,
+    "hazeColor": "#0b0e1d",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 92,
+    "density": 0.35,
+    "prompts": [
+      {
+        "text": "cheesy 1970s elevator muzak with vibraphone and soft flute, played in a space station waiting lounge",
+        "weight": 1.4
+      },
+      {
+        "text": "lazy bossa nova with nylon guitar and brushed drums, retro-futurist lounge, slightly out of tune",
+        "weight": 1
+      },
+      {
+        "text": "vintage analog synth easy listening, Moog melody over gentle drum machine, 1970s space age pop",
+        "weight": 0.8
+      },
+      {
+        "text": "waiting room hold music on a crackly line, looping cheerful melody that never resolves",
+        "weight": 0.6
+      },
+      {
+        "text": "Soviet 1970s space-themed instrumental by a variety orchestra, optimistic and naive",
+        "weight": 0.4
+      },
+      {
+        "text": "slow ambient pads and distant sonar pings, vast empty space",
+        "weight": 0
+      },
+      {
+        "text": "exotica lounge with marimba, bongos and theremin, tongue-in-cheek sci-fi",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi chillhop with tape hiss and mellow electric piano, bored afternoon",
+        "weight": 0
+      },
+      {
+        "text": "kitschy accordion waltz played by a robot, mechanical and earnest",
+        "weight": 0
+      },
+      {
+        "text": "spacious synthwave arpeggios, neon orbit at night",
+        "weight": 0
+      },
+      {
+        "text": "minimal music box tune, tired and repetitive",
+        "weight": 0
+      },
+      {
+        "text": "funky clavinet and wah guitar, 1970s cop show, very relaxed",
+        "weight": 0
+      },
+      {
+        "text": "solemn bureaucratic brass fanfare, pompous and slow",
+        "weight": 0
+      },
+      {
+        "text": "cosmic drone with low cello and shimmering bells, asteroid belt",
+        "weight": 0
+      },
+      {
+        "text": "jazz organ trio, slow groove, coffee break",
+        "weight": 0
+      },
+      {
+        "text": "ticking clock and soft pizzicato strings, waiting forever",
+        "weight": 0
+      },
+      {
+        "text": "retro video game chiptune, calm queue music",
+        "weight": 0
+      },
+      {
+        "text": "dreamy space-age bachelor pad music, Esquivel style, playful brass and choir pads",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.55
+  },
+  "state": {
+    "now": 417,
+    "vip": 0,
+    "mine": 4812,
+    "window": "открыто"
+  },
+  "title": "Окно №3",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Электронная очередь у пояса астероидов. Здесь никто никуда не спешит — кроме вас.",
+  "horizon": 0.58,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Космос"
+    },
+    {
+      "id": "queue",
+      "box": [
+        -100,
+        -170,
+        220,
+        30
+      ],
+      "name": "Очередь кораблей",
+      "across": 110,
+      "height": 150,
+      "distance": 320,
+      "elevation": 0
+    },
+    {
+      "id": "station",
+      "box": [
+        -60,
+        -70,
+        22,
+        30
+      ],
+      "name": "Станция «Пояс-Восток»",
+      "across": -78,
+      "height": 70,
+      "distance": 75,
+      "elevation": 0
+    },
+    {
+      "id": "e782dd33b"
+    },
+    {
+      "id": "yacht",
+      "box": [
+        -75,
+        -8,
+        75,
+        4
+      ],
+      "name": "Яхта с мигалкой",
+      "across": 0,
+      "height": 4,
+      "distance": 60,
+      "elevation": 7
+    },
+    {
+      "id": "eec8273a9",
+      "across": 27,
+      "distance": 72,
+      "elevation": 4
+    },
+    {
+      "id": "tablo",
+      "box": [
+        -2.6,
+        -7,
+        2.6,
+        0.2
+      ],
+      "name": "Табло очереди",
+      "across": -10.2,
+      "height": 6.8,
+      "distance": 21,
+      "elevation": 0
+    },
+    {
+      "id": "inspector",
+      "box": [
+        -3,
+        -6.8,
+        3,
+        0.2
+      ],
+      "name": "Инспектор ТМ-7, окно №3",
+      "across": -5,
+      "height": 6.6,
+      "distance": 24,
+      "elevation": 0
+    },
+    {
+      "id": "e80648def",
+      "across": 2.8
+    },
+    {
+      "id": "e97d1f977",
+      "across": 0.7,
+      "distance": 6,
+      "elevation": 2.5
+    },
+    {
+      "id": "stanchions",
+      "box": [
+        -5,
+        -1.2,
+        2,
+        0.1
+      ],
+      "name": "Ограждение очереди",
+      "across": -3.2,
+      "height": 1.05,
+      "distance": 5.5,
+      "elevation": 0
+    },
+    {
+      "id": "deck",
+      "name": "Причальная палуба",
+      "color": "#1d2027",
+      "depth": 26,
+      "plane": true,
+      "width": 56,
+      "across": 0,
+      "distance": 16,
+      "elevation": 0
+    },
+    {
+      "id": "ship",
+      "bob": 0.25,
+      "box": [
+        -18.5,
+        -16,
+        18.5,
+        3
+      ],
+      "name": "«Скромность»",
+      "across": 27,
+      "height": 16,
+      "distance": 72,
+      "elevation": 4
+    },
+    {
+      "id": "pilot",
+      "box": [
+        -1,
+        -5.5,
+        1.5,
+        0.15
+      ],
+      "name": "Гена Мухин, пилот «Скромности»",
+      "across": 2.8,
+      "height": 1.95,
+      "distance": 10,
+      "elevation": 0
+    },
+    {
+      "id": "drone",
+      "box": [
+        -1.2,
+        -1.1,
+        1.2,
+        0.9
+      ],
+      "name": "Кофемат «Бодрость-2»",
+      "across": -0.2,
+      "height": 0.8,
+      "distance": 6,
+      "elevation": 2.4
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.03,
+      "id": "board",
+      "name": "Электронная очередь",
+      "width": 300,
+      "anchor": "top-left",
+      "height": 150
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 8,
+      "text": "Пункт пропуска «Пояс-Восток». До Юпитера сорок минут лёта. До окна — одиннадцать суток."
+    },
+    {
+      "at": 12,
+      "for": 8,
+      "text": "Варп-двигатель изобрели. Отменить бланк Ф-12 в трёх экземплярах — не смогли."
+    },
+    {
+      "at": 22,
+      "for": 7,
+      "text": "Гена заполнил его дважды. Третий экземпляр улетел."
+    }
+  ]
+}
