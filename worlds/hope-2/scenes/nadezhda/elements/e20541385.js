@@ -9,14 +9,14 @@ gr.addColorStop(0.68, "#2c3b52");
 gr.addColorStop(0.9, "#555a70");
 gr.addColorStop(1, "#6b6478");
 g.fillStyle = gr;
-g.fillRect(0, -0.35, A, 0.75);
+g.fillRect(-0.35, -0.35, A + 0.7, 0.75);
 g.fillStyle = "#5d5a6e";
-g.fillRect(0, 0.4, A, 0.85);
+g.fillRect(-0.35, 0.4, A + 0.7, 0.85);
 const hg = g.createRadialGradient(A * 0.12, 0.42, 0, A * 0.12, 0.42, 0.7);
 hg.addColorStop(0, "rgba(165,125,135,0.22)");
 hg.addColorStop(1, "rgba(165,125,135,0)");
 g.fillStyle = hg;
-g.fillRect(0, -0.3, A, 0.72);
+g.fillRect(-0.35, -0.3, A + 0.7, 0.72);
 for (let i = 0; i < 240; i++) {
   const x = R() * A,
     y = -0.35 + Math.pow(R(), 1.3) * 0.7,
