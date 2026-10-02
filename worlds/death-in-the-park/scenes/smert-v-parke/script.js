@@ -10,12 +10,12 @@ scene.on("change", "hero_action", function (a) {
     dx = scene.get("death_x"),
     to = x,
     t = 0;
-  if (a === "walk_right") to = Math.min(7, x + 3);
-  else if (a === "walk_left") to = Math.max(-7, x - 3);
-  else if (a === "run_right") to = 7.5;
-  else if (a === "run_left") to = -7.5;
+  if (a === "walk_right") to = Math.min(5.5, x + 3);
+  else if (a === "walk_left") to = Math.max(-5.5, x - 3);
+  else if (a === "run_right") to = 5.5;
+  else if (a === "run_left") to = -5.5;
   else if (a === "approach") to = dx + (x > dx ? 1.1 : -1.1);
-  else if (a === "go_away") to = Math.max(-7, Math.min(7, x + (x > dx ? 3 : -3)));
+  else if (a === "go_away") to = Math.max(-5.5, Math.min(5.5, x + (x > dx ? 3 : -3)));
   else if (a === "sit") to = 3.35;
   if (Math.abs(to - x) > 0.05) {
     scene.set("hero_face", to > x ? 1 : -1);
