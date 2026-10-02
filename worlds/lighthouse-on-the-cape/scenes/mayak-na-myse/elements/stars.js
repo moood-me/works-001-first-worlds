@@ -1,6 +1,6 @@
 var A = e.aspect;
 for (var i = 0; i < 46; i++) {
-  var x = e.rnd() * A,
+  var x = e.rnd() * (A + 0.7) - 0.35,
     y = -0.35 + Math.pow(e.rnd(), 1.4) * 0.75,
     s = e.rnd(),
     ph = e.rnd() * 6.283,
