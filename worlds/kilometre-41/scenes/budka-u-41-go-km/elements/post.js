@@ -1,0 +1,15 @@
+g.fillStyle = "#6f736c";
+g.fillRect(-0.05, -0.95, 0.1, 0.95);
+g.fillStyle = "#2c2f2c";
+g.fillRect(-0.05, -0.62, 0.1, 0.1);
+g.fillStyle = "rgba(0,0,0,0.3)";
+g.fillRect(0.01, -0.95, 0.04, 0.95);
+g.fillStyle = "#80847c";
+g.fillRect(-0.17, -1.18, 0.34, 0.24);
+g.fillStyle = "#1b1d1c";
+g.font = "bold 0.17px sans-serif";
+g.textAlign = "center";
+g.textBaseline = "middle";
+g.fillText("41", 0, -1.06);
+g.fillStyle = "rgba(0,0,0,0.3)";
+g.fillRect(0.04, -1.18, 0.13, 0.24);
