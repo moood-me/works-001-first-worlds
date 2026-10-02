@@ -5,10 +5,10 @@ function sw(i) {
   );
 }
 g.fillStyle = "#4a5d33";
-g.fillRect(-5, -0.05, 10, 0.95);
+g.fillRect(-8, -0.05, 16, 0.95);
 var gc = ["#4a5f33", "#5b7140", "#6f8250", "#87925e", "#9fa476", "#42552c"];
-for (var i = 0; i < 190; i++) {
-  var x = (e.rnd() - 0.5) * 10,
+for (var i = 0; i < 300; i++) {
+  var x = (e.rnd() - 0.5) * 16,
     y = e.rnd() * 0.85,
     h = 0.35 + e.rnd() * 0.75,
     l = (e.rnd() - 0.5) * 0.3,
@@ -25,8 +25,8 @@ for (var i = 0; i < 190; i++) {
   g.closePath();
   g.fill();
 }
-for (var i = 0; i < 16; i++) {
-  var x = (e.rnd() - 0.5) * 10,
+for (var i = 0; i < 26; i++) {
+  var x = (e.rnd() - 0.5) * 16,
     y = e.rnd() * 0.6,
     h = 0.7 + e.rnd() * 0.45,
     s = sw(i + 50) * h * 1.6;
