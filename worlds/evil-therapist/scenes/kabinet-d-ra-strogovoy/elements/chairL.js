@@ -1,0 +1,44 @@
+g.fillStyle = "rgba(60,85,72,0.22)";
+g.beginPath();
+g.ellipse(0, 0, 0.5, 0.05, 0, 0, 6.283);
+g.fill();
+g.fillStyle = "#9aa7a1";
+g.fillRect(-0.37, -0.14, 0.025, 0.14);
+g.fillRect(0.345, -0.14, 0.025, 0.14);
+var bg = g.createLinearGradient(0, -0.88, 0, -0.4);
+bg.addColorStop(0, "#a9c4b6");
+bg.addColorStop(1, "#8eac9d");
+g.fillStyle = bg;
+g.beginPath();
+g.roundRect(-0.36, -0.88, 0.72, 0.5, 0.05);
+g.fill();
+g.fillStyle = "#7d9a8b";
+for (var i = 0; i < 3; i++)
+  for (var j = 0; j < 2; j++) {
+    g.beginPath();
+    g.arc(-0.2 + i * 0.2, -0.78 + j * 0.16, 0.011, 0, 6.283);
+    g.fill();
+  }
+g.fillStyle = "#8aa899";
+g.beginPath();
+g.roundRect(-0.4, -0.44, 0.8, 0.3, 0.04);
+g.fill();
+g.fillStyle = "#a3bfb1";
+g.fillRect(-0.36, -0.44, 0.72, 0.03);
+g.fillStyle = "#809e8f";
+g.beginPath();
+g.roundRect(-0.46, -0.62, 0.13, 0.48, 0.045);
+g.roundRect(0.33, -0.62, 0.13, 0.48, 0.045);
+g.fill();
+g.fillStyle = "#9bb8a9";
+g.fillRect(-0.44, -0.615, 0.09, 0.018);
+g.fillRect(0.35, -0.615, 0.09, 0.018);
+g.save();
+g.translate(0, -0.56);
+g.rotate(0.7854);
+g.fillStyle = "#d3dfd8";
+g.fillRect(-0.09, -0.09, 0.18, 0.18);
+g.strokeStyle = "#b6c7bd";
+g.lineWidth = 0.006;
+g.strokeRect(-0.09, -0.09, 0.18, 0.18);
+g.restore();

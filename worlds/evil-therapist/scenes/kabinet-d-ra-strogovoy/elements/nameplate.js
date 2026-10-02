@@ -1,0 +1,17 @@
+g.fillStyle = "rgba(60,80,70,0.25)";
+g.fillRect(-0.19, -0.003, 0.38, 0.007);
+g.fillStyle = "#2f3d38";
+g.fillRect(-0.18, -0.078, 0.36, 0.078);
+g.fillStyle = "#46564f";
+g.fillRect(-0.18, -0.078, 0.36, 0.006);
+g.save();
+g.scale(0.001, 0.001);
+g.textAlign = "center";
+g.textBaseline = "middle";
+g.fillStyle = "#e6ede9";
+g.font = "600 29px Georgia, serif";
+g.fillText("Д-р И. В. Строгова", 0, -48);
+g.fillStyle = "#a9bab2";
+g.font = "17px Helvetica, Arial, sans-serif";
+g.fillText("психотерапевт", 0, -20);
+g.restore();
