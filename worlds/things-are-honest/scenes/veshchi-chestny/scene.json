@@ -45,7 +45,7 @@
   "title": "Вещи честны",
   "camera": {
     "look": 0.02,
-    "mode": "diorama"
+    "mode": "picture"
   },
   "caption": "Семейная загадка на один вечер.",
   "horizon": 0.47,
