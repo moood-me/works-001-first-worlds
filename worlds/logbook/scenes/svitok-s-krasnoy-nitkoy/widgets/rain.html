@@ -1,0 +1,23 @@
+<canvas id='c' width='1300' height='540' style='width:100%;height:100%'></canvas>
+<script>
+  const c = root.getElementById('c'), g = c.getContext('2d'), R = [];
+  for (let i = 0; i < 260; i++) R.push({ x: Math.random() * 1500 - 100, y: Math.random() * 540, l: 6 + Math.random() * 10, v: 0.8 + Math.random() * 0.5 });
+  let last = performance.now();
+  const f = now => {
+    const dt = Math.min(0.05, (now - last) / 1000); last = now;
+    const w = String(MooodState.get('weather') || ''), storm = /storm|шторм/.test(w), k = storm ? 0.22 : /rain|дожд/.test(w) ? 0.15 : 0;
+    g.clearRect(0, 0, 1300, 540);
+    if (k > 0) {
+      const sl = storm ? 0.45 : 0.17;
+      g.strokeStyle = 'rgba(170,185,210,' + k + ')'; g.lineWidth = 0.7; g.beginPath();
+      for (const r of R) {
+        r.y += 300 * r.v * dt; r.x += 300 * sl * r.v * dt;
+        if (r.y > 545) { r.y = -12; r.x = Math.random() * 1500 - 200; }
+        g.moveTo(r.x, r.y); g.lineTo(r.x - r.l * sl, r.y - r.l);
+      }
+      g.stroke();
+    }
+    requestAnimationFrame(f);
+  };
+  requestAnimationFrame(f);
+</script>
