@@ -5,7 +5,7 @@ gr.addColorStop(0.4, "#0d1428");
 gr.addColorStop(0.75, "#1a2440");
 gr.addColorStop(1, "#0a0d18");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
 const mx = A * 0.2,
   my = 0.37;
 const m = g.createRadialGradient(mx, my, 0, mx, my, 0.16);
@@ -20,7 +20,7 @@ g.arc(mx, my, 0.022, 0, 7);
 g.fill();
 for (let i = 0; i < 90; i++) {
   g.fillStyle = `rgba(255,255,255,${0.2 + e.rnd() * 0.5})`;
-  g.fillRect(e.rnd() * A * 0.45, e.rnd() * 0.55, 0.0012, 0.0012);
+  g.fillRect((e.rnd() * (A + 0.7) - 0.35) * 0.45, e.rnd() * 0.55, 0.0012, 0.0012);
 }
 g.strokeStyle = "#07070d";
 g.lineCap = "round";
