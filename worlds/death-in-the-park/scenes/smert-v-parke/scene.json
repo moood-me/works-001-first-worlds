@@ -17,7 +17,11 @@
   },
   "title": "Смерть в парке",
   "camera": {
-    "mode": "walk",
+    "mode": "panorama",
+    "span": [
+      10,
+      10
+    ],
     "follow": [
       "hero",
       "death"
