@@ -24,9 +24,9 @@ for (var y = -7.3; y < 7.5; y += 2.2) {
   g.fill();
 }
 var lg = g.createRadialGradient(2.5, -7, 0, 2.5, -7, 6);
-lg.addColorStop(0, "rgba(255,184,112,0.42)");
-lg.addColorStop(0.4, "rgba(255,170,100,0.14)");
-lg.addColorStop(1, "rgba(255,170,100,0)");
+lg.addColorStop(0, "rgba(255,172,96,0.52)");
+lg.addColorStop(0.4, "rgba(255,158,84,0.19)");
+lg.addColorStop(1, "rgba(255,158,84,0)");
 g.fillStyle = lg;
 g.fillRect(0.8, -7.5, 1.8, 15);
 var cg = g.createLinearGradient(0, -7.5, 0, 7.5);

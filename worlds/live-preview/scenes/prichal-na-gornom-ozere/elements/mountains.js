@@ -25,16 +25,19 @@ for (var i = 0; i < pts.length; i++) g.lineTo(pts[i][0], pts[i][1]);
 g.lineTo(4000, 5);
 g.closePath();
 g.fill();
-g.fillStyle = "rgba(205,198,222,0.22)";
 for (var i = 1; i < pts.length - 1; i++) {
   var p = pts[i];
-  if (p[1] < -290) {
+  if (p[1] < -290 && R() < 0.6) {
+    var a = 0.06 + R() * 0.08,
+      dl = 20 + R() * 30,
+      dr = 20 + R() * 35;
+    g.fillStyle = "rgba(205,198,222," + a.toFixed(3) + ")";
     g.beginPath();
-    g.moveTo(p[0] - 30, p[1] + 8);
+    g.moveTo(p[0] - dl, p[1] + 10);
     g.lineTo(p[0], p[1]);
-    g.lineTo(p[0] + 35, p[1] + 10);
-    g.lineTo(p[0] + 8 + R() * 20, p[1] + 70 + R() * 90);
-    g.lineTo(p[0] - 12, p[1] + 40 + R() * 60);
+    g.lineTo(p[0] + dr, p[1] + 12);
+    g.quadraticCurveTo(p[0] + dr * 0.4, p[1] + 40 + R() * 40, p[0] + R() * 14, p[1] + 30 + R() * 70);
+    g.quadraticCurveTo(p[0] - dl * 0.5, p[1] + 25 + R() * 30, p[0] - dl, p[1] + 10);
     g.closePath();
     g.fill();
   }
