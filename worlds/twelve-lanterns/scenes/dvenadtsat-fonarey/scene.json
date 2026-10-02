@@ -1,1 +1,247 @@
-{}
+{
+  "light": {
+    "haze": 0.35,
+    "tint": "#2a1838",
+    "grain": 0.4,
+    "vignette": 0.62,
+    "hazeColor": "#2a1f36",
+    "tintStrength": 0.14
+  },
+  "music": {
+    "bpm": 62,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "anime horror ambient, detuned music box playing a festival melody slowly, long reverb, unsettling",
+        "weight": 1.3
+      },
+      {
+        "text": "evening cicadas higurashi drone turned into a low synth pad, summer night dread",
+        "weight": 1
+      },
+      {
+        "text": "sparse shamisen plucks far away, each note decaying into silence, empty shrine at night",
+        "weight": 0.7
+      },
+      {
+        "text": "glass wind chime furin tinkling irregularly over a sub-bass hum",
+        "weight": 0.4
+      },
+      {
+        "text": "electrical hum of a vending machine, field recording, lo-fi tape hiss",
+        "weight": 0.3
+      },
+      {
+        "text": "koto harmonics bent out of tune, slow, haunting",
+        "weight": 0
+      },
+      {
+        "text": "taiko heartbeat very far away, muffled by trees",
+        "weight": 0
+      },
+      {
+        "text": "childish humming of a matsuri song, wordless, reversed and slowed",
+        "weight": 0
+      },
+      {
+        "text": "dark ambient strings cluster, slowly rising tension",
+        "weight": 0
+      },
+      {
+        "text": "shinobue bamboo flute melody, breathy, out of tune, distant",
+        "weight": 0
+      },
+      {
+        "text": "warm 90s anime ending piano, nostalgic summer evening",
+        "weight": 0
+      },
+      {
+        "text": "sudden silence with heavy low drone, horror stinger feel",
+        "weight": 0
+      },
+      {
+        "text": "toy piano and bell tree, lullaby that goes wrong",
+        "weight": 0
+      },
+      {
+        "text": "rain on cedar forest, low cello notes, mournful",
+        "weight": 0
+      },
+      {
+        "text": "bon odori festival drums and flute, cheerful but heard through a wall",
+        "weight": 0
+      },
+      {
+        "text": "granular textures of whispering voices, no words, very quiet",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.25
+  },
+  "state": {
+    "girl": 0,
+    "mask": true,
+    "machine": 1,
+    "lanterns": 12,
+    "jizo_look": 0
+  },
+  "title": "Двенадцать фонарей",
+  "camera": {
+    "area": [
+      -6,
+      6,
+      0,
+      14
+    ],
+    "mode": "walk"
+  },
+  "caption": "Праздник кончился час назад. Фонари на лестнице к храму забыли погасить — или не забыли.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Небо после праздника"
+    },
+    {
+      "x": 0.5,
+      "id": "forest",
+      "box": [
+        -200,
+        -62,
+        200,
+        1
+      ],
+      "name": "Криптомерии на склоне",
+      "color": "#120c1c",
+      "height": 60,
+      "distance": 120
+    },
+    {
+      "x": 0.5,
+      "id": "stairs",
+      "box": [
+        -18,
+        -17,
+        18,
+        0.6
+      ],
+      "name": "Каменная лестница и тории",
+      "color": "#2a2230",
+      "height": 17,
+      "distance": 34
+    },
+    {
+      "x": 0.5,
+      "id": "lanterns",
+      "box": [
+        -18,
+        -17,
+        18,
+        0.6
+      ],
+      "name": "Фонари на лестнице",
+      "height": 17,
+      "flicker": 0.3,
+      "distance": 33.9
+    },
+    {
+      "x": 0.5,
+      "id": "girl",
+      "box": [
+        -18,
+        -17,
+        18,
+        0.6
+      ],
+      "name": "Девочка в маске лисы",
+      "height": 17,
+      "distance": 33.8
+    },
+    {
+      "x": 0.5,
+      "id": "ground",
+      "name": "Площадка у лестницы",
+      "color": "#17121c",
+      "depth": 36,
+      "plane": true,
+      "width": 70,
+      "distance": 18,
+      "elevation": 0
+    },
+    {
+      "id": "pole",
+      "box": [
+        -70,
+        -11,
+        3,
+        0.3
+      ],
+      "name": "Столб с проводами",
+      "color": "#120d18",
+      "across": 6,
+      "height": 9.5,
+      "distance": 13
+    },
+    {
+      "id": "machine",
+      "box": [
+        -0.7,
+        -1.95,
+        0.7,
+        0.1
+      ],
+      "name": "Торговый автомат",
+      "color": "#4a4e5c",
+      "across": -2.8,
+      "height": 1.83,
+      "distance": 7
+    },
+    {
+      "id": "goldfish",
+      "box": [
+        -0.2,
+        -0.5,
+        0.2,
+        0.05
+      ],
+      "name": "Золотая рыбка в пакете",
+      "sway": 3,
+      "across": -2.25,
+      "height": 0.5,
+      "distance": 6.95,
+      "elevation": 1
+    },
+    {
+      "id": "jizo",
+      "box": [
+        -0.55,
+        -1,
+        0.65,
+        0.1
+      ],
+      "name": "Дзидзо в красном нагруднике",
+      "color": "#55505c",
+      "across": 2.2,
+      "height": 1,
+      "distance": 6
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 8,
+      "text": "Двенадцать фонарей на лестнице к ториям. Мацури кончился, люди разошлись."
+    },
+    {
+      "at": 12,
+      "for": 8,
+      "text": "Каждый раз, когда гаснет фонарь, девочка в маске лисы спускается на ступеньку."
+    },
+    {
+      "at": 23,
+      "for": 8,
+      "text": "Золотая рыбка в пакете смотрит только в одну сторону. Туда, где ты стоишь."
+    }
+  ]
+}
