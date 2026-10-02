@@ -1,0 +1,56 @@
+var t = e.t,
+  w = e.state.wind == null ? 0.4 : e.state.wind;
+var gw = w * (0.6 + 0.4 * Math.sin(t * 0.53) * Math.sin(t * 0.21 + 0.7)) + 0.04 * Math.sin(t * 0.9);
+g.fillStyle = "rgba(5,5,12,0.4)";
+g.beginPath();
+g.ellipse(0, 0, 0.4, 0.05, 0, 0, 6.283);
+g.fill();
+g.strokeStyle = "#161724";
+g.lineCap = "round";
+g.lineWidth = 0.07;
+g.beginPath();
+g.moveTo(0, 0);
+g.lineTo(0, -5.6);
+g.stroke();
+var aw = Math.sin(t * 0.7) * 0.015 * w;
+g.lineWidth = 0.035;
+g.beginPath();
+g.moveTo(-1.0, -5.25 + aw);
+g.lineTo(0.7, -5.25 - aw);
+g.stroke();
+g.lineWidth = 0.022;
+g.beginPath();
+for (var i = 0; i < 8; i++) {
+  var x = -0.9 + i * 0.22,
+    l = 0.32 - i * 0.02;
+  g.moveTo(x, -5.25 - l);
+  g.lineTo(x, -5.25 + l);
+}
+g.stroke();
+g.strokeStyle = "rgba(30,32,48,0.8)";
+g.lineWidth = 0.014;
+g.beginPath();
+g.moveTo(0, -4.0);
+g.lineTo(-1.9, 0);
+g.moveTo(0, -4.0);
+g.lineTo(1.6, 0);
+g.stroke();
+g.strokeStyle = "rgba(160,170,220,0.22)";
+g.lineWidth = 0.015;
+g.beginPath();
+g.moveTo(-0.03, 0);
+g.lineTo(-0.03, -5.6);
+g.stroke();
+var s = gw * 0.6 * Math.sin(t * 0.8) + 0.18 * w * Math.sin(t * 1.7 + 1);
+var s2 = gw * 0.7 * Math.sin(t * 0.71 + 0.9) + 0.15 * w * Math.sin(t * 1.9);
+g.strokeStyle = "#14151f";
+g.lineWidth = 0.035;
+g.beginPath();
+g.moveTo(0, -4.7);
+g.quadraticCurveTo(-20, -2.6 + s, -42, -7.2);
+g.stroke();
+g.lineWidth = 0.03;
+g.beginPath();
+g.moveTo(0, -4.4);
+g.quadraticCurveTo(-21, -1.9 + s2, -42, -6.4);
+g.stroke();
