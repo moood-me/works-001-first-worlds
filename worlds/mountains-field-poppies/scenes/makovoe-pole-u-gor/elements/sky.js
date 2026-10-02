@@ -8,19 +8,19 @@ gr.addColorStop(0.58, "#f4dcc6");
 gr.addColorStop(0.7, "#e6d4c8");
 gr.addColorStop(1, "#d8ccc8");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
 var r = g.createRadialGradient(-0.1 * A, 0.6, 0, -0.1 * A, 0.6, 1.2);
 r.addColorStop(0, "rgba(255,212,165,0.75)");
 r.addColorStop(0.35, "rgba(255,205,170,0.3)");
 r.addColorStop(1, "rgba(255,205,170,0)");
 g.fillStyle = r;
-g.fillRect(-0.1, -0.4, A + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
 var b = g.createLinearGradient(0, 0.38, 0, 0.58);
 b.addColorStop(0, "rgba(226,186,200,0)");
 b.addColorStop(0.6, "rgba(226,186,200,0.35)");
 b.addColorStop(1, "rgba(226,186,200,0)");
 g.fillStyle = b;
-g.fillRect(-0.1, 0.38, A + 0.2, 0.2);
+g.fillRect(-0.35, 0.38, A + 0.7, 0.2);
 var mx = 0.8 * A,
   my = 0.13,
   mr = 0.016;
