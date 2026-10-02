@@ -7,6 +7,14 @@
     "hazeColor": "#24364d",
     "tintStrength": 0.14
   },
+  "music": {
+    "prompts": [
+      {
+        "text": "лай собаки",
+        "weight": 1.0
+      }
+    ]
+  },
   "title": "Эльфийская поляна",
   "camera": {
     "mode": "walk"
