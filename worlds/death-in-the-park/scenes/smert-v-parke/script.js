@@ -36,7 +36,7 @@ scene.on("change", "death_action", function (a) {
   if (a === "wait" && !scene.get("met")) {
     scene.set("met", true);
     scene.after(0.8, function () {
-      scene.ask("death", "Ты подошла к нему по дорожке и остановилась рядом. Поздоровайся.");
+      scene.tell("Смерть подошла к нему по дорожке и остановилась рядом.", "death");
     });
   }
 });
