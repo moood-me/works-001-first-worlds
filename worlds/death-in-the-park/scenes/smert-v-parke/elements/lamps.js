@@ -1,0 +1,37 @@
+var X = [-7, 1.2, 8.5];
+for (var i = 0; i < X.length; i++) {
+  var x = X[i];
+  g.fillStyle = "#16141a";
+  g.fillRect(x - 0.05, -3.4, 0.1, 3.4);
+  g.fillRect(x - 0.14, -0.1, 0.28, 0.1);
+  g.beginPath();
+  g.moveTo(x - 0.18, -3.4);
+  g.lineTo(x + 0.18, -3.4);
+  g.lineTo(x + 0.1, -3.75);
+  g.lineTo(x - 0.1, -3.75);
+  g.closePath();
+  g.fill();
+  var lg = g.createRadialGradient(x, -3.55, 0, x, -3.55, 0.2);
+  lg.addColorStop(0, "#fff0c8");
+  lg.addColorStop(1, "#e8a050");
+  g.fillStyle = lg;
+  g.fillRect(x - 0.12, -3.68, 0.24, 0.24);
+  g.fillStyle = "#16141a";
+  g.beginPath();
+  g.moveTo(x - 0.24, -3.75);
+  g.lineTo(x, -3.95);
+  g.lineTo(x + 0.24, -3.75);
+  g.fill();
+  e.light(x, -3.55, 3.2, "#ffc878", 0.8);
+  var pool = g.createRadialGradient(x, 0, 0, x, 0, 2.6);
+  pool.addColorStop(0, "rgba(255,200,130,0.18)");
+  pool.addColorStop(1, "rgba(255,200,130,0)");
+  g.save();
+  g.translate(x, 0);
+  g.scale(1, 0.18);
+  g.fillStyle = pool;
+  g.beginPath();
+  g.arc(0, 0, 2.6, 0, Math.PI * 2);
+  g.fill();
+  g.restore();
+}
