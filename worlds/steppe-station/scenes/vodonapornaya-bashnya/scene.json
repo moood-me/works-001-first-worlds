@@ -1,0 +1,338 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#ff8c42",
+    "grain": 0.28,
+    "vignette": 0.45,
+    "hazeColor": "#dca070",
+    "tintStrength": 0.22
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "lonely slide guitar over a slow dusty drone, desert sunset, wide open space",
+        "weight": 0.8
+      },
+      {
+        "text": "rusty metallic percussion, creaking wood and distant clanks, slow ritual rhythm",
+        "weight": 0.35
+      },
+      {
+        "text": "bowed saw, eerie and tender, a ghost of a song",
+        "weight": 0.3
+      },
+      {
+        "text": "low wind-like synth pad, warm tape hiss, the hum of an old power line",
+        "weight": 0.4
+      },
+      {
+        "text": "deep sub-bass pulse like the ground remembering a train",
+        "weight": 0.2
+      },
+      {
+        "text": "distant harmonica, sparse and breathy, echoing across an empty plain",
+        "weight": 0
+      },
+      {
+        "text": "minimal piano notes falling like the last light, lots of space between them",
+        "weight": 0
+      },
+      {
+        "text": "dombra plucked melody from the Kazakh steppe, gentle and nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "tumbleweed shuffle: soft shakers and brushed percussion, loose and lazy",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.42
+  },
+  "state": {
+    "tw_x": 20,
+    "player_d": 12.5,
+    "player_sx": 0.72,
+    "hatch_open": false,
+    "hatch_amount": 0,
+    "lantern_glow": 0.7,
+    "player_position": "tower",
+    "tumbleweed_near": false,
+    "loose_chain_stirring": 0.35
+  },
+  "title": "Водонапорная башня",
+  "camera": {
+    "mode": "walk",
+    "walk": {
+      "back": 3,
+      "side": 4,
+      "forward": 5
+    }
+  },
+  "caption": "Старая водонапорная башня; её тень лежит поперёк шпал.",
+  "horizon": 0.64,
+  "objects": [
+    {
+      "id": "ec7a42270",
+      "sky": true,
+      "name": "Небо"
+    },
+    {
+      "id": "e99562055",
+      "sky": true,
+      "name": "Солнце"
+    },
+    {
+      "id": "e393389b6",
+      "sky": true,
+      "name": "Облака"
+    },
+    {
+      "id": "e2e11911b",
+      "sky": true,
+      "name": "Птица"
+    },
+    {
+      "id": "e1f696e59",
+      "sky": true,
+      "name": "Вторая птица"
+    },
+    {
+      "id": "e3ce45541",
+      "sky": true,
+      "name": "Дальние холмы",
+      "color": "#a9765a"
+    },
+    {
+      "id": "ee90d3f22",
+      "sky": true,
+      "name": "Увалы",
+      "color": "#7e5646"
+    },
+    {
+      "x": 0.5,
+      "id": "e78b65ae4",
+      "box": [
+        -1750,
+        -27,
+        1750,
+        4
+      ],
+      "name": "Марево над степью",
+      "color": "#ecb282",
+      "height": 24,
+      "distance": 600
+    },
+    {
+      "x": 0.5,
+      "id": "e1ca58b41",
+      "box": [
+        -170,
+        -1.9,
+        170,
+        80
+      ],
+      "name": "Степь",
+      "color": "#4a3a26",
+      "height": 2,
+      "distance": 80
+    },
+    {
+      "x": 0.25,
+      "id": "eb2c01244",
+      "box": [
+        -13,
+        -5.8,
+        5.6,
+        1.3
+      ],
+      "name": "Здание станции",
+      "color": "#241a12",
+      "height": 5.2,
+      "flicker": 0.3,
+      "distance": 48
+    },
+    {
+      "x": 0.33,
+      "id": "eca147e3f",
+      "box": [
+        -4.1,
+        -4.9,
+        2.1,
+        1.4
+      ],
+      "name": "Фонарь у станции",
+      "color": "#151210",
+      "height": 4.6,
+      "flicker": 0.15,
+      "distance": 44
+    },
+    {
+      "x": 0.37,
+      "id": "e7c7cb5ca",
+      "box": [
+        -1.9,
+        -8,
+        6.4,
+        0.8
+      ],
+      "name": "Костёр у станции",
+      "color": "#1a1310",
+      "height": 1.2,
+      "flicker": 0.5,
+      "distance": 42
+    },
+    {
+      "x": 0.1,
+      "id": "eac3c22eb",
+      "box": [
+        -5,
+        -2.8,
+        2.2,
+        0.85
+      ],
+      "name": "Старый сарай",
+      "color": "#5a4c3e",
+      "height": 2.5,
+      "distance": 32
+    },
+    {
+      "x": 0.5,
+      "y": 0.69,
+      "id": "e86ec8b64",
+      "box": [
+        -27,
+        -1.2,
+        27.5,
+        0.4
+      ],
+      "name": "Далёкое перекати-поле",
+      "color": "#876c48",
+      "height": 0.55
+    },
+    {
+      "x": 0.6,
+      "id": "ground",
+      "name": "Земля у башни: бетон, пути, тень",
+      "color": "#56422b",
+      "depth": 30.6,
+      "plane": true,
+      "width": 70,
+      "distance": 15.3,
+      "elevation": 0
+    },
+    {
+      "x": 0.6,
+      "id": "e3b8fbef9",
+      "box": [
+        -3.4,
+        -12.6,
+        3.4,
+        0.4
+      ],
+      "name": "Водонапорная башня (лестница, люк, цепь)",
+      "color": "#3a2b1f",
+      "height": 12,
+      "distance": 15
+    },
+    {
+      "x": 0.6,
+      "id": "base_grass",
+      "box": [
+        -4.2,
+        -1.5,
+        4.2,
+        0.35
+      ],
+      "name": "Трава у бетонного основания",
+      "color": "#6e5f3e",
+      "height": 1.1,
+      "distance": 14.4
+    },
+    {
+      "x": 0.5,
+      "id": "e57b91104",
+      "box": [
+        -19,
+        -1.2,
+        21,
+        0.4
+      ],
+      "name": "Перекати-поле",
+      "color": "#8a6e48",
+      "height": 0.75,
+      "distance": 14
+    },
+    {
+      "x": 0.5,
+      "id": "player",
+      "box": [
+        -17,
+        -2.6,
+        11,
+        0.7
+      ],
+      "name": "Путник",
+      "color": "#1d1512",
+      "height": 1.75,
+      "distance": 13.8
+    },
+    {
+      "x": 0.5,
+      "id": "grass_mid",
+      "box": [
+        -12,
+        -1.4,
+        12,
+        0.5
+      ],
+      "name": "Трава перед путями",
+      "color": "#7d6c48",
+      "height": 0.5,
+      "distance": 10
+    },
+    {
+      "x": 0.5,
+      "id": "grass_near",
+      "box": [
+        -10,
+        -1.5,
+        10,
+        1
+      ],
+      "name": "Трава у ног",
+      "color": "#7d6c48",
+      "height": 0.6,
+      "distance": 6
+    },
+    {
+      "x": 0.5,
+      "id": "eedca57e7",
+      "box": [
+        -24,
+        -5,
+        24,
+        0.4
+      ],
+      "name": "Пыль на ветру",
+      "color": "#cba876",
+      "height": 5,
+      "distance": 7
+    },
+    {
+      "x": 0.93,
+      "y": 0.97,
+      "id": "ed0d1ea34",
+      "box": [
+        -1.2,
+        -1.3,
+        1.7,
+        0.1
+      ],
+      "name": "Ковыль",
+      "color": "#d8b989",
+      "height": 1
+    }
+  ]
+}

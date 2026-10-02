@@ -1,0 +1,25 @@
+var A = e.aspect,
+  t = e.t + 37;
+var ang = t * 0.035;
+var x = 0.89 * A + 0.03 * Math.cos(ang) + 0.008 * Math.sin(t * 0.13);
+var y = 0.37 + 0.01 * Math.sin(ang) + 0.003 * Math.sin(t * 0.21);
+var s = 0.015;
+var f = Math.sin(t * 3.9) * Math.max(0, Math.sin(t * 0.19 + 2.3) - 0.5) * 2;
+var bank = 0.12 * Math.sin(ang);
+g.save();
+g.translate(x, y);
+g.rotate(bank);
+g.fillStyle = "#2e2026";
+g.beginPath();
+g.moveTo(-s * 1.15, -s * 0.05 - s * 0.4 * f);
+g.quadraticCurveTo(-s * 0.6, -s * 0.22 - s * 0.2 * f, -s * 0.1, -s * 0.06);
+g.lineTo(-s * 0.05, s * 0.3);
+g.lineTo(s * 0.05, s * 0.3);
+g.lineTo(s * 0.1, -s * 0.06);
+g.quadraticCurveTo(s * 0.6, -s * 0.22 - s * 0.2 * f, s * 1.15, -s * 0.05 - s * 0.4 * f);
+g.quadraticCurveTo(s * 0.6, -s * 0.02, s * 0.08, s * 0.08);
+g.lineTo(-s * 0.08, s * 0.08);
+g.quadraticCurveTo(-s * 0.6, -s * 0.02, -s * 1.15, -s * 0.05 - s * 0.4 * f);
+g.closePath();
+g.fill();
+g.restore();

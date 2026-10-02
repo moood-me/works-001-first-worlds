@@ -1,0 +1,133 @@
+var t = e.t,
+  S = e.state || {};
+var k = S.lantern_glow != null ? Math.max(0, Math.min(1, S.lantern_glow)) : 0.7;
+g.fillStyle = "rgba(26,18,14,0.3)";
+g.beginPath();
+g.moveTo(-0.12, 0);
+g.lineTo(0.12, 0);
+g.lineTo(-3.7, 1.3);
+g.lineTo(-3.95, 1.3);
+g.closePath();
+g.fill();
+var a = 0.045 * Math.sin(t * 0.83) + 0.022 * Math.sin(t * 1.57 + 1.2) + 0.012 * Math.sin(t * 2.9 + 0.4) + 0.03;
+var hx = -0.85,
+  hy = -4.25,
+  L = 0.47;
+var lx = hx - Math.sin(a) * L,
+  ly = hy + Math.cos(a) * L;
+if (k > 0.01) {
+  g.save();
+  g.translate(lx, 0.06);
+  g.scale(1, 0.12);
+  var pg = g.createRadialGradient(0, 0, 0, 0, 0, 2.8);
+  pg.addColorStop(0, "rgba(255,207,138," + (0.3 * k).toFixed(3) + ")");
+  pg.addColorStop(1, "rgba(255,207,138,0)");
+  g.fillStyle = pg;
+  g.beginPath();
+  g.arc(0, 0, 2.8, 0, 6.283);
+  g.fill();
+  g.restore();
+}
+g.fillStyle = "#1d1612";
+g.beginPath();
+g.moveTo(-0.2, 0);
+g.lineTo(-0.16, -0.45);
+g.lineTo(-0.08, -0.55);
+g.lineTo(0.02, -4.25);
+g.lineTo(0.12, -4.25);
+g.lineTo(0.14, -0.55);
+g.lineTo(0.22, -0.45);
+g.lineTo(0.26, 0);
+g.closePath();
+g.fill();
+g.strokeStyle = "rgba(255,180,105,0.5)";
+g.lineWidth = e.px * 1.6;
+g.beginPath();
+g.moveTo(0.14, -0.55);
+g.lineTo(0.12, -4.25);
+g.moveTo(0.22, -0.45);
+g.lineTo(0.26, 0);
+g.stroke();
+g.strokeStyle = "#1d1612";
+g.lineWidth = 0.07;
+g.beginPath();
+g.moveTo(0.07, -4.2);
+g.bezierCurveTo(0.05, -4.6, -0.5, -4.55, -0.85, -4.4);
+g.lineTo(-0.85, -4.25);
+g.stroke();
+g.lineWidth = 0.04;
+g.beginPath();
+g.moveTo(0.06, -3.7);
+g.quadraticCurveTo(-0.3, -3.85, -0.35, -4.15);
+g.quadraticCurveTo(-0.3, -4.35, -0.15, -4.3);
+g.stroke();
+g.fillStyle = "#1d1612";
+g.beginPath();
+g.arc(0.07, -4.32, 0.06, 0, 6.283);
+g.fill();
+g.save();
+g.translate(hx, hy);
+g.rotate(a);
+g.strokeStyle = "#1d1612";
+g.lineWidth = 0.025;
+g.beginPath();
+g.moveTo(0, 0);
+g.lineTo(0, 0.14);
+g.stroke();
+g.fillStyle = "#1a1410";
+g.beginPath();
+g.moveTo(-0.22, 0.24);
+g.lineTo(0, 0.12);
+g.lineTo(0.22, 0.24);
+g.closePath();
+g.fill();
+var lg = g.createRadialGradient(0, 0.45, 0, 0, 0.45, 0.3);
+lg.addColorStop(0, "#fff3d2");
+lg.addColorStop(0.5, "#ffd896");
+lg.addColorStop(1, "#d9924a");
+g.fillStyle = lg;
+g.beginPath();
+g.moveTo(-0.17, 0.25);
+g.lineTo(0.17, 0.25);
+g.lineTo(0.13, 0.68);
+g.lineTo(-0.13, 0.68);
+g.closePath();
+g.fill();
+if (k < 0.99) {
+  g.fillStyle = "rgba(44,34,28," + (0.92 * (1 - k)).toFixed(3) + ")";
+  g.fill();
+}
+g.strokeStyle = "#1a1410";
+g.lineWidth = 0.03;
+g.beginPath();
+g.moveTo(-0.17, 0.25);
+g.lineTo(-0.13, 0.68);
+g.moveTo(0.17, 0.25);
+g.lineTo(0.13, 0.68);
+g.moveTo(0, 0.25);
+g.lineTo(0, 0.68);
+g.stroke();
+g.fillStyle = "#1a1410";
+g.fillRect(-0.15, 0.67, 0.3, 0.06);
+g.restore();
+if (k > 0.01) {
+  var hg = g.createRadialGradient(lx, ly, 0, lx, ly, 1.4);
+  hg.addColorStop(0, "rgba(255,215,150," + (0.35 * k).toFixed(3) + ")");
+  hg.addColorStop(0.3, "rgba(255,190,120," + (0.12 * k).toFixed(3) + ")");
+  hg.addColorStop(1, "rgba(255,180,110,0)");
+  g.fillStyle = hg;
+  g.beginPath();
+  g.arc(lx, ly, 1.4, 0, 6.283);
+  g.fill();
+  e.light(lx, ly, 6, "#ffcf8a", 0.75 * k);
+}
+if (k > 0.2) {
+  var ma = t * 2.3 + Math.sin(t * 0.7) * 2;
+  var mx = lx + 0.35 * Math.cos(ma) + 0.1 * Math.sin(t * 3.7);
+  var my = ly + 0.22 * Math.sin(ma * 1.3) + 0.05 * Math.sin(t * 5.1);
+  var wf = Math.abs(Math.sin(t * 23));
+  g.fillStyle = "rgba(60,45,35,0.85)";
+  g.beginPath();
+  g.ellipse(mx, my, 0.03 * (0.4 + wf), 0.018, 0, 0, 6.283);
+  g.fill();
+}
