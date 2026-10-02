@@ -1,0 +1,140 @@
+{
+  "light": {
+    "haze": 0.5,
+    "tint": "#2a3d5a",
+    "grain": 0.25,
+    "vignette": 0.55,
+    "hazeColor": "#24364d",
+    "tintStrength": 0.14
+  },
+  "title": "Эльфийская поляна",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "Здесь ночь длиннее, чем кажется.",
+  "horizon": 0.52,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Ночное небо"
+    },
+    {
+      "x": 0.5,
+      "id": "glade",
+      "name": "Поляна",
+      "color": "#16281f",
+      "depth": 60,
+      "plane": true,
+      "width": 90,
+      "distance": 30
+    },
+    {
+      "x": 0.5,
+      "id": "stream",
+      "name": "Ручей",
+      "color": "#2a4a66",
+      "depth": 16,
+      "plane": true,
+      "width": 70,
+      "distance": 16,
+      "elevation": 0.02
+    },
+    {
+      "x": 0.5,
+      "id": "forest",
+      "box": [
+        -200,
+        -26,
+        200,
+        1
+      ],
+      "name": "Старый лес",
+      "color": "#0b1620",
+      "height": 22,
+      "distance": 95
+    },
+    {
+      "x": 0.27,
+      "id": "elder",
+      "box": [
+        -13,
+        -38,
+        13,
+        1
+      ],
+      "name": "Древнее дерево эльфов",
+      "color": "#1a1e24",
+      "height": 30,
+      "distance": 55
+    },
+    {
+      "x": 0.8,
+      "id": "twins",
+      "box": [
+        -8,
+        -28,
+        8,
+        1
+      ],
+      "name": "Деревья-близнецы",
+      "color": "#121a20",
+      "height": 26,
+      "distance": 62
+    },
+    {
+      "x": 0.4,
+      "id": "elf",
+      "box": [
+        -0.8,
+        -2.2,
+        0.9,
+        0.1
+      ],
+      "name": "Эльфийка Илиэнь",
+      "color": "#2a3a38",
+      "height": 1.85,
+      "distance": 13
+    },
+    {
+      "x": 0.62,
+      "id": "mushrooms",
+      "box": [
+        -3.6,
+        -0.5,
+        3.6,
+        0.08
+      ],
+      "name": "Светящиеся грибы",
+      "color": "#7fe0d0",
+      "height": 0.4,
+      "distance": 7
+    },
+    {
+      "x": 0.5,
+      "id": "fireflies",
+      "box": [
+        -12,
+        -3,
+        12,
+        1
+      ],
+      "name": "Светлячки",
+      "height": 3,
+      "distance": 14,
+      "elevation": 1
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 8,
+      "text": "На поляне тихо. Так тихо, что слышно, как растут грибы."
+    },
+    {
+      "at": 13,
+      "for": 7,
+      "text": "У ручья кто-то ждёт. Давно."
+    }
+  ]
+}
