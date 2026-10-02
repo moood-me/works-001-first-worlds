@@ -44,12 +44,6 @@
   },
   "title": "Сарафанный движок",
   "camera": {
-    "area": [
-      8,
-      8,
-      2,
-      12
-    ],
     "look": 0.25,
     "mode": "overhead",
     "height": 8
