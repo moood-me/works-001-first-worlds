@@ -27,10 +27,10 @@ gr.addColorStop(0.5, at(1));
 gr.addColorStop(0.85, at(2));
 gr.addColorStop(1, at(3));
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, A + 0.2, hz + 0.41);
+g.fillRect(-0.35, -0.4, A + 0.7, hz + 0.41);
 g.globalAlpha = Math.max(0, 1 - d * 1.6);
 for (let i = 0; i < 320; i++) {
-  const x = e.rnd() * A,
+  const x = e.rnd() * (A + 0.7) - 0.35,
     y = -0.35 + Math.pow(e.rnd(), 1.3) * (hz + 0.3),
     big = e.rnd() < 0.07,
     c = e.rnd();
@@ -103,6 +103,6 @@ gr = g.createLinearGradient(0, hz - 0.1, 0, hz + 0.01);
 gr.addColorStop(0, "rgba(40,52,78,0)");
 gr.addColorStop(1, "rgba(60,72,98,0.55)");
 g.fillStyle = gr;
-g.fillRect(-0.1, hz - 0.1, A + 0.2, 0.11);
+g.fillRect(-0.35, hz - 0.1, A + 0.7, 0.11);
 g.fillStyle = "#0a1220";
-g.fillRect(-0.1, hz, A + 0.2, 1.3 - hz);
+g.fillRect(-0.35, hz, A + 0.7, 1.3 - hz);
