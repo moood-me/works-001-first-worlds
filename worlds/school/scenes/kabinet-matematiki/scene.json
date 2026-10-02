@@ -1,0 +1,318 @@
+{
+  "light": {
+    "haze": 0.03,
+    "tint": "#ffe9c8",
+    "grain": 0.28,
+    "vignette": 0.5,
+    "hazeColor": "#e8e0cc",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "Sparse felt piano, slow and soft, sustain pedal, quiet afternoon stillness in an empty room",
+        "weight": 1.3
+      },
+      {
+        "text": "Warm ambient pads like sunlight through dusty windows, slow swells, no percussion",
+        "weight": 0.9
+      },
+      {
+        "text": "Delicate music box arpeggios in slow geometric patterns, gently out of phase",
+        "weight": 0.5
+      },
+      {
+        "text": "Soft ticking woodblock pulse like a wall clock, very quiet, steady",
+        "weight": 0.4
+      },
+      {
+        "text": "Nostalgic Soviet-era school film score, gentle celesta and strings, 1970s",
+        "weight": 0.3
+      },
+      {
+        "text": "Minimalist Philip Glass style repeating piano figures, calm and mathematical",
+        "weight": 0
+      },
+      {
+        "text": "Erik Satie inspired gymnopédie, slow waltz, melancholic and tender",
+        "weight": 0
+      },
+      {
+        "text": "Lo-fi tape-warped piano with soft vinyl crackle, study mood",
+        "weight": 0
+      },
+      {
+        "text": "Solo cello, long low notes, contemplative and warm",
+        "weight": 0
+      },
+      {
+        "text": "Glassy vibraphone notes drifting with long reverb, slow tempo",
+        "weight": 0
+      },
+      {
+        "text": "Acoustic guitar fingerpicking, soft nylon strings, autumn afternoon",
+        "weight": 0
+      },
+      {
+        "text": "Upright piano slightly out of tune, school assembly hall, gentle nostalgic melody",
+        "weight": 0
+      },
+      {
+        "text": "Brian Eno style ambient, airy synth tones, generative and spacious",
+        "weight": 0
+      },
+      {
+        "text": "Chamber string quartet, pianissimo, slow harmonic progression",
+        "weight": 0
+      },
+      {
+        "text": "Clarinet and bassoon duet, light and whimsical, slow walking pace",
+        "weight": 0
+      },
+      {
+        "text": "Kalimba plucks with soft room reverb, sparse and curious",
+        "weight": 0
+      },
+      {
+        "text": "Harpsichord playing a quiet Bach-like invention, orderly counterpoint",
+        "weight": 0
+      },
+      {
+        "text": "Dreamy Rhodes electric piano chords, mellow and hazy",
+        "weight": 0
+      },
+      {
+        "text": "Soft accordion drone with distant melody, autumn melancholy",
+        "weight": 0
+      },
+      {
+        "text": "Gentle synth arpeggiator ticking like a counting machine, retro 1980s educational film",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.45
+  },
+  "title": "Кабинет математики",
+  "camera": {
+    "mode": "diorama"
+  },
+  "caption": "После уроков. Слышно, как тикают часы.",
+  "horizon": 0.45,
+  "objects": [
+    {
+      "x": 0.5,
+      "id": "room",
+      "box": [
+        -14,
+        -9,
+        16,
+        5
+      ],
+      "name": "Класс: стены, окна, пол, потолок",
+      "color": "#e5ddc8",
+      "height": 3.3,
+      "distance": 7.5
+    },
+    {
+      "x": 0.5,
+      "id": "board",
+      "box": [
+        -1.6,
+        -2.4,
+        3.2,
+        -0.6
+      ],
+      "name": "Зелёная доска с формулами",
+      "color": "#2f4d40",
+      "height": 1.5,
+      "distance": 7.45
+    },
+    {
+      "x": 0.5,
+      "id": "portraits",
+      "box": [
+        -1.1,
+        -3.15,
+        2.7,
+        -2.25
+      ],
+      "name": "Портреты учёных",
+      "color": "#3f2e21",
+      "height": 0.7,
+      "distance": 7.45
+    },
+    {
+      "x": 0.5,
+      "id": "clock",
+      "box": [
+        -2.7,
+        -3.05,
+        -2.1,
+        -2.45
+      ],
+      "name": "Часы над плакатом",
+      "color": "#f2eee3",
+      "height": 0.35,
+      "distance": 7.44
+    },
+    {
+      "x": 0.5,
+      "id": "poster_bodies",
+      "box": [
+        -3.1,
+        -2.42,
+        -1.62,
+        -1.12
+      ],
+      "name": "Плакат «Геометрические тела»",
+      "color": "#efe8d5",
+      "height": 1.1,
+      "distance": 7.44
+    },
+    {
+      "x": 0.5,
+      "id": "tools",
+      "box": [
+        3.15,
+        -2.35,
+        4.7,
+        -0.85
+      ],
+      "name": "Линейка, угольник, транспортир и циркуль на стене",
+      "color": "#d2b582",
+      "height": 1.3,
+      "distance": 7.44
+    },
+    {
+      "x": 0.5,
+      "id": "posters_right",
+      "box": [
+        4.4,
+        -3.3,
+        7.9,
+        -1.3
+      ],
+      "name": "Плакаты на боковой стене",
+      "color": "#efe7d2",
+      "height": 1.1,
+      "distance": 7
+    },
+    {
+      "x": 0.5,
+      "id": "curtains",
+      "box": [
+        -16,
+        -9,
+        -2.6,
+        2.5
+      ],
+      "name": "Тюль на окнах",
+      "color": "#f8f6ef",
+      "height": 2.3,
+      "distance": 6.9
+    },
+    {
+      "x": 0.5,
+      "id": "beams",
+      "box": [
+        -7,
+        -4.5,
+        5,
+        4
+      ],
+      "name": "Лучи света из окон",
+      "color": "#fff0d0",
+      "height": 2.5,
+      "distance": 2.4
+    },
+    {
+      "x": 0.5,
+      "id": "dust",
+      "box": [
+        -8,
+        -5,
+        3,
+        2
+      ],
+      "name": "Пыль в лучах",
+      "color": "#fff4dc",
+      "height": 2.5,
+      "distance": 4
+    },
+    {
+      "x": 0.5,
+      "id": "teacher_desk",
+      "box": [
+        -3.6,
+        -1.6,
+        -1.2,
+        0.15
+      ],
+      "name": "Учительский стол у окна",
+      "color": "#b89466",
+      "height": 1.1,
+      "distance": 6.3
+    },
+    {
+      "x": 0.5,
+      "id": "desks_row3",
+      "box": [
+        -2.9,
+        -1.05,
+        4.6,
+        0.4
+      ],
+      "name": "Первый ряд парт",
+      "color": "#c6a677",
+      "height": 0.9,
+      "distance": 5.4
+    },
+    {
+      "x": 0.5,
+      "id": "desks_row2",
+      "box": [
+        -2.9,
+        -1.05,
+        4.6,
+        0.4
+      ],
+      "name": "Второй ряд парт",
+      "color": "#c6a677",
+      "height": 0.9,
+      "distance": 4.2
+    },
+    {
+      "x": 0.5,
+      "id": "desks_row1",
+      "box": [
+        -2.9,
+        -1.05,
+        4.6,
+        0.4
+      ],
+      "name": "Задний ряд парт",
+      "color": "#c6a677",
+      "height": 0.9,
+      "distance": 3
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "Звонок был давно. Формулы остались на доске."
+    },
+    {
+      "at": 14,
+      "for": 7,
+      "text": "Пыль в луче медленно решает свою задачу."
+    },
+    {
+      "at": 25,
+      "for": 7,
+      "text": "Секундная стрелка считает тишину."
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+const sh = "rgba(60,45,30,0.2)";
+const nail = (x, y) => {
+  g.fillStyle = "#5a5550";
+  g.beginPath();
+  g.arc(x, y, 0.008, 0, Math.PI * 2);
+  g.fill();
+};
+g.fillStyle = sh;
+g.fillRect(3.315, -2.18, 0.08, 1.0);
+g.fillStyle = "#d2b582";
+g.fillRect(3.3, -2.2, 0.08, 1.0);
+g.strokeStyle = "rgba(70,50,30,0.7)";
+for (let i = 0; i <= 100; i++) {
+  const l = i % 10 ? (i % 5 ? 0.012 : 0.022) : 0.035;
+  g.lineWidth = i % 10 ? 0.0015 : 0.003;
+  g.beginPath();
+  g.moveTo(3.3, -2.2 + i * 0.01);
+  g.lineTo(3.3 + l, -2.2 + i * 0.01);
+  g.stroke();
+}
+g.save();
+g.scale(0.01, 0.01);
+g.font = "2.4px Georgia";
+g.fillStyle = "rgba(60,40,25,0.8)";
+for (let i = 1; i < 10; i++) g.fillText(String(i * 10), 335.5, -220 + i * 10 + 0.8);
+g.restore();
+nail(3.34, -2.17);
+const tri = (o) => {
+  g.beginPath();
+  g.moveTo(3.52 + o, -2.12 + o);
+  g.lineTo(3.52 + o, -1.56 + o);
+  g.lineTo(3.84 + o, -1.56 + o);
+  g.closePath();
+  g.moveTo(3.57 + o, -1.93 + o);
+  g.lineTo(3.57 + o, -1.61 + o);
+  g.lineTo(3.75 + o, -1.61 + o);
+  g.closePath();
+};
+tri(0.015);
+g.fillStyle = sh;
+g.fill("evenodd");
+tri(0);
+g.fillStyle = "#c8a46e";
+g.fill("evenodd");
+g.strokeStyle = "rgba(90,65,40,0.6)";
+g.lineWidth = 0.003;
+g.stroke();
+nail(3.535, -2.07);
+const pr = (o) => {
+  g.beginPath();
+  g.arc(4.28 + o, -1.62 + o, 0.24, Math.PI, 2 * Math.PI);
+  g.closePath();
+  g.moveTo(4.4 + o, -1.64 + o);
+  g.arc(4.28 + o, -1.64 + o, 0.12, 0, Math.PI, true);
+  g.closePath();
+};
+pr(0.015);
+g.fillStyle = sh;
+g.fill("evenodd");
+pr(0);
+g.fillStyle = "rgba(214,192,143,0.95)";
+g.fill("evenodd");
+g.stroke();
+g.strokeStyle = "rgba(70,50,30,0.6)";
+for (let i = 0; i <= 36; i++) {
+  const a = Math.PI + (i / 36) * Math.PI,
+    l = i % 9 ? 0.02 : 0.04;
+  g.lineWidth = i % 9 ? 0.0015 : 0.003;
+  g.beginPath();
+  g.moveTo(4.28 + Math.cos(a) * 0.235, -1.62 + Math.sin(a) * 0.235);
+  g.lineTo(4.28 + Math.cos(a) * (0.235 - l), -1.62 + Math.sin(a) * (0.235 - l));
+  g.stroke();
+}
+nail(4.28, -1.83);
+const cp = (o, c, w) => {
+  g.strokeStyle = c;
+  g.lineWidth = w;
+  g.lineCap = "round";
+  g.beginPath();
+  g.moveTo(3.8 + o, -1.42 + o);
+  g.lineTo(3.64 + o, -0.96 + o);
+  g.moveTo(3.8 + o, -1.42 + o);
+  g.lineTo(3.97 + o, -0.97 + o);
+  g.moveTo(3.8 + o, -1.42 + o);
+  g.lineTo(3.8 + o, -1.5 + o);
+  g.stroke();
+};
+cp(0.015, sh, 0.03);
+cp(0, "#a7835a", 0.028);
+g.strokeStyle = "#8a6a48";
+g.lineWidth = 0.006;
+g.beginPath();
+g.moveTo(3.7, -1.13);
+g.lineTo(3.92, -1.13);
+g.stroke();
+g.fillStyle = "#f0ede4";
+g.fillRect(3.955, -0.985, 0.018, 0.04);
+g.fillStyle = "#6b5a48";
+g.beginPath();
+g.arc(3.8, -1.42, 0.02, 0, Math.PI * 2);
+g.fill();
+nail(3.8, -1.5);
