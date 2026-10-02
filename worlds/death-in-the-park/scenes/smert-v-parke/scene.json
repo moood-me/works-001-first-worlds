@@ -17,7 +17,11 @@
   },
   "title": "Смерть в парке",
   "camera": {
-    "mode": "walk"
+    "mode": "walk",
+    "follow": [
+      "hero",
+      "death"
+    ]
   },
   "caption": "Обычный вечер. Почти.",
   "horizon": 0.5,

@@ -10,12 +10,12 @@ scene.on("change", "hero_action", function (a) {
     dx = scene.get("death_x"),
     to = x,
     t = 0;
-  if (a === "walk_right") to = Math.min(5.5, x + 3);
-  else if (a === "walk_left") to = Math.max(-5.5, x - 3);
-  else if (a === "run_right") to = 5.5;
-  else if (a === "run_left") to = -5.5;
+  if (a === "walk_right") to = Math.min(8.5, x + 3);
+  else if (a === "walk_left") to = Math.max(-8.5, x - 3);
+  else if (a === "run_right") to = 8.5;
+  else if (a === "run_left") to = -8.5;
   else if (a === "approach") to = dx + (x > dx ? 1.1 : -1.1);
-  else if (a === "go_away") to = Math.max(-5.5, Math.min(5.5, x + (x > dx ? 3 : -3)));
+  else if (a === "go_away") to = Math.max(-8.5, Math.min(8.5, x + (x > dx ? 3 : -3)));
   else if (a === "sit") to = 3.35;
   if (Math.abs(to - x) > 0.05) {
     scene.set("hero_face", to > x ? 1 : -1);
@@ -32,7 +32,7 @@ scene.on("change", "death_action", function (a) {
   var hx = scene.get("hero_x"),
     dx = scene.get("death_x");
   if (a === "sit") go("death_x", 4.25, 1.2);
-  else if (a === "leave") go("death_x", dx < hx ? -12 : 12, 1.0);
+  else if (a === "leave") go("death_x", dx < hx ? -16 : 16, 1.0);
   if (a === "wait" && !scene.get("met")) {
     scene.set("met", true);
     scene.after(0.8, function () {
