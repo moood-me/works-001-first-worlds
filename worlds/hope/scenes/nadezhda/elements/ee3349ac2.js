@@ -13,7 +13,7 @@ s(0.75, "#394353");
 s(1, "#232a37");
 s(1.25, "#1a202b");
 g.fillStyle = gr;
-g.fillRect(0, -0.35, A, 1.6);
+g.fillRect(-0.35, -0.35, A + 0.7, 1.6);
 g.save();
 g.translate(0.8 * A, 0.56);
 g.scale(2.4, 1);
