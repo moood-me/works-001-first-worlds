@@ -87,14 +87,6 @@
     "brightness": 0.35
   },
   "title": "Надежда · Hope",
-  "camera": {
-    "area": [
-      4,
-      4,
-      4,
-      6
-    ]
-  },
   "caption": "Фонарь горит, пока кто-то ждёт.",
   "horizon": 0.52,
   "objects": [
