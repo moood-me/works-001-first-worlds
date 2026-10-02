@@ -9,7 +9,7 @@ gr.addColorStop(0.545, "#948ca6");
 gr.addColorStop(0.58, "#6f7392");
 gr.addColorStop(1, "#1c2240");
 g.fillStyle = gr;
-g.fillRect(-0.1, -0.4, W + 0.2, 1.7);
+g.fillRect(-0.35, -0.4, W + 0.7, 1.7);
 g.save();
 g.translate(W * 0.14, 0.53);
 g.scale(2.6, 1);

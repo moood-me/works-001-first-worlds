@@ -8,7 +8,7 @@ gr.addColorStop(0.05, "#454c6e");
 gr.addColorStop(0.3, "#2b3452");
 gr.addColorStop(1, "#131829");
 g.fillStyle = gr;
-g.fillRect(-0.1, H, W + 0.2, 0.8);
+g.fillRect(-0.35, H, W + 0.7, 0.8);
 g.save();
 g.translate(W * 0.14, H + 0.01);
 g.scale(2.6, 0.5);
@@ -31,7 +31,7 @@ for (var i = 0; i < 160; i++) {
   var f = e.rnd(),
     y = H + 0.002 + Math.pow(f, 2.1) * 0.72,
     d = y - H,
-    x = e.rnd() * W,
+    x = e.rnd() * (W + 0.7) - 0.35,
     len = (0.012 + d * 0.45) * (0.3 + e.rnd()),
     ph = e.rnd() * 6.2832,
     lt = e.rnd(),
