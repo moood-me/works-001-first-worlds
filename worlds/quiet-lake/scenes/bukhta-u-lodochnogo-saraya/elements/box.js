@@ -1,7 +1,10 @@
 var t = e.t,
   st = e.state || {},
   L = st.light_level == null ? 0.7 : st.light_level,
-  v = st.box_visible == null ? 0.3 : st.box_visible,
+  v = Math.max(
+    st.box_visible == null ? 0.3 : st.box_visible,
+    0.85 * Math.min(1, Math.max(0, ((st.bench_legs || 0) - 0.5) / 0.3)),
+  ),
   lk = st.box_locked !== false;
 function mix(a, b, k) {
   var A = parseInt(a.slice(1), 16),

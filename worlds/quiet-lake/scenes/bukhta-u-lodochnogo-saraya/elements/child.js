@@ -3,7 +3,7 @@ var t = e.t,
   p = st.child_position == null ? 0 : st.child_position;
 if (p <= 0.001) return;
 var L = st.light_level == null ? 0.7 : st.light_level,
-  pose = st.child_pose || "stand",
+  pose = st.child_pose == "sit" && (st.bench_legs || 0) > 0.4 ? "stand" : st.child_pose || "stand",
   arr = p >= 0.999,
   mov = !!st.child_walking && !arr;
 var C = "#0f1322",

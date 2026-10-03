@@ -37,6 +37,10 @@
   "state": {
     "dusk": 0.35,
     "ripples": 0.35,
+    "shed_lab": 0,
+    "night_day": 0,
+    "shed_ship": 0,
+    "bench_legs": 0,
     "box_locked": true,
     "child_pose": "stand",
     "boat_shadow": 0.6,
@@ -107,10 +111,10 @@
       "x": 0.2,
       "id": "boathouse",
       "box": [
-        -3.2,
-        -6,
-        4.6,
-        0.2
+        -3.6,
+        -9.4,
+        5.2,
+        1
       ],
       "name": "старый лодочный сарай на сваях",
       "color": "#141a2a",
@@ -137,9 +141,9 @@
       "x": 0.4,
       "id": "bench",
       "box": [
-        -1.3,
-        -1.1,
-        1.3,
+        -11,
+        -1.4,
+        1.4,
         0.35
       ],
       "name": "старая скамейка",
@@ -188,6 +192,32 @@
       "color": "#0c0f1a",
       "height": 1.7,
       "distance": 3.4
+    }
+  ],
+  "directions": [
+    {
+      "key": "shed_ship",
+      "name": "сарай → космический корабль",
+      "excludes": [
+        "shed_lab"
+      ]
+    },
+    {
+      "key": "shed_lab",
+      "name": "сарай → секретная лаборатория",
+      "excludes": [
+        "shed_ship"
+      ]
+    },
+    {
+      "key": "bench_legs",
+      "name": "скамейка уползает",
+      "excludes": []
+    },
+    {
+      "key": "night_day",
+      "name": "ночь → утро",
+      "excludes": []
     }
   ]
 }

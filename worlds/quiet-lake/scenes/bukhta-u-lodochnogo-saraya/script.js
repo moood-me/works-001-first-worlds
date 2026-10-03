@@ -28,3 +28,10 @@ scene.on("change", "box_visible", function (v, o) {
 scene.on("change", "box_locked", function (v, o) {
   if (v === false && o !== false) scene.tell("The tin box is open now.");
 });
+scene.on("change", "bench_legs", function (v, o) {
+  if (v >= 0.95 && o < 0.95)
+    scene.tell(
+      "The bench has crawled off along the shore on its many legs; the tin box lies alone in the open sand.",
+      "bench",
+    );
+});

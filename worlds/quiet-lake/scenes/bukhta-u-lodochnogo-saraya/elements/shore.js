@@ -19,9 +19,23 @@ for (x = -20; x <= 20; x += 0.25) g.lineTo(x, ey(x));
 g.lineTo(20, 4.5);
 g.closePath();
 var lg = g.createLinearGradient(0, -3.5, 0, 4.5);
-lg.addColorStop(0, "#2a3149");
-lg.addColorStop(0.14, "#1f2438");
-lg.addColorStop(1, "#11131d");
+var sd = Math.min(1, Math.max(0, (st.night_day || 0) - 0.2) / 0.8) * 0.55;
+function mh(a, b) {
+  var A = parseInt(a.slice(1), 16),
+    B = parseInt(b.slice(1), 16);
+  return (
+    "rgb(" +
+    Math.round((A >> 16) * (1 - sd) + (B >> 16) * sd) +
+    "," +
+    Math.round(((A >> 8) & 255) * (1 - sd) + ((B >> 8) & 255) * sd) +
+    "," +
+    Math.round((A & 255) * (1 - sd) + (B & 255) * sd) +
+    ")"
+  );
+}
+lg.addColorStop(0, mh("#2a3149", "#8a8090"));
+lg.addColorStop(0.14, mh("#1f2438", "#625c6c"));
+lg.addColorStop(1, mh("#11131d", "#34303c"));
 g.fillStyle = lg;
 g.fill();
 g.beginPath();
