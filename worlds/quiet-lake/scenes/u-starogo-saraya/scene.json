@@ -1,0 +1,283 @@
+{
+  "light": {
+    "haze": 0.16,
+    "tint": "#ff9a56",
+    "grain": 0.22,
+    "vignette": 0.42,
+    "hazeColor": "#eaa472",
+    "tintStrength": 0.14
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.18,
+    "prompts": [
+      {
+        "text": "still lake at sunset, slow ambient guitar swells, endless reverb, very calm",
+        "weight": 0.8
+      },
+      {
+        "text": "a low unresolved drone under still water, like a held breath, faintly uneasy",
+        "weight": 0.6
+      },
+      {
+        "text": "soft warm analog pad, golden light, almost silent",
+        "weight": 0.4
+      },
+      {
+        "text": "single sustained piano chords fading like the sun going down",
+        "weight": 0.3
+      },
+      {
+        "text": "creaking old wood and water lapping on sand, sparse eerie field ambience blended into music",
+        "weight": 0.3
+      },
+      {
+        "text": "detuned music box, very slow, half-remembered and slightly wrong",
+        "weight": 0
+      },
+      {
+        "text": "Brian Eno style ambient loops, gentle and airy, water and light",
+        "weight": 0
+      },
+      {
+        "text": "solo wooden flute, slow and meditative, over still water",
+        "weight": 0
+      },
+      {
+        "text": "distant church bell harmonics blending into a drone",
+        "weight": 0
+      },
+      {
+        "text": "Japanese koto, sparse plucks, contemplative evening",
+        "weight": 0
+      },
+      {
+        "text": "bowed vibraphone, shimmering sustained tones",
+        "weight": 0
+      },
+      {
+        "text": "quiet post-rock guitar with a slow crescendo that never quite arrives",
+        "weight": 0
+      },
+      {
+        "text": "tape-warped lullaby melody, nostalgic summer evening",
+        "weight": 0
+      },
+      {
+        "text": "soft hang drum patterns, gentle and round",
+        "weight": 0
+      },
+      {
+        "text": "choir pad singing 'ah', very soft and distant, like the sky",
+        "weight": 0
+      },
+      {
+        "text": "acoustic bass harmonics, slow and deep, like the lake floor",
+        "weight": 0
+      },
+      {
+        "text": "bowed cymbal and glass harmonica, cold shimmer, something opening",
+        "weight": 0
+      },
+      {
+        "text": "slow jazz ballad on brushed drums and muted trumpet, sunset",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi piano with vinyl crackle, a quiet memory",
+        "weight": 0
+      },
+      {
+        "text": "orchestral strings swell like the last warm light, cinematic",
+        "weight": 0
+      },
+      {
+        "text": "minimal cello harmonics, sparse, a door left ajar in an empty house",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.45
+  },
+  "state": {
+    "door": 0.06,
+    "dusk": 0,
+    "lock": "open",
+    "bench": 1,
+    "rings": 0.2,
+    "breath": 0,
+    "inside": 0,
+    "prints": 0,
+    "shadow": 0,
+    "elsewhere": 0,
+    "prints_dir": "to_water",
+    "bench_thing": "none"
+  },
+  "title": "У старого сарая",
+  "camera": {
+    "area": [
+      -3,
+      3,
+      0,
+      3.5
+    ],
+    "mode": "walk"
+  },
+  "caption": "Старый сарай у самой воды.",
+  "horizon": 0.52,
+  "objects": [
+    {
+      "id": "ec5e3fd7b",
+      "sky": true,
+      "name": "закатное небо и солнце",
+      "color": "#ffb35c"
+    },
+    {
+      "x": 0.3,
+      "id": "ed43c18ee",
+      "box": [
+        -1760,
+        -190,
+        1760,
+        4
+      ],
+      "name": "дальние холмы в дымке",
+      "color": "#8e5a68",
+      "height": 160,
+      "distance": 1800
+    },
+    {
+      "x": 0.57,
+      "id": "eab4abb65",
+      "box": [
+        -960,
+        -44,
+        960,
+        47
+      ],
+      "name": "лес на том берегу и его отражение",
+      "color": "#221a28",
+      "height": 36,
+      "distance": 600
+    },
+    {
+      "x": 0.57,
+      "id": "ee007bd43",
+      "box": [
+        -75,
+        -1,
+        75,
+        42.5
+      ],
+      "name": "вода озера и солнечная дорожка",
+      "color": "#c0705a",
+      "height": 42,
+      "distance": 45
+    },
+    {
+      "id": "dusk_veil",
+      "box": [
+        -140,
+        -3.7,
+        140,
+        34
+      ],
+      "name": "сумеречный воздух над водой",
+      "color": "#14142c",
+      "across": 0,
+      "height": 4,
+      "distance": 30
+    },
+    {
+      "id": "water_near",
+      "name": "вода у самого берега",
+      "color": "#2a2440",
+      "depth": 30,
+      "plane": true,
+      "width": 60,
+      "across": 0,
+      "distance": 20,
+      "elevation": 0
+    },
+    {
+      "id": "sand",
+      "name": "влажный песок",
+      "color": "#6c4e50",
+      "depth": 22,
+      "plane": true,
+      "width": 40,
+      "across": 0,
+      "distance": 11,
+      "elevation": 0
+    },
+    {
+      "id": "shed",
+      "box": [
+        -1.8,
+        -3.25,
+        2,
+        0.4
+      ],
+      "name": "старый сарай",
+      "color": "#3a2e36",
+      "across": -2.6,
+      "height": 3,
+      "flicker": 0.2,
+      "distance": 7
+    },
+    {
+      "id": "bench",
+      "box": [
+        -1.1,
+        -1.1,
+        1,
+        0.25
+      ],
+      "name": "скамейка у воды",
+      "color": "#3e2c2e",
+      "across": 2.5,
+      "height": 0.95,
+      "distance": 5.2
+    },
+    {
+      "id": "dry_grass",
+      "box": [
+        -2.8,
+        -1,
+        2.8,
+        0.2
+      ],
+      "name": "сухая трава на переднем плане",
+      "color": "#1a1318",
+      "across": 0,
+      "height": 0.9,
+      "distance": 3.9
+    },
+    {
+      "id": "e69c6116b",
+      "box": [
+        -2.6,
+        -1.6,
+        2.6,
+        1.1
+      ],
+      "name": "пылинки в закатном свете",
+      "color": "#ffe4b4",
+      "across": -0.5,
+      "height": 2.7,
+      "distance": 5.5,
+      "elevation": 1.1
+    }
+  ],
+  "directions": [
+    {
+      "key": "breath",
+      "name": "Сарай дышит",
+      "excludes": []
+    },
+    {
+      "key": "elsewhere",
+      "name": "За дверью — другое место",
+      "excludes": []
+    }
+  ]
+}
