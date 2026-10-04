@@ -1,0 +1,343 @@
+{
+  "light": {
+    "haze": 0.3,
+    "grain": 0.3,
+    "vignette": 0.5,
+    "hazeColor": "#4a4f6e"
+  },
+  "music": {
+    "bpm": 68,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "slow solo upright piano, sparse chords with long sustain, night by a river, melancholic and tender",
+        "weight": 1.2
+      },
+      {
+        "text": "soft brushed jazz drums and walking double bass, late-night city ballad, smoky and unhurried",
+        "weight": 0.6
+      },
+      {
+        "text": "distant muted trumpet echoing under a stone bridge, reverb-drenched, lonely",
+        "weight": 0.8
+      },
+      {
+        "text": "warm ambient pads with gentle tape hiss, slow swells like river water",
+        "weight": 0.7
+      },
+      {
+        "text": "lo-fi hip hop beat, dusty vinyl crackle, mellow Rhodes chords",
+        "weight": 0
+      },
+      {
+        "text": "accordion waltz played quietly far away, old European embankment, nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "solo cello, long bowed notes, introspective, minor key",
+        "weight": 0
+      },
+      {
+        "text": "music box melody slowly winding down, fragile and childlike",
+        "weight": 0
+      },
+      {
+        "text": "dripping water percussion, cavernous echo, minimal and hypnotic",
+        "weight": 0.3
+      },
+      {
+        "text": "Russian romance on seven-string guitar, gentle fingerpicking, wistful",
+        "weight": 0
+      },
+      {
+        "text": "dawn ambient, rising strings and soft choir pads without words, hopeful light",
+        "weight": 0
+      },
+      {
+        "text": "foggy drone, low synth, distant ship horn tones, eerie calm",
+        "weight": 0
+      },
+      {
+        "text": "cool 1950s noir jazz, vibraphone and soft saxophone, rain-slick streets",
+        "weight": 0
+      },
+      {
+        "text": "clarinet melody over pizzicato strings, quiet whimsical night walk",
+        "weight": 0
+      },
+      {
+        "text": "Satie-like gymnopedie, slow and floating, sparse piano",
+        "weight": 0.5
+      },
+      {
+        "text": "electric guitar with heavy reverb and tremolo, slow shoegaze haze",
+        "weight": 0
+      },
+      {
+        "text": "soft harp arpeggios like ripples on water, calm and luminous",
+        "weight": 0
+      },
+      {
+        "text": "minimalist pulsing marimba, slow repeating patterns, city lights reflected",
+        "weight": 0
+      },
+      {
+        "text": "string quartet, slow chorale, bittersweet and warm",
+        "weight": 0
+      },
+      {
+        "text": "harmonica and acoustic guitar, quiet lonesome folk by the water",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
+  "state": {
+    "cat": "sits",
+    "dog": "lies",
+    "fog": 0,
+    "dawn": 0,
+    "girl": "sits",
+    "lamp": true,
+    "tram": 0.3,
+    "raise": 0
+  },
+  "title": "Под мостом",
+  "camera": {
+    "area": [
+      -2.5,
+      2.5,
+      0,
+      7
+    ],
+    "mode": "walk"
+  },
+  "caption": "Гранитный спуск к воде под старым мостом.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Небо и река"
+    },
+    {
+      "id": "glints",
+      "sky": true,
+      "name": "Огни на воде"
+    },
+    {
+      "id": "city",
+      "box": [
+        -3000,
+        -95,
+        3000,
+        3
+      ],
+      "name": "Город на том берегу",
+      "across": 0,
+      "height": 70,
+      "reflect": true,
+      "distance": 900
+    },
+    {
+      "id": "bridge",
+      "box": [
+        -430,
+        -30,
+        430,
+        1
+      ],
+      "name": "Разводной мост вдали",
+      "across": 15,
+      "height": 18,
+      "reflect": true,
+      "distance": 380
+    },
+    {
+      "id": "fog",
+      "box": [
+        -500,
+        -45,
+        500,
+        5
+      ],
+      "name": "Туман над водой",
+      "across": 0,
+      "height": 20,
+      "distance": 130
+    },
+    {
+      "id": "water",
+      "name": "Река у спуска",
+      "depth": 64,
+      "plane": true,
+      "width": 160,
+      "across": 0,
+      "distance": 40,
+      "elevation": -0.9
+    },
+    {
+      "id": "landing",
+      "name": "Гранитная площадка",
+      "depth": 8.3,
+      "plane": true,
+      "width": 16,
+      "across": 0,
+      "distance": 4.1,
+      "elevation": 0
+    },
+    {
+      "id": "tram",
+      "box": [
+        -200,
+        -12,
+        200,
+        1
+      ],
+      "name": "Речной трамвайчик",
+      "across": 0,
+      "height": 9,
+      "reflect": true,
+      "distance": 160
+    },
+    {
+      "id": "boat",
+      "bob": 0.04,
+      "box": [
+        -2.6,
+        -0.9,
+        2.6,
+        0.3
+      ],
+      "name": "Лодка у спуска",
+      "sway": 1.2,
+      "across": -4.2,
+      "height": 0.6,
+      "reflect": true,
+      "distance": 16,
+      "elevation": -0.9
+    },
+    {
+      "id": "arch",
+      "box": [
+        -14,
+        -10,
+        14,
+        0.03
+      ],
+      "name": "Арка моста",
+      "across": 0,
+      "height": 4.3,
+      "distance": 6
+    },
+    {
+      "id": "vault",
+      "name": "Свод моста",
+      "depth": 6.1,
+      "plane": true,
+      "width": 12,
+      "across": 0,
+      "distance": 2.95,
+      "elevation": 4.3
+    },
+    {
+      "id": "weeds",
+      "box": [
+        -4,
+        -4.6,
+        4,
+        0.2
+      ],
+      "name": "Травинки и капель под аркой",
+      "across": 0,
+      "height": 4.3,
+      "distance": 5.95
+    },
+    {
+      "id": "lantern",
+      "box": [
+        -0.85,
+        -1.4,
+        0.85,
+        0.85
+      ],
+      "name": "Фонарь под аркой",
+      "sway": 1.5,
+      "across": -0.5,
+      "height": 0.6,
+      "flicker": 0.1,
+      "distance": 4.6,
+      "elevation": 3
+    },
+    {
+      "id": "bollard",
+      "box": [
+        -0.3,
+        -0.65,
+        0.3,
+        0.05
+      ],
+      "name": "Чугунная тумба",
+      "across": -2.5,
+      "height": 0.55,
+      "distance": 7.7
+    },
+    {
+      "id": "cat",
+      "box": [
+        -0.3,
+        -0.5,
+        0.3,
+        0.45
+      ],
+      "name": "Кот на тумбе",
+      "across": -2.5,
+      "height": 0.35,
+      "distance": 7.69,
+      "elevation": 0.53
+    },
+    {
+      "id": "walker",
+      "box": [
+        -0.7,
+        -1.85,
+        0.7,
+        0.1
+      ],
+      "name": "Девушка в красном шарфе",
+      "across": 1.4,
+      "height": 1,
+      "distance": 8.1
+    },
+    {
+      "id": "dog",
+      "box": [
+        -0.7,
+        -0.8,
+        0.7,
+        0.1
+      ],
+      "name": "Собака",
+      "across": 2.15,
+      "height": 0.45,
+      "distance": 7.95
+    }
+  ],
+  "directions": [
+    {
+      "key": "raise",
+      "name": "Развести мост",
+      "excludes": []
+    },
+    {
+      "key": "dawn",
+      "name": "Рассвет",
+      "excludes": []
+    },
+    {
+      "key": "fog",
+      "name": "Туман над рекой",
+      "excludes": []
+    }
+  ]
+}
