@@ -1,1 +1,360 @@
-{}
+{
+  "light": {
+    "haze": 0.4,
+    "tint": "#2a3a55",
+    "grain": 0.25,
+    "vignette": 0.55,
+    "hazeColor": "#3a4757",
+    "tintStrength": 0.15
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "Slow ambient drone, soft analog pads, distant and cold, Nordic night",
+        "weight": 1.2
+      },
+      {
+        "text": "Sparse felt piano notes with long reverb, quiet lakeside at night",
+        "weight": 1
+      },
+      {
+        "text": "Gentle bowed cello sustained tones, melancholic, misty",
+        "weight": 0.6
+      },
+      {
+        "text": "Field-recording textures, lapping water, faint wind in pines",
+        "weight": 0.5
+      },
+      {
+        "text": "Nordic folk, nyckelharpa played very softly, slow modal melody",
+        "weight": 0
+      },
+      {
+        "text": "Glassy shimmering synth arpeggio, slow, like moonlight on water",
+        "weight": 0
+      },
+      {
+        "text": "Warm tape-saturated lo-fi organ chords, nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "Solo kantele plucked gently, Finnish lake mood",
+        "weight": 0
+      },
+      {
+        "text": "Deep sub bass swells and granular fog textures",
+        "weight": 0
+      },
+      {
+        "text": "Minimalist string quartet, slow harmonics, sul tasto",
+        "weight": 0
+      },
+      {
+        "text": "Distant church bells across water, dark ambient",
+        "weight": 0
+      },
+      {
+        "text": "Soft clarinet melody, lonely, slow rubato",
+        "weight": 0
+      },
+      {
+        "text": "Music box melody slowed down, eerie lullaby",
+        "weight": 0
+      },
+      {
+        "text": "Shoegaze guitar wash, reverb-drenched, dreamy",
+        "weight": 0
+      },
+      {
+        "text": "Throat singing drone and frame drum, northern ritual, very quiet",
+        "weight": 0
+      },
+      {
+        "text": "Neoclassical piano and strings, Jóhannsson-like, cinematic stillness",
+        "weight": 0
+      },
+      {
+        "text": "Slow jazz brushes and upright bass, late-night, muted trumpet",
+        "weight": 0
+      },
+      {
+        "text": "Wind chimes and singing bowls, meditative",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "fog": 0.6,
+    "lantern": 1
+  },
+  "title": "Ночная пристань",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "Туман лежит на воде, и лодка будто висит в воздухе.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Небо и озеро"
+    },
+    {
+      "id": "moon",
+      "sky": true,
+      "name": "Луна",
+      "color": "#ebe8dc"
+    },
+    {
+      "id": "forest",
+      "box": [
+        -800,
+        -40,
+        800,
+        3
+      ],
+      "name": "Лес на том берегу",
+      "color": "#0b1119",
+      "height": 24,
+      "reflect": true,
+      "distance": 260
+    },
+    {
+      "id": "fogFar",
+      "box": [
+        -400,
+        -14,
+        400,
+        4
+      ],
+      "name": "Туман у того берега",
+      "height": 10,
+      "distance": 140
+    },
+    {
+      "id": "boat",
+      "bob": 0.05,
+      "box": [
+        -3,
+        -1.4,
+        3,
+        0.4
+      ],
+      "name": "Лодка",
+      "sway": 1.2,
+      "color": "#10141b",
+      "across": -8,
+      "height": 0.9,
+      "reflect": true,
+      "distance": 33
+    },
+    {
+      "id": "fogNear",
+      "box": [
+        -120,
+        -5,
+        120,
+        2
+      ],
+      "name": "Туман над водой",
+      "height": 3,
+      "distance": 28
+    },
+    {
+      "id": "pierDeck",
+      "name": "Причал",
+      "color": "#2a2726",
+      "depth": 4.7,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 23.85,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck5",
+      "name": "Причал",
+      "color": "#2a2726",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 19.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck4",
+      "name": "Причал",
+      "color": "#2a2726",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 14.75,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck3",
+      "name": "Причал",
+      "color": "#2a2726",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 10.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck2",
+      "name": "Причал",
+      "color": "#2a2726",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 5.75,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck1",
+      "name": "Причал",
+      "color": "#2a2726",
+      "depth": 2.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 2.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "posts6",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 25.9
+    },
+    {
+      "id": "posts5",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 21.5
+    },
+    {
+      "id": "posts4",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 17
+    },
+    {
+      "id": "posts3",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 12.5
+    },
+    {
+      "id": "posts2",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 8
+    },
+    {
+      "id": "posts1",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 3.5
+    },
+    {
+      "id": "lantern",
+      "box": [
+        -0.5,
+        -2.2,
+        0.5,
+        0.1
+      ],
+      "name": "Фонарь",
+      "across": 2.3,
+      "height": 2,
+      "flicker": 0.25,
+      "reflect": true,
+      "distance": 25.7,
+      "elevation": 0.55
+    },
+    {
+      "id": "reeds",
+      "box": [
+        -1.6,
+        -1.8,
+        1.6,
+        0.1
+      ],
+      "name": "Камыш",
+      "sway": 1.5,
+      "across": -3.2,
+      "height": 1.5,
+      "reflect": true,
+      "distance": 5
+    }
+  ],
+  "captions": [
+    {
+      "at": 6,
+      "for": 9,
+      "text": "Фонарь горит на самом краю — для того, кто ещё не приплыл."
+    },
+    {
+      "at": 22,
+      "for": 8,
+      "text": "Где-то в тумане тихо стукнуло весло о борт."
+    }
+  ]
+}
