@@ -2,10 +2,10 @@ const B = e.state.bite ?? 0,
   t = e.t;
 g.lineCap = "round";
 const tw = B > 0.02 ? Math.sin(t * 7.3) * 0.02 * B + Math.sin(t * 11.1) * 0.01 * B : 0;
-const bx = 1.05,
-  by = -0.02 - tw * 0.5;
-const rx = 0.42,
-  ry = -0.31;
+const bx = 0.12,
+  by = -0.2 - tw * 0.5;
+const rx = -0.22,
+  ry = -0.36 - B * 0.12 + tw * 0.3;
 const dx = rx - bx,
   dy = ry - by,
   dl = Math.hypot(dx, dy);
@@ -45,7 +45,15 @@ g.fillStyle = "rgba(220,214,206,0.4)";
 g.beginPath();
 g.arc(kx + 0.01, ky + 0.04, 0.015, 0, 7);
 g.fill();
-const fx = -1.95 + Math.sin(t * 0.09) * 0.05,
+g.fillStyle = "#3b3330";
+g.beginPath();
+g.arc(rx, ry + 0.01, 0.045, 0, 7);
+g.fill();
+g.fillStyle = "rgba(236,222,204,0.25)";
+g.beginPath();
+g.arc(rx - 0.015, ry, 0.02, 0, 7);
+g.fill();
+const fx = -2.85 + Math.sin(t * 0.09) * 0.05,
   fy = 0.55 - 0.03 + Math.sin(t * 1.3) * 0.007 + Math.sin(t * 0.71) * 0.005 + B * 0.07;
 g.strokeStyle = "rgba(70,76,84,0.45)";
 g.lineWidth = Math.max(e.px * 0.8, 0.006);

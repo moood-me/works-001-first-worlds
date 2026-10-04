@@ -90,13 +90,13 @@
     "fog": 0.85,
     "bite": 0,
     "dawn": 0.3,
-    "lantern": 0
+    "lantern": 1
   },
   "title": "Пристань утром",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Туман над водой. На причале — ведро и удочка.",
+  "caption": "Туман над водой. Рыбак ещё сидит, фонарь не погас.",
   "horizon": 0.6,
   "objects": [
     {
@@ -359,16 +359,32 @@
     {
       "id": "rod",
       "box": [
-        -2.3,
-        -1.4,
-        1.2,
-        0.8
+        -3.4,
+        -1.9,
+        0.4,
+        0.9
       ],
       "name": "Удочка",
       "color": "#3a2e26",
-      "across": 0.78,
+      "across": 0.7,
       "height": 1.4,
-      "distance": 22.3,
+      "distance": 22.4,
+      "elevation": 0.55
+    },
+    {
+      "id": "fisherman",
+      "box": [
+        -0.7,
+        -1.05,
+        0.5,
+        0.5
+      ],
+      "name": "Рыбак",
+      "color": "#2b2d30",
+      "across": 0.7,
+      "height": 1,
+      "reflect": true,
+      "distance": 22.45,
       "elevation": 0.55
     },
     {
