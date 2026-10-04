@@ -90,7 +90,7 @@
     "fog": 0.85,
     "bite": 0,
     "dawn": 0.3,
-    "ducks": 0.3,
+    "ducks": 0.55,
     "lantern": 1,
     "dogAlert": 0
   },
@@ -392,34 +392,34 @@
     {
       "id": "dog",
       "box": [
-        -0.45,
-        -0.8,
-        0.5,
+        -0.65,
+        -0.65,
+        0.6,
         0.08
       ],
       "name": "Собака",
       "color": "#3b3632",
-      "across": 1.3,
-      "height": 0.65,
+      "across": 1.25,
+      "height": 0.5,
       "reflect": true,
-      "distance": 22.5,
+      "distance": 20.6,
       "elevation": 0.55
     },
     {
       "id": "ducks",
       "box": [
-        -54,
-        -3,
-        54,
-        3
+        -60,
+        -11,
+        60,
+        1.5
       ],
       "name": "Утки",
       "color": "#3a3b40",
       "across": 0,
       "height": 1,
       "reflect": true,
-      "distance": 40,
-      "elevation": 6
+      "distance": 32,
+      "elevation": 0
     },
     {
       "id": "fogLow",
