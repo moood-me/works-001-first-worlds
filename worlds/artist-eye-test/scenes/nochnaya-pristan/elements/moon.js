@@ -1,6 +1,6 @@
 const mx = e.aspect * 0.38,
   my = 0.3,
-  r = 0.042;
+  r = 0.052;
 let h = g.createRadialGradient(mx, my, r * 0.8, mx, my, r * 4);
 h.addColorStop(0, "rgba(230,232,225,0.35)");
 h.addColorStop(0.4, "rgba(170,185,200,0.1)");
