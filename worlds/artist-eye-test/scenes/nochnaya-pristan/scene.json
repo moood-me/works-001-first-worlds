@@ -355,6 +355,20 @@
       "elevation": 0.55
     },
     {
+      "id": "bats",
+      "box": [
+        -9,
+        -7,
+        9,
+        -0.5
+      ],
+      "name": "Летучие мыши",
+      "color": "#0b0a0e",
+      "across": 1.5,
+      "height": 6,
+      "distance": 24
+    },
+    {
       "id": "reeds",
       "box": [
         -1.6,
