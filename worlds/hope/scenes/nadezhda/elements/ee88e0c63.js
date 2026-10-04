@@ -11,11 +11,25 @@ for (var i = 0; i < 180; i++) {
   var dm = Math.sqrt((x - mx) * (x - mx) + (y - my) * (y - my));
   var mf = Math.min(1, Math.max(0, (dm - 0.05) / 0.2));
   var tw = 0.7 + 0.2 * Math.sin(e.t * f + ph) + 0.1 * Math.sin(e.t * f * 2.73 + ph * 1.3);
-  var a = (0.2 + m * 0.65) * fade * mf * tw;
+  var a = Math.min(1, (0.4 + m * 0.7) * fade * mf * tw);
   if (a < 0.02) continue;
-  var r = (0.45 + m * m * 1.2) * e.px;
+  var r = (0.7 + m * m * 1.5) * e.px;
+  var P = [205, 10, 38, 285, 165, 330, 52, 228, 130, 190];
+  var hue = P[Math.floor((ph / 6.2831) * P.length) % P.length] + Math.sin(ph * 7.1) * 12;
+  var sat = Math.round(75 + m * 20),
+    lit = Math.round(74 - m * 8);
+  var col = "hsl(" + hue.toFixed(0) + "," + sat + "%," + lit + "%)";
+  if (m > 0.6) {
+    var hr = r * (4 + m * 5);
+    var hg = g.createRadialGradient(x, y, 0, x, y, hr);
+    hg.addColorStop(0, "hsla(" + hue.toFixed(0) + "," + sat + "%," + lit + "%,0.55)");
+    hg.addColorStop(1, "hsla(" + hue.toFixed(0) + "," + sat + "%," + lit + "%,0)");
+    g.globalAlpha = a;
+    g.fillStyle = hg;
+    g.fillRect(x - hr, y - hr, hr * 2, hr * 2);
+  }
   g.globalAlpha = a;
-  g.fillStyle = m > 0.93 ? "#ece6d6" : m < 0.3 ? "#c2cbe0" : "#d8dde8";
+  g.fillStyle = col;
   g.beginPath();
   g.arc(x, y, r, 0, 6.283);
   g.fill();
