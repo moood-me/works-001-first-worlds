@@ -1,0 +1,404 @@
+{
+  "light": {
+    "haze": 0.55,
+    "tint": "#e9d3c0",
+    "grain": 0.2,
+    "vignette": 0.35,
+    "hazeColor": "#cfcbc6",
+    "tintStrength": 0.08
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "Sparse felt piano notes with long reverb, misty lake at dawn, unhurried",
+        "weight": 1.2
+      },
+      {
+        "text": "Soft warm analog pads slowly opening like morning light, Nordic ambient",
+        "weight": 1
+      },
+      {
+        "text": "Solo kantele plucked gently, Finnish lake mood, early morning",
+        "weight": 0.6
+      },
+      {
+        "text": "Field-recording textures, still water lapping on wooden posts, distant birds waking",
+        "weight": 0.5
+      },
+      {
+        "text": "Gentle bowed cello sustained tones, melancholic, misty",
+        "weight": 0
+      },
+      {
+        "text": "Nordic folk, nyckelharpa played very softly, slow modal melody",
+        "weight": 0
+      },
+      {
+        "text": "Glassy shimmering synth arpeggio, slow, like sunlight through fog",
+        "weight": 0
+      },
+      {
+        "text": "Warm tape-saturated lo-fi organ chords, nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "Minimalist string quartet, slow harmonics, sul tasto",
+        "weight": 0
+      },
+      {
+        "text": "Distant church bells across water at morning, soft",
+        "weight": 0
+      },
+      {
+        "text": "Soft clarinet melody, lonely, slow rubato",
+        "weight": 0
+      },
+      {
+        "text": "Acoustic guitar fingerpicking, quiet, open tuning, sunrise",
+        "weight": 0
+      },
+      {
+        "text": "Shoegaze guitar wash, reverb-drenched, dreamy",
+        "weight": 0
+      },
+      {
+        "text": "Neoclassical piano and strings, Jóhannsson-like, cinematic stillness",
+        "weight": 0
+      },
+      {
+        "text": "Wind chimes and singing bowls, meditative",
+        "weight": 0
+      },
+      {
+        "text": "Low flute breathy and slow, pastoral, mist over fields",
+        "weight": 0
+      },
+      {
+        "text": "Deep sub bass swells and granular fog textures",
+        "weight": 0
+      },
+      {
+        "text": "Music box melody slowed down, tender, half-remembered",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.5
+  },
+  "state": {
+    "fog": 0.85,
+    "bite": 0,
+    "dawn": 0.3,
+    "lantern": 0
+  },
+  "title": "Пристань утром",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "Туман над водой. На причале — ведро и удочка.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Небо и озеро"
+    },
+    {
+      "id": "sun",
+      "sky": true,
+      "name": "Солнце в тумане",
+      "color": "#fff3e2"
+    },
+    {
+      "id": "forest",
+      "box": [
+        -800,
+        -40,
+        800,
+        3
+      ],
+      "name": "Лес на том берегу",
+      "color": "#46505b",
+      "height": 24,
+      "reflect": true,
+      "distance": 260
+    },
+    {
+      "id": "fogFar",
+      "box": [
+        -400,
+        -18,
+        400,
+        4
+      ],
+      "name": "Туман у того берега",
+      "height": 10,
+      "distance": 140
+    },
+    {
+      "id": "boat",
+      "bob": 0.05,
+      "box": [
+        -3,
+        -1.4,
+        3,
+        0.4
+      ],
+      "name": "Лодка",
+      "sway": 1.2,
+      "color": "#3a3d44",
+      "across": -8,
+      "height": 0.9,
+      "reflect": true,
+      "distance": 33
+    },
+    {
+      "id": "fogNear",
+      "box": [
+        -120,
+        -6,
+        120,
+        2
+      ],
+      "name": "Туман над водой",
+      "height": 3,
+      "distance": 28
+    },
+    {
+      "id": "pierDeck",
+      "name": "Причал",
+      "color": "#5a5450",
+      "depth": 4.7,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 23.85,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck5",
+      "name": "Причал",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 19.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck4",
+      "name": "Причал",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 14.75,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck3",
+      "name": "Причал",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 10.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck2",
+      "name": "Причал",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 5.75,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck1",
+      "name": "Причал",
+      "color": "#5a5450",
+      "depth": 2.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 2.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "posts6",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 25.9
+    },
+    {
+      "id": "posts5",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 21.5
+    },
+    {
+      "id": "posts4",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 17
+    },
+    {
+      "id": "posts3",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 12.5
+    },
+    {
+      "id": "posts2",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 8
+    },
+    {
+      "id": "posts1",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Сваи",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 3.5
+    },
+    {
+      "id": "lantern",
+      "box": [
+        -0.5,
+        -2.2,
+        0.5,
+        0.1
+      ],
+      "name": "Фонарь",
+      "across": 2.3,
+      "height": 2,
+      "flicker": 0.25,
+      "reflect": true,
+      "distance": 25.7,
+      "elevation": 0.55
+    },
+    {
+      "id": "lanternPath",
+      "name": "Отблеск фонаря на воде",
+      "depth": 10,
+      "plane": true,
+      "width": 9,
+      "across": 2.3,
+      "distance": 26,
+      "elevation": 0.01
+    },
+    {
+      "id": "bucket",
+      "box": [
+        -0.45,
+        -0.5,
+        0.45,
+        0.08
+      ],
+      "name": "Ведро",
+      "color": "#8e9294",
+      "across": 1.2,
+      "height": 0.5,
+      "distance": 22.6,
+      "elevation": 0.55
+    },
+    {
+      "id": "rod",
+      "box": [
+        -2.3,
+        -1.4,
+        1.2,
+        0.8
+      ],
+      "name": "Удочка",
+      "color": "#3a2e26",
+      "across": 0.78,
+      "height": 1.4,
+      "distance": 22.3,
+      "elevation": 0.55
+    },
+    {
+      "id": "fogLow",
+      "box": [
+        -40,
+        -2.5,
+        4,
+        0.6
+      ],
+      "name": "Туман у самой воды",
+      "across": -4,
+      "height": 2.5,
+      "distance": 13,
+      "elevation": -0.55
+    },
+    {
+      "id": "reeds",
+      "box": [
+        -1.6,
+        -1.8,
+        1.6,
+        0.1
+      ],
+      "name": "Камыш",
+      "sway": 1.5,
+      "across": -3.2,
+      "height": 1.5,
+      "reflect": true,
+      "distance": 5
+    }
+  ]
+}
