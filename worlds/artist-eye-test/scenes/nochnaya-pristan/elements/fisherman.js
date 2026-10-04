@@ -15,7 +15,7 @@ g.lineTo(0.51, 0);
 g.lineTo(0.33, 0);
 g.closePath();
 g.fill();
-g.strokeStyle = "rgba(255,165,90," + 0.35 * L + ")";
+g.strokeStyle = "rgba(150,195,255," + 0.35 * L + ")";
 g.lineWidth = 0.015;
 g.beginPath();
 g.moveTo(0.54, -0.26);
@@ -140,8 +140,8 @@ g.fill();
 g.beginPath();
 g.arc(-0.14, -0.2, 0.038, 0, 7);
 g.fill();
-// warm rim from the lantern behind-right, cool moon rim on the left
-g.strokeStyle = "rgba(255,165,85," + 0.5 * L + ")";
+// cold blue rim from the lantern behind-right, cool moon rim on the left
+g.strokeStyle = "rgba(150,195,255," + 0.5 * L + ")";
 g.lineWidth = 0.025;
 g.beginPath();
 g.moveTo(0.15, 0.0);
