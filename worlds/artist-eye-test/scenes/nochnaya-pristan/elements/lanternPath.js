@@ -1,9 +1,9 @@
 const L = e.state.lantern ?? 1;
 if (L < 0.01) return;
 let gw = g.createRadialGradient(0, -0.3, 0, 0, -0.3, 4.5);
-gw.addColorStop(0, "rgba(125,175,245," + 0.55 * L + ")");
-gw.addColorStop(0.4, "rgba(110,165,240," + 0.2 * L + ")");
-gw.addColorStop(1, "rgba(110,165,240,0)");
+gw.addColorStop(0, "rgba(250,150,70," + 0.55 * L + ")");
+gw.addColorStop(0.4, "rgba(230,120,50," + 0.2 * L + ")");
+gw.addColorStop(1, "rgba(230,120,50,0)");
 g.fillStyle = gw;
 g.fillRect(-4.5, -5, 9, 10);
 for (let i = 0; i < 46; i++) {
@@ -17,7 +17,7 @@ for (let i = 0; i < 46; i++) {
     1,
     L * (0.25 + a * 0.75) * (1 - Math.abs(y) / 5.2) * Math.max(0, 1.1 - Math.abs(ox) / (sp * 1.2)),
   );
-  g.fillStyle = i % 3 ? "#86b8f5" : "#d6e9ff";
+  g.fillStyle = i % 3 ? "#f0a055" : "#ffe2b4";
   g.fillRect(ox - w / 2, y, w, 0.09);
 }
 g.globalAlpha = 1;
