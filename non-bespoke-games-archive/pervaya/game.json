@@ -1,0 +1,24 @@
+{
+  "type": "asked",
+  "title": "Первая история",
+  "description": "Игра asked: история на сценах разных миров, открываешь её вопросами «да/нет».",
+  "genres": {},
+  "world": null,
+  "scenes": [
+    {
+      "world": "pavel--smert-v-parke",
+      "folder": "skameyka-u-fonarya",
+      "version": 1
+    },
+    {
+      "world": "pavel--tikhoe-ozero",
+      "folder": "bukhta-u-lodochnogo-saraya",
+      "version": 2
+    },
+    {
+      "world": "pavel--pianino",
+      "folder": "loft-s-pianino",
+      "version": 4
+    }
+  ]
+}
