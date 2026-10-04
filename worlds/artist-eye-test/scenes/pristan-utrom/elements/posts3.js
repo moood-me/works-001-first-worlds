@@ -1,11 +1,18 @@
-[-0.85, 0.85].forEach((px) => {
-  const top = -0.58 - e.rnd() * 0.14;
-  g.fillStyle = "#2c2826";
-  g.fillRect(px - 0.08, top, 0.16, -top + 0.05);
-  g.fillStyle = "rgba(236,222,204,0.28)";
-  g.fillRect(px - 0.08, top, 0.035, -top);
-  g.fillStyle = "rgba(20,22,26,0.35)";
-  g.fillRect(px - 0.08, -0.12, 0.16, 0.17);
-});
+g.save();
+g.beginPath();
+g.moveTo(-1.3, -1.3);
+g.lineTo(-0.9, -1.3);
+g.lineTo(-0.9, -0.55);
+g.lineTo(-0.9 + 0.61 * 0.75, 0.2);
+g.lineTo(-1.3, 0.2);
+g.closePath();
+g.clip();
+const px = -0.93,
+  w = 0.15;
 g.fillStyle = "#2c2826";
-g.fillRect(-0.95, -0.5, 1.9, 0.12);
+g.fillRect(px - w / 2, -0.565, w, 0.615);
+g.fillStyle = "rgba(236,222,204,0.26)";
+g.fillRect(px - w / 2, -0.565, 0.032, 0.565);
+g.fillStyle = "rgba(20,22,26,0.35)";
+g.fillRect(px - w / 2, -0.12, w, 0.17);
+g.restore();
