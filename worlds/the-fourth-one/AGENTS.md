@@ -1,6 +1,6 @@
 # A world of moood
 
-This repository is a world of moood (https://moood.compl.dev) as files. How to work in it:
+This repository is a world of moood (https://moood.me) as files. How to work in it:
 https://github.com/moood-me/docs — README.md, then scene-format.md.
 
 - Work in a branch of your own; never push to main.
