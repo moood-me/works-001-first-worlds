@@ -1,11 +1,7 @@
-var S = e.state || {},
-  t = e.t,
-  x = S.hero_x == null ? 1.5 : S.hero_x,
-  a = S.hero_action || "stand",
-  f = S.hero_face || -1;
-var walk = a === "walk_right" || a === "walk_left" || a === "approach" || a === "go_away",
-  run = a === "run_right" || a === "run_left";
-var ph = t * (run ? 11 : walk ? 6 : 0);
+var h = e.lib.hero(e),
+  x = h.x,
+  a = h.a,
+  f = h.f;
 g.save();
 g.translate(x, 0);
 g.fillStyle = "rgba(0,0,0,0.3)";
@@ -25,15 +21,13 @@ if (a === "fall") {
   g.fill();
   g.fillStyle = "#8a2a24";
   g.fillRect(f * 0.45 - 0.06, -0.2, 0.12, 0.12);
-  e.at(f * 0.68, -0.3);
   g.restore();
   return;
 }
-var hip = a === "sit" ? -0.47 : a === "kneel" ? -0.52 : -0.9,
-  lean = run ? 0.28 : a === "catch_breath" ? 0.32 : a === "kneel" ? 0.05 : 0.06;
-var br = Math.sin(t * (a === "catch_breath" ? 7 : 1.6)) * (a === "catch_breath" ? 0.02 : 0.006);
-var bob = run ? Math.abs(Math.sin(ph)) * 0.05 : walk ? Math.abs(Math.sin(ph)) * 0.02 : 0;
-hip += -bob;
+var walk = h.walk,
+  run = h.run,
+  ph = h.ph,
+  hip = h.hip;
 var sw = run ? 0.42 : walk ? 0.22 : 0;
 g.strokeStyle = "#26272c";
 g.lineWidth = 0.11;
@@ -59,8 +53,8 @@ if (a === "sit") {
     g.stroke();
   }
 }
-var sx = lean * f,
-  sy = hip - 0.62 + br;
+var sx = h.sx,
+  sy = h.sy;
 g.fillStyle = "#3c3f46";
 g.beginPath();
 g.moveTo(-0.16, hip + 0.12);
@@ -108,8 +102,8 @@ if (run) {
   g.lineTo(0.14, hip + 0.2);
   g.stroke();
 }
-var hdx = sx + f * 0.04,
-  hdy = sy - 0.13;
+var hdx = h.hdx,
+  hdy = h.hdy;
 var away = a === "turn_away";
 g.fillStyle = away ? "#2a2220" : "#d8c3ae";
 g.beginPath();
@@ -123,5 +117,4 @@ if (!away) {
   g.fillStyle = "rgba(40,30,30,0.7)";
   g.fillRect(hdx + f * 0.04, hdy - 0.01, 0.015, 0.015);
 }
-e.at(hdx, hdy - 0.12);
 g.restore();
