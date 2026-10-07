@@ -1,17 +1,5 @@
-var K = typeof globalThis !== "undefined" ? globalThis : {},
-  S = e.state || {},
-  st = S.stillness || 0,
-  W = K.__dpk,
-  w;
-if (W) {
-  var dt = e.t - W.l;
-  if (dt > 0 && dt < 0.5) W.w += dt * (1 - st);
-  if (dt !== 0) W.l = e.t;
-  w = W.w;
-} else {
-  K.__dpk = { w: e.t, l: e.t };
-  w = e.t * (1 - st);
-}
+var S = e.state || {},
+  w = e.lib.slow(e);
 var L = S.lamp == null ? 0.75 : S.lamp,
   X = -1.15,
   C = "#131219";
