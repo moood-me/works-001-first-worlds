@@ -1,25 +1,19 @@
-var S = e.state || {},
+var d = e.lib.death(e),
   t = e.t,
-  x = S.death_x == null ? -12 : S.death_x,
-  a = S.death_action || "follow",
-  hx = S.hero_x == null ? -5 : S.hero_x,
-  v = S.death_through || 0,
-  f = hx >= x ? 1 : -1;
-var s = 9.25 / (9.25 + 4.75 * v),
-  X0 = x * s,
-  Y0 = -1.7 * (1 - s);
-var moving = a === "approach" || a === "chase" || a === "follow" || a === "leave" || a === "lead" || a === "return";
-var lean = a === "chase" ? 0.22 : moving ? 0.08 : 0;
-var bob = Math.sin(t * 1.2) * 0.03 + Math.sin(t * 0.53) * 0.015;
+  f = d.f,
+  v = d.v,
+  moving = d.moving,
+  lean = d.lean,
+  bob = d.bob;
 g.save();
-g.translate(X0, Y0);
-g.scale(s, s);
+g.translate(d.X0, d.Y0);
+g.scale(d.s, d.s);
 g.globalAlpha = v > 0.5 ? Math.max(0.55, 1 - (v - 0.5)) : 1;
 g.fillStyle = "rgba(0,0,0,0.35)";
 g.beginPath();
 g.ellipse(0, 0, 0.45, 0.06, 0, 0, Math.PI * 2);
 g.fill();
-var top = -2.05 + bob,
+var top = d.top,
   hem = -0.06 + bob * 0.5,
   hw = 0.36;
 g.fillStyle = "#0d0c11";
@@ -36,8 +30,8 @@ for (var i = 0; i <= 8; i++) {
 g.quadraticCurveTo(0.32, top + 0.6, 0.17 + lean * f * 0.6, top + 0.08);
 g.closePath();
 g.fill();
-var hx0 = lean * f * 0.7,
-  hy0 = top - 0.02;
+var hx0 = d.hx0,
+  hy0 = d.hy0;
 g.beginPath();
 g.ellipse(hx0, hy0, 0.17, 0.21, 0, 0, Math.PI * 2);
 g.fill();
@@ -76,4 +70,3 @@ g.beginPath();
 g.ellipse(hdx, hdy, 0.045, 0.06, 0, 0, Math.PI * 2);
 g.fill();
 g.restore();
-e.at(X0 + hx0 * s, Y0 + (hy0 - 0.25) * s);

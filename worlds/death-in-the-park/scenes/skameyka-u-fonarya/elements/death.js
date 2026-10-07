@@ -1,15 +1,13 @@
 var S = e.state || {},
-  t = e.t;
-var x = S.death_x == null ? 1.36 : S.death_x,
-  hx = S.hero_x == null ? -2.6 : S.hero_x;
-var mv = !!S.death_moving,
-  pose = S.death_pose || "sit",
-  look = S.death_look || "ahead",
+  t = e.t,
+  d = e.lib.death(e);
+var x = d.x,
+  mv = d.mv,
+  f = d.f,
+  sit = d.sit;
+var look = S.death_look || "ahead",
   off = S.offer || "none";
 var L = S.lamp == null ? 0.75 : S.lamp;
-var f = hx >= x ? 1 : -1;
-if (mv && S.death_to != null) f = S.death_to >= x ? 1 : -1;
-var sit = pose === "sit" && !mv;
 var lx = x + 1.1,
   lit = Math.max(0, 1 - Math.abs(lx) / 4.2) * L,
   ls = lx >= 0 ? -1 : 1;
@@ -160,9 +158,10 @@ g.save();
 g.translate(x, 0);
 g.lineCap = "round";
 g.lineJoin = "round";
-var hdX, hdY, sh;
+var hdX = d.hdX,
+  hdY = d.hdY,
+  sh = d.sh;
 if (!sit) {
-  sh = -1.6;
   var ph = t * 4.2,
     sw = mv ? 0.16 : 0;
   g.strokeStyle = "#0e0d13";
@@ -229,10 +228,7 @@ if (!sit) {
     }
   }
   collar(sh);
-  hdX = f * 0.01;
-  hdY = sh - 0.2;
 } else {
-  sh = -1.33;
   g.strokeStyle = "#0e0d13";
   g.lineWidth = 0.1;
   g.beginPath();
@@ -303,9 +299,6 @@ if (!sit) {
     }
   }
   collar(sh);
-  hdX = 0;
-  hdY = sh - 0.2;
 }
 head(hdX, hdY);
-e.at(hdX, hdY - 0.16);
 g.restore();

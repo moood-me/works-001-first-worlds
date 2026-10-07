@@ -1,15 +1,11 @@
 var S = e.state || {},
-  t = e.t;
-var x = S.hero_x == null ? -2.6 : S.hero_x,
-  dx = S.death_x == null ? 1.36 : S.death_x;
-var mv = !!S.hero_moving,
-  pose = S.hero_pose || "stand",
-  look = S.hero_look || "death";
+  t = e.t,
+  h = e.lib.hero(e);
+var x = h.x,
+  mv = h.mv,
+  f = h.f,
+  sit = h.sit;
 var L = S.lamp == null ? 0.75 : S.lamp;
-var f = dx >= x ? 1 : -1;
-if (mv && S.hero_to != null) f = S.hero_to >= x ? 1 : -1;
-else if (look === "away") f = -f;
-var sit = pose === "sit" && !mv;
 var lx = x + 1.1,
   ld = Math.abs(lx),
   lit = Math.max(0, 1 - ld / 4.2) * L,
@@ -90,14 +86,12 @@ g.fillStyle = "rgba(6,6,12,0.35)";
 g.beginPath();
 g.ellipse(0, 0, 0.24, 0.04, 0, 0, Math.PI * 2);
 g.fill();
-var br = Math.sin(t * 1.6) * 0.006 + Math.sin(t * 0.37) * 0.003,
-  hdx,
-  hdy;
+var hdx = h.hdx,
+  hdy = h.hdy;
 if (!sit) {
-  var ph = t * 6.2,
+  var ph = h.ph,
     sw = mv ? 0.22 : 0,
-    bob = mv ? Math.abs(Math.sin(ph)) * 0.02 : 0,
-    hip = -0.9 - bob;
+    hip = h.hip;
   g.strokeStyle = "#24252b";
   g.lineWidth = 0.1;
   for (var k = 0; k < 2; k++) {
@@ -112,8 +106,8 @@ if (!sit) {
     g.ellipse(f * s + f * 0.04, -0.025, 0.075, 0.03, 0, 0, Math.PI * 2);
     g.fill();
   }
-  var sx = f * (mv ? 0.07 : 0.035),
-    sy = hip - 0.62 + br;
+  var sx = h.sx,
+    sy = h.sy;
   P(function () {
     g.moveTo(sx - 0.18, sy + 0.04);
     g.lineTo(sx + 0.19, sy + 0.04);
@@ -153,12 +147,10 @@ if (!sit) {
   g.lineTo(sx - f * 0.02 + tw, sy + 0.36);
   g.lineTo(sx - f * 0.08 + tw, sy + 0.35);
   g.fill();
-  hdx = sx + f * 0.03;
-  hdy = sy - 0.14;
 } else {
-  var hip = -0.58,
-    sy = -1.17 + br,
-    sx = f * 0.015,
+  var hip = h.hip,
+    sy = h.sy,
+    sx = h.sx,
     s1 = Math.sin(t * 0.9) * 0.02,
     s2 = Math.sin(t * 1.13 + 1.7) * 0.02;
   g.strokeStyle = "#24252b";
@@ -212,10 +204,7 @@ if (!sit) {
   g.fill();
   var tw = Math.sin(t * 1.3) * 0.012;
   g.fillRect(sx + f * 0.03 + tw, sy + 0.08, 0.06, 0.26);
-  hdx = sx + f * 0.02;
-  hdy = sy - 0.14;
 }
 head(hdx, hdy);
 breath(hdx + f * 0.09, hdy + 0.04);
-e.at(hdx, hdy - 0.15);
 g.restore();
