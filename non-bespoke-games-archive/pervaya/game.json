@@ -7,18 +7,15 @@
   "scenes": [
     {
       "world": "pavel--smert-v-parke",
-      "folder": "skameyka-u-fonarya",
-      "version": 1
+      "folder": "skameyka-u-fonarya"
     },
     {
       "world": "pavel--tikhoe-ozero",
-      "folder": "bukhta-u-lodochnogo-saraya",
-      "version": 2
+      "folder": "bukhta-u-lodochnogo-saraya"
     },
     {
       "world": "pavel--pianino",
-      "folder": "loft-s-pianino",
-      "version": 4
+      "folder": "loft-s-pianino"
     }
   ]
 }
