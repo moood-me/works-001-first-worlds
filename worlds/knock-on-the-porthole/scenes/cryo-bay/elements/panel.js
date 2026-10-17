@@ -33,7 +33,7 @@ g.scale(0.0021, 0.0021);
 g.font = "bold 10px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(220,180,90,0.55)";
-g.fillText(tr('MANUAL OPENING'), 0, 0);
+g.fillText(tr('MANUAL RELEASE'), 0, 0);
 g.restore();
 const fl = 0.85 + 0.15 * Math.sin(t * 7.7) * Math.sin(t * 1.3);
 g.fillStyle = "#130a05";

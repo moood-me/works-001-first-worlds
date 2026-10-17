@@ -4,7 +4,7 @@
   {"text":"AIRLOCK 2","translation":"ШЛЮЗ 2","where":"scenes/observation-corridor/elements/airlock.js"},
   {"text":"LOCKED","translation":"ЗАБЛОКИРОВАН","where":"scenes/observation-corridor/elements/airlock.js"},
   {"text":"STUCK","translation":"ЗАКЛИНИЛО","where":"scenes/observation-corridor/elements/airlock.js"},
-  {"text":"PART OPEN","translation":"ОТКРЫТ ЧАСТ.","where":"scenes/observation-corridor/elements/airlock.js"},
+  {"text":"PARTLY OPEN","translation":"ОТКРЫТ ЧАСТ.","where":"scenes/observation-corridor/elements/airlock.js"},
   {"text":"OPEN","translation":"ОТКРЫТ","where":"scenes/observation-corridor/elements/airlock.js"},
   {"text":"MANUAL DRIVE","translation":"РУЧНОЙ ПРИВОД","where":"scenes/observation-corridor/elements/airlock.js"},
   {"text":"SUIT 02 · CH. 2","translation":"СКАФ. 02 · КАН. 2","where":"scenes/observation-corridor/elements/intercom.js"},

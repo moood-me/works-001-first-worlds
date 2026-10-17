@@ -182,7 +182,7 @@ if (on) e.light(0, -2.47, 2.2, "#ff3a30", 0.15 + 0.6 * Rb);
 const S = {
   locked: [tr('LOCKED'), "255,70,50", "#ff4632", 1],
   jammed: [tr('STUCK'), "255,70,50", "#ff4632", Math.sin(t * 4) > 0 ? 1 : 0.25],
-  ajar: [tr('PART OPEN'), "255,170,70", "#ffaa46", 1],
+  ajar: [tr('PARTLY OPEN'), "255,170,70", "#ffaa46", 1],
   open: [tr('OPEN'), "150,230,170", "#96e6aa", 1],
 }[st] || ["—", "120,120,120", "#888888", 0.5];
 g.fillStyle = "#050607";

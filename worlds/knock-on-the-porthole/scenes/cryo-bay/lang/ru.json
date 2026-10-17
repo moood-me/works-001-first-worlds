@@ -1,6 +1,6 @@
 {"strings": [
   {"text":"LIDA · O2 {oxygen}%","translation":"ЛИДА · O2 {oxygen}%","where":"scenes/cryo-bay/elements/lida.js"},
-  {"text":"MANUAL OPENING","translation":"РУЧНОЕ ОТКРЫТИЕ","where":"scenes/cryo-bay/elements/panel.js"},
+  {"text":"MANUAL RELEASE","translation":"РУЧНОЕ ОТКРЫТИЕ","where":"scenes/cryo-bay/elements/panel.js"},
   {"text":"CRYO-3 · OPEN","translation":"КРИО-3 · ОТКРЫТО","where":"scenes/cryo-bay/elements/panel.js"},
   {"text":"CRYO-3 · READY","translation":"КРИО-3 · ГОТОВ","where":"scenes/cryo-bay/elements/panel.js"},
   {"text":"CRYO-3 · LOCKED","translation":"КРИО-3 · ЗАПЕРТО","where":"scenes/cryo-bay/elements/panel.js"},
