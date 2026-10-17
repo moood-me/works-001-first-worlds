@@ -18,7 +18,7 @@ const T = (t, x, y, s) => {
   g.fillText(t, x * 100, y * 100);
   g.restore();
 };
-T("ГЕОМЕТРИЧЕСКИЕ ТЕЛА", -2.375, -2.2, 4.6);
+T(tr('GEOMETRIC SOLIDS'), -2.375, -2.2, 4.6);
 g.lineJoin = "round";
 const S = () => {
   g.strokeStyle = "#4b4136";

@@ -1,8 +1,8 @@
 const ppl = [
-  ["ПИФАГОР", -0.7, 0],
-  ["ДЕКАРТ", 0.3, 1],
-  ["ЛОБАЧЕВСКИЙ", 1.3, 2],
-  ["КОВАЛЕВСКАЯ", 2.3, 3],
+  [tr('PYTHAGORAS'), -0.7, 0],
+  [tr('DESCARTES'), 0.3, 1],
+  [tr('LOBACHEVSKY'), 1.3, 2],
+  [tr('KOVALEVSKAYA'), 2.3, 3],
 ];
 const el = (x, y, rx, ry, c) => {
   g.fillStyle = c;
