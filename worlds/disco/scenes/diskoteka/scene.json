@@ -86,35 +86,35 @@
     ],
     "brightness": 0.75
   },
-  "title": "Дискотека",
-  "caption": "Огни сверкают, музыка не умолкает",
+  "title": "Disco",
+  "caption": "The lights sparkle, the music never stops",
   "horizon": 0.6,
   "objects": [
     {
       "id": "e85a05a25",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "e25d1c2a9",
       "sky": true,
-      "name": "Звёзды"
+      "name": "Stars"
     },
     {
       "id": "ea6955f98",
       "sky": true,
-      "name": "Розовые облака"
+      "name": "Pink clouds"
     },
     {
       "id": "ee9cdf415",
       "sky": true,
-      "name": "Луна",
+      "name": "Moon",
       "color": "#f2f2ff"
     },
     {
       "id": "edee3506a",
       "sky": true,
-      "name": "Мятная планета",
+      "name": "Mint planet",
       "color": "#7cffda"
     },
     {
@@ -127,7 +127,7 @@
         800,
         6
       ],
-      "name": "Далёкие горы",
+      "name": "Distant mountains",
       "color": "#3a1f5d",
       "height": 70
     },
@@ -141,7 +141,7 @@
         430,
         4
       ],
-      "name": "Город в огнях",
+      "name": "City in lights",
       "color": "#2a1140",
       "height": 60,
       "flicker": 0.25
@@ -156,7 +156,7 @@
         70,
         10
       ],
-      "name": "Площадь",
+      "name": "Square",
       "color": "#1c0a2e",
       "height": 1
     },
@@ -170,7 +170,7 @@
         15,
         0
       ],
-      "name": "Блёстки в воздухе",
+      "name": "Sparkles in the air",
       "color": "#ffe07a",
       "height": 10
     },
@@ -184,7 +184,7 @@
         40,
         8
       ],
-      "name": "Танцпол",
+      "name": "Dance floor",
       "color": "#170a26",
       "height": 1
     },
@@ -198,7 +198,7 @@
         9,
         0.4
       ],
-      "name": "Диско-башня",
+      "name": "Disco tower",
       "color": "#140a22",
       "height": 5
     },
@@ -212,7 +212,7 @@
         25,
         0.4
       ],
-      "name": "Голубой прожектор",
+      "name": "Blue spotlight",
       "color": "#140a22",
       "height": 2.5
     },
@@ -226,7 +226,7 @@
         25,
         0.4
       ],
-      "name": "Жёлтый прожектор",
+      "name": "Yellow spotlight",
       "color": "#140a22",
       "height": 2.6
     },
@@ -240,7 +240,7 @@
         1,
         1
       ],
-      "name": "Розовый фонарик",
+      "name": "Pink lantern",
       "sway": 2.5,
       "color": "#ff2fd6",
       "height": 0.4,
@@ -257,7 +257,7 @@
         1,
         1.2
       ],
-      "name": "Жёлтый фонарик-звезда",
+      "name": "Yellow star lantern",
       "sway": 1.8,
       "color": "#fff23d",
       "height": 0.6,
@@ -274,7 +274,7 @@
         1,
         1.2
       ],
-      "name": "Голубой фонарик",
+      "name": "Blue lantern",
       "sway": 2.2,
       "color": "#29e0ff",
       "height": 0.6,
@@ -291,7 +291,7 @@
         0.9,
         0.15
       ],
-      "name": "Танцор с поднятыми руками",
+      "name": "Dancer with raised arms",
       "color": "#170b26",
       "height": 1.8
     },
@@ -305,7 +305,7 @@
         0.9,
         0.15
       ],
-      "name": "Девушка в платье",
+      "name": "Girl in a dress",
       "color": "#170b26",
       "height": 1.7
     },
@@ -319,7 +319,7 @@
         0.9,
         0.15
       ],
-      "name": "Прыгун",
+      "name": "Jumper",
       "color": "#170b26",
       "height": 1.75
     },
@@ -333,7 +333,7 @@
         0.9,
         0.15
       ],
-      "name": "Парень в кепке",
+      "name": "Guy in a cap",
       "color": "#170b26",
       "height": 1.8
     },
@@ -347,7 +347,7 @@
         6.5,
         0.3
       ],
-      "name": "Конфетти",
+      "name": "Confetti",
       "color": "#ff4fd8",
       "height": 7
     }
@@ -356,17 +356,17 @@
     {
       "at": 3,
       "for": 7,
-      "text": "Шар над сценой рассыпает зайчиков по всем плечам"
+      "text": "The ball above the stage scatters sparkles on every shoulder"
     },
     {
       "at": 12,
       "for": 7,
-      "text": "Кто-то впервые решился выйти в круг"
+      "text": "Someone has found the nerve to step into the circle for the first time"
     },
     {
       "at": 21,
       "for": 8,
-      "text": "Жёлтый прожектор ищет, кого бы ещё позвать"
+      "text": "The yellow spotlight is looking for someone else to call over"
     }
   ]
 }
