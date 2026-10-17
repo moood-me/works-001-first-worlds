@@ -1,7 +1,7 @@
 {"strings": [
-  {"text":"Lenka is dumb","translation":"Ленка дура","where":"scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"Lenka's dumb","translation":"Ленка дура","where":"scenes/the-fourth-one/elements/entrance.js"},
   {"text":"TSOI LIVES","translation":"ЦОЙ ЖИВ","where":"scenes/the-fourth-one/elements/garages.js"},
-  {"text":"Spartak are champions","translation":"Спартак — чемпион","where":"scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"Спартак — чемпион","where":"scenes/the-fourth-one/elements/garages.js"},
   {"text":"The Fourth One Squatting","translation":"Четвёртый на корточках","where":"scenes/the-fourth-one/scene.json title"},
   {"text":"The garages behind the nine-storey block, ten to three.","translation":"Гаражи за девятиэтажкой, без десяти три.","where":"scenes/the-fourth-one/scene.json caption"},
   {"text":"The lamp by the garages has been blinking since winter.","translation":"Фонарь у гаражей моргает с самой зимы.","where":"scenes/the-fourth-one/scene.json captions[0] text"},

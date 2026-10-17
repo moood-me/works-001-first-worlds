@@ -58,7 +58,7 @@ g.fillStyle = "rgba(215,210,200,0.28)";
 g.fillText(tr('TSOI LIVES'), 3.6, -1.3);
 g.font = "0.26px sans-serif";
 g.fillStyle = "rgba(215,210,200,0.2)";
-g.fillText(tr('Spartak are champions'), -8.3, -1.6);
+g.fillText(tr('SPARTAK CHAMPIONS'), -8.3, -1.6);
 if (L > 0) {
   const p = g.createRadialGradient(-7.2, -1, 0, -7.2, -1, 6);
   p.addColorStop(0, "rgba(235,150,70," + 0.2 * L + ")");
