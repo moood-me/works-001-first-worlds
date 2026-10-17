@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Rooftops","translation":"Крыши","where":"scenes/kryshi/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → бежать, пробел — прыгать.","where":"scenes/kryshi/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"Добежал до кошки на краю крыш. Кошка: «Мяу. Дальше только луна.»","where":"scenes/kryshi/script.js"}
+]}
