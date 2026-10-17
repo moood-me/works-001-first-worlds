@@ -2,7 +2,7 @@ var DUR = 90,
   GAP = 70;
 function start() {
   scene.set("tram", 0);
-  scene.tell("Из-под дальнего моста вышел речной трамвайчик с огнями", "tram");
+  scene.tell(tr('A river tram with its lights on has come out from under the far bridge'), "tram");
   scene.set("tram", 1, DUR);
   scene.after(DUR + GAP, start);
 }
@@ -17,12 +17,12 @@ var raised = (scene.get("raise") || 0) >= 0.98;
 scene.on("change", "raise", function (val) {
   if (val >= 0.98 && !raised) {
     raised = true;
-    scene.tell("Пролёты дальнего моста поднялись — мост разведён", "bridge");
+    scene.tell(tr('The spans of the far bridge have risen: the bridge is up'), "bridge");
   } else if (val < 0.5 && raised) {
     raised = false;
-    scene.tell("Пролёты дальнего моста опустились, мост сведён", "bridge");
+    scene.tell(tr('The spans of the far bridge have come down: the bridge is closed'), "bridge");
   }
 });
 scene.on("change", "lamp", function (val) {
-  scene.tell(val ? "Фонарь под аркой зажёгся" : "Фонарь под аркой погас", "lantern");
+  scene.tell(val ? tr('The lamp under the arch has come on') : tr('The lamp under the arch has gone out'), "lantern");
 });

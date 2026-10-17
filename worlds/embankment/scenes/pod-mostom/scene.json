@@ -102,7 +102,7 @@
     "tram": 0.3,
     "raise": 0
   },
-  "title": "Под мостом",
+  "title": "Under the Bridge",
   "camera": {
     "area": [
       -2.5,
@@ -112,18 +112,18 @@
     ],
     "mode": "walk"
   },
-  "caption": "Гранитный спуск к воде под старым мостом.",
+  "caption": "Granite steps down to the water under an old bridge.",
   "horizon": 0.5,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо и река"
+      "name": "Sky and river"
     },
     {
       "id": "glints",
       "sky": true,
-      "name": "Огни на воде"
+      "name": "Lights on the water"
     },
     {
       "id": "city",
@@ -133,7 +133,7 @@
         3000,
         3
       ],
-      "name": "Город на том берегу",
+      "name": "Town on the far bank",
       "across": 0,
       "height": 70,
       "reflect": true,
@@ -147,7 +147,7 @@
         430,
         1
       ],
-      "name": "Разводной мост вдали",
+      "name": "Drawbridge in the distance",
       "across": 15,
       "height": 18,
       "reflect": true,
@@ -161,14 +161,14 @@
         500,
         5
       ],
-      "name": "Туман над водой",
+      "name": "Mist over the water",
       "across": 0,
       "height": 20,
       "distance": 130
     },
     {
       "id": "water",
-      "name": "Река у спуска",
+      "name": "River by the steps",
       "depth": 64,
       "plane": true,
       "width": 160,
@@ -178,7 +178,7 @@
     },
     {
       "id": "landing",
-      "name": "Гранитная площадка",
+      "name": "Granite landing",
       "depth": 8.3,
       "plane": true,
       "width": 16,
@@ -194,7 +194,7 @@
         200,
         1
       ],
-      "name": "Речной трамвайчик",
+      "name": "River tram",
       "across": 0,
       "height": 9,
       "reflect": true,
@@ -209,7 +209,7 @@
         2.6,
         0.3
       ],
-      "name": "Лодка у спуска",
+      "name": "Boat by the steps",
       "sway": 1.2,
       "across": -4.2,
       "height": 0.6,
@@ -225,14 +225,14 @@
         14,
         0.03
       ],
-      "name": "Арка моста",
+      "name": "Bridge arch",
       "across": 0,
       "height": 4.3,
       "distance": 6
     },
     {
       "id": "vault",
-      "name": "Свод моста",
+      "name": "Bridge vault",
       "depth": 6.1,
       "plane": true,
       "width": 12,
@@ -248,7 +248,7 @@
         4,
         0.2
       ],
-      "name": "Травинки и капель под аркой",
+      "name": "Grass blades and drips under the arch",
       "across": 0,
       "height": 4.3,
       "distance": 5.95
@@ -261,7 +261,7 @@
         0.85,
         0.85
       ],
-      "name": "Фонарь под аркой",
+      "name": "Lamp under the arch",
       "sway": 1.5,
       "across": -0.5,
       "height": 0.6,
@@ -277,7 +277,7 @@
         0.3,
         0.05
       ],
-      "name": "Чугунная тумба",
+      "name": "Cast-iron bollard",
       "across": -2.5,
       "height": 0.55,
       "distance": 7.7
@@ -290,7 +290,7 @@
         0.3,
         0.45
       ],
-      "name": "Кот на тумбе",
+      "name": "Cat on the bollard",
       "across": -2.5,
       "height": 0.35,
       "distance": 7.69,
@@ -304,7 +304,7 @@
         0.7,
         0.1
       ],
-      "name": "Девушка в красном шарфе",
+      "name": "Girl in a red scarf",
       "across": 1.4,
       "height": 1,
       "distance": 8.1
@@ -317,7 +317,7 @@
         0.7,
         0.1
       ],
-      "name": "Собака",
+      "name": "Dog",
       "across": 2.15,
       "height": 0.45,
       "distance": 7.95
@@ -326,17 +326,17 @@
   "directions": [
     {
       "key": "raise",
-      "name": "Развести мост",
+      "name": "Raise the bridge",
       "excludes": []
     },
     {
       "key": "dawn",
-      "name": "Рассвет",
+      "name": "Dawn",
       "excludes": []
     },
     {
       "key": "fog",
-      "name": "Туман над рекой",
+      "name": "Mist over the river",
       "excludes": []
     }
   ]

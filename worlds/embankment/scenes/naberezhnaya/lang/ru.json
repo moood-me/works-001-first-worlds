@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Embankment","translation":"Набережная","where":"scenes/naberezhnaya/scene.json title"},
+  {"text":"An evening as long as the embankment itself.","translation":"Вечер длинный, как сама набережная.","where":"scenes/naberezhnaya/scene.json caption"}
+]}
