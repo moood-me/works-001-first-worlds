@@ -103,7 +103,7 @@ g.fillRect(1.5, -6.5, 0.2, 0.08);
 g.fillRect(1.5, -3.3, 0.2, 0.08);
 g.fillRect(1.65, -6.9, 0.72, 4.1);
 const N = st.neon;
-const L = ["О", "Т", "Е", "Л", "Ь"];
+const L = [...tr("HOTEL")];
 g.save();
 g.scale(0.01, 0.01);
 g.font = "bold 60px Georgia, serif";

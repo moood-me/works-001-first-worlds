@@ -104,17 +104,17 @@
     "envelope": "none",
     "stranger": 0.15
   },
-  "title": "Под фонарём",
+  "title": "Under the Lamp",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Он сказал: в два, у «Метрополя», под фонарём.",
+  "caption": "He said: at two, outside the Metropol, under the lamp.",
   "horizon": 0.44,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "ночное небо"
+      "name": "night sky"
     },
     {
       "id": "city",
@@ -124,7 +124,7 @@
         120,
         1
       ],
-      "name": "дальний город",
+      "name": "distant city",
       "across": 0,
       "height": 35,
       "distance": 90
@@ -137,7 +137,7 @@
         18,
         0.3
       ],
-      "name": "дома в глубине улицы",
+      "name": "houses down the street",
       "across": 0,
       "height": 22,
       "distance": 34
@@ -150,14 +150,14 @@
         40,
         0.5
       ],
-      "name": "туман",
+      "name": "fog",
       "across": 0,
       "height": 6,
       "distance": 24
     },
     {
       "id": "street",
-      "name": "мокрая мостовая",
+      "name": "wet cobblestones",
       "depth": 36,
       "plane": true,
       "width": 26,
@@ -173,7 +173,7 @@
         2.6,
         0.3
       ],
-      "name": "отель «Метрополь»",
+      "name": "the Metropol hotel",
       "across": -5,
       "height": 15,
       "distance": 12
@@ -186,7 +186,7 @@
         9,
         0.3
       ],
-      "name": "дом с пожарной лестницей",
+      "name": "house with a fire escape",
       "across": 9.5,
       "height": 16,
       "distance": 15
@@ -199,7 +199,7 @@
         1.6,
         0.2
       ],
-      "name": "фонарь",
+      "name": "street lamp",
       "across": 1.5,
       "height": 4.7,
       "reflect": true,
@@ -213,7 +213,7 @@
         0.4,
         0.05
       ],
-      "name": "конверт",
+      "name": "envelope",
       "across": 1.3,
       "height": 0.3,
       "distance": 8
@@ -226,7 +226,7 @@
         2.2,
         0.6
       ],
-      "name": "незнакомец в шляпе",
+      "name": "stranger in a hat",
       "across": 0,
       "height": 1.8,
       "distance": 8.2
@@ -239,7 +239,7 @@
         0.9,
         0.3
       ],
-      "name": "женщина в плаще",
+      "name": "woman in a raincoat",
       "across": 2.05,
       "height": 1.7,
       "reflect": true,
@@ -253,7 +253,7 @@
         7,
         0.3
       ],
-      "name": "дождь",
+      "name": "rain",
       "across": 0,
       "height": 5,
       "distance": 3.5
@@ -263,12 +263,12 @@
     {
       "at": 3,
       "for": 7,
-      "text": "Без четверти три. Сигарета — третья."
+      "text": "A quarter to three. Her third cigarette."
     },
     {
       "at": 13,
       "for": 8,
-      "text": "Шаги слышно раньше, чем видно шляпу."
+      "text": "You hear the footsteps before you see the hat."
     }
   ]
 }
