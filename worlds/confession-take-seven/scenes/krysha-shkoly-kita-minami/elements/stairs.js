@@ -1,5 +1,5 @@
 const s = e.state,
-  open = s.senpai === "в дверях";
+  open = s.senpai === "in the doorway";
 const gr = g.createLinearGradient(-3.6, 0, 0.9, 0);
 gr.addColorStop(0, "#4a3848");
 gr.addColorStop(0.85, "#6e5262");
@@ -24,11 +24,11 @@ g.fillStyle = "#4a3040";
 g.font = "bold 0.075px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ДРАМКРУЖОК", 0, -0.12);
+g.fillText(tr('DRAMA CLUB'), 0, -0.12);
 g.font = "0.055px sans-serif";
-g.fillText("идёт съёмка", 0, -0.02);
-g.fillText("не входить,", 0, 0.06);
-g.fillText("кроме сэмпая", 0, 0.14);
+g.fillText(tr('filming now'), 0, -0.02);
+g.fillText(tr('keep out,'), 0, 0.06);
+g.fillText(tr('except senpai'), 0, 0.14);
 g.restore();
 g.fillStyle = "#2e2232";
 g.fillRect(-0.5, -2.15, 1.0, 2.15);
@@ -61,4 +61,4 @@ g.fillStyle = "#e8fff0";
 g.font = "bold 0.12px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ВЫХОД", 0, -2.37);
+g.fillText(tr('EXIT'), 0, -2.37);

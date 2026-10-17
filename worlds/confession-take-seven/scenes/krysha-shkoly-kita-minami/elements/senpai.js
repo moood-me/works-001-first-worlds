@@ -2,7 +2,7 @@ const s = e.state,
   t = e.t;
 const br = Math.sin(t * 1.2) * 0.006;
 e.at(0, -1.9 + br);
-if (s.senpai !== "в дверях") return;
+if (s.senpai !== "in the doorway") return;
 const C = "#1c1a2a";
 g.fillStyle = C;
 g.beginPath();

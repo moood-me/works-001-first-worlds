@@ -32,7 +32,7 @@ g.fillStyle = "#9a2a2a";
 g.font = "bold 0.065px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("НЕ ТРОГАТЬ", 0, 0.004);
+g.fillText(tr('HANDS OFF'), 0, 0.004);
 g.restore();
 g.fillStyle = "#2e2434";
 g.beginPath();
@@ -112,7 +112,7 @@ for (let i = 0; i < 16; i++) {
   g.quadraticCurveTo(x + 0.15, y - 0.03 * Math.sin(t * 3 + i), x + 0.35, y);
   g.stroke();
 }
-if (s.fan === "перегрелся") {
+if (s.fan === "overheated") {
   for (let k = 0; k < 6; k++) {
     const ph = (t * 0.25 + k / 6) % 1;
     g.fillStyle = "rgba(120,110,120," + 0.25 * (1 - ph) + ")";

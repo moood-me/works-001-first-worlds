@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t;
-if (s.crow === "улетела") {
+if (s.crow === "flown") {
   e.at(0, -0.3);
   return;
 }
@@ -54,6 +54,6 @@ if (caw > 0.2) {
   g.fillStyle = "rgba(255,240,230," + caw * 0.8 + ")";
   g.font = "bold 0.11px sans-serif";
   g.textAlign = "center";
-  g.fillText("КАР", -0.12, -0.42);
+  g.fillText(tr('CAW'), -0.12, -0.42);
 }
 e.at(-0.13, -0.35);
