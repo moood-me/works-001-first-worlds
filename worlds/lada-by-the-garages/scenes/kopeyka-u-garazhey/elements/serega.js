@@ -1,8 +1,8 @@
 const s = e.state,
   t = e.t,
   en = s.engine;
-const tap = s.tape === "играет" ? Math.max(0, Math.sin((t * Math.PI * 92) / 60)) ** 4 * 0.04 : 0;
-const kick = en === "завелась" ? Math.abs(Math.sin(t * 6)) * 0.08 : 0;
+const tap = s.tape === "playing" ? Math.max(0, Math.sin((t * Math.PI * 92) / 60)) ** 4 * 0.04 : 0;
+const kick = en === "running" ? Math.abs(Math.sin(t * 6)) * 0.08 : 0;
 const kn = 0.05 * Math.sin(t * 0.7) + 0.03 * Math.sin(t * 1.9) + kick;
 g.fillStyle = "#1a191f";
 g.fillRect(1.55, -0.15, 1.25, 0.12);

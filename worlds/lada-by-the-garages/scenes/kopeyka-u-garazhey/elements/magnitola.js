@@ -1,11 +1,11 @@
 const s = e.state,
   t = e.t,
   en = s.engine,
-  play = s.tape === "играет";
+  play = s.tape === "playing";
 const shake =
-  en === "чихает"
+  en === "sputtering"
     ? Math.sin(t * 40) * 0.02 * (0.5 + 0.5 * Math.sin(t * 7))
-    : en === "завелась"
+    : en === "running"
       ? Math.sin(t * 55) * 0.012
       : 0;
 g.translate(0, shake);

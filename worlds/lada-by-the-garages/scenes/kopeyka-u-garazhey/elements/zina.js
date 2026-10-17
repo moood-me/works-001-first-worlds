@@ -51,7 +51,7 @@ g.fillStyle = "#c8c0b0";
 g.fillRect(-0.05, 0, 0.1, 0.25);
 g.fillRect(-0.05, 0.2, 0.16, 0.07);
 g.restore();
-if (s.zina !== "ушла") {
+if (s.zina !== "gone") {
   const lk = Math.sin(t * 0.23) * 0.05 + Math.sin(t * 0.61) * 0.025,
     br = Math.sin(t * 1.1) * 0.006;
   g.fillStyle = "#4a3a4c";

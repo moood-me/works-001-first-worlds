@@ -1,7 +1,7 @@
 const s = e.state,
   t = e.t,
   d = s.dusk || 0,
-  play = s.tape === "играет";
+  play = s.tape === "playing";
 const beat = play ? Math.max(0, Math.sin((t * Math.PI * 92) / 60)) ** 3 : 0;
 const nod = beat * 0.025,
   br = Math.sin(t * 1.2) * 0.006 + Math.sin(t * 0.43) * 0.004;

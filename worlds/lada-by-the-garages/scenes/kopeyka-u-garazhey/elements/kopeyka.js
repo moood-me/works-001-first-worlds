@@ -3,16 +3,16 @@ const s = e.state,
   d = s.dusk || 0,
   en = s.engine;
 const shake =
-  en === "чихает"
+  en === "sputtering"
     ? Math.sin(t * 40) * 0.02 * (0.5 + 0.5 * Math.sin(t * 7))
-    : en === "завелась"
+    : en === "running"
       ? Math.sin(t * 55) * 0.012
       : 0;
 g.fillStyle = "rgba(10,8,12,0.55)";
 g.beginPath();
 g.ellipse(0, 0.02, 2.4, 0.12, 0, 0, 7);
 g.fill();
-if (en !== "молчит") {
+if (en !== "silent") {
   for (let k = 0; k < 7; k++) {
     const ph = (t * 0.6 + k / 7) % 1;
     g.fillStyle = "rgba(150,160,180," + 0.3 * (1 - ph) + ")";
@@ -20,7 +20,7 @@ if (en !== "молчит") {
     g.arc(-2.2 - ph * 1.2 + Math.sin(ph * 6 + k) * 0.1, -0.38 - ph * 0.7, 0.08 + ph * 0.35, 0, 7);
     g.fill();
   }
-  if (en === "чихает") {
+  if (en === "sputtering") {
     const b = Math.max(0, Math.sin(t * 5.3)) ** 10;
     e.light(-2.15, -0.38, 0.6, "#ff9a40", 0.8 * b);
   }
@@ -97,7 +97,7 @@ g.fillStyle = "#c04030";
 g.fillRect(-2.08, -0.8, 0.05, 0.14);
 g.fillStyle = "#e8e0c8";
 g.fillRect(2.03, -0.78, 0.05, 0.12);
-if (en === "завелась") {
+if (en === "running") {
   e.light(2.1, -0.72, 1.8, "#ffe8b0", 0.85);
   e.light(-2.1, -0.73, 0.6, "#ff4030", 0.6);
 }

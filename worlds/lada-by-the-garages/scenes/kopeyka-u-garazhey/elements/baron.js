@@ -2,7 +2,7 @@ const s = e.state,
   t = e.t,
   d = s.dusk || 0,
   en = s.engine;
-const alert = en === "чихает" || en === "завелась" ? 1 : 0;
+const alert = en === "sputtering" || en === "running" ? 1 : 0;
 const br = Math.sin(t * 1.6) * 0.012;
 const C = "#7a6450";
 g.fillStyle = "rgba(10,8,12,0.4)";

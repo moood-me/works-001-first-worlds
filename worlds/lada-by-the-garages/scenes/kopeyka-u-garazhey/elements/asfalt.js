@@ -52,4 +52,4 @@ for (const [c, r] of cells) {
 g.font = "0.3px sans-serif";
 g.textAlign = "center";
 g.fillStyle = "rgba(225,220,205,0.4)";
-g.fillText("НЕБО", hx, hy - 6 * 0.64 + 0.3);
+g.fillText(tr('SKY'), hx, hy - 6 * 0.64 + 0.3);

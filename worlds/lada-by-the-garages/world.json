@@ -1,9 +1,9 @@
 {
-  "title": "Копейка у гаражей",
-  "description": "Августовский вечер за хрущёвкой: пацаны на корточках, семки, магнитола на крыше копейки, которую Серёга заводит с апреля. Баба Зина всё видит.",
+  "title": "The Lada by the Garages",
+  "description": "An August evening behind a khrushchyovka: the lads squatting, sunflower seeds, a boombox on the roof of the Lada that Seryoga has been trying to start since April. Granny Zina sees everything.",
   "themes": {
-    "ирония": 40,
-    "гоп-стоп": 60
+    "irony": 40,
+    "gopnik": 60
   },
   "main": "kopeyka-u-garazhey"
 }
