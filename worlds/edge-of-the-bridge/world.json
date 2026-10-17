@@ -1,9 +1,9 @@
 {
-  "title": "Край моста",
-  "description": "Старый каменный мост обрывается над морем облаков. На самом краю каждый вечер сидит хранительница с фонарём и светит в пустоту, вдруг с парящего острова напротив кто-нибудь ответит.",
+  "title": "The Edge of the Bridge",
+  "description": "An old stone bridge breaks off above a sea of clouds. Every evening a keeper sits at the very edge with a lantern and shines it into the void, in case someone on the floating island opposite answers.",
   "themes": {
-    "фэнтези": 60,
-    "одиночество": 40
+    "fantasy": 60,
+    "loneliness": 40
   },
   "main": "kray-mosta"
 }

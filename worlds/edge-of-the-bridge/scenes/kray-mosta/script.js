@@ -9,7 +9,7 @@ function whaleGo() {
   scene.after(left, () => {
     scene.set("whale", false);
     scene.set("whaleX", -0.25);
-    scene.tell("Небесный кит ушёл за край тумана", "whale");
+    scene.tell(tr('The sky whale has gone beyond the edge of the mist'), "whale");
   });
 }
 scene.on("load", (s) => {

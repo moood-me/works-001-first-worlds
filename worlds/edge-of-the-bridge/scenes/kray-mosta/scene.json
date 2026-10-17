@@ -103,42 +103,42 @@
     "whaleX": -0.25,
     "lantern": 1
   },
-  "title": "Край моста",
+  "title": "The Edge of the Bridge",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Она светит в пустоту — вдруг кто-нибудь ответит.",
+  "caption": "She shines her light into the void, in case someone answers.",
   "horizon": 0.58,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "stars",
       "sky": true,
-      "name": "Звёзды"
+      "name": "Stars"
     },
     {
       "id": "moons",
       "sky": true,
-      "name": "Две луны"
+      "name": "Two moons"
     },
     {
       "id": "clouds",
       "sky": true,
-      "name": "Высокие облака"
+      "name": "High clouds"
     },
     {
       "id": "whale",
       "sky": true,
-      "name": "Небесный кит"
+      "name": "Sky whale"
     },
     {
       "id": "mistsea",
       "sky": true,
-      "name": "Море облаков"
+      "name": "Sea of clouds"
     },
     {
       "x": 0.75,
@@ -150,7 +150,7 @@
         70,
         60
       ],
-      "name": "Остров напротив",
+      "name": "The island opposite",
       "height": 90,
       "period": 40,
       "distance": 700,
@@ -164,7 +164,7 @@
         6,
         40
       ],
-      "name": "Обломанный мост",
+      "name": "Broken bridge",
       "across": -2.6,
       "height": 10,
       "distance": 18
@@ -177,7 +177,7 @@
         1.2,
         0.8
       ],
-      "name": "Хранительница",
+      "name": "Keeper",
       "across": -2.9,
       "height": 1,
       "distance": 18
@@ -190,7 +190,7 @@
         1.3,
         0.2
       ],
-      "name": "Фонарь",
+      "name": "Lantern",
       "across": -3.4,
       "height": 0.4,
       "flicker": 0.3,
@@ -205,7 +205,7 @@
         70,
         10
       ],
-      "name": "Туман у опор",
+      "name": "Mist around the piers",
       "height": 6,
       "distance": 30,
       "elevation": -7
@@ -215,17 +215,17 @@
     {
       "at": 3,
       "for": 7,
-      "text": "Мост обрывается здесь уже триста лет."
+      "text": "The bridge has ended here for three hundred years."
     },
     {
       "at": 12,
       "for": 9,
-      "text": "Каждый вечер она зажигает фонарь — на случай, если напротив кто-то остался."
+      "text": "Every evening she lights the lantern, in case someone is still left over there."
     },
     {
       "at": 25,
       "for": 7,
-      "text": "Туман внизу не помнит, куда вёл мост."
+      "text": "The mist below doesn't remember where the bridge once led."
     }
   ]
 }
