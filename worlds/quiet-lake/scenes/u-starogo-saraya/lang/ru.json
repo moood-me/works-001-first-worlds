@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"By the Old Shed","translation":"У старого сарая","where":"scenes/u-starogo-saraya/scene.json title"},
+  {"text":"An old shed right by the water.","translation":"Старый сарай у самой воды.","where":"scenes/u-starogo-saraya/scene.json caption"},
+  {"text":"The shed breathes","translation":"Сарай дышит","where":"scenes/u-starogo-saraya/scene.json directions[0] name"},
+  {"text":"Behind the door, another place","translation":"За дверью — другое место","where":"scenes/u-starogo-saraya/scene.json directions[1] name"}
+]}

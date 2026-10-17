@@ -104,7 +104,7 @@
     "benchShift": 0,
     "footprints": 0
   },
-  "title": "Тихий берег",
+  "title": "Quiet Shore",
   "camera": {
     "area": [
       -9,
@@ -114,13 +114,13 @@
     ],
     "mode": "walk"
   },
-  "caption": "Песчаный берег, неподвижное озеро и тёмная коробка у самой воды.",
+  "caption": "A sandy shore, a motionless lake and a dark box right by the water.",
   "horizon": 0.52,
   "objects": [
     {
       "id": "ec5e3fd7b",
       "sky": true,
-      "name": "закатное небо и солнце",
+      "name": "sunset sky and sun",
       "color": "#ffb35c"
     },
     {
@@ -132,7 +132,7 @@
         1760,
         4
       ],
-      "name": "дальние холмы в дымке",
+      "name": "far hills in the haze",
       "color": "#8e5a68",
       "height": 160,
       "distance": 1800
@@ -146,7 +146,7 @@
         960,
         130
       ],
-      "name": "лес на том берегу и его отражение",
+      "name": "forest on the far shore and its reflection",
       "color": "#221a28",
       "height": 36,
       "distance": 600
@@ -160,14 +160,14 @@
         75,
         92
       ],
-      "name": "озеро и солнечная дорожка",
+      "name": "lake and the sun path",
       "color": "#c0705a",
       "height": 42,
       "distance": 45
     },
     {
       "id": "shore",
-      "name": "песчаный берег",
+      "name": "sandy shore",
       "color": "#96664f",
       "depth": 40,
       "plane": true,
@@ -178,7 +178,7 @@
     },
     {
       "id": "rings",
-      "name": "круги и свечение на воде",
+      "name": "rings and glow on the water",
       "color": "#ffd6ac",
       "depth": 10,
       "plane": true,
@@ -195,7 +195,7 @@
         1.7,
         1.15
       ],
-      "name": "тёмная коробка на песке",
+      "name": "dark box on the sand",
       "color": "#1e151b",
       "across": -0.6,
       "height": 0.32,
@@ -210,7 +210,7 @@
         8,
         3.3
       ],
-      "name": "старый дощатый сарай",
+      "name": "old plank shed",
       "color": "#2c2026",
       "across": 5.5,
       "height": 3.1,
@@ -225,7 +225,7 @@
         6,
         1.75
       ],
-      "name": "скамейка у воды",
+      "name": "bench by the water",
       "color": "#2e2226",
       "across": -3.2,
       "height": 0.9,
@@ -239,7 +239,7 @@
         1.5,
         1.7
       ],
-      "name": "редкий камыш в воде",
+      "name": "sparse reeds in the water",
       "color": "#1a1218",
       "across": -6.8,
       "height": 1.4,
@@ -253,7 +253,7 @@
         1.5,
         1.5
       ],
-      "name": "камыш за сараем",
+      "name": "reeds behind the shed",
       "color": "#1a1218",
       "across": 12.5,
       "height": 1.2,
@@ -267,7 +267,7 @@
         1,
         0.2
       ],
-      "name": "пучок прибрежной травы",
+      "name": "tuft of shore grass",
       "color": "#1e161a",
       "across": -2.4,
       "height": 0.7,
@@ -282,7 +282,7 @@
         2.6,
         1.1
       ],
-      "name": "пылинки в закатном свете",
+      "name": "dust motes in the sunset light",
       "color": "#ffe4b4",
       "height": 2.7,
       "distance": 6.5,
@@ -292,17 +292,17 @@
   "directions": [
     {
       "key": "morning",
-      "name": "Наступает утро",
+      "name": "Morning comes",
       "excludes": []
     },
     {
       "key": "benchWalk",
-      "name": "Скамейка отращивает ноги и уходит вдоль берега",
+      "name": "The bench grows legs and walks off along the shore",
       "excludes": []
     },
     {
       "key": "shedRise",
-      "name": "Сарай встаёт на курьи ножки",
+      "name": "The shed stands up on chicken legs",
       "excludes": []
     }
   ]

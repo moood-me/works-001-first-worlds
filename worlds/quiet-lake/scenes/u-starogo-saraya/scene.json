@@ -112,7 +112,7 @@
     "prints_dir": "to_water",
     "bench_thing": "none"
   },
-  "title": "У старого сарая",
+  "title": "By the Old Shed",
   "camera": {
     "area": [
       -3,
@@ -122,13 +122,13 @@
     ],
     "mode": "walk"
   },
-  "caption": "Старый сарай у самой воды.",
+  "caption": "An old shed right by the water.",
   "horizon": 0.52,
   "objects": [
     {
       "id": "ec5e3fd7b",
       "sky": true,
-      "name": "закатное небо и солнце",
+      "name": "sunset sky and sun",
       "color": "#ffb35c"
     },
     {
@@ -140,7 +140,7 @@
         1760,
         4
       ],
-      "name": "дальние холмы в дымке",
+      "name": "far hills in the haze",
       "color": "#8e5a68",
       "height": 160,
       "distance": 1800
@@ -154,7 +154,7 @@
         960,
         47
       ],
-      "name": "лес на том берегу и его отражение",
+      "name": "forest on the far shore and its reflection",
       "color": "#221a28",
       "height": 36,
       "distance": 600
@@ -168,7 +168,7 @@
         75,
         42.5
       ],
-      "name": "вода озера и солнечная дорожка",
+      "name": "lake water and the sun path",
       "color": "#c0705a",
       "height": 42,
       "distance": 45
@@ -181,7 +181,7 @@
         140,
         34
       ],
-      "name": "сумеречный воздух над водой",
+      "name": "twilight air over the water",
       "color": "#14142c",
       "across": 0,
       "height": 4,
@@ -189,7 +189,7 @@
     },
     {
       "id": "water_near",
-      "name": "вода у самого берега",
+      "name": "water right at the shore",
       "color": "#2a2440",
       "depth": 30,
       "plane": true,
@@ -200,7 +200,7 @@
     },
     {
       "id": "sand",
-      "name": "влажный песок",
+      "name": "wet sand",
       "color": "#6c4e50",
       "depth": 22,
       "plane": true,
@@ -217,7 +217,7 @@
         2,
         0.4
       ],
-      "name": "старый сарай",
+      "name": "old shed",
       "color": "#3a2e36",
       "across": -2.6,
       "height": 3,
@@ -232,7 +232,7 @@
         1,
         0.25
       ],
-      "name": "скамейка у воды",
+      "name": "bench by the water",
       "color": "#3e2c2e",
       "across": 2.5,
       "height": 0.95,
@@ -246,7 +246,7 @@
         2.8,
         0.2
       ],
-      "name": "сухая трава на переднем плане",
+      "name": "dry grass in the foreground",
       "color": "#1a1318",
       "across": 0,
       "height": 0.9,
@@ -260,7 +260,7 @@
         2.6,
         1.1
       ],
-      "name": "пылинки в закатном свете",
+      "name": "dust motes in the sunset light",
       "color": "#ffe4b4",
       "across": -0.5,
       "height": 2.7,
@@ -271,12 +271,12 @@
   "directions": [
     {
       "key": "breath",
-      "name": "Сарай дышит",
+      "name": "The shed breathes",
       "excludes": []
     },
     {
       "key": "elsewhere",
-      "name": "За дверью — другое место",
+      "name": "Behind the door, another place",
       "excludes": []
     }
   ]

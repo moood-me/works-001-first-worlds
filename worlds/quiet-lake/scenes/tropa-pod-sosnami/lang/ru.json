@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Path under the Pines","translation":"Тропа под соснами","where":"scenes/tropa-pod-sosnami/scene.json title"},
+  {"text":"Beyond the lake the path goes into the pines, and someone has tied ribbons to an old stump.","translation":"За озером тропа уходит в сосны, и кто-то повязал ленты на старый пень.","where":"scenes/tropa-pod-sosnami/scene.json caption"}
+]}

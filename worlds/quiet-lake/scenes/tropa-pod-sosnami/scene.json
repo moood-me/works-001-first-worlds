@@ -42,7 +42,7 @@
     "water_glimpse": 0.6,
     "figure_present": 0
   },
-  "title": "Тропа под соснами",
+  "title": "Path under the Pines",
   "camera": {
     "mode": "walk",
     "walk": {
@@ -51,13 +51,13 @@
       "forward": 6
     }
   },
-  "caption": "За озером тропа уходит в сосны, и кто-то повязал ленты на старый пень.",
+  "caption": "Beyond the lake the path goes into the pines, and someone has tied ribbons to an old stump.",
   "horizon": 0.55,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "закатное небо сквозь кроны",
+      "name": "sunset sky through the crowns",
       "color": "#a65c62"
     },
     {
@@ -69,7 +69,7 @@
         170,
         10
       ],
-      "name": "глубина соснового леса",
+      "name": "depths of the pine forest",
       "color": "#33243a",
       "height": 40,
       "distance": 90
@@ -77,7 +77,7 @@
     {
       "x": 0.5,
       "id": "forest_floor",
-      "name": "лесная подстилка и тропа",
+      "name": "forest floor and the path",
       "color": "#2c202c",
       "depth": 48,
       "plane": true,
@@ -94,7 +94,7 @@
         -4,
         1
       ],
-      "name": "озеро между стволами",
+      "name": "lake between the trunks",
       "color": "#c47a66",
       "height": 3,
       "distance": 50
@@ -108,7 +108,7 @@
         70,
         0.6
       ],
-      "name": "дальние сосны",
+      "name": "far pines",
       "color": "#2c2030",
       "height": 30,
       "distance": 40
@@ -122,7 +122,7 @@
         50,
         1
       ],
-      "name": "закатные лучи между соснами",
+      "name": "sunset rays between the pines",
       "color": "#ffb47a",
       "height": 30,
       "distance": 20
@@ -136,7 +136,7 @@
         0.8,
         0.2
       ],
-      "name": "тот, кто ждёт на тропе",
+      "name": "the one who waits on the path",
       "color": "#150f1a",
       "height": 1.9,
       "distance": 26
@@ -150,7 +150,7 @@
         28,
         0.5
       ],
-      "name": "сосны у тропы",
+      "name": "pines by the path",
       "color": "#1f1622",
       "height": 28,
       "distance": 16
@@ -164,7 +164,7 @@
         3.6,
         0.3
       ],
-      "name": "пень-божничка с лентами",
+      "name": "stump shrine with ribbons",
       "color": "#2a1d24",
       "height": 1.7,
       "distance": 9
@@ -178,7 +178,7 @@
         1.5,
         0.2
       ],
-      "name": "падающее перо",
+      "name": "falling feather",
       "color": "#d4c8c2",
       "height": 3,
       "distance": 6
@@ -192,7 +192,7 @@
         2.6,
         1.1
       ],
-      "name": "пылинки в лучах",
+      "name": "dust motes in the rays",
       "color": "#ffe4b4",
       "height": 2.7,
       "distance": 7,
@@ -207,7 +207,7 @@
         5.5,
         0.5
       ],
-      "name": "ближние стволы",
+      "name": "near trunks",
       "color": "#140e16",
       "height": 14,
       "distance": 4
