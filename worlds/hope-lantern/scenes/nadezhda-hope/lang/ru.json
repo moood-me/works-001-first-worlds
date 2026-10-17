@@ -1,9 +1,0 @@
-{"strings": [
-  {"text":"Hope","translation":"Надежда · Hope","where":"scenes/nadezhda-hope/scene.json title"},
-  {"text":"The lantern burns as long as someone is waiting.","translation":"Фонарь горит, пока кто-то ждёт.","where":"scenes/nadezhda-hope/scene.json caption"},
-  {"text":"Every evening she comes to the old pier.","translation":"Каждый вечер она приходит на старый причал.","where":"scenes/nadezhda-hope/scene.json captions[0] text"},
-  {"text":"And lights the lantern.","translation":"И зажигает фонарь.","where":"scenes/nadezhda-hope/scene.json captions[1] text"},
-  {"text":"So that from the far shore they can see where to row.","translation":"Чтобы с того берега было видно, куда плыть.","where":"scenes/nadezhda-hope/scene.json captions[2] text"},
-  {"text":"Over there it's still dark.","translation":"Там пока темно.","where":"scenes/nadezhda-hope/scene.json captions[3] text"},
-  {"text":"But the lantern burns.","translation":"Но фонарь горит.","where":"scenes/nadezhda-hope/scene.json captions[4] text"}
-]}
