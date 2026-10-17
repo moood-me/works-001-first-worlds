@@ -1,0 +1,354 @@
+{
+  "light": {
+    "haze": 0.4,
+    "tint": "#1a2840",
+    "grain": 0.4,
+    "vignette": 0.6,
+    "hazeColor": "#1a2337",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "field-recording sea waves on rocks at night, soft drones, cold wind",
+        "weight": 1.2
+      },
+      {
+        "text": "dark ambient low strings, quiet suspense, something found",
+        "weight": 0.7
+      },
+      {
+        "text": "solitary night at a lighthouse, slow ambient piano, distant foghorn pads",
+        "weight": 0.5
+      },
+      {
+        "text": "minimal music box melody, far away, half drowned",
+        "weight": 0.15
+      },
+      {
+        "text": "dark ambient wind and low strings, storm building",
+        "weight": 0
+      },
+      {
+        "text": "hopeful dawn strings, slow crescendo, sea at first light",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.25
+  },
+  "state": {
+    "tide": "calm",
+    "weather": "wind",
+    "beam_pass": true,
+    "broken_at": "rocks",
+    "glint_told": false,
+    "bottle_state": "stuck",
+    "wick_present": true
+  },
+  "title": "The Rocks Below the Lighthouse",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "Black rocks, foam, and something glassy right at the water's edge.",
+  "horizon": 0.47,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Night sky"
+    },
+    {
+      "x": 0.5,
+      "id": "sea-far",
+      "name": "Sea",
+      "color": "#0b1322",
+      "depth": 4600,
+      "plane": true,
+      "width": 12000,
+      "distance": 2600,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "name": "Sea by the shore",
+      "color": "#0a1120",
+      "depth": 300,
+      "plane": true,
+      "width": 700,
+      "distance": 150,
+      "elevation": 0
+    },
+    {
+      "x": 0.72,
+      "id": "moonpath",
+      "box": [
+        -45,
+        -1,
+        45,
+        120
+      ],
+      "name": "Moon path",
+      "height": 20,
+      "distance": 250,
+      "elevation": 0
+    },
+    {
+      "x": 0.2,
+      "id": "tower",
+      "box": [
+        -16,
+        -46,
+        16,
+        2
+      ],
+      "name": "Lighthouse",
+      "color": "#15171c",
+      "height": 34,
+      "distance": 170,
+      "elevation": 24
+    },
+    {
+      "x": 0.2,
+      "id": "beam",
+      "box": [
+        -420,
+        -80,
+        420,
+        60
+      ],
+      "name": "Lighthouse beam",
+      "height": 34,
+      "distance": 170,
+      "elevation": 55.2
+    },
+    {
+      "x": 0.2,
+      "id": "cliff",
+      "box": [
+        -175,
+        -42,
+        95,
+        1
+      ],
+      "name": "The cape below the lighthouse",
+      "color": "#0a0c11",
+      "height": 14,
+      "distance": 80,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "mist",
+      "box": [
+        -220,
+        -14,
+        220,
+        3
+      ],
+      "name": "Sea haze",
+      "height": 8,
+      "distance": 50,
+      "elevation": 0
+    },
+    {
+      "x": 0.88,
+      "id": "rocks_sea",
+      "box": [
+        -10,
+        -9,
+        13,
+        0.6
+      ],
+      "name": "Rocks in the sea",
+      "color": "#090b10",
+      "height": 3.4,
+      "distance": 36,
+      "elevation": 0
+    },
+    {
+      "x": 0.12,
+      "id": "rocks_left",
+      "box": [
+        -19,
+        -8,
+        8,
+        0.6
+      ],
+      "name": "Boulders at the foot",
+      "color": "#090b10",
+      "height": 3.6,
+      "distance": 22,
+      "elevation": 0
+    },
+    {
+      "x": 0.02,
+      "id": "slope",
+      "box": [
+        -76,
+        -23,
+        18,
+        0.5
+      ],
+      "name": "Slope with the path to the lighthouse",
+      "color": "#080a0f",
+      "height": 14,
+      "distance": 30,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "shore",
+      "name": "Line of surf",
+      "color": "#14161b",
+      "depth": 30,
+      "plane": true,
+      "width": 120,
+      "distance": 16,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "fog_near",
+      "box": [
+        -40,
+        -4,
+        40,
+        1
+      ],
+      "name": "Mist by the water",
+      "height": 2,
+      "distance": 14,
+      "elevation": 0
+    },
+    {
+      "x": 0.6,
+      "id": "rocks_bottle",
+      "box": [
+        -1.6,
+        -1,
+        2.1,
+        0.3
+      ],
+      "name": "Stones at the waterline",
+      "color": "#090b10",
+      "height": 0.7,
+      "distance": 9.8,
+      "elevation": 0
+    },
+    {
+      "x": 0.6,
+      "id": "bottle",
+      "box": [
+        -0.45,
+        -0.35,
+        0.45,
+        0.08
+      ],
+      "name": "Bottle between the rocks",
+      "color": "#2c4a3c",
+      "height": 0.3,
+      "distance": 9.5,
+      "elevation": 0
+    },
+    {
+      "x": 0.33,
+      "id": "rock_cat",
+      "box": [
+        -1.6,
+        -1,
+        1,
+        0.3
+      ],
+      "name": "Stone by the path",
+      "color": "#090b10",
+      "height": 0.75,
+      "distance": 7,
+      "elevation": 0
+    },
+    {
+      "x": 0.33,
+      "id": "wick",
+      "box": [
+        -0.35,
+        -0.42,
+        0.3,
+        0.05
+      ],
+      "name": "Wick the cat",
+      "color": "#0a0b0e",
+      "height": 0.3,
+      "distance": 6.9,
+      "elevation": 0.7
+    },
+    {
+      "x": 0.54,
+      "id": "bottle_near",
+      "box": [
+        -0.5,
+        -0.3,
+        0.5,
+        0.08
+      ],
+      "name": "Bottle at your feet",
+      "color": "#2c4a3c",
+      "height": 0.3,
+      "distance": 6.2,
+      "elevation": 0
+    },
+    {
+      "x": 0.04,
+      "id": "rock_front",
+      "box": [
+        -2.4,
+        -1.6,
+        2.2,
+        0.3
+      ],
+      "name": "Boulder at your feet",
+      "color": "#07090d",
+      "height": 1.3,
+      "distance": 4.2,
+      "elevation": 0
+    },
+    {
+      "x": 0.56,
+      "id": "bottle_hands",
+      "box": [
+        -0.6,
+        -0.35,
+        0.6,
+        0.65
+      ],
+      "name": "Bottle in hands",
+      "color": "#2c4a3c",
+      "height": 0.4,
+      "distance": 0.8,
+      "elevation": 1.45
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.5,
+      "y": 0.5,
+      "id": "rain",
+      "name": "Rain",
+      "width": 2600,
+      "height": 1080
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 8,
+      "text": "Down by the rocks it's colder. Salt settles on your lips."
+    },
+    {
+      "at": 12,
+      "for": 8,
+      "text": "When the beam passes, green glass flashes right at the water's edge."
+    }
+  ]
+}

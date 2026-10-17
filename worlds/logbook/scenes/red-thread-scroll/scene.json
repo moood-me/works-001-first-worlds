@@ -1,0 +1,329 @@
+{
+  "light": {
+    "haze": 0.35,
+    "tint": "#1a2840",
+    "grain": 0.42,
+    "vignette": 0.66,
+    "hazeColor": "#1a2337",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "field-recording sea waves on rocks at night, soft drones, cold wind",
+        "weight": 1.1
+      },
+      {
+        "text": "dark ambient low strings, quiet suspense, something about to be revealed",
+        "weight": 1
+      },
+      {
+        "text": "solitary night at a lighthouse, slow ambient piano, distant foghorn pads",
+        "weight": 0.35
+      },
+      {
+        "text": "minimal music box melody, far away, half drowned",
+        "weight": 0.2
+      },
+      {
+        "text": "dark ambient wind and low strings, storm building",
+        "weight": 0
+      },
+      {
+        "text": "hopeful dawn strings, slow crescendo, sea at first light",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.22
+  },
+  "state": {
+    "tide": "calm",
+    "weather": "wind",
+    "ink_told": false,
+    "beam_pass": true,
+    "note_text": "",
+    "note_state": "wet",
+    "bottle_state": "intact",
+    "wick_present": true,
+    "beam_read_told": false
+  },
+  "title": "The Scroll with the Red Thread",
+  "camera": {
+    "mode": "diorama"
+  },
+  "caption": "Salt on your fingers, heavy wet paper, and the beam going over the slope again.",
+  "horizon": 0.32,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Night sky"
+    },
+    {
+      "x": 0.5,
+      "id": "sea-far",
+      "name": "Sea",
+      "color": "#0b1322",
+      "depth": 4600,
+      "plane": true,
+      "width": 12000,
+      "distance": 2600,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "name": "Sea by the shore",
+      "color": "#0a1120",
+      "depth": 300,
+      "plane": true,
+      "width": 700,
+      "distance": 150,
+      "elevation": 0
+    },
+    {
+      "x": 0.74,
+      "id": "moonpath",
+      "box": [
+        -45,
+        -1,
+        45,
+        120
+      ],
+      "name": "Moon path",
+      "height": 20,
+      "distance": 250,
+      "elevation": 0
+    },
+    {
+      "x": 0.2,
+      "id": "cliff",
+      "box": [
+        -175,
+        -42,
+        95,
+        1
+      ],
+      "name": "The cape below the lighthouse",
+      "color": "#0a0c11",
+      "height": 14,
+      "distance": 262,
+      "elevation": 0
+    },
+    {
+      "x": 0.2,
+      "id": "tower",
+      "box": [
+        -16,
+        -46,
+        16,
+        2
+      ],
+      "name": "Lighthouse",
+      "color": "#15171c",
+      "height": 34,
+      "distance": 260,
+      "elevation": 13
+    },
+    {
+      "x": 0.2,
+      "id": "beam",
+      "box": [
+        -420,
+        -80,
+        420,
+        60
+      ],
+      "name": "Lighthouse beam",
+      "height": 34,
+      "distance": 259,
+      "elevation": 44.2
+    },
+    {
+      "x": 0.5,
+      "id": "mist",
+      "box": [
+        -220,
+        -14,
+        220,
+        3
+      ],
+      "name": "Sea haze",
+      "height": 8,
+      "distance": 50,
+      "elevation": 0
+    },
+    {
+      "x": 0.03,
+      "id": "slope",
+      "box": [
+        -76,
+        -23,
+        18,
+        0.5
+      ],
+      "name": "Slope with the path to the lighthouse",
+      "color": "#080a0f",
+      "height": 14,
+      "distance": 60,
+      "elevation": 0
+    },
+    {
+      "x": 0.9,
+      "id": "rocks_sea",
+      "box": [
+        -10,
+        -9,
+        13,
+        0.6
+      ],
+      "name": "Rocks in the sea",
+      "color": "#090b10",
+      "height": 3.4,
+      "distance": 36,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "shore",
+      "name": "Line of surf",
+      "color": "#14161b",
+      "depth": 30,
+      "plane": true,
+      "width": 120,
+      "distance": 16,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "fog_near",
+      "box": [
+        -40,
+        -4,
+        40,
+        1
+      ],
+      "name": "Mist by the water",
+      "height": 2,
+      "distance": 14,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "spray",
+      "box": [
+        -3,
+        -1.6,
+        3,
+        0.2
+      ],
+      "name": "Spray from behind a rock",
+      "height": 1.2,
+      "distance": 3.2,
+      "elevation": 1.05
+    },
+    {
+      "x": 0.5,
+      "id": "stone",
+      "name": "Wet flat stone",
+      "color": "#0f131c",
+      "depth": 3,
+      "plane": true,
+      "width": 4.8,
+      "distance": 1.7,
+      "elevation": 1.15
+    },
+    {
+      "x": 0.88,
+      "id": "wick",
+      "box": [
+        -0.35,
+        -0.42,
+        0.35,
+        0.05
+      ],
+      "name": "Wick the cat",
+      "color": "#0a0b0e",
+      "height": 0.3,
+      "distance": 1.6,
+      "elevation": 1.15
+    },
+    {
+      "x": 0.66,
+      "id": "bottle",
+      "box": [
+        -0.32,
+        -0.12,
+        0.34,
+        0.09
+      ],
+      "name": "Bottle on the stone",
+      "color": "#2c4a3c",
+      "height": 0.07,
+      "distance": 1.35,
+      "elevation": 1.15
+    },
+    {
+      "x": 0.46,
+      "id": "scroll",
+      "box": [
+        -0.45,
+        -0.25,
+        0.45,
+        0.4
+      ],
+      "name": "Scroll in wet hands",
+      "color": "#7a7362",
+      "height": 0.2,
+      "distance": 0.6,
+      "elevation": 1.48
+    },
+    {
+      "x": 0.5,
+      "id": "air",
+      "box": [
+        -0.6,
+        -0.3,
+        0.6,
+        0.45
+      ],
+      "name": "Salt in the air",
+      "height": 0.5,
+      "distance": 0.5,
+      "elevation": 1.7
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.5,
+      "y": 0.5,
+      "id": "rain",
+      "name": "Rain",
+      "width": 2600,
+      "height": 1080
+    },
+    {
+      "id": "note_lines",
+      "lift": 0.17,
+      "name": "The first lines",
+      "width": 680,
+      "anchor": "bottom",
+      "follow": "scroll",
+      "height": 190
+    }
+  ],
+  "captions": [
+    {
+      "at": 1.5,
+      "for": 7,
+      "text": "The paper is cold and heavy, like a sheet pulled out of a puddle."
+    },
+    {
+      "at": 10,
+      "for": 8,
+      "text": "Red thread, sealing wax. Someone really wanted this to arrive."
+    }
+  ]
+}
