@@ -24,7 +24,7 @@
     "mist_gathers": false,
     "death_through": 0
   },
-  "title": "У ворот парка",
+  "title": "At the Park Gate",
   "camera": {
     "mode": "walk",
     "follow": [
@@ -32,18 +32,18 @@
       "death"
     ]
   },
-  "caption": "Ворота впереди. Кто-то — позади.",
+  "caption": "The gate ahead. Someone behind.",
   "horizon": 0.5,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Темнеющее небо"
+      "name": "Darkening sky"
     },
     {
       "x": 0.5,
       "id": "lawn",
-      "name": "Газон",
+      "name": "Lawn",
       "color": "#1c201b",
       "depth": 120,
       "plane": true,
@@ -59,7 +59,7 @@
         90,
         1
       ],
-      "name": "Деревья в глубине парка",
+      "name": "Trees deep in the park",
       "color": "#15131a",
       "height": 16,
       "distance": 30
@@ -73,7 +73,7 @@
         17,
         1
       ],
-      "name": "Бледный свет за воротами",
+      "name": "Pale light beyond the gate",
       "color": "#c8d2e0",
       "height": 6,
       "distance": 20
@@ -87,7 +87,7 @@
         50,
         0.5
       ],
-      "name": "Туман за оградой",
+      "name": "Mist beyond the railings",
       "color": "#8a8698",
       "height": 4,
       "distance": 13
@@ -95,7 +95,7 @@
     {
       "x": 0.5,
       "id": "path",
-      "name": "Мокрая дорожка",
+      "name": "Wet path",
       "color": "#4e4842",
       "depth": 7,
       "plane": true,
@@ -112,7 +112,7 @@
         4,
         0.2
       ],
-      "name": "Фонари вдоль дорожки",
+      "name": "Lamps along the path",
       "color": "#ffcf86",
       "height": 3.6,
       "distance": 10.6
@@ -126,7 +126,7 @@
         45,
         0.3
       ],
-      "name": "Ограда и ворота",
+      "name": "Railings and gate",
       "color": "#0f0e13",
       "height": 2.6,
       "distance": 11.5
@@ -140,7 +140,7 @@
         10,
         0.3
       ],
-      "name": "Фонари на столбах ворот",
+      "name": "Lamps on the gateposts",
       "color": "#ffcf86",
       "height": 3.3,
       "distance": 11.45
@@ -154,7 +154,7 @@
         20,
         0.3
       ],
-      "name": "Смерть",
+      "name": "Death",
       "color": "#0e0d12",
       "height": 2.1,
       "distance": 9.25
@@ -168,7 +168,7 @@
         13,
         0.3
       ],
-      "name": "Ты",
+      "name": "You",
       "color": "#3c3f46",
       "height": 1.75,
       "distance": 9
@@ -182,7 +182,7 @@
         16,
         0.4
       ],
-      "name": "Низкий туман у земли",
+      "name": "Low mist at the ground",
       "color": "#7a7688",
       "height": 1,
       "distance": 8.3
@@ -196,7 +196,7 @@
         11,
         0.3
       ],
-      "name": "Падающие листья",
+      "name": "Falling leaves",
       "color": "#8a5a26",
       "height": 6,
       "distance": 8
@@ -210,7 +210,7 @@
         12,
         0.5
       ],
-      "name": "Ближние стволы",
+      "name": "Near trunks",
       "sway": 0.3,
       "color": "#120f14",
       "height": 14,
@@ -221,12 +221,12 @@
     {
       "at": 2,
       "for": 6,
-      "text": "Дорожка раздваивается у ворот."
+      "text": "The path forks at the gate."
     },
     {
       "at": 10,
       "for": 7,
-      "text": "Фонарь у калитки гаснет и снова вспоминает, что он фонарь."
+      "text": "The lamp by the wicket goes out and then remembers again that it is a lamp."
     }
   ]
 }

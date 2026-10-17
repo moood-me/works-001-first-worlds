@@ -24,25 +24,25 @@
     "hero_moving": false,
     "death_moving": false
   },
-  "title": "Скамейка у фонаря",
+  "title": "The Bench by the Lamp",
   "camera": {
     "mode": "walk",
     "follow": [
       "hero"
     ]
   },
-  "caption": "Скамейка под фонарём. Место для двоих.",
+  "caption": "A bench under a street lamp. A place for two.",
   "horizon": 0.45,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Синий вечер"
+      "name": "Blue evening"
     },
     {
       "x": 0.5,
       "id": "lawn",
-      "name": "Пустой газон",
+      "name": "Empty lawn",
       "color": "#1a2125",
       "depth": 92,
       "plane": true,
@@ -58,7 +58,7 @@
         110,
         1
       ],
-      "name": "Деревья парка",
+      "name": "Park trees",
       "color": "#14162a",
       "height": 18,
       "distance": 48
@@ -72,7 +72,7 @@
         30,
         0.4
       ],
-      "name": "Дальние фонари",
+      "name": "Distant lamps",
       "color": "#ffd9a0",
       "height": 3.8,
       "flicker": 0.05,
@@ -87,7 +87,7 @@
         60,
         0.6
       ],
-      "name": "Туман над газоном",
+      "name": "Mist over the lawn",
       "color": "#465078",
       "height": 3,
       "distance": 22
@@ -101,7 +101,7 @@
         8,
         0.4
       ],
-      "name": "Старые деревья у скамейки",
+      "name": "Old trees by the bench",
       "color": "#100f17",
       "height": 9,
       "distance": 7
@@ -115,7 +115,7 @@
         3.5,
         0.3
       ],
-      "name": "Фонарь у скамейки",
+      "name": "Lamp by the bench",
       "color": "#ffcf86",
       "height": 4,
       "flicker": 0.06,
@@ -124,7 +124,7 @@
     {
       "x": 0.5,
       "id": "path",
-      "name": "Мокрая дорожка",
+      "name": "Wet path",
       "color": "#44444b",
       "depth": 3.3,
       "plane": true,
@@ -141,7 +141,7 @@
         3,
         0.4
       ],
-      "name": "Скамейка",
+      "name": "Bench",
       "color": "#3a2a21",
       "height": 0.95,
       "distance": 5.15
@@ -155,7 +155,7 @@
         7.5,
         0.5
       ],
-      "name": "Смерть",
+      "name": "Death",
       "color": "#121118",
       "height": 1.95,
       "distance": 4.95
@@ -169,7 +169,7 @@
         7.5,
         0.5
       ],
-      "name": "Ты",
+      "name": "You",
       "color": "#3a3d45",
       "height": 1.75,
       "distance": 4.95
@@ -183,7 +183,7 @@
         4,
         0.3
       ],
-      "name": "Падающие листья",
+      "name": "Falling leaves",
       "color": "#9a6a2a",
       "height": 5,
       "distance": 3.6
@@ -193,7 +193,7 @@
     {
       "at": 14,
       "for": 7,
-      "text": "Пар от дыхания — только у тебя."
+      "text": "Breath turns to steam. Only yours."
     }
   ]
 }

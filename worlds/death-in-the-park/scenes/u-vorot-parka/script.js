@@ -32,26 +32,26 @@ scene.on("change", "hero_action", function (a) {
       if (a === "exit") {
         if ((scene.get("gate") || 0) < 0.5) {
           scene.set("hero_action", "stand");
-          scene.tell("Ты дошла до ворот — они закрыты" + (scene.get("gate_locked") ? " и заперты на цепь." : "."));
+          scene.tell(scene.get("gate_locked") ? tr('You reached the gate: it is shut and chained.') : tr('You reached the gate: it is shut.'));
         } else {
           scene.set("hero_through", 1, 4);
           scene.after(4, function () {
             if (scene.get("hero_action") === "exit") {
               scene.set("hero_action", "stand");
-              scene.tell("Ты вышла за ворота и скрылась в тумане по ту сторону.");
+              scene.tell(tr('You went out through the gate and disappeared into the mist on the other side.'));
             }
           });
         }
       } else if (a === "open_gate") {
         scene.set("hero_face", 1);
         if (scene.get("gate_locked")) {
-          scene.tell("Ты дёргаешь калитку — цепь звякает, замок держит.");
+          scene.tell(tr('You tug at the wicket gate: the chain clinks, the lock holds.'));
           scene.after(1.5, function () {
             if (scene.get("hero_action") === "open_gate") scene.set("hero_action", "stand");
           });
         } else {
           scene.set("gate", 1, 3);
-          scene.tell("Ворота со скрипом открываются. За ними — бледный туман.");
+          scene.tell(tr('The gate creaks open. Beyond it, pale mist.'));
           scene.after(3, function () {
             if (scene.get("hero_action") === "open_gate") scene.set("hero_action", "stand");
           });
@@ -66,7 +66,7 @@ scene.on("change", "hero_action", function (a) {
       scene.after(u * 4, function () {
         if (scene.get("hero_action") === "back") {
           scene.set("hero_action", "stand");
-          scene.tell("Ты вернулась из-за ворот на дорожку.");
+          scene.tell(tr('You came back from beyond the gate to the path.'));
         }
       });
     } else scene.set("hero_action", "stand");
@@ -93,9 +93,9 @@ scene.on("change", "death_action", function (a) {
         if (scene.get("death_action") === "lead") {
           scene.set("death_action", "wait_beyond");
           scene.tell(
-            "Смерть прошла сквозь " +
-              ((scene.get("gate") || 0) < 0.5 ? "запертые ворота" : "открытые ворота") +
-              " и ждёт по ту сторону, в тумане.",
+            (scene.get("gate") || 0) < 0.5
+              ? tr('Death has passed through the locked gate and waits on the other side, in the mist.')
+              : tr('Death has passed through the open gate and waits on the other side, in the mist.'),
           );
         }
       });
@@ -131,10 +131,10 @@ scene.every(0.5, function () {
   if (Math.abs(to - dx) < 0.08) {
     if (a === "approach") {
       scene.set("death_action", "wait");
-      scene.tell("Смерть подошла и остановилась рядом с тобой.");
+      scene.tell(tr('Death came up and stopped beside you.'));
     } else if (a === "chase") {
       scene.set("death_action", "wait");
-      scene.tell("Смерть догнала тебя.");
+      scene.tell(tr('Death caught up with you.'));
     }
     return;
   }
@@ -145,7 +145,7 @@ scene.every(0.5, function () {
   if (!scene.get("at_gate") && scene.get("hero_x") > 5) {
     scene.set("at_gate", true);
     scene.tell(
-      "Ты подошла к воротам парка. Мокрые прутья, цепь, за ними — туман. Дорожка уходит и дальше, в глубь парка.",
+      tr('You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.'),
     );
   }
 });
@@ -166,6 +166,6 @@ scene.every(4, function () {
   if (nf > f) scene.set("flicker", nf, 3);
   if (m >= 0.95 && !mistTold) {
     mistTold = true;
-    scene.tell("Туман сомкнулся: дорожки назад почти не видно, только фонари у ворот.");
+    scene.tell(tr('The mist has closed in: the path back is almost gone, only the lamps by the gate.'));
   }
 });

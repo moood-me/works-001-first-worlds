@@ -15,7 +15,7 @@
     "hero_action": "stand",
     "death_action": "approach"
   },
-  "title": "Смерть в парке",
+  "title": "Death in the Park",
   "camera": {
     "mode": "panorama",
     "span": [
@@ -27,18 +27,18 @@
       "death"
     ]
   },
-  "caption": "Обычный вечер. Почти.",
+  "caption": "An ordinary evening. Almost.",
   "horizon": 0.5,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Вечернее небо"
+      "name": "Evening sky"
     },
     {
       "x": 0.5,
       "id": "lawn",
-      "name": "Газон",
+      "name": "Lawn",
       "color": "#22281f",
       "depth": 120,
       "plane": true,
@@ -48,7 +48,7 @@
     {
       "x": 0.5,
       "id": "path",
-      "name": "Дорожка",
+      "name": "Path",
       "color": "#6e665c",
       "depth": 3.2,
       "plane": true,
@@ -65,7 +65,7 @@
         90,
         1
       ],
-      "name": "Деревья парка",
+      "name": "Park trees",
       "color": "#1a1820",
       "height": 16,
       "distance": 45
@@ -79,7 +79,7 @@
         16,
         0.2
       ],
-      "name": "Фонари",
+      "name": "Street lamps",
       "color": "#ffcf86",
       "height": 3.6,
       "distance": 10.6
@@ -93,7 +93,7 @@
         1.2,
         0.1
       ],
-      "name": "Скамейка",
+      "name": "Bench",
       "color": "#3a2a1e",
       "height": 0.9,
       "distance": 9.9
@@ -107,7 +107,7 @@
         18,
         0.3
       ],
-      "name": "Смерть",
+      "name": "Death",
       "color": "#0e0d12",
       "height": 2.1,
       "distance": 9.25
@@ -121,7 +121,7 @@
         13,
         0.3
       ],
-      "name": "Ты",
+      "name": "You",
       "color": "#3c3f46",
       "height": 1.75,
       "distance": 9

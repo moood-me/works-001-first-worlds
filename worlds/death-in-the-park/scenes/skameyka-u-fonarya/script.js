@@ -52,7 +52,7 @@ function check() {
   scene.set("gap", Math.round(d * 100) / 100);
   if (!scene.get("met") && d < 1.8) {
     scene.set("met", true);
-    scene.tell("Ты подошла к скамейке. Смерть подняла глаза и посмотрела на тебя.");
+    scene.tell(tr('You came up to the bench. Death looked up at you.'));
   }
 }
 function freeSeat(me, other, otherPose) {
@@ -75,13 +75,13 @@ scene.on("change", "hero_pose", function (p) {
     moveHero(s, function () {
       check();
       if (scene.get("hero_pose") !== "sit") return;
-      scene.tell(scene.get("death_pose") === "sit" ? "Ты села на скамейку рядом со Смертью." : "Ты села на скамейку.");
+      scene.tell(scene.get("death_pose") === "sit" ? tr('You sat down on the bench next to Death.') : tr('You sat down on the bench.'));
     });
   } else if (p === "leave") {
     moveHero(
       -6.5,
       function () {
-        scene.tell("Ты ушла от скамейки по дорожке.");
+        scene.tell(tr('You walked away from the bench along the path.'));
       },
       true,
     );
@@ -100,7 +100,7 @@ scene.on("change", "death_pose", function (p) {
     moveDeath(
       6.8,
       function () {
-        scene.tell("Смерть ушла по дорожке и пропала за фонарями.");
+        scene.tell(tr('Death walked off along the path and vanished beyond the lamps.'));
       },
       true,
     );
