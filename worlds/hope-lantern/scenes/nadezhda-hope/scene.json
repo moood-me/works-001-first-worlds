@@ -86,34 +86,34 @@
     ],
     "brightness": 0.35
   },
-  "title": "Надежда · Hope",
-  "caption": "Фонарь горит, пока кто-то ждёт.",
+  "title": "Hope",
+  "caption": "The lantern burns as long as someone is waiting.",
   "horizon": 0.52,
   "objects": [
     {
       "id": "ece0ffebc",
       "sky": true,
-      "name": "небо"
+      "name": "sky"
     },
     {
       "id": "e1f25a150",
       "sky": true,
-      "name": "звёзды"
+      "name": "stars"
     },
     {
       "id": "e7b7e2722",
       "sky": true,
-      "name": "луна"
+      "name": "moon"
     },
     {
       "id": "e31810071",
       "sky": true,
-      "name": "облака"
+      "name": "clouds"
     },
     {
       "id": "ea13cae94",
       "sky": true,
-      "name": "озеро"
+      "name": "lake"
     },
     {
       "x": 0.5,
@@ -124,7 +124,7 @@
         1300,
         3
       ],
-      "name": "дальние холмы",
+      "name": "distant hills",
       "color": "#353d5e",
       "height": 32,
       "reflect": true,
@@ -139,7 +139,7 @@
         900,
         3
       ],
-      "name": "лес на том берегу",
+      "name": "forest on the far shore",
       "color": "#2f3854",
       "height": 28,
       "reflect": true,
@@ -154,7 +154,7 @@
         800,
         4
       ],
-      "name": "туман над водой",
+      "name": "mist over the water",
       "color": "#8c96b4",
       "height": 12,
       "distance": 300
@@ -168,7 +168,7 @@
         1.5,
         1.8
       ],
-      "name": "блики и рябь у причала",
+      "name": "glints and ripples by the pier",
       "color": "#ffae62",
       "height": 1.8,
       "distance": 9.05
@@ -182,7 +182,7 @@
         0.3,
         0.12
       ],
-      "name": "старый причал",
+      "name": "old pier",
       "color": "#151926",
       "height": 1.1,
       "reflect": true,
@@ -198,7 +198,7 @@
         0.6,
         0.5
       ],
-      "name": "девочка с фонарём",
+      "name": "girl with a lantern",
       "color": "#141826",
       "height": 0.75,
       "flicker": 0.35,
@@ -215,7 +215,7 @@
         6,
         0.3
       ],
-      "name": "светлячки",
+      "name": "fireflies",
       "color": "#ffcf8a",
       "height": 2.5,
       "reflect": true,
@@ -230,7 +230,7 @@
         1.2,
         0.2
       ],
-      "name": "камыши",
+      "name": "reeds",
       "color": "#10131d",
       "height": 1.7,
       "reflect": true,
@@ -242,26 +242,26 @@
     {
       "at": 3,
       "for": 7,
-      "text": "Каждый вечер она приходит на старый причал."
+      "text": "Every evening she comes to the old pier."
     },
     {
       "at": 11,
       "for": 6,
-      "text": "И зажигает фонарь."
+      "text": "And lights the lantern."
     },
     {
       "at": 18,
       "for": 8,
-      "text": "Чтобы с того берега было видно, куда плыть."
+      "text": "So that from the far shore they can see where to row."
     },
     {
       "at": 28,
       "for": 6,
-      "text": "Там пока темно."
+      "text": "Over there it's still dark."
     },
     {
       "at": 36,
-      "text": "Но фонарь горит."
+      "text": "But the lantern burns."
     }
   ]
 }
