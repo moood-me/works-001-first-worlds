@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"House in the Field","translation":"Дом в поле","where":"scenes/house-in-the-field/scene.json title"},
+  {"text":"She doesn't put the light out. Let them know someone is still here.","translation":"Свет она не гасит. Пусть знают, что здесь ещё кто-то есть.","where":"scenes/house-in-the-field/scene.json caption"},
+  {"text":"The phone has been silent for three weeks.","translation":"Телефон молчит третью неделю.","where":"scenes/house-in-the-field/scene.json captions[0] text"},
+  {"text":"Someone is standing by the forest again.","translation":"У леса снова кто-то стоит.","where":"scenes/house-in-the-field/scene.json captions[1] text"},
+  {"text":"Every night, a few steps closer.","translation":"Каждую ночь — на сколько-то шагов ближе.","where":"scenes/house-in-the-field/scene.json captions[2] text"},
+  {"text":"It is standing right by the house, under the window.","translation":"Оно стоит у самого дома, под окном.","where":"scenes/house-in-the-field/script.js"},
+  {"text":"It has come out of the forest and stands in the middle of the field.","translation":"Оно вышло из леса и стоит посреди поля.","where":"scenes/house-in-the-field/script.js"},
+  {"text":"A tall pale figure stands at the edge of the forest.","translation":"У кромки леса стоит высокая бледная фигура.","where":"scenes/house-in-the-field/script.js"},
+  {"text":"The light in the window has gone out.","translation":"Свет в окне погас.","where":"scenes/house-in-the-field/script.js"},
+  {"text":"The door of the house is open; light spills onto the snow.","translation":"Дверь дома открыта, свет лёг на снег.","where":"scenes/house-in-the-field/script.js"}
+]}
