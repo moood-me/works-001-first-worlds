@@ -1,9 +1,9 @@
 {
-  "title": "Двенадцать фонарей",
-  "description": "Деревенский храм в горах, час после летнего мацури. На лестнице к ториям ещё горят фонари — и гаснут по одному. С каждым погасшим девочка в маске лисы спускается на ступеньку ниже.",
+  "title": "Twelve Lanterns",
+  "description": "A village shrine in the mountains, an hour after the summer matsuri. On the steps up to the torii the lanterns are still lit, and they go out one by one. With each one gone, a girl in a fox mask comes down one step.",
   "themes": {
-    "аниме": 60,
-    "хоррор": 40
+    "anime": 60,
+    "horror": 40
   },
   "main": "dvenadtsat-fonarey"
 }
