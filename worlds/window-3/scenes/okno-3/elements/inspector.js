@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t,
-  open = s.window === "открыто";
+  open = s.window === "open";
 g.fillStyle = "#1b1e26";
 g.beginPath();
 g.moveTo(-1.6, 0);
@@ -99,7 +99,7 @@ if (!open) {
   g.font = "bold 0.32px sans-serif";
   g.textAlign = "center";
   g.textBaseline = "middle";
-  g.fillText(String(s.window || "").toUpperCase(), 0, -3.7);
+  g.fillText(open ? tr("OPEN") : tr("BREAK"), 0, -3.7);
 }
 g.fillStyle = "rgba(255,255,255,0.08)";
 g.beginPath();
@@ -116,7 +116,7 @@ g.fillStyle = "rgba(215,240,245,0.9)";
 g.font = "bold 0.5px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ОКНО №3", 0, -6.15);
+g.fillText(tr('WINDOW 3'), 0, -6.15);
 e.light(0, -6.15, 2.2, "#bfe8f0", 0.35);
 e.light(0, -3.5, 4, "#ffb860", open ? 0.55 : 0.12);
 e.at(0.2, -4.1 + ey);

@@ -59,7 +59,7 @@ g.fillStyle = "rgba(200,170,60,0.55)";
 g.font = "bold 0.55px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ЖДИТЕ ЗА ЖЁЛТОЙ ЛИНИЕЙ", -1, 2.8);
+g.fillText(tr('WAIT BEHIND THE YELLOW LINE'), -1, 2.8);
 g.fillStyle = "rgba(220,210,190,0.18)";
 g.font = "bold 3px sans-serif";
 g.fillText("3", -5, -3.5);

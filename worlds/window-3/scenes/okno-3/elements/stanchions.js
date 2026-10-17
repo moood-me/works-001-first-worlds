@@ -40,4 +40,4 @@ g.fillStyle = "#3a3020";
 g.font = "bold 0.07px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ОЧЕРЕДЬ ТУТ", -3, -0.78);
+g.fillText(tr('QUEUE HERE'), -3, -0.78);

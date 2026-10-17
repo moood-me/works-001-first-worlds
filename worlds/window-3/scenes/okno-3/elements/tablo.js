@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t,
-  open = s.window === "открыто";
+  open = s.window === "open";
 g.fillStyle = "#181b22";
 g.fillRect(-0.12, -3.4, 0.24, 3.4);
 g.fillRect(-0.55, -0.15, 1.1, 0.15);
@@ -20,8 +20,8 @@ g.textBaseline = "middle";
 g.font = "bold 0.36px monospace";
 g.textAlign = "left";
 g.fillStyle = "rgba(255,170,60,0.55)";
-g.fillText("ОБСЛУЖИВАЕТСЯ", -2.15, -6.35);
-g.fillText("ВАШ НОМЕР", -2.15, -4.85);
+g.fillText(tr('NOW SERVING'), -2.15, -6.35);
+g.fillText(tr('YOUR NUMBER'), -2.15, -4.85);
 g.font = "bold 0.85px monospace";
 g.textAlign = "right";
 const blink = open || Math.sin(t * 3) > 0;

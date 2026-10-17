@@ -46,7 +46,7 @@ g.fillStyle = "rgba(220,215,200,0.3)";
 g.font = "bold 3.4px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ПОЯС-ВОСТОК", 0, 0);
+g.fillText(tr('BELT-EAST'), 0, 0);
 g.restore();
 g.strokeStyle = "#2a2e38";
 g.lineWidth = 0.5;

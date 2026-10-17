@@ -90,19 +90,19 @@
     "now": 417,
     "vip": 0,
     "mine": 4812,
-    "window": "открыто"
+    "window": "open"
   },
-  "title": "Окно №3",
+  "title": "Window 3",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Электронная очередь у пояса астероидов. Здесь никто никуда не спешит — кроме вас.",
+  "caption": "An electronic queue at the asteroid belt. Nobody here is in a hurry. Except you.",
   "horizon": 0.58,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Космос"
+      "name": "Space"
     },
     {
       "id": "queue",
@@ -112,7 +112,7 @@
         220,
         30
       ],
-      "name": "Очередь кораблей",
+      "name": "Queue of ships",
       "across": 110,
       "height": 150,
       "distance": 320,
@@ -126,7 +126,7 @@
         22,
         30
       ],
-      "name": "Станция «Пояс-Восток»",
+      "name": "Belt-East station",
       "across": -78,
       "height": 70,
       "distance": 75,
@@ -143,7 +143,7 @@
         75,
         4
       ],
-      "name": "Яхта с мигалкой",
+      "name": "Yacht with a flashing light",
       "across": 0,
       "height": 4,
       "distance": 60,
@@ -163,7 +163,7 @@
         2.6,
         0.2
       ],
-      "name": "Табло очереди",
+      "name": "Queue board",
       "across": -10.2,
       "height": 6.8,
       "distance": 21,
@@ -177,7 +177,7 @@
         3,
         0.2
       ],
-      "name": "Инспектор ТМ-7, окно №3",
+      "name": "Inspector TM-7, window 3",
       "across": -5,
       "height": 6.6,
       "distance": 24,
@@ -201,7 +201,7 @@
         2,
         0.1
       ],
-      "name": "Ограждение очереди",
+      "name": "Queue barrier",
       "across": -3.2,
       "height": 1.05,
       "distance": 5.5,
@@ -209,7 +209,7 @@
     },
     {
       "id": "deck",
-      "name": "Причальная палуба",
+      "name": "Docking deck",
       "color": "#1d2027",
       "depth": 26,
       "plane": true,
@@ -227,7 +227,7 @@
         18.5,
         3
       ],
-      "name": "«Скромность»",
+      "name": "The Modesty",
       "across": 27,
       "height": 16,
       "distance": 72,
@@ -241,7 +241,7 @@
         1.5,
         0.15
       ],
-      "name": "Гена Мухин, пилот «Скромности»",
+      "name": "Gena Mukhin, pilot of the Modesty",
       "across": 2.8,
       "height": 1.95,
       "distance": 10,
@@ -255,7 +255,7 @@
         1.2,
         0.9
       ],
-      "name": "Кофемат «Бодрость-2»",
+      "name": "Coffee machine Vigour-2",
       "across": -0.2,
       "height": 0.8,
       "distance": 6,
@@ -267,7 +267,7 @@
       "x": 0.02,
       "y": 0.03,
       "id": "board",
-      "name": "Электронная очередь",
+      "name": "Electronic queue",
       "width": 300,
       "anchor": "top-left",
       "height": 150
@@ -277,17 +277,17 @@
     {
       "at": 2,
       "for": 8,
-      "text": "Пункт пропуска «Пояс-Восток». До Юпитера сорок минут лёта. До окна — одиннадцать суток."
+      "text": "Belt-East checkpoint. Forty minutes' flight to Jupiter. Eleven days to the window."
     },
     {
       "at": 12,
       "for": 8,
-      "text": "Варп-двигатель изобрели. Отменить бланк Ф-12 в трёх экземплярах — не смогли."
+      "text": "They invented the warp drive. They couldn't get rid of form F-12 in triplicate."
     },
     {
       "at": 22,
       "for": 7,
-      "text": "Гена заполнил его дважды. Третий экземпляр улетел."
+      "text": "Gena filled it in twice. The third copy floated away."
     }
   ]
 }

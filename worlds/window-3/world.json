@@ -1,9 +1,9 @@
 {
-  "title": "Окно №3",
-  "description": "Пункт пропуска у пояса астероидов. Варп-двигатель изобрели, электронную очередь — тоже. Ваш номер 4812, сейчас обслуживают 0417.",
+  "title": "Window 3",
+  "description": "A checkpoint at the asteroid belt. They invented the warp drive, and the electronic queue too. Your number is 4812; now serving 0417.",
   "themes": {
-    "ирония": 40,
-    "космос": 60
+    "irony": 40,
+    "space": 60
   },
   "main": "okno-3"
 }
