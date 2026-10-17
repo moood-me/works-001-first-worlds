@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Bridge over the Misty","translation":"Мост через Туманную","where":"world.json title"},
+  {"text":"An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.","translation":"Старый каменный мост над ущельем, полным тумана. Хранительница с фонарём ждёт на середине, а с другого берега, из тумана, кто-то идёт ей навстречу.","where":"world.json description"}
+]}

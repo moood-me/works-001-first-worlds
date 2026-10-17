@@ -103,17 +103,17 @@
     "guest_goal": 0.6,
     "lantern_raised": false
   },
-  "title": "Мост через Туманную",
+  "title": "The Bridge over the Misty",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Середина моста — единственное место, где встречаются два берега.",
+  "caption": "The middle of the bridge is the only place where the two banks meet.",
   "horizon": 0.56,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "небо"
+      "name": "sky"
     },
     {
       "id": "ridge",
@@ -123,7 +123,7 @@
         1400,
         20
       ],
-      "name": "хребет за ущельем",
+      "name": "ridge beyond the gorge",
       "across": 0,
       "distance": 700
     },
@@ -135,7 +135,7 @@
         75,
         60
       ],
-      "name": "берега ущелья",
+      "name": "sides of the gorge",
       "across": 0,
       "distance": 44
     },
@@ -147,7 +147,7 @@
         26,
         45
       ],
-      "name": "мост",
+      "name": "bridge",
       "across": 0,
       "distance": 40
     },
@@ -159,7 +159,7 @@
         24,
         0.5
       ],
-      "name": "путник",
+      "name": "traveller",
       "across": -20.5,
       "distance": 40
     },
@@ -171,7 +171,7 @@
         1,
         0.4
       ],
-      "name": "хранительница моста",
+      "name": "keeper of the bridge",
       "across": 3,
       "flicker": 0.25,
       "distance": 40,
@@ -185,7 +185,7 @@
         60,
         45
       ],
-      "name": "туман в ущелье",
+      "name": "mist in the gorge",
       "across": 0,
       "distance": 36
     },
@@ -197,7 +197,7 @@
         9,
         4
       ],
-      "name": "край обрыва",
+      "name": "edge of the cliff",
       "across": -0.5,
       "distance": 5
     },
@@ -209,7 +209,7 @@
         260,
         140
       ],
-      "name": "глубина ущелья",
+      "name": "depths of the gorge",
       "across": 0,
       "distance": 160
     }
@@ -218,12 +218,12 @@
     {
       "at": 3,
       "for": 8,
-      "text": "Мост держится, пока на нём кто-то ждёт."
+      "text": "The bridge holds as long as someone waits on it."
     },
     {
       "at": 14,
       "for": 8,
-      "text": "С того берега, из тумана, — шаги."
+      "text": "From the far bank, out of the mist: footsteps."
     }
   ]
 }

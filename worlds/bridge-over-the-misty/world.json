@@ -1,9 +1,9 @@
 {
-  "title": "Мост через Туманную",
-  "description": "Старый каменный мост над ущельем, полным тумана. Хранительница с фонарём ждёт на середине, а с другого берега, из тумана, кто-то идёт ей навстречу.",
+  "title": "The Bridge over the Misty",
+  "description": "An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.",
   "themes": {
-    "встреча": 40,
-    "фэнтези": 60
+    "encounter": 40,
+    "fantasy": 60
   },
   "main": "most-cherez-tumannuyu"
 }

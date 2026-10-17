@@ -14,6 +14,6 @@ let told = scene.get("guest") >= 0.97;
 scene.on("change", "guest", (v) => {
   if (v >= 0.97 && !told) {
     told = true;
-    scene.tell("Путник дошёл до хранительницы и остановился в шаге от её фонаря", "guest");
+    scene.tell(tr('The traveller reached the keeper and stopped one step from her lantern'), "guest");
   }
 });
