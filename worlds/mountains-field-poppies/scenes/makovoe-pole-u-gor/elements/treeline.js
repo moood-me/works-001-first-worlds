@@ -12,7 +12,7 @@ for (var c = 0; c < cl.length; c++) {
   for (var k = 0; k < n; k++) {
     var tx = cx + (e.rnd() - 0.5) * w,
       th = 11 + e.rnd() * 13,
-      tr = th * (0.22 + e.rnd() * 0.14);
+      crown = th * (0.22 + e.rnd() * 0.14);
     g.strokeStyle = "#2f362c";
     g.lineWidth = 0.6;
     g.beginPath();
@@ -20,9 +20,9 @@ for (var c = 0; c < cl.length; c++) {
     g.lineTo(tx, -th * 0.5);
     g.stroke();
     for (var j = 0; j < 5; j++) {
-      var ox = (e.rnd() - 0.5) * tr * 1.2,
-        oy = -th + tr + (e.rnd() - 0.3) * tr * 1.3,
-        rr = tr * (0.5 + e.rnd() * 0.4);
+      var ox = (e.rnd() - 0.5) * crown * 1.2,
+        oy = -th + crown + (e.rnd() - 0.3) * crown * 1.3,
+        rr = crown * (0.5 + e.rnd() * 0.4);
       g.fillStyle = "#38443a";
       g.beginPath();
       g.arc(tx + ox, oy, rr, 0, 6.2832);
