@@ -38,9 +38,9 @@ g.beginPath();
 g.moveTo(-0.19, -1.33 + sh);
 g.quadraticCurveTo(-0.26, -1.05, -0.2, -0.84);
 g.stroke();
-const tr = Math.sin(t * 7.1) * 0.004 + Math.sin(t * 4.3) * 0.003 + kn * Math.sin(t * 23) * 0.02;
-const hx = 0.3 + tr,
-  hy = -1.22 + tr;
+const tremor = Math.sin(t * 7.1) * 0.004 + Math.sin(t * 4.3) * 0.003 + kn * Math.sin(t * 23) * 0.02;
+const hx = 0.3 + tremor,
+  hy = -1.22 + tremor;
 g.beginPath();
 g.moveTo(0.19, -1.33 + sh);
 g.quadraticCurveTo(0.3, -1.2, hx, hy);
@@ -82,8 +82,8 @@ g.restore();
 if (s.vera_light) {
   const bx = hx + 0.06,
     by = hy - 0.1;
-  const ex = 0.95 + tr * 8,
-    ey = -2.05 + tr * 5;
+  const ex = 0.95 + tremor * 8,
+    ey = -2.05 + tremor * 5;
   const bm = g.createLinearGradient(bx, by, ex, ey);
   bm.addColorStop(0, "rgba(255,240,210,0.2)");
   bm.addColorStop(1, "rgba(255,240,210,0)");
