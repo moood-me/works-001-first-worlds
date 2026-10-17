@@ -166,6 +166,6 @@ scene.every(4, function () {
   if (nf > f) scene.set("flicker", nf, 3);
   if (m >= 0.95 && !mistTold) {
     mistTold = true;
-    scene.tell(tr('The mist has closed in: the path back is almost gone, only the lamps by the gate.'));
+    scene.tell(tr('The mist has closed in: you can hardly see the path back, only the lamps by the gate.'));
   }
 });

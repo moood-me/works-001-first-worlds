@@ -14,5 +14,5 @@
   {"text":"Death came up and stopped beside you.","translation":"Смерть подошла и остановилась рядом с тобой.","where":"scenes/park-gate/script.js"},
   {"text":"Death caught up with you.","translation":"Смерть догнала тебя.","where":"scenes/park-gate/script.js"},
   {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Ты подошла к воротам парка. Мокрые прутья, цепь, за ними — туман. Дорожка уходит и дальше, в глубь парка.","where":"scenes/park-gate/script.js"},
-  {"text":"The mist has closed in: the path back is almost gone, only the lamps by the gate.","translation":"Туман сомкнулся: дорожки назад почти не видно, только фонари у ворот.","where":"scenes/park-gate/script.js"}
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"Туман сомкнулся: дорожки назад почти не видно, только фонари у ворот.","where":"scenes/park-gate/script.js"}
 ]}
