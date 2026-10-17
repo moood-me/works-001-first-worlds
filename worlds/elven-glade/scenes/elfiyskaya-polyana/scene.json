@@ -10,27 +10,27 @@
   "music": {
     "prompts": [
       {
-        "text": "лай собаки",
+        "text": "dog barking",
         "weight": 1.0
       }
     ]
   },
-  "title": "Эльфийская поляна",
+  "title": "The Elven Glade",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Здесь ночь длиннее, чем кажется.",
+  "caption": "The night here is longer than it seems.",
   "horizon": 0.52,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
       "id": "glade",
-      "name": "Поляна",
+      "name": "Glade",
       "color": "#16281f",
       "depth": 60,
       "plane": true,
@@ -40,7 +40,7 @@
     {
       "x": 0.5,
       "id": "stream",
-      "name": "Ручей",
+      "name": "Stream",
       "color": "#2a4a66",
       "depth": 16,
       "plane": true,
@@ -57,7 +57,7 @@
         200,
         1
       ],
-      "name": "Старый лес",
+      "name": "Old forest",
       "color": "#0b1620",
       "height": 22,
       "distance": 95
@@ -71,7 +71,7 @@
         13,
         1
       ],
-      "name": "Древнее дерево эльфов",
+      "name": "Ancient elven tree",
       "color": "#1a1e24",
       "height": 30,
       "distance": 55
@@ -85,7 +85,7 @@
         8,
         1
       ],
-      "name": "Деревья-близнецы",
+      "name": "Twin trees",
       "color": "#121a20",
       "height": 26,
       "distance": 62
@@ -99,7 +99,7 @@
         0.9,
         0.1
       ],
-      "name": "Эльфийка Илиэнь",
+      "name": "Ilien the elf",
       "color": "#2a3a38",
       "height": 1.85,
       "distance": 13
@@ -113,7 +113,7 @@
         3.6,
         0.08
       ],
-      "name": "Светящиеся грибы",
+      "name": "Glowing mushrooms",
       "color": "#7fe0d0",
       "height": 0.4,
       "distance": 7
@@ -127,7 +127,7 @@
         12,
         1
       ],
-      "name": "Светлячки",
+      "name": "Fireflies",
       "height": 3,
       "distance": 14,
       "elevation": 1
@@ -137,12 +137,12 @@
     {
       "at": 3,
       "for": 8,
-      "text": "На поляне тихо. Так тихо, что слышно, как растут грибы."
+      "text": "The glade is quiet. So quiet you can hear the mushrooms grow."
     },
     {
       "at": 13,
       "for": 7,
-      "text": "У ручья кто-то ждёт. Давно."
+      "text": "Someone is waiting by the stream. Has been for a long time."
     }
   ]
 }
