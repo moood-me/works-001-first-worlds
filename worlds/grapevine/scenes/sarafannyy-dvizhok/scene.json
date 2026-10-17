@@ -42,19 +42,19 @@
     ],
     "brightness": 0.7
   },
-  "title": "Сарафанный движок",
+  "title": "The Grapevine Engine",
   "camera": {
     "look": 0.25,
     "mode": "overhead",
     "height": 8
   },
-  "caption": "Скажи коту «я из министерства» — к вечеру ты тайный наследник, который осушит пруд.",
+  "caption": "Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.",
   "horizon": 0.45,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Утреннее небо"
+      "name": "Morning sky"
     },
     {
       "x": 0.5,
@@ -65,7 +65,7 @@
         1400,
         2
       ],
-      "name": "Холмы",
+      "name": "Hills",
       "color": "#8fb3a4",
       "height": 60,
       "distance": 600
@@ -73,7 +73,7 @@
     {
       "x": 0.5,
       "id": "meadow",
-      "name": "Луг",
+      "name": "Meadow",
       "color": "#8dbd5d",
       "depth": 700,
       "plane": true,
@@ -83,7 +83,7 @@
     {
       "x": 0.5,
       "id": "yard",
-      "name": "Двор",
+      "name": "Yard",
       "color": "#8dbd5d",
       "depth": 56,
       "plane": true,
@@ -93,7 +93,7 @@
     {
       "x": 0.5,
       "id": "pond-water",
-      "name": "Вода в пруду",
+      "name": "Water in the pond",
       "color": "#4e98a6",
       "depth": 9.2,
       "plane": true,
@@ -110,7 +110,7 @@
         1.2,
         0.3
       ],
-      "name": "Пруд",
+      "name": "Pond",
       "color": "#eef6f8",
       "height": 0.5,
       "distance": 20,
@@ -125,7 +125,7 @@
         8,
         0.1
       ],
-      "name": "Камыш",
+      "name": "Reeds",
       "color": "#4b7f3a",
       "height": 1.2,
       "distance": 17
@@ -139,7 +139,7 @@
         6,
         0.3
       ],
-      "name": "Ива",
+      "name": "Willow",
       "color": "#628f3e",
       "height": 9,
       "distance": 27
@@ -153,7 +153,7 @@
         4.5,
         0.1
       ],
-      "name": "Забор",
+      "name": "Fence",
       "color": "#cbb188",
       "height": 1.3,
       "distance": 30.5
@@ -167,7 +167,7 @@
         6,
         0.4
       ],
-      "name": "Дом бабы Зины",
+      "name": "Granny Zina's house",
       "color": "#ecc88f",
       "height": 8,
       "distance": 38
@@ -181,7 +181,7 @@
         6,
         0.4
       ],
-      "name": "Дом у забора",
+      "name": "House by the fence",
       "color": "#e3d3b8",
       "height": 7.5,
       "distance": 40
@@ -195,7 +195,7 @@
         1.9,
         0.15
       ],
-      "name": "Баба Зина",
+      "name": "Granny Zina",
       "color": "#7c4274",
       "height": 1.6,
       "distance": 26
@@ -209,7 +209,7 @@
         0.9,
         0.5
       ],
-      "name": "Кот Пельмень",
+      "name": "Pelmen the cat",
       "color": "#cc6b20",
       "height": 0.85,
       "distance": 18,
@@ -224,7 +224,7 @@
         0.75,
         0.08
       ],
-      "name": "Голубь Гоша",
+      "name": "Gosha the pigeon",
       "color": "#98a2b1",
       "height": 0.9,
       "distance": 30.4,
@@ -239,7 +239,7 @@
         0.6,
         0.15
       ],
-      "name": "Фонарь",
+      "name": "Street lamp",
       "color": "#2f3542",
       "height": 4,
       "distance": 19
@@ -253,7 +253,7 @@
         1.3,
         0.15
       ],
-      "name": "Почтальонша Люба",
+      "name": "Lyuba the postwoman",
       "color": "#4a80c6",
       "height": 1.65,
       "distance": 13
@@ -267,7 +267,7 @@
         0.9,
         0.15
       ],
-      "name": "Петька",
+      "name": "Petka",
       "color": "#d8443b",
       "height": 1.35,
       "distance": 13
@@ -278,7 +278,7 @@
       "x": 0.015,
       "y": 0.03,
       "id": "rules",
-      "name": "Законы сарафана",
+      "name": "Rules of the grapevine",
       "width": 470,
       "anchor": "top-left",
       "height": 520

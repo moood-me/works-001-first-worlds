@@ -8,17 +8,17 @@
   .fold { float: right; border: 0; background: none; font-size: 18px; cursor: pointer; color: #7a5a30; }
   .min .body { display: none; }
 </style>
-<div class="p" id="p"><button class="fold" id="f">▾</button><h3>Сарафанный движок</h3>
+<div class="p" id="p"><button class="fold" id="f">▾</button><h3>The Grapevine Engine</h3>
   <div class="body">
-    <p class="goal">Утро. К вечеру минимум пятеро во дворе должны быть уверены: 🛡️ пруд охраняется государством. Пруд сегодня не в духе — ему не шепчи.</p>
+    <p class="goal">Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.</p>
     <div id="list"></div>
-    <div class="hint">Выбери фразу, щёлкни по жителю и шепни ему. Каждый перескажет соседям по-своему: кот всё сводит к еде, баба Зина — к сериалу, голубь — к заговору, фонарь — к режимным объектам, Петька — к героям, Люба передаёт слово в слово, пруд всё принимает на свой счёт.</div>
+    <div class="hint">Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.</div>
   </div>
 </div>
 <script>
   const list = root.getElementById('list');
-  for (const t of ["Я, между прочим, из министерства.","Люблю рыбу. Особенно жареную.","Что-то пруд мелковат стал.","Мне тут и поговорить не с кем.","Нашёл ключ. Не знаю от чего."]) {
-    const b = document.createElement('button'); b.className = 'ph'; b.textContent = '«' + t + '»';
+  for (const t of [tr("I'm from the ministry, by the way."), tr('I love fish. Fried, especially.'), tr("The pond's got a bit shallow."), tr("There's no one here to even talk to."), tr('Found a key. No idea what it opens.')]) {
+    const b = document.createElement('button'); b.className = 'ph'; b.textContent = tr('“{phrase}”', { phrase: t });
     b.onclick = () => { const ta = document.getElementById('text'); if (ta) { ta.value = t; ta.focus(); } };
     list.append(b);
   }
