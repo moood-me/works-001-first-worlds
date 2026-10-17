@@ -35,7 +35,7 @@ g.lineWidth = 0.006;
 g.strokeRect(0.3, -0.7, 0.5, 0.17);
 g.fillStyle = "#eef2ef";
 g.fillRect(0.37, -0.69, 0.12, 0.035);
-T("ЛИЧНЫЕ ДЕЛА", 0.43, -0.672, 13, "#4d5c55", "600");
+T(tr('CASE FILES'), 0.43, -0.672, 13, "#4d5c55", "600");
 g.fillStyle = "#7d8b84";
 g.beginPath();
 g.arc(0.6, -0.615, 0.013, 0, 6.283);

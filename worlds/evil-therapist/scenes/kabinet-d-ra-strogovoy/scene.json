@@ -106,21 +106,21 @@
     "recording": true,
     "doorLocked": true
   },
-  "title": "Кабинет д-ра Строговой",
+  "title": "Dr Strogova's Office",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Устраивайтесь поудобнее. Насколько это возможно.",
+  "caption": "Make yourself comfortable. As far as that's possible.",
   "horizon": 0.4,
   "objects": [
     {
       "id": "bg",
       "sky": true,
-      "name": "Фон"
+      "name": "Background"
     },
     {
       "id": "ceiling",
-      "name": "Потолок",
+      "name": "Ceiling",
       "color": "#dfe6e1",
       "depth": 4.5,
       "plane": true,
@@ -137,7 +137,7 @@
         7,
         0.02
       ],
-      "name": "Стена",
+      "name": "Wall",
       "color": "#e3eae5",
       "across": 0,
       "height": 3,
@@ -145,7 +145,7 @@
     },
     {
       "id": "floor",
-      "name": "Пол",
+      "name": "Floor",
       "color": "#bccbc2",
       "depth": 5,
       "plane": true,
@@ -162,7 +162,7 @@
         0.25,
         0.05
       ],
-      "name": "Сансевиерия",
+      "name": "Snake plant",
       "color": "#4d6b5b",
       "across": -1.45,
       "height": 0.95,
@@ -176,7 +176,7 @@
         0.25,
         0.05
       ],
-      "name": "Сансевиерия (такая же)",
+      "name": "Snake plant (the same one)",
       "color": "#4d6b5b",
       "across": 1.45,
       "height": 0.95,
@@ -190,7 +190,7 @@
         0.5,
         0.06
       ],
-      "name": "Кресло",
+      "name": "Armchair",
       "color": "#8aa899",
       "across": -2.3,
       "height": 0.88,
@@ -204,7 +204,7 @@
         0.5,
         0.06
       ],
-      "name": "Кресло (такое же)",
+      "name": "Armchair (the same one)",
       "color": "#8aa899",
       "across": 2.3,
       "height": 0.88,
@@ -218,7 +218,7 @@
         0.4,
         0.05
       ],
-      "name": "Доктор Строгова",
+      "name": "Doctor Strogova",
       "color": "#f4f7f5",
       "across": 0,
       "height": 1.4,
@@ -232,7 +232,7 @@
         0.4,
         0.04
       ],
-      "name": "Руки доктора",
+      "name": "The doctor's hands",
       "color": "#e2d6ca",
       "across": 0,
       "height": 0.25,
@@ -241,7 +241,7 @@
     },
     {
       "id": "desk",
-      "name": "Стол",
+      "name": "Desk",
       "color": "#e6ebe8",
       "depth": 0.85,
       "plane": true,
@@ -258,7 +258,7 @@
         0.93,
         0.03
       ],
-      "name": "Стол спереди",
+      "name": "Front of the desk",
       "color": "#c3cfc8",
       "across": 0,
       "height": 0.76,
@@ -272,7 +272,7 @@
         0.13,
         0.01
       ],
-      "name": "Салфетки",
+      "name": "Tissues",
       "color": "#e1e9e4",
       "across": -0.76,
       "height": 0.17,
@@ -287,7 +287,7 @@
         0.2,
         0.01
       ],
-      "name": "Табличка",
+      "name": "Nameplate",
       "color": "#2f3d38",
       "across": -0.55,
       "height": 0.09,
@@ -302,7 +302,7 @@
         0.2,
         0.02
       ],
-      "name": "Лампа",
+      "name": "Lamp",
       "color": "#3c4944",
       "across": 0.72,
       "height": 0.5,
@@ -315,17 +315,17 @@
     {
       "at": 2,
       "for": 7,
-      "text": "Садитесь. Кресло стоит ровно там, где должно."
+      "text": "Sit down. The armchair is exactly where it should be."
     },
     {
       "at": 13,
       "for": 7,
-      "text": "Ваше дело уже открыто. Оно толще, чем вы думали."
+      "text": "Your file is already open. It's thicker than you thought."
     },
     {
       "at": 26,
       "for": 7,
-      "text": "Салфетки — по одной. Это тоже часть терапии."
+      "text": "Tissues: one at a time. That is part of the therapy too."
     }
   ]
 }

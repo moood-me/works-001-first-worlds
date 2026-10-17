@@ -17,7 +17,7 @@ g.fillStyle = "#eef3f0";
 g.fillRect(-0.11, -0.112, 0.22, 0.014);
 g.fillStyle = "#a8c0b3";
 g.fillRect(-0.11, -0.045, 0.22, 0.01);
-T("ПО ОДНОЙ", 0, -0.072, 15, "#6f8178", "600");
+T(tr('ONE AT A TIME'), 0, -0.072, 15, "#6f8178", "600");
 g.fillStyle = "#fbfcfb";
 g.beginPath();
 g.moveTo(-0.03, -0.11);
