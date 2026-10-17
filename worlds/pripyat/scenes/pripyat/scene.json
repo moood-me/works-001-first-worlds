@@ -86,29 +86,29 @@
     ],
     "brightness": 0.25
   },
-  "title": "Припять",
-  "caption": "Здесь теперь живут только ветер и деревья.",
+  "title": "Pripyat",
+  "caption": "Only the wind and the trees live here now.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "e527096da",
       "sky": true,
-      "name": "Пасмурное небо"
+      "name": "Overcast sky"
     },
     {
       "id": "ed3d1bfea",
       "sky": true,
-      "name": "Земля"
+      "name": "Ground"
     },
     {
       "id": "e6bd9b589",
       "sky": true,
-      "name": "Арка саркофага"
+      "name": "Arch of the sarcophagus"
     },
     {
       "id": "e98a847ed",
       "sky": true,
-      "name": "Вороны"
+      "name": "Crows"
     },
     {
       "x": 0.5,
@@ -119,7 +119,7 @@
         1200,
         3
       ],
-      "name": "Лес на горизонте",
+      "name": "Forest on the horizon",
       "color": "#7a8279",
       "height": 20,
       "distance": 700
@@ -133,7 +133,7 @@
         115,
         2
       ],
-      "name": "Многоэтажки",
+      "name": "Apartment blocks",
       "color": "#9a9f9a",
       "height": 50,
       "distance": 280
@@ -147,7 +147,7 @@
         260,
         1
       ],
-      "name": "Заросли",
+      "name": "Thickets",
       "color": "#6a6c52",
       "height": 14,
       "distance": 160
@@ -161,7 +161,7 @@
         14,
         1
       ],
-      "name": "Колесо обозрения",
+      "name": "Ferris wheel",
       "color": "#b39640",
       "height": 26,
       "distance": 110
@@ -175,7 +175,7 @@
         2.5,
         0.5
       ],
-      "name": "Фонарь",
+      "name": "Street lamp",
       "color": "#3f423b",
       "height": 9.5,
       "distance": 38
@@ -189,7 +189,7 @@
         8,
         10
       ],
-      "name": "Потрескавшаяся дорожка",
+      "name": "Cracked path",
       "color": "#6e7068",
       "height": 1.7,
       "distance": 8
@@ -203,7 +203,7 @@
         6.5,
         0.5
       ],
-      "name": "Листопад",
+      "name": "Falling leaves",
       "color": "#a57a3c",
       "height": 5,
       "distance": 6
@@ -217,7 +217,7 @@
         5,
         0.5
       ],
-      "name": "Берёза",
+      "name": "Birch",
       "sway": 0.5,
       "color": "#b6b8ad",
       "height": 13.5,
@@ -232,7 +232,7 @@
         2.5,
         0.3
       ],
-      "name": "Сухая трава",
+      "name": "Dry grass",
       "color": "#7d7550",
       "height": 1.1,
       "distance": 3
@@ -242,22 +242,22 @@
     {
       "at": 3,
       "for": 6,
-      "text": "Уезжали на три дня. Взяли только документы."
+      "text": "They left for three days. They took only their papers."
     },
     {
       "at": 11,
       "for": 6,
-      "text": "Колесо должно было заработать первого мая."
+      "text": "The wheel was meant to start turning on the first of May."
     },
     {
       "at": 19,
       "for": 6,
-      "text": "Кабинки до сих пор качаются — от ветра."
+      "text": "The cabins still sway, in the wind."
     },
     {
       "at": 27,
       "for": 8,
-      "text": "Сорок лет тишины."
+      "text": "Forty years of silence."
     }
   ]
 }
