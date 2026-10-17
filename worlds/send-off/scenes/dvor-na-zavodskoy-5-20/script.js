@@ -1,6 +1,6 @@
 function serega(v, over) {
-  const up = v === "на корточках" ? 0 : 1,
-    gone = v === "уехал" ? 1 : 0;
+  const up = v === "squatting" ? 0 : 1,
+    gone = v === "gone" ? 1 : 0;
   if (over) {
     scene.set("up", up, over * 0.3);
     scene.set("gone", gone, over);
@@ -13,36 +13,36 @@ function uazGo() {
   scene.set("uazX", 0);
   scene.set("uazX", 1, 10);
   scene.after(10.2, () => {
-    scene.set("uaz", "стоит");
-    scene.set("dog", "проснулся");
-    scene.tell("Из-за гаражей выкатилась военкоматская «буханка» и встала у подъезда. Шарик поднял голову.", "buhanka");
+    scene.set("uaz", "waiting");
+    scene.set("dog", "awake");
+    scene.tell(tr('The draft office\'s UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.'), "buhanka");
   });
 }
 function uazLeave() {
   scene.set("uazX", 1);
   scene.set("uazX", 2, 9);
-  scene.after(9.2, () => scene.tell("«Буханка» скрылась за гаражами.", "buhanka"));
+  scene.after(9.2, () => scene.tell(tr('The van has disappeared behind the garages.'), "buhanka"));
 }
 scene.on("load", (s) => {
   serega(s.serega, 0);
-  if (s.uaz === "едет") {
-    scene.set("uaz", "стоит");
+  if (s.uaz === "coming") {
+    scene.set("uaz", "waiting");
     scene.set("uazX", 1);
   }
-  if (s.uaz === "уехал") scene.set("uazX", 2);
+  if (s.uaz === "gone") scene.set("uazX", 2);
 });
 scene.every(20, () => {
   const t = Math.round(scene.get("time"));
   if (t < 440) scene.set("time", t + 1, 20);
 });
 scene.on("change", "time", (v) => {
-  if (v >= 360 && scene.get("uaz") === "нет") scene.set("uaz", "едет");
+  if (v >= 360 && scene.get("uaz") === "none") scene.set("uaz", "coming");
 });
 scene.on("change", "uaz", (v) => {
-  if (v === "едет") uazGo();
-  if (v === "уехал") uazLeave();
+  if (v === "coming") uazGo();
+  if (v === "gone") uazLeave();
 });
 scene.on("change", "serega", (v) => {
   serega(v, 5);
-  if (v === "уехал" && scene.get("uaz") === "стоит") scene.after(7, () => scene.set("uaz", "уехал"));
+  if (v === "gone" && scene.get("uaz") === "waiting") scene.after(7, () => scene.set("uaz", "gone"));
 });

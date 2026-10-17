@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t;
-const up = s.dog === "проснулся";
+const up = s.dog === "awake";
 const br = Math.sin(t * 0.9) * 0.008 + Math.sin(t * 0.37) * 0.004;
 const c = "#3e352d";
 const wag = up ? Math.sin(t * 7) * 0.25 : Math.sin(t * 0.3) * 0.03;

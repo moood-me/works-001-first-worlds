@@ -1,7 +1,7 @@
 const s = e.state,
   t = e.t;
-const on = s.tape === "играет",
-  ch = s.tape === "зажевал";
+const on = s.tape === "playing",
+  ch = s.tape === "chewed";
 e.at(0, -0.28);
 if (on) e.light(0, -0.045, 0.12, "#ff5a3c", 0.6);
 g.scale(1.3, 1.3);

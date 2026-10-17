@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t;
-if (s.uaz === "нет") return;
+if (s.uaz === "none") return;
 const p = s.uazX || 0;
 if (p >= 1.999) return;
 const x = p <= 1 ? 30 - 26 * p : 4 - (p - 1) * 36;

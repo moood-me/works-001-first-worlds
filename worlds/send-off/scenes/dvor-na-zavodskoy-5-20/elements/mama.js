@@ -4,7 +4,7 @@ const W = s.window;
 g.fillStyle = "#0d0e12";
 g.fillRect(-0.6, -1.4, 1.2, 1.4);
 e.at(0, -0.9);
-if (W !== "темно") {
+if (W !== "dark") {
   const f = 0.95 + 0.03 * Math.sin(t * 0.8);
   let lg = g.createLinearGradient(0, -1.4, 0, 0);
   lg.addColorStop(0, "rgba(236,184,112," + 0.88 * f + ")");
@@ -12,7 +12,7 @@ if (W !== "темно") {
   g.fillStyle = lg;
   g.fillRect(-0.55, -1.35, 1.1, 1.3);
   e.light(0, -0.7, 2.4, "#ecb46e", 0.5 * f);
-  if (W === "мама в окне") {
+  if (W === "mum at the window") {
     const sw = Math.sin(t * 0.31) * 0.03 + Math.sin(t * 0.83) * 0.01;
     g.fillStyle = "rgba(52,32,26,0.88)";
     g.beginPath();

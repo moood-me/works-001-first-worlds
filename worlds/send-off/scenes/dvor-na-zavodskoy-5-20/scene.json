@@ -88,27 +88,27 @@
   },
   "state": {
     "up": 0,
-    "dog": "спит",
-    "uaz": "нет",
+    "dog": "asleep",
+    "uaz": "none",
     "gone": 0,
-    "tape": "играет",
+    "tape": "playing",
     "time": 320,
     "uazX": 0,
-    "vitek": "лузгает",
-    "serega": "на корточках",
-    "window": "мама в окне"
+    "vitek": "cracking seeds",
+    "serega": "squatting",
+    "window": "mum at the window"
   },
-  "title": "Двор на Заводской, 5:20",
+  "title": "The Yard on Zavodskaya, 5:20",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Проводы кончились, а утро ещё нет.",
+  "caption": "The send-off is over, and the morning hasn't come yet.",
   "horizon": 0.62,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "небо"
+      "name": "sky"
     },
     {
       "id": "tec",
@@ -118,7 +118,7 @@
         70,
         0.5
       ],
-      "name": "труба ТЭЦ",
+      "name": "power plant chimney",
       "across": 60,
       "height": 110,
       "distance": 220
@@ -131,7 +131,7 @@
         200,
         0.5
       ],
-      "name": "девятиэтажки вдали",
+      "name": "nine-storey blocks in the distance",
       "across": 15,
       "height": 50,
       "distance": 150
@@ -144,14 +144,14 @@
         11.5,
         0.3
       ],
-      "name": "гаражи",
+      "name": "garages",
       "across": 9,
       "height": 2.8,
       "distance": 34
     },
     {
       "id": "backyard",
-      "name": "дорога за двором",
+      "name": "road beyond the yard",
       "color": "#232429",
       "depth": 14,
       "plane": true,
@@ -167,7 +167,7 @@
         36,
         0.3
       ],
-      "name": "буханка из военкомата",
+      "name": "UAZ van from the draft office",
       "across": 0,
       "height": 2.1,
       "distance": 27
@@ -180,7 +180,7 @@
         3.5,
         0.4
       ],
-      "name": "пятиэтажка",
+      "name": "five-storey block",
       "across": -6,
       "height": 15,
       "distance": 16
@@ -193,7 +193,7 @@
         0.8,
         0.15
       ],
-      "name": "мама Серого",
+      "name": "Sery's mum",
       "across": -6.4,
       "height": 1.4,
       "distance": 15.9,
@@ -201,7 +201,7 @@
     },
     {
       "id": "yard",
-      "name": "двор",
+      "name": "yard",
       "color": "#25262c",
       "depth": 14.5,
       "plane": true,
@@ -217,7 +217,7 @@
         4,
         0.3
       ],
-      "name": "берёза",
+      "name": "birch",
       "across": 5.5,
       "height": 10,
       "distance": 13
@@ -230,7 +230,7 @@
         1.2,
         0.1
       ],
-      "name": "лавочка",
+      "name": "bench",
       "across": -2.4,
       "height": 0.95,
       "distance": 5.5
@@ -243,7 +243,7 @@
         0.4,
         0.05
       ],
-      "name": "магнитофон",
+      "name": "tape recorder",
       "across": -1.75,
       "height": 0.28,
       "distance": 5.4,
@@ -257,7 +257,7 @@
         0.6,
         0.1
       ],
-      "name": "Витёк",
+      "name": "Vitek",
       "across": -2.75,
       "height": 1.55,
       "distance": 5.45
@@ -270,7 +270,7 @@
         0.7,
         0.08
       ],
-      "name": "Шарик",
+      "name": "Sharik",
       "across": 2.3,
       "height": 0.5,
       "distance": 5.4
@@ -283,7 +283,7 @@
         6.6,
         0.1
       ],
-      "name": "Серый",
+      "name": "Sery",
       "across": 0.9,
       "height": 1.75,
       "distance": 5
@@ -293,17 +293,17 @@
     {
       "at": 2,
       "for": 6,
-      "text": "Пять двадцать. Кассета пошла по третьему кругу."
+      "text": "Five twenty. The cassette is going round for the third time."
     },
     {
       "at": 10,
       "for": 7,
-      "text": "В шесть за Серым приедет «буханка» из военкомата."
+      "text": "At six the UAZ van from the draft office will come for Sery."
     },
     {
       "at": 19,
       "for": 8,
-      "text": "Витёк лузгает семки и не знает, что сказать. Мама в окне — тоже."
+      "text": "Vitek cracks sunflower seeds and doesn't know what to say. Neither does his mum at the window."
     }
   ]
 }

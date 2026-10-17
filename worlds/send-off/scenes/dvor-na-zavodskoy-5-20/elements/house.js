@@ -125,6 +125,6 @@ e.light(-3.6, -2.25, 4.5, "#ffbf73", 0.85 * f);
 g.textAlign = "center";
 g.fillStyle = "rgba(215,210,200,0.42)";
 g.font = "bold 0.5px sans-serif";
-g.fillText("ЦОЙ ЖИВ", -6.6, -0.25);
+g.fillText(tr('TSOI LIVES'), -6.6, -0.25);
 g.fillStyle = "rgba(200,200,190,0.3)";
 g.fillText("47", -3.6, -2.75);

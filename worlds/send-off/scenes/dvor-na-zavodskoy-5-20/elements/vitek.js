@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t;
-const quiet = s.vitek !== "лузгает";
+const quiet = s.vitek !== "cracking seeds";
 const br = Math.sin(t * 1.2 + 1) * 0.008 + Math.sin(t * 0.5) * 0.005;
 const ph = (t / 3.7) % 1;
 const lift = quiet ? 0 : Math.max(0, Math.sin(Math.min(1, ph / 0.3) * Math.PI));
