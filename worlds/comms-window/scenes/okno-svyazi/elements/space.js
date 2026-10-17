@@ -41,7 +41,7 @@ const sx = A * 0.47,
   ey = py - R * 0.63;
 const rx = sx + (ex - sx) * k,
   ry = sy + (ey - sy) * k;
-const rec = s.message === "принимается";
+const rec = s.message === "receiving";
 const per = rec ? 0.9 : 2.4,
   ph = (t % per) / per,
   fl = Math.exp(-ph * 9);

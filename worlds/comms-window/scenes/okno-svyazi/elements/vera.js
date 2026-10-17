@@ -1,6 +1,6 @@
 const t = e.t,
   s = e.state,
-  sl = s.vera === "спит";
+  sl = s.vera === "asleep";
 const br = Math.sin(t * 1.1) * 0.007 + Math.sin(t * 0.43) * 0.004;
 const C = "#10131c",
   rim = "rgba(242,218,172,0.5)";

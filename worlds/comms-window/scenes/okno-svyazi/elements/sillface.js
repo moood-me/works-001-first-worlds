@@ -17,5 +17,5 @@ g.scale(0.01, 0.01);
 g.fillStyle = "rgba(170,180,200,0.3)";
 g.font = "5px monospace";
 g.textAlign = "left";
-g.fillText("ОБЗОРНАЯ ПАЛУБА · ТК «ЛАДОГА»", -220, -58);
+g.fillText(tr('VIEWING DECK · TANKER LADOGA'), -220, -58);
 g.restore();

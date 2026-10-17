@@ -3,15 +3,15 @@ const receive = () => {
   scene.set("progress", 1, Math.max(3, (1 - p) * 90));
 };
 scene.on("load", (s) => {
-  if (s.message === "принимается" && (s.minutes || 0) > 0) receive();
+  if (s.message === "receiving" && (s.minutes || 0) > 0) receive();
 });
 scene.on("change", "message", (v) => {
-  if (v === "принимается") receive();
+  if (v === "receiving") receive();
 });
 scene.on("change", "progress", (v) => {
-  if (v >= 0.999 && scene.get("message") === "принимается") {
-    scene.set("message", "получено");
-    scene.tell("Сообщение с Земли принято целиком.", "tikhon");
+  if (v >= 0.999 && scene.get("message") === "receiving") {
+    scene.set("message", "received");
+    scene.tell(tr('The message from Earth has come through in full.'), "tikhon");
   }
 });
 scene.every(20, () => {
@@ -26,11 +26,11 @@ scene.every(3, () => {
 scene.on("change", "minutes", (m) => {
   if (m > 0) return;
   const msg = scene.get("message");
-  if (msg === "принимается") {
+  if (msg === "receiving") {
     scene.set("progress", scene.get("progress"));
-    scene.set("message", "оборвалось");
-    scene.tell("Ретранслятор ушёл за планету — приём оборвался на полуслове.", "relay");
-  } else if (msg === "ждёт") {
-    scene.tell("Ретранслятор ушёл за планету. Окно связи закрылось.", "relay");
+    scene.set("message", "cut off");
+    scene.tell(tr('The relay has gone behind the planet. Reception cut off mid-word.'), "relay");
+  } else if (msg === "waiting") {
+    scene.tell(tr('The relay has gone behind the planet. The comms window has closed.'), "relay");
   }
 });

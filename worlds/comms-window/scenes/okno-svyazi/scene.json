@@ -79,24 +79,24 @@
     "brightness": 0.32
   },
   "state": {
-    "vera": "смотрит в окно",
+    "vera": "gazing",
     "signal": 0.7,
-    "tikhon": "дремлет",
-    "message": "ждёт",
+    "tikhon": "dozing",
+    "message": "waiting",
     "minutes": 40,
     "progress": 0
   },
-  "title": "Окно связи",
+  "title": "Comms Window",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Сорок минут до того, как последний ретранслятор уйдёт за Сатурн.",
+  "caption": "Forty minutes before the last relay goes behind Saturn.",
   "horizon": 0.44,
   "objects": [
     {
       "id": "space",
       "sky": true,
-      "name": "Сатурн и звёзды"
+      "name": "Saturn and stars"
     },
     {
       "x": 0.5,
@@ -107,7 +107,7 @@
         12,
         0.2
       ],
-      "name": "Обзорный иллюминатор",
+      "name": "Observation porthole",
       "color": "#121620",
       "height": 3,
       "distance": 3.6
@@ -121,7 +121,7 @@
         2.6,
         0
       ],
-      "name": "Пылинки в свете",
+      "name": "Dust motes in the light",
       "height": 2,
       "distance": 2.6,
       "elevation": 0.4
@@ -135,7 +135,7 @@
         0.65,
         0.08
       ],
-      "name": "Вера, штурман",
+      "name": "Vera, navigator",
       "color": "#11141d",
       "height": 0.95,
       "distance": 3.25,
@@ -150,7 +150,7 @@
         0.6,
         0.15
       ],
-      "name": "Тихон, бортовой ИИ",
+      "name": "Tikhon, the ship's AI",
       "color": "#151924",
       "height": 1.15,
       "distance": 2.75
@@ -164,7 +164,7 @@
         0.45,
         0.08
       ],
-      "name": "Лимонное деревце",
+      "name": "Little lemon tree",
       "color": "#24361f",
       "height": 0.95,
       "distance": 3.3,
@@ -173,7 +173,7 @@
     {
       "x": 0.5,
       "id": "sill",
-      "name": "Подоконник",
+      "name": "Windowsill",
       "color": "#171b26",
       "depth": 0.56,
       "plane": true,
@@ -190,7 +190,7 @@
         3.2,
         0.05
       ],
-      "name": "Решётка вентиляции",
+      "name": "Vent grille",
       "color": "#10131b",
       "height": 0.85,
       "distance": 3.04
@@ -201,7 +201,7 @@
       "x": 0.02,
       "y": 0.03,
       "id": "hud",
-      "name": "Окно связи",
+      "name": "Comms Window",
       "width": 380,
       "anchor": "top-left",
       "height": 90
@@ -211,17 +211,17 @@
     {
       "at": 2,
       "for": 9,
-      "text": "Танкер «Ладога» идёт мимо Сатурна. Красная точка у колец — последний ретранслятор."
+      "text": "The tanker Ladoga is passing Saturn. The red dot by the rings is the last relay."
     },
     {
       "at": 12,
       "for": 8,
-      "text": "Сорок минут — и он уйдёт за планету. Дальше год тишины до самой Земли."
+      "text": "Forty minutes, and it goes behind the planet. After that, a year of silence all the way to Earth."
     },
     {
       "at": 22,
       "for": 8,
-      "text": "Вера держит кружку двумя руками. Чай давно остыл, но так теплее."
+      "text": "Vera holds her mug in both hands. The tea went cold long ago, but it's warmer this way."
     }
   ]
 }

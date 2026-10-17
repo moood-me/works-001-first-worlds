@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t,
-  talk = s.tikhon === "говорит";
+  talk = s.tikhon === "talking";
 g.save();
 g.scale(1, 0.16);
 let fp = g.createRadialGradient(0, 0, 0, 0, 0, 0.9);
@@ -47,7 +47,7 @@ g.stroke();
 const p = s.progress || 0;
 g.fillStyle = "rgba(140,225,205,0.2)";
 g.fillRect(-0.3, -0.915, 0.36, 0.018);
-g.fillStyle = s.message === "оборвалось" ? "rgba(255,120,90,0.8)" : "rgba(140,225,205,0.85)";
+g.fillStyle = s.message === "cut off" ? "rgba(255,120,90,0.8)" : "rgba(140,225,205,0.85)";
 g.fillRect(-0.3, -0.915, 0.36 * p, 0.018);
 e.light(-0.12, -0.97, 0.35, "#8ce1cd", 0.25);
 const pu = talk ? 0.55 + 0.45 * Math.abs(Math.sin(t * 5.3) * Math.sin(t * 2.1)) : 0.4 + 0.2 * Math.sin(t * 0.7);
