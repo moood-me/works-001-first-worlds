@@ -6,16 +6,16 @@
   "world": null,
   "scenes": [
     {
-      "world": "pavel--smert-v-parke",
-      "folder": "skameyka-u-fonarya"
+      "world": "pavel--death-in-the-park",
+      "folder": "bench-by-the-lamp"
     },
     {
-      "world": "pavel--tikhoe-ozero",
-      "folder": "bukhta-u-lodochnogo-saraya"
+      "world": "pavel--quiet-lake",
+      "folder": "boathouse-cove"
     },
     {
-      "world": "pavel--pianino",
-      "folder": "loft-s-pianino"
+      "world": "pavel--piano",
+      "folder": "piano-loft"
     }
   ]
 }
