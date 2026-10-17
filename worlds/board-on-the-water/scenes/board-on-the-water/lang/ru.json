@@ -1,6 +1,6 @@
 {"strings": [
   {"text":"A Board on the Water","translation":"Доска на воде","where":"scenes/board-on-the-water/scene.json title"},
-  {"text":"A game there is no need to hurry.","translation":"Партия, которую некуда торопить.","where":"scenes/board-on-the-water/scene.json caption"},
+  {"text":"A game with no reason to hurry.","translation":"Партия, которую некуда торопить.","where":"scenes/board-on-the-water/scene.json caption"},
   {"text":"Black to move. They have been thinking it over since last summer.","translation":"Ход чёрных. Его обдумывают с прошлого лета.","where":"scenes/board-on-the-water/scene.json captions[0] text"},
   {"text":"The pieces' shadows reach all the way to the edge of the board.","translation":"Тени фигур дотягиваются до самого края доски.","where":"scenes/board-on-the-water/scene.json captions[1] text"},
   {"text":"The knight looks at the sunset and takes its time.","translation":"Конь смотрит на закат и не торопится.","where":"scenes/board-on-the-water/scene.json captions[2] text"},
