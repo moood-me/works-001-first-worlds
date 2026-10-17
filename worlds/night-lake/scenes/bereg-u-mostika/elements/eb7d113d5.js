@@ -4,7 +4,7 @@ const h = (i) => {
 };
 const t = e.t,
   S = e.state || {};
-const tr = Math.min(1, (S.waterTremble ?? 0.25) + (S.gust || 0) * 0.5);
+const tremble = Math.min(1, (S.waterTremble ?? 0.25) + (S.gust || 0) * 0.5);
 const P = [];
 let x = 4.3,
   k = 0;
@@ -27,7 +27,7 @@ for (const p of P) {
     const y = s * 0.07;
     const dx =
       (Math.sin(t * 0.8 + y * 10 + p.k) * 0.02 * (1 + s * 0.35) + Math.sin(t * 0.31 + y * 4 + p.k * 2) * 0.012 * s) *
-      (0.5 + 2 * tr);
+      (0.5 + 2 * tremble);
     g.globalAlpha = 0.36 * (1 - s / 12);
     g.fillRect(p.x - p.w / 2 + dx, y, p.w, 0.066);
   }
@@ -36,16 +36,16 @@ for (let s = 0; s < 3; s++) {
   const y = 0.6 + s * 0.07;
   g.globalAlpha = 0.25 - 0.06 * s;
   for (let u = -12.5; u < 3.6; u += 0.5) {
-    const dx = Math.sin(t * 0.7 + y * 9 + u * 0.8) * 0.04 * (0.5 + 2 * tr);
+    const dx = Math.sin(t * 0.7 + y * 9 + u * 0.8) * 0.04 * (0.5 + 2 * tremble);
     g.fillRect(u + dx, y, 0.52, 0.066);
   }
 }
 g.globalAlpha = 1;
-g.strokeStyle = "rgba(125,150,200," + (0.15 + 0.25 * tr) + ")";
+g.strokeStyle = "rgba(125,150,200," + (0.15 + 0.25 * tremble) + ")";
 g.lineWidth = 0.012;
 for (const p of P) {
   if (p.land) continue;
-  const w = p.w * (1.5 + 0.4 * Math.sin(t * 0.9 + p.k * 1.7) + 0.8 * tr);
+  const w = p.w * (1.5 + 0.4 * Math.sin(t * 0.9 + p.k * 1.7) + 0.8 * tremble);
   g.beginPath();
   g.ellipse(p.x, 0.012, w, w * 0.14, 0, 0, 6.283);
   g.stroke();

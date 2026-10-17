@@ -3,7 +3,7 @@ const A = e.aspect,
   mx = A * 0.78,
   t = e.t;
 const S = e.state || {};
-const tr = Math.min(1, (S.waterTremble ?? 0.25) + (S.gust || 0) * 0.5);
+const tremble = Math.min(1, (S.waterTremble ?? 0.25) + (S.gust || 0) * 0.5);
 const h = (i) => {
   const s = Math.sin(i * 127.1 + 311.7) * 43758.5453;
   return s - Math.floor(s);
@@ -32,10 +32,10 @@ for (let i = 0; i < 240; i++) {
   const x0 =
     h(i + 51) * (A + 0.4) -
     0.2 +
-    Math.sin(t * (0.05 + 0.05 * h(i + 71)) + i) * d * (0.2 + 0.5 * tr) +
-    Math.sin(t * (1.1 + 0.8 * h(i + 73)) + i) * d * 0.02 * tr;
+    Math.sin(t * (0.05 + 0.05 * h(i + 71)) + i) * d * (0.2 + 0.5 * tremble) +
+    Math.sin(t * (1.1 + 0.8 * h(i + 73)) + i) * d * 0.02 * tremble;
   g.globalAlpha =
-    (0.05 + 0.12 * h(i + 91)) * (0.6 + 0.4 * Math.sin(t * (0.2 + 0.3 * h(i + 13)) + i * 1.7)) * (0.8 + 0.7 * tr);
+    (0.05 + 0.12 * h(i + 91)) * (0.6 + 0.4 * Math.sin(t * (0.2 + 0.3 * h(i + 13)) + i * 1.7)) * (0.8 + 0.7 * tremble);
   g.strokeStyle = h(i + 33) < 0.55 ? "#3b5079" : "#040914";
   g.lineWidth = Math.max(e.px, d * 0.01);
   g.beginPath();
@@ -51,7 +51,7 @@ for (let i = 0; i < 180; i++) {
   const x =
     mx +
     (h(i + 600) - 0.5) * 2 * sp * (0.25 + 0.75 * h(i + 800)) +
-    Math.sin(t * (0.3 + 0.4 * h(i + 1000)) + i) * d * (0.025 + 0.05 * tr);
+    Math.sin(t * (0.3 + 0.4 * h(i + 1000)) + i) * d * (0.025 + 0.05 * tremble);
   const on = 0.5 + 0.5 * Math.sin(t * (0.4 + 0.7 * h(i + 1200)) + i * 2.3);
   const w = (0.003 + d * 0.07) * (0.35 + h(i + 1400));
   g.globalAlpha = Math.max(0, (0.12 + 0.6 * on * on) * (1 - (0.6 * Math.abs(x - mx)) / sp));
@@ -62,7 +62,7 @@ for (let s = 0; s < 9; s++) {
   const k = (s - 4) / 4.5;
   const y = ry + k * 0.03;
   const w = 0.028 * Math.sqrt(Math.max(0, 1 - k * k)) * (0.7 + 0.3 * Math.sin(t * 0.5 + s * 1.9));
-  const dx = Math.sin(t * 0.35 + s * 1.3) * (0.006 + 0.012 * tr);
+  const dx = Math.sin(t * 0.35 + s * 1.3) * (0.006 + 0.012 * tremble);
   g.globalAlpha = 0.35 + 0.15 * Math.sin(t * 0.6 + s);
   g.fillRect(mx + dx - w, y, 2 * w, Math.max(e.px, 0.003));
 }

@@ -4,7 +4,7 @@ const h = (i) => {
 };
 const t = e.t,
   S = e.state || {};
-const tr = Math.min(1, (S.waterTremble ?? 0.25) + (S.gust || 0) * 0.5);
+const tremble = Math.min(1, (S.waterTremble ?? 0.25) + (S.gust || 0) * 0.5);
 g.save();
 g.beginPath();
 g.rect(-9.5, -1, 10.6, 2);
@@ -19,11 +19,11 @@ for (let i = 0; i < 70; i++) {
   const x0 = -9 + 18 * h(i + 1);
   const yb = -0.3 * Math.pow(h(i + 2), 1.5);
   const run = Math.sin(t * (0.35 + 0.3 * h(i + 3)) + i * 1.7);
-  const y = yb + 0.015 * run * (1 + 3 * tr);
+  const y = yb + 0.015 * run * (1 + 3 * tremble);
   const len = (0.15 + 0.5 * h(i + 4)) * (1 + yb * 1.5);
   g.globalAlpha = Math.max(
     0,
-    (0.06 + 0.16 * h(i + 5)) * (0.5 + 0.5 * Math.sin(t * (0.5 + 0.6 * h(i + 6)) + i)) * (0.7 + 1.2 * tr),
+    (0.06 + 0.16 * h(i + 5)) * (0.5 + 0.5 * Math.sin(t * (0.5 + 0.6 * h(i + 6)) + i)) * (0.7 + 1.2 * tremble),
   );
   g.strokeStyle = h(i + 7) < 0.6 ? "#8298c8" : "#050913";
   g.lineWidth = 0.008 + 0.01 * h(i + 8);
@@ -32,8 +32,8 @@ for (let i = 0; i < 70; i++) {
   g.lineTo(x0 + len, y);
   g.stroke();
 }
-const lap = 0.02 * Math.sin(t * 0.6) + 0.012 * Math.sin(t * 1.37 + 1) + tr * 0.03 * Math.sin(t * 2.1);
-g.globalAlpha = 0.25 + 0.2 * tr;
+const lap = 0.02 * Math.sin(t * 0.6) + 0.012 * Math.sin(t * 1.37 + 1) + tremble * 0.03 * Math.sin(t * 2.1);
+g.globalAlpha = 0.25 + 0.2 * tremble;
 g.strokeStyle = "#8ea4d0";
 g.lineWidth = 0.008;
 g.beginPath();

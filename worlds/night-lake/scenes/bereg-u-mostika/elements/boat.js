@@ -5,11 +5,11 @@ const h = (i) => {
 const t = e.t,
   S = e.state || {};
 const gu = S.gust || 0;
-const tr = Math.min(1, (S.waterTremble ?? 0.25) + gu * 0.5);
+const tremble = Math.min(1, (S.waterTremble ?? 0.25) + gu * 0.5);
 const rs = Math.min(1, (S.ropeSway ?? 0.3) + gu * 0.6);
 const has = S.boatPresent !== false;
-const bob = 0.015 * Math.sin(t * 0.7) + 0.008 * Math.sin(t * 1.9 + 1) + tr * 0.03 * Math.sin(t * 2.3 + 0.5);
-const roll = 0.01 * Math.sin(t * 0.53 + 2) + tr * 0.025 * Math.sin(t * 1.7) + rs * 0.02 * Math.sin(t * 0.9);
+const bob = 0.015 * Math.sin(t * 0.7) + 0.008 * Math.sin(t * 1.9 + 1) + tremble * 0.03 * Math.sin(t * 2.3 + 0.5);
+const roll = 0.01 * Math.sin(t * 0.53 + 2) + tremble * 0.025 * Math.sin(t * 1.7) + rs * 0.02 * Math.sin(t * 0.9);
 const cx = -1.1 + rs * 0.06 * Math.sin(t * 0.45) + 0.02 * Math.sin(t * 0.21),
   cy = bob;
 const cr = Math.cos(roll),
@@ -61,7 +61,7 @@ if (has) {
   g.lineWidth = 0.012;
   for (let i = 0; i < 14; i++) {
     const y = 0.03 + i * 0.03;
-    const dx = Math.sin(t * 0.9 + i * 1.3) * 0.05 * (1 + 2 * tr);
+    const dx = Math.sin(t * 0.9 + i * 1.3) * 0.05 * (1 + 2 * tremble);
     g.globalAlpha = 0.35;
     g.beginPath();
     g.moveTo(cx - 1.4 + dx, y);
@@ -73,7 +73,7 @@ if (has) {
   for (let k = 0; k < 2; k++) {
     const p = (t / 6 + k / 2) % 1;
     const r = 1.45 + 0.9 * p;
-    g.globalAlpha = (1 - p) * (1 - p) * (0.06 + 0.3 * tr);
+    g.globalAlpha = (1 - p) * (1 - p) * (0.06 + 0.3 * tremble);
     g.beginPath();
     g.ellipse(cx, 0.02, r, r * 0.1, 0, 0, 6.283);
     g.stroke();
@@ -152,7 +152,7 @@ if (has) {
   g.beginPath();
   g.arc(1.24, nG(1.24) + 0.06, 0.025, 0, 6.283);
   g.stroke();
-  g.strokeStyle = "rgba(140,162,210," + (0.22 + 0.2 * tr) + ")";
+  g.strokeStyle = "rgba(140,162,210," + (0.22 + 0.2 * tremble) + ")";
   g.lineWidth = 0.01;
   line((x) => 0.035 + 0.008 * Math.sin(x * 9 + t * 1.3), -1.24, 1.1, 0.08);
   g.stroke();
@@ -208,7 +208,7 @@ if (has) {
   const p = (t / 5) % 1;
   g.strokeStyle = "#8ea4d0";
   g.lineWidth = 0.008;
-  g.globalAlpha = (1 - p) * (0.1 + 0.25 * tr);
+  g.globalAlpha = (1 - p) * (0.1 + 0.25 * tremble);
   g.beginPath();
   g.ellipse(ex, 0.06, 0.05 + 0.3 * p, (0.05 + 0.3 * p) * 0.12, 0, 0, 6.283);
   g.stroke();
