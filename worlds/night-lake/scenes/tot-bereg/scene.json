@@ -57,7 +57,7 @@
     "tracksWet": true,
     "lanternBlink": true
   },
-  "title": "Тот берег",
+  "title": "The Far Shore",
   "camera": {
     "mode": "walk",
     "walk": {
@@ -66,33 +66,33 @@
       "forward": 4
     }
   },
-  "caption": "Узкая галька, чёрные стволы и туман между ними.",
+  "caption": "A narrow strip of pebbles, black trunks and mist between them.",
   "horizon": 0.56,
   "objects": [
     {
       "id": "efe6d3de1",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "e47393851",
       "sky": true,
-      "name": "Звёзды"
+      "name": "Stars"
     },
     {
       "id": "e579d4f05",
       "sky": true,
-      "name": "Луна"
+      "name": "Moon"
     },
     {
       "id": "e837e5350",
       "sky": true,
-      "name": "Облака"
+      "name": "Clouds"
     },
     {
       "id": "e407cc991",
       "sky": true,
-      "name": "Озеро"
+      "name": "Lake"
     },
     {
       "x": 0.42,
@@ -103,7 +103,7 @@
         300,
         16
       ],
-      "name": "Глубина леса",
+      "name": "Depths of the forest",
       "color": "#111b31",
       "height": 18,
       "distance": 90
@@ -117,7 +117,7 @@
         8,
         6
       ],
-      "name": "Огонёк среди стволов",
+      "name": "A light among the trunks",
       "color": "#ffbe6a",
       "height": 0.5,
       "distance": 70,
@@ -132,7 +132,7 @@
         4,
         0.4
       ],
-      "name": "Тот, кто ждёт",
+      "name": "The one who waits",
       "color": "#080d19",
       "height": 1.75,
       "distance": 58
@@ -146,7 +146,7 @@
         170,
         4
       ],
-      "name": "Туман между деревьями",
+      "name": "Mist between the trees",
       "color": "#7a8cb9",
       "height": 12,
       "distance": 45
@@ -160,7 +160,7 @@
         100,
         5
       ],
-      "name": "Стволы в глубине",
+      "name": "Trunks deep in the forest",
       "color": "#0a1120",
       "height": 40,
       "distance": 32
@@ -174,7 +174,7 @@
         60,
         4
       ],
-      "name": "Чёрные стволы опушки",
+      "name": "Black trunks at the forest edge",
       "color": "#070c17",
       "height": 40,
       "distance": 19
@@ -188,7 +188,7 @@
         80,
         1.2
       ],
-      "name": "Туман у опушки",
+      "name": "Mist at the forest edge",
       "color": "#7a8cb9",
       "height": 3,
       "distance": 17.5
@@ -196,7 +196,7 @@
     {
       "x": 0.42,
       "id": "pebbles",
-      "name": "Полоска гальки",
+      "name": "Strip of pebbles",
       "color": "#1c2436",
       "depth": 6,
       "plane": true,
@@ -207,7 +207,7 @@
     {
       "x": 0.42,
       "id": "shoreline",
-      "name": "Кромка воды",
+      "name": "Water's edge",
       "color": "#13203c",
       "depth": 1.6,
       "plane": true,
@@ -224,7 +224,7 @@
         1.6,
         2.2
       ],
-      "name": "Камыш у воды",
+      "name": "Reeds by the water",
       "color": "#0a101c",
       "height": 1.5,
       "distance": 6

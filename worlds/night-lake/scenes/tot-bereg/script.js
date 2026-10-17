@@ -12,12 +12,12 @@ const blink = () => {
     });
     if (!told) {
       told = true;
-      scene.tell("Огонёк между стволами на миг погас, будто кто-то прошёл перед ним, и загорелся снова.");
+      scene.tell(tr('The light between the trunks went out for a moment, as if someone had passed in front of it, and came on again.'));
     }
   }
   scene.after(40 + Math.random() * 35, blink);
 };
 scene.after(20 + Math.random() * 15, blink);
 scene.on("change", "figure", (v, o) => {
-  if (v >= 0.5 && !(o >= 0.5)) scene.tell("Между стволами, левее огонька, проступила неподвижная фигура.");
+  if (v >= 0.5 && !(o >= 0.5)) scene.tell(tr('Between the trunks, left of the light, a motionless figure has appeared.'));
 });

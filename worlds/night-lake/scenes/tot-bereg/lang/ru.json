@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Far Shore","translation":"Тот берег","where":"scenes/tot-bereg/scene.json title"},
+  {"text":"A narrow strip of pebbles, black trunks and mist between them.","translation":"Узкая галька, чёрные стволы и туман между ними.","where":"scenes/tot-bereg/scene.json caption"},
+  {"text":"The light between the trunks went out for a moment, as if someone had passed in front of it, and came on again.","translation":"Огонёк между стволами на миг погас, будто кто-то прошёл перед ним, и загорелся снова.","where":"scenes/tot-bereg/script.js"},
+  {"text":"Between the trunks, left of the light, a motionless figure has appeared.","translation":"Между стволами, левее огонька, проступила неподвижная фигура.","where":"scenes/tot-bereg/script.js"}
+]}

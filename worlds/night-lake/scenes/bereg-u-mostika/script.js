@@ -17,8 +17,8 @@ scene.every(1, () => {
       lastTell = scene.time;
       scene.tell(
         scene.get("boatPresent") !== false
-          ? "Порыв ветра: камыш зашуршал, лодка дёрнула верёвку на колышке."
-          : "Порыв ветра: камыш зашуршал, по воде у кромки прошла дрожь.",
+          ? tr('A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.')
+          : tr('A gust of wind: the reeds rustled, a shiver ran over the water at the edge.'),
       );
     }
   }

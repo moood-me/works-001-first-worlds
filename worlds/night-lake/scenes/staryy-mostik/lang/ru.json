@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Old Jetty","translation":"Старый мостик","where":"scenes/staryy-mostik/scene.json title"},
+  {"text":"Black water under the boards, a boat tied up at the edge.","translation":"Под досками чёрная вода, у кромки — лодка на привязи.","where":"scenes/staryy-mostik/scene.json caption"}
+]}
