@@ -5,7 +5,7 @@
   let last = performance.now();
   const f = now => {
     const dt = Math.min(0.05, (now - last) / 1000); last = now;
-    const w = String(MooodState.get('weather') || ''), storm = /storm|шторм/.test(w), k = storm ? 0.22 : /rain|дожд/.test(w) ? 0.15 : 0;
+    const w = String(MooodState.get('weather') || ''), storm = /storm/.test(w), k = storm ? 0.22 : /rain/.test(w) ? 0.15 : 0;
     g.clearRect(0, 0, 1300, 540);
     if (k > 0) {
       const sl = storm ? 0.45 : 0.17;

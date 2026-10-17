@@ -47,22 +47,22 @@
     "bottle_state": "stuck",
     "fitil_present": true
   },
-  "title": "Камни под маяком",
+  "title": "The Rocks Below the Lighthouse",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Чёрные камни, пена — и что-то стеклянное у самой воды.",
+  "caption": "Black rocks, foam, and something glassy right at the water's edge.",
   "horizon": 0.47,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
       "id": "sea-far",
-      "name": "Море",
+      "name": "Sea",
       "color": "#0b1322",
       "depth": 4600,
       "plane": true,
@@ -73,7 +73,7 @@
     {
       "x": 0.5,
       "id": "sea",
-      "name": "Море у берега",
+      "name": "Sea by the shore",
       "color": "#0a1120",
       "depth": 300,
       "plane": true,
@@ -90,7 +90,7 @@
         45,
         120
       ],
-      "name": "Лунная дорожка",
+      "name": "Moon path",
       "height": 20,
       "distance": 250,
       "elevation": 0
@@ -104,7 +104,7 @@
         16,
         2
       ],
-      "name": "Маяк",
+      "name": "Lighthouse",
       "color": "#15171c",
       "height": 34,
       "distance": 170,
@@ -119,7 +119,7 @@
         420,
         60
       ],
-      "name": "Луч маяка",
+      "name": "Lighthouse beam",
       "height": 34,
       "distance": 170,
       "elevation": 55.2
@@ -133,7 +133,7 @@
         95,
         1
       ],
-      "name": "Мыс под маяком",
+      "name": "The cape below the lighthouse",
       "color": "#0a0c11",
       "height": 14,
       "distance": 80,
@@ -148,7 +148,7 @@
         220,
         3
       ],
-      "name": "Морская дымка",
+      "name": "Sea haze",
       "height": 8,
       "distance": 50,
       "elevation": 0
@@ -162,7 +162,7 @@
         13,
         0.6
       ],
-      "name": "Камни в море",
+      "name": "Rocks in the sea",
       "color": "#090b10",
       "height": 3.4,
       "distance": 36,
@@ -177,7 +177,7 @@
         8,
         0.6
       ],
-      "name": "Валуны у подножия",
+      "name": "Boulders at the foot",
       "color": "#090b10",
       "height": 3.6,
       "distance": 22,
@@ -192,7 +192,7 @@
         18,
         0.5
       ],
-      "name": "Склон с тропой к маяку",
+      "name": "Slope with the path to the lighthouse",
       "color": "#080a0f",
       "height": 14,
       "distance": 30,
@@ -201,7 +201,7 @@
     {
       "x": 0.5,
       "id": "shore",
-      "name": "Полоса прибоя",
+      "name": "Line of surf",
       "color": "#14161b",
       "depth": 30,
       "plane": true,
@@ -218,7 +218,7 @@
         40,
         1
       ],
-      "name": "Туман у воды",
+      "name": "Mist by the water",
       "height": 2,
       "distance": 14,
       "elevation": 0
@@ -232,7 +232,7 @@
         2.1,
         0.3
       ],
-      "name": "Камни у линии воды",
+      "name": "Stones at the waterline",
       "color": "#090b10",
       "height": 0.7,
       "distance": 9.8,
@@ -247,7 +247,7 @@
         0.45,
         0.08
       ],
-      "name": "Бутылка между камней",
+      "name": "Bottle between the rocks",
       "color": "#2c4a3c",
       "height": 0.3,
       "distance": 9.5,
@@ -262,7 +262,7 @@
         1,
         0.3
       ],
-      "name": "Камень у тропы",
+      "name": "Stone by the path",
       "color": "#090b10",
       "height": 0.75,
       "distance": 7,
@@ -277,7 +277,7 @@
         0.3,
         0.05
       ],
-      "name": "Кот Фитиль",
+      "name": "Wick the cat",
       "color": "#0a0b0e",
       "height": 0.3,
       "distance": 6.9,
@@ -292,7 +292,7 @@
         0.5,
         0.08
       ],
-      "name": "Бутылка у ног",
+      "name": "Bottle at your feet",
       "color": "#2c4a3c",
       "height": 0.3,
       "distance": 6.2,
@@ -307,7 +307,7 @@
         2.2,
         0.3
       ],
-      "name": "Валун у ног",
+      "name": "Boulder at your feet",
       "color": "#07090d",
       "height": 1.3,
       "distance": 4.2,
@@ -322,7 +322,7 @@
         0.6,
         0.65
       ],
-      "name": "Бутылка в руках",
+      "name": "Bottle in hands",
       "color": "#2c4a3c",
       "height": 0.4,
       "distance": 0.8,
@@ -334,7 +334,7 @@
       "x": 0.5,
       "y": 0.5,
       "id": "rain",
-      "name": "Дождь",
+      "name": "Rain",
       "width": 2600,
       "height": 1080
     }
@@ -343,12 +343,12 @@
     {
       "at": 2,
       "for": 8,
-      "text": "Внизу, у камней, холоднее. Соль оседает на губах."
+      "text": "Down by the rocks it's colder. Salt settles on your lips."
     },
     {
       "at": 12,
       "for": 8,
-      "text": "Когда проходит луч, у самой воды вспыхивает зелёное стекло."
+      "text": "When the beam passes, green glass flashes right at the water's edge."
     }
   ]
 }

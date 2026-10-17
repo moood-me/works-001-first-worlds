@@ -1,13 +1,13 @@
 const S = e.state,
   str = (v) => String(v == null ? "" : v),
   W = str(S.weather),
-  windy = /wind|ветер|ветр|storm|шторм/.test(W),
-  rain = /rain|дожд|storm|шторм/.test(W),
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(str(S.beam_pass)),
+  windy = /wind|storm/.test(W),
+  rain = /rain|storm/.test(W),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(str(S.beam_pass)),
   sweep = bp ? Math.pow(Math.abs(Math.cos(e.t * 0.3)), 10) : 0,
   t = e.t;
 const N = str(S.note_state),
-  ns = /read|чита|строк/.test(N) ? 2 : /unroll|open|развер|развёр|разворач/.test(N) ? 1 : 0,
+  ns = /read/.test(N) ? 2 : /unroll|open/.test(N) ? 1 : 0,
   wf = windy ? 1 : 0.35,
   rim = (a) => "rgba(175,190,222," + a + ")";
 g.translate(

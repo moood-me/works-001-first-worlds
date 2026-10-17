@@ -1,22 +1,22 @@
 const str = (v) => String(v == null ? "" : v);
 const ns = () => {
   const n = str(scene.get("note_state"));
-  return /read|чита|строк/.test(n) ? 2 : /unroll|open|развер|развёр|разворач/.test(n) ? 1 : 0;
+  return /read/.test(n) ? 2 : /unroll|open/.test(n) ? 1 : 0;
 };
 const bs = () => {
   const b = str(scene.get("bottle_state"));
-  return /broke|разб/.test(b) ? 2 : /slip|выскольз|скатил|упал/.test(b) ? 1 : 0;
+  return /broke/.test(b) ? 2 : /slip/.test(b) ? 1 : 0;
 };
 const surf = () =>
-  /strong|surf|сильн|прибой|storm|шторм/.test(str(scene.get("tide"))) || /storm|шторм/.test(str(scene.get("weather")));
-const rain = () => /rain|дожд|storm|шторм/.test(str(scene.get("weather")));
+  /strong|surf|storm/.test(str(scene.get("tide"))) || /storm/.test(str(scene.get("weather")));
+const rain = () => /rain|storm/.test(str(scene.get("weather")));
 const beamOn = () => {
   const b = scene.get("beam_pass");
-  return b !== false && !/нет|^no|off|false/i.test(str(b));
+  return b !== false && !/^no|off|false/i.test(str(b));
 };
 const catHere = () => {
   const c = scene.get("fitil_present");
-  return c !== false && !/нет|^no|false/i.test(str(c));
+  return c !== false && !/^no|false/i.test(str(c));
 };
 // strong tide: waves wash over the stone and take the bottle
 let wash = 0;
@@ -29,12 +29,12 @@ scene.every(5, () => {
   if (bs() === 0 && wash >= 30) {
     wash = 0;
     scene.set("bottle_state", "slipped");
-    scene.tell("Волна перехлестнула через камень — бутылка выскользнула и застряла в щели между камнями.");
+    scene.tell(tr('A wave broke over the stone; the bottle slipped off and got stuck in a crack between the rocks.'));
   } else if (bs() === 1 && wash >= 25) {
     wash = 0;
     scene.set("bottle_state", "broken");
     scene.tell(
-      "Следующая волна выдернула бутылку из щели — стекло лопнуло о камень. Осколки блестят на мокром граните.",
+      tr('The next wave tore the bottle out of the crack; the glass burst against the stone. Shards glitter on the wet granite.'),
     );
   }
 });
@@ -45,7 +45,7 @@ scene.every(6, () => {
     wet += 6;
     if (wet >= 24 && !scene.get("ink_told")) {
       scene.set("ink_told", true);
-      scene.tell("Дождь падает на развёрнутую бумагу — нижние строки начинают расплываться.");
+      scene.tell(tr('Rain is falling on the unrolled paper; the lower lines are starting to run.'));
     }
   } else wet = 0;
 });
@@ -53,7 +53,7 @@ scene.every(6, () => {
 scene.every(10.5, () => {
   if (ns() === 2 && beamOn() && !scene.get("beam_read_told")) {
     scene.set("beam_read_told", true);
-    scene.tell("Луч маяка на миг лёг на лист — первые строки стали видны ясно, чернила блеснули.");
+    scene.tell(tr('For a moment the lighthouse beam lay on the sheet: the first lines showed clearly, the ink glistened.'));
   }
 });
 scene.on("click", (id) => {
@@ -61,20 +61,20 @@ scene.on("click", (id) => {
   if (id === "scroll") {
     if (n === 0) {
       scene.set("note_state", "unrolling");
-      scene.tell("Игрок поддел ногтем сургуч — печать треснула, нитка ослабла, свиток начал разворачиваться.");
+      scene.tell(tr('The player prised the wax up with a fingernail: the seal cracked, the thread loosened, the scroll began to unroll.'));
     } else if (n === 1) {
       scene.set("note_state", "reading");
-      scene.tell("Игрок развернул лист до конца. Бумага мокрая, но первые строки читаются.");
-    } else scene.tell("Игрок наклоняет лист к лунному свету, вглядывается в строки.");
+      scene.tell(tr('The player has unrolled the sheet all the way. The paper is wet, but the first lines can be read.'));
+    } else scene.tell(tr('The player tilts the sheet to the moonlight, peering at the lines.'));
   } else if (id === "bottle") {
     const b = bs();
     scene.tell(
       b === 0
-        ? "Игрок касается бутылки на камне — внутри ещё что-то перекатывается? Нет, только вода."
+        ? tr('The player touches the bottle on the stone: is something still rolling about inside? No, only water.')
         : b === 1
-          ? "Игрок тянется к бутылке в щели — пальцы скользят по мокрому стеклу."
-          : "Игрок смотрит на осколки — зелёное стекло, горлышко с сургучом.",
+          ? tr('The player reaches for the bottle in the crack: fingers slide on the wet glass.')
+          : tr('The player looks at the shards: green glass, the neck with its sealing wax.'),
     );
   } else if (id === "fitil" && catHere())
-    scene.tell("Фитиль не смотрит на бутылку — он смотрит на свиток. Кончик хвоста подрагивает.");
+    scene.tell(tr('Wick isn\'t looking at the bottle; he\'s looking at the scroll. The tip of his tail twitches.'));
 });

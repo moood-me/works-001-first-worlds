@@ -7,12 +7,12 @@ const fmt = (m) => {
   return String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0");
 };
 const WATCHES = [
-  [mins("20:00"), "Первая вахта · лампа"],
-  [mins("22:00"), "Вторая вахта · линза"],
-  [mins("00:00"), "Полночь · погода"],
-  [mins("00:30"), "Ночная вахта · сигнал"],
-  [mins("02:00"), "Глухая вахта"],
-  [mins("04:00"), "Перед рассветом · строка"],
+  [mins("20:00"), "first"],
+  [mins("22:00"), "second"],
+  [mins("00:00"), "midnight"],
+  [mins("00:30"), "night"],
+  [mins("02:00"), "graveyard"],
+  [mins("04:00"), "before-dawn"],
 ];
 const follow = (t) => {
   const m = mins(t);
@@ -21,7 +21,7 @@ const follow = (t) => {
   // from four the sky starts to pale; by six it is morning
   const dawn = Math.max(0, Math.min(1, (m - mins("04:00")) / 120));
   if (dawn > (scene.get("dawn") || 0)) scene.set("dawn", dawn, 4);
-  // the «Кречет» rounds the cape at half past midnight and is gone in forty minutes
+  // the Krechet rounds the cape at half past midnight and is gone in forty minutes
   if (m >= mins("00:30") && !(scene.get("krechet") > 0)) scene.set("krechet", 1, Math.max(20, (mins("01:10") - m) * 2));
 };
 follow(scene.get("time"));

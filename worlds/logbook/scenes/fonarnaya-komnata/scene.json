@@ -52,7 +52,7 @@
     "line": null,
     "rain": 0.4,
     "time": "20:10",
-    "watch": "Первая вахта · лампа",
+    "watch": "first",
     "signal": null,
     "krechet": 0,
     "shutter": 0,
@@ -63,22 +63,22 @@
     "keeper_present": true,
     "krechet_answer": null
   },
-  "title": "Фонарная комната",
+  "title": "The Lantern Room",
   "camera": {
     "mode": "diorama"
   },
-  "caption": "Наверху, под стеклом: лампа, линза, журнал — и море во все стороны.",
+  "caption": "Up top, under glass: the lamp, the lens, the logbook, and the sea on every side.",
   "horizon": 0.52,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
       "id": "sea-far",
-      "name": "Море",
+      "name": "Sea",
       "color": "#0b1322",
       "depth": 4600,
       "plane": true,
@@ -95,7 +95,7 @@
         3100,
         1000
       ],
-      "name": "Рассвет на воде",
+      "name": "Dawn on the water",
       "height": 80,
       "distance": 2500,
       "elevation": -31
@@ -103,7 +103,7 @@
     {
       "x": 0.5,
       "id": "sea",
-      "name": "Море под маяком",
+      "name": "Sea below the lighthouse",
       "color": "#0a1120",
       "depth": 600,
       "plane": true,
@@ -120,7 +120,7 @@
         210,
         510
       ],
-      "name": "Лунная дорожка",
+      "name": "Moon path",
       "height": 60,
       "distance": 2500,
       "elevation": -31
@@ -134,7 +134,7 @@
         270,
         40
       ],
-      "name": "«Кречет»",
+      "name": "The Krechet",
       "color": "#06080c",
       "height": 12,
       "distance": 1500,
@@ -149,7 +149,7 @@
         480,
         45
       ],
-      "name": "Луч над морем",
+      "name": "Beam over the sea",
       "height": 20,
       "distance": 60,
       "elevation": 1.65
@@ -163,7 +163,7 @@
         13,
         9
       ],
-      "name": "Остекление фонаря",
+      "name": "Lantern glazing",
       "color": "#120d0a",
       "height": 3.4,
       "distance": 5.2,
@@ -178,7 +178,7 @@
         0.3,
         0.3
       ],
-      "name": "Кот Фитиль",
+      "name": "Wick the cat",
       "color": "#100c09",
       "height": 0.34,
       "distance": 5,
@@ -193,7 +193,7 @@
         1.2,
         0.15
       ],
-      "name": "Савелий Андреич, смотритель",
+      "name": "Savely Andreich, the keeper",
       "color": "#15100c",
       "height": 1.78,
       "distance": 4
@@ -201,7 +201,7 @@
     {
       "x": 0.64,
       "id": "floor",
-      "name": "Пол фонарной",
+      "name": "Lantern room floor",
       "color": "#16100b",
       "depth": 5.8,
       "plane": true,
@@ -218,7 +218,7 @@
         1,
         0.3
       ],
-      "name": "Линза Френеля и лампа",
+      "name": "Fresnel lens and lamp",
       "color": "#b08a4a",
       "height": 2.5,
       "distance": 2.4,
@@ -233,7 +233,7 @@
         0.8,
         0.2
       ],
-      "name": "Пылинки в свете",
+      "name": "Dust motes in the light",
       "height": 1.3,
       "distance": 2.2,
       "elevation": 1
@@ -247,7 +247,7 @@
         0.6,
         0.1
       ],
-      "name": "Столик",
+      "name": "Little table",
       "color": "#140c07",
       "height": 0.8,
       "distance": 2.2
@@ -255,7 +255,7 @@
     {
       "x": 0.17,
       "id": "table",
-      "name": "Столик с вахтенным журналом",
+      "name": "Little table with the logbook",
       "color": "#24170d",
       "depth": 0.6,
       "plane": true,
@@ -269,7 +269,7 @@
       "x": 0.02,
       "y": 0.03,
       "id": "watch",
-      "name": "Вахта",
+      "name": "Watch",
       "width": 360,
       "anchor": "top-left",
       "height": 70
@@ -278,7 +278,7 @@
       "x": 0.02,
       "y": 0.12,
       "id": "journal",
-      "name": "Вахтенный журнал",
+      "name": "Logbook",
       "width": 560,
       "anchor": "top-left",
       "height": 760
@@ -288,17 +288,17 @@
     {
       "at": 1,
       "for": 8,
-      "text": "Последние ступени — и люк выпускает тебя прямо в свет. Тесно, тепло, стекло со всех сторон."
+      "text": "The last steps, and the hatch lets you out straight into the light. Cramped, warm, glass on every side."
     },
     {
       "at": 10,
       "for": 8,
-      "text": "Линза поворачивается беззвучно. Внизу, в чугунной тумбе, тикает механизм, как старые часы."
+      "text": "The lens turns without a sound. Below, in the cast-iron pedestal, the mechanism ticks like an old clock."
     },
     {
       "at": 19,
       "for": 9,
-      "text": "Пахнет керосином и солью. Весной сюда поставят автомат — он не коптит и не ждёт."
+      "text": "It smells of paraffin and salt. In spring they'll put in an automatic light: it doesn't smoke and doesn't wait."
     }
   ]
 }

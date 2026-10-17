@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"The Shore Below the Lighthouse","translation":"Берег под маяком","where":"scenes/bereg-pod-mayakom/scene.json title"},
+  {"text":"Wet stones, surf, the moon path. Up above, on the left, the beam goes round.","translation":"Мокрые камни, прибой, лунная дорожка. Наверху, слева, ходит луч.","where":"scenes/bereg-pod-mayakom/scene.json caption"},
+  {"text":"Shore","translation":"Берег","where":"scenes/bereg-pod-mayakom/widgets/clock.html"}
+]}

@@ -7,12 +7,12 @@ const fmt = (m) => {
   return String(Math.floor(m / 60)).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0");
 };
 const WATCHES = [
-  [mins("20:00"), "Первая вахта · лампа"],
-  [mins("22:00"), "Вторая вахта · линза"],
-  [mins("00:00"), "Полночь · погода"],
-  [mins("00:30"), "Ночная вахта · сигнал"],
-  [mins("02:00"), "Глухая вахта"],
-  [mins("04:00"), "Перед рассветом · строка"],
+  [mins("20:00"), "first"],
+  [mins("22:00"), "second"],
+  [mins("00:00"), "midnight"],
+  [mins("00:30"), "night"],
+  [mins("02:00"), "graveyard"],
+  [mins("04:00"), "before-dawn"],
 ];
 const follow = (t) => {
   const m = mins(t);
@@ -22,7 +22,7 @@ const follow = (t) => {
   if (dawn > (scene.get("dawn") || 0)) scene.set("dawn", dawn, 4);
   if (m >= mins("00:30") && !(scene.get("krechet") > 0)) {
     scene.set("krechet", 1, Math.max(20, (mins("01:10") - m) * 2));
-    scene.tell("Справа, за стеклом, из-за мыса вышли огни «Кречета».");
+    scene.tell(tr('On the right, beyond the glass, the lights of the Krechet have come out from behind the cape.'));
   }
 };
 follow(scene.get("time"));
@@ -37,7 +37,7 @@ scene.every(45, () => {
   if (l <= 0.3) return;
   const n = Math.max(0.3, l - 0.02);
   scene.set("lamp", n, 6);
-  if (l >= 0.35 && n < 0.35) scene.tell("Лампа коптит и тускнеет — фитиль пора подрезать.");
+  if (l >= 0.35 && n < 0.35) scene.tell(tr('The lamp is smoking and dimming: the wick needs trimming.'));
 });
 // a signal is beaten out with the blind in front of the flame
 if (scene.get("shutter")) scene.set("shutter", 0);
@@ -54,5 +54,5 @@ scene.on("change", "signal", (v) => {
     t += 0.55;
   }
   scene.after(t + 0.3, () => scene.set("shutter", 0, 0.8));
-  scene.after(t + 1, () => scene.tell("Свет отбил знак: " + v));
+  scene.after(t + 1, () => scene.tell(tr('The light beat out a sign: {sign}', { sign: v })));
 });

@@ -1,11 +1,11 @@
 const S = e.state,
   str = (v) => String(v == null ? "" : v),
   W = str(S.weather),
-  surf = /strong|surf|сильн|прибой|storm|шторм/.test(str(S.tide)) || /storm|шторм/.test(W),
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(str(S.beam_pass)),
+  surf = /strong|surf|storm/.test(str(S.tide)) || /storm/.test(W),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(str(S.beam_pass)),
   sweep = bp ? Math.pow(Math.abs(Math.cos(e.t * 0.3)), 10) : 0;
 const B = str(S.bottle_state),
-  bs = /broke|разб/.test(B) ? 2 : /slip|выскольз|скатил|упал/.test(B) ? 1 : 0,
+  bs = /broke/.test(B) ? 2 : /slip/.test(B) ? 1 : 0,
   gl = 0.3 + 0.7 * sweep;
 const body = () => {
   g.beginPath();

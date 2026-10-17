@@ -1,5 +1,5 @@
 const W = String(e.state.weather || "");
-if (!/fog|туман/.test(W)) return;
+if (!/fog/.test(W)) return;
 for (let i = 0; i < 12; i++) {
   const r1 = e.rnd(),
     r2 = e.rnd(),

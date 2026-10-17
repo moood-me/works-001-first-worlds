@@ -1,7 +1,7 @@
 const S = e.state,
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(String(S.beam_pass)),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(String(S.beam_pass)),
   sweep = bp ? Math.pow(Math.abs(Math.cos(e.t * 0.3)), 10) : 0;
-if (!/hand|рук/.test(String(S.bottle_state || ""))) return;
+if (!/hand/.test(String(S.bottle_state || ""))) return;
 const bottle = (gl) => {
   g.beginPath();
   g.moveTo(-0.04, 0);

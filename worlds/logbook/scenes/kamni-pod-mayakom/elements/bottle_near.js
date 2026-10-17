@@ -1,6 +1,6 @@
 const S = e.state,
   W = String(S.weather || ""),
-  surf = /surf|сильн|прибой|storm|шторм/.test(String(S.tide || "")) || /storm|шторм/.test(W),
+  surf = /surf|storm/.test(String(S.tide || "")) || /storm/.test(W),
   T = surf ? 5.5 : 8,
   n = Math.floor(e.t / T),
   p = e.t / T - n,
@@ -8,12 +8,12 @@ const S = e.state,
   R = surf ? 5 : 3.6,
   s = p < 0.3 ? Math.sin(((p / 0.3) * Math.PI) / 2) : Math.pow(Math.cos((((p - 0.3) / 0.7) * Math.PI) / 2), 1.5),
   run = R * amp * s,
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(String(S.beam_pass)),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(String(S.beam_pass)),
   ba = e.t * 0.3,
   sweep = bp ? Math.pow(Math.abs(Math.cos(ba)), 10) : 0;
 const B = String(S.bottle_state || "stuck"),
-  broken = /broke|разб/.test(B),
-  closer = !broken && /clos|ближ|подпл/.test(B);
+  broken = /broke/.test(B),
+  closer = !broken && /clos/.test(B);
 if (!(closer || (broken && S.broken_at === "near"))) return;
 const bottle = (gl) => {
   g.beginPath();

@@ -1,8 +1,8 @@
 const A = e.aspect,
   hz = 0.32,
   W = String(e.state.weather || ""),
-  fog = /fog|туман/.test(W),
-  rain = /rain|дожд|storm|шторм/.test(W);
+  fog = /fog/.test(W),
+  rain = /rain|storm/.test(W);
 let gr = g.createLinearGradient(0, -0.35, 0, hz);
 gr.addColorStop(0, "#02040b");
 gr.addColorStop(0.5, "#070c1a");

@@ -88,7 +88,7 @@
     "line": null,
     "rain": 0.4,
     "time": "00:40",
-    "watch": "Ночная вахта · сигнал",
+    "watch": "night",
     "signal": null,
     "krechet": 0.3,
     "shutter": 0,
@@ -99,22 +99,22 @@
     "keeper_present": true,
     "krechet_answer": null
   },
-  "title": "Фонарная",
+  "title": "The Lantern",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Под куполом маяка: линза, лампа, мокрые стёкла — и огни «Кречета» справа в море.",
+  "caption": "Under the lighthouse dome: the lens, the lamp, wet panes, and the lights of the Krechet out at sea on the right.",
   "horizon": 0.46,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
       "id": "sea-far",
-      "name": "Море",
+      "name": "Sea",
       "color": "#0b1322",
       "depth": 4600,
       "plane": true,
@@ -125,7 +125,7 @@
     {
       "x": 0.5,
       "id": "sea",
-      "name": "Море под маяком",
+      "name": "Sea below the lighthouse",
       "color": "#0a1120",
       "depth": 300,
       "plane": true,
@@ -142,7 +142,7 @@
         360,
         960
       ],
-      "name": "Лунная дорожка",
+      "name": "Moon path",
       "height": 160,
       "distance": 2000,
       "elevation": -30
@@ -155,7 +155,7 @@
         22,
         4
       ],
-      "name": "Дождь за стеклом",
+      "name": "Rain beyond the glass",
       "across": 0,
       "height": 12,
       "distance": 9
@@ -168,7 +168,7 @@
         320,
         60
       ],
-      "name": "«Кречет»",
+      "name": "The Krechet",
       "color": "#06080d",
       "across": 420,
       "height": 25,
@@ -183,7 +183,7 @@
         16,
         10
       ],
-      "name": "Фонарная: стёкла, парапет, купол",
+      "name": "The lantern: panes, gallery rail, dome",
       "color": "#0f0d0c",
       "across": 0,
       "height": 3.4,
@@ -191,7 +191,7 @@
     },
     {
       "id": "floor",
-      "name": "Чугунный пол",
+      "name": "Cast-iron floor",
       "color": "#16120f",
       "depth": 5.2,
       "plane": true,
@@ -208,7 +208,7 @@
         3,
         0.3
       ],
-      "name": "Линза Френеля и керосиновая лампа",
+      "name": "Fresnel lens and paraffin lamp",
       "color": "#c8964f",
       "across": -0.25,
       "height": 2.9,
@@ -223,7 +223,7 @@
         14,
         6
       ],
-      "name": "Лучи линзы",
+      "name": "Lens beams",
       "across": -0.25,
       "height": 3,
       "distance": 2.595
@@ -236,7 +236,7 @@
         1.6,
         1.5
       ],
-      "name": "Савелий Андреич, смотритель",
+      "name": "Savely Andreich, the keeper",
       "color": "#15110e",
       "across": 0.6,
       "height": 1.8,
@@ -250,7 +250,7 @@
         0.25,
         0.35
       ],
-      "name": "Кот Фитиль",
+      "name": "Wick the cat",
       "color": "#121011",
       "across": -1.92,
       "height": 0.36,
@@ -259,7 +259,7 @@
     },
     {
       "id": "table",
-      "name": "Столик с вахтенным журналом",
+      "name": "Little table with the logbook",
       "color": "#2b1f16",
       "depth": 0.56,
       "plane": true,
@@ -276,7 +276,7 @@
         0.45,
         0.05
       ],
-      "name": "Ножки столика",
+      "name": "Table legs",
       "color": "#1b130d",
       "across": 0.95,
       "height": 0.75,
@@ -288,7 +288,7 @@
       "x": 0.02,
       "y": 0.03,
       "id": "watch",
-      "name": "Вахта",
+      "name": "Watch",
       "width": 360,
       "anchor": "top-left",
       "height": 70
@@ -297,7 +297,7 @@
       "x": 0.02,
       "y": 0.12,
       "id": "journal",
-      "name": "Вахтенный журнал",
+      "name": "Logbook",
       "width": 560,
       "anchor": "top-left",
       "height": 760

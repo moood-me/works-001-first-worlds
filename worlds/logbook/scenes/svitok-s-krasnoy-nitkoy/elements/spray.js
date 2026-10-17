@@ -1,8 +1,8 @@
 const S = e.state,
   str = (v) => String(v == null ? "" : v),
   W = str(S.weather),
-  windy = /wind|ветер|ветр|storm|шторм/.test(W),
-  surf = /strong|surf|сильн|прибой|storm|шторм/.test(str(S.tide)) || /storm|шторм/.test(W);
+  windy = /wind|storm/.test(W),
+  surf = /strong|surf|storm/.test(str(S.tide)) || /storm/.test(W);
 const T = surf ? 5.5 : 8,
   n = Math.floor(e.t / T),
   p = e.t / T - n,

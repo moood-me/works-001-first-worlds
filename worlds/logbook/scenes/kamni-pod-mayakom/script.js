@@ -1,27 +1,27 @@
 const str = (v) => String(v == null ? "" : v);
 const isSurf = () =>
-  /surf|сильн|прибой|storm|шторм/.test(str(scene.get("tide"))) || /storm|шторм/.test(str(scene.get("weather")));
+  /surf|storm/.test(str(scene.get("tide"))) || /storm/.test(str(scene.get("weather")));
 const beamOn = () => {
   const b = scene.get("beam_pass");
-  return b !== false && !/нет|^no|off|false/i.test(str(b));
+  return b !== false && !/^no|off|false/i.test(str(b));
 };
 const catHere = () => {
   const c = scene.get("fitil_present");
-  return c !== false && !/нет|^no|false/i.test(str(c));
+  return c !== false && !/^no|false/i.test(str(c));
 };
 const where = () => {
   const b = str(scene.get("bottle_state"));
-  return /broke|разб/.test(b)
+  return /broke/.test(b)
     ? "broken"
-    : /hand|рук/.test(b)
+    : /hand/.test(b)
       ? "hands"
-      : /clos|ближ|подпл/.test(b)
+      : /clos/.test(b)
         ? "closer"
         : "stuck";
 };
 // a broken bottle lies where it was last: among the rocks, or at the player's feet
 scene.on("change", "bottle_state", (v, old) => {
-  if (/broke|разб/.test(str(v))) scene.set("broken_at", /clos|ближ|подпл|hand|рук/.test(str(old)) ? "near" : "rocks");
+  if (/broke/.test(str(v))) scene.set("broken_at", /clos|hand/.test(str(old)) ? "near" : "rocks");
 });
 // strong surf works the bottle loose from the stones
 let pull = 0;
@@ -31,7 +31,7 @@ scene.every(5, () => {
     if (pull >= 45) {
       pull = 0;
       scene.set("bottle_state", "closer");
-      scene.tell("Сильный прибой выбил бутылку из камней — волна подкатила её почти к ногам.");
+      scene.tell(tr('The heavy surf knocked the bottle out of the rocks; a wave rolled it almost to your feet.'));
     }
   } else pull = 0;
 });
@@ -41,19 +41,19 @@ scene.every(10.5, () => {
   const w = where();
   if (w === "stuck" || w === "closer") {
     scene.set("glint_told", true);
-    scene.tell("Луч маяка прошёл по берегу — у самой воды, между камней, вспыхнуло зелёное стекло.");
+    scene.tell(tr('The lighthouse beam swept the shore; right at the water, between the rocks, green glass flashed.'));
   }
 });
 scene.on("click", (id) => {
   const w = where();
   if (id === "bottle" && w === "stuck")
-    scene.tell("Игрок тянется к бутылке между камней — ледяная вода, пена по щиколотку.");
+    scene.tell(tr('The player reaches for the bottle between the rocks: icy water, foam up to the ankles.'));
   else if (id === "bottle_near" && w === "closer") {
     scene.set("bottle_state", "in_hands");
-    scene.tell("Игрок поднял бутылку из пены. Внутри — свёрнутая записка с красной ниткой; горлышко залито сургучом.");
+    scene.tell(tr('The player has picked the bottle out of the foam. Inside, a rolled-up note tied with red thread; the neck is sealed with wax.'));
   } else if ((id === "bottle" || id === "bottle_near") && w === "broken")
-    scene.tell("Игрок наклоняется к осколкам — записка намокла, но ещё держится.");
+    scene.tell(tr('The player bends over the shards: the note is soaked, but still holding together.'));
   else if (id === "bottle_hands" && w === "hands")
-    scene.tell("Игрок вертит бутылку в руках, разглядывает записку сквозь мокрое стекло.");
-  else if (id === "fitil" && catHere()) scene.tell("Фитиль не сводит глаз с бутылки; уши прижаты от ветра.");
+    scene.tell(tr('The player turns the bottle over in their hands, peering at the note through the wet glass.'));
+  else if (id === "fitil" && catHere()) scene.tell(tr('Wick doesn\'t take his eyes off the bottle; his ears are flattened against the wind.'));
 });

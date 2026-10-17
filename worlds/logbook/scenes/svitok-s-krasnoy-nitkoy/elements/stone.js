@@ -1,9 +1,9 @@
 const S = e.state,
   str = (v) => String(v == null ? "" : v),
   W = str(S.weather),
-  rain = /rain|дожд|storm|шторм/.test(W),
-  surf = /strong|surf|сильн|прибой|storm|шторм/.test(str(S.tide)) || /storm|шторм/.test(W),
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(str(S.beam_pass)),
+  rain = /rain|storm/.test(W),
+  surf = /strong|surf|storm/.test(str(S.tide)) || /storm/.test(W),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(str(S.beam_pass)),
   ba = e.t * 0.3,
   sweep = bp ? Math.pow(Math.abs(Math.cos(ba)), 10) : 0;
 const edge = [];

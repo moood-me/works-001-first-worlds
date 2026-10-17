@@ -1,5 +1,5 @@
 const W = String(e.state.weather || ""),
-  fog = /fog|туман/.test(W),
+  fog = /fog/.test(W),
   k = fog ? 1 : 0.35;
 for (let i = 0; i < 16; i++) {
   const r1 = e.rnd(),

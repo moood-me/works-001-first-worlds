@@ -1,1 +1,1 @@
-scene.on("click", () => scene.tell("Игрок гладит Фитиля. Кот жмурится, но от стекла не отворачивается."));
+scene.on("click", () => scene.tell(tr('The player strokes Wick. The cat squints, but doesn\'t turn away from the glass.')));

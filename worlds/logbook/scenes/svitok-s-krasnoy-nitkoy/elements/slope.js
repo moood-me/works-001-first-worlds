@@ -1,5 +1,5 @@
 const W = String(e.state.weather || ""),
-  wind = /wind|ветер|ветр|storm|шторм/.test(W) ? 1 : 0.4;
+  wind = /wind|storm/.test(W) ? 1 : 0.4;
 const P = [
   [16, 0.3],
   [10, -0.8],

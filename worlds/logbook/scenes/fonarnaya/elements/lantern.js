@@ -28,7 +28,7 @@ const mc = (a, b, k) =>
   "rgb(" + a.map((v, i) => Math.round(v + (b[i] - v) * Math.min(1, Math.max(0, k)))).join(",") + ")";
 const F = [];
 for (let k = -5; k <= 4; k++) F.push(((15 + 30 * k) * Math.PI) / 180);
-// where the «Кречет»'s searchlight shows on the glass
+// where the Krechet's searchlight shows on the glass
 const kk = st.krechet || 0,
   on = kk > 0.001 && kk < 0.999;
 const sx = 419 + 150 - 500 * kk,

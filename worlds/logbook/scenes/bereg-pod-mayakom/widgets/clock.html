@@ -1,4 +1,4 @@
-<div style="font:14px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#e9dcc0;opacity:.85;text-shadow:0 1px 4px #000,0 0 12px #000">Берег<b id="t" style="display:block;font:italic 22px Georgia,serif;letter-spacing:0;text-transform:none;font-weight:normal"></b></div>
+<div style="font:14px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#e9dcc0;opacity:.85;text-shadow:0 1px 4px #000,0 0 12px #000">Shore<b id="t" style="display:block;font:italic 22px Georgia,serif;letter-spacing:0;text-transform:none;font-weight:normal"></b></div>
 <script>
   const show = () => { root.getElementById('t').textContent = MooodState.get('time') || ''; };
   MooodState.on('load', show); MooodState.on('change', show); show();

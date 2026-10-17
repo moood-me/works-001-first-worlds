@@ -1,12 +1,12 @@
 const S = e.state,
   W = String(S.weather || ""),
-  windy = /wind|ветер|ветр|storm|шторм/.test(W),
-  surf = /strong|surf|сильн|прибой|storm|шторм/.test(String(S.tide || "")) || /storm|шторм/.test(W),
+  windy = /wind|storm/.test(W),
+  surf = /strong|surf|storm/.test(String(S.tide || "")) || /storm/.test(W),
   T = surf ? 5.5 : 8,
   n = Math.floor(e.t / T),
   p = e.t / T - n,
   amp = 0.72 + 0.28 * Math.sin(n * 2.39 + 0.7),
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(String(S.beam_pass)),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(String(S.beam_pass)),
   ba = e.t * 0.3,
   sweep = bp ? Math.pow(Math.abs(Math.cos(ba)), 10) : 0;
 const rock = (cx, w, h, lean) => {

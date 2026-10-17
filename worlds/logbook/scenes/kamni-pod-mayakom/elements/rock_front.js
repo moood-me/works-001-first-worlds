@@ -1,5 +1,5 @@
 const S = e.state,
-  bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(String(S.beam_pass)),
+  bp = S.beam_pass !== false && !/^no|off|false/i.test(String(S.beam_pass)),
   ba = e.t * 0.3,
   sweep = bp ? Math.pow(Math.abs(Math.cos(ba)), 10) : 0;
 const rock = (cx, w, h, lean) => {

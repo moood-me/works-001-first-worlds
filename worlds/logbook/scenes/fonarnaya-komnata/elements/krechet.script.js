@@ -18,8 +18,8 @@ scene.on("change", "signal", (v) => {
     scene.set("krechet_answer", his ? "· · · —" : "· ·");
     scene.tell(
       his
-        ? "«Кречет» ответил прожектором: три коротких, один длинный — «вижу тебя»."
-        : "«Кречет» ответил двумя короткими: «вижу».",
+        ? tr('The Krechet answered with its searchlight: three short, one long, “I see you”.')
+        : tr('The Krechet answered with two short: “I see.”'),
     );
   });
 });

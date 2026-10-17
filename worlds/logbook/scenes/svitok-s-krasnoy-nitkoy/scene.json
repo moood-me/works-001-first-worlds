@@ -49,22 +49,22 @@
     "fitil_present": true,
     "beam_read_told": false
   },
-  "title": "Свиток с красной ниткой",
+  "title": "The Scroll with the Red Thread",
   "camera": {
     "mode": "diorama"
   },
-  "caption": "Соль на пальцах, тяжёлая мокрая бумага — и луч снова идёт по склону.",
+  "caption": "Salt on your fingers, heavy wet paper, and the beam going over the slope again.",
   "horizon": 0.32,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
       "id": "sea-far",
-      "name": "Море",
+      "name": "Sea",
       "color": "#0b1322",
       "depth": 4600,
       "plane": true,
@@ -75,7 +75,7 @@
     {
       "x": 0.5,
       "id": "sea",
-      "name": "Море у берега",
+      "name": "Sea by the shore",
       "color": "#0a1120",
       "depth": 300,
       "plane": true,
@@ -92,7 +92,7 @@
         45,
         120
       ],
-      "name": "Лунная дорожка",
+      "name": "Moon path",
       "height": 20,
       "distance": 250,
       "elevation": 0
@@ -106,7 +106,7 @@
         95,
         1
       ],
-      "name": "Мыс под маяком",
+      "name": "The cape below the lighthouse",
       "color": "#0a0c11",
       "height": 14,
       "distance": 262,
@@ -121,7 +121,7 @@
         16,
         2
       ],
-      "name": "Маяк",
+      "name": "Lighthouse",
       "color": "#15171c",
       "height": 34,
       "distance": 260,
@@ -136,7 +136,7 @@
         420,
         60
       ],
-      "name": "Луч маяка",
+      "name": "Lighthouse beam",
       "height": 34,
       "distance": 259,
       "elevation": 44.2
@@ -150,7 +150,7 @@
         220,
         3
       ],
-      "name": "Морская дымка",
+      "name": "Sea haze",
       "height": 8,
       "distance": 50,
       "elevation": 0
@@ -164,7 +164,7 @@
         18,
         0.5
       ],
-      "name": "Склон с тропой к маяку",
+      "name": "Slope with the path to the lighthouse",
       "color": "#080a0f",
       "height": 14,
       "distance": 60,
@@ -179,7 +179,7 @@
         13,
         0.6
       ],
-      "name": "Камни в море",
+      "name": "Rocks in the sea",
       "color": "#090b10",
       "height": 3.4,
       "distance": 36,
@@ -188,7 +188,7 @@
     {
       "x": 0.5,
       "id": "shore",
-      "name": "Полоса прибоя",
+      "name": "Line of surf",
       "color": "#14161b",
       "depth": 30,
       "plane": true,
@@ -205,7 +205,7 @@
         40,
         1
       ],
-      "name": "Туман у воды",
+      "name": "Mist by the water",
       "height": 2,
       "distance": 14,
       "elevation": 0
@@ -219,7 +219,7 @@
         3,
         0.2
       ],
-      "name": "Брызги из-за камня",
+      "name": "Spray from behind a rock",
       "height": 1.2,
       "distance": 3.2,
       "elevation": 1.05
@@ -227,7 +227,7 @@
     {
       "x": 0.5,
       "id": "stone",
-      "name": "Мокрый плоский камень",
+      "name": "Wet flat stone",
       "color": "#0f131c",
       "depth": 3,
       "plane": true,
@@ -244,7 +244,7 @@
         0.35,
         0.05
       ],
-      "name": "Кот Фитиль",
+      "name": "Wick the cat",
       "color": "#0a0b0e",
       "height": 0.3,
       "distance": 1.6,
@@ -259,7 +259,7 @@
         0.34,
         0.09
       ],
-      "name": "Бутылка на камне",
+      "name": "Bottle on the stone",
       "color": "#2c4a3c",
       "height": 0.07,
       "distance": 1.35,
@@ -274,7 +274,7 @@
         0.45,
         0.4
       ],
-      "name": "Свиток в мокрых руках",
+      "name": "Scroll in wet hands",
       "color": "#7a7362",
       "height": 0.2,
       "distance": 0.6,
@@ -289,7 +289,7 @@
         0.6,
         0.45
       ],
-      "name": "Соль в воздухе",
+      "name": "Salt in the air",
       "height": 0.5,
       "distance": 0.5,
       "elevation": 1.7
@@ -300,14 +300,14 @@
       "x": 0.5,
       "y": 0.5,
       "id": "rain",
-      "name": "Дождь",
+      "name": "Rain",
       "width": 2600,
       "height": 1080
     },
     {
       "id": "note_lines",
       "lift": 0.17,
-      "name": "Первые строки",
+      "name": "The first lines",
       "width": 680,
       "anchor": "bottom",
       "follow": "scroll",
@@ -318,12 +318,12 @@
     {
       "at": 1.5,
       "for": 7,
-      "text": "Бумага холодная и тяжёлая, как лист, вынутый из лужи."
+      "text": "The paper is cold and heavy, like a sheet pulled out of a puddle."
     },
     {
       "at": 10,
       "for": 8,
-      "text": "Красная нитка, сургуч. Кто-то очень хотел, чтобы это дошло."
+      "text": "Red thread, sealing wax. Someone really wanted this to arrive."
     }
   ]
 }

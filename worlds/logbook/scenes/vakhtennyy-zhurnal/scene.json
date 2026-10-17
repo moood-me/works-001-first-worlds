@@ -51,23 +51,23 @@
     "lamp": 0.45,
     "line": null,
     "time": "20:00",
-    "watch": "Первая вахта · лампа",
+    "watch": "first",
     "signal": null,
     "krechet": 0,
     "weather": null,
     "krechet_flash": false
   },
-  "title": "Вахтенный журнал",
+  "title": "The Logbook",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Одна ночь на маяке. Лампа, линза, погода, огни в море — и строчка, которую оставишь ты.",
+  "caption": "One night at a lighthouse. The lamp, the lens, the weather, lights at sea, and a line that you will leave.",
   "horizon": 0.56,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.66,
@@ -78,7 +78,7 @@
         2200,
         700
       ],
-      "name": "Рассвет на воде",
+      "name": "Dawn on the water",
       "height": 60,
       "distance": 1800,
       "elevation": -3
@@ -86,7 +86,7 @@
     {
       "x": 0.5,
       "id": "sea-far",
-      "name": "Море",
+      "name": "Sea",
       "color": "#0b1322",
       "depth": 4600,
       "plane": true,
@@ -97,7 +97,7 @@
     {
       "x": 0.5,
       "id": "sea",
-      "name": "Море у мыса",
+      "name": "Sea by the cape",
       "color": "#0a1120",
       "depth": 300,
       "plane": true,
@@ -114,7 +114,7 @@
         45,
         120
       ],
-      "name": "Лунная дорожка",
+      "name": "Moon path",
       "height": 20,
       "distance": 250,
       "elevation": -3
@@ -128,7 +128,7 @@
         48,
         4.8
       ],
-      "name": "«Кречет»",
+      "name": "The Krechet",
       "color": "#06080c",
       "height": 2.4,
       "distance": 250
@@ -136,7 +136,7 @@
     {
       "x": 0.34,
       "id": "cape",
-      "name": "Мыс",
+      "name": "Cape",
       "color": "#0c0f15",
       "depth": 104,
       "plane": true,
@@ -153,7 +153,7 @@
         16,
         2
       ],
-      "name": "Маяк",
+      "name": "Lighthouse",
       "color": "#15171c",
       "height": 34,
       "distance": 90,
@@ -168,7 +168,7 @@
         420,
         60
       ],
-      "name": "Луч маяка",
+      "name": "Lighthouse beam",
       "height": 34,
       "distance": 90,
       "elevation": 31.2
@@ -182,7 +182,7 @@
         30,
         3
       ],
-      "name": "Прибой",
+      "name": "Surf",
       "height": 6,
       "distance": 60,
       "elevation": -3
@@ -196,7 +196,7 @@
         1.1,
         0.2
       ],
-      "name": "Савелий Андреич, смотритель",
+      "name": "Savely Andreich, the keeper",
       "color": "#0d0f14",
       "height": 1.78,
       "distance": 14
@@ -210,7 +210,7 @@
         0.35,
         0.05
       ],
-      "name": "Кот Фитиль",
+      "name": "Wick the cat",
       "color": "#0a0b0e",
       "height": 0.3,
       "distance": 13
@@ -224,7 +224,7 @@
         0.3,
         0.06
       ],
-      "name": "Бутылка у камней",
+      "name": "Bottle by the rocks",
       "color": "#2c4a3c",
       "height": 0.3,
       "distance": 9
@@ -235,7 +235,7 @@
       "x": 0.5,
       "y": 0.5,
       "id": "rain",
-      "name": "Дождь",
+      "name": "Rain",
       "width": 2600,
       "height": 1080
     },
@@ -243,7 +243,7 @@
       "x": 0.02,
       "y": 0.03,
       "id": "watch",
-      "name": "Вахта",
+      "name": "Watch",
       "width": 360,
       "anchor": "top-left",
       "height": 70
@@ -252,7 +252,7 @@
       "x": 0.02,
       "y": 0.12,
       "id": "journal",
-      "name": "Вахтенный журнал",
+      "name": "The Logbook",
       "width": 560,
       "anchor": "top-left",
       "height": 760
@@ -262,12 +262,12 @@
     {
       "at": 2,
       "for": 9,
-      "text": "Сто двенадцать ступеней. На каждом витке — узкое окно, и в каждом окне море чуть темнее."
+      "text": "A hundred and twelve steps. At every turn a narrow window, and in every window the sea a little darker."
     },
     {
       "at": 12,
       "for": 8,
-      "text": "Смотритель ждёт у тропы. Весной, говорят, поставят автомат."
+      "text": "The keeper waits by the path. In spring, they say, an automatic light is going in."
     }
   ]
 }

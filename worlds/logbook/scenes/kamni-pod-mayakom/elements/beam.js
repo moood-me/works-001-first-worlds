@@ -1,6 +1,6 @@
-const S=e.state,W=String(S.weather||''),bp=S.beam_pass!==false&&!/нет|^no|off|false/i.test(String(S.beam_pass));
+const S=e.state,W=String(S.weather||''),bp=S.beam_pass!==false&&!/^no|off|false/i.test(String(S.beam_pass));
 if(!bp)return;
-const fog=/fog|туман/.test(W),rain=/rain|дожд|storm|шторм/.test(W);
+const fog=/fog/.test(W),rain=/rain|storm/.test(W);
 const a0=e.t*0.3,I=0.8*(fog?1.35:rain?1.15:1),WF=fog?1.6:1;
 g.globalCompositeOperation='lighter';g.globalAlpha=1;
 let flash=0;

@@ -1,6 +1,6 @@
 const S = e.state;
-if (S.fitil_present === false || /нет|^no|false/i.test(String(S.fitil_present))) return;
-const bp = S.beam_pass !== false && !/нет|^no|off|false/i.test(String(S.beam_pass)),
+if (S.fitil_present === false || /^no|false/i.test(String(S.fitil_present))) return;
+const bp = S.beam_pass !== false && !/^no|off|false/i.test(String(S.beam_pass)),
   sweep = bp ? Math.pow(Math.abs(Math.cos(e.t * 0.3)), 10) : 0;
 const br = Math.sin(e.t * 1.2) * 0.004,
   lk = Math.sin(e.t * 0.13) * 0.01 + 0.05;
