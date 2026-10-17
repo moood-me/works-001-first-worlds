@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Below the Cape, at the Water's Edge","translation":"Под мысом, у кромки воды","where":"scenes/below-the-cape/scene.json title"},
+  {"text":"Black wet stones, foam and a narrow path up to the lighthouse.","translation":"Чёрные мокрые камни, пена и узкая тропа вверх, к маяку.","where":"scenes/below-the-cape/scene.json caption"}
+]}
