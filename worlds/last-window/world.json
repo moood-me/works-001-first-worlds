@@ -1,9 +1,9 @@
 {
-  "title": "Последнее окно",
-  "description": "Единственный дом посреди заснеженного поля, единственное горящее окно на десятки вёрст. Каждую ночь у кромки леса что-то стоит — и каждую ночь чуть ближе.",
+  "title": "The Last Window",
+  "description": "The only house in the middle of a snowy field, the only lit window for miles around. Every night something stands at the edge of the forest, and every night a little closer.",
   "themes": {
-    "хоррор": 60,
-    "одиночество": 40
+    "horror": 60,
+    "loneliness": 40
   },
   "main": "dom-v-pole"
 }
