@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"Водонапорная башня","where":"scenes/vodonapornaya-bashnya/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Старая водонапорная башня; её тень лежит поперёк шпал.","where":"scenes/vodonapornaya-bashnya/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"Путник дошёл и стоит у водонапорной башни.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"Путник дошёл и стоит у здания станции, рядом с фонарём.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"Путник дошёл и стоит у старого сарая.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"Ржавая дверца люка у основания башни со скрипом поддалась и открылась; внутри темно, пахнет старой водой.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The hatch door is wide open.","translation":"Дверца люка открыта настежь.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"Дверца люка захлопнулась с глухим железным лязгом.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"Перекати-поле докатилось до башни и застряло в траве у бетонного основания.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"Ветер сорвал перекати-поле от башни и укатил в степь.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"Цепь раскачалась и звякает о ржавую лестницу.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"Фонарь у станции погас.","where":"scenes/vodonapornaya-bashnya/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"Фонарь у станции снова затеплился.","where":"scenes/vodonapornaya-bashnya/script.js"}
+]}

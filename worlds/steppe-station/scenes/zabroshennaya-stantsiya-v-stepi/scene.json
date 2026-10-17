@@ -86,45 +86,45 @@
     ],
     "brightness": 0.45
   },
-  "title": "Заброшенная станция в степи",
-  "caption": "Степь молчит, фонарь горит, а перекати-поле катится в закат.",
+  "title": "Abandoned Station in the Steppe",
+  "caption": "The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.",
   "horizon": 0.64,
   "objects": [
     {
       "id": "ec7a42270",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "e99562055",
       "sky": true,
-      "name": "Солнце"
+      "name": "Sun"
     },
     {
       "id": "e393389b6",
       "sky": true,
-      "name": "Облака"
+      "name": "Clouds"
     },
     {
       "id": "e2e11911b",
       "sky": true,
-      "name": "Птица"
+      "name": "Bird"
     },
     {
       "id": "e1f696e59",
       "sky": true,
-      "name": "Вторая птица"
+      "name": "Second bird"
     },
     {
       "id": "e3ce45541",
       "sky": true,
-      "name": "Дальние холмы",
+      "name": "Far hills",
       "color": "#a9765a"
     },
     {
       "id": "ee90d3f22",
       "sky": true,
-      "name": "Увалы",
+      "name": "Low ridges",
       "color": "#7e5646"
     },
     {
@@ -136,7 +136,7 @@
         1750,
         4
       ],
-      "name": "Марево над степью",
+      "name": "Heat haze over the steppe",
       "color": "#ecb282",
       "height": 24,
       "distance": 600
@@ -150,7 +150,7 @@
         170,
         80
       ],
-      "name": "Степь",
+      "name": "Steppe",
       "color": "#4a3a26",
       "height": 2,
       "distance": 80
@@ -164,7 +164,7 @@
         170,
         4
       ],
-      "name": "Блики на рельсах",
+      "name": "Glints on the rails",
       "color": "#ffe6b0",
       "height": 1,
       "distance": 79
@@ -179,7 +179,7 @@
         6.3,
         1.4
       ],
-      "name": "Водонапорная башня",
+      "name": "Water tower",
       "color": "#3a2b1f",
       "height": 12
     },
@@ -193,7 +193,7 @@
         5.6,
         1.3
       ],
-      "name": "Здание станции",
+      "name": "Station building",
       "color": "#241a12",
       "height": 5.2,
       "flicker": 0.3
@@ -208,7 +208,7 @@
         27.5,
         0.4
       ],
-      "name": "Далёкое перекати-поле",
+      "name": "Distant tumbleweed",
       "color": "#876c48",
       "height": 0.55
     },
@@ -222,7 +222,7 @@
         2.6,
         0.9
       ],
-      "name": "Ржавая цистерна",
+      "name": "Rusty tank wagon",
       "color": "#4a2e20",
       "height": 2.3
     },
@@ -236,7 +236,7 @@
         6.4,
         0.8
       ],
-      "name": "Костёр",
+      "name": "Campfire",
       "color": "#1a1310",
       "height": 1.2,
       "flicker": 0.5
@@ -251,7 +251,7 @@
         2.1,
         1.4
       ],
-      "name": "Фонарь",
+      "name": "Lamp",
       "color": "#151210",
       "height": 4.6,
       "flicker": 0.15
@@ -266,7 +266,7 @@
         1.2,
         0.75
       ],
-      "name": "Скамейка",
+      "name": "Bench",
       "color": "#181310",
       "height": 0.95
     },
@@ -280,7 +280,7 @@
         2.2,
         0.85
       ],
-      "name": "Старый сарай",
+      "name": "Old shed",
       "color": "#5a4c3e",
       "height": 2.5
     },
@@ -294,7 +294,7 @@
         20,
         0.4
       ],
-      "name": "Перекати-поле",
+      "name": "Tumbleweed",
       "color": "#8a6e48",
       "height": 0.75
     },
@@ -308,7 +308,7 @@
         0.8,
         0.35
       ],
-      "name": "Валун",
+      "name": "Boulder",
       "color": "#5c4530",
       "height": 0.55
     },
@@ -322,7 +322,7 @@
         1,
         0.1
       ],
-      "name": "Сухая трава",
+      "name": "Dry grass",
       "color": "#8a7a52",
       "height": 0.7
     },
@@ -336,7 +336,7 @@
         1,
         0.3
       ],
-      "name": "Плоский камень",
+      "name": "Flat stone",
       "color": "#6b6255",
       "height": 0.35
     },
@@ -350,7 +350,7 @@
         12.5,
         0.3
       ],
-      "name": "Маленькое перекати-поле",
+      "name": "Small tumbleweed",
       "color": "#967650",
       "height": 0.5
     },
@@ -364,7 +364,7 @@
         1,
         0.25
       ],
-      "name": "Камни",
+      "name": "Stones",
       "color": "#4a3c2c",
       "height": 0.5
     },
@@ -377,7 +377,7 @@
         24,
         0.4
       ],
-      "name": "Пыль на ветру",
+      "name": "Dust on the wind",
       "color": "#cba876",
       "height": 5,
       "distance": 7
@@ -392,7 +392,7 @@
         1.7,
         0.1
       ],
-      "name": "Ковыль",
+      "name": "Feather grass",
       "color": "#d8b989",
       "height": 1
     }
@@ -401,17 +401,17 @@
     {
       "at": 5,
       "for": 8,
-      "text": "Последний поезд прошёл здесь так давно, что рельсы забыли его вес."
+      "text": "The last train came through here so long ago that the rails have forgotten its weight."
     },
     {
       "at": 17,
       "for": 8,
-      "text": "Ветер пересчитывает шпалы и каждый раз сбивается."
+      "text": "The wind counts the sleepers and loses count every time."
     },
     {
       "at": 29,
       "for": 9,
-      "text": "А фонарь всё равно зажигается — по привычке."
+      "text": "And the lamp still comes on anyway, out of habit."
     }
   ]
 }

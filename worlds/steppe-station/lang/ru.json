@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Abandoned Station in the Steppe","translation":"Заброшенная станция в степи","where":"world.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"Степь молчит, фонарь горит, а перекати-поле катится в закат.","where":"world.json description"}
+]}

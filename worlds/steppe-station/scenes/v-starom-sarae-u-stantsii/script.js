@@ -6,7 +6,7 @@ scene.every(30, function () {
 scene.on("change", "light_shafts", function (v, o) {
   if (!told && o >= 0.25 && v < 0.25) {
     told = true;
-    scene.tell("Щели в стене почти погасли: солнце ушло за степь, в сарае остаётся только свет из двери.");
+    scene.tell(tr('The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.'));
   }
 });
 scene.on("change", "door_ajar", function (v, o) {
@@ -14,12 +14,12 @@ scene.on("change", "door_ajar", function (v, o) {
     scene.after(1.2, function () {
       if (scene.get("someone_present") === "bird") {
         scene.set("someone_present", "none");
-        scene.tell("Ласточка сорвалась с балки и вылетела в распахнутую дверь, к закату.");
+        scene.tell(tr('The swallow darted off the beam and flew out through the open door, toward the sunset.'));
       }
     });
   }
 });
 scene.on("change", "found_bucket", function (v) {
   if (v === true || v === "true")
-    scene.tell("Под мешковиной — оцинкованное ведро, в нём чистая вода. Кто-то принёс её недавно.");
+    scene.tell(tr('Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.'));
 });

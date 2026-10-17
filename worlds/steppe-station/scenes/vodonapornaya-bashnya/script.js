@@ -1,6 +1,10 @@
 var P = { tower: [0.72, 12.5], station: [0.3, 45], shed: [0.14, 30] },
   W = [0.47, 13.2];
-var NM = { tower: "у водонапорной башни", station: "у здания станции, рядом с фонарём", shed: "у старого сарая" };
+var NM = {
+  tower: tr('The traveller has got there and stands by the water tower.'),
+  station: tr('The traveller has got there and stands by the station building, next to the lamp.'),
+  shed: tr('The traveller has got there and stands by the old shed.'),
+};
 function md(a, b, c, d) {
   var A = 1.78,
     F = 0.87;
@@ -32,7 +36,7 @@ function go(pos) {
   }
   var fin = function () {
     if (my === seq && scene.get("player_position") === pos)
-      scene.tell("Путник дошёл и стоит " + (NM[pos] || NM.tower) + ".");
+      scene.tell(NM[pos] || NM.tower);
   };
   if (c[0] > 0.5 !== p[0] > 0.5 && Math.abs(c[0] - W[0]) > 0.01)
     leg(W, function () {
@@ -56,7 +60,7 @@ function hatch(open) {
         scene.after(3.8, function () {
           if (my === hs)
             scene.tell(
-              "Ржавая дверца люка у основания башни со скрипом поддалась и открылась; внутри темно, пахнет старой водой.",
+              tr('The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.'),
             );
         });
       });
@@ -64,14 +68,14 @@ function hatch(open) {
       var T = 3.6 * (1 - h) + 0.3;
       scene.set("hatch_amount", 1, T);
       scene.after(T + 0.2, function () {
-        if (my === hs) scene.tell("Дверца люка открыта настежь.");
+        if (my === hs) scene.tell(tr('The hatch door is wide open.'));
       });
     }
   } else {
     var T2 = 2.4 * h + 0.3;
     scene.set("hatch_amount", 0, T2);
     scene.after(T2 + 0.2, function () {
-      if (my === hs) scene.tell("Дверца люка захлопнулась с глухим железным лязгом.");
+      if (my === hs) scene.tell(tr('The hatch door slammed shut with a dull iron clang.'));
     });
   }
 }
@@ -92,14 +96,14 @@ function tw(near) {
     var T = Math.abs(REST - x) / 1.5 + 0.1;
     scene.set("tw_x", REST, T);
     scene.after(T + 0.3, function () {
-      if (my === ts) scene.tell("Перекати-поле докатилось до башни и застряло в траве у бетонного основания.");
+      if (my === ts) scene.tell(tr('The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.'));
     });
   } else {
     if (x >= 19.5) return;
     var T3 = (20 - x) / 1.7 + 0.1;
     scene.set("tw_x", 20, T3);
     scene.after(T3, function () {
-      if (my === ts) scene.tell("Ветер сорвал перекати-поле от башни и укатил в степь.");
+      if (my === ts) scene.tell(tr('The wind tore the tumbleweed away from the tower and rolled it off into the steppe.'));
     });
   }
 }
@@ -109,12 +113,12 @@ scene.on("change", "tumbleweed_near", function (v) {
 scene.on("change", "loose_chain_stirring", function (v, o) {
   if (v >= 0.7 && (o == null || o < 0.7))
     scene.after(2.5, function () {
-      if (scene.get("loose_chain_stirring") >= 0.7) scene.tell("Цепь раскачалась и звякает о ржавую лестницу.");
+      if (scene.get("loose_chain_stirring") >= 0.7) scene.tell(tr('The chain has started swinging and clinks against the rusty ladder.'));
     });
 });
 scene.on("change", "lantern_glow", function (v, o) {
-  if (v <= 0.02 && o != null && o > 0.02) scene.tell("Фонарь у станции погас.");
-  else if (v > 0.05 && o != null && o <= 0.02) scene.tell("Фонарь у станции снова затеплился.");
+  if (v <= 0.02 && o != null && o > 0.02) scene.tell(tr('The lamp by the station has gone out.'));
+  else if (v > 0.05 && o != null && o <= 0.02) scene.tell(tr('The lamp by the station has flickered back to life.'));
 });
 go(scene.get("player_position"));
 var ho = !!scene.get("hatch_open"),
