@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Under the Bridge","translation":"Под мостом","where":"scenes/under-the-bridge/scene.json title"},
+  {"text":"Granite steps down to the water under an old bridge.","translation":"Гранитный спуск к воде под старым мостом.","where":"scenes/under-the-bridge/scene.json caption"},
+  {"text":"Raise the bridge","translation":"Развести мост","where":"scenes/under-the-bridge/scene.json directions[0] name"},
+  {"text":"Dawn","translation":"Рассвет","where":"scenes/under-the-bridge/scene.json directions[1] name"},
+  {"text":"Mist over the river","translation":"Туман над рекой","where":"scenes/under-the-bridge/scene.json directions[2] name"},
+  {"text":"A river tram with its lights on has come out from under the far bridge","translation":"Из-под дальнего моста вышел речной трамвайчик с огнями","where":"scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have risen: the bridge is up","translation":"Пролёты дальнего моста поднялись — мост разведён","where":"scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have come down: the bridge is closed","translation":"Пролёты дальнего моста опустились, мост сведён","where":"scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has come on","translation":"Фонарь под аркой зажёгся","where":"scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has gone out","translation":"Фонарь под аркой погас","where":"scenes/under-the-bridge/script.js"}
+]}
