@@ -94,17 +94,17 @@
     ],
     "brightness": 0.3
   },
-  "title": "Причал на горном озере",
+  "title": "A Pier on a Mountain Lake",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Вода затихла раньше, чем погас свет.",
+  "caption": "The water went still before the light went out.",
   "horizon": 0.45,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Сумеречное небо и озеро"
+      "name": "Twilight sky and lake"
     },
     {
       "x": 0.5,
@@ -115,7 +115,7 @@
         4000,
         5
       ],
-      "name": "Горный хребет",
+      "name": "Mountain ridge",
       "color": "#3a3d55",
       "height": 450,
       "reflect": true,
@@ -130,7 +130,7 @@
         2500,
         5
       ],
-      "name": "Лесистый хребет",
+      "name": "Wooded ridge",
       "color": "#252a3e",
       "height": 110,
       "reflect": true,
@@ -145,7 +145,7 @@
         1250,
         3
       ],
-      "name": "Сосны на дальнем берегу",
+      "name": "Pines on the far shore",
       "color": "#1d2130",
       "height": 40,
       "reflect": true,
@@ -160,7 +160,7 @@
         900,
         6
       ],
-      "name": "Туман у дальнего берега",
+      "name": "Mist by the far shore",
       "color": "#aaa2ba",
       "height": 14,
       "distance": 220
@@ -174,7 +174,7 @@
         130,
         1.5
       ],
-      "name": "Клочья тумана над водой",
+      "name": "Wisps of mist over the water",
       "color": "#aaa2ba",
       "height": 3,
       "distance": 45
@@ -182,7 +182,7 @@
     {
       "x": 0.5,
       "id": "water",
-      "name": "Рябь у берега",
+      "name": "Ripples by the shore",
       "color": "#7d84a3",
       "depth": 140,
       "plane": true,
@@ -199,7 +199,7 @@
         1,
         0.15
       ],
-      "name": "Свая в конце причала",
+      "name": "Pile at the end of the pier",
       "color": "#211d22",
       "height": 0.7,
       "reflect": true,
@@ -214,7 +214,7 @@
         1,
         0.15
       ],
-      "name": "Причальный столбик",
+      "name": "Mooring post",
       "color": "#211d22",
       "height": 1.1,
       "reflect": true,
@@ -229,7 +229,7 @@
         1,
         0.15
       ],
-      "name": "Свая",
+      "name": "Pile",
       "color": "#211d22",
       "height": 0.7,
       "reflect": true,
@@ -244,7 +244,7 @@
         1,
         0.15
       ],
-      "name": "Свая у берега",
+      "name": "Pile by the shore",
       "color": "#211d22",
       "height": 0.7,
       "reflect": true,
@@ -253,7 +253,7 @@
     {
       "x": 0.5,
       "id": "pier",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#3a3436",
       "depth": 15,
       "plane": true,
@@ -271,7 +271,7 @@
         0.9,
         0.35
       ],
-      "name": "Лодка",
+      "name": "Boat",
       "sway": 0.6,
       "color": "#262b30",
       "height": 0.7,
@@ -287,7 +287,7 @@
         1.72,
         0.1
       ],
-      "name": "Рыжий кот",
+      "name": "Ginger cat",
       "color": "#8a4f28",
       "height": 0.33,
       "distance": 15.85,
@@ -302,7 +302,7 @@
         4,
         2.9
       ],
-      "name": "Фонарь на причале",
+      "name": "Lantern on the pier",
       "color": "#ffb468",
       "height": 2,
       "flicker": 0.12,
@@ -318,7 +318,7 @@
         0.9,
         0.8
       ],
-      "name": "Камни у берега",
+      "name": "Stones by the shore",
       "color": "#14171f",
       "height": 1,
       "distance": 2.6
@@ -328,17 +328,17 @@
     {
       "at": 3,
       "for": 7,
-      "text": "Последний свет уходит за хребет."
+      "text": "The last light is slipping behind the ridge."
     },
     {
       "at": 13,
       "for": 7,
-      "text": "Фонарь зажгли чуть раньше, чем было нужно."
+      "text": "The lantern was lit a little earlier than it needed to be."
     },
     {
       "at": 24,
       "for": 8,
-      "text": "Лодка тихо трогает верёвку и снова замирает."
+      "text": "The boat quietly tugs at its rope and goes still again."
     }
   ]
 }

@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"A Pier on a Mountain Lake","translation":"Причал на горном озере","where":"scenes/prichal-na-gornom-ozere/scene.json title"},
+  {"text":"The water went still before the light went out.","translation":"Вода затихла раньше, чем погас свет.","where":"scenes/prichal-na-gornom-ozere/scene.json caption"},
+  {"text":"The last light is slipping behind the ridge.","translation":"Последний свет уходит за хребет.","where":"scenes/prichal-na-gornom-ozere/scene.json captions[0] text"},
+  {"text":"The lantern was lit a little earlier than it needed to be.","translation":"Фонарь зажгли чуть раньше, чем было нужно.","where":"scenes/prichal-na-gornom-ozere/scene.json captions[1] text"},
+  {"text":"The boat quietly tugs at its rope and goes still again.","translation":"Лодка тихо трогает верёвку и снова замирает.","where":"scenes/prichal-na-gornom-ozere/scene.json captions[2] text"}
+]}
