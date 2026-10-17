@@ -18,8 +18,8 @@ for (var i = 0; i < N; i++) {
     ph = e.rnd() * 6.28;
   var half = (A * r) / F / 2 + 1.5;
   var xw = (u - 0.5) * 2 * half;
-  var tr = (xw - Lp) * 0.24 + (15.3 - r - 5.3) * 0.97;
-  if (Math.abs(tr) < 1.6) continue;
+  var across = (xw - Lp) * 0.24 + (15.3 - r - 5.3) * 0.97;
+  if (Math.abs(across) < 1.6) continue;
   var qx = xw - Lt,
     qy = 15 - r;
   var al = -0.47 * qx + 0.88 * qy,
