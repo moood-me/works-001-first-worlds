@@ -100,7 +100,7 @@
     "ringing": false,
     "receiver": "hanging"
   },
-  "title": "Будка у 41-го км",
+  "title": "The Booth at Km 41",
   "camera": {
     "area": [
       -3,
@@ -110,13 +110,13 @@
     ],
     "mode": "walk"
   },
-  "caption": "Сюда не тянули линию с девяносто восьмого года.",
+  "caption": "No line has run out here since ninety-eight.",
   "horizon": 0.56,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Низкое небо"
+      "name": "Low sky"
     },
     {
       "id": "forest",
@@ -126,7 +126,7 @@
         170,
         1
       ],
-      "name": "Ельник",
+      "name": "Spruce forest",
       "color": "#0b0f10",
       "across": 0,
       "height": 22,
@@ -134,7 +134,7 @@
     },
     {
       "id": "ground",
-      "name": "Обочины",
+      "name": "Roadsides",
       "color": "#0e1211",
       "depth": 200,
       "plane": true,
@@ -144,7 +144,7 @@
     },
     {
       "id": "road",
-      "name": "Трасса",
+      "name": "Highway",
       "color": "#16191b",
       "depth": 160,
       "plane": true,
@@ -161,21 +161,21 @@
         60,
         0.5
       ],
-      "name": "Туман",
+      "name": "Fog",
       "across": 0,
       "height": 2,
       "distance": 30
     },
     {
       "id": "figure_forest",
-      "name": "Силуэт у кромки леса",
+      "name": "Figure at the edge of the forest",
       "across": -9,
       "height": 2,
       "distance": 55
     },
     {
       "id": "figure_road",
-      "name": "Силуэт посреди дороги",
+      "name": "Figure in the middle of the road",
       "across": -1.3,
       "height": 2,
       "distance": 32
@@ -188,14 +188,14 @@
         3.3,
         0.8
       ],
-      "name": "Телефонная будка",
+      "name": "Phone booth",
       "across": 5.5,
       "height": 2.6,
       "distance": 13
     },
     {
       "id": "post",
-      "name": "Километровый столбик",
+      "name": "Kilometre post",
       "across": -4.8,
       "height": 1.2,
       "distance": 9
@@ -208,7 +208,7 @@
         9,
         0.5
       ],
-      "name": "Морось",
+      "name": "Drizzle",
       "across": 0,
       "height": 4,
       "distance": 6
@@ -221,7 +221,7 @@
         1.6,
         0.2
       ],
-      "name": "Сухая трава",
+      "name": "Dry grass",
       "across": -3.6,
       "height": 1.2,
       "distance": 3.2
@@ -234,14 +234,14 @@
         1.6,
         0.2
       ],
-      "name": "Бурьян",
+      "name": "Weeds",
       "across": 3.4,
       "height": 1.2,
       "distance": 3.6
     },
     {
       "id": "figure_booth2",
-      "name": "Силуэт за будкой",
+      "name": "Figure behind the booth",
       "across": 5.02,
       "height": 2,
       "distance": 14.2
@@ -251,17 +251,17 @@
     {
       "at": 2,
       "for": 7,
-      "text": "41-й километр. Три часа ночи."
+      "text": "Kilometre 41. Three in the morning."
     },
     {
       "at": 11,
       "for": 8,
-      "text": "Трубка висит. Из неё кто-то дышит."
+      "text": "The receiver hangs loose. Someone is breathing into it."
     },
     {
       "at": 22,
       "for": 9,
-      "text": "На стекле записка. Почерк — твой."
+      "text": "There is a note on the glass. The handwriting is yours."
     }
   ]
 }

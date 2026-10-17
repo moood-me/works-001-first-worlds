@@ -118,7 +118,7 @@ g.fillStyle = "#1a1f1d";
 g.font = "bold 0.11px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ТЕЛЕФОН", 0, -H - 0.2);
+g.fillText(tr('PHONE'), 0, -H - 0.2);
 g.strokeStyle = "rgba(170,195,185,0.12)";
 g.lineWidth = 0.006;
 g.beginPath();

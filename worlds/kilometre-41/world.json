@@ -1,9 +1,9 @@
 {
-  "title": "41-й километр",
-  "description": "Ночная трасса в еловом лесу и одинокая телефонная будка, к которой не подведена линия. Трубка висит, и в ней кто-то дышит.",
+  "title": "Kilometre 41",
+  "description": "A night highway through a spruce forest and a lone phone booth with no line running to it. The receiver hangs loose, and someone is breathing in it.",
   "themes": {
-    "тайны": 40,
-    "хоррор": 60
+    "mystery": 40,
+    "horror": 60
   },
   "main": "budka-u-41-go-km"
 }

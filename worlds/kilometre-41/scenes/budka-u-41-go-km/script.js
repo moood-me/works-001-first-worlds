@@ -3,7 +3,7 @@ function arm() {
     scene.after(30, () => {
       if (scene.get("ringing") && scene.get("receiver") === "hook") {
         scene.set("ringing", false);
-        scene.tell("Телефон в будке звонил и замолчал.", "booth");
+        scene.tell(tr('The phone in the booth rang, then fell silent.'), "booth");
       }
     });
   }
@@ -15,6 +15,6 @@ scene.on("change", "ringing", (v) => {
 scene.on("change", "receiver", (v) => {
   if (v !== "hook" && scene.get("ringing")) {
     scene.set("ringing", false);
-    scene.tell("Трубку сняли — звонок оборвался.", "booth");
+    scene.tell(tr('Someone lifted the receiver, and the ringing broke off.'), "booth");
   }
 });

@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"ТЕЛЕФОН","where":"scenes/budka-u-41-go-km/elements/booth.js"},
+  {"text":"The Booth at Km 41","translation":"Будка у 41-го км","where":"scenes/budka-u-41-go-km/scene.json title"},
+  {"text":"No line has run out here since ninety-eight.","translation":"Сюда не тянули линию с девяносто восьмого года.","where":"scenes/budka-u-41-go-km/scene.json caption"},
+  {"text":"Kilometre 41. Three in the morning.","translation":"41-й километр. Три часа ночи.","where":"scenes/budka-u-41-go-km/scene.json captions[0] text"},
+  {"text":"The receiver hangs loose. Someone is breathing into it.","translation":"Трубка висит. Из неё кто-то дышит.","where":"scenes/budka-u-41-go-km/scene.json captions[1] text"},
+  {"text":"There is a note on the glass. The handwriting is yours.","translation":"На стекле записка. Почерк — твой.","where":"scenes/budka-u-41-go-km/scene.json captions[2] text"},
+  {"text":"The phone in the booth rang, then fell silent.","translation":"Телефон в будке звонил и замолчал.","where":"scenes/budka-u-41-go-km/script.js"},
+  {"text":"Someone lifted the receiver, and the ringing broke off.","translation":"Трубку сняли — звонок оборвался.","where":"scenes/budka-u-41-go-km/script.js"}
+]}
