@@ -45,17 +45,17 @@
     "roofDoorOpen": 0,
     "someoneWaiting": 0
   },
-  "title": "Крыша",
+  "title": "The Roof",
   "camera": {
     "mode": "diorama"
   },
-  "caption": "Синий час, ветер в простынях и огни внизу.",
+  "caption": "Blue hour, wind in the sheets and lights below.",
   "horizon": 0.45,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо синего часа"
+      "name": "Blue-hour sky"
     },
     {
       "x": 0.5,
@@ -66,7 +66,7 @@
         800,
         45
       ],
-      "name": "Город внизу",
+      "name": "City below",
       "height": 60,
       "distance": 320,
       "elevation": -18
@@ -80,7 +80,7 @@
         800,
         45
       ],
-      "name": "Огни на крышах и улицы",
+      "name": "Lights on the rooftops and the streets",
       "height": 60,
       "distance": 318,
       "elevation": -18
@@ -88,7 +88,7 @@
     {
       "x": 0.5,
       "id": "roof",
-      "name": "Крыша",
+      "name": "The Roof",
       "color": "#23243a",
       "depth": 9,
       "plane": true,
@@ -104,7 +104,7 @@
         4,
         0.3
       ],
-      "name": "Антенна и провода",
+      "name": "Aerial and wires",
       "height": 5.6,
       "distance": 10.5
     },
@@ -117,7 +117,7 @@
         16,
         0.2
       ],
-      "name": "Низкий парапет",
+      "name": "Low parapet",
       "height": 1,
       "distance": 8.4
     },
@@ -130,7 +130,7 @@
         0.6,
         0.05
       ],
-      "name": "Кружка на парапете",
+      "name": "Mug on the parapet",
       "height": 0.12,
       "distance": 8.3,
       "elevation": 0.99
@@ -144,7 +144,7 @@
         0.8,
         0.1
       ],
-      "name": "Тот, кто ждёт",
+      "name": "The one who waits",
       "height": 1.3,
       "distance": 7.32
     },
@@ -157,7 +157,7 @@
         0.4,
         0.08
       ],
-      "name": "Металлический стул",
+      "name": "Metal chair",
       "height": 0.9,
       "distance": 7.2
     },
@@ -170,7 +170,7 @@
         3.2,
         0.1
       ],
-      "name": "Бельё на верёвке",
+      "name": "Washing on the line",
       "height": 2.2,
       "distance": 5.6
     },
@@ -183,7 +183,7 @@
         1.8,
         1.4
       ],
-      "name": "Будка лестницы с дверью",
+      "name": "Stairway hut with a door",
       "height": 2.6,
       "distance": 4.6
     }

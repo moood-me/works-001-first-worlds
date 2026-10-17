@@ -47,11 +47,11 @@
     "catFollowing": 0,
     "caretakerHere": 1
   },
-  "title": "Коридор у двери лофта",
+  "title": "Corridor by the Loft Door",
   "camera": {
     "mode": "diorama"
   },
-  "caption": "Кирпич, старое дерево и одно бра на весь коридор.",
+  "caption": "Brick, old wood and a single sconce for the whole corridor.",
   "horizon": 0.4,
   "objects": [
     {
@@ -63,7 +63,7 @@
         -2.4,
         1.5
       ],
-      "name": "Лестничная клетка",
+      "name": "Stairwell",
       "height": 4,
       "distance": 7
     },
@@ -76,14 +76,14 @@
         9,
         0.3
       ],
-      "name": "Кирпичная стена коридора",
+      "name": "Brick wall of the corridor",
       "height": 3,
       "distance": 4
     },
     {
       "x": 0.5,
       "id": "ceiling",
-      "name": "Потолок с балками",
+      "name": "Beamed ceiling",
       "depth": 2.5,
       "plane": true,
       "width": 20,
@@ -93,7 +93,7 @@
     {
       "x": 0.5,
       "id": "floor",
-      "name": "Дощатый пол с дорожкой",
+      "name": "Plank floor with a runner",
       "depth": 2.5,
       "plane": true,
       "width": 20,
@@ -108,7 +108,7 @@
         1.7,
         0.05
       ],
-      "name": "Дверь лофта",
+      "name": "Loft door",
       "height": 2.3,
       "distance": 3.98
     },
@@ -121,7 +121,7 @@
         0,
         -1.5
       ],
-      "name": "Настенное бра",
+      "name": "Wall sconce",
       "height": 0.4,
       "flicker": 0.08,
       "distance": 3.95
@@ -135,7 +135,7 @@
         1.4,
         0.1
       ],
-      "name": "Пылинки у бра",
+      "name": "Dust motes by the sconce",
       "height": 2.6,
       "distance": 3.6
     },
@@ -148,7 +148,7 @@
         0.5,
         0.05
       ],
-      "name": "Чашка у порога",
+      "name": "Cup at the threshold",
       "height": 0.1,
       "distance": 3.85
     },
@@ -161,7 +161,7 @@
         0.8,
         0.15
       ],
-      "name": "Смотритель",
+      "name": "Caretaker",
       "height": 1.75,
       "distance": 3.3
     },
@@ -174,7 +174,7 @@
         1.3,
         0.1
       ],
-      "name": "Кот",
+      "name": "Cat",
       "height": 0.45,
       "distance": 3.2
     }

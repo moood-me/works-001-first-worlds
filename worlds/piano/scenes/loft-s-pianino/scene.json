@@ -97,17 +97,17 @@
   "state": {
     "lights": 1
   },
-  "title": "Лофт с пианино",
+  "title": "Loft with a Piano",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Тёплый свет, кирпич и тишина между нотами.",
+  "caption": "Warm light, brick and the silence between the notes.",
   "horizon": 0.42,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Вечернее небо"
+      "name": "Evening sky"
     },
     {
       "x": 0.4,
@@ -118,7 +118,7 @@
         600,
         10
       ],
-      "name": "Город за окном",
+      "name": "City outside the window",
       "height": 70,
       "distance": 350
     },
@@ -131,14 +131,14 @@
         16,
         0.4
       ],
-      "name": "Кирпичная стена с окном",
+      "name": "Brick wall with a window",
       "height": 5,
       "distance": 7
     },
     {
       "x": 0.5,
       "id": "ceiling",
-      "name": "Потолок с балками",
+      "name": "Beamed ceiling",
       "depth": 7.5,
       "plane": true,
       "width": 32,
@@ -148,7 +148,7 @@
     {
       "x": 0.5,
       "id": "floor",
-      "name": "Дощатый пол",
+      "name": "Plank floor",
       "depth": 7.5,
       "plane": true,
       "width": 32,
@@ -157,7 +157,7 @@
     {
       "x": 0.596,
       "id": "rug",
-      "name": "Ковёр",
+      "name": "Rug",
       "depth": 2.6,
       "plane": true,
       "width": 3.2,
@@ -174,7 +174,7 @@
         0.95,
         0.1
       ],
-      "name": "Пианино",
+      "name": "Piano",
       "height": 2.3,
       "distance": 6.6
     },
@@ -187,7 +187,7 @@
         0.6,
         0.1
       ],
-      "name": "Банкетка и кот",
+      "name": "Piano bench and the cat",
       "height": 0.85,
       "distance": 6
     },
@@ -200,7 +200,7 @@
         1.8,
         0.1
       ],
-      "name": "Монстера",
+      "name": "Monstera",
       "height": 1.8,
       "distance": 6.5
     },
@@ -213,7 +213,7 @@
         1.7,
         0.1
       ],
-      "name": "Пылинки в свете",
+      "name": "Dust motes in the light",
       "height": 3,
       "distance": 5
     },
@@ -226,7 +226,7 @@
         0.9,
         0.4
       ],
-      "name": "Лампочки Эдисона",
+      "name": "Edison bulbs",
       "height": 2.5,
       "distance": 5.4,
       "elevation": 2.5
@@ -240,7 +240,7 @@
         0.35,
         0.1
       ],
-      "name": "Столик с чашкой",
+      "name": "Side table with a cup",
       "height": 0.6,
       "distance": 2.6
     },
@@ -253,7 +253,7 @@
         0.85,
         0.1
       ],
-      "name": "Кожаное кресло с пледом",
+      "name": "Leather armchair with a throw",
       "height": 1.05,
       "distance": 2.8
     }
@@ -262,22 +262,22 @@
     {
       "at": 2,
       "for": 7,
-      "text": "Город за окном зажигает свои окна."
+      "text": "The city outside the window is lighting its windows."
     },
     {
       "at": 11,
       "for": 7,
-      "text": "Крышка открыта — кто-то только что играл."
+      "text": "The lid is open: someone has just been playing."
     },
     {
       "at": 20,
       "for": 8,
-      "text": "Кот занял банкетку и уступать не собирается."
+      "text": "The cat has taken the bench and has no plans to give it up."
     },
     {
       "at": 31,
       "for": 6,
-      "text": "Щелчок по лампочкам — и свет погаснет."
+      "text": "One click on the bulbs, and the light goes out."
     }
   ]
 }

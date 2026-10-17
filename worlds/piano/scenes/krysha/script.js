@@ -7,8 +7,8 @@ scene.every(40, function () {
   if (c < 1) scene.set("cityGlow", Math.min(1, Math.round((c + 0.03) * 100) / 100));
 });
 scene.on("change", "dusk", function (v, o) {
-  if (o < 0.999 && v >= 0.999) scene.tell("Синий час кончился: над крышей настоящая ночь.");
+  if (o < 0.999 && v >= 0.999) scene.tell(tr('The blue hour is over: real night above the roof.'));
 });
 scene.on("change", "cityGlow", function (v, o) {
-  if (o < 0.95 && v >= 0.95) scene.tell("Город внизу зажёг почти все окна.");
+  if (o < 0.95 && v >= 0.95) scene.tell(tr('The city below has lit nearly all its windows.'));
 });
