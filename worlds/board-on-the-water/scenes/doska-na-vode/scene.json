@@ -86,56 +86,56 @@
     ],
     "brightness": 0.5
   },
-  "title": "Доска на воде",
-  "caption": "Партия, которую некуда торопить.",
+  "title": "A Board on the Water",
+  "caption": "A game there is no need to hurry.",
   "horizon": 0.47,
   "objects": [
     {
       "id": "e0829e0ff",
       "sky": true,
-      "name": "Небо",
+      "name": "Sky",
       "color": "#a8788a"
     },
     {
       "id": "e98ca7fdc",
       "sky": true,
-      "name": "Первые звёзды",
+      "name": "First stars",
       "color": "#f5e9ff"
     },
     {
       "id": "efb1c61eb",
       "sky": true,
-      "name": "Солнце",
+      "name": "Sun",
       "color": "#fff0cf"
     },
     {
       "id": "e2d5aee18",
       "sky": true,
-      "name": "Высокие облака",
+      "name": "High clouds",
       "color": "#c89295"
     },
     {
       "id": "eb01df136",
       "sky": true,
-      "name": "Перистые полосы у солнца",
+      "name": "Cirrus streaks by the sun",
       "color": "#e7b39d"
     },
     {
       "id": "e76aca190",
       "sky": true,
-      "name": "Дальние острова",
+      "name": "Distant islands",
       "color": "#a07e8f"
     },
     {
       "id": "eb1426488",
       "sky": true,
-      "name": "Дымка у горизонта",
+      "name": "Haze on the horizon",
       "color": "#f0c6a6"
     },
     {
       "x": 0.5,
       "id": "sea_far",
-      "name": "Море до горизонта",
+      "name": "Sea to the horizon",
       "color": "#cf9f93",
       "depth": 3820,
       "plane": true,
@@ -146,7 +146,7 @@
     {
       "x": 0.5,
       "id": "sea_near",
-      "name": "Море у доски",
+      "name": "Sea by the board",
       "color": "#7a6179",
       "depth": 199,
       "plane": true,
@@ -163,7 +163,7 @@
         10,
         4
       ],
-      "name": "Морской дракон",
+      "name": "Sea dragon",
       "color": "#35283a",
       "height": 26,
       "reflect": true,
@@ -172,7 +172,7 @@
     {
       "x": 0.5,
       "id": "board",
-      "name": "Шахматная доска",
+      "name": "Chessboard",
       "color": "#4b322d",
       "depth": 17,
       "plane": true,
@@ -189,7 +189,7 @@
         8,
         0.3
       ],
-      "name": "Белый слон",
+      "name": "White bishop",
       "color": "#e3caa6",
       "height": 2.5,
       "distance": 18
@@ -203,7 +203,7 @@
         -1.2,
         0.3
       ],
-      "name": "Белый король",
+      "name": "White king",
       "color": "#e3caa6",
       "height": 3.4,
       "distance": 16
@@ -217,7 +217,7 @@
         6.4,
         0.3
       ],
-      "name": "Белый ферзь",
+      "name": "White queen",
       "color": "#e3caa6",
       "height": 3,
       "distance": 14
@@ -231,7 +231,7 @@
         2.2,
         0.2
       ],
-      "name": "Игрок",
+      "name": "Player",
       "color": "#261c25",
       "height": 1.75,
       "period": 30,
@@ -246,7 +246,7 @@
         -0.7,
         0.3
       ],
-      "name": "Белая пешка",
+      "name": "White pawn",
       "color": "#e3caa6",
       "height": 1.6,
       "distance": 12
@@ -260,7 +260,7 @@
         3.9,
         0.3
       ],
-      "name": "Чёрный конь",
+      "name": "Black knight",
       "color": "#241a21",
       "height": 2.3,
       "distance": 8
@@ -274,7 +274,7 @@
         -0.7,
         0.3
       ],
-      "name": "Чёрная пешка",
+      "name": "Black pawn",
       "color": "#241a21",
       "height": 1.6,
       "distance": 8
@@ -288,7 +288,7 @@
         -2.4,
         0.35
       ],
-      "name": "Чёрная ладья",
+      "name": "Black rook",
       "color": "#241a21",
       "height": 1.9,
       "distance": 6
@@ -302,7 +302,7 @@
         6,
         0.35
       ],
-      "name": "Чёрный слон",
+      "name": "Black bishop",
       "color": "#241a21",
       "height": 2.5,
       "distance": 6
@@ -316,7 +316,7 @@
         5.8,
         1.4
       ],
-      "name": "Пылинки в закатном свете",
+      "name": "Dust motes in the sunset light",
       "color": "#ffe0b8",
       "height": 5,
       "distance": 4
@@ -326,22 +326,22 @@
     {
       "at": 3,
       "for": 8,
-      "text": "Ход чёрных. Его обдумывают с прошлого лета."
+      "text": "Black to move. They have been thinking it over since last summer."
     },
     {
       "at": 16,
       "for": 8,
-      "text": "Тени фигур дотягиваются до самого края доски."
+      "text": "The pieces' shadows reach all the way to the edge of the board."
     },
     {
       "at": 30,
       "for": 8,
-      "text": "Конь смотрит на закат и не торопится."
+      "text": "The knight looks at the sunset and takes its time."
     },
     {
       "at": 44,
       "for": 8,
-      "text": "Дракон вынырнул посмотреть партию. Подсказывать не будет."
+      "text": "The dragon has surfaced to watch the game. It won't give any hints."
     }
   ]
 }
