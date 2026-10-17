@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"7  TOWN","translation":"7  ГОРОД","where":"scenes/last-number-seven/elements/bus.js"},
+  {"text":"The Last Number Seven","translation":"Последний седьмой","where":"scenes/last-number-seven/scene.json title"},
+  {"text":"A bus stop by the rice fields. The last bus to town is at 18:47.","translation":"Остановка у рисовых полей. Последний автобус в город — в 18:47.","where":"scenes/last-number-seven/scene.json caption"},
+  {"text":"The last number seven leaves for town at 18:47.","translation":"Последний седьмой уходит в город в 18:47.","where":"scenes/last-number-seven/scene.json captions[0] text"},
+  {"text":"It took her three days to pack the suitcase. In three years she never found the time to tell him.","translation":"Чемодан она собирала три дня. Сказать ему — не успела за три года.","where":"scenes/last-number-seven/scene.json captions[1] text"},
+  {"text":"He stands at the bend, pretending to fix his chain.","translation":"Он стоит у поворота и делает вид, что поправляет цепь.","where":"scenes/last-number-seven/scene.json captions[2] text"},
+  {"text":"Over the bench a fluorescent lamp blinks and comes on.","translation":"Над скамейкой, помигав, зажглась лампа дневного света.","where":"scenes/last-number-seven/script.js"},
+  {"text":"The seven has pulled up at the shelter and opened its doors. The driver looks at the bench and waits.","translation":"Седьмой остановился у навеса и открыл двери. Водитель смотрит на скамейку и ждёт.","where":"scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town. The bench is empty; only the furin rings.","translation":"Седьмой ушёл к городу. На скамейке пусто, только фурин звенит.","where":"scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town without her. Haruna is still on the bench.","translation":"Седьмой ушёл к городу без неё. Харуна осталась на скамейке.","where":"scenes/last-number-seven/script.js"},
+  {"text":"the seven has gone","translation":"седьмой ушёл","where":"scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is at the stop","translation":"седьмой у остановки","where":"scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is coming","translation":"седьмой подходит","where":"scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is leaving","translation":"седьмой отходит","where":"scenes/last-number-seven/widgets/clock.html"},
+  {"text":"{left} min to the seven","translation":"до седьмого {left} мин","where":"scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is late","translation":"седьмой опаздывает","where":"scenes/last-number-seven/widgets/clock.html"}
+]}
