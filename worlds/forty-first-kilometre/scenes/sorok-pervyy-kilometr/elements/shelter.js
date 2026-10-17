@@ -54,4 +54,4 @@ g.fillRect(2.13, -2.75, 0.6, 0.38);
 g.fillStyle = "#1a1f1e";
 g.font = "bold 0.15px sans-serif";
 g.textAlign = "center";
-g.fillText("41 км", 2.43, -2.5);
+g.fillText(tr('41 km'), 2.43, -2.5);

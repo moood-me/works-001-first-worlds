@@ -1,9 +1,9 @@
 {
-  "title": "Сорок первый километр",
-  "description": "Ночная остановка в тумане, последний автобус давно ушёл. На дороге стоит тот, кто пришёл тебя встретить — с цветами.",
+  "title": "The Forty-First Kilometre",
+  "description": "A night bus stop in the fog; the last bus left long ago. On the road stands someone who has come to meet you, with flowers.",
   "themes": {
-    "хоррор": 60,
-    "встреча": 40
+    "horror": 60,
+    "encounter": 40
   },
   "main": "sorok-pervyy-kilometr"
 }

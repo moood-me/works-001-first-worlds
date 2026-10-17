@@ -98,21 +98,21 @@
     "fog": 0.6,
     "lamp": 1,
     "near": 0.2,
-    "pose": "стоит",
+    "pose": "standing",
     "flowers": true,
     "headlights": 0
   },
-  "title": "Сорок первый километр",
+  "title": "The Forty-First Kilometre",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Последний автобус ушёл. Тебя всё равно встречают.",
+  "caption": "The last bus has gone. Someone is meeting you anyway.",
   "horizon": 0.47,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "forest",
@@ -122,7 +122,7 @@
         600,
         2
       ],
-      "name": "Лес",
+      "name": "Forest",
       "color": "#0c1112",
       "across": 0,
       "height": 20,
@@ -136,14 +136,14 @@
         10,
         2
       ],
-      "name": "Фары вдали",
+      "name": "Headlights in the distance",
       "across": 0.8,
       "height": 2,
       "distance": 280
     },
     {
       "id": "ground",
-      "name": "Поле",
+      "name": "Field",
       "color": "#0f1412",
       "depth": 360,
       "plane": true,
@@ -153,7 +153,7 @@
     },
     {
       "id": "road",
-      "name": "Дорога",
+      "name": "Road",
       "color": "#191c1c",
       "depth": 300,
       "plane": true,
@@ -163,7 +163,7 @@
     },
     {
       "id": "pool",
-      "name": "Пятно света",
+      "name": "Pool of light",
       "depth": 14,
       "plane": true,
       "width": 14,
@@ -172,21 +172,21 @@
     },
     {
       "id": "pole4",
-      "name": "Столб",
+      "name": "Post",
       "across": 5.5,
       "height": 8,
       "distance": 92
     },
     {
       "id": "pole3",
-      "name": "Столб",
+      "name": "Post",
       "across": 5.5,
       "height": 8,
       "distance": 56
     },
     {
       "id": "pole2",
-      "name": "Столб",
+      "name": "Post",
       "across": 5.5,
       "height": 8,
       "distance": 31
@@ -199,7 +199,7 @@
         90,
         2
       ],
-      "name": "Туман",
+      "name": "Fog",
       "across": 0,
       "height": 4,
       "distance": 22
@@ -212,7 +212,7 @@
         6.5,
         3.8
       ],
-      "name": "Встречающий",
+      "name": "The one meeting you",
       "across": 1,
       "height": 1.85,
       "distance": 10
@@ -225,7 +225,7 @@
         4.5,
         0.8
       ],
-      "name": "Фонарь",
+      "name": "Street lamp",
       "across": -2.6,
       "height": 5.2,
       "distance": 12.5
@@ -238,7 +238,7 @@
         3,
         0.4
       ],
-      "name": "Остановка",
+      "name": "Bus stop",
       "across": -6.2,
       "height": 2.9,
       "distance": 15
@@ -251,7 +251,7 @@
         3,
         0.3
       ],
-      "name": "Сухая трава",
+      "name": "Dry grass",
       "across": -2.6,
       "height": 1.2,
       "distance": 3.2
@@ -264,7 +264,7 @@
         3.5,
         0.3
       ],
-      "name": "Сухая трава",
+      "name": "Dry grass",
       "across": 4.2,
       "height": 1.2,
       "distance": 3.6
@@ -274,17 +274,17 @@
     {
       "at": 2,
       "for": 6,
-      "text": "Последний автобус ушёл в 23:40."
+      "text": "The last bus left at 11:40 pm."
     },
     {
       "at": 10,
       "for": 7,
-      "text": "На дороге кто-то стоит. С цветами."
+      "text": "Someone is standing on the road. With flowers."
     },
     {
       "at": 19,
       "for": 8,
-      "text": "Он пришёл встречать. Тебя."
+      "text": "He has come to meet someone. You."
     }
   ]
 }

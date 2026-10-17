@@ -14,7 +14,7 @@ const d = 60 * Math.pow(5 / 60, near);
 const k = 10 / d;
 const fx = 1.0 * k - 1.0,
   fy = 1.7 * k - 1.7;
-const pose = s.pose || "стоит";
+const pose = s.pose || "standing";
 const fog = s.fog != null ? s.fog : 0.6;
 const L = s.lamp != null ? s.lamp : 1;
 const t = e.t;
@@ -41,7 +41,7 @@ const flowers = (hx, hy, warm) => {
 g.save();
 g.translate(fx, fy);
 g.scale(k, k);
-if (pose === "исчез") {
+if (pose === "gone") {
   g.globalAlpha = 0.35 + 0.65 * vis;
   if (s.flowers !== false) {
     g.strokeStyle = "#28322a";
@@ -64,12 +64,12 @@ if (pose === "исчез") {
   return;
 }
 g.globalAlpha = 0.22 + 0.7 * vis;
-const walk = pose === "идёт";
+const walk = pose === "walking";
 const ph = t * 1.5;
 const sw = walk ? Math.sin(ph) * 0.1 : 0;
 const lift = walk ? Math.abs(Math.sin(ph)) * 0.02 : 0;
 const br = Math.sin(t * 0.83) * 0.006 + Math.sin(t * 0.31 + 1) * 0.004;
-const tilt = pose === "рядом" ? 0.38 : 0.2 + Math.sin(t * 0.13) * 0.03;
+const tilt = pose === "close" ? 0.38 : 0.2 + Math.sin(t * 0.13) * 0.03;
 const warm = L * Math.max(0, Math.min(1, (18 - d) / 12));
 if (warm > 0.02) {
   let sg = g.createLinearGradient(0, 0, 2.6, 0);
@@ -145,7 +145,7 @@ const swing = walk ? -sw * 0.6 : Math.sin(t * 0.5) * 0.012;
 const wv = Math.sin(t * 0.9) * 0.05;
 g.beginPath();
 g.moveTo(-0.17, -1.44 + br);
-if (pose === "машет") {
+if (pose === "waving") {
   g.quadraticCurveTo(-0.38, -1.6, -0.4 + wv, -2.0);
 } else {
   g.quadraticCurveTo(-0.26, -1.0, -0.25 + swing, -0.42);
@@ -154,7 +154,7 @@ g.stroke();
 let hx, hy;
 g.beginPath();
 g.moveTo(0.17, -1.44 + br);
-if (pose === "рядом") {
+if (pose === "close") {
   hx = 0.04;
   hy = -1.0;
   g.quadraticCurveTo(0.3, -1.1, hx, hy);
@@ -168,7 +168,7 @@ g.fillStyle = skin;
 g.beginPath();
 g.ellipse(hx, hy + 0.02, 0.026, 0.045, 0, 0, 7);
 g.fill();
-if (pose === "машет") {
+if (pose === "waving") {
   g.beginPath();
   g.ellipse(-0.4 + wv, -2.03, 0.026, 0.045, wv, 0, 7);
   g.fill();
