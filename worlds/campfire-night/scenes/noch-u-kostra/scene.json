@@ -5,21 +5,21 @@
     "vignette": 0.5,
     "hazeColor": "#1a2233"
   },
-  "title": "Ночь у костра",
+  "title": "Night by the Campfire",
   "camera": {
     "mode": "around"
   },
-  "caption": "Оглянись. Здесь всё вокруг.",
+  "caption": "Look around. It's all here, all around you.",
   "horizon": 0.52,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "ground",
-      "name": "Поляна",
+      "name": "Clearing",
       "depth": 50,
       "plane": true,
       "width": 50,
@@ -34,7 +34,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 10.6,
       "bearing": -2.8,
       "distance": 13.5
@@ -47,7 +47,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 8.2,
       "bearing": 45.6,
       "distance": 15.7
@@ -60,7 +60,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 9.7,
       "bearing": 67.6,
       "distance": 12.4
@@ -73,7 +73,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 9.7,
       "bearing": 83.1,
       "distance": 12.9
@@ -86,7 +86,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 8.9,
       "bearing": 117.7,
       "distance": 13.2
@@ -99,7 +99,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 10.3,
       "bearing": 137.0,
       "distance": 21.5
@@ -112,7 +112,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 8.2,
       "bearing": 155.8,
       "distance": 21.8
@@ -125,7 +125,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 8.6,
       "bearing": -174.3,
       "distance": 14.9
@@ -138,7 +138,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 11.3,
       "bearing": -163.6,
       "distance": 15.1
@@ -151,7 +151,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 10.6,
       "bearing": -140.1,
       "distance": 17.8
@@ -164,7 +164,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 8.3,
       "bearing": -114.5,
       "distance": 17.5
@@ -177,7 +177,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 10.7,
       "bearing": -97.0,
       "distance": 14.1
@@ -190,7 +190,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 10.3,
       "bearing": -68.7,
       "distance": 15.1
@@ -203,7 +203,7 @@
         4,
         0.3
       ],
-      "name": "Ель",
+      "name": "Spruce",
       "height": 11.2,
       "bearing": -45.7,
       "distance": 15.0
@@ -216,7 +216,7 @@
         0.9,
         0.2
       ],
-      "name": "Костёр",
+      "name": "Campfire",
       "height": 1.2,
       "bearing": 0,
       "flicker": 0.6,
@@ -230,7 +230,7 @@
         0.8,
         0.1
       ],
-      "name": "Друг у огня",
+      "name": "Friend by the fire",
       "height": 1.15,
       "bearing": -38,
       "distance": 3.4
@@ -243,7 +243,7 @@
         1.6,
         0.1
       ],
-      "name": "Палатка",
+      "name": "Tent",
       "height": 1.6,
       "bearing": 115,
       "distance": 5.5
@@ -256,7 +256,7 @@
         1.6,
         0.25
       ],
-      "name": "Сова",
+      "name": "Owl",
       "height": 0.45,
       "bearing": 178,
       "distance": 8,
