@@ -87,28 +87,28 @@
     "brightness": 0.45
   },
   "state": {
-    "bus": "далеко",
+    "bus": "far",
     "busX": 0,
     "dusk": 0,
     "gone": 0,
     "lamp": false,
-    "sota": "у велосипеда",
+    "sota": "by the bike",
     "time": "18:20",
     "wind": 0.45,
     "sotaX": 0,
-    "haruna": "сидит"
+    "haruna": "sitting"
   },
-  "title": "Последний седьмой",
+  "title": "The Last Number Seven",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Остановка у рисовых полей. Последний автобус в город — в 18:47.",
+  "caption": "A bus stop by the rice fields. The last bus to town is at 18:47.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "закатное небо"
+      "name": "sunset sky"
     },
     {
       "x": 0.5,
@@ -119,7 +119,7 @@
         2600,
         4
       ],
-      "name": "горы за полями",
+      "name": "mountains beyond the fields",
       "height": 150,
       "distance": 1400
     },
@@ -132,14 +132,14 @@
         900,
         1
       ],
-      "name": "деревня за полями",
+      "name": "village beyond the fields",
       "height": 24,
       "distance": 260
     },
     {
       "x": 0.5,
       "id": "paddies",
-      "name": "рисовые поля",
+      "name": "rice fields",
       "depth": 190,
       "plane": true,
       "width": 700,
@@ -154,7 +154,7 @@
         40,
         130
       ],
-      "name": "солнце в воде",
+      "name": "sun in the water",
       "height": 10,
       "distance": 140
     },
@@ -166,7 +166,7 @@
         95,
         0.3
       ],
-      "name": "провода",
+      "name": "power lines",
       "across": 0,
       "height": 9,
       "distance": 14.5
@@ -174,7 +174,7 @@
     {
       "x": 0.5,
       "id": "grass_far",
-      "name": "травяная полоса",
+      "name": "strip of grass",
       "depth": 4,
       "plane": true,
       "width": 300,
@@ -182,7 +182,7 @@
     },
     {
       "id": "pad",
-      "name": "бетон у навеса",
+      "name": "concrete by the shelter",
       "depth": 1.8,
       "plane": true,
       "width": 7,
@@ -193,7 +193,7 @@
     {
       "x": 0.5,
       "id": "road",
-      "name": "дорога",
+      "name": "road",
       "depth": 3.6,
       "plane": true,
       "width": 300,
@@ -202,7 +202,7 @@
     {
       "x": 0.5,
       "id": "verge",
-      "name": "обочина",
+      "name": "roadside",
       "depth": 6.6,
       "plane": true,
       "width": 60,
@@ -216,7 +216,7 @@
         0.4,
         0.15
       ],
-      "name": "табличка «Мидзусава, поворот»",
+      "name": "sign “Mizusawa, the bend”",
       "across": -6.9,
       "height": 2.4,
       "distance": 12.3
@@ -229,7 +229,7 @@
         2.8,
         0.2
       ],
-      "name": "навес остановки",
+      "name": "bus shelter",
       "across": -4.3,
       "height": 2.8,
       "distance": 12.8
@@ -242,7 +242,7 @@
         0.6,
         0.15
       ],
-      "name": "торговый автомат",
+      "name": "vending machine",
       "across": -1.3,
       "height": 1.85,
       "distance": 12.5
@@ -255,7 +255,7 @@
         0.9,
         0.15
       ],
-      "name": "Харуна",
+      "name": "Haruna",
       "across": -4.6,
       "height": 1.6,
       "distance": 12.45
@@ -268,7 +268,7 @@
         0.3,
         0.7
       ],
-      "name": "фурин",
+      "name": "furin",
       "across": -2.5,
       "height": 0.6,
       "distance": 12.25,
@@ -282,7 +282,7 @@
         1.2,
         0.2
       ],
-      "name": "Сота",
+      "name": "Sota",
       "across": 6.6,
       "height": 1.75,
       "distance": 12.9
@@ -295,7 +295,7 @@
         60,
         0.4
       ],
-      "name": "автобус №7",
+      "name": "bus No. 7",
       "across": 0,
       "height": 2.7,
       "distance": 10.2
@@ -308,7 +308,7 @@
         4.5,
         0.2
       ],
-      "name": "красные стрекозы",
+      "name": "red dragonflies",
       "across": 0.5,
       "height": 2,
       "distance": 5
@@ -321,7 +321,7 @@
         10,
         0.3
       ],
-      "name": "светлячки",
+      "name": "fireflies",
       "across": 0,
       "height": 2.5,
       "distance": 6
@@ -334,7 +334,7 @@
         7,
         0.2
       ],
-      "name": "высокая трава",
+      "name": "tall grass",
       "across": 0,
       "height": 1.6,
       "distance": 3.4
@@ -345,7 +345,7 @@
       "x": 0.02,
       "y": 0.03,
       "id": "clock",
-      "name": "часы остановки",
+      "name": "bus stop clock",
       "width": 320,
       "anchor": "top-left",
       "height": 80
@@ -355,17 +355,17 @@
     {
       "at": 2,
       "for": 7,
-      "text": "Последний седьмой уходит в город в 18:47."
+      "text": "The last number seven leaves for town at 18:47."
     },
     {
       "at": 11,
       "for": 8,
-      "text": "Чемодан она собирала три дня. Сказать ему — не успела за три года."
+      "text": "It took her three days to pack the suitcase. In three years she never found the time to tell him."
     },
     {
       "at": 21,
       "for": 8,
-      "text": "Он стоит у поворота и делает вид, что поправляет цепь."
+      "text": "He stands at the bend, pretending to fix his chain."
     }
   ]
 }

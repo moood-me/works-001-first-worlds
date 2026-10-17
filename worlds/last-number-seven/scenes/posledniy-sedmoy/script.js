@@ -12,53 +12,53 @@ const follow = (t, over) => {
   over ? scene.set("dusk", v, over) : scene.set("dusk", v);
   if (!scene.get("lamp") && v >= 0.45) {
     scene.set("lamp", true);
-    scene.tell("Над скамейкой, помигав, зажглась лампа дневного света.", "shelter");
+    scene.tell(tr('Over the bench a fluorescent lamp blinks and comes on.'), "shelter");
   }
-  if (mins(t) >= DUE && scene.get("bus") === "далеко") scene.set("bus", "подъезжает");
+  if (mins(t) >= DUE && scene.get("bus") === "far") scene.set("bus", "arriving");
 };
 const depart = () =>
   scene.after(30, () => {
-    if (scene.get("bus") === "стоит") scene.set("bus", "отходит");
+    if (scene.get("bus") === "waiting") scene.set("bus", "leaving");
   });
 scene.on("change", "bus", (v) => {
-  if (v === "подъезжает") {
+  if (v === "arriving") {
     scene.set("busX", 0);
     scene.set("busX", 1, 14);
     scene.after(14, () => {
-      if (scene.get("bus") === "подъезжает") scene.set("bus", "стоит");
+      if (scene.get("bus") === "arriving") scene.set("bus", "waiting");
     });
-  } else if (v === "стоит") {
+  } else if (v === "waiting") {
     scene.set("busX", 1);
-    scene.tell("Седьмой остановился у навеса и открыл двери. Водитель смотрит на скамейку и ждёт.", "bus");
+    scene.tell(tr('The seven has pulled up at the shelter and opened its doors. The driver looks at the bench and waits.'), "bus");
     depart();
-  } else if (v === "отходит") {
+  } else if (v === "leaving") {
     scene.set("busX", 2, 14);
     scene.after(14, () => {
-      if (scene.get("bus") === "отходит") scene.set("bus", "уехал");
+      if (scene.get("bus") === "leaving") scene.set("bus", "gone");
     });
-  } else if (v === "уехал") {
+  } else if (v === "gone") {
     scene.set("busX", 2);
-    const gone = scene.get("haruna") === "в автобусе";
-    if (gone) scene.set("haruna", "уехала");
+    const gone = scene.get("haruna") === "on the bus";
+    if (gone) scene.set("haruna", "gone");
     scene.tell(
       gone
-        ? "Седьмой ушёл к городу. На скамейке пусто, только фурин звенит."
-        : "Седьмой ушёл к городу без неё. Харуна осталась на скамейке.",
+        ? tr('The seven has gone off toward town. The bench is empty; only the furin rings.')
+        : tr('The seven has gone off toward town without her. Haruna is still on the bench.'),
       "bus",
     );
-  } else if (v === "далеко") scene.set("busX", 0);
+  } else if (v === "far") scene.set("busX", 0);
 });
-scene.on("change", "haruna", (v) => scene.set("gone", v === "в автобусе" || v === "уехала" ? 1 : 0, 2));
-scene.on("change", "sota", (v) => scene.set("sotaX", v === "у остановки" ? 1 : 0, 14));
+scene.on("change", "haruna", (v) => scene.set("gone", v === "on the bus" || v === "gone" ? 1 : 0, 2));
+scene.on("change", "sota", (v) => scene.set("sotaX", v === "at the stop" ? 1 : 0, 14));
 scene.on("change", "time", (t) => follow(t, 8));
 const b = scene.get("bus");
-if (b === "подъезжает") scene.set("bus", "стоит");
-else if (b === "стоит") {
+if (b === "arriving") scene.set("bus", "waiting");
+else if (b === "waiting") {
   scene.set("busX", 1);
   depart();
-} else if (b === "отходит") scene.set("bus", "уехал");
-scene.set("gone", ["в автобусе", "уехала"].includes(scene.get("haruna")) ? 1 : 0);
-scene.set("sotaX", scene.get("sota") === "у остановки" ? 1 : 0);
+} else if (b === "leaving") scene.set("bus", "gone");
+scene.set("gone", ["on the bus", "gone"].includes(scene.get("haruna")) ? 1 : 0);
+scene.set("sotaX", scene.get("sota") === "at the stop" ? 1 : 0);
 follow(scene.get("time"));
 scene.every(10, () => {
   const m = mins(scene.get("time"));

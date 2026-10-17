@@ -1,9 +1,9 @@
 {
-  "title": "Последний седьмой",
-  "description": "Деревенская остановка у затопленных рисовых полей, летний закат. Харуна с чемоданом ждёт последний автобус в город. Сота стоит у поворота с велосипедом и молчит. До 18:47 — двадцать семь минут.",
+  "title": "The Last Number Seven",
+  "description": "A village bus stop by the flooded rice fields, a summer sunset. Haruna sits with her suitcase, waiting for the last bus to town. Sota stands at the bend with his bike and says nothing. Twenty-seven minutes until 18:47.",
   "themes": {
-    "аниме": 60,
-    "драма": 40
+    "anime": 60,
+    "drama": 40
   },
   "main": "posledniy-sedmoy"
 }

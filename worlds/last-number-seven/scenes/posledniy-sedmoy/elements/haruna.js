@@ -2,7 +2,7 @@ const s = e.state,
   d = s.dusk || 0,
   t = e.t,
   gn = s.gone || 0;
-const stand = s.haruna !== "сидит";
+const stand = s.haruna !== "sitting";
 const Y = stand ? -0.28 : 0;
 e.at(0, -1.3 + Y);
 if (gn >= 0.99) return;

@@ -13,7 +13,7 @@ if (p <= 1) {
   x = -1.4 - 50 * q * q;
 }
 const L = 3.4,
-  open = s.bus === "стоит";
+  open = s.bus === "waiting";
 const idle = open ? Math.sin(t * 23) * 0.006 : 0;
 g.save();
 g.translate(x, idle);
@@ -81,7 +81,7 @@ g.fillRect(-L + 0.1, -2.55, 1.8, 0.25);
 g.fillStyle = "rgba(255,170,70,0.95)";
 g.font = "bold 0.18px sans-serif";
 g.textBaseline = "middle";
-g.fillText("7  ГОРОД", -L + 0.18, -2.42);
+g.fillText(tr('7  TOWN'), -L + 0.18, -2.42);
 for (const wx of [-L + 1.0, L - 1.0]) {
   g.fillStyle = "#16161a";
   g.beginPath();
