@@ -94,22 +94,22 @@
     "lantern": 1,
     "dogAlert": 0
   },
-  "title": "Пристань утром",
+  "title": "The Pier in the Morning",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Туман над водой. Рыбак и пёс смотрят на поплавок.",
+  "caption": "Mist over the water. The fisherman and his dog watch the float.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо и озеро"
+      "name": "Sky and lake"
     },
     {
       "id": "sun",
       "sky": true,
-      "name": "Солнце в тумане",
+      "name": "Sun in the mist",
       "color": "#fff3e2"
     },
     {
@@ -120,7 +120,7 @@
         800,
         3
       ],
-      "name": "Лес на том берегу",
+      "name": "Forest on the far shore",
       "color": "#46505b",
       "height": 24,
       "reflect": true,
@@ -134,7 +134,7 @@
         400,
         4
       ],
-      "name": "Туман у того берега",
+      "name": "Mist by the far shore",
       "height": 10,
       "distance": 140
     },
@@ -147,7 +147,7 @@
         3,
         0.4
       ],
-      "name": "Лодка",
+      "name": "Boat",
       "sway": 1.2,
       "color": "#3a3d44",
       "across": -8,
@@ -163,13 +163,13 @@
         120,
         2
       ],
-      "name": "Туман над водой",
+      "name": "Mist over the water",
       "height": 3,
       "distance": 28
     },
     {
       "id": "pierDeck",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#5a5450",
       "depth": 4.7,
       "plane": true,
@@ -180,7 +180,7 @@
     },
     {
       "id": "pierDeck5",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#5a5450",
       "depth": 4.5,
       "plane": true,
@@ -191,7 +191,7 @@
     },
     {
       "id": "pierDeck4",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#5a5450",
       "depth": 4.5,
       "plane": true,
@@ -202,7 +202,7 @@
     },
     {
       "id": "pierDeck3",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#5a5450",
       "depth": 4.5,
       "plane": true,
@@ -213,7 +213,7 @@
     },
     {
       "id": "pierDeck2",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#5a5450",
       "depth": 4.5,
       "plane": true,
@@ -224,7 +224,7 @@
     },
     {
       "id": "pierDeck1",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#5a5450",
       "depth": 2.5,
       "plane": true,
@@ -241,7 +241,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -255,7 +255,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -269,7 +269,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -283,7 +283,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -297,7 +297,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -311,7 +311,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -325,7 +325,7 @@
         0.5,
         0.1
       ],
-      "name": "Фонарь",
+      "name": "Lantern",
       "across": 2.3,
       "height": 2,
       "flicker": 0.25,
@@ -335,7 +335,7 @@
     },
     {
       "id": "lanternPath",
-      "name": "Отблеск фонаря на воде",
+      "name": "Lantern's gleam on the water",
       "depth": 10,
       "plane": true,
       "width": 9,
@@ -351,7 +351,7 @@
         0.45,
         0.08
       ],
-      "name": "Ведро",
+      "name": "Bucket",
       "color": "#8e9294",
       "across": 1.9,
       "height": 0.5,
@@ -366,7 +366,7 @@
         0.4,
         0.9
       ],
-      "name": "Удочка",
+      "name": "Fishing rod",
       "color": "#3a2e26",
       "across": 0.7,
       "height": 1.4,
@@ -381,7 +381,7 @@
         0.5,
         0.5
       ],
-      "name": "Рыбак",
+      "name": "Fisherman",
       "color": "#2b2d30",
       "across": 0.7,
       "height": 1,
@@ -397,7 +397,7 @@
         0.6,
         0.08
       ],
-      "name": "Собака",
+      "name": "Dog",
       "color": "#3b3632",
       "across": 1.25,
       "height": 0.5,
@@ -413,7 +413,7 @@
         60,
         1.5
       ],
-      "name": "Утки",
+      "name": "Ducks",
       "color": "#3a3b40",
       "across": 0,
       "height": 1,
@@ -429,7 +429,7 @@
         4,
         0.6
       ],
-      "name": "Туман у самой воды",
+      "name": "Mist right on the water",
       "across": -4,
       "height": 2.5,
       "distance": 13,
@@ -443,7 +443,7 @@
         1.6,
         0.1
       ],
-      "name": "Камыш",
+      "name": "Reeds",
       "sway": 1.5,
       "across": -3.2,
       "height": 1.5,

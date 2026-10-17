@@ -91,22 +91,22 @@
     "bite": 0,
     "lantern": 1
   },
-  "title": "Ночная пристань",
+  "title": "Night Pier",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Туман лежит на воде, и лодка будто висит в воздухе.",
+  "caption": "Mist lies on the water, and the boat seems to hang in the air.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Небо и озеро"
+      "name": "Sky and lake"
     },
     {
       "id": "moon",
       "sky": true,
-      "name": "Луна",
+      "name": "Moon",
       "color": "#ebe8dc"
     },
     {
@@ -117,7 +117,7 @@
         800,
         3
       ],
-      "name": "Лес на том берегу",
+      "name": "Forest on the far shore",
       "color": "#0b1119",
       "height": 24,
       "reflect": true,
@@ -131,7 +131,7 @@
         400,
         4
       ],
-      "name": "Туман у того берега",
+      "name": "Mist by the far shore",
       "height": 10,
       "distance": 140
     },
@@ -144,7 +144,7 @@
         3,
         0.4
       ],
-      "name": "Лодка",
+      "name": "Boat",
       "sway": 1.2,
       "color": "#10141b",
       "across": -8,
@@ -160,13 +160,13 @@
         120,
         2
       ],
-      "name": "Туман над водой",
+      "name": "Mist over the water",
       "height": 3,
       "distance": 28
     },
     {
       "id": "pierDeck",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#2a2726",
       "depth": 4.7,
       "plane": true,
@@ -177,7 +177,7 @@
     },
     {
       "id": "pierDeck5",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#2a2726",
       "depth": 4.5,
       "plane": true,
@@ -188,7 +188,7 @@
     },
     {
       "id": "pierDeck4",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#2a2726",
       "depth": 4.5,
       "plane": true,
@@ -199,7 +199,7 @@
     },
     {
       "id": "pierDeck3",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#2a2726",
       "depth": 4.5,
       "plane": true,
@@ -210,7 +210,7 @@
     },
     {
       "id": "pierDeck2",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#2a2726",
       "depth": 4.5,
       "plane": true,
@@ -221,7 +221,7 @@
     },
     {
       "id": "pierDeck1",
-      "name": "Причал",
+      "name": "Pier",
       "color": "#2a2726",
       "depth": 2.5,
       "plane": true,
@@ -238,7 +238,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -252,7 +252,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -266,7 +266,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -280,7 +280,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -294,7 +294,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -308,7 +308,7 @@
         1.1,
         0.1
       ],
-      "name": "Сваи",
+      "name": "Piles",
       "across": 1.6,
       "height": 1.1,
       "reflect": true,
@@ -322,7 +322,7 @@
         0.5,
         0.1
       ],
-      "name": "Фонарь",
+      "name": "Lantern",
       "across": 2.3,
       "height": 2,
       "flicker": 0.25,
@@ -332,7 +332,7 @@
     },
     {
       "id": "lanternPath",
-      "name": "Отблеск фонаря на воде",
+      "name": "Lantern's gleam on the water",
       "depth": 10,
       "plane": true,
       "width": 9,
@@ -348,7 +348,7 @@
         0.7,
         0.8
       ],
-      "name": "Рыбак",
+      "name": "Fisherman",
       "across": 0.78,
       "height": 0.95,
       "distance": 23,
@@ -362,7 +362,7 @@
         9,
         -0.5
       ],
-      "name": "Летучие мыши",
+      "name": "Bats",
       "color": "#0b0a0e",
       "across": 1.5,
       "height": 6,
@@ -376,7 +376,7 @@
         1.6,
         0.1
       ],
-      "name": "Камыш",
+      "name": "Reeds",
       "sway": 1.5,
       "across": -3.2,
       "height": 1.5,
@@ -388,17 +388,17 @@
     {
       "at": 6,
       "for": 9,
-      "text": "Фонарь горит на самом краю — для того, кто ещё не приплыл."
+      "text": "The lantern burns at the very end, for whoever hasn't rowed in yet."
     },
     {
       "at": 22,
       "for": 8,
-      "text": "Где-то в тумане тихо стукнуло весло о борт."
+      "text": "Somewhere in the mist an oar knocked softly against a boat."
     },
     {
       "at": 38,
       "for": 9,
-      "text": "Рыбак не смотрит на поплавок. Он смотрит, как туман идёт к лодке."
+      "text": "The fisherman isn't watching his float. He watches the mist moving toward the boat."
     }
   ]
 }
