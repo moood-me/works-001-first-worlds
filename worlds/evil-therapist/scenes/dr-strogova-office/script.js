@@ -10,7 +10,7 @@ scene.every(4, function () {
     var n = scene.get("notes") || 0;
     if (n < 15) {
       scene.set("notes", n + 1);
-      if (n + 1 === 15) scene.tell(tr('The page in the file has run out: the doctor has covered it from top to bottom.'), "desk");
+      if (n + 1 === 15) scene.tell(tr('The page in the file is full: the doctor has written it from top to bottom.'), "desk");
     }
   }
 });

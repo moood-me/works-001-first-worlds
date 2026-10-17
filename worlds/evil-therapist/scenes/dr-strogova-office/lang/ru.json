@@ -6,8 +6,8 @@
   {"text":"psychotherapist","translation":"психотерапевт","where":"scenes/dr-strogova-office/elements/nameplate.js"},
   {"text":"ONE AT A TIME","translation":"ПО ОДНОЙ","where":"scenes/dr-strogova-office/elements/tissues.js"},
   {"text":"it's just a mirror","translation":"это просто зеркало","where":"scenes/dr-strogova-office/elements/wall.js"},
-  {"text":"EXIT —","translation":"ВЫХОД —","where":"scenes/dr-strogova-office/elements/wall.js"},
-  {"text":"after the session","translation":"по окончании сеанса","where":"scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"EXIT","translation":"ВЫХОД —","where":"scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"only after the session","translation":"по окончании сеанса","where":"scenes/dr-strogova-office/elements/wall.js"},
   {"text":"YOUR FEELINGS MATTER*","translation":"ВАШИ ЧУВСТВА ВАЖНЫ*","where":"scenes/dr-strogova-office/elements/wall.js"},
   {"text":"*and will be noted","translation":"*и будут учтены","where":"scenes/dr-strogova-office/elements/wall.js"},
   {"text":"Dr Strogova's Office","translation":"Кабинет д-ра Строговой","where":"scenes/dr-strogova-office/scene.json title"},
@@ -16,5 +16,5 @@
   {"text":"Your file is already open. It's thicker than you thought.","translation":"Ваше дело уже открыто. Оно толще, чем вы думали.","where":"scenes/dr-strogova-office/scene.json captions[1] text"},
   {"text":"Tissues: one at a time. That is part of the therapy too.","translation":"Салфетки — по одной. Это тоже часть терапии.","where":"scenes/dr-strogova-office/scene.json captions[2] text"},
   {"text":"The clock on the wall says ten to three: the session's time is up.","translation":"Часы на стене показывают 14:50 — время сеанса вышло.","where":"scenes/dr-strogova-office/script.js"},
-  {"text":"The page in the file has run out: the doctor has covered it from top to bottom.","translation":"В деле кончилась страница: доктор исписала её целиком.","where":"scenes/dr-strogova-office/script.js"}
+  {"text":"The page in the file is full: the doctor has written it from top to bottom.","translation":"В деле кончилась страница: доктор исписала её целиком.","where":"scenes/dr-strogova-office/script.js"}
 ]}
