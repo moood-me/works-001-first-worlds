@@ -5,21 +5,21 @@
     "vignette": 0.45,
     "hazeColor": "#2a2018"
   },
-  "title": "Комната",
+  "title": "The Room",
   "camera": {
     "mode": "roam"
   },
-  "caption": "Кот знает, где теплее.",
+  "caption": "The cat knows where it's warmer.",
   "horizon": 0.5,
   "objects": [
     {
       "id": "night",
       "sky": true,
-      "name": "Ночь за окном"
+      "name": "Night outside the window"
     },
     {
       "id": "floor",
-      "name": "Пол",
+      "name": "Floor",
       "depth": 7,
       "plane": true,
       "width": 8,
@@ -28,7 +28,7 @@
     },
     {
       "id": "ceiling",
-      "name": "Потолок",
+      "name": "Ceiling",
       "depth": 7,
       "plane": true,
       "width": 8,
@@ -44,7 +44,7 @@
         4.0,
         0
       ],
-      "name": "Стена с окном",
+      "name": "Wall with a window",
       "facing": 180,
       "height": 2.8,
       "bearing": 0,
@@ -58,7 +58,7 @@
         4.0,
         0
       ],
-      "name": "Стена с картиной",
+      "name": "Wall with a painting",
       "facing": 0,
       "height": 2.8,
       "bearing": 180,
@@ -72,7 +72,7 @@
         3.5,
         0
       ],
-      "name": "Стена слева",
+      "name": "Left wall",
       "facing": 90,
       "height": 2.8,
       "bearing": -75.96,
@@ -86,7 +86,7 @@
         3.5,
         0
       ],
-      "name": "Стена справа",
+      "name": "Right wall",
       "facing": 270,
       "height": 2.8,
       "bearing": 75.96,
@@ -100,7 +100,7 @@
         0.55,
         0
       ],
-      "name": "Книжный шкаф",
+      "name": "Bookcase",
       "facing": 90,
       "height": 2.1,
       "bearing": -53.62,
@@ -114,7 +114,7 @@
         1.0,
         0
       ],
-      "name": "Кровать",
+      "name": "Bed",
       "facing": 270,
       "height": 0.9,
       "bearing": 52.0,
@@ -128,7 +128,7 @@
         0.6,
         0
       ],
-      "name": "Стол",
+      "name": "Table",
       "facing": 180,
       "height": 0.75,
       "bearing": 21.8,
@@ -142,7 +142,7 @@
         0.25,
         0.02
       ],
-      "name": "Лампа",
+      "name": "Lamp",
       "height": 0.5,
       "bearing": 24.23,
       "flicker": 0.05,
@@ -157,7 +157,7 @@
         0.45,
         0.04
       ],
-      "name": "Кот",
+      "name": "Cat",
       "height": 0.32,
       "bearing": -11.77,
       "distance": 2.452
