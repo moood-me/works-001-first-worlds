@@ -34,9 +34,9 @@ const bottle = (gl) => {
   g.fillRect(-0.034, -0.16, 0.004, 0.1);
 };
 const b = Math.sin(e.t * 1.05) * 0.004 + Math.sin(e.t * 0.41) * 0.003,
-  tr = Math.sin(e.t * 7.3) * 0.0007,
+  tremor = Math.sin(e.t * 7.3) * 0.0007,
   gl = 0.35 + 0.65 * sweep;
-g.translate(tr, b);
+g.translate(tremor, b);
 g.fillStyle = "#0a0c11";
 g.beginPath();
 g.moveTo(-0.5, 0.62);
