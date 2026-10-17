@@ -110,7 +110,7 @@ g.scale(0.0035, 0.0035);
 g.font = "bold 24px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(170,195,220," + (0.3 + 0.25 * L) + ")";
-g.fillText("КРИО-3", 0, 0);
+g.fillText(tr('CRYO-3'), 0, 0);
 g.restore();
 const sealB = op > 0.02 ? 1 : Math.sin(t * 1.7) > 0.55 ? 1 : 0.2;
 for (let i = 0; i < 6; i++) {

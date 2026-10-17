@@ -1,9 +1,9 @@
 {
-  "title": "Стук в иллюминатор",
-  "description": "Грузовой корабль «Ладога» третьи сутки дрейфует у мёртвого красного карлика. В смотровом отсеке гаснет свет, кислорода всё меньше, а в стекло снаружи стучит скафандр штурмана, ушедшего в открытый космос во вторник.",
+  "title": "A Knock on the Porthole",
+  "description": "The cargo ship Ladoga has been drifting by a dead red dwarf for three days. In the observation bay the lights are going out, the oxygen is running low, and from outside someone knocks on the glass: the spacesuit of the navigator who went out into open space on Tuesday.",
   "themes": {
-    "космос": 60,
-    "хоррор": 40
+    "space": 60,
+    "horror": 40
   },
   "main": "smotrovoy-otsek-ladogi"
 }

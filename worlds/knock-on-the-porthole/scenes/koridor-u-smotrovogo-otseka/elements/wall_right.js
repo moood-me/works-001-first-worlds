@@ -98,8 +98,8 @@ for (let k = 0; k < 5; k++) {
 }
 g.fillStyle = "#0c0e12";
 for (let x = -6.5; x <= 6.5; x += 1.3) g.fillRect(x - 0.03, -2.48, 0.06, 0.25);
-txt("←  ШЛЮЗ 2", -1.9, -1.15, 14, 0.2);
-txt("ПАЛУБА 2 · СЕКЦ. 4", 4.4, -1.85, 11, 0.16);
+txt(tr('←  AIRLOCK 2'), -1.9, -1.15, 14, 0.2);
+txt(tr('DECK 2 · SECT. 4'), 4.4, -1.85, 11, 0.16);
 for (let i = 0; i < 700; i++) {
   const x = -6.5 + e.rnd() * 13,
     y = -Math.pow(e.rnd(), 2) * 0.7,
@@ -167,7 +167,7 @@ g.fillStyle = "rgba(127,196,255,0.18)";
 g.fillRect(hx - 0.38, -0.1, 0.76, 0.012);
 g.fillStyle = "rgba(150,120,40,0.22)";
 g.fillRect(hx - 0.52, -0.07, 1.04, 0.06);
-txt("СМОТРОВОЙ ОТСЕК · 4", hx, -2.14, 9, 0.26);
+txt(tr('OBSERVATION BAY · 4'), hx, -2.14, 9, 0.26);
 g.fillStyle = "#050608";
 g.fillRect(-2.85, -1.75, 0.5, 0.75);
 g.fillStyle = "#1a1d22";
@@ -189,7 +189,7 @@ g.lineTo(-2.2, -0.92);
 g.lineTo(-2.35, -1.0);
 g.closePath();
 g.fill();
-txt("O₂ · АВАР. МАСКИ", -2.6, -1.84, 6, 0.24, "200,110,90");
+txt(tr('O₂ · EMERG. MASKS'), -2.6, -1.84, 6, 0.24, "200,110,90");
 for (const h of H) {
   const hx2 = h[0],
     hy = h[1];

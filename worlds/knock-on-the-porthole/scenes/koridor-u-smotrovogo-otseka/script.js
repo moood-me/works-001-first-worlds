@@ -1,15 +1,15 @@
 const VZ = { hatch: 2, porthole: 6.4, door: 9.2, gone: 9.9 };
 const DO = { locked: 0, jammed: 0.03, ajar: 0.3, open: 1 };
 const doorMsg = {
-  open: "Створки шлюза №2 разошлись до конца. Из камеры тянет холодом, по полу стелется пар.",
-  ajar: "Створки шлюза №2 разошлись на ладонь и встали.",
-  locked: "Шлюз №2 сомкнулся и заблокировался.",
+  open: tr('The doors of airlock 2 have opened all the way. Cold drifts out of the chamber, vapour creeps across the floor.'),
+  ajar: tr('The doors of airlock 2 have parted a hand\'s width and stuck.'),
+  locked: tr('Airlock 2 has closed and locked.'),
 };
 const veraMsg = {
-  door: "Вера дошла до шлюза и взялась за рукоять ручного привода.",
-  porthole: "Вера остановилась у иллюминатора; за стеклом — красный диск карлика.",
-  hatch: "Вера вернулась к люку смотрового отсека.",
-  gone: "Вера скрылась в шлюзе.",
+  door: tr('Vera has reached the airlock and taken hold of the manual drive\'s handle.'),
+  porthole: tr('Vera has stopped at a porthole; beyond the glass, the red disc of the dwarf.'),
+  hatch: tr('Vera has gone back to the observation bay hatch.'),
+  gone: tr('Vera has disappeared into the airlock.'),
 };
 const moveVera = (p) => {
   const z = VZ[p] ?? 2,
@@ -42,18 +42,18 @@ scene.every(25, () => {
   const n = Math.min(1, f + (st === "open" ? 0.08 : st === "ajar" ? 0.05 : 0.025));
   scene.set("frost_trail", n, 20);
   if (f < 0.95 && n >= 0.95)
-    scene.after(20, () => scene.tell("Цепочка инеевых следов от шлюза дошла до люка смотрового отсека.", "frost"));
+    scene.after(20, () => scene.tell(tr('A trail of frost footprints from the airlock has reached the observation bay hatch.'), "frost"));
 });
 scene.every(30, () => {
   const o = scene.get("oxygen") ?? 19;
   if (o > 0) {
     scene.set("oxygen", o - 1);
-    if (o - 1 === 10) scene.tell("Кислорода в коридоре осталось десять процентов.", "lida");
+    if (o - 1 === 10) scene.tell(tr('Ten percent of the oxygen is left in the corridor.'), "lida");
   }
 });
 scene.after(40, () => {
   if (scene.get("distant_suit_radio") === "static" && !scene.get("radio_heard")) {
     scene.set("radio_heard", true);
-    scene.tell("Динамик у шлюза ожил: шипение на канале скафандра №2, будто кто-то держит тангенту.", "intercom");
+    scene.tell(tr('The speaker by the airlock has come alive: hiss on the channel of suit 2, as if someone is holding down the talk button.'), "intercom");
   }
 });

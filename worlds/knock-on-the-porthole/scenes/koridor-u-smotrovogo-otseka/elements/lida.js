@@ -34,23 +34,23 @@ g.fillStyle = "#120804";
 g.beginPath();
 g.arc(ex, ey, 0.013, 0, 6.2832);
 g.fill();
-const ST = { locked: "ЗАБЛОКИРОВАН", jammed: "ЗАКЛИНЕН", ajar: "ПРИОТКРЫТ", open: "ОТКРЫТ" }[st] || "?";
+const ST = { locked: tr('LOCKED'), jammed: tr('JAMMED'), ajar: tr('AJAR'), open: tr('OPEN') }[st] || "?";
 const tc = Math.round(-8 - 30 * (s.frost_trail ?? 0.45));
 g.save();
 g.translate(-0.1, -1.5);
 g.scale(0.0024, 0.0024);
 g.font = "11px monospace";
 g.fillStyle = "rgba(255,175,90,0.9)";
-g.fillText("ЛИДА · КОРИДОР 2-4", 0, 0);
+g.fillText(tr('LIDA · CORRIDOR 2-4'), 0, 0);
 g.fillText("O2 " + (s.oxygen ?? 19) + "%   T " + tc + "°C", 0, 15);
 g.fillStyle = st === "open" ? "rgba(255,175,90,0.9)" : "rgba(255,90,60," + (Math.sin(t * 3) > 0 ? 1 : 0.5) + ")";
-g.fillText("ШЛЮЗ 2: " + ST, 0, 30);
+g.fillText(tr('AIRLOCK 2: {state}', { state: ST }), 0, 30);
 g.fillStyle = "rgba(255,205,140,0.95)";
-g.fillText("ЭКИПАЖ НА БОРТУ: 3/3", 0, 45);
+g.fillText(tr('CREW ON BOARD: 3/3'), 0, 45);
 const rd = s.distant_suit_radio || "static";
 if (rd !== "silent") {
   g.fillStyle = "rgba(255,150,80,0.8)";
-  g.fillText(rd === "voice" ? "КАН. 2: ГОЛОС" : "КАН. 2: ШУМ", 0, 60);
+  g.fillText(rd === "voice" ? tr('CH. 2: VOICE') : tr('CH. 2: NOISE'), 0, 60);
 }
 g.restore();
 g.strokeStyle = "rgba(255,160,80,0.55)";

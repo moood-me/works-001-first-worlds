@@ -107,17 +107,17 @@
     "frost_density": 0.9,
     "vera_position": "beside"
   },
-  "title": "Криоблок «Ладоги»",
+  "title": "The Ladoga's Cryo Bay",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Тесный узел капсул. Иней на третьей.",
+  "caption": "A cramped cluster of pods. Frost on the third.",
   "horizon": 0.42,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Темнота отсека"
+      "name": "Darkness of the bay"
     },
     {
       "id": "bay",
@@ -127,7 +127,7 @@
         8,
         0.2
       ],
-      "name": "Задняя стена криоблока",
+      "name": "Back wall of the cryo bay",
       "color": "#111820",
       "across": 0,
       "height": 4.6,
@@ -135,7 +135,7 @@
     },
     {
       "id": "floor",
-      "name": "Решётчатый пол в инее",
+      "name": "Frosted grated floor",
       "color": "#080b0f",
       "depth": 6,
       "plane": true,
@@ -146,7 +146,7 @@
     },
     {
       "id": "ceiling",
-      "name": "Низкий потолок с лампой",
+      "name": "Low ceiling with a lamp",
       "color": "#07090c",
       "depth": 6.4,
       "plane": true,
@@ -163,7 +163,7 @@
         0.6,
         0.1
       ],
-      "name": "Капсула №2, открытая и пустая",
+      "name": "Pod 2, open and empty",
       "color": "#1a2129",
       "across": -2,
       "height": 2.4,
@@ -177,7 +177,7 @@
         0.6,
         0.1
       ],
-      "name": "Капсула №4, мёртвая",
+      "name": "Pod 4, dead",
       "color": "#151b22",
       "across": 2,
       "height": 2.4,
@@ -191,7 +191,7 @@
         0.8,
         0.2
       ],
-      "name": "Капсула №3",
+      "name": "Pod 3",
       "color": "#20262e",
       "across": 0,
       "height": 2.4,
@@ -205,7 +205,7 @@
         0.26,
         0.05
       ],
-      "name": "Ручная панель разблокировки",
+      "name": "Manual release panel",
       "color": "#141920",
       "across": 0.82,
       "height": 0.55,
@@ -220,7 +220,7 @@
         0.18,
         0.04
       ],
-      "name": "ЛИДА, терминал на стене",
+      "name": "LIDA, the terminal on the wall",
       "color": "#1a1410",
       "across": 1.15,
       "height": 0.36,
@@ -235,7 +235,7 @@
         1.7,
         0.2
       ],
-      "name": "Бортинженер Вера Самойлова",
+      "name": "Flight engineer Vera Samoylova",
       "color": "#121720",
       "across": 0,
       "height": 1.68,
@@ -249,7 +249,7 @@
         1.7,
         0.1
       ],
-      "name": "Ледяная пыль в воздухе",
+      "name": "Ice dust in the air",
       "across": 0,
       "height": 2.6,
       "distance": 2.4
@@ -262,7 +262,7 @@
         2.6,
         0.1
       ],
-      "name": "Обмёрзшая переборка и труба",
+      "name": "Frosted bulkhead and pipe",
       "color": "#0d1218",
       "across": 0,
       "height": 2.8,
@@ -276,7 +276,7 @@
         0.3,
         0.1
       ],
-      "name": "Опорная стойка",
+      "name": "Support pillar",
       "color": "#151b23",
       "across": 1.05,
       "height": 3.2,

@@ -24,6 +24,6 @@ g.scale(0.0026, 0.0026);
 g.font = "10px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(255,175,90,0.7)";
-g.fillText("ЛИДА · O2 " + (s.oxygen ?? 21) + "%", 0, 0);
+g.fillText(tr('LIDA · O2 {oxygen}%', { oxygen: s.oxygen ?? 21 }), 0, 0);
 g.restore();
 e.light(0, -0.22, 0.7, "#ff9a4a", 0.3 * pu);

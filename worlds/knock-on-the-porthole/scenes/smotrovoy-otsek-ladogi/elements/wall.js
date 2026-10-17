@@ -64,7 +64,7 @@ g.scale(0.01, 0.01);
 g.font = "bold 16px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(190,170,120,0.22)";
-g.fillText("СМОТРОВОЙ ОТСЕК · 4", 0, 0);
+g.fillText(tr('OBSERVATION BAY · 4'), 0, 0);
 g.restore();
 const rot = (t * 1.4) % (Math.PI * 2),
   R = Math.pow(Math.max(0, Math.cos(rot)), 3) * (1 - P * 0.7);

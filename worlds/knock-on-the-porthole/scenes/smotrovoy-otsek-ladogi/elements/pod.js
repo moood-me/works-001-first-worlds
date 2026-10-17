@@ -110,7 +110,7 @@ g.scale(0.004, 0.004);
 g.font = "bold 22px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(170,200,225,0.55)";
-g.fillText("КРИО-3", 0, 0);
+g.fillText(tr('CRYO-3'), 0, 0);
 g.restore();
 const bl = Math.sin(t * 1.9) > 0.6 ? 1 : 0.15;
 g.fillStyle = "rgba(120,220,255," + bl + ")";

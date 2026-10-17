@@ -31,7 +31,7 @@ scene.every(47, () => {
   scene.set("stir", 1, 1.2);
   scene.after(1.8, () => scene.set("stir", 0, 4));
   scene.set("condensation", Math.min(1, (scene.get("condensation") || 0) + 0.03), 3);
-  if (n === 1 || n % 4 === 0) scene.tell("За инеем капсулы №3 тёмный силуэт будто дрогнул — и снова замер.", "pod3");
+  if (n === 1 || n % 4 === 0) scene.tell(tr('Behind the frost of pod 3 a dark silhouette seemed to stir, and went still again.'), "pod3");
 });
 scene.every(20, () => {
   const L = scene.get("pod3_light") || 0,
@@ -43,27 +43,27 @@ scene.every(20, () => {
       const nf = Math.max(0, f - 0.05);
       scene.set("frost_density", nf, 15);
       if (f > 0.3 && nf <= 0.3)
-        scene.tell("Иней на стекле капсулы №3 почти сошёл; стекло мокрое, сквозь него проступает силуэт.", "pod3");
+        scene.tell(tr('The frost on the glass of pod 3 has almost gone; the glass is wet, and a silhouette shows through it.'), "pod3");
     }
     if (c < 1) scene.set("condensation", Math.min(1, c + 0.05), 15);
   } else if (scene.get("vera_position") === "glass" && c < 1) {
     const nc = Math.min(1, c + 0.04);
     scene.set("condensation", nc, 10);
-    if (c < 0.7 && nc >= 0.7) scene.tell("Стекло капсулы №3 запотело от дыхания Веры.", "pod3");
+    if (c < 0.7 && nc >= 0.7) scene.tell(tr('The glass of pod 3 has fogged up from Vera\'s breath.'), "pod3");
   }
 });
 scene.on("change", "pod3_open", (v, o) => {
   o = o || 0;
-  if (o <= 0.02 && v > 0.02) scene.tell("Замок капсулы №3 щёлкнул; из щели потянуло ледяным паром.", "pod3");
-  if (o < 0.98 && v >= 0.98) scene.tell("Дверца капсулы №3 откинута настежь, пар стелется по полу.", "pod3");
+  if (o <= 0.02 && v > 0.02) scene.tell(tr('The lock of pod 3 has clicked; icy vapour seeps from the gap.'), "pod3");
+  if (o < 0.98 && v >= 0.98) scene.tell(tr('The door of pod 3 is flung wide open, vapour creeps across the floor.'), "pod3");
 });
 scene.on("change", "panel_step", (v, o) => {
-  if (v >= 3 && (o || 0) < 3) scene.tell("Все три предохранителя ручной панели сняты — рычаг свободен.", "panel");
+  if (v >= 3 && (o || 0) < 3) scene.tell(tr('All three safety catches of the manual panel are off: the lever is free.'), "panel");
 });
 scene.every(30, () => {
   const o = scene.get("oxygen");
   if (typeof o === "number" && o > 0) {
     scene.set("oxygen", o - 1);
-    if (o - 1 === 10) scene.tell("Кислорода на борту осталось десять процентов.", "lida");
+    if (o - 1 === 10) scene.tell(tr('Ten percent of the oxygen is left on board.'), "lida");
   }
 });

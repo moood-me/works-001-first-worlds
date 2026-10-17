@@ -168,7 +168,7 @@ g.lineTo(ox + ow + 0.15, oy - 0.15);
 g.lineTo(ox + ow + 0.15, 0);
 g.stroke();
 g.setLineDash([]);
-txt("ШЛЮЗ 2", 0, -2.24, 16, 0.3);
+txt(tr('AIRLOCK 2'), 0, -2.24, 16, 0.3);
 g.fillStyle = "#16181d";
 g.fillRect(-0.09, -2.54, 0.18, 0.12);
 const lg2 = g.createRadialGradient(0, -2.47, 0, 0, -2.47, 0.08);
@@ -180,10 +180,10 @@ g.ellipse(0, -2.47, 0.07, 0.045, 0, 0, 6.2832);
 g.fill();
 if (on) e.light(0, -2.47, 2.2, "#ff3a30", 0.15 + 0.6 * Rb);
 const S = {
-  locked: ["ЗАБЛОКИРОВАН", "255,70,50", "#ff4632", 1],
-  jammed: ["ЗАКЛИНИЛО", "255,70,50", "#ff4632", Math.sin(t * 4) > 0 ? 1 : 0.25],
-  ajar: ["ОТКРЫТ ЧАСТ.", "255,170,70", "#ffaa46", 1],
-  open: ["ОТКРЫТ", "150,230,170", "#96e6aa", 1],
+  locked: [tr('LOCKED'), "255,70,50", "#ff4632", 1],
+  jammed: [tr('STUCK'), "255,70,50", "#ff4632", Math.sin(t * 4) > 0 ? 1 : 0.25],
+  ajar: [tr('PART OPEN'), "255,170,70", "#ffaa46", 1],
+  open: [tr('OPEN'), "150,230,170", "#96e6aa", 1],
 }[st] || ["—", "120,120,120", "#888888", 0.5];
 g.fillStyle = "#050607";
 g.fillRect(-0.97, -1.7, 0.44, 0.15);
@@ -226,7 +226,7 @@ g.lineWidth = 0.008;
 g.beginPath();
 g.arc(cx, cy, 0.2, -2.4, -0.6);
 g.stroke();
-txt("РУЧНОЙ ПРИВОД", cx, -0.7, 5, 0.24);
+txt(tr('MANUAL DRIVE'), cx, -0.7, 5, 0.24);
 for (let i = 0; i < 300; i++) {
   const x = -1.05 + e.rnd() * 2.1,
     y = -Math.pow(e.rnd(), 2) * 0.6,

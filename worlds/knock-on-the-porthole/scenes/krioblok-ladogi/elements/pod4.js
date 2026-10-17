@@ -95,7 +95,7 @@ g.scale(0.0035, 0.0035);
 g.font = "bold 24px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(150,170,190,0.25)";
-g.fillText("КРИО-4", 0, 0);
+g.fillText(tr('CRYO-4'), 0, 0);
 g.restore();
 const b = Math.pow(Math.max(0, Math.sin(t * 0.35)), 20);
 g.fillStyle = "rgba(200,50,40," + (0.08 + 0.4 * b) + ")";

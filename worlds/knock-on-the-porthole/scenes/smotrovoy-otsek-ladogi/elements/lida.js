@@ -49,13 +49,13 @@ g.translate(-0.2, -1.17);
 g.scale(0.0042, 0.0042);
 g.font = "11px monospace";
 g.fillStyle = "rgba(255,175,90,0.9)";
-g.fillText("ЛИДА · ОТСЕК 4", 0, 0);
-g.fillText("O2 " + (s.oxygen ?? 23) + "%   ПИТ. " + Math.round((s.power ?? 0.35) * 100) + "%", 0, 17);
+g.fillText(tr('LIDA · BAY 4'), 0, 0);
+g.fillText(tr('O2 {oxygen}%   PWR {power}%', { oxygen: s.oxygen ?? 23, power: Math.round((s.power ?? 0.35) * 100) }), 0, 17);
 g.fillStyle = "rgba(255,205,140,0.95)";
-g.fillText("ЭКИПАЖ НА БОРТУ: 3/3", 0, 34);
+g.fillText(tr('CREW ON BOARD: 3/3'), 0, 34);
 if (kn || (s.knock || 0) > 0) {
   g.fillStyle = "rgba(255,90,60," + (kn ? (Math.sin(t * 12) > 0 ? 1 : 0.3) : 0.7) + ")";
-  g.fillText("ШУМ: КОРПУС, СЕКЦ. 4", 0, 51);
+  g.fillText(tr('NOISE: HULL, SECT. 4'), 0, 51);
 }
 g.restore();
 g.strokeStyle = "rgba(255,160,80,0.6)";

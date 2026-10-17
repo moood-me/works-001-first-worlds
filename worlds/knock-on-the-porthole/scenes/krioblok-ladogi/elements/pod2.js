@@ -91,6 +91,6 @@ g.scale(0.0035, 0.0035);
 g.font = "bold 24px monospace";
 g.textAlign = "center";
 g.fillStyle = "rgba(150,170,190,0.25)";
-g.fillText("КРИО-2", 0, 0);
+g.fillText(tr('CRYO-2'), 0, 0);
 g.restore();
 g.restore();
