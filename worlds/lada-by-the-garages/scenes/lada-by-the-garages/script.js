@@ -8,7 +8,7 @@ scene.on("change", "dusk", (v) => {
     scene.after(12, () => {
       if (scene.get("lamp") === "flickering") {
         scene.set("lamp", "on");
-        scene.tell(tr('The street lamp over the garages has come on, at the third try.'), "fonar");
+        scene.tell(tr('The street lamp over the garages has come on, at the third try.'), "lamp");
       }
     });
   }
@@ -30,11 +30,11 @@ scene.every(28, () => {
   scene.set("tries", n);
   if (n % 6 === 0) {
     scene.set("engine", "running");
-    scene.tell(tr('The Lada started! Try number {n}.', { n }), "kopeyka");
+    scene.tell(tr('The Lada started! Try number {n}.', { n }), "lada");
     scene.after(5, () => {
       if (scene.get("engine") === "running") {
         scene.set("engine", "silent");
-        scene.tell(tr('The Lada ran for five seconds and stalled.'), "kopeyka");
+        scene.tell(tr('The Lada ran for five seconds and stalled.'), "lada");
       }
     });
   } else {
@@ -51,11 +51,11 @@ scene.every(15, () => {
 scene.every(60, () => {
   if (scene.get("tape") === "playing" && Math.random() < 0.15) {
     scene.set("tape", "chewed");
-    scene.tell(tr('The boombox on the roof has chewed the tape.'), "magnitola");
+    scene.tell(tr('The boombox on the roof has chewed the tape.'), "boombox");
     scene.after(25, () => {
       if (scene.get("tape") === "chewed") {
         scene.set("tape", "playing");
-        scene.tell(tr('Someone wound the cassette back with a pencil. It plays on.'), "magnitola");
+        scene.tell(tr('Someone wound the cassette back with a pencil. It plays on.'), "boombox");
       }
     });
   }

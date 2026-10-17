@@ -109,7 +109,7 @@
     },
     {
       "x": 0.5,
-      "id": "dvor",
+      "id": "yard",
       "name": "yard",
       "color": "#2b262d",
       "depth": 76,
@@ -119,7 +119,7 @@
     },
     {
       "x": 0.8,
-      "id": "devyatka",
+      "id": "nine_storey",
       "box": [
         -22,
         -30,
@@ -133,7 +133,7 @@
     },
     {
       "x": 0.15,
-      "id": "khrush",
+      "id": "five_storey",
       "box": [
         -15,
         -16,
@@ -160,7 +160,7 @@
     },
     {
       "x": 0.66,
-      "id": "garazhi",
+      "id": "garages",
       "box": [
         -11,
         -3.6,
@@ -173,7 +173,7 @@
     },
     {
       "x": 0.47,
-      "id": "fonar",
+      "id": "lamp",
       "box": [
         -16,
         -8,
@@ -187,7 +187,7 @@
     },
     {
       "x": 0.02,
-      "id": "topol",
+      "id": "poplar",
       "box": [
         -7,
         -15,
@@ -201,7 +201,7 @@
     },
     {
       "x": 0.5,
-      "id": "asfalt",
+      "id": "asphalt",
       "name": "asphalt",
       "color": "#2f2b31",
       "depth": 22,
@@ -211,7 +211,7 @@
     },
     {
       "x": 0.6,
-      "id": "kopeyka",
+      "id": "lada",
       "box": [
         -2.8,
         -2.6,
@@ -225,7 +225,7 @@
     },
     {
       "x": 0.6,
-      "id": "magnitola",
+      "id": "boombox",
       "box": [
         -0.7,
         -1.9,
@@ -270,7 +270,7 @@
     },
     {
       "x": 0.27,
-      "id": "lavka",
+      "id": "bench",
       "box": [
         -1.1,
         -1.1,
