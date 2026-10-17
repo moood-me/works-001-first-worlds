@@ -110,7 +110,7 @@
     ],
     "mode": "walk"
   },
-  "caption": "No line has run out here since ninety-eight.",
+  "caption": "Nobody has run a line out here since ninety-eight.",
   "horizon": 0.56,
   "objects": [
     {
@@ -256,7 +256,7 @@
     {
       "at": 11,
       "for": 8,
-      "text": "The receiver hangs loose. Someone is breathing into it."
+      "text": "The receiver hangs loose. Someone is breathing on the line."
     },
     {
       "at": 22,

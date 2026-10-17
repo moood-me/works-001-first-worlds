@@ -1,4 +1,4 @@
 {"strings": [
   {"text":"Kilometre 41","translation":"41-й километр","where":"world.json title"},
-  {"text":"A night highway through a spruce forest and a lone phone booth with no line running to it. The receiver hangs loose, and someone is breathing in it.","translation":"Ночная трасса в еловом лесу и одинокая телефонная будка, к которой не подведена линия. Трубка висит, и в ней кто-то дышит.","where":"world.json description"}
+  {"text":"A night highway through a spruce forest and a lone phone booth with no line running to it. The receiver hangs loose, and someone is breathing on the line.","translation":"Ночная трасса в еловом лесу и одинокая телефонная будка, к которой не подведена линия. Трубка висит, и в ней кто-то дышит.","where":"world.json description"}
 ]}
