@@ -1,6 +1,6 @@
 var s = e.state;
-if (s.woman === "ушла") return;
-var ox = s.woman === "под фонарём" ? -1.2 : 0;
+if (s.woman === "gone") return;
+var ox = s.woman === "under the lamp" ? -1.2 : 0;
 var t = e.t;
 var br = 1 + 0.012 * Math.sin(t * 1.3) + 0.006 * Math.sin(t * 0.53);
 g.save();
@@ -32,7 +32,7 @@ g.closePath();
 g.fill();
 g.fillRect(0.04, 0.05, 0.04, 0.2);
 g.restore();
-var hold = s.letter === "в руке";
+var hold = s.letter === "in hand";
 var ax = hold ? 0.42 : 0.14,
   ay = hold ? -1.12 : -0.8;
 g.strokeStyle = "#1b1a1d";

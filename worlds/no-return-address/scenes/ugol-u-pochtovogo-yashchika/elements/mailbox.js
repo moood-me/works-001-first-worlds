@@ -22,7 +22,7 @@ g.quadraticCurveTo(-0.15, -1.13, 0, -1.15);
 g.stroke();
 g.fillStyle = "rgba(200,190,170,0.35)";
 g.fillRect(-0.1, -0.82, 0.2, 0.08);
-if (s.letter === "на мостовой") {
+if (s.letter === "on the pavement") {
   g.save();
   g.translate(0.5, -0.01);
   g.scale(1, 0.35);

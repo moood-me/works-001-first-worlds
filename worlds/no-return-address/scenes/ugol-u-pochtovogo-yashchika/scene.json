@@ -98,21 +98,21 @@
     "car": false,
     "lamp": 1,
     "rain": 0.7,
-    "woman": "у ящика",
-    "letter": "в руке",
+    "woman": "at the mailbox",
+    "letter": "in hand",
     "watcher": true
   },
-  "title": "Угол у почтового ящика",
+  "title": "The Corner by the Mailbox",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Письмо без обратного адреса",
+  "caption": "A letter with no return address",
   "horizon": 0.58,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
@@ -123,7 +123,7 @@
         90,
         1
       ],
-      "name": "Город",
+      "name": "City",
       "height": 25,
       "distance": 70
     },
@@ -136,14 +136,14 @@
         60,
         0.5
       ],
-      "name": "Туман",
+      "name": "Fog",
       "height": 4,
       "distance": 30
     },
     {
       "x": 0.5,
       "id": "street",
-      "name": "Мокрая мостовая",
+      "name": "Wet cobblestones",
       "depth": 40,
       "plane": true,
       "width": 60,
@@ -158,7 +158,7 @@
         9,
         0.3
       ],
-      "name": "Дом напротив",
+      "name": "House across the street",
       "height": 16,
       "distance": 11
     },
@@ -171,7 +171,7 @@
         2.5,
         0.2
       ],
-      "name": "Фонарь",
+      "name": "Street lamp",
       "height": 5,
       "flicker": 0.12,
       "reflect": true,
@@ -186,7 +186,7 @@
         0.9,
         0.15
       ],
-      "name": "Почтовый ящик",
+      "name": "Mailbox",
       "height": 1.2,
       "reflect": true,
       "distance": 7.4
@@ -200,7 +200,7 @@
         1,
         0.15
       ],
-      "name": "Женщина в плаще",
+      "name": "Woman in a raincoat",
       "height": 1.75,
       "reflect": true,
       "distance": 7.5
@@ -214,7 +214,7 @@
         1.2,
         0.3
       ],
-      "name": "Угол дома",
+      "name": "Corner of the house",
       "height": 8,
       "distance": 4
     },
@@ -227,7 +227,7 @@
         10,
         0.3
       ],
-      "name": "Дождь",
+      "name": "Rain",
       "height": 7,
       "distance": 6
     }
@@ -236,17 +236,17 @@
     {
       "at": 2,
       "for": 7,
-      "text": "Дождь знает все адреса."
+      "text": "The rain knows every address."
     },
     {
       "at": 11,
       "for": 7,
-      "text": "Она пишет без обратного."
+      "text": "She writes with no return address."
     },
     {
       "at": 21,
       "for": 8,
-      "text": "В окне напротив кто-то не спит."
+      "text": "In the window across the street, someone is still awake."
     }
   ]
 }

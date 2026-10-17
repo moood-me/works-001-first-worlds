@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Corner by the Mailbox","translation":"Угол у почтового ящика","where":"scenes/ugol-u-pochtovogo-yashchika/scene.json title"},
+  {"text":"A letter with no return address","translation":"Письмо без обратного адреса","where":"scenes/ugol-u-pochtovogo-yashchika/scene.json caption"},
+  {"text":"The rain knows every address.","translation":"Дождь знает все адреса.","where":"scenes/ugol-u-pochtovogo-yashchika/scene.json captions[0] text"},
+  {"text":"She writes with no return address.","translation":"Она пишет без обратного.","where":"scenes/ugol-u-pochtovogo-yashchika/scene.json captions[1] text"},
+  {"text":"In the window across the street, someone is still awake.","translation":"В окне напротив кто-то не спит.","where":"scenes/ugol-u-pochtovogo-yashchika/scene.json captions[2] text"}
+]}
