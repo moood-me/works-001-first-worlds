@@ -1,9 +1,0 @@
-{"strings": [
-  {"text":"41 km","translation":"41 км","where":"scenes/sorok-pervyy-kilometr/elements/shelter.js"},
-  {"text":"The Forty-First Kilometre","translation":"Сорок первый километр","where":"scenes/sorok-pervyy-kilometr/scene.json title"},
-  {"text":"The last bus has gone. Someone is meeting you anyway.","translation":"Последний автобус ушёл. Тебя всё равно встречают.","where":"scenes/sorok-pervyy-kilometr/scene.json caption"},
-  {"text":"The last bus left at 11:40 pm.","translation":"Последний автобус ушёл в 23:40.","where":"scenes/sorok-pervyy-kilometr/scene.json captions[0] text"},
-  {"text":"Someone is standing on the road. With flowers.","translation":"На дороге кто-то стоит. С цветами.","where":"scenes/sorok-pervyy-kilometr/scene.json captions[1] text"},
-  {"text":"He has come to meet someone. You.","translation":"Он пришёл встречать. Тебя.","where":"scenes/sorok-pervyy-kilometr/scene.json captions[2] text"},
-  {"text":"He reached the bus stop and stopped under the lamp.","translation":"Он дошёл до остановки и остановился под фонарём.","where":"scenes/sorok-pervyy-kilometr/script.js"}
-]}
