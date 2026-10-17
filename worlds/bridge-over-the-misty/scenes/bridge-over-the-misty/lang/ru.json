@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty","translation":"Мост через Туманную","where":"scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"Середина моста — единственное место, где встречаются два берега.","where":"scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"Мост держится, пока на нём кто-то ждёт.","where":"scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"С того берега, из тумана, — шаги.","where":"scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"Путник дошёл до хранительницы и остановился в шаге от её фонаря","where":"scenes/bridge-over-the-misty/script.js"}
+]}
