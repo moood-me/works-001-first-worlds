@@ -1,9 +1,9 @@
 function tree(x, h, w, c) {
-  var tr = g.createLinearGradient(x - w, 0, x + w, 0);
-  tr.addColorStop(0, "#0b0f14");
-  tr.addColorStop(0.6, "#232a32");
-  tr.addColorStop(1, "#11161c");
-  g.fillStyle = tr;
+  var trunk = g.createLinearGradient(x - w, 0, x + w, 0);
+  trunk.addColorStop(0, "#0b0f14");
+  trunk.addColorStop(0.6, "#232a32");
+  trunk.addColorStop(1, "#11161c");
+  g.fillStyle = trunk;
   g.beginPath();
   g.moveTo(x - w * 1.8, 0.3);
   g.quadraticCurveTo(x - w, -2, x - w * 0.8, -h);

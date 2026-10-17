@@ -1,8 +1,8 @@
-var tr = g.createLinearGradient(-2.4, 0, 2.4, 0);
-tr.addColorStop(0, "#0d1116");
-tr.addColorStop(0.65, "#2a3038");
-tr.addColorStop(1, "#151a20");
-g.fillStyle = tr;
+var trunk = g.createLinearGradient(-2.4, 0, 2.4, 0);
+trunk.addColorStop(0, "#0d1116");
+trunk.addColorStop(0.65, "#2a3038");
+trunk.addColorStop(1, "#151a20");
+g.fillStyle = trunk;
 g.beginPath();
 g.moveTo(-4.5, 0.3);
 g.bezierCurveTo(-2.6, -1, -2.2, -3, -2.0, -8);
