@@ -1,7 +1,0 @@
-{"strings": [
-  {"text":"Night Lake","translation":"Ночное озеро","where":"scenes/nochnoe-ozero/scene.json title"},
-  {"text":"A small quiet light sways over the dark water.","translation":"Тихий огонёк качается над тёмной водой.","where":"scenes/nochnoe-ozero/scene.json caption"},
-  {"text":"The torch beam touches the black water.","translation":"Луч фонарика трогает чёрную воду.","where":"scenes/nochnoe-ozero/scene.json captions[0] text"},
-  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"Где-то внизу плеснула рыба — круги расходятся медленно.","where":"scenes/nochnoe-ozero/scene.json captions[1] text"},
-  {"text":"He counts the fireflies and loses count at seven.","translation":"Он считает светлячков и сбивается на седьмом.","where":"scenes/nochnoe-ozero/scene.json captions[2] text"}
-]}
