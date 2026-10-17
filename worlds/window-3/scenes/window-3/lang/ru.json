@@ -1,10 +1,9 @@
 {"strings": [
   {"text":"WAIT BEHIND THE YELLOW LINE","translation":"ЖДИТЕ ЗА ЖЁЛТОЙ ЛИНИЕЙ","where":"scenes/window-3/elements/deck.js"},
-  {"text":"COFFEE · 40 cr","translation":"КОФЕ · 40 кр","where":"scenes/window-3/elements/drone.js"},
+  {"text":"COFFEE 40 cr","translation":"КОФЕ · 40 кр","where":"scenes/window-3/elements/drone.js"},
   {"text":"NO QUEUE*","translation":"БЕЗ ОЧЕРЕДИ*","where":"scenes/window-3/elements/drone.js"},
   {"text":"hot","translation":"горячий","where":"scenes/window-3/elements/drone.js"},
-  {"text":"*except for coffee","translation":"*кроме кофе","where":"scenes/window-3/elements/drone.js"},
-  {"text":"OPEN","translation":"ОТКРЫТО","where":"scenes/window-3/elements/inspector.js"},
+  {"text":"*except coffee","translation":"*кроме кофе","where":"scenes/window-3/elements/drone.js"},
   {"text":"BREAK","translation":"ПЕРЕРЫВ","where":"scenes/window-3/elements/inspector.js"},
   {"text":"WINDOW 3","translation":"ОКНО №3","where":"scenes/window-3/elements/inspector.js"},
   {"text":"NOW SERVING","translation":"ОБСЛУЖИВАЕТСЯ","where":"scenes/window-3/elements/queue_board.js"},

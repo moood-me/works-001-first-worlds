@@ -99,7 +99,7 @@ if (!open) {
   g.font = "bold 0.32px sans-serif";
   g.textAlign = "center";
   g.textBaseline = "middle";
-  g.fillText(open ? tr("OPEN") : tr("BREAK"), 0, -3.7);
+  g.fillText(tr("BREAK"), 0, -3.7);
 }
 g.fillStyle = "rgba(255,255,255,0.08)";
 g.beginPath();
