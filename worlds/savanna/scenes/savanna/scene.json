@@ -86,39 +86,39 @@
     ],
     "brightness": 0.6
   },
-  "title": "Саванна",
-  "caption": "Вечер близко, а воздух всё ещё дрожит от зноя.",
+  "title": "Savanna",
+  "caption": "Evening is near, and the air is still shimmering with heat.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "ee210d97c",
       "sky": true,
-      "name": "Небо"
+      "name": "Sky"
     },
     {
       "id": "e64b10466",
       "sky": true,
-      "name": "Солнце"
+      "name": "Sun"
     },
     {
       "id": "e9c3c3d94",
       "sky": true,
-      "name": "Облака"
+      "name": "Clouds"
     },
     {
       "id": "ed035bb32",
       "sky": true,
-      "name": "Кружащие грифы"
+      "name": "Circling vultures"
     },
     {
       "id": "e4c7e3e2d",
       "sky": true,
-      "name": "Дальние горы"
+      "name": "Distant mountains"
     },
     {
       "id": "edddaa3ba",
       "sky": true,
-      "name": "Равнина"
+      "name": "Plain"
     },
     {
       "x": 0.8,
@@ -129,7 +129,7 @@
         50,
         3
       ],
-      "name": "Песчаный вихрь",
+      "name": "Dust devil",
       "color": "#c8a676",
       "height": 45,
       "distance": 800
@@ -143,7 +143,7 @@
         1600,
         1
       ],
-      "name": "Дальние акации",
+      "name": "Far-off acacias",
       "color": "#5f5e44",
       "height": 10,
       "distance": 900
@@ -157,7 +157,7 @@
         1100,
         2
       ],
-      "name": "Марево",
+      "name": "Heat haze",
       "height": 6,
       "distance": 600
     },
@@ -170,7 +170,7 @@
         460,
         2
       ],
-      "name": "Акации вдалеке",
+      "name": "Acacias in the distance",
       "color": "#50523a",
       "height": 10,
       "distance": 260
@@ -184,7 +184,7 @@
         60,
         0.5
       ],
-      "name": "Стадо антилоп",
+      "name": "Herd of antelope",
       "color": "#6b4f33",
       "height": 1.5,
       "distance": 130
@@ -198,7 +198,7 @@
         6,
         0.6
       ],
-      "name": "Жирафиха",
+      "name": "Mother giraffe",
       "color": "#e6cf9e",
       "height": 5,
       "distance": 46
@@ -212,7 +212,7 @@
         4,
         0.4
       ],
-      "name": "Жирафёнок",
+      "name": "Giraffe calf",
       "color": "#e6cf9e",
       "height": 3.2,
       "distance": 44
@@ -226,7 +226,7 @@
         10,
         1
       ],
-      "name": "Акация",
+      "name": "Acacia",
       "sway": 0.25,
       "color": "#56602f",
       "height": 8,
@@ -241,7 +241,7 @@
         6.5,
         0.6
       ],
-      "name": "Жираф у акации",
+      "name": "Giraffe by the acacia",
       "color": "#e6cf9e",
       "height": 5.3,
       "distance": 40
@@ -255,7 +255,7 @@
         5,
         0.5
       ],
-      "name": "Сухое дерево с грифом",
+      "name": "Dead tree with a vulture",
       "sway": 0.1,
       "color": "#4e433a",
       "height": 7,
@@ -270,7 +270,7 @@
         3.6,
         0.4
       ],
-      "name": "Термитник",
+      "name": "Termite mound",
       "color": "#a0643a",
       "height": 2.4,
       "distance": 20
@@ -284,7 +284,7 @@
         16,
         0.3
       ],
-      "name": "Сухая трава",
+      "name": "Dry grass",
       "color": "#b8955a",
       "height": 1,
       "distance": 15
@@ -298,7 +298,7 @@
         0.7,
         0.15
       ],
-      "name": "Череп антилопы",
+      "name": "Antelope skull",
       "color": "#e8dfcc",
       "height": 0.4,
       "distance": 6.5
@@ -312,7 +312,7 @@
         6,
         0.2
       ],
-      "name": "Трава у ног",
+      "name": "Grass at your feet",
       "color": "#a3804a",
       "height": 1,
       "distance": 5
@@ -326,7 +326,7 @@
         4,
         0.2
       ],
-      "name": "Пылинки",
+      "name": "Dust motes",
       "color": "#ffe7bd",
       "height": 2.5,
       "distance": 3
@@ -336,17 +336,17 @@
     {
       "at": 3,
       "for": 7,
-      "text": "Жара ещё держится, но тени уже длинные."
+      "text": "The heat still holds, but the shadows are already long."
     },
     {
       "at": 14,
       "for": 7,
-      "text": "Жирафёнок не отходит от матери ни на шаг."
+      "text": "The giraffe calf never leaves its mother's side."
     },
     {
       "at": 26,
       "for": 7,
-      "text": "Над саванной кружат грифы — терпеливо, никуда не спеша."
+      "text": "Vultures circle over the savanna, patient, in no hurry at all."
     }
   ]
 }
