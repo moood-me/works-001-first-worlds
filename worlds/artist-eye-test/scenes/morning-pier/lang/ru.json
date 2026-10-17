@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Pier in the Morning","translation":"Пристань утром","where":"scenes/morning-pier/scene.json title"},
+  {"text":"Mist over the water. The fisherman and his dog watch the float.","translation":"Туман над водой. Рыбак и пёс смотрят на поплавок.","where":"scenes/morning-pier/scene.json caption"},
+  {"text":"The sun has risen above the mist; the water has brightened","translation":"Солнце поднялось над туманом, вода посветлела","where":"scenes/morning-pier/script.js"},
+  {"text":"The float has gone under: the fisherman has a bite","translation":"Поплавок ушёл под воду — у рыбака клюёт","where":"scenes/morning-pier/script.js"},
+  {"text":"Ducks have landed on the water near the boat","translation":"Утки опустились на воду возле лодки","where":"scenes/morning-pier/script.js"}
+]}
