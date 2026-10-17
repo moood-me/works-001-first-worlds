@@ -94,24 +94,24 @@
     ],
     "brightness": 0.3
   },
-  "title": "Маяк на мысе",
-  "caption": "Одно тёплое окно на весь холодный берег.",
+  "title": "The Lighthouse on the Cape",
+  "caption": "One warm window on the whole cold shore.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "сумеречное небо"
+      "name": "twilight sky"
     },
     {
       "id": "stars",
       "sky": true,
-      "name": "первые звёзды"
+      "name": "first stars"
     },
     {
       "id": "clouds",
       "sky": true,
-      "name": "слоистые облака"
+      "name": "layered clouds"
     },
     {
       "x": 0.1,
@@ -122,7 +122,7 @@
         310,
         4
       ],
-      "name": "дальний берег",
+      "name": "far shore",
       "color": "#34374f",
       "height": 18,
       "distance": 450
@@ -136,7 +136,7 @@
         6000,
         1400
       ],
-      "name": "море",
+      "name": "sea",
       "color": "#2a2d42",
       "height": 2,
       "distance": 2000
@@ -150,7 +150,7 @@
         6000,
         50
       ],
-      "name": "туман у горизонта",
+      "name": "mist at the horizon",
       "height": 40,
       "distance": 1200
     },
@@ -163,7 +163,7 @@
         265,
         3
       ],
-      "name": "скалистый мыс",
+      "name": "rocky cape",
       "color": "#2a2a3e",
       "height": 20,
       "reflect": true,
@@ -178,7 +178,7 @@
         125,
         2
       ],
-      "name": "прибой у скал",
+      "name": "surf on the rocks",
       "height": 1,
       "distance": 165
     },
@@ -191,7 +191,7 @@
         3,
         0.6
       ],
-      "name": "маяк",
+      "name": "lighthouse",
       "color": "#8d87a0",
       "height": 13,
       "flicker": 0.12,
@@ -208,7 +208,7 @@
         9,
         40
       ],
-      "name": "отражение окна в воде",
+      "name": "window's reflection in the water",
       "height": 30,
       "distance": 155
     },
@@ -221,7 +221,7 @@
         80,
         3
       ],
-      "name": "далёкий снег",
+      "name": "distant snow",
       "color": "#d6dbea",
       "height": 60,
       "distance": 60
@@ -235,7 +235,7 @@
         26,
         1.5
       ],
-      "name": "снег",
+      "name": "snow",
       "color": "#dde1ee",
       "height": 20,
       "distance": 18
@@ -249,7 +249,7 @@
         8,
         0.8
       ],
-      "name": "близкие снежинки",
+      "name": "near snowflakes",
       "color": "#e4e7f2",
       "height": 7,
       "distance": 5
@@ -263,7 +263,7 @@
         3.3,
         0.7
       ],
-      "name": "камни под ногами",
+      "name": "stones underfoot",
       "color": "#161926",
       "height": 1.2,
       "distance": 3.5
@@ -273,17 +273,17 @@
     {
       "at": 6,
       "for": 7,
-      "text": "Фонарь ещё не зажгли — сумерки не торопятся."
+      "text": "The lamp isn't lit yet: the dusk is in no hurry."
     },
     {
       "at": 18,
       "for": 7,
-      "text": "Снежинки гаснут, едва коснувшись воды."
+      "text": "Snowflakes go out the moment they touch the water."
     },
     {
       "at": 30,
       "for": 8,
-      "text": "В окне кто-то ставит чайник."
+      "text": "In the window someone is putting the kettle on."
     }
   ]
 }

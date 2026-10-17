@@ -104,27 +104,27 @@
     "figure_distance": 0.6,
     "figure_identity": 0
   },
-  "title": "Под мысом, у кромки воды",
+  "title": "Below the Cape, at the Water's Edge",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Чёрные мокрые камни, пена и узкая тропа вверх, к маяку.",
+  "caption": "Black wet stones, foam and a narrow path up to the lighthouse.",
   "horizon": 0.58,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "сумеречное небо"
+      "name": "twilight sky"
     },
     {
       "id": "stars",
       "sky": true,
-      "name": "первые звёзды"
+      "name": "first stars"
     },
     {
       "id": "clouds",
       "sky": true,
-      "name": "рваные облака"
+      "name": "ragged clouds"
     },
     {
       "x": 0.5,
@@ -135,7 +135,7 @@
         6000,
         1400
       ],
-      "name": "море",
+      "name": "sea",
       "color": "#1b2338",
       "height": 2,
       "distance": 2000
@@ -149,7 +149,7 @@
         6000,
         50
       ],
-      "name": "морская мгла у горизонта",
+      "name": "sea haze at the horizon",
       "height": 40,
       "distance": 1200
     },
@@ -162,7 +162,7 @@
         150,
         3
       ],
-      "name": "скала мыса",
+      "name": "cliff of the cape",
       "color": "#222a3e",
       "height": 22,
       "distance": 80
@@ -176,7 +176,7 @@
         26,
         2
       ],
-      "name": "узкая тропа к маяку",
+      "name": "narrow path to the lighthouse",
       "color": "#626e8a",
       "height": 21,
       "distance": 79.5
@@ -190,7 +190,7 @@
         60,
         0.6
       ],
-      "name": "маяк",
+      "name": "lighthouse",
       "color": "#808aa3",
       "height": 12,
       "flicker": 0.12,
@@ -206,7 +206,7 @@
         36,
         1
       ],
-      "name": "валуны у подножия",
+      "name": "boulders at the foot",
       "color": "#1a2032",
       "height": 5,
       "distance": 30
@@ -220,7 +220,7 @@
         14,
         1.6
       ],
-      "name": "прибой на рифе",
+      "name": "surf on the reef",
       "color": "#d7e1f2",
       "height": 4,
       "distance": 22
@@ -228,7 +228,7 @@
     {
       "x": 0.5,
       "id": "wash",
-      "name": "накат пены",
+      "name": "wash of foam",
       "color": "#141b2a",
       "depth": 16,
       "plane": true,
@@ -245,7 +245,7 @@
         2.4,
         0.7
       ],
-      "name": "фигура в пальто",
+      "name": "figure in a coat",
       "color": "#121624",
       "height": 2,
       "distance": 8
@@ -259,7 +259,7 @@
         14,
         1
       ],
-      "name": "брызги и снег на ветру",
+      "name": "spray and snow on the wind",
       "color": "#dde3f0",
       "height": 10,
       "distance": 12
@@ -273,7 +273,7 @@
         6.4,
         2.4
       ],
-      "name": "мокрые чёрные камни",
+      "name": "wet black stones",
       "color": "#0f131e",
       "height": 1.4,
       "distance": 4.5
@@ -287,7 +287,7 @@
         5,
         0.6
       ],
-      "name": "близкие брызги",
+      "name": "near spray",
       "color": "#e4e8f2",
       "height": 4,
       "distance": 3.5
