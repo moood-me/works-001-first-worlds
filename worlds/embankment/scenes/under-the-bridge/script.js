@@ -2,7 +2,7 @@ var DUR = 90,
   GAP = 70;
 function start() {
   scene.set("tram", 0);
-  scene.tell(tr('A river tram with its lights on has come out from under the far bridge'), "tram");
+  scene.tell(tr('A river bus with its lights on has come out from under the far bridge'), "tram");
   scene.set("tram", 1, DUR);
   scene.after(DUR + GAP, start);
 }
