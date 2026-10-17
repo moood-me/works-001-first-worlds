@@ -15,13 +15,13 @@ function uazGo() {
   scene.after(10.2, () => {
     scene.set("uaz", "waiting");
     scene.set("dog", "awake");
-    scene.tell(tr('The draft office\'s UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.'), "buhanka");
+    scene.tell(tr('The draft office\'s UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.'), "van");
   });
 }
 function uazLeave() {
   scene.set("uazX", 1);
   scene.set("uazX", 2, 9);
-  scene.after(9.2, () => scene.tell(tr('The van has disappeared behind the garages.'), "buhanka"));
+  scene.after(9.2, () => scene.tell(tr('The van has disappeared behind the garages.'), "van"));
 }
 scene.on("load", (s) => {
   serega(s.serega, 0);

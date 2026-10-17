@@ -111,7 +111,7 @@
       "name": "sky"
     },
     {
-      "id": "tec",
+      "id": "power_plant",
       "box": [
         -6,
         -140,
@@ -160,7 +160,7 @@
       "distance": 23
     },
     {
-      "id": "buhanka",
+      "id": "van",
       "box": [
         -36,
         -2.6,
@@ -236,7 +236,7 @@
       "distance": 5.5
     },
     {
-      "id": "magnitofon",
+      "id": "tape_recorder",
       "box": [
         -0.4,
         -0.35,
