@@ -42,23 +42,23 @@
     ],
     "brightness": 0.25
   },
-  "title": "Вещи честны",
+  "title": "Things Are Honest",
   "camera": {
     "look": 0.02,
     "mode": "picture"
   },
-  "caption": "Семейная загадка на один вечер.",
+  "caption": "A family mystery for one evening.",
   "horizon": 0.47,
   "objects": [
     {
       "id": "night",
       "sky": true,
-      "name": "Ночь за окном"
+      "name": "Night outside the window"
     },
     {
       "x": 0.5,
       "id": "floor",
-      "name": "Пол",
+      "name": "Floor",
       "color": "#2a1a0e",
       "depth": 4.3,
       "plane": true,
@@ -75,7 +75,7 @@
         7.5,
         0.05
       ],
-      "name": "Стена с обоями",
+      "name": "Papered wall",
       "color": "#3b2a1f",
       "height": 2.8,
       "distance": 4.5
@@ -89,7 +89,7 @@
         3.2,
         0.1
       ],
-      "name": "Кухня за дверью",
+      "name": "Kitchen beyond the door",
       "color": "#5a3a1e",
       "height": 2.6,
       "distance": 8.5
@@ -103,7 +103,7 @@
         0.6,
         0.05
       ],
-      "name": "Тётя Вера",
+      "name": "Aunt Vera",
       "color": "#2a1e1a",
       "height": 1.35,
       "distance": 7.9
@@ -117,7 +117,7 @@
         0.7,
         0.05
       ],
-      "name": "Дядя Костя",
+      "name": "Uncle Kostya",
       "color": "#1a1410",
       "height": 1.05,
       "distance": 5.9
@@ -131,7 +131,7 @@
         0.08,
         0.2
       ],
-      "name": "Дверь",
+      "name": "Door",
       "color": "#3a2412",
       "height": 2.2,
       "distance": 4.42
@@ -145,7 +145,7 @@
         0.4,
         0.04
       ],
-      "name": "Фотография 1952 года",
+      "name": "The 1952 photograph",
       "color": "#cdbb95",
       "height": 0.7,
       "distance": 4.44,
@@ -160,7 +160,7 @@
         0.2,
         0.55
       ],
-      "name": "Часы-ходики",
+      "name": "Pendulum wall clock",
       "color": "#6e4226",
       "height": 1.1,
       "distance": 4.44,
@@ -175,7 +175,7 @@
         0.8,
         0.06
       ],
-      "name": "Комод с лампой",
+      "name": "Chest of drawers with a lamp",
       "color": "#4a2a16",
       "height": 1.5,
       "distance": 4.15
@@ -189,7 +189,7 @@
         0.16,
         0.02
       ],
-      "name": "Шкатулка",
+      "name": "Box",
       "color": "#8a6a3a",
       "height": 0.12,
       "distance": 4.02,
@@ -204,7 +204,7 @@
         0.3,
         0.02
       ],
-      "name": "Радиоприёмник",
+      "name": "Radio set",
       "color": "#6e4226",
       "height": 0.36,
       "distance": 4.02,
@@ -219,7 +219,7 @@
         1.25,
         0.06
       ],
-      "name": "Бабушка Нина",
+      "name": "Granny Nina",
       "color": "#d9ccb2",
       "height": 1,
       "distance": 3.2
@@ -233,7 +233,7 @@
         0.9,
         0.5
       ],
-      "name": "Пылинки",
+      "name": "Dust motes",
       "height": 1.2,
       "distance": 3,
       "elevation": 0.9
@@ -244,7 +244,7 @@
       "x": 0.02,
       "y": 0.97,
       "id": "notebook",
-      "name": "Блокнот",
+      "name": "Notebook",
       "width": 470,
       "anchor": "bottom-left",
       "height": 330
@@ -254,17 +254,17 @@
     {
       "at": 1.5,
       "for": 8,
-      "text": "Осень. Ты приехала попрощаться с бабушкой Ниной. Врач сказал — неделя, может, две."
+      "text": "Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two."
     },
     {
       "at": 10,
       "for": 8,
-      "text": "С общей фотографии 1952 года кто-то аккуратно вырезан — по контуру, как из журнала."
+      "text": "Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine."
     },
     {
       "at": 19,
       "for": 9,
-      "text": "Люди знают, что важно, но говорят неправду. Вещи не врут — но понимают всё буквально."
+      "text": "People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally."
     }
   ]
 }

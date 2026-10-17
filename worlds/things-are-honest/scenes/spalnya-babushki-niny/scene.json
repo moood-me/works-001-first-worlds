@@ -56,28 +56,28 @@
     "vera_in_doorway": 0,
     "photo_distance_to_nina": 0.6
   },
-  "title": "Спальня бабушки Нины",
+  "title": "Granny Nina's Bedroom",
   "camera": {
     "look": 0.02,
     "mode": "diorama"
   },
-  "caption": "Вещи ждут, кто заговорит первым.",
+  "caption": "The things are waiting to see who speaks first.",
   "horizon": 0.47,
   "objects": [
     {
       "id": "night",
       "sky": true,
-      "name": "Ночь за окном"
+      "name": "Night outside the window"
     },
     {
       "id": "leaves",
       "sky": true,
-      "name": "Листья за окном"
+      "name": "Leaves outside the window"
     },
     {
       "x": 0.5,
       "id": "floor",
-      "name": "Пол",
+      "name": "Floor",
       "color": "#2a1a0e",
       "depth": 4.3,
       "plane": true,
@@ -94,7 +94,7 @@
         3.2,
         0.1
       ],
-      "name": "Кухня за дверью",
+      "name": "Kitchen beyond the door",
       "color": "#5a3a1e",
       "height": 2.6,
       "distance": 8.5
@@ -108,7 +108,7 @@
         0.6,
         0.06
       ],
-      "name": "Тётя Вера",
+      "name": "Aunt Vera",
       "color": "#2a1e1a",
       "height": 1.65,
       "distance": 4.6
@@ -122,7 +122,7 @@
         0.7,
         0.06
       ],
-      "name": "Дядя Костя",
+      "name": "Uncle Kostya",
       "color": "#1a1410",
       "height": 1.8,
       "distance": 4.55
@@ -136,7 +136,7 @@
         7.5,
         0.05
       ],
-      "name": "Стена с обоями",
+      "name": "Papered wall",
       "color": "#3b2a1f",
       "height": 2.8,
       "distance": 4.5
@@ -150,7 +150,7 @@
         0.08,
         0.2
       ],
-      "name": "Дверь",
+      "name": "Door",
       "color": "#3a2412",
       "height": 2.2,
       "distance": 4.42
@@ -164,7 +164,7 @@
         0.4,
         0.04
       ],
-      "name": "Рамка на стене",
+      "name": "Frame on the wall",
       "color": "#cdbb95",
       "height": 0.7,
       "distance": 4.44,
@@ -179,7 +179,7 @@
         0.2,
         0.55
       ],
-      "name": "Часы-ходики",
+      "name": "Pendulum wall clock",
       "color": "#6e4226",
       "height": 1.1,
       "distance": 4.44,
@@ -194,7 +194,7 @@
         0.8,
         0.06
       ],
-      "name": "Комод с лампой",
+      "name": "Chest of drawers with a lamp",
       "color": "#4a2a16",
       "height": 1.5,
       "distance": 4.15
@@ -208,7 +208,7 @@
         0.45,
         0.07
       ],
-      "name": "Шкатулка с письмами",
+      "name": "Box of letters",
       "color": "#8a6a3a",
       "height": 0.3,
       "distance": 4.02,
@@ -223,7 +223,7 @@
         0.3,
         0.02
       ],
-      "name": "Радиоприёмник",
+      "name": "Radio set",
       "color": "#6e4226",
       "height": 0.36,
       "distance": 4.02,
@@ -238,7 +238,7 @@
         1.25,
         0.06
       ],
-      "name": "Бабушка Нина",
+      "name": "Granny Nina",
       "color": "#d9ccb2",
       "height": 1,
       "distance": 3.2
@@ -252,7 +252,7 @@
         0.4,
         0.07
       ],
-      "name": "Внучка",
+      "name": "Granddaughter",
       "color": "#2c2b26",
       "height": 1.3,
       "distance": 2.5
@@ -266,7 +266,7 @@
         0.3,
         -0.7
       ],
-      "name": "Фотография 1952 года",
+      "name": "The 1952 photograph",
       "color": "#cdbb95",
       "height": 0.3,
       "distance": 2.48
@@ -280,7 +280,7 @@
         0.9,
         0.5
       ],
-      "name": "Пылинки",
+      "name": "Dust motes",
       "height": 1.2,
       "distance": 3,
       "elevation": 0.9
@@ -294,7 +294,7 @@
         2.6,
         0.2
       ],
-      "name": "Темнота комнаты",
+      "name": "Darkness of the room",
       "height": 3.6,
       "distance": 1
     }
@@ -304,7 +304,7 @@
       "x": 0.02,
       "y": 0.97,
       "id": "notebook",
-      "name": "Блокнот",
+      "name": "Notebook",
       "width": 470,
       "anchor": "bottom-left",
       "height": 330
@@ -314,17 +314,17 @@
     {
       "at": 1.5,
       "for": 8,
-      "text": "Ты держишь фотографию так, чтобы бабушка видела."
+      "text": "You hold the photograph so that Granny can see it."
     },
     {
       "at": 11,
       "for": 8,
-      "text": "Сквозь вырезанное место просвечивает лампа — тёплый человек, которого нет."
+      "text": "The lamp shows through the cut-out place: a warm person who isn't there."
     },
     {
       "at": 21,
       "for": 9,
-      "text": "Шкатулка открыта. Сверху — конверт, подписанный не бабушкиным почерком."
+      "text": "The box is open. On top, an envelope addressed in a hand that isn't Granny's."
     }
   ]
 }

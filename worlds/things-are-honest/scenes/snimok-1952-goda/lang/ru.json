@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"The dacha, June 1952.\nAll of us together.","translation":"Дача, июнь 1952.\nВсе вместе.","where":"scenes/snimok-1952-goda/elements/photo.js"},
+  {"text":"PHOTO","translation":"ФОТО","where":"scenes/snimok-1952-goda/elements/photo.js"},
+  {"text":"The 1952 Photograph","translation":"Снимок 1952 года","where":"scenes/snimok-1952-goda/scene.json title"},
+  {"text":"A thing remembers who was taken out of it.","translation":"Вещь помнит, кого из неё вынули.","where":"scenes/snimok-1952-goda/scene.json caption"},
+  {"text":"The edges are wavy: that's how the studio trimmed them. The paper is warm from the lamp.","translation":"Края волнистые — так обрезали в ателье. Бумага тёплая от лампы.","where":"scenes/snimok-1952-goda/scene.json captions[0] text"},
+  {"text":"The scissors followed the outline slowly. Only at the collar did the hand shake.","translation":"Ножницы шли по контуру медленно. Только у воротника рука дрогнула.","where":"scenes/snimok-1952-goda/scene.json captions[1] text"},
+  {"text":"On the shoulder of the woman in white, someone else's hand remains.","translation":"На плече женщины в белом осталась чужая рука.","where":"scenes/snimok-1952-goda/scene.json captions[2] text"},
+  {"text":"The photograph has been turned over: on the back it says “{text}”.","translation":"Фотографию перевернули: на обороте надпись — «{text}».","where":"scenes/snimok-1952-goda/script.js"},
+  {"text":"A corner of the photograph has curled: the first letters of the inscription show on the back.","translation":"Уголок снимка отогнулся — на обороте видны первые буквы надписи.","where":"scenes/snimok-1952-goda/script.js"},
+  {"text":"The lamp has nearly gone out: the photograph can barely be made out.","translation":"Лампа почти погасла — снимок едва различим.","where":"scenes/snimok-1952-goda/script.js"},
+  {"text":"The photograph has been put down on the table.","translation":"Фотографию положили на стол.","where":"scenes/snimok-1952-goda/script.js"},
+  {"text":"Notebook","translation":"Блокнот","where":"scenes/snimok-1952-goda/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Ночь на 14 марта 1953 года. О ней не говорят.","where":"scenes/snimok-1952-goda/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"С общей фотографии 1952 года аккуратно вырезан человек.","where":"scenes/snimok-1952-goda/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Спрашивай людей и вещи. Записывай. Предъявляй людям то, что сказали вещи.","where":"scenes/snimok-1952-goda/widgets/notebook.html"},
+  {"text":"close","translation":"закрыть","where":"scenes/snimok-1952-goda/widgets/notebook.html"}
+]}

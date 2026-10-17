@@ -45,7 +45,7 @@
   "state": {
     "flip": 0,
     "tremble": 0.3,
-    "back_text": "Дача, июнь 1952.\nВсе вместе.",
+    "back_text": "",
     "lamp_glow": 0.8,
     "paper_bend": 0.4,
     "cutout_shape": "man",
@@ -53,28 +53,28 @@
     "fingers_holding": "both",
     "handwritten_back_hint": 0.35
   },
-  "title": "Снимок 1952 года",
+  "title": "The 1952 Photograph",
   "camera": {
     "look": 0,
     "mode": "diorama"
   },
-  "caption": "Вещь помнит, кого из неё вынули.",
+  "caption": "A thing remembers who was taken out of it.",
   "horizon": 0.5,
   "objects": [
     {
       "id": "room",
       "sky": true,
-      "name": "Комната вне фокуса"
+      "name": "Room out of focus"
     },
     {
       "id": "photo",
       "sky": true,
-      "name": "Фотография 1952 года в руках"
+      "name": "The 1952 photograph in hands"
     },
     {
       "id": "motes",
       "sky": true,
-      "name": "Пылинки в свете лампы"
+      "name": "Dust motes in the lamplight"
     }
   ],
   "widgets": [
@@ -82,7 +82,7 @@
       "x": 0.02,
       "y": 0.97,
       "id": "notebook",
-      "name": "Блокнот",
+      "name": "Notebook",
       "width": 470,
       "anchor": "bottom-left",
       "height": 330
@@ -92,17 +92,17 @@
     {
       "at": 1.5,
       "for": 7,
-      "text": "Края волнистые — так обрезали в ателье. Бумага тёплая от лампы."
+      "text": "The edges are wavy: that's how the studio trimmed them. The paper is warm from the lamp."
     },
     {
       "at": 10,
       "for": 8,
-      "text": "Ножницы шли по контуру медленно. Только у воротника рука дрогнула."
+      "text": "The scissors followed the outline slowly. Only at the collar did the hand shake."
     },
     {
       "at": 19,
       "for": 8,
-      "text": "На плече женщины в белом осталась чужая рука."
+      "text": "On the shoulder of the woman in white, someone else's hand remains."
     }
   ]
 }

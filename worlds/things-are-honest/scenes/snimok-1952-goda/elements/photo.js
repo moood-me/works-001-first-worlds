@@ -159,7 +159,7 @@ const half = () => {
   g.closePath();
   g.clip();
 };
-const TXT = String(S.back_text == null ? "Дача, июнь 1952.\nВсе вместе." : S.back_text).split("\n");
+const TXT = String(S.back_text || tr('The dacha, June 1952.\nAll of us together.')).split("\n");
 const ink = (a) => {
   g.fillStyle = `rgba(46,38,104,${a})`;
   g.font = "italic 27px Georgia, serif";
@@ -552,7 +552,7 @@ const backSide = () => {
   g.scale(0.001, 0.001);
   g.font = "bold 22px Georgia, serif";
   g.textAlign = "center";
-  g.fillText("ФОТО", 0, 8);
+  g.fillText(tr('PHOTO'), 0, 8);
   g.restore();
   lit();
   g.restore();
