@@ -2,6 +2,6 @@
   {"text":"Disco","translation":"Дискотека","where":"scenes/disco/scene.json title"},
   {"text":"The lights sparkle, the music never stops","translation":"Огни сверкают, музыка не умолкает","where":"scenes/disco/scene.json caption"},
   {"text":"The ball above the stage scatters sparkles on every shoulder","translation":"Шар над сценой рассыпает зайчиков по всем плечам","where":"scenes/disco/scene.json captions[0] text"},
-  {"text":"For the first time, someone dares to step into the circle","translation":"Кто-то впервые решился выйти в круг","where":"scenes/disco/scene.json captions[1] text"},
+  {"text":"Someone has found the nerve to step into the circle for the first time","translation":"Кто-то впервые решился выйти в круг","where":"scenes/disco/scene.json captions[1] text"},
   {"text":"The yellow spotlight is looking for someone else to call over","translation":"Жёлтый прожектор ищет, кого бы ещё позвать","where":"scenes/disco/scene.json captions[2] text"}
 ]}
