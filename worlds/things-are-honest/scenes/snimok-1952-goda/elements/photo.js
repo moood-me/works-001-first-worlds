@@ -15,7 +15,7 @@ const has = (k) => det.indexOf(k) >= 0 || det.indexOf("all") >= 0;
 const L = hold === "both" || hold === "left",
   R = hold === "both" || hold === "right",
   free = !L && !R;
-const tr = free ? 0 : 0.35 + cl(num(S.tremble, 0.3), 0, 1) * 1.6;
+const tremor = free ? 0 : 0.35 + cl(num(S.tremble, 0.3), 0, 1) * 1.6;
 const hs = (n) => {
   const s = Math.sin(n * 127.1 + 311.7) * 43758.5453;
   return s - Math.floor(s);
@@ -32,9 +32,9 @@ const W = 1.12,
   Z = Math.min(1, A / 1.55) * 0.93;
 const rot =
   (free ? -0.06 : -0.03) +
-  (Math.sin(t * 0.71) * 0.004 + Math.sin(t * 1.37 + 1) * 0.0025 + Math.sin(t * 5.3) * 0.0007) * tr;
-const ox = (Math.sin(t * 0.53) * 0.003 + Math.sin(t * 1.91) * 0.0012) * tr,
-  oy = (Math.sin(t * 0.61 + 2) * 0.003 + Math.sin(t * 2.33) * 0.001) * tr;
+  (Math.sin(t * 0.71) * 0.004 + Math.sin(t * 1.37 + 1) * 0.0025 + Math.sin(t * 5.3) * 0.0007) * tremor;
+const ox = (Math.sin(t * 0.53) * 0.003 + Math.sin(t * 1.91) * 0.0012) * tremor,
+  oy = (Math.sin(t * 0.61 + 2) * 0.003 + Math.sin(t * 2.33) * 0.001) * tremor;
 const fx = Math.abs(Math.cos(Math.PI * flip)),
   back = flip > 0.5;
 const c = back ? 0 : 0.028 + bend * 0.1,
@@ -189,7 +189,7 @@ const lit = () => {
   gr.addColorStop(1, `rgba(40,22,10,${0.05 + bend * 0.25})`);
   g.fillStyle = gr;
   g.fillRect(-W, -H, 2 * W, 2 * H);
-  const sh = 0.12 + Math.sin(t * 0.37) * 0.015 * tr + rot * 0.8;
+  const sh = 0.12 + Math.sin(t * 0.37) * 0.015 * tremor + rot * 0.8;
   gr = g.createLinearGradient(sh - 0.2, -H / 2, sh + 0.08, H / 2);
   gr.addColorStop(0, "rgba(255,236,200,0)");
   gr.addColorStop(0.5, `rgba(255,236,200,${(0.05 + bend * 0.1) * glow})`);
@@ -684,7 +684,7 @@ const thumb = (m, y0, ph) => {
   g.save();
   g.scale(m, 1);
   const E = -W / 2,
-    sl = Math.sin(t * 0.4 + ph) * 0.002 * tr;
+    sl = Math.sin(t * 0.4 + ph) * 0.002 * tremor;
   const bx = E - 0.035,
     by = y0 + 0.035,
     tx = E + 0.068 + sl,
