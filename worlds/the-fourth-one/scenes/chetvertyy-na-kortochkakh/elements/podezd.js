@@ -65,4 +65,4 @@ g.fillRect(1.1, -0.85, 0.06, 0.85);
 g.fillRect(2.84, -0.85, 0.06, 0.85);
 g.font = "0.28px sans-serif";
 g.fillStyle = "rgba(200,195,185,0.2)";
-g.fillText("Ленка дура", -4.4, -0.6);
+g.fillText(tr('Lenka is dumb'), -4.4, -0.6);

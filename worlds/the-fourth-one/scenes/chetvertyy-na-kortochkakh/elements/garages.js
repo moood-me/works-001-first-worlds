@@ -1,7 +1,7 @@
 const s = e.state,
   t = e.t;
-let L = s.lamp === "погас" ? 0 : 1;
-if (s.lamp === "мигает") {
+let L = s.lamp === "off" ? 0 : 1;
+if (s.lamp === "flickering") {
   const n = Math.sin(t * 13.1) * Math.sin(t * 2.7) + Math.sin(t * 0.61);
   L = n > 0.6 ? 0.06 : n > 0.45 ? 0.45 : 1;
 }
@@ -30,7 +30,7 @@ for (let i = 0; i < 6; i++) {
   }
   g.fillStyle = "rgba(0,0,0,0.4)";
   g.fillRect(dx + dw / 2 - 0.015, -dh, 0.03, dh);
-  if (i === 2 && s.garage === "приоткрыт") {
+  if (i === 2 && s.garage === "ajar") {
     g.fillStyle = "#030304";
     g.fillRect(dx + dw / 2, -dh, 0.42, dh);
     g.fillStyle = cols[i];
@@ -55,10 +55,10 @@ for (let i = 0; i < 6; i++) {
 }
 g.font = "bold 0.36px sans-serif";
 g.fillStyle = "rgba(215,210,200,0.28)";
-g.fillText("ЦОЙ ЖИВ", 3.6, -1.3);
+g.fillText(tr('TSOI LIVES'), 3.6, -1.3);
 g.font = "0.26px sans-serif";
 g.fillStyle = "rgba(215,210,200,0.2)";
-g.fillText("Спартак — чемпион", -8.3, -1.6);
+g.fillText(tr('Spartak are champions'), -8.3, -1.6);
 if (L > 0) {
   const p = g.createRadialGradient(-7.2, -1, 0, -7.2, -1, 6);
   p.addColorStop(0, "rgba(235,150,70," + 0.2 * L + ")");

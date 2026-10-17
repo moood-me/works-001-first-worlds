@@ -1,12 +1,12 @@
 const s = e.state,
   t = e.t;
-let L = s.lamp === "погас" ? 0 : 1;
-if (s.lamp === "мигает") {
+let L = s.lamp === "off" ? 0 : 1;
+if (s.lamp === "flickering") {
   const n = Math.sin(t * 13.1) * Math.sin(t * 2.7) + Math.sin(t * 0.61);
   L = n > 0.6 ? 0.06 : n > 0.45 ? 0.45 : 1;
 }
 const br = Math.sin(t * 1.1) * 0.006 + Math.sin(t * 0.43) * 0.004;
-const tu = s.vovan === "обернулся" ? 1 : 0;
+const tu = s.vovan === "turned round" ? 1 : 0;
 const D = "#1b2030";
 const S = "rgba(215,215,210," + (0.15 + 0.4 * L) + ")";
 const R = "rgba(235,150,70," + 0.45 * L + ")";

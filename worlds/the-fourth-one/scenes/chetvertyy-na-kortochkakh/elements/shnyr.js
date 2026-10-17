@@ -1,12 +1,12 @@
 const s = e.state,
   t = e.t;
-let L = s.lamp === "погас" ? 0 : 1;
-if (s.lamp === "мигает") {
+let L = s.lamp === "off" ? 0 : 1;
+if (s.lamp === "flickering") {
   const n = Math.sin(t * 13.1) * Math.sin(t * 2.7) + Math.sin(t * 0.61);
   L = n > 0.6 ? 0.06 : n > 0.45 ? 0.45 : 1;
 }
 const br = Math.sin(t * 1.3) * 0.006 + Math.sin(t * 0.57) * 0.004;
-const fr = s.shnyr === "замер";
+const fr = s.shnyr === "frozen";
 const eat = !fr && s.seeds > 0;
 const D = "#24252a";
 const S = "rgba(215,215,210," + (0.15 + 0.4 * L) + ")";
