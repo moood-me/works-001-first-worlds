@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"Рассвет на озере","where":"world.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"Туман ещё не решил, уходить ли.","where":"world.json description"}
+]}
