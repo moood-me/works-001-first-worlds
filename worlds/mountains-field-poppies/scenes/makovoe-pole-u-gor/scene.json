@@ -94,22 +94,22 @@
     ],
     "brightness": 0.55
   },
-  "title": "Маковое поле у гор",
+  "title": "A Poppy Field by the Mountains",
   "camera": {
     "mode": "walk"
   },
-  "caption": "Раннее утро. Роса и тишина.",
+  "caption": "Early morning. Dew and silence.",
   "horizon": 0.56,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "утреннее небо"
+      "name": "morning sky"
     },
     {
       "id": "clouds",
       "sky": true,
-      "name": "перистые облака"
+      "name": "cirrus clouds"
     },
     {
       "x": 0.5,
@@ -120,7 +120,7 @@
         16000,
         60
       ],
-      "name": "снежный хребет",
+      "name": "snowy ridge",
       "color": "#6c7390",
       "height": 2000,
       "distance": 8000
@@ -134,7 +134,7 @@
         9000,
         40
       ],
-      "name": "лесистые предгорья",
+      "name": "wooded foothills",
       "color": "#4f5f66",
       "height": 400,
       "distance": 3000
@@ -148,7 +148,7 @@
         7000,
         20
       ],
-      "name": "туман в долине",
+      "name": "mist in the valley",
       "height": 90,
       "distance": 1800
     },
@@ -161,7 +161,7 @@
         800,
         3
       ],
-      "name": "деревья на краю поля",
+      "name": "trees at the edge of the field",
       "color": "#39463a",
       "height": 26,
       "distance": 700
@@ -175,14 +175,14 @@
         400,
         1
       ],
-      "name": "низкий туман над полем",
+      "name": "low mist over the field",
       "height": 4,
       "distance": 140
     },
     {
       "x": 0.5,
       "id": "field",
-      "name": "поле",
+      "name": "field",
       "color": "#7c8c55",
       "depth": 2600,
       "plane": true,
@@ -199,7 +199,7 @@
         40,
         0.35
       ],
-      "name": "маки вдали",
+      "name": "distant poppies",
       "color": "#c4302a",
       "height": 0.6,
       "distance": 22
@@ -213,7 +213,7 @@
         22,
         0.65
       ],
-      "name": "маки",
+      "name": "poppies",
       "color": "#c4302a",
       "height": 0.65,
       "distance": 11
@@ -227,7 +227,7 @@
         11,
         0.85
       ],
-      "name": "маки поближе",
+      "name": "nearer poppies",
       "color": "#c4302a",
       "height": 0.7,
       "distance": 6
@@ -241,7 +241,7 @@
         0.75,
         0.5
       ],
-      "name": "куст маков",
+      "name": "clump of poppies",
       "color": "#d23a28",
       "height": 1,
       "distance": 4.6
@@ -255,7 +255,7 @@
         8,
         0.9
       ],
-      "name": "трава у ног",
+      "name": "grass at your feet",
       "color": "#4a5d33",
       "height": 1,
       "distance": 3
@@ -269,7 +269,7 @@
         0.7,
         0.3
       ],
-      "name": "размытая трава на переднем плане",
+      "name": "blurred grass in the foreground",
       "height": 1.5,
       "distance": 1.6
     }
@@ -278,12 +278,12 @@
     {
       "at": 3,
       "for": 8,
-      "text": "Первый свет сначала приходит к вершинам."
+      "text": "The first light comes to the peaks first."
     },
     {
       "at": 14,
       "for": 8,
-      "text": "Роса ещё лежит на лепестках."
+      "text": "The dew still lies on the petals."
     }
   ]
 }
