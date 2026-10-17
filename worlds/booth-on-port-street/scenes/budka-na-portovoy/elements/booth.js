@@ -1,6 +1,6 @@
 const s = e.state,
   t = e.t;
-const on = s.phone === "звонит" && Math.sin(t * 2.6) > 0;
+const on = s.phone === "ringing" && Math.sin(t * 2.6) > 0;
 const fl = 0.93 + 0.04 * Math.sin(t * 29) * Math.sin(t * 2.3) + (on ? 0.12 : 0);
 g.fillStyle = "rgba(200,228,214,0.07)";
 g.fillRect(-0.55, -2.3, 1.1, 2.2);
@@ -23,6 +23,6 @@ g.fillStyle = "#1a1d1f";
 g.font = "bold 0.095px sans-serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-g.fillText("ТЕЛЕФОН", 0, -2.385);
+g.fillText(tr('PHONE'), 0, -2.385);
 g.fillStyle = "rgba(200,215,220,0.12)";
 g.fillRect(-0.62, -2.5, 1.24, 0.025);

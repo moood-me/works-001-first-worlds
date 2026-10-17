@@ -25,7 +25,7 @@ for (let fl = 0; fl < 2; fl++) {
 const W = s.window;
 const wx = -2.6,
   wy = -10.4;
-if (W !== "темно") {
+if (W !== "dark") {
   const f = 0.92 + 0.04 * Math.sin(t * 0.7) + 0.03 * Math.sin(t * 1.9);
   let lg = g.createLinearGradient(wx, wy, wx + 1.4, wy + 2.2);
   lg.addColorStop(0, "rgba(222,170,104," + 0.75 * f + ")");
@@ -36,7 +36,7 @@ if (W !== "темно") {
   g.fillRect(wx, wy, 0.25, 2.2);
   g.fillRect(wx + 1.15, wy, 0.25, 2.2);
   e.light(wx + 0.7, wy + 1.1, 2.2, "#dca868", 0.45 * f);
-  if (W === "силуэт") {
+  if (W === "silhouette") {
     const sw = Math.sin(t * 0.37) * 0.06 + Math.sin(t * 0.91) * 0.02;
     g.fillStyle = "rgba(40,24,18,0.8)";
     g.beginPath();
@@ -69,8 +69,8 @@ for (const x of [-13.5, -9.5, 0.5]) {
   g.fillStyle = "rgba(90,100,120,0.05)";
   g.fillRect(x + 0.2, -3.1, 1, 2.2);
 }
-let N = s.neon === "погас" ? 0 : 1;
-if (s.neon === "мигает") {
+let N = s.neon === "off" ? 0 : 1;
+if (s.neon === "flickering") {
   const n = Math.sin(t * 9.7) * Math.sin(t * 2.3) + 0.6 * Math.sin(t * 0.43);
   N = n > 0.75 ? 0.05 : n > 0.6 ? 0.45 : 1;
 }
@@ -81,8 +81,8 @@ g.fillRect(4.4, -4.5, 0.4, 0.14);
 g.font = "bold 1.0px serif";
 g.textAlign = "center";
 g.textBaseline = "middle";
-const L = ["О", "Т", "Е", "Л", "Ь"];
-for (let i = 0; i < 5; i++) {
+const L = [...tr('HOTEL')];
+for (let i = 0; i < L.length; i++) {
   const dead = i === 2;
   const a = dead ? 0.1 : 0.12 + 0.8 * N;
   g.fillStyle = "rgba(205,70,80," + a + ")";

@@ -95,29 +95,29 @@
     "brightness": 0.3
   },
   "state": {
-    "car": "нет",
-    "man": "у фонаря",
+    "car": "none",
+    "man": "by the lamp",
     "carX": 0,
     "gone": 0,
-    "lamp": "горит",
-    "neon": "мигает",
+    "lamp": "on",
+    "neon": "flickering",
     "rain": 0.7,
     "walk": 0,
-    "phone": "молчит",
-    "window": "свет",
+    "phone": "silent",
+    "window": "lit",
     "cigarette": true
   },
-  "title": "Будка на Портовой",
+  "title": "The Booth on Port Street",
   "camera": {
     "mode": "picture"
   },
-  "caption": "Дождь, фонарь и будка, которая не звонит.",
+  "caption": "Rain, a street lamp, and a booth that doesn't ring.",
   "horizon": 0.6,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "небо"
+      "name": "sky"
     },
     {
       "id": "port",
@@ -127,7 +127,7 @@
         220,
         0.5
       ],
-      "name": "порт вдали",
+      "name": "port in the distance",
       "color": "#15161c",
       "across": 30,
       "height": 40,
@@ -141,7 +141,7 @@
         27,
         0.4
       ],
-      "name": "улица вдаль",
+      "name": "street into the distance",
       "across": 6,
       "height": 22,
       "distance": 32
@@ -154,7 +154,7 @@
         27,
         0.4
       ],
-      "name": "улица дальше",
+      "name": "street further on",
       "across": 6,
       "height": 22,
       "distance": 55
@@ -167,14 +167,14 @@
         27,
         0.4
       ],
-      "name": "конец улицы",
+      "name": "end of the street",
       "across": 6,
       "height": 22,
       "distance": 90
     },
     {
       "id": "cross_road",
-      "name": "переулок",
+      "name": "side street",
       "color": "#0c0e12",
       "depth": 96.6,
       "plane": true,
@@ -190,7 +190,7 @@
         7.2,
         0.4
       ],
-      "name": "отель «Маяк»",
+      "name": "the Lighthouse hotel",
       "color": "#16151a",
       "across": -6,
       "height": 11.5,
@@ -204,14 +204,14 @@
         18,
         0.4
       ],
-      "name": "угловой дом",
+      "name": "corner house",
       "across": 11,
       "height": 10,
       "distance": 18
     },
     {
       "id": "sidewalk",
-      "name": "тротуар",
+      "name": "pavement",
       "color": "#1a1b1f",
       "depth": 4,
       "plane": true,
@@ -222,7 +222,7 @@
     },
     {
       "id": "sidewalk_r",
-      "name": "тротуар за углом",
+      "name": "pavement round the corner",
       "depth": 4,
       "plane": true,
       "width": 11,
@@ -232,7 +232,7 @@
     },
     {
       "id": "road",
-      "name": "мокрая мостовая",
+      "name": "wet cobbles",
       "color": "#0c0e12",
       "depth": 11.7,
       "plane": true,
@@ -248,7 +248,7 @@
         3.6,
         0.3
       ],
-      "name": "фонарь",
+      "name": "street lamp",
       "color": "#121317",
       "across": -2.5,
       "height": 5.2,
@@ -262,7 +262,7 @@
         7.6,
         0.2
       ],
-      "name": "человек в плаще",
+      "name": "man in a raincoat",
       "color": "#0b0c10",
       "across": -1.6,
       "height": 1.8,
@@ -276,7 +276,7 @@
         0.7,
         0.1
       ],
-      "name": "телефонная будка",
+      "name": "phone booth",
       "color": "#1a1d1f",
       "across": 3.2,
       "height": 2.5,
@@ -290,7 +290,7 @@
         14,
         0.2
       ],
-      "name": "дождь у фонаря",
+      "name": "rain by the lamp",
       "across": -1.8,
       "height": 7,
       "distance": 14.2
@@ -303,7 +303,7 @@
         30,
         0.4
       ],
-      "name": "машина",
+      "name": "car",
       "across": 0,
       "height": 1.45,
       "distance": 6
@@ -316,7 +316,7 @@
         9,
         0.3
       ],
-      "name": "дождь",
+      "name": "rain",
       "across": 0,
       "height": 8,
       "distance": 3.5
@@ -329,7 +329,7 @@
         1.7,
         0.3
       ],
-      "name": "нутро будки",
+      "name": "inside of the booth",
       "color": "#1a1d1f",
       "across": 3.2,
       "height": 2.5,
@@ -340,17 +340,17 @@
     {
       "at": 2,
       "for": 6,
-      "text": "Три часа ночи. Порт спит."
+      "text": "Three in the morning. The port is asleep."
     },
     {
       "at": 10,
       "for": 7,
-      "text": "Сорок минут телефон в будке молчит."
+      "text": "For forty minutes the phone in the booth has been silent."
     },
     {
       "at": 19,
       "for": 7,
-      "text": "Он считает окна напротив. Горит одно."
+      "text": "He counts the windows opposite. One is lit."
     }
   ]
 }

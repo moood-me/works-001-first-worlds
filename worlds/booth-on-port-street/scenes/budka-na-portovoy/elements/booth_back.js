@@ -1,7 +1,7 @@
 const s = e.state,
   t = e.t;
-const ring = s.phone === "звонит";
-const off = s.phone === "трубка снята";
+const ring = s.phone === "ringing";
+const off = s.phone === "off the hook";
 const inside = (s.walk || 0) > 0.85 && (s.gone || 0) < 0.5;
 const on = ring && Math.sin(t * 2.6) > 0;
 const jit = on ? Math.sin(t * 70) * 0.008 : 0;

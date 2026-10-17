@@ -16,13 +16,13 @@ for (let i = 0; i < 40; i++) {
 }
 g.fillStyle = "rgba(150,148,135,0.09)";
 for (let x = -22; x < 22; x += 3.2) g.fillRect(x, -0.06, 1.7, 0.12);
-let L = s.lamp === "погас" ? 0 : 1;
-if (s.lamp === "мигает") {
+let L = s.lamp === "off" ? 0 : 1;
+if (s.lamp === "flickering") {
   const n = Math.sin(t * 17.3) * Math.sin(t * 3.1) + Math.sin(t * 0.71);
   L = n > 0.55 ? 0.12 : n > 0.4 ? 0.5 : 1;
 }
-let N = s.neon === "погас" ? 0 : 1;
-if (s.neon === "мигает") {
+let N = s.neon === "off" ? 0 : 1;
+if (s.neon === "flickering") {
   const n = Math.sin(t * 9.7) * Math.sin(t * 2.3) + 0.6 * Math.sin(t * 0.43);
   N = n > 0.75 ? 0.05 : n > 0.6 ? 0.45 : 1;
 }
@@ -39,7 +39,7 @@ function refl(x, col, a, wd) {
 refl(-1.8, "230,165,90", 0.4 * L, 0.6);
 refl(3.2, "190,225,205", 0.2, 0.45);
 refl(-0.5, "200,65,75", 0.2 * N, 0.35);
-if (s.window !== "темно") refl(-7.9, "220,168,104", 0.12, 0.3);
+if (s.window !== "dark") refl(-7.9, "220,168,104", 0.12, 0.3);
 g.strokeStyle = "rgb(170,180,195)";
 g.lineWidth = 0.012;
 const n = Math.floor(90 * R);

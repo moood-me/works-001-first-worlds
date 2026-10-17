@@ -1,7 +1,7 @@
 const s = e.state,
   t = e.t;
-let L = s.lamp === "погас" ? 0 : 1;
-if (s.lamp === "мигает") {
+let L = s.lamp === "off" ? 0 : 1;
+if (s.lamp === "flickering") {
   const n = Math.sin(t * 17.3) * Math.sin(t * 3.1) + Math.sin(t * 0.71);
   L = n > 0.55 ? 0.12 : n > 0.4 ? 0.5 : 1;
 }

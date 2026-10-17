@@ -1,7 +1,7 @@
 const s = e.state,
   t = e.t;
 const p = s.carX || 0;
-if (s.car !== "едет" || p <= 0.001 || p >= 0.999) return;
+if (s.car !== "passing" || p <= 0.001 || p >= 0.999) return;
 const x = -27 + p * 54;
 g.save();
 g.translate(x, 0);

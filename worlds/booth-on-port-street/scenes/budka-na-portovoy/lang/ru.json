@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"ТЕЛЕФОН","where":"scenes/budka-na-portovoy/elements/booth.js"},
+  {"text":"HOTEL","translation":"ОТЕЛЬ","where":"scenes/budka-na-portovoy/elements/hotel.js"},
+  {"text":"The Booth on Port Street","translation":"Будка на Портовой","where":"scenes/budka-na-portovoy/scene.json title"},
+  {"text":"Rain, a street lamp, and a booth that doesn't ring.","translation":"Дождь, фонарь и будка, которая не звонит.","where":"scenes/budka-na-portovoy/scene.json caption"},
+  {"text":"Three in the morning. The port is asleep.","translation":"Три часа ночи. Порт спит.","where":"scenes/budka-na-portovoy/scene.json captions[0] text"},
+  {"text":"For forty minutes the phone in the booth has been silent.","translation":"Сорок минут телефон в будке молчит.","where":"scenes/budka-na-portovoy/scene.json captions[1] text"},
+  {"text":"He counts the windows opposite. One is lit.","translation":"Он считает окна напротив. Горит одно.","where":"scenes/budka-na-portovoy/scene.json captions[2] text"},
+  {"text":"A car went by and didn't slow down.","translation":"Мимо проехала машина и не сбавила хода.","where":"scenes/budka-na-portovoy/script.js"}
+]}
