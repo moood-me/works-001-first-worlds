@@ -3,6 +3,6 @@
   {"text":"Only the wind and the trees live here now.","translation":"Здесь теперь живут только ветер и деревья.","where":"scenes/pripyat/scene.json caption"},
   {"text":"They left for three days. They took only their papers.","translation":"Уезжали на три дня. Взяли только документы.","where":"scenes/pripyat/scene.json captions[0] text"},
   {"text":"The wheel was meant to start turning on the first of May.","translation":"Колесо должно было заработать первого мая.","where":"scenes/pripyat/scene.json captions[1] text"},
-  {"text":"The cabins still sway, in the wind.","translation":"Кабинки до сих пор качаются — от ветра.","where":"scenes/pripyat/scene.json captions[2] text"},
+  {"text":"The cabins still sway. Only from the wind.","translation":"Кабинки до сих пор качаются — от ветра.","where":"scenes/pripyat/scene.json captions[2] text"},
   {"text":"Forty years of silence.","translation":"Сорок лет тишины.","where":"scenes/pripyat/scene.json captions[3] text"}
 ]}
