@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Колодец шёпотов","where":"world.json title"},
+  {"text":"A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.","translation":"Заколоченный колодец посреди ночного ельника, из щелей которого сочится холодный свет. Говорят, он отвечает тем, кто спрашивает шёпотом.","where":"world.json description"}
+]}

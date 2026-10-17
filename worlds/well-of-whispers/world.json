@@ -1,9 +1,9 @@
 {
-  "title": "Колодец шёпотов",
-  "description": "Заколоченный колодец посреди ночного ельника, из щелей которого сочится холодный свет. Говорят, он отвечает тем, кто спрашивает шёпотом.",
+  "title": "The Well of Whispers",
+  "description": "A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.",
   "themes": {
-    "тайны": 40,
-    "фэнтези": 60
+    "mystery": 40,
+    "fantasy": 60
   },
   "main": "kolodets-shepotov"
 }

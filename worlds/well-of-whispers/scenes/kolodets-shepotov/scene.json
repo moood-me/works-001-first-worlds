@@ -108,7 +108,7 @@
     "seeker_here": true,
     "seeker_step": 0.15
   },
-  "title": "Колодец шёпотов",
+  "title": "The Well of Whispers",
   "camera": {
     "area": [
       -3,
@@ -118,13 +118,13 @@
     ],
     "mode": "walk"
   },
-  "caption": "Колодец помнит каждое слово, сказанное над ним.",
+  "caption": "The well remembers every word spoken over it.",
   "horizon": 0.54,
   "objects": [
     {
       "id": "sky",
       "sky": true,
-      "name": "Ночное небо"
+      "name": "Night sky"
     },
     {
       "x": 0.5,
@@ -135,7 +135,7 @@
         170,
         2
       ],
-      "name": "Дальний ельник",
+      "name": "Distant spruce forest",
       "height": 20,
       "distance": 90
     },
@@ -148,14 +148,14 @@
         70,
         1
       ],
-      "name": "Ельник за поляной",
+      "name": "Spruces beyond the clearing",
       "height": 16,
       "distance": 34
     },
     {
       "x": 0.5,
       "id": "ground",
-      "name": "Поляна",
+      "name": "Clearing",
       "color": "#0f1519",
       "depth": 44,
       "plane": true,
@@ -172,7 +172,7 @@
         45,
         1
       ],
-      "name": "Туман",
+      "name": "Fog",
       "height": 3,
       "distance": 17
     },
@@ -184,7 +184,7 @@
         1.6,
         0.4
       ],
-      "name": "Колодец",
+      "name": "Well",
       "color": "#2a3138",
       "across": 2.5,
       "height": 2.5,
@@ -199,7 +199,7 @@
         1.5,
         0
       ],
-      "name": "Эхо колодца",
+      "name": "The well's echo",
       "across": 2.5,
       "height": 2.6,
       "distance": 12.95
@@ -212,7 +212,7 @@
         1.2,
         2.2
       ],
-      "name": "Искательница",
+      "name": "Seeker",
       "across": 1.3,
       "height": 1.65,
       "flicker": 0.35,
@@ -227,7 +227,7 @@
         7,
         1
       ],
-      "name": "Высокая трава",
+      "name": "Tall grass",
       "height": 1,
       "distance": 5
     },
@@ -239,7 +239,7 @@
         4.5,
         0.3
       ],
-      "name": "Старая ель",
+      "name": "Old spruce",
       "across": -7.2,
       "height": 16,
       "distance": 8
@@ -249,12 +249,12 @@
     {
       "at": 2,
       "for": 9,
-      "text": "Сто лет колодец стоял заколоченным. Этой ночью из щелей сочится свет."
+      "text": "For a hundred years the well stood boarded up. Tonight light is seeping through the cracks."
     },
     {
       "at": 13,
       "for": 9,
-      "text": "Говорят, он отвечает — но только тем, кто спрашивает шёпотом."
+      "text": "They say it answers, but only those who ask in a whisper."
     }
   ]
 }
