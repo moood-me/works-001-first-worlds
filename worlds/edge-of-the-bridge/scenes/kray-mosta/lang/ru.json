@@ -1,8 +1,0 @@
-{"strings": [
-  {"text":"The Edge of the Bridge","translation":"Край моста","where":"scenes/kray-mosta/scene.json title"},
-  {"text":"She shines her light into the void, in case someone answers.","translation":"Она светит в пустоту — вдруг кто-нибудь ответит.","where":"scenes/kray-mosta/scene.json caption"},
-  {"text":"The bridge has ended here for three hundred years.","translation":"Мост обрывается здесь уже триста лет.","where":"scenes/kray-mosta/scene.json captions[0] text"},
-  {"text":"Every evening she lights the lantern, in case someone is still left over there.","translation":"Каждый вечер она зажигает фонарь — на случай, если напротив кто-то остался.","where":"scenes/kray-mosta/scene.json captions[1] text"},
-  {"text":"The mist below doesn't remember where the bridge once led.","translation":"Туман внизу не помнит, куда вёл мост.","where":"scenes/kray-mosta/scene.json captions[2] text"},
-  {"text":"The sky whale has gone beyond the edge of the mist","translation":"Небесный кит ушёл за край тумана","where":"scenes/kray-mosta/script.js"}
-]}
