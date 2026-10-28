@@ -1,0 +1,20 @@
+{"strings": [
+  {"text":"LIDA · O2 {oxygen}%","translation":"ЛИДА · O2 {oxygen}%","where":"scenes/cryo-bay/elements/lida.js"},
+  {"text":"MANUAL RELEASE","translation":"РУЧНОЕ ОТКРЫТИЕ","where":"scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · OPEN","translation":"КРИО-3 · ОТКРЫТО","where":"scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · READY","translation":"КРИО-3 · ГОТОВ","where":"scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · LOCKED","translation":"КРИО-3 · ЗАПЕРТО","where":"scenes/cryo-bay/elements/panel.js"},
+  {"text":"PULL DOWN","translation":"ТЯНУТЬ ВНИЗ","where":"scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-2","translation":"КРИО-2","where":"scenes/cryo-bay/elements/pod2.js"},
+  {"text":"CRYO-3","translation":"КРИО-3","where":"scenes/cryo-bay/elements/pod3.js"},
+  {"text":"CRYO-4","translation":"КРИО-4","where":"scenes/cryo-bay/elements/pod4.js"},
+  {"text":"The Ladoga's Cryo Bay","translation":"Криоблок «Ладоги»","where":"scenes/cryo-bay/scene.json title"},
+  {"text":"A cramped cluster of pods. Frost on the third.","translation":"Тесный узел капсул. Иней на третьей.","where":"scenes/cryo-bay/scene.json caption"},
+  {"text":"Behind the frost of pod 3 a dark silhouette seemed to stir, and went still again.","translation":"За инеем капсулы №3 тёмный силуэт будто дрогнул — и снова замер.","where":"scenes/cryo-bay/script.js"},
+  {"text":"The frost on the glass of pod 3 has almost gone; the glass is wet, and a silhouette shows through it.","translation":"Иней на стекле капсулы №3 почти сошёл; стекло мокрое, сквозь него проступает силуэт.","where":"scenes/cryo-bay/script.js"},
+  {"text":"The glass of pod 3 has fogged up from Vera's breath.","translation":"Стекло капсулы №3 запотело от дыхания Веры.","where":"scenes/cryo-bay/script.js"},
+  {"text":"The lock of pod 3 has clicked; icy vapour seeps from the gap.","translation":"Замок капсулы №3 щёлкнул; из щели потянуло ледяным паром.","where":"scenes/cryo-bay/script.js"},
+  {"text":"The door of pod 3 is flung wide open, vapour creeps across the floor.","translation":"Дверца капсулы №3 откинута настежь, пар стелется по полу.","where":"scenes/cryo-bay/script.js"},
+  {"text":"All three safety catches of the manual panel are off: the lever is free.","translation":"Все три предохранителя ручной панели сняты — рычаг свободен.","where":"scenes/cryo-bay/script.js"},
+  {"text":"Ten percent of the oxygen is left on board.","translation":"Кислорода на борту осталось десять процентов.","where":"scenes/cryo-bay/script.js"}
+]}

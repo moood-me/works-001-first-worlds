@@ -1,0 +1,238 @@
+{
+  "light": {
+    "haze": 0.08,
+    "tint": "#3a1820",
+    "grain": 0.4,
+    "vignette": 0.68,
+    "hazeColor": "#0a0a12",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "deep space dark ambient drone, low sub bass hum of a dying ship reactor, vast and cold",
+        "weight": 1.4
+      },
+      {
+        "text": "eerie metallic creaks and distant hull groans turned into slow tonal textures, isolation horror",
+        "weight": 1
+      },
+      {
+        "text": "sparse detuned synth pads in the style of 1970s sci-fi horror scores, slow and ominous",
+        "weight": 0.8
+      },
+      {
+        "text": "breathing-like filtered noise swells inside a spacesuit, claustrophobic, very slow",
+        "weight": 0.5
+      },
+      {
+        "text": "faint music box melody slowed down and warped, heard over a broken radio channel",
+        "weight": 0.3
+      },
+      {
+        "text": "cold glass harmonica tones with long reverb, frozen cryogenic chamber",
+        "weight": 0
+      },
+      {
+        "text": "low cello col legno tapping, irregular, like knocking on a hull",
+        "weight": 0
+      },
+      {
+        "text": "analog modular bleeps of a ship computer, minimal, unsettling pulses",
+        "weight": 0
+      },
+      {
+        "text": "dissonant string clusters slowly rising, suspense before something appears",
+        "weight": 0
+      },
+      {
+        "text": "distant morse code tones dissolving into static and wind-like noise",
+        "weight": 0
+      },
+      {
+        "text": "ritual low taiko hits far away, very sparse, heartbeat in the dark",
+        "weight": 0
+      },
+      {
+        "text": "soviet space-age electronic organ, melancholic and lonely, cosmonaut lullaby",
+        "weight": 0
+      },
+      {
+        "text": "granular ambient made from radio static and solar wind recordings",
+        "weight": 0
+      },
+      {
+        "text": "minimal piano single notes in a huge empty hall, cold and patient",
+        "weight": 0
+      },
+      {
+        "text": "industrial ambient with rhythmic ventilation fan hum and electrical buzz",
+        "weight": 0
+      },
+      {
+        "text": "choir pad with no words, distant and inhuman, slow glissandi",
+        "weight": 0
+      },
+      {
+        "text": "warm hopeful synth strings, rescue ship arriving, slow dawn swell",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.18
+  },
+  "state": {
+    "suit": 0.3,
+    "frost": 1,
+    "knock": 0,
+    "power": 0.35,
+    "oxygen": 23,
+    "knocking": false,
+    "pod_hand": false,
+    "vera_light": true
+  },
+  "title": "The Ladoga's Observation Bay",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Day three adrift by a dead star. The oxygen is running out. Someone is knocking on the glass from outside.",
+  "horizon": 0.55,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Space and the red dwarf"
+    },
+    {
+      "id": "station",
+      "sky": true,
+      "name": "Zarya-9 station"
+    },
+    {
+      "x": 0.6,
+      "id": "gordeev",
+      "box": [
+        -2.2,
+        -3.4,
+        2.2,
+        0.2
+      ],
+      "name": "Navigator Gordeev beyond the glass",
+      "color": "#4e5157",
+      "height": 1.8,
+      "distance": 7.6
+    },
+    {
+      "x": 0.5,
+      "id": "wall",
+      "box": [
+        -16,
+        -8,
+        16,
+        0.4
+      ],
+      "name": "Wall and porthole",
+      "color": "#151a21",
+      "height": 5,
+      "distance": 6
+    },
+    {
+      "x": 0.5,
+      "id": "floor",
+      "name": "Grated floor",
+      "color": "#0b0d11",
+      "depth": 6,
+      "plane": true,
+      "width": 16,
+      "distance": 3,
+      "elevation": 0
+    },
+    {
+      "x": 0.24,
+      "id": "pod",
+      "box": [
+        -0.8,
+        -2.3,
+        0.8,
+        0.2
+      ],
+      "name": "Pod 3",
+      "color": "#20262e",
+      "height": 2.1,
+      "distance": 4
+    },
+    {
+      "x": 0.77,
+      "id": "lida",
+      "box": [
+        -0.8,
+        -1.5,
+        0.8,
+        0.15
+      ],
+      "name": "LIDA, the ship's computer",
+      "color": "#1a1410",
+      "height": 1.3,
+      "distance": 4.1
+    },
+    {
+      "x": 0.47,
+      "id": "vera",
+      "box": [
+        -0.6,
+        -2.2,
+        1.6,
+        0.15
+      ],
+      "name": "Flight engineer Vera Samoylova",
+      "color": "#141820",
+      "height": 1.68,
+      "distance": 4.5
+    },
+    {
+      "x": 0.5,
+      "id": "dust",
+      "box": [
+        -3,
+        -3,
+        3,
+        0.1
+      ],
+      "name": "Dust in the beam",
+      "height": 2.5,
+      "distance": 2.8
+    },
+    {
+      "x": 0.5,
+      "id": "cables",
+      "box": [
+        -3.2,
+        -4,
+        3.2,
+        0.1
+      ],
+      "name": "Torn cables",
+      "color": "#07080b",
+      "height": 3,
+      "distance": 1.7
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "For three days the Ladoga has been drifting by a dead star. No contact."
+    },
+    {
+      "at": 11,
+      "for": 7,
+      "text": "Gordeev went outside on Tuesday. The tether was reeled in empty."
+    },
+    {
+      "at": 20,
+      "for": 8,
+      "text": "LIDA counts the crew again. Three out of three on board."
+    }
+  ]
+}
