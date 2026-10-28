@@ -1,0 +1,21 @@
+{
+  "type": "asked",
+  "title": "Первая история",
+  "description": "Игра asked: история на сценах разных миров, открываешь её вопросами «да/нет».",
+  "genres": {},
+  "world": null,
+  "scenes": [
+    {
+      "world": "pavel--death-in-the-park",
+      "folder": "bench-by-the-lamp"
+    },
+    {
+      "world": "pavel--quiet-lake",
+      "folder": "boathouse-cove"
+    },
+    {
+      "world": "pavel--piano",
+      "folder": "piano-loft"
+    }
+  ]
+}
