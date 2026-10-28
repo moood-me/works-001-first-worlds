@@ -1,0 +1,130 @@
+{
+  "light": {
+    "haze": 0.45,
+    "tint": "#3a3050",
+    "grain": 0.3,
+    "vignette": 0.6,
+    "hazeColor": "#3d3a4f",
+    "tintStrength": 0.12
+  },
+  "state": {
+    "met": false,
+    "hero_x": 1.5,
+    "death_x": -12,
+    "hero_face": -1,
+    "hero_action": "stand",
+    "death_action": "approach"
+  },
+  "title": "Death in the Park",
+  "camera": {
+    "mode": "panorama",
+    "span": [
+      10,
+      10
+    ],
+    "follow": [
+      "hero",
+      "death"
+    ]
+  },
+  "caption": "An ordinary evening. Almost.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Evening sky"
+    },
+    {
+      "x": 0.5,
+      "id": "lawn",
+      "name": "Lawn",
+      "color": "#22281f",
+      "depth": 120,
+      "plane": true,
+      "width": 200,
+      "distance": 60
+    },
+    {
+      "x": 0.5,
+      "id": "path",
+      "name": "Path",
+      "color": "#6e665c",
+      "depth": 3.2,
+      "plane": true,
+      "width": 70,
+      "distance": 9,
+      "elevation": 0.01
+    },
+    {
+      "x": 0.5,
+      "id": "trees",
+      "box": [
+        -90,
+        -20,
+        90,
+        1
+      ],
+      "name": "Park trees",
+      "color": "#1a1820",
+      "height": 16,
+      "distance": 45
+    },
+    {
+      "x": 0.5,
+      "id": "lamps",
+      "box": [
+        -16,
+        -4.2,
+        16,
+        0.2
+      ],
+      "name": "Street lamps",
+      "color": "#ffcf86",
+      "height": 3.6,
+      "distance": 10.6
+    },
+    {
+      "x": 0.717,
+      "id": "bench",
+      "box": [
+        -1.2,
+        -1,
+        1.2,
+        0.1
+      ],
+      "name": "Bench",
+      "color": "#3a2a1e",
+      "height": 0.9,
+      "distance": 9.9
+    },
+    {
+      "x": 0.5,
+      "id": "death",
+      "box": [
+        -18,
+        -2.8,
+        18,
+        0.3
+      ],
+      "name": "Death",
+      "color": "#0e0d12",
+      "height": 2.1,
+      "distance": 9.25
+    },
+    {
+      "x": 0.5,
+      "id": "hero",
+      "box": [
+        -13,
+        -2.2,
+        13,
+        0.3
+      ],
+      "name": "You",
+      "color": "#3c3f46",
+      "height": 1.75,
+      "distance": 9
+    }
+  ]
+}

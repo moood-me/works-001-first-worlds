@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"У ворот парка","where":"scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"Ворота впереди. Кто-то — позади.","where":"scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"Дорожка раздваивается у ворот.","where":"scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"Фонарь у калитки гаснет и снова вспоминает, что он фонарь.","where":"scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"Ты дошла до ворот — они закрыты и заперты на цепь.","where":"scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"Ты дошла до ворот — они закрыты.","where":"scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"Ты вышла за ворота и скрылась в тумане по ту сторону.","where":"scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"Ты дёргаешь калитку — цепь звякает, замок держит.","where":"scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"Ворота со скрипом открываются. За ними — бледный туман.","where":"scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"Ты вернулась из-за ворот на дорожку.","where":"scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"Смерть прошла сквозь запертые ворота и ждёт по ту сторону, в тумане.","where":"scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"Смерть прошла сквозь открытые ворота и ждёт по ту сторону, в тумане.","where":"scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"Смерть подошла и остановилась рядом с тобой.","where":"scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"Смерть догнала тебя.","where":"scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Ты подошла к воротам парка. Мокрые прутья, цепь, за ними — туман. Дорожка уходит и дальше, в глубь парка.","where":"scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"Туман сомкнулся: дорожки назад почти не видно, только фонари у ворот.","where":"scenes/park-gate/script.js"}
+]}
