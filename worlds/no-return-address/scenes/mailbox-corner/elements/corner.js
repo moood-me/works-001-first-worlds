@@ -1,0 +1,11 @@
+g.fillStyle = "#0d0e11";
+g.fillRect(-3, -9, 4, 9.3);
+var gr = g.createLinearGradient(0.6, 0, 1, 0);
+gr.addColorStop(0, "rgba(120,110,95,0)");
+gr.addColorStop(1, "rgba(150,130,100," + 0.14 * e.state.lamp + ")");
+g.fillStyle = gr;
+g.fillRect(0.6, -9, 0.4, 9.3);
+g.fillStyle = "#15161a";
+g.fillRect(0.2, -9, 0.12, 9);
+g.fillRect(0.12, -3, 0.28, 0.1);
+g.fillRect(0.12, -6.5, 0.28, 0.1);
