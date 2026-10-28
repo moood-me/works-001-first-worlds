@@ -1,0 +1,9 @@
+{
+  "title": "The Last Window",
+  "description": "The only house in the middle of a snowy field, the only lit window for miles around. Every night something stands at the edge of the forest, and every night a little closer.",
+  "themes": {
+    "horror": 60,
+    "loneliness": 40
+  },
+  "main": "house-in-the-field"
+}
