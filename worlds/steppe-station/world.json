@@ -2,5 +2,6 @@
   "title": "Abandoned Station in the Steppe",
   "description": "The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.",
   "themes": {},
-  "main": "steppe-station"
+  "main": "steppe-station",
+  "languages": ["en", "ru"]
 }

@@ -2,5 +2,6 @@
   "title": "The Embankment",
   "description": "An evening as long as the embankment itself.",
   "themes": {},
-  "main": "embankment"
+  "main": "embankment",
+  "languages": ["en", "ru"]
 }

@@ -2,5 +2,6 @@
   "title": "Hope",
   "description": "The lantern burns as long as someone is waiting.",
   "themes": {},
-  "main": "hope"
+  "main": "hope",
+  "languages": ["en", "ru"]
 }

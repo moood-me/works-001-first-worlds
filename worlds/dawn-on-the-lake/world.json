@@ -2,5 +2,6 @@
   "title": "Dawn on the Lake",
   "description": "The mist hasn't yet made up its mind whether to leave.",
   "themes": {},
-  "main": "dawn-on-the-lake"
+  "main": "dawn-on-the-lake",
+  "languages": ["en", "ru"]
 }

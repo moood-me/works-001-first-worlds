@@ -5,5 +5,6 @@
     "anime": 60,
     "drama": 40
   },
-  "main": "last-number-seven"
+  "main": "last-number-seven",
+  "languages": ["en", "ru"]
 }

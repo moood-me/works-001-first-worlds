@@ -2,5 +2,6 @@
   "title": "at the evil psychotherapist's",
   "description": "",
   "themes": {},
-  "main": "dr-strogova-office"
+  "main": "dr-strogova-office",
+  "languages": ["en", "ru"]
 }

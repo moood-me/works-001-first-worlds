@@ -2,5 +2,6 @@
   "title": "Night by the Campfire",
   "description": "Look around. It's all here, all around you.",
   "themes": {},
-  "main": "campfire-night"
+  "main": "campfire-night",
+  "languages": ["en", "ru"]
 }

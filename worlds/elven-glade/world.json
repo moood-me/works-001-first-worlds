@@ -2,5 +2,6 @@
   "title": "The Elven Glade",
   "description": "",
   "themes": {},
-  "main": "elven-glade"
+  "main": "elven-glade",
+  "languages": ["en", "ru"]
 }

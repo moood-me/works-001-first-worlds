@@ -2,5 +2,6 @@
   "title": "mountains and a field and poppies",
   "description": "",
   "themes": {},
-  "main": "poppy-field"
+  "main": "poppy-field",
+  "languages": ["en", "ru"]
 }

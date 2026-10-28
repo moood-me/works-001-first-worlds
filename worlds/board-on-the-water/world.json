@@ -2,5 +2,6 @@
   "title": "A Board on the Water",
   "description": "A game with no reason to hurry.",
   "themes": {},
-  "main": "board-on-the-water"
+  "main": "board-on-the-water",
+  "languages": ["en", "ru"]
 }

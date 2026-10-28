@@ -2,5 +2,6 @@
   "title": "Savanna",
   "description": "Evening is near, and the air is still shimmering with heat.",
   "themes": {},
-  "main": "savanna"
+  "main": "savanna",
+  "languages": ["en", "ru"]
 }

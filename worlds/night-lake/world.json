@@ -2,5 +2,6 @@
   "title": "Night Lake",
   "description": "A small quiet light sways over the dark water.",
   "themes": {},
-  "main": "night-lake"
+  "main": "night-lake",
+  "languages": ["en", "ru"]
 }

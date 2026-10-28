@@ -2,5 +2,6 @@
   "title": "Quiet Lake",
   "description": "A lake so quiet you can hear the sun going down.",
   "themes": {},
-  "main": "quiet-lake"
+  "main": "quiet-lake",
+  "languages": ["en", "ru"]
 }

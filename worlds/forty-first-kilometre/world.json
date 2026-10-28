@@ -5,5 +5,6 @@
     "horror": 60,
     "encounter": 40
   },
-  "main": "forty-first-kilometre"
+  "main": "forty-first-kilometre",
+  "languages": ["en", "ru"]
 }

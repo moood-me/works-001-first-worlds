@@ -2,5 +2,6 @@
   "title": "The Grapevine Engine",
   "description": "",
   "themes": {},
-  "main": "grapevine"
+  "main": "grapevine",
+  "languages": ["en", "ru"]
 }

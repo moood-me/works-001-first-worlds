@@ -5,5 +5,6 @@
     "encounter": 40,
     "fantasy": 60
   },
-  "main": "bridge-over-the-misty"
+  "main": "bridge-over-the-misty",
+  "languages": ["en", "ru"]
 }

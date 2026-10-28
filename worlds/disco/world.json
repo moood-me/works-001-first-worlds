@@ -2,5 +2,6 @@
   "title": "Disco",
   "description": "The lights sparkle, the music never stops",
   "themes": {},
-  "main": "disco"
+  "main": "disco",
+  "languages": ["en", "ru"]
 }

@@ -2,5 +2,6 @@
   "title": "Live Preview",
   "description": "",
   "themes": {},
-  "main": "mountain-lake-pier"
+  "main": "mountain-lake-pier",
+  "languages": ["en", "ru"]
 }

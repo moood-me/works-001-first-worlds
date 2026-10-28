@@ -5,5 +5,6 @@
     "drama": 40,
     "space": 60
   },
-  "main": "comms-window"
+  "main": "comms-window",
+  "languages": ["en", "ru"]
 }

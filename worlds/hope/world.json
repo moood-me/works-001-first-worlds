@@ -2,5 +2,6 @@
   "title": "Hope",
   "description": "Night. An old pier. Silence.",
   "themes": {},
-  "main": "hope"
+  "main": "hope",
+  "languages": ["en", "ru"]
 }

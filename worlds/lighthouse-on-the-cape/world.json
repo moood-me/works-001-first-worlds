@@ -2,5 +2,6 @@
   "title": "The Lighthouse on the Cape",
   "description": "",
   "themes": {},
-  "main": "lighthouse-on-the-cape"
+  "main": "lighthouse-on-the-cape",
+  "languages": ["en", "ru"]
 }

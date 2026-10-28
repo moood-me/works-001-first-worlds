@@ -2,5 +2,6 @@
   "title": "The Room",
   "description": "The cat knows where it's warmer.",
   "themes": {},
-  "main": "room"
+  "main": "room",
+  "languages": ["en", "ru"]
 }

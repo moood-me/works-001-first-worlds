@@ -5,5 +5,6 @@
     "irony": 40,
     "space": 60
   },
-  "main": "window-3"
+  "main": "window-3",
+  "languages": ["en", "ru"]
 }
