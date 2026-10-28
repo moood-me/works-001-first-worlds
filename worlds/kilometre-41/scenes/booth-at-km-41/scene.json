@@ -1,0 +1,267 @@
+{
+  "light": {
+    "haze": 0.55,
+    "tint": "#2a3a36",
+    "grain": 0.35,
+    "vignette": 0.72,
+    "hazeColor": "#161d1f",
+    "tintStrength": 0.15
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "dark ambient drone, low detuned synth pads, distant wind, slow and suffocating",
+        "weight": 1.2
+      },
+      {
+        "text": "sparse horror soundscape, bowed metal, creaking textures, long silences between sounds",
+        "weight": 1
+      },
+      {
+        "text": "buzzing fluorescent hum layered with sub bass rumble, minimalist dread",
+        "weight": 0.8
+      },
+      {
+        "text": "lo-fi tape hiss, warped old telephone tones, eerie analog loops",
+        "weight": 0.6
+      },
+      {
+        "text": "slow cello harmonics, col legno taps, cold night forest, uneasy",
+        "weight": 0
+      },
+      {
+        "text": "Soviet-era radio static, faint shortwave voices dissolving into noise, nocturnal",
+        "weight": 0
+      },
+      {
+        "text": "glacial piano notes in a large reverb, single notes far apart, haunting",
+        "weight": 0
+      },
+      {
+        "text": "dark folk drone, hurdy-gurdy held note, distant village at night",
+        "weight": 0
+      },
+      {
+        "text": "ritual percussion far away, muffled frame drum, pulse like a heartbeat",
+        "weight": 0
+      },
+      {
+        "text": "cinematic tension strings, sul ponticello tremolo rising slowly, thriller",
+        "weight": 0
+      },
+      {
+        "text": "rain on asphalt field recording with deep synth swells, lonely highway",
+        "weight": 0
+      },
+      {
+        "text": "1980s analog horror synth, slow arpeggio, minor key, John Carpenter mood",
+        "weight": 0
+      },
+      {
+        "text": "glass harmonica and bowed vibraphone, crystalline and wrong, ghostly",
+        "weight": 0
+      },
+      {
+        "text": "industrial dark ambient, distant machinery groan, pressure and decay",
+        "weight": 0
+      },
+      {
+        "text": "breathing-like noise swells, granular textures, intimate and unsettling",
+        "weight": 0
+      },
+      {
+        "text": "music box melody slowed down and detuned, lullaby gone wrong",
+        "weight": 0
+      },
+      {
+        "text": "low choir hum without words, monastery reverb, mysterious and cold",
+        "weight": 0
+      },
+      {
+        "text": "sparse electric guitar with tremolo and huge reverb, empty desert road at night",
+        "weight": 0
+      },
+      {
+        "text": "deep space drone, slowly shifting overtones, vast emptiness",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.2
+  },
+  "state": {
+    "fog": 0.5,
+    "door": "open",
+    "lamp": 0.85,
+    "note": "taped",
+    "rain": 0.3,
+    "figure": "none",
+    "ringing": false,
+    "receiver": "hanging"
+  },
+  "title": "The Booth at Km 41",
+  "camera": {
+    "area": [
+      -3,
+      6,
+      0,
+      13
+    ],
+    "mode": "walk"
+  },
+  "caption": "Nobody has run a line out here since ninety-eight.",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Low sky"
+    },
+    {
+      "id": "forest",
+      "box": [
+        -170,
+        -30,
+        170,
+        1
+      ],
+      "name": "Spruce forest",
+      "color": "#0b0f10",
+      "across": 0,
+      "height": 22,
+      "distance": 120
+    },
+    {
+      "id": "ground",
+      "name": "Roadsides",
+      "color": "#0e1211",
+      "depth": 200,
+      "plane": true,
+      "width": 400,
+      "across": 0,
+      "distance": 100
+    },
+    {
+      "id": "road",
+      "name": "Highway",
+      "color": "#16191b",
+      "depth": 160,
+      "plane": true,
+      "width": 7,
+      "across": -1,
+      "distance": 80,
+      "elevation": 0.01
+    },
+    {
+      "id": "fog",
+      "box": [
+        -60,
+        -3,
+        60,
+        0.5
+      ],
+      "name": "Fog",
+      "across": 0,
+      "height": 2,
+      "distance": 30
+    },
+    {
+      "id": "figure_forest",
+      "name": "Figure at the edge of the forest",
+      "across": -9,
+      "height": 2,
+      "distance": 55
+    },
+    {
+      "id": "figure_road",
+      "name": "Figure in the middle of the road",
+      "across": -1.3,
+      "height": 2,
+      "distance": 32
+    },
+    {
+      "id": "booth",
+      "box": [
+        -3.3,
+        -2.8,
+        3.3,
+        0.8
+      ],
+      "name": "Phone booth",
+      "across": 5.5,
+      "height": 2.6,
+      "distance": 13
+    },
+    {
+      "id": "post",
+      "name": "Kilometre post",
+      "across": -4.8,
+      "height": 1.2,
+      "distance": 9
+    },
+    {
+      "id": "rain",
+      "box": [
+        -9,
+        -6,
+        9,
+        0.5
+      ],
+      "name": "Drizzle",
+      "across": 0,
+      "height": 4,
+      "distance": 6
+    },
+    {
+      "id": "grass_l",
+      "box": [
+        -1.6,
+        -1.4,
+        1.6,
+        0.2
+      ],
+      "name": "Dry grass",
+      "across": -3.6,
+      "height": 1.2,
+      "distance": 3.2
+    },
+    {
+      "id": "grass_r",
+      "box": [
+        -1.6,
+        -1.4,
+        1.6,
+        0.2
+      ],
+      "name": "Weeds",
+      "across": 3.4,
+      "height": 1.2,
+      "distance": 3.6
+    },
+    {
+      "id": "figure_booth2",
+      "name": "Figure behind the booth",
+      "across": 5.02,
+      "height": 2,
+      "distance": 14.2
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "Kilometre 41. Three in the morning."
+    },
+    {
+      "at": 11,
+      "for": 8,
+      "text": "The receiver hangs loose. Someone is breathing on the line."
+    },
+    {
+      "at": 22,
+      "for": 9,
+      "text": "There is a note on the glass. The handwriting is yours."
+    }
+  ]
+}
