@@ -1,0 +1,227 @@
+{
+  "light": {
+    "haze": 0.1,
+    "tint": "#1c2238",
+    "grain": 0.3,
+    "vignette": 0.6,
+    "hazeColor": "#10131c",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 62,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "slow solo felt piano in a vast reverb, lonely spaceship cabin, long pauses between phrases",
+        "weight": 1.3
+      },
+      {
+        "text": "warm analog synth pads drifting like a planet turning, deep space ambient, very slow",
+        "weight": 1
+      },
+      {
+        "text": "distant cello holding long notes, melancholic and tender, letter from home",
+        "weight": 0.7
+      },
+      {
+        "text": "soft radio static and faint morse-like beeps folded into an ambient drone",
+        "weight": 0.5
+      },
+      {
+        "text": "Tarkovsky Solaris style electronic organ, Bach chorale heard through a ship's hull",
+        "weight": 0
+      },
+      {
+        "text": "Vangelis style CS-80 brass swells, cinematic sci-fi melancholy",
+        "weight": 0
+      },
+      {
+        "text": "Brian Eno Apollo atmospheres, weightless steel guitar, moonlight",
+        "weight": 0
+      },
+      {
+        "text": "music box melody played very slowly, a child's lullaby recorded long ago",
+        "weight": 0
+      },
+      {
+        "text": "low hum of a ship's reactor and life support turned into a gentle drone",
+        "weight": 0
+      },
+      {
+        "text": "sparse acoustic guitar harmonics, homesick and quiet, late night",
+        "weight": 0
+      },
+      {
+        "text": "string quartet adagio, bittersweet goodbye, slow crescendo",
+        "weight": 0
+      },
+      {
+        "text": "glassy granular textures, ice crystals in Saturn's rings, shimmering",
+        "weight": 0
+      },
+      {
+        "text": "Max Richter style minimal strings over a repeating piano figure",
+        "weight": 0
+      },
+      {
+        "text": "soviet 1970s space program library music, warm tape, analog synth melody",
+        "weight": 0
+      },
+      {
+        "text": "hopeful major key piano chords, message received, tears and relief",
+        "weight": 0
+      },
+      {
+        "text": "dark ambient sub bass and wind, signal lost, silence of a year",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.32
+  },
+  "state": {
+    "vera": "gazing",
+    "signal": 0.7,
+    "tikhon": "dozing",
+    "message": "waiting",
+    "minutes": 40,
+    "progress": 0
+  },
+  "title": "Comms Window",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Forty minutes before the last relay goes behind Saturn.",
+  "horizon": 0.44,
+  "objects": [
+    {
+      "id": "space",
+      "sky": true,
+      "name": "Saturn and stars"
+    },
+    {
+      "x": 0.5,
+      "id": "wall",
+      "box": [
+        -12,
+        -7,
+        12,
+        0.2
+      ],
+      "name": "Observation porthole",
+      "color": "#121620",
+      "height": 3,
+      "distance": 3.6
+    },
+    {
+      "x": 0.55,
+      "id": "motes",
+      "box": [
+        -2.6,
+        -2.2,
+        2.6,
+        0
+      ],
+      "name": "Dust motes in the light",
+      "height": 2,
+      "distance": 2.6,
+      "elevation": 0.4
+    },
+    {
+      "x": 0.45,
+      "id": "vera",
+      "box": [
+        -0.4,
+        -1,
+        0.65,
+        0.08
+      ],
+      "name": "Vera, navigator",
+      "color": "#11141d",
+      "height": 0.95,
+      "distance": 3.25,
+      "elevation": 0.85
+    },
+    {
+      "x": 0.7,
+      "id": "tikhon",
+      "box": [
+        -0.9,
+        -1.3,
+        0.6,
+        0.15
+      ],
+      "name": "Tikhon, the ship's AI",
+      "color": "#151924",
+      "height": 1.15,
+      "distance": 2.75
+    },
+    {
+      "x": 0.79,
+      "id": "lemon",
+      "box": [
+        -0.45,
+        -1.05,
+        0.45,
+        0.08
+      ],
+      "name": "Little lemon tree",
+      "color": "#24361f",
+      "height": 0.95,
+      "distance": 3.3,
+      "elevation": 0.85
+    },
+    {
+      "x": 0.5,
+      "id": "sill",
+      "name": "Windowsill",
+      "color": "#171b26",
+      "depth": 0.56,
+      "plane": true,
+      "width": 6.2,
+      "distance": 3.32,
+      "elevation": 0.85
+    },
+    {
+      "x": 0.5,
+      "id": "sillface",
+      "box": [
+        -3.2,
+        -0.9,
+        3.2,
+        0.05
+      ],
+      "name": "Vent grille",
+      "color": "#10131b",
+      "height": 0.85,
+      "distance": 3.04
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.03,
+      "id": "hud",
+      "name": "Comms Window",
+      "width": 380,
+      "anchor": "top-left",
+      "height": 90
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 9,
+      "text": "The tanker Ladoga is passing Saturn. The red dot by the rings is the last relay."
+    },
+    {
+      "at": 12,
+      "for": 8,
+      "text": "Forty minutes, and it goes behind the planet. After that, a year of silence all the way to Earth."
+    },
+    {
+      "at": 22,
+      "for": 8,
+      "text": "Vera holds her mug in both hands. The tea went cold long ago, but it's warmer this way."
+    }
+  ]
+}

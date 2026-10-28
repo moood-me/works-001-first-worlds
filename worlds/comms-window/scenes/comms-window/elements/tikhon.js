@@ -1,0 +1,72 @@
+const s = e.state,
+  t = e.t,
+  talk = s.tikhon === "talking";
+g.save();
+g.scale(1, 0.16);
+let fp = g.createRadialGradient(0, 0, 0, 0, 0, 0.9);
+fp.addColorStop(0, "rgba(255,170,80,0.18)");
+fp.addColorStop(1, "rgba(255,170,80,0)");
+g.fillStyle = fp;
+g.fillRect(-0.9, -0.9, 1.8, 1.8);
+g.restore();
+g.fillStyle = "#10131b";
+g.beginPath();
+g.moveTo(-0.17, 0);
+g.lineTo(-0.13, -0.84);
+g.lineTo(0.13, -0.84);
+g.lineTo(0.17, 0);
+g.fill();
+g.fillStyle = "rgba(225,205,165,0.12)";
+g.fillRect(0.115, -0.84, 0.015, 0.84);
+g.fillStyle = "#171b26";
+g.beginPath();
+g.moveTo(-0.44, -0.82);
+g.lineTo(-0.38, -1.1);
+g.lineTo(0.38, -1.14);
+g.lineTo(0.45, -0.86);
+g.closePath();
+g.fill();
+g.strokeStyle = "rgba(225,205,165,0.25)";
+g.lineWidth = 0.008;
+g.beginPath();
+g.moveTo(-0.38, -1.1);
+g.lineTo(0.38, -1.14);
+g.stroke();
+g.fillStyle = "rgba(28,52,54,0.95)";
+g.fillRect(-0.32, -1.06, 0.4, 0.19);
+const sig = s.signal || 0;
+g.strokeStyle = "rgba(140,225,205,0.75)";
+g.lineWidth = 0.005;
+g.beginPath();
+for (let i = 0; i <= 40; i++) {
+  const x = -0.31 + i * 0.0095;
+  const y = -0.99 + Math.sin(i * 0.9 + t * 3) * 0.025 * sig + Math.sin(i * 2.7 - t * 5.1) * 0.012 * sig;
+  i ? g.lineTo(x, y) : g.moveTo(x, y);
+}
+g.stroke();
+const p = s.progress || 0;
+g.fillStyle = "rgba(140,225,205,0.2)";
+g.fillRect(-0.3, -0.915, 0.36, 0.018);
+g.fillStyle = s.message === "cut off" ? "rgba(255,120,90,0.8)" : "rgba(140,225,205,0.85)";
+g.fillRect(-0.3, -0.915, 0.36 * p, 0.018);
+e.light(-0.12, -0.97, 0.35, "#8ce1cd", 0.25);
+const pu = talk ? 0.55 + 0.45 * Math.abs(Math.sin(t * 5.3) * Math.sin(t * 2.1)) : 0.4 + 0.2 * Math.sin(t * 0.7);
+let eg = g.createRadialGradient(0.25, -0.99, 0, 0.25, -0.99, 0.05);
+eg.addColorStop(0, "rgba(255,230,180," + pu + ")");
+eg.addColorStop(0.4, "rgba(255,170,70," + pu * 0.9 + ")");
+eg.addColorStop(1, "rgba(120,60,20,0.6)");
+g.fillStyle = "#0a0c12";
+g.beginPath();
+g.arc(0.25, -0.99, 0.06, 0, 7);
+g.fill();
+g.fillStyle = eg;
+g.beginPath();
+g.arc(0.25, -0.99, 0.045, 0, 7);
+g.fill();
+e.light(0.25, -0.99, 0.9, "#ffaa48", 0.3 + 0.5 * pu);
+for (let i = 0; i < 5; i++) {
+  const on = Math.sin(t * (0.3 + i * 0.17) + i * 2) > 0.2;
+  g.fillStyle = on ? "rgba(130,220,200,0.8)" : "rgba(60,80,90,0.5)";
+  g.fillRect(-0.3 + i * 0.05, -0.85, 0.02, 0.01);
+}
+e.at(0.25, -1.08);
