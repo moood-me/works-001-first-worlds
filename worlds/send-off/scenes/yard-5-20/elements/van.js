@@ -1,0 +1,67 @@
+const s = e.state,
+  t = e.t;
+if (s.uaz === "none") return;
+const p = s.uazX || 0;
+if (p >= 1.999) return;
+const x = p <= 1 ? 30 - 26 * p : 4 - (p - 1) * 36;
+const moving = (p > 0.001 && p < 0.999) || (p > 1.001 && p < 1.999);
+const bob = moving ? Math.sin(t * 9) * 0.02 : 0;
+e.at(x - 1.5, -1.6);
+g.save();
+g.translate(x, bob);
+let bg = g.createLinearGradient(-2.2, 0, -12, 0);
+bg.addColorStop(0, "rgba(255,240,200,0.25)");
+bg.addColorStop(1, "rgba(255,240,200,0)");
+g.fillStyle = bg;
+g.beginPath();
+g.moveTo(-2.2, -0.95);
+g.lineTo(-12, -1.6);
+g.lineTo(-12, 0.1);
+g.lineTo(-2.2, -0.7);
+g.fill();
+g.fillStyle = "#46523f";
+g.beginPath();
+g.moveTo(-2.25, -0.45);
+g.lineTo(-2.25, -1.3);
+g.quadraticCurveTo(-2.2, -1.95, -1.6, -2.0);
+g.lineTo(1.9, -2.0);
+g.quadraticCurveTo(2.2, -2.0, 2.2, -1.7);
+g.lineTo(2.2, -0.45);
+g.closePath();
+g.fill();
+g.fillStyle = "rgba(30,38,46,0.9)";
+g.fillRect(-2.0, -1.75, 0.7, 0.5);
+g.fillRect(-1.1, -1.75, 0.8, 0.45);
+g.fillRect(-0.1, -1.75, 0.8, 0.45);
+g.fillRect(0.9, -1.75, 0.8, 0.45);
+g.strokeStyle = "rgba(20,24,20,0.6)";
+g.lineWidth = 0.03;
+g.beginPath();
+g.moveTo(-1.2, -1.8);
+g.lineTo(-1.2, -0.5);
+g.moveTo(0.8, -1.8);
+g.lineTo(0.8, -0.5);
+g.stroke();
+g.fillStyle = "#121314";
+g.beginPath();
+g.arc(-1.4, -0.35, 0.36, 0, 7);
+g.fill();
+g.beginPath();
+g.arc(1.3, -0.35, 0.36, 0, 7);
+g.fill();
+g.fillStyle = "rgba(255,240,200,0.95)";
+g.beginPath();
+g.arc(-2.22, -0.85, 0.09, 0, 7);
+g.fill();
+if (!moving) {
+  for (let k = 0; k < 5; k++) {
+    const ph = (t * 0.25 + k / 5) % 1;
+    g.fillStyle = "rgba(180,180,190," + 0.12 * (1 - ph) + ")";
+    g.beginPath();
+    g.arc(2.3 + ph * 0.8, -0.3 - ph * 0.6, 0.08 + ph * 0.3, 0, 7);
+    g.fill();
+  }
+}
+g.restore();
+e.light(x - 2.22, -0.85 + bob, 3, "#fff0c8", 0.9);
+e.light(x + 2.18, -0.8 + bob, 0.6, "#c03030", 0.5);
