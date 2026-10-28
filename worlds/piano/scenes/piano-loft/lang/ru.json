@@ -1,8 +1,8 @@
 {"strings": [
-  {"text":"Loft with a Piano","translation":"Лофт с пианино","where":"scenes/piano-loft/scene.json title"},
-  {"text":"Warm light, brick and the silence between the notes.","translation":"Тёплый свет, кирпич и тишина между нотами.","where":"scenes/piano-loft/scene.json caption"},
-  {"text":"The city outside the window is lighting its windows.","translation":"Город за окном зажигает свои окна.","where":"scenes/piano-loft/scene.json captions[0] text"},
-  {"text":"The lid is open: someone has just been playing.","translation":"Крышка открыта — кто-то только что играл.","where":"scenes/piano-loft/scene.json captions[1] text"},
-  {"text":"The cat has taken the bench and has no plans to give it up.","translation":"Кот занял банкетку и уступать не собирается.","where":"scenes/piano-loft/scene.json captions[2] text"},
-  {"text":"One click on the bulbs, and the light goes out.","translation":"Щелчок по лампочкам — и свет погаснет.","where":"scenes/piano-loft/scene.json captions[3] text"}
+  {"text":"Loft with a Piano","translation":"Лофт с пианино","where":"piano/scenes/piano-loft/scene.json title"},
+  {"text":"Warm light, brick and the silence between the notes.","translation":"Тёплый свет, кирпич и тишина между нотами.","where":"piano/scenes/piano-loft/scene.json caption"},
+  {"text":"The city outside the window is lighting its windows.","translation":"Город за окном зажигает свои окна.","where":"piano/scenes/piano-loft/scene.json captions[0] text"},
+  {"text":"The lid is open: someone has just been playing.","translation":"Крышка открыта — кто-то только что играл.","where":"piano/scenes/piano-loft/scene.json captions[1] text"},
+  {"text":"The cat has taken the bench and has no plans to give it up.","translation":"Кот занял банкетку и уступать не собирается.","where":"piano/scenes/piano-loft/scene.json captions[2] text"},
+  {"text":"One click on the bulbs, and the light goes out.","translation":"Щелчок по лампочкам — и свет погаснет.","where":"piano/scenes/piano-loft/scene.json captions[3] text"}
 ]}

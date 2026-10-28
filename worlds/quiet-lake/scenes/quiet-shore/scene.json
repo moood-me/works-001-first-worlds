@@ -288,22 +288,5 @@
       "distance": 6.5,
       "elevation": 1.1
     }
-  ],
-  "directions": [
-    {
-      "key": "morning",
-      "name": "Morning comes",
-      "excludes": []
-    },
-    {
-      "key": "benchWalk",
-      "name": "The bench grows legs and walks off along the shore",
-      "excludes": []
-    },
-    {
-      "key": "shedRise",
-      "name": "The shed stands up on chicken legs",
-      "excludes": []
-    }
   ]
 }

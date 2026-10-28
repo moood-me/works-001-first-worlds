@@ -1,14 +1,14 @@
 {"strings": [
-  {"text":"Lenka's dumb","translation":"Ленка дура","where":"scenes/the-fourth-one/elements/entrance.js"},
-  {"text":"TSOI LIVES","translation":"ЦОЙ ЖИВ","where":"scenes/the-fourth-one/elements/garages.js"},
-  {"text":"SPARTAK CHAMPIONS","translation":"Спартак — чемпион","where":"scenes/the-fourth-one/elements/garages.js"},
-  {"text":"The Fourth One Squatting","translation":"Четвёртый на корточках","where":"scenes/the-fourth-one/scene.json title"},
-  {"text":"The garages behind the nine-storey block, ten to three.","translation":"Гаражи за девятиэтажкой, без десяти три.","where":"scenes/the-fourth-one/scene.json caption"},
-  {"text":"The lamp by the garages has been blinking since winter.","translation":"Фонарь у гаражей моргает с самой зимы.","where":"scenes/the-fourth-one/scene.json captions[0] text"},
-  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"Шнырь лузгает семки и не смотрит вправо.","where":"scenes/the-fourth-one/scene.json captions[1] text"},
-  {"text":"There are three of them. Four are squatting.","translation":"Их трое. На корточках сидят четверо.","where":"scenes/the-fourth-one/scene.json captions[2] text"},
-  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"Четвёртый подсел вплотную, в самый свет, и молча протянул руку: закурить.","where":"scenes/the-fourth-one/script.js"},
-  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"Ворота третьего гаража со скрипом приоткрылись. Изнутри никто не вышел.","where":"scenes/the-fourth-one/script.js"},
-  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"Пока фонарь моргал, четвёртый оказался на шаг ближе.","where":"scenes/the-fourth-one/script.js"},
-  {"text":"Shnyr has run out of seeds.","translation":"Семки у Шныря кончились.","where":"scenes/the-fourth-one/script.js"}
+  {"text":"Lenka's dumb","translation":"Ленка дура","where":"the-fourth-one/scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"TSOI LIVES","translation":"ЦОЙ ЖИВ","where":"the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"Спартак — чемпион","where":"the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"The Fourth One Squatting","translation":"Четвёртый на корточках","where":"the-fourth-one/scenes/the-fourth-one/scene.json title"},
+  {"text":"The garages behind the nine-storey block, ten to three.","translation":"Гаражи за девятиэтажкой, без десяти три.","where":"the-fourth-one/scenes/the-fourth-one/scene.json caption"},
+  {"text":"The lamp by the garages has been blinking since winter.","translation":"Фонарь у гаражей моргает с самой зимы.","where":"the-fourth-one/scenes/the-fourth-one/scene.json captions[0] text"},
+  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"Шнырь лузгает семки и не смотрит вправо.","where":"the-fourth-one/scenes/the-fourth-one/scene.json captions[1] text"},
+  {"text":"There are three of them. Four are squatting.","translation":"Их трое. На корточках сидят четверо.","where":"the-fourth-one/scenes/the-fourth-one/scene.json captions[2] text"},
+  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"Четвёртый подсел вплотную, в самый свет, и молча протянул руку: закурить.","where":"the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"Ворота третьего гаража со скрипом приоткрылись. Изнутри никто не вышел.","where":"the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"Пока фонарь моргал, четвёртый оказался на шаг ближе.","where":"the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"Shnyr has run out of seeds.","translation":"Семки у Шныря кончились.","where":"the-fourth-one/scenes/the-fourth-one/script.js"}
 ]}

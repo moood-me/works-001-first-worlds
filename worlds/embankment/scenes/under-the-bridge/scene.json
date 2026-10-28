@@ -322,22 +322,5 @@
       "height": 0.45,
       "distance": 7.95
     }
-  ],
-  "directions": [
-    {
-      "key": "raise",
-      "name": "Raise the bridge",
-      "excludes": []
-    },
-    {
-      "key": "dawn",
-      "name": "Dawn",
-      "excludes": []
-    },
-    {
-      "key": "fog",
-      "name": "Mist over the river",
-      "excludes": []
-    }
   ]
 }

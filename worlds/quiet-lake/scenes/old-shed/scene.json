@@ -267,17 +267,5 @@
       "distance": 5.5,
       "elevation": 1.1
     }
-  ],
-  "directions": [
-    {
-      "key": "breath",
-      "name": "The shed breathes",
-      "excludes": []
-    },
-    {
-      "key": "elsewhere",
-      "name": "Behind the door, another place",
-      "excludes": []
-    }
   ]
 }

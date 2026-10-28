@@ -1,7 +1,7 @@
 {"strings": [
-  {"text":"HOTEL","translation":"ОТЕЛЬ","where":"scenes/under-the-lamp/elements/hotel.js"},
-  {"text":"Under the Lamp","translation":"Под фонарём","where":"scenes/under-the-lamp/scene.json title"},
-  {"text":"He said: at two, outside the Metropol, under the lamp.","translation":"Он сказал: в два, у «Метрополя», под фонарём.","where":"scenes/under-the-lamp/scene.json caption"},
-  {"text":"A quarter to three. Her third cigarette.","translation":"Без четверти три. Сигарета — третья.","where":"scenes/under-the-lamp/scene.json captions[0] text"},
-  {"text":"You hear the footsteps before you see the hat.","translation":"Шаги слышно раньше, чем видно шляпу.","where":"scenes/under-the-lamp/scene.json captions[1] text"}
+  {"text":"HOTEL","translation":"ОТЕЛЬ","where":"under-the-lamp/scenes/under-the-lamp/elements/hotel.js"},
+  {"text":"Under the Lamp","translation":"Под фонарём","where":"under-the-lamp/scenes/under-the-lamp/scene.json title"},
+  {"text":"He said: at two, outside the Metropol, under the lamp.","translation":"Он сказал: в два, у «Метрополя», под фонарём.","where":"under-the-lamp/scenes/under-the-lamp/scene.json caption"},
+  {"text":"A quarter to three. Her third cigarette.","translation":"Без четверти три. Сигарета — третья.","where":"under-the-lamp/scenes/under-the-lamp/scene.json captions[0] text"},
+  {"text":"You hear the footsteps before you see the hat.","translation":"Шаги слышно раньше, чем видно шляпу.","where":"under-the-lamp/scenes/under-the-lamp/scene.json captions[1] text"}
 ]}

@@ -1,8 +1,4 @@
 {"strings": [
-  {"text":"Cove by the Boathouse","translation":"Бухта у лодочного сарая","where":"scenes/boathouse-cove/scene.json title"},
-  {"text":"Beyond the reeds the water whispers what isn't said by day.","translation":"За камышами вода шепчет то, что днём не говорят.","where":"scenes/boathouse-cove/scene.json caption"},
-  {"text":"shed → spaceship","translation":"сарай → космический корабль","where":"scenes/boathouse-cove/scene.json directions[0] name"},
-  {"text":"shed → secret laboratory","translation":"сарай → секретная лаборатория","where":"scenes/boathouse-cove/scene.json directions[1] name"},
-  {"text":"the bench crawls away","translation":"скамейка уползает","where":"scenes/boathouse-cove/scene.json directions[2] name"},
-  {"text":"night → morning","translation":"ночь → утро","where":"scenes/boathouse-cove/scene.json directions[3] name"}
+  {"text":"Cove by the Boathouse","translation":"Бухта у лодочного сарая","where":"quiet-lake/scenes/boathouse-cove/scene.json title"},
+  {"text":"Beyond the reeds the water whispers what isn't said by day.","translation":"За камышами вода шепчет то, что днём не говорят.","where":"quiet-lake/scenes/boathouse-cove/scene.json caption"}
 ]}
