@@ -1,0 +1,338 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#ff8a6a",
+    "grain": 0.22,
+    "vignette": 0.5,
+    "hazeColor": "#e0907e",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 84,
+    "density": 0.4,
+    "prompts": [
+      {
+        "text": "melodramatic anime ending theme instrumental, emotional piano and swelling strings at sunset",
+        "weight": 1.3
+      },
+      {
+        "text": "90s anime school slice-of-life, gentle acoustic guitar and glockenspiel, golden hour",
+        "weight": 0.8
+      },
+      {
+        "text": "comedic pizzicato strings tiptoeing, tongue-in-cheek, light and bouncy",
+        "weight": 0.6
+      },
+      {
+        "text": "over-the-top orchestral confession climax, soaring violins, a little too much",
+        "weight": 0.4
+      },
+      {
+        "text": "city pop instrumental, warm electric piano, slap bass, 1980s Tokyo evening",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi hip hop anime beat, dusty drums, vinyl crackle, rooftop at dusk",
+        "weight": 0
+      },
+      {
+        "text": "solo school recorder playing a love melody slightly out of tune",
+        "weight": 0
+      },
+      {
+        "text": "koto and shamisen over soft modern synth pads, wistful",
+        "weight": 0
+      },
+      {
+        "text": "cicadas and distant railway crossing bells turned into an ambient drone",
+        "weight": 0
+      },
+      {
+        "text": "j-rock guitar ballad instrumental, clean arpeggios building to power chords",
+        "weight": 0
+      },
+      {
+        "text": "music box version of a love theme, slow and fragile",
+        "weight": 0
+      },
+      {
+        "text": "pastoral strings and piano in the style of a Ghibli summer, nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "chiptune romance theme from a visual novel, soft square waves",
+        "weight": 0
+      },
+      {
+        "text": "sad trombone and bassoon, comedic deflation, slow",
+        "weight": 0
+      },
+      {
+        "text": "school brass band warming up on a distant field, clumsy and sweet",
+        "weight": 0
+      },
+      {
+        "text": "dreamy shoegaze guitars, sunset haze, slow tempo",
+        "weight": 0
+      },
+      {
+        "text": "dramatic taiko hit and whoosh, anime tension cut",
+        "weight": 0
+      },
+      {
+        "text": "soft synth pads and wind chimes, evening breeze on a rooftop",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.6
+  },
+  "state": {
+    "fan": "blowing",
+    "crow": "sitting",
+    "dusk": 0.15,
+    "heat": 0.2,
+    "take": 7,
+    "wind": 1,
+    "wrap": false,
+    "petals": 1,
+    "senpai": "not here"
+  },
+  "title": "Kita-Minami School Roof",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "The perfect confession on a roof. Technically.",
+  "horizon": 0.62,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "sunset sky"
+    },
+    {
+      "x": 0.5,
+      "id": "hills",
+      "box": [
+        -3500,
+        -220,
+        3500,
+        40
+      ],
+      "name": "mountains beyond the town",
+      "height": 160,
+      "distance": 2000,
+      "elevation": -30
+    },
+    {
+      "x": 0.5,
+      "id": "city_far",
+      "box": [
+        -900,
+        -165,
+        900,
+        30
+      ],
+      "name": "town below",
+      "height": 60,
+      "distance": 450,
+      "elevation": -25
+    },
+    {
+      "x": 0.5,
+      "id": "city_near",
+      "box": [
+        -320,
+        -50,
+        320,
+        25
+      ],
+      "name": "rooftops and the overpass",
+      "height": 30,
+      "distance": 140,
+      "elevation": -22
+    },
+    {
+      "x": 0.5,
+      "id": "roof",
+      "name": "roof",
+      "depth": 11,
+      "plane": true,
+      "width": 40,
+      "distance": 5.5,
+      "elevation": 0
+    },
+    {
+      "x": 0.24,
+      "id": "tower",
+      "box": [
+        -2.2,
+        -7.2,
+        2.2,
+        0.3
+      ],
+      "name": "water tower",
+      "height": 7,
+      "distance": 13
+    },
+    {
+      "x": 0.24,
+      "id": "kenta",
+      "box": [
+        -0.2,
+        -1,
+        1.6,
+        0.7
+      ],
+      "name": "Kenta from the drama club",
+      "height": 1,
+      "distance": 12.95,
+      "elevation": 6.15
+    },
+    {
+      "x": 0.5,
+      "id": "fence",
+      "box": [
+        -24,
+        -2.5,
+        24,
+        0.1
+      ],
+      "name": "safety fence",
+      "height": 2.4,
+      "distance": 11
+    },
+    {
+      "x": 0.8,
+      "id": "crow",
+      "box": [
+        -0.45,
+        -0.55,
+        0.45,
+        0.1
+      ],
+      "name": "Crow",
+      "height": 0.4,
+      "distance": 10.9,
+      "elevation": 2.36
+    },
+    {
+      "x": 0.24,
+      "id": "petals",
+      "box": [
+        -1,
+        -5.2,
+        12,
+        0.3
+      ],
+      "name": "petals",
+      "height": 5,
+      "distance": 8
+    },
+    {
+      "x": 0.175,
+      "id": "stairs",
+      "box": [
+        -3.6,
+        -3.2,
+        1,
+        0.4
+      ],
+      "name": "roof exit",
+      "height": 2.8,
+      "distance": 6
+    },
+    {
+      "x": 0.175,
+      "id": "senpai",
+      "box": [
+        -0.6,
+        -2,
+        0.6,
+        0.6
+      ],
+      "name": "Senpai",
+      "height": 1.8,
+      "distance": 5.9
+    },
+    {
+      "x": 0.43,
+      "id": "fan",
+      "box": [
+        -1.1,
+        -1.9,
+        3.6,
+        0.6
+      ],
+      "name": "The drama club's wind machine",
+      "height": 1.5,
+      "distance": 6
+    },
+    {
+      "x": 0.6,
+      "id": "hikari",
+      "box": [
+        -0.7,
+        -1.75,
+        1.3,
+        0.6
+      ],
+      "name": "Hikari",
+      "height": 1.6,
+      "distance": 7.2
+    },
+    {
+      "x": 0.84,
+      "id": "yamada",
+      "box": [
+        -1.5,
+        -1.75,
+        0.9,
+        0.6
+      ],
+      "name": "Yamada-san, the caretaker",
+      "height": 1.5,
+      "distance": 4.6
+    },
+    {
+      "x": 0.5,
+      "id": "petals_near",
+      "box": [
+        -3,
+        -2.6,
+        3,
+        0.3
+      ],
+      "name": "petals right before the eyes",
+      "height": 2,
+      "distance": 2.2
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.03,
+      "id": "clapper",
+      "name": "Clapperboard",
+      "width": 230,
+      "anchor": "top-left",
+      "height": 100
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 6,
+      "text": "The roof, 16:47. The sun is setting for the seventh time today."
+    },
+    {
+      "at": 10,
+      "for": 7,
+      "text": "The wind is from a socket. The petals are from a bag. The letter is real."
+    },
+    {
+      "at": 19,
+      "for": 7,
+      "text": "Senpai is late. The crow looks on disapprovingly."
+    }
+  ]
+}
