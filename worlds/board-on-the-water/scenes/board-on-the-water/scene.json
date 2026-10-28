@@ -1,0 +1,347 @@
+{
+  "light": {
+    "haze": 0.35,
+    "tint": "#ffb88a",
+    "grain": 0.3,
+    "vignette": 0.55,
+    "hazeColor": "#eec1a0",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "unhurried chess game by the sea at sunset, elegant slow piano, thoughtful",
+        "weight": 1
+      },
+      {
+        "text": "baroque harpsichord, slow and contemplative, a long move being considered",
+        "weight": 0.4
+      },
+      {
+        "text": "deep oceanic drone with a slow mythic swell, a sea dragon watching",
+        "weight": 0.35
+      },
+      {
+        "text": "solo cello suite, measured and noble, golden evening",
+        "weight": 0
+      },
+      {
+        "text": "string quartet, patient counterpoint, like two minds thinking",
+        "weight": 0
+      },
+      {
+        "text": "gentle waves and low brass, epic but quiet, fantasy sea",
+        "weight": 0
+      },
+      {
+        "text": "ticking clock turned into soft percussion, time not mattering",
+        "weight": 0
+      },
+      {
+        "text": "whole-tone vibraphone phrases, dreamy and surreal",
+        "weight": 0
+      },
+      {
+        "text": "Erik Satie style sparse piano, playful and melancholic",
+        "weight": 0
+      },
+      {
+        "text": "choral pads, vast and serene, first stars appearing",
+        "weight": 0
+      },
+      {
+        "text": "harp and flute duet, light, sea breeze",
+        "weight": 0
+      },
+      {
+        "text": "low taiko rumble far away, the dragon breathing",
+        "weight": 0
+      },
+      {
+        "text": "minimal marimba patterns interlocking like chess moves",
+        "weight": 0
+      },
+      {
+        "text": "lush cinematic strings at sunset, fairy-tale mood",
+        "weight": 0
+      },
+      {
+        "text": "jazz trio at half tempo, brushes and upright bass, strategic calm",
+        "weight": 0
+      },
+      {
+        "text": "glass harmonica and ocean shimmer, magical realism",
+        "weight": 0
+      },
+      {
+        "text": "distant ship horn blended into a warm drone",
+        "weight": 0
+      },
+      {
+        "text": "Philip Glass style arpeggios, slow and hypnotic",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.5
+  },
+  "title": "A Board on the Water",
+  "caption": "A game with no reason to hurry.",
+  "horizon": 0.47,
+  "objects": [
+    {
+      "id": "e0829e0ff",
+      "sky": true,
+      "name": "Sky",
+      "color": "#a8788a"
+    },
+    {
+      "id": "e98ca7fdc",
+      "sky": true,
+      "name": "First stars",
+      "color": "#f5e9ff"
+    },
+    {
+      "id": "efb1c61eb",
+      "sky": true,
+      "name": "Sun",
+      "color": "#fff0cf"
+    },
+    {
+      "id": "e2d5aee18",
+      "sky": true,
+      "name": "High clouds",
+      "color": "#c89295"
+    },
+    {
+      "id": "eb01df136",
+      "sky": true,
+      "name": "Cirrus streaks by the sun",
+      "color": "#e7b39d"
+    },
+    {
+      "id": "e76aca190",
+      "sky": true,
+      "name": "Distant islands",
+      "color": "#a07e8f"
+    },
+    {
+      "id": "eb1426488",
+      "sky": true,
+      "name": "Haze on the horizon",
+      "color": "#f0c6a6"
+    },
+    {
+      "x": 0.5,
+      "id": "sea_far",
+      "name": "Sea to the horizon",
+      "color": "#cf9f93",
+      "depth": 3820,
+      "plane": true,
+      "width": 9000,
+      "distance": 2090,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "sea_near",
+      "name": "Sea by the board",
+      "color": "#7a6179",
+      "depth": 199,
+      "plane": true,
+      "width": 460,
+      "distance": 100.5,
+      "elevation": 0
+    },
+    {
+      "x": 0.85,
+      "id": "eddd0329f",
+      "box": [
+        -46,
+        -28,
+        10,
+        4
+      ],
+      "name": "Sea dragon",
+      "color": "#35283a",
+      "height": 26,
+      "reflect": true,
+      "distance": 85
+    },
+    {
+      "x": 0.5,
+      "id": "board",
+      "name": "Chessboard",
+      "color": "#4b322d",
+      "depth": 17,
+      "plane": true,
+      "width": 19,
+      "distance": 11,
+      "elevation": 0.03
+    },
+    {
+      "x": 0.5,
+      "id": "eb7f21790",
+      "box": [
+        4,
+        -2.75,
+        8,
+        0.3
+      ],
+      "name": "White bishop",
+      "color": "#e3caa6",
+      "height": 2.5,
+      "distance": 18
+    },
+    {
+      "x": 0.5,
+      "id": "e10f417bc",
+      "box": [
+        -6.8,
+        -3.8,
+        -1.2,
+        0.3
+      ],
+      "name": "White king",
+      "color": "#e3caa6",
+      "height": 3.4,
+      "distance": 16
+    },
+    {
+      "x": 0.5,
+      "id": "e590bd66e",
+      "box": [
+        1.6,
+        -3.3,
+        6.4,
+        0.3
+      ],
+      "name": "White queen",
+      "color": "#e3caa6",
+      "height": 3,
+      "distance": 14
+    },
+    {
+      "x": 0.5,
+      "id": "e17dd36d6",
+      "box": [
+        0.2,
+        -1.95,
+        2.2,
+        0.2
+      ],
+      "name": "Player",
+      "color": "#261c25",
+      "height": 1.75,
+      "period": 30,
+      "distance": 12.5
+    },
+    {
+      "x": 0.5,
+      "id": "e31998d11",
+      "box": [
+        -3.3,
+        -1.8,
+        -0.7,
+        0.3
+      ],
+      "name": "White pawn",
+      "color": "#e3caa6",
+      "height": 1.6,
+      "distance": 12
+    },
+    {
+      "x": 0.5,
+      "id": "e944c8d51",
+      "box": [
+        0.1,
+        -2.55,
+        3.9,
+        0.3
+      ],
+      "name": "Black knight",
+      "color": "#241a21",
+      "height": 2.3,
+      "distance": 8
+    },
+    {
+      "x": 0.5,
+      "id": "e508d269b",
+      "box": [
+        -3.3,
+        -1.8,
+        -0.7,
+        0.3
+      ],
+      "name": "Black pawn",
+      "color": "#241a21",
+      "height": 1.6,
+      "distance": 8
+    },
+    {
+      "x": 0.5,
+      "id": "e31b6e948",
+      "box": [
+        -5.6,
+        -2.1,
+        -2.4,
+        0.35
+      ],
+      "name": "Black rook",
+      "color": "#241a21",
+      "height": 1.9,
+      "distance": 6
+    },
+    {
+      "x": 0.5,
+      "id": "ef58d2cfe",
+      "box": [
+        2,
+        -2.75,
+        6,
+        0.35
+      ],
+      "name": "Black bishop",
+      "color": "#241a21",
+      "height": 2.5,
+      "distance": 6
+    },
+    {
+      "x": 0.5,
+      "id": "e47485016",
+      "box": [
+        -5.8,
+        -4.6,
+        5.8,
+        1.4
+      ],
+      "name": "Dust motes in the sunset light",
+      "color": "#ffe0b8",
+      "height": 5,
+      "distance": 4
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 8,
+      "text": "Black to move. They have been thinking it over since last summer."
+    },
+    {
+      "at": 16,
+      "for": 8,
+      "text": "The pieces' shadows reach all the way to the edge of the board."
+    },
+    {
+      "at": 30,
+      "for": 8,
+      "text": "The knight looks at the sunset and takes its time."
+    },
+    {
+      "at": 44,
+      "for": 8,
+      "text": "The dragon has surfaced to watch the game. It won't give any hints."
+    }
+  ]
+}
