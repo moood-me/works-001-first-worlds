@@ -1,0 +1,9 @@
+{
+  "title": "The Booth on Port Street",
+  "description": "Three in the morning, rain, the docks quarter. A man in a raincoat waits under a street lamp for a call to the phone booth, which stays silent.",
+  "themes": {
+    "noir": 60,
+    "loneliness": 40
+  },
+  "main": "booth-on-port-street"
+}

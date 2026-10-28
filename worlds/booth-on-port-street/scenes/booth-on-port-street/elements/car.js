@@ -1,0 +1,46 @@
+const s = e.state,
+  t = e.t;
+const p = s.carX || 0;
+if (s.car !== "passing" || p <= 0.001 || p >= 0.999) return;
+const x = -27 + p * 54;
+g.save();
+g.translate(x, 0);
+let bg = g.createLinearGradient(2.3, -0.7, 12, -0.3);
+bg.addColorStop(0, "rgba(240,225,190,0.28)");
+bg.addColorStop(1, "rgba(240,225,190,0)");
+g.fillStyle = bg;
+g.beginPath();
+g.moveTo(2.2, -0.75);
+g.lineTo(12, -1.6);
+g.lineTo(12, 0.2);
+g.lineTo(2.2, -0.5);
+g.fill();
+g.fillStyle = "#0a0b0e";
+g.beginPath();
+g.moveTo(-2.4, -0.3);
+g.lineTo(-2.4, -0.85);
+g.quadraticCurveTo(-2.2, -0.95, -1.6, -0.95);
+g.lineTo(-1.0, -1.4);
+g.lineTo(0.9, -1.42);
+g.lineTo(1.5, -0.98);
+g.lineTo(2.3, -0.9);
+g.quadraticCurveTo(2.45, -0.7, 2.4, -0.3);
+g.closePath();
+g.fill();
+g.beginPath();
+g.arc(-1.5, -0.3, 0.33, 0, 7);
+g.arc(1.45, -0.3, 0.33, 0, 7);
+g.fill();
+g.fillStyle = "rgba(120,130,140,0.18)";
+g.fillRect(-0.85, -1.32, 0.8, 0.36);
+g.fillRect(0.05, -1.32, 0.75, 0.36);
+e.light(x + 2.35, -0.7, 2.5, "#f0e2bc", 0.9);
+e.light(x - 2.38, -0.72, 0.8, "#c03030", 0.6);
+g.fillStyle = "rgba(160,170,185,0.2)";
+for (let i = 0; i < 14; i++) {
+  const q = e.rnd();
+  g.beginPath();
+  g.arc(-2 + e.rnd() * 0.8 - q * 0.6, -0.1 - q * 0.4 * Math.abs(Math.sin(t * 9 + i)), 0.03, 0, 7);
+  g.fill();
+}
+g.restore();
