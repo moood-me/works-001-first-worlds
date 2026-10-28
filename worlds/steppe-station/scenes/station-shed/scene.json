@@ -1,0 +1,155 @@
+{
+  "light": {
+    "haze": 0.05,
+    "tint": "#ff8c42",
+    "grain": 0.3,
+    "vignette": 0.62,
+    "hazeColor": "#3a2a20",
+    "tintStrength": 0.14
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "rusty metallic percussion, creaking wood and distant clanks, slow ritual rhythm",
+        "weight": 0.5
+      },
+      {
+        "text": "low wind-like synth pad, warm tape hiss, the hum of an old power line",
+        "weight": 0.5
+      },
+      {
+        "text": "lonely slide guitar over a slow dusty drone, desert sunset, wide open space",
+        "weight": 0.3
+      },
+      {
+        "text": "bowed saw, eerie and tender, a ghost of a song",
+        "weight": 0.3
+      },
+      {
+        "text": "minimal piano notes falling like the last light, lots of space between them",
+        "weight": 0.15
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "door_ajar": 0.35,
+    "found_bucket": false,
+    "light_shafts": 0.85,
+    "someone_present": "bird"
+  },
+  "title": "In the Old Shed by the Station",
+  "camera": {
+    "mode": "diorama"
+  },
+  "caption": "Dust hangs in the slits of light, and everything here has been tidied by someone.",
+  "horizon": 0.55,
+  "objects": [
+    {
+      "id": "outside",
+      "sky": true,
+      "name": "Sunset beyond the wall"
+    },
+    {
+      "x": 0.4571,
+      "y": 0.7409,
+      "id": "caretaker",
+      "box": [
+        -0.4,
+        -1.95,
+        0.4,
+        0.1
+      ],
+      "name": "The caretaker's shadow",
+      "color": "#1b1310",
+      "height": 1.8
+    },
+    {
+      "x": 0.5,
+      "y": 0.779,
+      "id": "shed",
+      "box": [
+        -10,
+        -7,
+        10,
+        2.6
+      ],
+      "name": "Inside of the shed",
+      "color": "#2b1f16",
+      "height": 2.45
+    },
+    {
+      "x": 0.3811,
+      "y": 0.8071,
+      "id": "junk",
+      "box": [
+        -0.65,
+        -1.25,
+        0.62,
+        0.08
+      ],
+      "name": "Old scrap iron",
+      "color": "#36261c",
+      "height": 1.2
+    },
+    {
+      "x": 0.6016,
+      "y": 0.843,
+      "id": "workbench",
+      "box": [
+        -0.7,
+        -2.05,
+        0.9,
+        0.1
+      ],
+      "name": "Workbench",
+      "color": "#3a2b1f",
+      "height": 2
+    },
+    {
+      "x": 0.5377,
+      "y": 0.8764,
+      "id": "swallow",
+      "box": [
+        -0.25,
+        -0.3,
+        0.55,
+        0.08
+      ],
+      "name": "Swallow",
+      "color": "#17141a",
+      "height": 0.3,
+      "elevation": 2.24
+    },
+    {
+      "x": 0.4327,
+      "y": 0.9206,
+      "id": "bucket",
+      "box": [
+        -0.6,
+        -0.5,
+        0.6,
+        1
+      ],
+      "name": "Bucket",
+      "color": "#3d3935",
+      "height": 0.35
+    },
+    {
+      "x": 0.5,
+      "y": 0.995,
+      "id": "air",
+      "box": [
+        -4.6,
+        -4.6,
+        4.6,
+        0.4
+      ],
+      "name": "Light in the slits and dust",
+      "color": "#ffc480",
+      "height": 2.5
+    }
+  ]
+}

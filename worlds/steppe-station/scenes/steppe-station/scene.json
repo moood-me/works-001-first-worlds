@@ -1,0 +1,417 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#ff8c42",
+    "grain": 0.28,
+    "vignette": 0.4,
+    "hazeColor": "#dca070",
+    "tintStrength": 0.22
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "lonely slide guitar over a slow dusty drone, desert sunset, wide open space",
+        "weight": 1
+      },
+      {
+        "text": "distant harmonica, sparse and breathy, echoing across an empty plain",
+        "weight": 0.5
+      },
+      {
+        "text": "low wind-like synth pad, warm tape hiss, the hum of an old power line",
+        "weight": 0.35
+      },
+      {
+        "text": "Ennio Morricone style spaghetti western whistle, faraway and slow",
+        "weight": 0
+      },
+      {
+        "text": "fingerpicked baritone acoustic guitar, patient, like a walk along rails",
+        "weight": 0
+      },
+      {
+        "text": "rusty metallic percussion, creaking wood and distant clanks, slow ritual rhythm",
+        "weight": 0
+      },
+      {
+        "text": "steppe throat singing drone, deep overtone hum, no words",
+        "weight": 0
+      },
+      {
+        "text": "dombra plucked melody from the Kazakh steppe, gentle and nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "train-rhythm brushed snare, like wheels on joints, fading into silence",
+        "weight": 0
+      },
+      {
+        "text": "pedal steel guitar swells, golden hour, americana ambient",
+        "weight": 0
+      },
+      {
+        "text": "warm lo-fi tape loop of an old station radio, crackle and faint melody",
+        "weight": 0
+      },
+      {
+        "text": "bowed saw, eerie and tender, a ghost of a song",
+        "weight": 0
+      },
+      {
+        "text": "minimal piano notes falling like the last light, lots of space between them",
+        "weight": 0
+      },
+      {
+        "text": "slow shoegaze guitar wall, sunset haze, reverb for miles",
+        "weight": 0
+      },
+      {
+        "text": "accordion waltz heard from a far-off village, carried by the wind",
+        "weight": 0
+      },
+      {
+        "text": "deep sub-bass pulse like the ground remembering a train",
+        "weight": 0
+      },
+      {
+        "text": "tumbleweed shuffle: soft shakers and brushed percussion, loose and lazy",
+        "weight": 0
+      },
+      {
+        "text": "cinematic low strings, vast and quiet, the end of a long day",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.45
+  },
+  "title": "Abandoned Station in the Steppe",
+  "caption": "The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.",
+  "horizon": 0.64,
+  "objects": [
+    {
+      "id": "ec7a42270",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "e99562055",
+      "sky": true,
+      "name": "Sun"
+    },
+    {
+      "id": "e393389b6",
+      "sky": true,
+      "name": "Clouds"
+    },
+    {
+      "id": "e2e11911b",
+      "sky": true,
+      "name": "Bird"
+    },
+    {
+      "id": "e1f696e59",
+      "sky": true,
+      "name": "Second bird"
+    },
+    {
+      "id": "e3ce45541",
+      "sky": true,
+      "name": "Far hills",
+      "color": "#a9765a"
+    },
+    {
+      "id": "ee90d3f22",
+      "sky": true,
+      "name": "Low ridges",
+      "color": "#7e5646"
+    },
+    {
+      "x": 0.5,
+      "id": "e78b65ae4",
+      "box": [
+        -1750,
+        -27,
+        1750,
+        4
+      ],
+      "name": "Heat haze over the steppe",
+      "color": "#ecb282",
+      "height": 24,
+      "distance": 600
+    },
+    {
+      "x": 0.5,
+      "id": "e1ca58b41",
+      "box": [
+        -170,
+        -1.9,
+        170,
+        80
+      ],
+      "name": "Steppe",
+      "color": "#4a3a26",
+      "height": 2,
+      "distance": 80
+    },
+    {
+      "x": 0.5,
+      "id": "e3382feae",
+      "box": [
+        -170,
+        -2.2,
+        170,
+        4
+      ],
+      "name": "Glints on the rails",
+      "color": "#ffe6b0",
+      "height": 1,
+      "distance": 79
+    },
+    {
+      "x": 0.664,
+      "y": 0.68,
+      "id": "e3b8fbef9",
+      "box": [
+        -13,
+        -12.6,
+        6.3,
+        1.4
+      ],
+      "name": "Water tower",
+      "color": "#3a2b1f",
+      "height": 12
+    },
+    {
+      "x": 0.361,
+      "y": 0.7,
+      "id": "eb2c01244",
+      "box": [
+        -13,
+        -5.8,
+        5.6,
+        1.3
+      ],
+      "name": "Station building",
+      "color": "#241a12",
+      "height": 5.2,
+      "flicker": 0.3
+    },
+    {
+      "x": 0.5,
+      "y": 0.705,
+      "id": "e86ec8b64",
+      "box": [
+        -27,
+        -1.2,
+        27.5,
+        0.4
+      ],
+      "name": "Distant tumbleweed",
+      "color": "#876c48",
+      "height": 0.55
+    },
+    {
+      "x": 0.566,
+      "y": 0.705,
+      "id": "e51e257cd",
+      "box": [
+        -5,
+        -2.8,
+        2.6,
+        0.9
+      ],
+      "name": "Rusty tank wagon",
+      "color": "#4a2e20",
+      "height": 2.3
+    },
+    {
+      "x": 0.324,
+      "y": 0.715,
+      "id": "e7c7cb5ca",
+      "box": [
+        -1.9,
+        -8,
+        6.4,
+        0.8
+      ],
+      "name": "Campfire",
+      "color": "#1a1310",
+      "height": 1.2,
+      "flicker": 0.5
+    },
+    {
+      "x": 0.533,
+      "y": 0.72,
+      "id": "eca147e3f",
+      "box": [
+        -4.1,
+        -4.9,
+        2.1,
+        1.4
+      ],
+      "name": "Lamp",
+      "color": "#151210",
+      "height": 4.6,
+      "flicker": 0.15
+    },
+    {
+      "x": 0.5,
+      "y": 0.735,
+      "id": "e7590464b",
+      "box": [
+        -2.9,
+        -1.1,
+        1.2,
+        0.75
+      ],
+      "name": "Bench",
+      "color": "#181310",
+      "height": 0.95
+    },
+    {
+      "x": 0.188,
+      "y": 0.735,
+      "id": "eac3c22eb",
+      "box": [
+        -5,
+        -2.8,
+        2.2,
+        0.85
+      ],
+      "name": "Old shed",
+      "color": "#5a4c3e",
+      "height": 2.5
+    },
+    {
+      "x": 0.5,
+      "y": 0.75,
+      "id": "e57b91104",
+      "box": [
+        -20,
+        -1.4,
+        20,
+        0.4
+      ],
+      "name": "Tumbleweed",
+      "color": "#8a6e48",
+      "height": 0.75
+    },
+    {
+      "x": 0.238,
+      "y": 0.76,
+      "id": "ed0819e95",
+      "box": [
+        -1.8,
+        -0.7,
+        0.8,
+        0.35
+      ],
+      "name": "Boulder",
+      "color": "#5c4530",
+      "height": 0.55
+    },
+    {
+      "x": 0.295,
+      "y": 0.775,
+      "id": "e57bbb589",
+      "box": [
+        -0.8,
+        -0.9,
+        1,
+        0.1
+      ],
+      "name": "Dry grass",
+      "color": "#8a7a52",
+      "height": 0.7
+    },
+    {
+      "x": 0.451,
+      "y": 0.79,
+      "id": "e5655b99e",
+      "box": [
+        -1.6,
+        -0.5,
+        1,
+        0.3
+      ],
+      "name": "Flat stone",
+      "color": "#6b6255",
+      "height": 0.35
+    },
+    {
+      "x": 0.5,
+      "y": 0.8,
+      "id": "e3d6546d4",
+      "box": [
+        -12.5,
+        -1.1,
+        12.5,
+        0.3
+      ],
+      "name": "Small tumbleweed",
+      "color": "#967650",
+      "height": 0.5
+    },
+    {
+      "x": 0.787,
+      "y": 0.82,
+      "id": "e7ea58e3c",
+      "box": [
+        -1.7,
+        -0.55,
+        1,
+        0.25
+      ],
+      "name": "Stones",
+      "color": "#4a3c2c",
+      "height": 0.5
+    },
+    {
+      "x": 0.5,
+      "id": "eedca57e7",
+      "box": [
+        -24,
+        -5,
+        24,
+        0.4
+      ],
+      "name": "Dust on the wind",
+      "color": "#cba876",
+      "height": 5,
+      "distance": 7
+    },
+    {
+      "x": 0.93,
+      "y": 0.97,
+      "id": "ed0d1ea34",
+      "box": [
+        -1.2,
+        -1.3,
+        1.7,
+        0.1
+      ],
+      "name": "Feather grass",
+      "color": "#d8b989",
+      "height": 1
+    }
+  ],
+  "captions": [
+    {
+      "at": 5,
+      "for": 8,
+      "text": "The last train came through here so long ago that the rails have forgotten its weight."
+    },
+    {
+      "at": 17,
+      "for": 8,
+      "text": "The wind counts the sleepers and loses count every time."
+    },
+    {
+      "at": 29,
+      "for": 9,
+      "text": "And the lamp still comes on anyway, out of habit."
+    }
+  ]
+}
