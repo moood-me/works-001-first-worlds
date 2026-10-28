@@ -1,0 +1,9 @@
+{
+  "title": "Under the Lamp",
+  "description": "A rainy night, an empty street outside a hotel with a neon sign: she waits under the only street lamp, and someone is walking towards her out of the fog.",
+  "themes": {
+    "noir": 60,
+    "encounter": 40
+  },
+  "main": "under-the-lamp"
+}
