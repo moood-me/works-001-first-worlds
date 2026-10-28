@@ -1,0 +1,394 @@
+{
+  "light": {
+    "haze": 0.3,
+    "grain": 0.3,
+    "vignette": 0.45,
+    "hazeColor": "#2a2c48"
+  },
+  "title": "Rooftops",
+  "camera": {
+    "hero": "kid",
+    "jump": 2.4,
+    "mode": "platform"
+  },
+  "caption": "← → to run, space to jump.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Night sky"
+    },
+    {
+      "id": "city-far",
+      "box": [
+        -1500,
+        -80,
+        1500,
+        40
+      ],
+      "name": "Distant city",
+      "height": 60,
+      "distance": 400
+    },
+    {
+      "id": "house0",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": -8.0,
+      "height": 21.8,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house1",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 4.8,
+      "height": 19.2,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house2",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 18.8,
+      "height": 24.9,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house3",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 32.1,
+      "height": 23.9,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house4",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 47.0,
+      "height": 18.5,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house5",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 61.5,
+      "height": 22.7,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house6",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 72.8,
+      "height": 18.2,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "house7",
+      "box": [
+        -6,
+        -27,
+        6,
+        0.1
+      ],
+      "name": "House",
+      "across": 90.2,
+      "height": 21.8,
+      "distance": 30,
+      "elevation": -14
+    },
+    {
+      "id": "roof0",
+      "box": [
+        -4.5,
+        -13.1,
+        4.5,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 1.5,
+      "height": 12,
+      "distance": 6,
+      "elevation": -12
+    },
+    {
+      "id": "roof1",
+      "box": [
+        -3.0,
+        -13.9,
+        3.0,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 11.19,
+      "height": 12.8,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "roof2",
+      "box": [
+        -2.5,
+        -13.299999999999999,
+        2.5,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 18.66,
+      "height": 12.2,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "roof3",
+      "box": [
+        -3.5,
+        -14.7,
+        3.5,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 26.74,
+      "height": 13.6,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "roof4",
+      "box": [
+        -2.0,
+        -14.1,
+        2.0,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 33.9,
+      "height": 13.0,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "roof5",
+      "box": [
+        -4.0,
+        -13.5,
+        4.0,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 42.41,
+      "height": 12.4,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "roof6",
+      "box": [
+        -2.5,
+        -15.1,
+        2.5,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 50.77,
+      "height": 14.0,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "roof7",
+      "box": [
+        -4.5,
+        -14.299999999999999,
+        4.5,
+        0.1
+      ],
+      "name": "Roof",
+      "solid": true,
+      "across": 59.56,
+      "height": 13.2,
+      "distance": 6,
+      "elevation": -12.0
+    },
+    {
+      "id": "kid",
+      "box": [
+        -1.0,
+        -1.5,
+        0.7,
+        0.1
+      ],
+      "name": "Boy in a scarf",
+      "width": 0.5,
+      "across": 0,
+      "height": 1.3,
+      "distance": 6,
+      "elevation": 0
+    },
+    {
+      "id": "cat",
+      "box": [
+        -0.4,
+        -0.45,
+        0.6,
+        0.05
+      ],
+      "name": "Cat on the roof",
+      "across": 62.06,
+      "height": 0.35,
+      "distance": 6,
+      "elevation": 1.2
+    },
+    {
+      "id": "antenna0",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 0.9,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    },
+    {
+      "id": "antenna1",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 12.5,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    },
+    {
+      "id": "antenna2",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 22.9,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    },
+    {
+      "id": "antenna3",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 34.7,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    },
+    {
+      "id": "antenna4",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 43.6,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    },
+    {
+      "id": "antenna5",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 56.2,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    },
+    {
+      "id": "antenna6",
+      "box": [
+        -1.2,
+        -4.2,
+        1.2,
+        0.1
+      ],
+      "name": "Antenna",
+      "across": 65.8,
+      "height": 4,
+      "distance": 4,
+      "elevation": -2.2
+    }
+  ]
+}
