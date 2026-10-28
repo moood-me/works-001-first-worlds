@@ -1,0 +1,12 @@
+g.fillStyle = "#2a2018";
+g.fillRect(-0.08, -0.02, 0.16, 0.03);
+g.fillRect(-0.015, -0.32, 0.03, 0.3);
+g.fillStyle = "#f0d29a";
+g.beginPath();
+g.moveTo(-0.18, -0.3);
+g.lineTo(0.18, -0.3);
+g.lineTo(0.11, -0.5);
+g.lineTo(-0.11, -0.5);
+g.closePath();
+g.fill();
+e.light(0, -0.36, 3.5, "#ffcc88", 0.9);

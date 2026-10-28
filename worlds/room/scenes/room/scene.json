@@ -1,0 +1,166 @@
+{
+  "light": {
+    "haze": 0.05,
+    "grain": 0.3,
+    "vignette": 0.45,
+    "hazeColor": "#2a2018"
+  },
+  "title": "The Room",
+  "camera": {
+    "mode": "roam"
+  },
+  "caption": "The cat knows where it's warmer.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "night",
+      "sky": true,
+      "name": "Night outside the window"
+    },
+    {
+      "id": "floor",
+      "name": "Floor",
+      "depth": 7,
+      "plane": true,
+      "width": 8,
+      "across": 0,
+      "distance": 1
+    },
+    {
+      "id": "ceiling",
+      "name": "Ceiling",
+      "depth": 7,
+      "plane": true,
+      "width": 8,
+      "across": 0,
+      "distance": 1,
+      "elevation": 2.8
+    },
+    {
+      "id": "wall-front",
+      "box": [
+        -4.0,
+        -2.8,
+        4.0,
+        0
+      ],
+      "name": "Wall with a window",
+      "facing": 180,
+      "height": 2.8,
+      "bearing": 0,
+      "distance": 4.5
+    },
+    {
+      "id": "wall-back",
+      "box": [
+        -4.0,
+        -2.8,
+        4.0,
+        0
+      ],
+      "name": "Wall with a painting",
+      "facing": 0,
+      "height": 2.8,
+      "bearing": 180,
+      "distance": 2.5
+    },
+    {
+      "id": "wall-left",
+      "box": [
+        -3.5,
+        -2.8,
+        3.5,
+        0
+      ],
+      "name": "Left wall",
+      "facing": 90,
+      "height": 2.8,
+      "bearing": -75.96,
+      "distance": 4.123
+    },
+    {
+      "id": "wall-right",
+      "box": [
+        -3.5,
+        -2.8,
+        3.5,
+        0
+      ],
+      "name": "Right wall",
+      "facing": 270,
+      "height": 2.8,
+      "bearing": 75.96,
+      "distance": 4.123
+    },
+    {
+      "id": "shelf",
+      "box": [
+        -0.55,
+        -2.1,
+        0.55,
+        0
+      ],
+      "name": "Bookcase",
+      "facing": 90,
+      "height": 2.1,
+      "bearing": -53.62,
+      "distance": 4.72
+    },
+    {
+      "id": "bed",
+      "box": [
+        -1.0,
+        -0.95,
+        1.0,
+        0
+      ],
+      "name": "Bed",
+      "facing": 270,
+      "height": 0.9,
+      "bearing": 52.0,
+      "distance": 4.061
+    },
+    {
+      "id": "table",
+      "box": [
+        -0.6,
+        -0.8,
+        0.6,
+        0
+      ],
+      "name": "Table",
+      "facing": 180,
+      "height": 0.75,
+      "bearing": 21.8,
+      "distance": 4.308
+    },
+    {
+      "id": "lamp",
+      "box": [
+        -0.25,
+        -0.55,
+        0.25,
+        0.02
+      ],
+      "name": "Lamp",
+      "height": 0.5,
+      "bearing": 24.23,
+      "flicker": 0.05,
+      "distance": 4.386,
+      "elevation": 0.78
+    },
+    {
+      "id": "cat",
+      "box": [
+        -0.35,
+        -0.42,
+        0.45,
+        0.04
+      ],
+      "name": "Cat",
+      "height": 0.32,
+      "bearing": -11.77,
+      "distance": 2.452
+    }
+  ]
+}

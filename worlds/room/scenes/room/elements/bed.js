@@ -1,0 +1,11 @@
+g.fillStyle = "#4a2e1c";
+g.fillRect(-1.0, -0.45, 2.0, 0.45);
+g.fillRect(0.9, -0.95, 0.1, 0.95);
+g.fillStyle = "#d9d2c2";
+g.fillRect(-0.98, -0.6, 1.88, 0.18);
+g.fillStyle = "#8a3a34";
+g.fillRect(-0.98, -0.58, 1.3, 0.2);
+g.fillStyle = "#efe8da";
+g.beginPath();
+g.ellipse(0.65, -0.66, 0.22, 0.09, 0, 0, 6.283);
+g.fill();
