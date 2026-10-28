@@ -1,0 +1,68 @@
+var t = e.t,
+  p = (t * 0.09) % 2,
+  dir = p < 1 ? 1 : -1,
+  u = p < 1 ? p : 2 - p,
+  x = -6 + u * 12,
+  st = Math.sin(t * 5.2) * 0.11;
+g.save();
+g.translate(x, 0);
+g.scale(dir, 1);
+g.fillStyle = "#211d26";
+g.strokeStyle = "#211d26";
+g.lineCap = "round";
+g.lineWidth = 0.11;
+g.beginPath();
+g.moveTo(0, -0.85);
+g.lineTo(st, 0);
+g.moveTo(0, -0.85);
+g.lineTo(-st, 0);
+g.stroke();
+g.beginPath();
+g.moveTo(-0.2, -0.85);
+g.lineTo(0.2, -0.85);
+g.lineTo(0.15, -1.4);
+g.lineTo(-0.15, -1.4);
+g.closePath();
+g.fill();
+g.beginPath();
+g.arc(0, -1.55, 0.12, 0, 6.283);
+g.fill();
+g.fillStyle = "#6b2f3a";
+g.beginPath();
+g.moveTo(-0.12, -1.42);
+g.quadraticCurveTo(-0.45 + Math.sin(t * 2) * 0.05, -1.35, -0.5, -1.2);
+g.lineTo(-0.1, -1.36);
+g.closePath();
+g.fill();
+g.strokeStyle = "#211d26";
+g.lineWidth = 0.06;
+g.beginPath();
+g.moveTo(0.1, -1.3);
+g.lineTo(0.3, -1.0);
+g.stroke();
+g.strokeStyle = "rgba(30,26,34,0.8)";
+g.lineWidth = 0.015;
+g.beginPath();
+g.moveTo(0.3, -1.0);
+g.quadraticCurveTo(0.8, -0.6, 1.15, -0.42);
+g.stroke();
+var dg = Math.sin(t * 7) * 0.06;
+g.fillStyle = "#2b2620";
+g.beginPath();
+g.ellipse(1.4, -0.32, 0.28, 0.12, 0, 0, 6.283);
+g.fill();
+g.beginPath();
+g.arc(1.7, -0.42, 0.09, 0, 6.283);
+g.fill();
+g.lineWidth = 0.04;
+g.strokeStyle = "#2b2620";
+g.beginPath();
+g.moveTo(1.2, -0.25);
+g.lineTo(1.2 + dg, 0);
+g.moveTo(1.6, -0.25);
+g.lineTo(1.6 - dg, 0);
+g.moveTo(1.13, -0.36);
+g.lineTo(1.0, -0.5 - Math.abs(dg));
+g.stroke();
+e.at(0, -1.6);
+g.restore();
