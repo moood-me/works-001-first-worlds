@@ -1,0 +1,296 @@
+{
+  "light": {
+    "haze": 0.36,
+    "tint": "#3c5a8a",
+    "grain": 0.3,
+    "vignette": 0.62,
+    "hazeColor": "#4a5878",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 84,
+    "density": 0.35,
+    "prompts": [
+      {
+        "text": "low tense string ostinato, muted cellos pulsing in eighth notes, secretive, night coast",
+        "weight": 1.2
+      },
+      {
+        "text": "dark ambient drone with roaring sea texture, cold wind, slowly rising tension",
+        "weight": 1
+      },
+      {
+        "text": "distant deep frame drum heartbeat, sparse, urgent but restrained",
+        "weight": 0.6
+      },
+      {
+        "text": "sparse felt piano, single low notes, long silences, winter dusk by the sea",
+        "weight": 0.4
+      },
+      {
+        "text": "solo cello, long bowed notes, melancholic and intimate, close-miked",
+        "weight": 0
+      },
+      {
+        "text": "minimalist string quartet, sustained harmonies, tintinnabuli style, Arvo Pärt",
+        "weight": 0
+      },
+      {
+        "text": "thriller film score, tremolo violins, low brass swells, suspense",
+        "weight": 0
+      },
+      {
+        "text": "celtic low whistle, slow air, windswept coast at nightfall",
+        "weight": 0
+      },
+      {
+        "text": "nordic folk, hardanger fiddle, sparse modal melody, cold fjord air",
+        "weight": 0
+      },
+      {
+        "text": "granular textures like ocean swell crashing on rocks, field recording feel, no rhythm",
+        "weight": 0
+      },
+      {
+        "text": "dark minimal cello and double bass duet, cold northern sea",
+        "weight": 0
+      },
+      {
+        "text": "pulsing analog synth arpeggio, 1980s spy thriller, cold and secretive",
+        "weight": 0
+      },
+      {
+        "text": "wordless choir pads, cathedral reverb, very soft and distant",
+        "weight": 0
+      },
+      {
+        "text": "harmonium drone with soft accordion breaths, ghost of a sea shanty",
+        "weight": 0
+      },
+      {
+        "text": "icelandic post-rock, bowed guitar, slow patient build to a storm",
+        "weight": 0
+      },
+      {
+        "text": "taiko drums far away, rolling thunder dynamics, ritual urgency",
+        "weight": 0
+      },
+      {
+        "text": "prepared piano, ticking metallic plucks, nervous clockwork rhythm",
+        "weight": 0
+      },
+      {
+        "text": "glockenspiel and celesta, soft scattered notes like falling snow",
+        "weight": 0
+      },
+      {
+        "text": "slightly detuned music box melody, slow, heard from far away",
+        "weight": 0
+      },
+      {
+        "text": "heroic rescue swell, full strings and horns rising, cinematic",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.25
+  },
+  "state": {
+    "beam": 0,
+    "crash": 0,
+    "hand_raised": 1,
+    "surf_height": 0.55,
+    "path_wetness": 0.6,
+    "object_in_hand": "none",
+    "figure_distance": 0.6,
+    "figure_identity": 0
+  },
+  "title": "Below the Cape, at the Water's Edge",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Black wet stones, foam and a narrow path up to the lighthouse.",
+  "horizon": 0.58,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "twilight sky"
+    },
+    {
+      "id": "stars",
+      "sky": true,
+      "name": "first stars"
+    },
+    {
+      "id": "clouds",
+      "sky": true,
+      "name": "ragged clouds"
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "box": [
+        -6000,
+        -2,
+        6000,
+        1400
+      ],
+      "name": "sea",
+      "color": "#1b2338",
+      "height": 2,
+      "distance": 2000
+    },
+    {
+      "x": 0.5,
+      "id": "fog",
+      "box": [
+        -6000,
+        -70,
+        6000,
+        50
+      ],
+      "name": "sea haze at the horizon",
+      "height": 40,
+      "distance": 1200
+    },
+    {
+      "x": 0.62,
+      "id": "cape",
+      "box": [
+        -50,
+        -26,
+        150,
+        3
+      ],
+      "name": "cliff of the cape",
+      "color": "#222a3e",
+      "height": 22,
+      "distance": 80
+    },
+    {
+      "x": 0.62,
+      "id": "path",
+      "box": [
+        -26,
+        -23,
+        26,
+        2
+      ],
+      "name": "narrow path to the lighthouse",
+      "color": "#626e8a",
+      "height": 21,
+      "distance": 79.5
+    },
+    {
+      "x": 0.72,
+      "id": "lighthouse",
+      "box": [
+        -60,
+        -22,
+        60,
+        0.6
+      ],
+      "name": "lighthouse",
+      "color": "#808aa3",
+      "height": 12,
+      "flicker": 0.12,
+      "distance": 80,
+      "elevation": 20.3
+    },
+    {
+      "x": 0.55,
+      "id": "talus",
+      "box": [
+        -17,
+        -7,
+        36,
+        1
+      ],
+      "name": "boulders at the foot",
+      "color": "#1a2032",
+      "height": 5,
+      "distance": 30
+    },
+    {
+      "x": 0.3,
+      "id": "breakers",
+      "box": [
+        -18,
+        -12,
+        14,
+        1.6
+      ],
+      "name": "surf on the reef",
+      "color": "#d7e1f2",
+      "height": 4,
+      "distance": 22
+    },
+    {
+      "x": 0.5,
+      "id": "wash",
+      "name": "wash of foam",
+      "color": "#141b2a",
+      "depth": 16,
+      "plane": true,
+      "width": 70,
+      "distance": 9,
+      "elevation": 0
+    },
+    {
+      "x": 0.38,
+      "id": "figure",
+      "box": [
+        -2.4,
+        -3.3,
+        2.4,
+        0.7
+      ],
+      "name": "figure in a coat",
+      "color": "#121624",
+      "height": 2,
+      "distance": 8
+    },
+    {
+      "x": 0.45,
+      "id": "spray",
+      "box": [
+        -14,
+        -10,
+        14,
+        1
+      ],
+      "name": "spray and snow on the wind",
+      "color": "#dde3f0",
+      "height": 10,
+      "distance": 12
+    },
+    {
+      "x": 0.5,
+      "id": "stones",
+      "box": [
+        -7.2,
+        -1.4,
+        6.4,
+        2.4
+      ],
+      "name": "wet black stones",
+      "color": "#0f131e",
+      "height": 1.4,
+      "distance": 4.5
+    },
+    {
+      "x": 0.5,
+      "id": "flecks",
+      "box": [
+        -5,
+        -5,
+        5,
+        0.6
+      ],
+      "name": "near spray",
+      "color": "#e4e8f2",
+      "height": 4,
+      "distance": 3.5
+    }
+  ]
+}

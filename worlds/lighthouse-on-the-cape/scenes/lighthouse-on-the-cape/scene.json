@@ -1,0 +1,289 @@
+{
+  "light": {
+    "haze": 0.32,
+    "tint": "#5a5f8a",
+    "grain": 0.28,
+    "vignette": 0.55,
+    "hazeColor": "#5b5d7c",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "sparse felt piano, slow, long silences between soft notes, winter dusk by the sea",
+        "weight": 1.2
+      },
+      {
+        "text": "distant ambient drones, cold soft pads, faint wind texture, very slow evolution",
+        "weight": 0.9
+      },
+      {
+        "text": "solo cello, long bowed notes, melancholic and intimate, close-miked",
+        "weight": 0.6
+      },
+      {
+        "text": "glockenspiel and celesta, soft scattered notes like falling snow",
+        "weight": 0.4
+      },
+      {
+        "text": "slightly detuned music box melody, slow, heard from far away",
+        "weight": 0
+      },
+      {
+        "text": "nordic folk, hardanger fiddle, sparse modal melody, cold fjord air",
+        "weight": 0
+      },
+      {
+        "text": "warm Rhodes electric piano chords, lo-fi tape hiss, unhurried",
+        "weight": 0
+      },
+      {
+        "text": "minimalist string quartet, sustained harmonies, tintinnabuli style, Arvo Pärt",
+        "weight": 0
+      },
+      {
+        "text": "soft granular textures like ocean swell, field recording feel, no rhythm",
+        "weight": 0
+      },
+      {
+        "text": "gentle fingerpicked nylon guitar, fireside warmth, quiet",
+        "weight": 0
+      },
+      {
+        "text": "reverb-drenched shoegaze guitar wash, dreamy, slow",
+        "weight": 0
+      },
+      {
+        "text": "icelandic post-rock, bowed guitar, slow patient build",
+        "weight": 0
+      },
+      {
+        "text": "low-register solo clarinet, lullaby, breathy and tender",
+        "weight": 0
+      },
+      {
+        "text": "harmonium drone with soft accordion breaths, ghost of a sea shanty",
+        "weight": 0
+      },
+      {
+        "text": "wordless choir pads, cathedral reverb, very soft and distant",
+        "weight": 0
+      },
+      {
+        "text": "kalimba plucks, sparse, like drops of melting snow",
+        "weight": 0
+      },
+      {
+        "text": "slow trip-hop beat, dusty vinyl crackle, muted upright bass",
+        "weight": 0
+      },
+      {
+        "text": "1980s Japanese environmental music, soft FM synth, Hiroshi Yoshimura mood",
+        "weight": 0
+      },
+      {
+        "text": "celtic low whistle, slow air, windswept coast at nightfall",
+        "weight": 0
+      },
+      {
+        "text": "dark minimal cello and double bass duet, cold northern sea",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "title": "The Lighthouse on the Cape",
+  "caption": "One warm window on the whole cold shore.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "twilight sky"
+    },
+    {
+      "id": "stars",
+      "sky": true,
+      "name": "first stars"
+    },
+    {
+      "id": "clouds",
+      "sky": true,
+      "name": "layered clouds"
+    },
+    {
+      "x": 0.1,
+      "id": "farcape",
+      "box": [
+        -610,
+        -26,
+        310,
+        4
+      ],
+      "name": "far shore",
+      "color": "#34374f",
+      "height": 18,
+      "distance": 450
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "box": [
+        -6000,
+        -2,
+        6000,
+        1400
+      ],
+      "name": "sea",
+      "color": "#2a2d42",
+      "height": 2,
+      "distance": 2000
+    },
+    {
+      "x": 0.5,
+      "id": "fog",
+      "box": [
+        -6000,
+        -70,
+        6000,
+        50
+      ],
+      "name": "mist at the horizon",
+      "height": 40,
+      "distance": 1200
+    },
+    {
+      "x": 0.66,
+      "id": "cape",
+      "box": [
+        -45,
+        -30,
+        265,
+        3
+      ],
+      "name": "rocky cape",
+      "color": "#2a2a3e",
+      "height": 20,
+      "reflect": true,
+      "distance": 170
+    },
+    {
+      "x": 0.66,
+      "id": "surf",
+      "box": [
+        -45,
+        -2,
+        125,
+        2
+      ],
+      "name": "surf on the rocks",
+      "height": 1,
+      "distance": 165
+    },
+    {
+      "x": 0.68,
+      "id": "lighthouse",
+      "box": [
+        -3,
+        -13.5,
+        3,
+        0.6
+      ],
+      "name": "lighthouse",
+      "color": "#8d87a0",
+      "height": 13,
+      "flicker": 0.12,
+      "reflect": true,
+      "distance": 170,
+      "elevation": 14
+    },
+    {
+      "x": 0.68,
+      "id": "glimmer",
+      "box": [
+        -8,
+        -1,
+        9,
+        40
+      ],
+      "name": "window's reflection in the water",
+      "height": 30,
+      "distance": 155
+    },
+    {
+      "x": 0.5,
+      "id": "snowfar",
+      "box": [
+        -80,
+        -70,
+        80,
+        3
+      ],
+      "name": "distant snow",
+      "color": "#d6dbea",
+      "height": 60,
+      "distance": 60
+    },
+    {
+      "x": 0.5,
+      "id": "snowmid",
+      "box": [
+        -26,
+        -22,
+        26,
+        1.5
+      ],
+      "name": "snow",
+      "color": "#dde1ee",
+      "height": 20,
+      "distance": 18
+    },
+    {
+      "x": 0.5,
+      "id": "snownear",
+      "box": [
+        -8,
+        -8,
+        8,
+        0.8
+      ],
+      "name": "near snowflakes",
+      "color": "#e4e7f2",
+      "height": 7,
+      "distance": 5
+    },
+    {
+      "x": 0.2,
+      "id": "rocks",
+      "box": [
+        -3.6,
+        -1.8,
+        3.3,
+        0.7
+      ],
+      "name": "stones underfoot",
+      "color": "#161926",
+      "height": 1.2,
+      "distance": 3.5
+    }
+  ],
+  "captions": [
+    {
+      "at": 6,
+      "for": 7,
+      "text": "The lamp isn't lit yet: the dusk is in no hurry."
+    },
+    {
+      "at": 18,
+      "for": 7,
+      "text": "Snowflakes go out the moment they touch the water."
+    },
+    {
+      "at": 30,
+      "for": 8,
+      "text": "In the window someone is putting the kettle on."
+    }
+  ]
+}

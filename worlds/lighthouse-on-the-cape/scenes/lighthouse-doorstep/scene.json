@@ -1,0 +1,358 @@
+{
+  "light": {
+    "haze": 0.28,
+    "tint": "#5a5f8a",
+    "grain": 0.3,
+    "vignette": 0.6,
+    "hazeColor": "#5b5d7c",
+    "tintStrength": 0.08
+  },
+  "music": {
+    "bpm": 62,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "sparse felt piano, slow, long silences between soft notes, winter dusk by the sea",
+        "weight": 1
+      },
+      {
+        "text": "distant ambient drones, cold soft pads, faint wind texture, very slow evolution",
+        "weight": 0.9
+      },
+      {
+        "text": "solo cello, long bowed notes, melancholic and intimate, close-miked",
+        "weight": 0.7
+      },
+      {
+        "text": "celtic low whistle, slow air, windswept coast at nightfall",
+        "weight": 0.4
+      },
+      {
+        "text": "dark minimal cello and double bass duet, cold northern sea",
+        "weight": 0.35
+      },
+      {
+        "text": "glockenspiel and celesta, soft scattered notes like falling snow",
+        "weight": 0
+      },
+      {
+        "text": "slightly detuned music box melody, slow, heard from far away",
+        "weight": 0
+      },
+      {
+        "text": "nordic folk, hardanger fiddle, sparse modal melody, cold fjord air",
+        "weight": 0
+      },
+      {
+        "text": "warm Rhodes electric piano chords, lo-fi tape hiss, unhurried",
+        "weight": 0
+      },
+      {
+        "text": "minimalist string quartet, sustained harmonies, tintinnabuli style, Arvo Pärt",
+        "weight": 0
+      },
+      {
+        "text": "soft granular textures like ocean swell, field recording feel, no rhythm",
+        "weight": 0
+      },
+      {
+        "text": "gentle fingerpicked nylon guitar, fireside warmth, quiet",
+        "weight": 0
+      },
+      {
+        "text": "reverb-drenched shoegaze guitar wash, dreamy, slow",
+        "weight": 0
+      },
+      {
+        "text": "icelandic post-rock, bowed guitar, slow patient build",
+        "weight": 0
+      },
+      {
+        "text": "low-register solo clarinet, lullaby, breathy and tender",
+        "weight": 0
+      },
+      {
+        "text": "harmonium drone with soft accordion breaths, ghost of a sea shanty",
+        "weight": 0
+      },
+      {
+        "text": "wordless choir pads, cathedral reverb, very soft and distant",
+        "weight": 0
+      },
+      {
+        "text": "kalimba plucks, sparse, like drops of melting snow",
+        "weight": 0
+      },
+      {
+        "text": "tense sul ponticello strings, barely audible tremolo, unease under the calm",
+        "weight": 0
+      },
+      {
+        "text": "1980s Japanese environmental music, soft FM synth, Hiroshi Yoshimura mood",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.28
+  },
+  "state": {
+    "door_open": 1,
+    "lamp_glow": 0.75,
+    "envelope_held": false,
+    "figure_waving": 1,
+    "wind_strength": 0.6,
+    "figure_present": 1,
+    "envelope_opened": 0,
+    "envelope_position": 0.25
+  },
+  "title": "The Lighthouse Doorstep",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "The lighthouse door open, a wind off the sea.",
+  "horizon": 0.3,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "twilight sky"
+    },
+    {
+      "id": "stars",
+      "sky": true,
+      "name": "first stars"
+    },
+    {
+      "id": "clouds",
+      "sky": true,
+      "name": "ragged clouds"
+    },
+    {
+      "x": 0.12,
+      "id": "farcape",
+      "box": [
+        -610,
+        -26,
+        310,
+        4
+      ],
+      "name": "far shore",
+      "color": "#34374f",
+      "height": 18,
+      "distance": 450,
+      "elevation": -14
+    },
+    {
+      "x": 0.5,
+      "id": "sea",
+      "box": [
+        -6000,
+        -20,
+        6000,
+        1400
+      ],
+      "name": "sea below",
+      "color": "#2a2d42",
+      "height": 2,
+      "distance": 2000,
+      "elevation": -14
+    },
+    {
+      "x": 0.5,
+      "id": "fog",
+      "box": [
+        -6000,
+        -70,
+        6000,
+        50
+      ],
+      "name": "mist at the horizon",
+      "height": 40,
+      "distance": 1200,
+      "elevation": -14
+    },
+    {
+      "x": 0.5,
+      "id": "wall",
+      "box": [
+        -14,
+        -7,
+        14,
+        3
+      ],
+      "name": "lighthouse wall with the doorway",
+      "color": "#2a283a",
+      "height": 7,
+      "distance": 3.2
+    },
+    {
+      "x": 0.5,
+      "id": "floor",
+      "name": "worn floorboards",
+      "color": "#2c2733",
+      "depth": 3,
+      "plane": true,
+      "width": 12,
+      "distance": 1.7,
+      "elevation": 0
+    },
+    {
+      "id": "lamp",
+      "box": [
+        -0.6,
+        -0.9,
+        0.6,
+        0.35
+      ],
+      "name": "lamp by the door",
+      "color": "#ffad6a",
+      "across": 1.15,
+      "height": 0.85,
+      "distance": 3.1,
+      "elevation": 1.5
+    },
+    {
+      "x": 0.5,
+      "id": "door",
+      "box": [
+        -0.8,
+        -2.4,
+        0.5,
+        -0.2
+      ],
+      "name": "door",
+      "color": "#3b3140",
+      "height": 2.5,
+      "distance": 1.5
+    },
+    {
+      "x": 0.5,
+      "id": "stair",
+      "box": [
+        0.6,
+        -3.3,
+        4.2,
+        -0.6
+      ],
+      "name": "spiral stair going up",
+      "color": "#3a3548",
+      "height": 3,
+      "distance": 1.45
+    },
+    {
+      "x": 0.5,
+      "id": "envelope",
+      "box": [
+        -0.5,
+        -1.2,
+        0.6,
+        -0.6
+      ],
+      "name": "white envelope",
+      "color": "#dfe3f0",
+      "height": 0.4,
+      "distance": 1.2
+    },
+    {
+      "x": 0.5,
+      "id": "path",
+      "box": [
+        -70,
+        -1.2,
+        70,
+        2.6
+      ],
+      "name": "path down to the water",
+      "color": "#222334",
+      "height": 8,
+      "distance": 18,
+      "elevation": -5
+    },
+    {
+      "x": 0.5,
+      "id": "shore",
+      "box": [
+        -40,
+        -5,
+        40,
+        1.2
+      ],
+      "name": "dark stones by the water",
+      "color": "#1a1c2b",
+      "height": 4,
+      "distance": 50,
+      "elevation": -14
+    },
+    {
+      "id": "figure",
+      "box": [
+        -12.5,
+        -2.6,
+        1.6,
+        0.3
+      ],
+      "name": "man in a coat on the stones",
+      "color": "#13131d",
+      "across": -2.4,
+      "height": 1.8,
+      "distance": 49.4,
+      "elevation": -12.6
+    },
+    {
+      "x": 0.5,
+      "id": "spray",
+      "box": [
+        -30,
+        -12,
+        30,
+        1
+      ],
+      "name": "surf spray",
+      "color": "#d6dcee",
+      "height": 10,
+      "distance": 49,
+      "elevation": -14
+    },
+    {
+      "x": 0.5,
+      "id": "gulls",
+      "box": [
+        -6,
+        -7,
+        6,
+        1
+      ],
+      "name": "gulls over the cliff",
+      "color": "#bdbccb",
+      "height": 6,
+      "distance": 22
+    },
+    {
+      "x": 0.5,
+      "id": "gusts",
+      "box": [
+        -6,
+        -7.2,
+        6,
+        3.2
+      ],
+      "name": "wind with snow and spray",
+      "color": "#dee4f2",
+      "height": 9,
+      "distance": 8
+    },
+    {
+      "x": 0.5,
+      "id": "draught",
+      "box": [
+        -1.5,
+        -2.5,
+        1.5,
+        0.4
+      ],
+      "name": "draught from the door",
+      "color": "#e2e6f3",
+      "height": 2.5,
+      "distance": 1.4
+    }
+  ]
+}
