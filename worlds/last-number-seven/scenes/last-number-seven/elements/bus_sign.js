@@ -1,0 +1,34 @@
+const d = e.state.dusk || 0;
+const mx = (a, b, k) => "rgb(" + a.map((x, i) => Math.round(x + (b[i] - x) * k)).join(",") + ")";
+g.fillStyle = mx([110, 108, 112], [40, 40, 52], d);
+g.fillRect(-0.26, -0.12, 0.52, 0.12);
+g.fillRect(-0.03, -2.0, 0.06, 1.9);
+g.fillStyle = mx([226, 222, 212], [110, 110, 124], d);
+g.fillRect(-0.18, -1.62, 0.36, 0.46);
+g.strokeStyle = "rgba(60,60,80,0.5)";
+g.lineWidth = 0.012;
+for (let i = 0; i < 7; i++) {
+  g.beginPath();
+  g.moveTo(-0.14, -1.52 + i * 0.05);
+  g.lineTo(0.14, -1.52 + i * 0.05);
+  g.stroke();
+}
+g.strokeStyle = "rgba(190,50,40,0.8)";
+g.lineWidth = 0.014;
+g.beginPath();
+g.ellipse(0.02, -1.22, 0.1, 0.025, 0, 0, 7);
+g.stroke();
+g.fillStyle = mx([226, 222, 212], [110, 110, 124], d);
+g.beginPath();
+g.arc(0, -2.15, 0.23, 0, 7);
+g.fill();
+g.strokeStyle = mx([190, 64, 52], [80, 34, 40], d);
+g.lineWidth = 0.04;
+g.beginPath();
+g.arc(0, -2.15, 0.21, 0, 7);
+g.stroke();
+g.fillStyle = mx([40, 70, 110], [24, 30, 50], d);
+g.fillRect(-0.15, -2.19, 0.3, 0.08);
+g.fillStyle = "rgba(255,180,110," + 0.45 * (1 - d) + ")";
+g.fillRect(-0.23, -2.3, 0.025, 0.3);
+g.fillRect(-0.03, -2.0, 0.015, 1.9);

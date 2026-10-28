@@ -1,0 +1,371 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#ff9a70",
+    "grain": 0.22,
+    "vignette": 0.5,
+    "hazeColor": "#c79a9a",
+    "tintStrength": 0.08
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.35,
+    "prompts": [
+      {
+        "text": "gentle solo piano in the style of an anime film score, nostalgic summer evening, slow arpeggios with soft sustain",
+        "weight": 1.4
+      },
+      {
+        "text": "warm string ensemble swelling slowly under piano, bittersweet farewell, Japanese animated drama",
+        "weight": 1
+      },
+      {
+        "text": "Joe Hisaishi style melancholic waltz, piano and strings, countryside nostalgia",
+        "weight": 0.8
+      },
+      {
+        "text": "distant cicadas and soft wind chime turned into an ambient pad, dusk in rural Japan",
+        "weight": 0.6
+      },
+      {
+        "text": "acoustic guitar fingerpicking, slow and tender, summer that is ending",
+        "weight": 0.4
+      },
+      {
+        "text": "RADWIMPS style emotional piano rock ballad, building slowly, no vocals",
+        "weight": 0
+      },
+      {
+        "text": "music box melody, fragile and childlike, memory of a summer festival",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi anime chillhop, dusty drums, Rhodes piano, sunset bus ride",
+        "weight": 0
+      },
+      {
+        "text": "solo cello, long singing lines, unspoken confession",
+        "weight": 0
+      },
+      {
+        "text": "shimmering glockenspiel and celesta over soft pads, fireflies at night",
+        "weight": 0
+      },
+      {
+        "text": "shakuhachi flute over quiet koto, wide open rice fields at evening",
+        "weight": 0
+      },
+      {
+        "text": "post-rock swelling guitars with delay, emotional climax, bus pulling away",
+        "weight": 0
+      },
+      {
+        "text": "minimal felt piano, very quiet, long pauses, two people who do not speak",
+        "weight": 0
+      },
+      {
+        "text": "orchestral crescendo with brass and timpani, tearful anime finale",
+        "weight": 0
+      },
+      {
+        "text": "retro 80s Japanese city pop instrumental, warm synth bass, nostalgic radio",
+        "weight": 0
+      },
+      {
+        "text": "ambient synth drone with tape warble, heat haze over the road",
+        "weight": 0
+      },
+      {
+        "text": "harp and flute duet, gentle lullaby, dusk turning to night",
+        "weight": 0
+      },
+      {
+        "text": "string quartet pizzicato with soft piano, waiting and counting minutes",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.45
+  },
+  "state": {
+    "bus": "far",
+    "busX": 0,
+    "dusk": 0,
+    "gone": 0,
+    "lamp": false,
+    "sota": "by the bike",
+    "time": "18:20",
+    "wind": 0.45,
+    "sotaX": 0,
+    "haruna": "sitting"
+  },
+  "title": "The Last Number Seven",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "A bus stop by the rice fields. The last bus to town is at 18:47.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "sunset sky"
+    },
+    {
+      "x": 0.5,
+      "id": "mountains",
+      "box": [
+        -2600,
+        -170,
+        2600,
+        4
+      ],
+      "name": "mountains beyond the fields",
+      "height": 150,
+      "distance": 1400
+    },
+    {
+      "x": 0.5,
+      "id": "village",
+      "box": [
+        -900,
+        -30,
+        900,
+        1
+      ],
+      "name": "village beyond the fields",
+      "height": 24,
+      "distance": 260
+    },
+    {
+      "x": 0.5,
+      "id": "paddies",
+      "name": "rice fields",
+      "depth": 190,
+      "plane": true,
+      "width": 700,
+      "distance": 110
+    },
+    {
+      "x": 0.27,
+      "id": "glitter",
+      "box": [
+        -40,
+        -1,
+        40,
+        130
+      ],
+      "name": "sun in the water",
+      "height": 10,
+      "distance": 140
+    },
+    {
+      "id": "powerline",
+      "box": [
+        -95,
+        -10,
+        95,
+        0.3
+      ],
+      "name": "power lines",
+      "across": 0,
+      "height": 9,
+      "distance": 14.5
+    },
+    {
+      "x": 0.5,
+      "id": "grass_far",
+      "name": "strip of grass",
+      "depth": 4,
+      "plane": true,
+      "width": 300,
+      "distance": 13
+    },
+    {
+      "id": "pad",
+      "name": "concrete by the shelter",
+      "depth": 1.8,
+      "plane": true,
+      "width": 7,
+      "across": -4.4,
+      "distance": 12.6,
+      "elevation": 0.03
+    },
+    {
+      "x": 0.5,
+      "id": "road",
+      "name": "road",
+      "depth": 3.6,
+      "plane": true,
+      "width": 300,
+      "distance": 9.9
+    },
+    {
+      "x": 0.5,
+      "id": "verge",
+      "name": "roadside",
+      "depth": 6.6,
+      "plane": true,
+      "width": 60,
+      "distance": 3.8
+    },
+    {
+      "id": "bus_sign",
+      "box": [
+        -0.4,
+        -2.5,
+        0.4,
+        0.15
+      ],
+      "name": "sign “Mizusawa, the bend”",
+      "across": -6.9,
+      "height": 2.4,
+      "distance": 12.3
+    },
+    {
+      "id": "shelter",
+      "box": [
+        -2.8,
+        -3,
+        2.8,
+        0.2
+      ],
+      "name": "bus shelter",
+      "across": -4.3,
+      "height": 2.8,
+      "distance": 12.8
+    },
+    {
+      "id": "vending",
+      "box": [
+        -0.6,
+        -2,
+        0.6,
+        0.15
+      ],
+      "name": "vending machine",
+      "across": -1.3,
+      "height": 1.85,
+      "distance": 12.5
+    },
+    {
+      "id": "haruna",
+      "box": [
+        -0.7,
+        -1.8,
+        0.9,
+        0.15
+      ],
+      "name": "Haruna",
+      "across": -4.6,
+      "height": 1.6,
+      "distance": 12.45
+    },
+    {
+      "id": "furin",
+      "box": [
+        -0.3,
+        -0.05,
+        0.3,
+        0.7
+      ],
+      "name": "furin",
+      "across": -2.5,
+      "height": 0.6,
+      "distance": 12.25,
+      "elevation": 2.4
+    },
+    {
+      "id": "sota",
+      "box": [
+        -4.6,
+        -1.95,
+        1.2,
+        0.2
+      ],
+      "name": "Sota",
+      "across": 6.6,
+      "height": 1.75,
+      "distance": 12.9
+    },
+    {
+      "id": "bus",
+      "box": [
+        -60,
+        -3,
+        60,
+        0.4
+      ],
+      "name": "bus No. 7",
+      "across": 0,
+      "height": 2.7,
+      "distance": 10.2
+    },
+    {
+      "id": "dragonflies",
+      "box": [
+        -4.5,
+        -2.6,
+        4.5,
+        0.2
+      ],
+      "name": "red dragonflies",
+      "across": 0.5,
+      "height": 2,
+      "distance": 5
+    },
+    {
+      "id": "fireflies",
+      "box": [
+        -10,
+        -2.6,
+        10,
+        0.3
+      ],
+      "name": "fireflies",
+      "across": 0,
+      "height": 2.5,
+      "distance": 6
+    },
+    {
+      "id": "tall_grass",
+      "box": [
+        -7,
+        -1.8,
+        7,
+        0.2
+      ],
+      "name": "tall grass",
+      "across": 0,
+      "height": 1.6,
+      "distance": 3.4
+    }
+  ],
+  "widgets": [
+    {
+      "x": 0.02,
+      "y": 0.03,
+      "id": "clock",
+      "name": "bus stop clock",
+      "width": 320,
+      "anchor": "top-left",
+      "height": 80
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "The last number seven leaves for town at 18:47."
+    },
+    {
+      "at": 11,
+      "for": 8,
+      "text": "It took her three days to pack the suitcase. In three years she never found the time to tell him."
+    },
+    {
+      "at": 21,
+      "for": 8,
+      "text": "He stands at the bend, pretending to fix his chain."
+    }
+  ]
+}
