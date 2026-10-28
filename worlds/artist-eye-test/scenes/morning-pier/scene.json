@@ -1,0 +1,454 @@
+{
+  "light": {
+    "haze": 0.55,
+    "tint": "#e9d3c0",
+    "grain": 0.2,
+    "vignette": 0.35,
+    "hazeColor": "#cfcbc6",
+    "tintStrength": 0.08
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "Sparse felt piano notes with long reverb, misty lake at dawn, unhurried",
+        "weight": 1.2
+      },
+      {
+        "text": "Soft warm analog pads slowly opening like morning light, Nordic ambient",
+        "weight": 1
+      },
+      {
+        "text": "Solo kantele plucked gently, Finnish lake mood, early morning",
+        "weight": 0.6
+      },
+      {
+        "text": "Field-recording textures, still water lapping on wooden posts, distant birds waking",
+        "weight": 0.5
+      },
+      {
+        "text": "Gentle bowed cello sustained tones, melancholic, misty",
+        "weight": 0
+      },
+      {
+        "text": "Nordic folk, nyckelharpa played very softly, slow modal melody",
+        "weight": 0
+      },
+      {
+        "text": "Glassy shimmering synth arpeggio, slow, like sunlight through fog",
+        "weight": 0
+      },
+      {
+        "text": "Warm tape-saturated lo-fi organ chords, nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "Minimalist string quartet, slow harmonics, sul tasto",
+        "weight": 0
+      },
+      {
+        "text": "Distant church bells across water at morning, soft",
+        "weight": 0
+      },
+      {
+        "text": "Soft clarinet melody, lonely, slow rubato",
+        "weight": 0
+      },
+      {
+        "text": "Acoustic guitar fingerpicking, quiet, open tuning, sunrise",
+        "weight": 0
+      },
+      {
+        "text": "Shoegaze guitar wash, reverb-drenched, dreamy",
+        "weight": 0
+      },
+      {
+        "text": "Neoclassical piano and strings, Jóhannsson-like, cinematic stillness",
+        "weight": 0
+      },
+      {
+        "text": "Wind chimes and singing bowls, meditative",
+        "weight": 0
+      },
+      {
+        "text": "Low flute breathy and slow, pastoral, mist over fields",
+        "weight": 0
+      },
+      {
+        "text": "Deep sub bass swells and granular fog textures",
+        "weight": 0
+      },
+      {
+        "text": "Music box melody slowed down, tender, half-remembered",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.5
+  },
+  "state": {
+    "fog": 0.85,
+    "bite": 0,
+    "dawn": 0.3,
+    "ducks": 0.55,
+    "lantern": 1,
+    "dogAlert": 0
+  },
+  "title": "The Pier in the Morning",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "Mist over the water. The fisherman and his dog watch the float.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Sky and lake"
+    },
+    {
+      "id": "sun",
+      "sky": true,
+      "name": "Sun in the mist",
+      "color": "#fff3e2"
+    },
+    {
+      "id": "forest",
+      "box": [
+        -800,
+        -40,
+        800,
+        3
+      ],
+      "name": "Forest on the far shore",
+      "color": "#46505b",
+      "height": 24,
+      "reflect": true,
+      "distance": 260
+    },
+    {
+      "id": "fogFar",
+      "box": [
+        -400,
+        -18,
+        400,
+        4
+      ],
+      "name": "Mist by the far shore",
+      "height": 10,
+      "distance": 140
+    },
+    {
+      "id": "boat",
+      "bob": 0.05,
+      "box": [
+        -3,
+        -1.4,
+        3,
+        0.4
+      ],
+      "name": "Boat",
+      "sway": 1.2,
+      "color": "#3a3d44",
+      "across": -8,
+      "height": 0.9,
+      "reflect": true,
+      "distance": 33
+    },
+    {
+      "id": "fogNear",
+      "box": [
+        -120,
+        -6,
+        120,
+        2
+      ],
+      "name": "Mist over the water",
+      "height": 3,
+      "distance": 28
+    },
+    {
+      "id": "pierDeck",
+      "name": "Pier",
+      "color": "#5a5450",
+      "depth": 4.7,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 23.85,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck5",
+      "name": "Pier",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 19.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck4",
+      "name": "Pier",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 14.75,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck3",
+      "name": "Pier",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 10.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck2",
+      "name": "Pier",
+      "color": "#5a5450",
+      "depth": 4.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 5.75,
+      "elevation": 0.55
+    },
+    {
+      "id": "pierDeck1",
+      "name": "Pier",
+      "color": "#5a5450",
+      "depth": 2.5,
+      "plane": true,
+      "width": 1.8,
+      "across": 1.6,
+      "distance": 2.25,
+      "elevation": 0.55
+    },
+    {
+      "id": "posts6",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Piles",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 25.9
+    },
+    {
+      "id": "posts5",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Piles",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 21.5
+    },
+    {
+      "id": "posts4",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Piles",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 17
+    },
+    {
+      "id": "posts3",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Piles",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 12.5
+    },
+    {
+      "id": "posts2",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Piles",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 8
+    },
+    {
+      "id": "posts1",
+      "box": [
+        -1.1,
+        -1.3,
+        1.1,
+        0.1
+      ],
+      "name": "Piles",
+      "across": 1.6,
+      "height": 1.1,
+      "reflect": true,
+      "distance": 3.5
+    },
+    {
+      "id": "lantern",
+      "box": [
+        -0.5,
+        -2.2,
+        0.5,
+        0.1
+      ],
+      "name": "Lantern",
+      "across": 2.3,
+      "height": 2,
+      "flicker": 0.25,
+      "reflect": true,
+      "distance": 25.7,
+      "elevation": 0.55
+    },
+    {
+      "id": "lanternPath",
+      "name": "Lantern's gleam on the water",
+      "depth": 10,
+      "plane": true,
+      "width": 9,
+      "across": 2.3,
+      "distance": 26,
+      "elevation": 0.01
+    },
+    {
+      "id": "bucket",
+      "box": [
+        -0.45,
+        -0.5,
+        0.45,
+        0.08
+      ],
+      "name": "Bucket",
+      "color": "#8e9294",
+      "across": 1.9,
+      "height": 0.5,
+      "distance": 22.7,
+      "elevation": 0.55
+    },
+    {
+      "id": "rod",
+      "box": [
+        -3.4,
+        -1.9,
+        0.4,
+        0.9
+      ],
+      "name": "Fishing rod",
+      "color": "#3a2e26",
+      "across": 0.7,
+      "height": 1.4,
+      "distance": 22.4,
+      "elevation": 0.55
+    },
+    {
+      "id": "fisherman",
+      "box": [
+        -0.7,
+        -1.05,
+        0.5,
+        0.5
+      ],
+      "name": "Fisherman",
+      "color": "#2b2d30",
+      "across": 0.7,
+      "height": 1,
+      "reflect": true,
+      "distance": 22.45,
+      "elevation": 0.55
+    },
+    {
+      "id": "dog",
+      "box": [
+        -0.65,
+        -0.65,
+        0.6,
+        0.08
+      ],
+      "name": "Dog",
+      "color": "#3b3632",
+      "across": 1.25,
+      "height": 0.5,
+      "reflect": true,
+      "distance": 20.6,
+      "elevation": 0.55
+    },
+    {
+      "id": "ducks",
+      "box": [
+        -60,
+        -11,
+        60,
+        1.5
+      ],
+      "name": "Ducks",
+      "color": "#3a3b40",
+      "across": 0,
+      "height": 1,
+      "reflect": true,
+      "distance": 32,
+      "elevation": 0
+    },
+    {
+      "id": "fogLow",
+      "box": [
+        -40,
+        -2.5,
+        4,
+        0.6
+      ],
+      "name": "Mist right on the water",
+      "across": -4,
+      "height": 2.5,
+      "distance": 13,
+      "elevation": -0.55
+    },
+    {
+      "id": "reeds",
+      "box": [
+        -1.6,
+        -1.8,
+        1.6,
+        0.1
+      ],
+      "name": "Reeds",
+      "sway": 1.5,
+      "across": -3.2,
+      "height": 1.5,
+      "reflect": true,
+      "distance": 5
+    }
+  ]
+}

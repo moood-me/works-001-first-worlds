@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Artist's Eye Test","translation":"Проба глаз художника","where":"world.json title"},
+  {"text":"a test of the look tool","translation":"проверка инструмента look","where":"world.json description"}
+]}
