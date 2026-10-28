@@ -1,0 +1,352 @@
+{
+  "light": {
+    "haze": 0.35,
+    "tint": "#ffb46a",
+    "grain": 0.22,
+    "vignette": 0.45,
+    "hazeColor": "#e8d2a4",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 84,
+    "density": 0.4,
+    "prompts": [
+      {
+        "text": "slow African kora and soft hand percussion, warm savanna evening, spacious",
+        "weight": 1.0
+      },
+      {
+        "text": "ambient pads with distant wind, dusty heat haze, shimmering air",
+        "weight": 0.6
+      },
+      {
+        "text": "deep udu drum and shakers, slow heartbeat of the savanna",
+        "weight": 0.3
+      },
+      {
+        "text": "mbira patterns, hypnotic and gentle, golden hour",
+        "weight": 0.0
+      },
+      {
+        "text": "Ali Farka Touré style desert blues guitar, relaxed and hypnotic",
+        "weight": 0.0
+      },
+      {
+        "text": "balafon melody, bright wooden tones, lively but calm",
+        "weight": 0.0
+      },
+      {
+        "text": "distant wordless choir, warm and earthy, pan-African harmonies",
+        "weight": 0.0
+      },
+      {
+        "text": "talking drum calls echoing across the plain",
+        "weight": 0.0
+      },
+      {
+        "text": "ngoni plucked lines over a slow groove",
+        "weight": 0.0
+      },
+      {
+        "text": "cinematic wildlife-documentary strings, majestic and slow",
+        "weight": 0.0
+      },
+      {
+        "text": "soft marimba ostinato with wind chimes, lazy afternoon",
+        "weight": 0.0
+      },
+      {
+        "text": "desert ambient synth drone, heat and silence, vultures circling",
+        "weight": 0.0
+      },
+      {
+        "text": "kalimba lullaby, a young giraffe close to its mother",
+        "weight": 0.0
+      },
+      {
+        "text": "Tuareg guitar trance, slow and dusty",
+        "weight": 0.7
+      },
+      {
+        "text": "low bamboo flute, breathy, dusk",
+        "weight": 0.0
+      },
+      {
+        "text": "deep bass and hand drums, ceremonial and patient",
+        "weight": 0.0
+      },
+      {
+        "text": "lush Afro-jazz piano and upright bass, sunset",
+        "weight": 0.0
+      },
+      {
+        "text": "gentle rain-stick and ambient pads, the first cool breeze of evening",
+        "weight": 0.0
+      }
+    ],
+    "brightness": 0.6
+  },
+  "title": "Savanna",
+  "caption": "Evening is near, and the air is still shimmering with heat.",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "ee210d97c",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "e64b10466",
+      "sky": true,
+      "name": "Sun"
+    },
+    {
+      "id": "e9c3c3d94",
+      "sky": true,
+      "name": "Clouds"
+    },
+    {
+      "id": "ed035bb32",
+      "sky": true,
+      "name": "Circling vultures"
+    },
+    {
+      "id": "e4c7e3e2d",
+      "sky": true,
+      "name": "Distant mountains"
+    },
+    {
+      "id": "edddaa3ba",
+      "sky": true,
+      "name": "Plain"
+    },
+    {
+      "x": 0.8,
+      "id": "ea2724cd2",
+      "box": [
+        -50,
+        -50,
+        50,
+        3
+      ],
+      "name": "Dust devil",
+      "color": "#c8a676",
+      "height": 45,
+      "distance": 800
+    },
+    {
+      "x": 0.5,
+      "id": "ee3033938",
+      "box": [
+        -1600,
+        -14,
+        1600,
+        1
+      ],
+      "name": "Far-off acacias",
+      "color": "#5f5e44",
+      "height": 10,
+      "distance": 900
+    },
+    {
+      "x": 0.5,
+      "id": "e2f83e25f",
+      "box": [
+        -1100,
+        -8,
+        1100,
+        2
+      ],
+      "name": "Heat haze",
+      "height": 6,
+      "distance": 600
+    },
+    {
+      "x": 0.5,
+      "id": "eef2d80a0",
+      "box": [
+        -460,
+        -14,
+        460,
+        2
+      ],
+      "name": "Acacias in the distance",
+      "color": "#50523a",
+      "height": 10,
+      "distance": 260
+    },
+    {
+      "x": 0.4,
+      "id": "e89da15cb",
+      "box": [
+        -60,
+        -2,
+        60,
+        0.5
+      ],
+      "name": "Herd of antelope",
+      "color": "#6b4f33",
+      "height": 1.5,
+      "distance": 130
+    },
+    {
+      "x": 0.55,
+      "id": "e941f3bb2",
+      "box": [
+        -3,
+        -5.8,
+        6,
+        0.6
+      ],
+      "name": "Mother giraffe",
+      "color": "#e6cf9e",
+      "height": 5,
+      "distance": 46
+    },
+    {
+      "x": 0.585,
+      "id": "eae8268da",
+      "box": [
+        -2,
+        -3.6,
+        4,
+        0.4
+      ],
+      "name": "Giraffe calf",
+      "color": "#e6cf9e",
+      "height": 3.2,
+      "distance": 44
+    },
+    {
+      "x": 0.72,
+      "id": "e56d7934b",
+      "box": [
+        -8,
+        -9,
+        10,
+        1
+      ],
+      "name": "Acacia",
+      "sway": 0.25,
+      "color": "#56602f",
+      "height": 8,
+      "distance": 42
+    },
+    {
+      "x": 0.685,
+      "id": "e31bcb2b1",
+      "box": [
+        -3,
+        -6,
+        6.5,
+        0.6
+      ],
+      "name": "Giraffe by the acacia",
+      "color": "#e6cf9e",
+      "height": 5.3,
+      "distance": 40
+    },
+    {
+      "x": 0.15,
+      "id": "ea71a77ab",
+      "box": [
+        -5,
+        -8,
+        5,
+        0.5
+      ],
+      "name": "Dead tree with a vulture",
+      "sway": 0.1,
+      "color": "#4e433a",
+      "height": 7,
+      "distance": 35
+    },
+    {
+      "x": 0.26,
+      "id": "ef313ed4e",
+      "box": [
+        -1.6,
+        -2.8,
+        3.6,
+        0.4
+      ],
+      "name": "Termite mound",
+      "color": "#a0643a",
+      "height": 2.4,
+      "distance": 20
+    },
+    {
+      "x": 0.5,
+      "id": "e6850ba38",
+      "box": [
+        -16,
+        -1.4,
+        16,
+        0.3
+      ],
+      "name": "Dry grass",
+      "color": "#b8955a",
+      "height": 1,
+      "distance": 15
+    },
+    {
+      "x": 0.42,
+      "id": "e597ce6fe",
+      "box": [
+        -0.6,
+        -0.55,
+        0.7,
+        0.15
+      ],
+      "name": "Antelope skull",
+      "color": "#e8dfcc",
+      "height": 0.4,
+      "distance": 6.5
+    },
+    {
+      "x": 0.5,
+      "id": "e3ad1f201",
+      "box": [
+        -6,
+        -1.3,
+        6,
+        0.2
+      ],
+      "name": "Grass at your feet",
+      "color": "#a3804a",
+      "height": 1,
+      "distance": 5
+    },
+    {
+      "x": 0.5,
+      "id": "e28f5e620",
+      "box": [
+        -4,
+        -3.2,
+        4,
+        0.2
+      ],
+      "name": "Dust motes",
+      "color": "#ffe7bd",
+      "height": 2.5,
+      "distance": 3
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "The heat still holds, but the shadows are already long."
+    },
+    {
+      "at": 14,
+      "for": 7,
+      "text": "The giraffe calf never leaves its mother's side."
+    },
+    {
+      "at": 26,
+      "for": 7,
+      "text": "Vultures circle over the savanna, patient, in no hurry at all."
+    }
+  ]
+}
