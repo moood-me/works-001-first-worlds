@@ -1,0 +1,12 @@
+g.fillStyle = "#1f1b20";
+g.fillRect(0.64, -0.62, 0.16, 0.62);
+g.fillStyle = "rgba(140,140,170,0.12)";
+g.fillRect(0.64, -0.62, 0.03, 0.62);
+var p = (e.t * 0.11 + 0.2) % 1;
+g.globalAlpha = 0.3 * (1 - p);
+g.strokeStyle = "#b0afc8";
+g.lineWidth = 0.012;
+g.beginPath();
+g.ellipse(0.72, 0, 0.1 + p * 0.25, 0.015 + p * 0.02, 0, 0, 3.1416);
+g.stroke();
+g.globalAlpha = 1;

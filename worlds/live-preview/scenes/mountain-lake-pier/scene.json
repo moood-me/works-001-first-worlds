@@ -1,0 +1,344 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#8a7fa8",
+    "grain": 0.3,
+    "vignette": 0.55,
+    "hazeColor": "#8e8aa3",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "Slow ambient drone with soft analog pads, distant and cold, like mist over still water",
+        "weight": 1.2
+      },
+      {
+        "text": "Sparse felt piano, single notes with long silences, intimate and hushed, dusk mood",
+        "weight": 1
+      },
+      {
+        "text": "Gentle bowed cello holding long low notes, melancholic and warm",
+        "weight": 0.6
+      },
+      {
+        "text": "Field-recording texture of lapping lake water and faint wind in pines, very quiet",
+        "weight": 0.5
+      },
+      {
+        "text": "Nordic minimalism, glassy synth swells, slow attack, wide reverb",
+        "weight": 0.4
+      },
+      {
+        "text": "Fingerpicked nylon guitar, slow and tender, folk lullaby feel",
+        "weight": 0
+      },
+      {
+        "text": "Soft wooden flute melody echoing across mountains, pentatonic, unhurried",
+        "weight": 0
+      },
+      {
+        "text": "Warm tape-saturated lo-fi keys with gentle wow and flutter",
+        "weight": 0
+      },
+      {
+        "text": "Shimmering celesta and music-box tones, fragile, evening stars appearing",
+        "weight": 0
+      },
+      {
+        "text": "Deep sub-bass hum and slow choir-like pads, vast mountain silence",
+        "weight": 0
+      },
+      {
+        "text": "Brushed jazz drums barely there, upright bass, late-night lakeside cabin",
+        "weight": 0
+      },
+      {
+        "text": "Solo harmonium breathing slow chords, old church in the mountains",
+        "weight": 0
+      },
+      {
+        "text": "Ambient electric guitar with volume swells and long delay, post-rock calm",
+        "weight": 0
+      },
+      {
+        "text": "String quartet playing a slow, sustained adagio, pianissimo",
+        "weight": 0
+      },
+      {
+        "text": "Kalimba with soft plucks and echo, hypnotic and calm",
+        "weight": 0
+      },
+      {
+        "text": "Granular textures of frozen bells, slowly evolving, cold twilight",
+        "weight": 0
+      },
+      {
+        "text": "Lonely trumpet with mute, distant and blurred by reverb, nocturne",
+        "weight": 0
+      },
+      {
+        "text": "Warm Rhodes chords in slow motion, soft vinyl crackle, nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "Low clarinet melody over quiet strings, Eastern European folk lament",
+        "weight": 0
+      },
+      {
+        "text": "Tibetan singing bowls resonating, meditative stillness",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "title": "A Pier on a Mountain Lake",
+  "camera": {
+    "mode": "walk"
+  },
+  "caption": "The water went still before the light went out.",
+  "horizon": 0.45,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Twilight sky and lake"
+    },
+    {
+      "x": 0.5,
+      "id": "mountains",
+      "box": [
+        -4000,
+        -470,
+        4000,
+        5
+      ],
+      "name": "Mountain ridge",
+      "color": "#3a3d55",
+      "height": 450,
+      "reflect": true,
+      "distance": 2500
+    },
+    {
+      "x": 0.5,
+      "id": "ridge",
+      "box": [
+        -2500,
+        -125,
+        2500,
+        5
+      ],
+      "name": "Wooded ridge",
+      "color": "#252a3e",
+      "height": 110,
+      "reflect": true,
+      "distance": 1100
+    },
+    {
+      "x": 0.5,
+      "id": "pines",
+      "box": [
+        -1250,
+        -46,
+        1250,
+        3
+      ],
+      "name": "Pines on the far shore",
+      "color": "#1d2130",
+      "height": 40,
+      "reflect": true,
+      "distance": 450
+    },
+    {
+      "x": 0.5,
+      "id": "fog_far",
+      "box": [
+        -900,
+        -24,
+        900,
+        6
+      ],
+      "name": "Mist by the far shore",
+      "color": "#aaa2ba",
+      "height": 14,
+      "distance": 220
+    },
+    {
+      "x": 0.5,
+      "id": "fog_near",
+      "box": [
+        -130,
+        -4.5,
+        130,
+        1.5
+      ],
+      "name": "Wisps of mist over the water",
+      "color": "#aaa2ba",
+      "height": 3,
+      "distance": 45
+    },
+    {
+      "x": 0.5,
+      "id": "water",
+      "name": "Ripples by the shore",
+      "color": "#7d84a3",
+      "depth": 140,
+      "plane": true,
+      "width": 400,
+      "distance": 70,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "pile4",
+      "box": [
+        0.4,
+        -0.8,
+        1,
+        0.15
+      ],
+      "name": "Pile at the end of the pier",
+      "color": "#211d22",
+      "height": 0.7,
+      "reflect": true,
+      "distance": 16
+    },
+    {
+      "x": 0.5,
+      "id": "pile3",
+      "box": [
+        0.4,
+        -1.2,
+        1,
+        0.15
+      ],
+      "name": "Mooring post",
+      "color": "#211d22",
+      "height": 1.1,
+      "reflect": true,
+      "distance": 13.5
+    },
+    {
+      "x": 0.5,
+      "id": "pile2",
+      "box": [
+        0.4,
+        -0.8,
+        1,
+        0.15
+      ],
+      "name": "Pile",
+      "color": "#211d22",
+      "height": 0.7,
+      "reflect": true,
+      "distance": 9
+    },
+    {
+      "x": 0.5,
+      "id": "pile1",
+      "box": [
+        0.4,
+        -0.8,
+        1,
+        0.15
+      ],
+      "name": "Pile by the shore",
+      "color": "#211d22",
+      "height": 0.7,
+      "reflect": true,
+      "distance": 4.5
+    },
+    {
+      "x": 0.5,
+      "id": "pier",
+      "name": "Pier",
+      "color": "#3a3436",
+      "depth": 15,
+      "plane": true,
+      "width": 6,
+      "distance": 8.5,
+      "elevation": 0.6
+    },
+    {
+      "x": 0.5,
+      "id": "boat",
+      "bob": 0.03,
+      "box": [
+        -3.3,
+        -1,
+        0.9,
+        0.35
+      ],
+      "name": "Boat",
+      "sway": 0.6,
+      "color": "#262b30",
+      "height": 0.7,
+      "reflect": true,
+      "distance": 13.5
+    },
+    {
+      "x": 0.5,
+      "id": "cat",
+      "box": [
+        1.1,
+        -0.54,
+        1.72,
+        0.1
+      ],
+      "name": "Ginger cat",
+      "color": "#8a4f28",
+      "height": 0.33,
+      "distance": 15.85,
+      "elevation": 0.6
+    },
+    {
+      "x": 0.5,
+      "id": "lantern",
+      "box": [
+        1.5,
+        -2.6,
+        4,
+        2.9
+      ],
+      "name": "Lantern on the pier",
+      "color": "#ffb468",
+      "height": 2,
+      "flicker": 0.12,
+      "distance": 15.5,
+      "elevation": 0.6
+    },
+    {
+      "x": 0.5,
+      "id": "shore",
+      "box": [
+        -5.2,
+        -1.5,
+        0.9,
+        0.8
+      ],
+      "name": "Stones by the shore",
+      "color": "#14171f",
+      "height": 1,
+      "distance": 2.6
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "The last light is slipping behind the ridge."
+    },
+    {
+      "at": 13,
+      "for": 7,
+      "text": "The lantern was lit a little earlier than it needed to be."
+    },
+    {
+      "at": 24,
+      "for": 8,
+      "text": "The boat quietly tugs at its rope and goes still again."
+    }
+  ]
+}
