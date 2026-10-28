@@ -1,0 +1,267 @@
+{
+  "light": {
+    "haze": 0.38,
+    "tint": "#2a3050",
+    "grain": 0.35,
+    "vignette": 0.55,
+    "hazeColor": "#7c86a6",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "solo felt piano, soft and hesitant, night by a lake, waiting for someone",
+        "weight": 1
+      },
+      {
+        "text": "warm glowing pad like lantern light on dark water, slow breathing swells",
+        "weight": 0.6
+      },
+      {
+        "text": "distant cello, one long sad phrase with hope at the end",
+        "weight": 0.3
+      },
+      {
+        "text": "music box melody, slightly out of tune, a childhood lullaby",
+        "weight": 0
+      },
+      {
+        "text": "gentle harp arpeggios like ripples reaching the shore",
+        "weight": 0
+      },
+      {
+        "text": "breathy wordless female hum, far away across the water",
+        "weight": 0
+      },
+      {
+        "text": "soft granular textures of night crickets and reeds, ambient",
+        "weight": 0
+      },
+      {
+        "text": "glass harmonica tones, fragile and shimmering like fireflies",
+        "weight": 0
+      },
+      {
+        "text": "Joe Hisaishi style bittersweet strings, tender and cinematic",
+        "weight": 0
+      },
+      {
+        "text": "slow nylon-string guitar, quiet lakeside ballad",
+        "weight": 0
+      },
+      {
+        "text": "low clarinet melody, warm and melancholic, folk lullaby",
+        "weight": 0
+      },
+      {
+        "text": "celesta twinkles over a deep drone, starry night",
+        "weight": 0
+      },
+      {
+        "text": "heartbeat-slow kick under ambient pads, patient and steady",
+        "weight": 0
+      },
+      {
+        "text": "distant foghorn-like brass swells, lonely harbour at night",
+        "weight": 0
+      },
+      {
+        "text": "kalimba notes dropping one by one like the first stars",
+        "weight": 0
+      },
+      {
+        "text": "string quartet, pianissimo, a hymn for someone who is late",
+        "weight": 0
+      },
+      {
+        "text": "Nordic folk fiddle, slow and mournful, lake mist",
+        "weight": 0
+      },
+      {
+        "text": "modular synth sequence at a whisper, a lantern swinging",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
+  "title": "Hope",
+  "caption": "The lantern burns as long as someone is waiting.",
+  "horizon": 0.52,
+  "objects": [
+    {
+      "id": "ece0ffebc",
+      "sky": true,
+      "name": "sky"
+    },
+    {
+      "id": "e1f25a150",
+      "sky": true,
+      "name": "stars"
+    },
+    {
+      "id": "e7b7e2722",
+      "sky": true,
+      "name": "moon"
+    },
+    {
+      "id": "e31810071",
+      "sky": true,
+      "name": "clouds"
+    },
+    {
+      "id": "ea13cae94",
+      "sky": true,
+      "name": "lake"
+    },
+    {
+      "x": 0.5,
+      "id": "e14f2d3dd",
+      "box": [
+        -1300,
+        -36,
+        1300,
+        3
+      ],
+      "name": "distant hills",
+      "color": "#353d5e",
+      "height": 32,
+      "reflect": true,
+      "distance": 900
+    },
+    {
+      "x": 0.5,
+      "id": "e5c8764e3",
+      "box": [
+        -900,
+        -32,
+        900,
+        3
+      ],
+      "name": "forest on the far shore",
+      "color": "#2f3854",
+      "height": 28,
+      "reflect": true,
+      "distance": 520
+    },
+    {
+      "x": 0.5,
+      "id": "e57c0f0ef",
+      "box": [
+        -800,
+        -10,
+        800,
+        4
+      ],
+      "name": "mist over the water",
+      "color": "#8c96b4",
+      "height": 12,
+      "distance": 300
+    },
+    {
+      "x": 0.56,
+      "id": "e3c40e97f",
+      "box": [
+        -14,
+        -0.1,
+        1.5,
+        1.8
+      ],
+      "name": "glints and ripples by the pier",
+      "color": "#ffae62",
+      "height": 1.8,
+      "distance": 9.05
+    },
+    {
+      "x": 0.56,
+      "id": "eb713bcf4",
+      "box": [
+        -13.3,
+        -1.45,
+        0.3,
+        0.12
+      ],
+      "name": "old pier",
+      "color": "#151926",
+      "height": 1.1,
+      "reflect": true,
+      "distance": 9,
+      "elevation": 0
+    },
+    {
+      "x": 0.56,
+      "id": "ede317729",
+      "box": [
+        -1,
+        -0.9,
+        0.6,
+        0.5
+      ],
+      "name": "girl with a lantern",
+      "color": "#141826",
+      "height": 0.75,
+      "flicker": 0.35,
+      "reflect": true,
+      "distance": 8.95,
+      "elevation": 1
+    },
+    {
+      "x": 0.7,
+      "id": "e077ffa07",
+      "box": [
+        -6,
+        -3,
+        6,
+        0.3
+      ],
+      "name": "fireflies",
+      "color": "#ffcf8a",
+      "height": 2.5,
+      "reflect": true,
+      "distance": 7
+    },
+    {
+      "x": 0.9,
+      "id": "eb89f0e76",
+      "box": [
+        -1.2,
+        -1.9,
+        1.2,
+        0.2
+      ],
+      "name": "reeds",
+      "color": "#10131d",
+      "height": 1.7,
+      "reflect": true,
+      "distance": 4.5,
+      "elevation": 0
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "Every evening she comes to the old pier."
+    },
+    {
+      "at": 11,
+      "for": 6,
+      "text": "And lights the lantern."
+    },
+    {
+      "at": 18,
+      "for": 8,
+      "text": "So that from the far shore they can see where to row."
+    },
+    {
+      "at": 28,
+      "for": 6,
+      "text": "Over there it's still dark."
+    },
+    {
+      "at": 36,
+      "text": "But the lantern burns."
+    }
+  ]
+}
