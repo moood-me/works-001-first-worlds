@@ -1,0 +1,8 @@
+<div id="w" style="font:14px Georgia,serif;letter-spacing:.12em;text-transform:uppercase;color:#f3e4c6;text-shadow:0 1px 4px #000,0 0 12px #000"><span id="n"></span><b id="t" style="display:block;font:italic 22px Georgia,serif;letter-spacing:0;text-transform:none;font-weight:normal"></b></div>
+<script>
+  // the watch (the scene's state: its id) — its name and what it is for
+  const WATCHES = { first: [tr('First watch'), tr('the lamp')], second: [tr('Second watch'), tr('the lens')], midnight: [tr('Midnight'), tr('the weather')],
+    night: [tr('Night watch'), tr('the signal')], graveyard: [tr('Graveyard watch')], 'before-dawn': [tr('Before dawn'), tr('the line')] };
+  const show = () => { const w = WATCHES[MooodState.get('watch')] || []; root.getElementById('n').textContent = w[0] || ''; root.getElementById('t').textContent = (MooodState.get('time') || '') + (w[1] ? ' · ' + w[1] : ''); };
+  MooodState.on('load', show); MooodState.on('change', show); show();
+</script>

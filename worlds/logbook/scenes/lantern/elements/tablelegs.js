@@ -1,0 +1,36 @@
+const st = e.state,
+  t = e.t;
+const fl =
+  1 + 0.05 * Math.sin(t * 7.3) + 0.035 * Math.sin(t * 12.7 + 1.3) + 0.06 * Math.sin(t * 1.9 + 0.4) * Math.sin(t * 0.53);
+const L = Math.max(0, (st.lamp ?? 0.6) * (1 - 0.85 * (st.shutter || 0)) * fl);
+g.fillStyle = "#120c08";
+g.fillRect(-0.476, -0.93, 0.03, 0.57);
+g.fillRect(0.045, -0.93, 0.03, 0.57);
+g.beginPath();
+g.moveTo(-0.36, -0.75);
+g.lineTo(-0.484, -0.95);
+g.lineTo(-0.484, -0.887);
+g.lineTo(-0.36, -0.67);
+g.closePath();
+g.fillStyle = `rgb(${Math.round(30 + 70 * L)},${Math.round(22 + 46 * L)},${Math.round(15 + 24 * L)})`;
+g.fill();
+g.fillStyle = "#1b130d";
+g.fillRect(-0.36, -0.75, 0.72, 0.08);
+g.fillStyle = "#17100b";
+g.fillRect(-0.36, -0.67, 0.04, 0.67);
+g.fillRect(0.32, -0.67, 0.04, 0.67);
+g.strokeStyle = "rgba(0,0,0,0.5)";
+g.lineWidth = 0.004;
+g.strokeRect(-0.12, -0.735, 0.24, 0.05);
+g.fillStyle = `rgba(200,160,100,${0.3 + 0.4 * L})`;
+g.beginPath();
+g.arc(0, -0.71, 0.008, 0, 7);
+g.fill();
+g.strokeStyle = `rgba(255,185,115,${0.35 * L})`;
+g.lineWidth = 0.006;
+g.beginPath();
+g.moveTo(-0.36, -0.75);
+g.lineTo(0.36, -0.75);
+g.stroke();
+g.fillStyle = `rgba(255,170,100,${0.15 * L})`;
+g.fillRect(-0.36, -0.67, 0.012, 0.67);
