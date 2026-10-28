@@ -1,0 +1,380 @@
+{
+  "light": {
+    "haze": 0.16,
+    "tint": "#39435a",
+    "grain": 0.3,
+    "vignette": 0.5,
+    "hazeColor": "#4a5468",
+    "tintStrength": 0.2
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "empty lake under the moon, sparse piano, rings spreading on water, fragile hope",
+        "weight": 1
+      },
+      {
+        "text": "warm lantern-glow pad, slow and steady, a light that may not be there",
+        "weight": 0.5
+      },
+      {
+        "text": "pine wind drone, soft and cold, night mist",
+        "weight": 0.3
+      },
+      {
+        "text": "single cello line, searching and patient",
+        "weight": 0
+      },
+      {
+        "text": "glass marimba notes like drops falling into the lake",
+        "weight": 0
+      },
+      {
+        "text": "distant choir, one sustained chord, like faith",
+        "weight": 0
+      },
+      {
+        "text": "Harold Budd style soft piano over reverb clouds",
+        "weight": 0
+      },
+      {
+        "text": "slow fingerpicked guitar, walking toward a far window",
+        "weight": 0
+      },
+      {
+        "text": "deep subtle heartbeat pulse under ambient textures",
+        "weight": 0
+      },
+      {
+        "text": "kalimba and soft bells, counting circles on the water",
+        "weight": 0
+      },
+      {
+        "text": "breathy shakuhachi, lonely, over mist",
+        "weight": 0
+      },
+      {
+        "text": "slow string orchestra, bittersweet, the edge of tears",
+        "weight": 0
+      },
+      {
+        "text": "granular piano fragments drifting like fog",
+        "weight": 0
+      },
+      {
+        "text": "soft Rhodes and brushed cymbals, a quiet night walk",
+        "weight": 0
+      },
+      {
+        "text": "humming bowed metal, eerie and beautiful, moonlight",
+        "weight": 0
+      },
+      {
+        "text": "folk lullaby on a wooden flute, slow and soft",
+        "weight": 0
+      },
+      {
+        "text": "tape-degraded orchestral sample, a faded memory",
+        "weight": 0
+      },
+      {
+        "text": "warm major-key swell arriving at the end, a light in the window",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
+  "title": "Hope",
+  "caption": "it's quiet here, and only a small light keeps hope from going out",
+  "horizon": 0.4,
+  "objects": [
+    {
+      "id": "e20541385",
+      "sky": true,
+      "name": "sky"
+    },
+    {
+      "id": "e5999465d",
+      "sky": true,
+      "name": "moon"
+    },
+    {
+      "id": "e54a1e48a",
+      "sky": true,
+      "name": "clouds"
+    },
+    {
+      "x": 0.5,
+      "id": "eef191a3a",
+      "box": [
+        -9000,
+        -420,
+        9000,
+        8
+      ],
+      "name": "distant mountains",
+      "color": "#5a6b82",
+      "height": 330,
+      "distance": 2600
+    },
+    {
+      "x": 0.5,
+      "id": "e5fa8e43e",
+      "box": [
+        -1300,
+        -42,
+        1300,
+        3
+      ],
+      "name": "forest on the far shore",
+      "color": "#1e2834",
+      "height": 24,
+      "distance": 430
+    },
+    {
+      "x": 0.76,
+      "id": "e8ad0560a",
+      "box": [
+        -9,
+        -20,
+        9,
+        1
+      ],
+      "name": "house with a window on the far shore",
+      "color": "#1a2230",
+      "height": 7,
+      "flicker": 0.2,
+      "distance": 425
+    },
+    {
+      "x": 0.7,
+      "id": "e504375e0",
+      "box": [
+        -200,
+        -1.46,
+        120,
+        45
+      ],
+      "name": "lake",
+      "color": "#2a3446",
+      "height": 1,
+      "distance": 60
+    },
+    {
+      "x": 0.7,
+      "id": "eb137727f",
+      "box": [
+        -10,
+        -1.47,
+        10,
+        16
+      ],
+      "name": "moon path on the water",
+      "color": "#dfe4ee",
+      "height": 1,
+      "distance": 59
+    },
+    {
+      "x": 0.76,
+      "id": "e29b48d8d",
+      "box": [
+        -2,
+        -1.5,
+        2,
+        1.3
+      ],
+      "name": "window's reflection",
+      "color": "#ffb066",
+      "height": 1,
+      "distance": 58
+    },
+    {
+      "x": 0.5,
+      "id": "e96f3d755",
+      "box": [
+        -200,
+        -3,
+        200,
+        1.5
+      ],
+      "name": "mist on the horizon",
+      "color": "#8b96a8",
+      "height": 2,
+      "distance": 55
+    },
+    {
+      "x": 0.95,
+      "id": "e9981e12e",
+      "box": [
+        -7,
+        -8.2,
+        11,
+        9.5
+      ],
+      "name": "cape with a pine",
+      "color": "#10151e",
+      "height": 8,
+      "distance": 24
+    },
+    {
+      "x": 0.5,
+      "id": "ed2b23a0d",
+      "box": [
+        -40,
+        -1,
+        40,
+        5
+      ],
+      "name": "mist over the water",
+      "color": "#4a5468",
+      "height": 2,
+      "distance": 18
+    },
+    {
+      "x": 0.5,
+      "id": "e197ccd36",
+      "box": [
+        -9,
+        -1,
+        9,
+        1
+      ],
+      "name": "ripples on the water",
+      "color": "#afb9cd",
+      "height": 0.1,
+      "distance": 10
+    },
+    {
+      "x": 0.4,
+      "y": 0.86,
+      "id": "e3f63f09d",
+      "box": [
+        -14,
+        -3,
+        14,
+        4
+      ],
+      "name": "shore",
+      "color": "#10141c",
+      "height": 1
+    },
+    {
+      "x": 0.4,
+      "y": 0.8605,
+      "id": "ed544e293",
+      "box": [
+        -14,
+        -1.5,
+        14,
+        0.6
+      ],
+      "name": "dry grass",
+      "color": "#0b0e14",
+      "height": 0.4
+    },
+    {
+      "x": 0.4,
+      "y": 0.87,
+      "id": "ebe847bcd",
+      "box": [
+        -0.6,
+        -1.1,
+        0.6,
+        0.12
+      ],
+      "name": "girl",
+      "color": "#12151d",
+      "height": 1
+    },
+    {
+      "x": 0.46,
+      "y": 0.875,
+      "id": "e0b523963",
+      "box": [
+        -1.6,
+        -0.4,
+        1.6,
+        0.35
+      ],
+      "name": "small lantern",
+      "color": "#2b2219",
+      "height": 0.3,
+      "flicker": 0.25
+    },
+    {
+      "x": 0.46,
+      "y": 0.876,
+      "id": "e59268068",
+      "box": [
+        -1,
+        -1.2,
+        1,
+        0.1
+      ],
+      "name": "dust motes in the light",
+      "color": "#ffd2a0",
+      "height": 1
+    },
+    {
+      "x": 0.55,
+      "y": 0.92,
+      "id": "e3209cc8e",
+      "box": [
+        -0.5,
+        -0.45,
+        0.5,
+        0.1
+      ],
+      "name": "stone",
+      "color": "#10131a",
+      "height": 0.35
+    },
+    {
+      "x": 0.03,
+      "y": 0.93,
+      "id": "ef7170820",
+      "box": [
+        -3.5,
+        -10,
+        3.5,
+        0.3
+      ],
+      "name": "spruce",
+      "color": "#0d1117",
+      "height": 9.6
+    },
+    {
+      "x": 0.5,
+      "id": "e7327e973",
+      "box": [
+        -7,
+        -6,
+        7,
+        0.5
+      ],
+      "name": "falling leaves",
+      "color": "#8a6a3f",
+      "height": 5,
+      "distance": 5
+    }
+  ],
+  "captions": [
+    {
+      "at": 1,
+      "for": 7,
+      "text": "she sits by the empty lake and counts the ripples on the water"
+    },
+    {
+      "at": 9,
+      "for": 7,
+      "text": "somewhere on the far shore a single window is lit"
+    },
+    {
+      "at": 17,
+      "for": 8,
+      "text": "hope is when you walk towards a light that may not even be there"
+    }
+  ]
+}

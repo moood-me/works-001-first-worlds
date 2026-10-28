@@ -1,0 +1,30 @@
+const t = e.t;
+g.fillStyle = "#1a2230";
+g.beginPath();
+g.moveTo(-4, 0.5);
+g.lineTo(-4, -3.2);
+g.lineTo(0.2, -6.3);
+g.lineTo(4.4, -3.1);
+g.lineTo(4.4, 0.5);
+g.closePath();
+g.fill();
+g.fillRect(2.1, -6.6, 0.7, 2.2);
+g.fillRect(-4.3, -3.3, 0.4, 0.2);
+g.fillStyle = "#ffc47e";
+g.fillRect(0.6, -2.5, 1.1, 1.0);
+g.fillStyle = "#1a2230";
+g.fillRect(1.1, -2.5, 0.1, 1.0);
+g.fillRect(0.6, -2.05, 1.1, 0.09);
+e.light(1.15, -2.0, 9, "#ffb066", 0.9);
+for (let i = 0; i < 9; i++) {
+  const a0 = (t * 0.035 + i / 9) % 1;
+  const x = 2.45 - a0 * 5 + Math.sin(a0 * 5 + i * 0.7) * 0.7;
+  const y = -6.9 - a0 * 10;
+  const r = 0.5 + a0 * 2.4;
+  const al = 0.1 * (1 - a0) * Math.min(1, a0 * 6);
+  const gr = g.createRadialGradient(x, y, 0, x, y, r);
+  gr.addColorStop(0, "rgba(125,130,148," + al + ")");
+  gr.addColorStop(1, "rgba(125,130,148,0)");
+  g.fillStyle = gr;
+  g.fillRect(x - r, y - r, 2 * r, 2 * r);
+}
