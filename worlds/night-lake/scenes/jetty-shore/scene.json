@@ -1,0 +1,236 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#1b2a4a",
+    "grain": 0.18,
+    "vignette": 0.5,
+    "hazeColor": "#23345a",
+    "tintStrength": 0.15
+  },
+  "music": {
+    "bpm": 58,
+    "density": 0.22,
+    "prompts": [
+      {
+        "text": "night lake ambient, dark soft pads, close and inviting, a faint unease",
+        "weight": 1
+      },
+      {
+        "text": "whispering wind through reeds turned into a quiet synth texture",
+        "weight": 0.6
+      },
+      {
+        "text": "low slow cello drone, deep and calm like dark water",
+        "weight": 0.45
+      },
+      {
+        "text": "wooden creak of a rope on an old stake, sparse soft knocks",
+        "weight": 0.25
+      },
+      {
+        "text": "twinkling celesta, small lights over black water",
+        "weight": 0.15
+      },
+      {
+        "text": "pianissimo string harmonics, silvery and cold",
+        "weight": 0.1
+      }
+    ],
+    "brightness": 0.26
+  },
+  "state": {
+    "aim": "grass",
+    "gust": 0,
+    "wind": 0.35,
+    "ropeSway": 0.3,
+    "flashlight": true,
+    "playerSpot": "shore",
+    "boatPresent": true,
+    "waterTremble": 0.25
+  },
+  "title": "Shore by the Jetty",
+  "camera": {
+    "mode": "walk",
+    "walk": {
+      "back": 3,
+      "side": 3,
+      "forward": 3
+    }
+  },
+  "caption": "Wet grass, an old stake and a boat tied up by the dark water.",
+  "horizon": 0.42,
+  "objects": [
+    {
+      "id": "efe6d3de1",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "e47393851",
+      "sky": true,
+      "name": "Stars"
+    },
+    {
+      "id": "e579d4f05",
+      "sky": true,
+      "name": "Moon"
+    },
+    {
+      "id": "e837e5350",
+      "sky": true,
+      "name": "Clouds"
+    },
+    {
+      "id": "e407cc991",
+      "sky": true,
+      "name": "Lake"
+    },
+    {
+      "x": 0.5,
+      "id": "e0b7403a1",
+      "box": [
+        -1500,
+        -60,
+        1500,
+        60
+      ],
+      "name": "Mountains",
+      "color": "#34446a",
+      "height": 45,
+      "distance": 700
+    },
+    {
+      "x": 0.5,
+      "id": "e158dcc93",
+      "box": [
+        -900,
+        -45,
+        300,
+        45
+      ],
+      "name": "Forest on the far shore",
+      "color": "#121b2e",
+      "height": 26,
+      "distance": 380
+    },
+    {
+      "x": 0.5,
+      "id": "e71fdecde",
+      "box": [
+        -700,
+        -16,
+        700,
+        8
+      ],
+      "name": "Mist over the water",
+      "height": 12,
+      "distance": 220
+    },
+    {
+      "x": 0.55,
+      "id": "ea58d1637",
+      "box": [
+        -5,
+        -3.6,
+        6.5,
+        3.6
+      ],
+      "name": "Fireflies",
+      "color": "#ffd27a",
+      "height": 3,
+      "distance": 11
+    },
+    {
+      "x": 0.86,
+      "id": "e1e803e7e",
+      "box": [
+        -4.5,
+        -2.4,
+        5,
+        0.8
+      ],
+      "name": "Reeds on the right bank",
+      "color": "#0a101c",
+      "height": 1.6,
+      "distance": 8.8
+    },
+    {
+      "x": 0.4,
+      "id": "deck",
+      "name": "Jetty decking",
+      "color": "#28344e",
+      "depth": 1.5,
+      "plane": true,
+      "width": 24,
+      "distance": 8.35,
+      "elevation": 0.7
+    },
+    {
+      "x": 0.4,
+      "id": "eb7d113d5",
+      "box": [
+        -12.5,
+        -1.6,
+        5,
+        1.2
+      ],
+      "name": "Jetty",
+      "color": "#0e1628",
+      "height": 1.4,
+      "distance": 7.6
+    },
+    {
+      "x": 0.45,
+      "id": "boat",
+      "box": [
+        -3,
+        -1.4,
+        1.8,
+        1.1
+      ],
+      "name": "Boat at the stake",
+      "color": "#1b2540",
+      "height": 1,
+      "distance": 5.1
+    },
+    {
+      "x": 0.5,
+      "id": "edge",
+      "box": [
+        -9,
+        -0.4,
+        9,
+        0.5
+      ],
+      "name": "Water's edge",
+      "color": "#050913",
+      "height": 0.4,
+      "distance": 5.02
+    },
+    {
+      "x": 0.04,
+      "id": "ee7aa7c14",
+      "box": [
+        -3,
+        -2.1,
+        1.3,
+        0.8
+      ],
+      "name": "Reeds at the edge",
+      "color": "#0b111e",
+      "height": 1.8,
+      "distance": 4.7
+    },
+    {
+      "x": 0.5,
+      "id": "grass",
+      "name": "Wet grass",
+      "color": "#121a29",
+      "depth": 13,
+      "plane": true,
+      "width": 26,
+      "distance": 3.5,
+      "elevation": 0
+    }
+  ]
+}

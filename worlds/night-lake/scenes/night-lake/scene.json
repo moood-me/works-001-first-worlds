@@ -1,0 +1,251 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#1b2a4a",
+    "grain": 0.18,
+    "vignette": 0.45,
+    "hazeColor": "#23345a",
+    "tintStrength": 0.15
+  },
+  "music": {
+    "bpm": 62,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "night lake ambient, dark soft pads, a child counting fireflies, gentle wonder",
+        "weight": 1
+      },
+      {
+        "text": "twinkling celesta and music box, small lights over black water",
+        "weight": 0.55
+      },
+      {
+        "text": "low slow cello drone, deep and calm like dark water",
+        "weight": 0.3
+      },
+      {
+        "text": "plucked harp notes like fish splashes, rings slowly spreading",
+        "weight": 0
+      },
+      {
+        "text": "soft marimba lullaby, rounded and warm, moonlight",
+        "weight": 0
+      },
+      {
+        "text": "whispering wind through reeds turned into a quiet synth texture",
+        "weight": 0
+      },
+      {
+        "text": "distant owl-like wooden flute calls, night forest across the lake",
+        "weight": 0
+      },
+      {
+        "text": "glassy FM bells, sparse, like stars reflected in water",
+        "weight": 0
+      },
+      {
+        "text": "slow nylon guitar, a lullaby hummed to oneself",
+        "weight": 0
+      },
+      {
+        "text": "deep sub drone with occasional soft thuds, mysterious and safe",
+        "weight": 0
+      },
+      {
+        "text": "kalimba counting gently, one to seven, then losing count",
+        "weight": 0
+      },
+      {
+        "text": "pianissimo string harmonics, silvery and cold",
+        "weight": 0
+      },
+      {
+        "text": "dreamy lo-fi beat at half speed, very quiet, flashlight glow",
+        "weight": 0
+      },
+      {
+        "text": "choir of breaths, almost silent, the lake sleeping",
+        "weight": 0
+      },
+      {
+        "text": "toy piano and soft pads, curious and innocent",
+        "weight": 0
+      },
+      {
+        "text": "ambient guitar with a slow tremolo, moonlit ripples",
+        "weight": 0
+      },
+      {
+        "text": "Arvo Pärt style tintinnabuli piano, still and luminous",
+        "weight": 0
+      },
+      {
+        "text": "warm Rhodes chords, slow, like a lamp in the dark",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "title": "Night Lake",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "A small quiet light sways over the dark water.",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "id": "efe6d3de1",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "e47393851",
+      "sky": true,
+      "name": "Stars"
+    },
+    {
+      "id": "e579d4f05",
+      "sky": true,
+      "name": "Moon"
+    },
+    {
+      "id": "e837e5350",
+      "sky": true,
+      "name": "Clouds"
+    },
+    {
+      "id": "e407cc991",
+      "sky": true,
+      "name": "Lake"
+    },
+    {
+      "x": 0.5,
+      "id": "e0b7403a1",
+      "box": [
+        -1500,
+        -60,
+        1500,
+        60
+      ],
+      "name": "Mountains",
+      "color": "#34446a",
+      "height": 45,
+      "distance": 700
+    },
+    {
+      "x": 0.5,
+      "id": "e158dcc93",
+      "box": [
+        -900,
+        -45,
+        300,
+        45
+      ],
+      "name": "Forest on the far shore",
+      "color": "#121b2e",
+      "height": 26,
+      "distance": 380
+    },
+    {
+      "x": 0.5,
+      "id": "e71fdecde",
+      "box": [
+        -700,
+        -16,
+        700,
+        8
+      ],
+      "name": "Mist over the water",
+      "height": 12,
+      "distance": 220
+    },
+    {
+      "x": 0.44,
+      "id": "eb7d113d5",
+      "box": [
+        -24.5,
+        -1.6,
+        0.6,
+        1.6
+      ],
+      "name": "Jetty",
+      "color": "#0e1628",
+      "height": 1.4,
+      "distance": 12
+    },
+    {
+      "x": 0.44,
+      "id": "ebb5d9a90",
+      "box": [
+        -0.8,
+        -0.9,
+        4.2,
+        1.95
+      ],
+      "name": "Child with a torch",
+      "color": "#0d1424",
+      "height": 0.75,
+      "distance": 11.9,
+      "elevation": 0.75
+    },
+    {
+      "x": 0.55,
+      "id": "ea58d1637",
+      "box": [
+        -5,
+        -3.6,
+        6.5,
+        3.6
+      ],
+      "name": "Fireflies",
+      "color": "#ffd27a",
+      "height": 3,
+      "distance": 9
+    },
+    {
+      "x": 0.92,
+      "id": "e1e803e7e",
+      "box": [
+        -1.6,
+        -2.2,
+        1.6,
+        2.2
+      ],
+      "name": "Reeds by the water",
+      "color": "#0a101c",
+      "height": 1.5,
+      "distance": 6
+    },
+    {
+      "x": 0.08,
+      "id": "ee7aa7c14",
+      "box": [
+        -3,
+        -2.1,
+        1.3,
+        0.8
+      ],
+      "name": "Reeds on the shore",
+      "color": "#0b111e",
+      "height": 1.8,
+      "distance": 4
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "The torch beam touches the black water."
+    },
+    {
+      "at": 13,
+      "for": 7,
+      "text": "Somewhere below a fish splashed; the rings spread slowly."
+    },
+    {
+      "at": 23,
+      "for": 8,
+      "text": "He counts the fireflies and loses count at seven."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Shore by the Jetty","translation":"Берег у мостика","where":"scenes/jetty-shore/scene.json title"},
+  {"text":"Wet grass, an old stake and a boat tied up by the dark water.","translation":"Мокрая трава, старый колышек и лодка на привязи у тёмной воды.","where":"scenes/jetty-shore/scene.json caption"},
+  {"text":"A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.","translation":"Порыв ветра: камыш зашуршал, лодка дёрнула верёвку на колышке.","where":"scenes/jetty-shore/script.js"},
+  {"text":"A gust of wind: the reeds rustled, a shiver ran over the water at the edge.","translation":"Порыв ветра: камыш зашуршал, по воде у кромки прошла дрожь.","where":"scenes/jetty-shore/script.js"}
+]}

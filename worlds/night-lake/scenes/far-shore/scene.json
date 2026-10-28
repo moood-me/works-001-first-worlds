@@ -1,0 +1,233 @@
+{
+  "light": {
+    "haze": 0.35,
+    "tint": "#1b2a4a",
+    "grain": 0.2,
+    "vignette": 0.52,
+    "hazeColor": "#23345a",
+    "tintStrength": 0.16
+  },
+  "music": {
+    "bpm": 56,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "low slow cello drone, deep and calm like dark water",
+        "weight": 0.8
+      },
+      {
+        "text": "distant owl-like wooden flute calls, night forest across the lake",
+        "weight": 0.6
+      },
+      {
+        "text": "deep sub drone with occasional soft thuds, mysterious and safe",
+        "weight": 0.5
+      },
+      {
+        "text": "choir of breaths, almost silent, the lake sleeping",
+        "weight": 0.35
+      },
+      {
+        "text": "pianissimo string harmonics, silvery and cold",
+        "weight": 0.3
+      },
+      {
+        "text": "warm Rhodes chords, slow, like a lamp in the dark",
+        "weight": 0.15
+      },
+      {
+        "text": "night lake ambient, dark soft pads, a child counting fireflies, gentle wonder",
+        "weight": 0
+      },
+      {
+        "text": "twinkling celesta and music box, small lights over black water",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.22
+  },
+  "state": {
+    "fog": 0.6,
+    "fogX": 0,
+    "figure": 0,
+    "shafts": 0.35,
+    "tracks": 0.7,
+    "lantern": 0.55,
+    "fogDrift": 0.25,
+    "tracksWet": true,
+    "lanternBlink": true
+  },
+  "title": "The Far Shore",
+  "camera": {
+    "mode": "walk",
+    "walk": {
+      "back": 3,
+      "side": 3,
+      "forward": 4
+    }
+  },
+  "caption": "A narrow strip of pebbles, black trunks and mist between them.",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "id": "efe6d3de1",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "e47393851",
+      "sky": true,
+      "name": "Stars"
+    },
+    {
+      "id": "e579d4f05",
+      "sky": true,
+      "name": "Moon"
+    },
+    {
+      "id": "e837e5350",
+      "sky": true,
+      "name": "Clouds"
+    },
+    {
+      "id": "e407cc991",
+      "sky": true,
+      "name": "Lake"
+    },
+    {
+      "x": 0.42,
+      "id": "forest_far",
+      "box": [
+        -300,
+        -26,
+        300,
+        16
+      ],
+      "name": "Depths of the forest",
+      "color": "#111b31",
+      "height": 18,
+      "distance": 90
+    },
+    {
+      "x": 0.42,
+      "id": "lantern",
+      "box": [
+        -8,
+        -8,
+        8,
+        6
+      ],
+      "name": "A light among the trunks",
+      "color": "#ffbe6a",
+      "height": 0.5,
+      "distance": 70,
+      "elevation": 1.1
+    },
+    {
+      "x": 0.42,
+      "id": "figure",
+      "box": [
+        -4,
+        -2.4,
+        4,
+        0.4
+      ],
+      "name": "The one who waits",
+      "color": "#080d19",
+      "height": 1.75,
+      "distance": 58
+    },
+    {
+      "x": 0.42,
+      "id": "mist",
+      "box": [
+        -170,
+        -22,
+        170,
+        4
+      ],
+      "name": "Mist between the trees",
+      "color": "#7a8cb9",
+      "height": 12,
+      "distance": 45
+    },
+    {
+      "x": 0.42,
+      "id": "trunks_mid",
+      "box": [
+        -100,
+        -48,
+        100,
+        5
+      ],
+      "name": "Trunks deep in the forest",
+      "color": "#0a1120",
+      "height": 40,
+      "distance": 32
+    },
+    {
+      "x": 0.42,
+      "id": "trunks_near",
+      "box": [
+        -60,
+        -42,
+        60,
+        4
+      ],
+      "name": "Black trunks at the forest edge",
+      "color": "#070c17",
+      "height": 40,
+      "distance": 19
+    },
+    {
+      "x": 0.5,
+      "id": "mist_near",
+      "box": [
+        -80,
+        -4,
+        80,
+        1.2
+      ],
+      "name": "Mist at the forest edge",
+      "color": "#7a8cb9",
+      "height": 3,
+      "distance": 17.5
+    },
+    {
+      "x": 0.42,
+      "id": "pebbles",
+      "name": "Strip of pebbles",
+      "color": "#1c2436",
+      "depth": 6,
+      "plane": true,
+      "width": 100,
+      "distance": 14,
+      "elevation": 0
+    },
+    {
+      "x": 0.42,
+      "id": "shoreline",
+      "name": "Water's edge",
+      "color": "#13203c",
+      "depth": 1.6,
+      "plane": true,
+      "width": 100,
+      "distance": 11.2,
+      "elevation": 0
+    },
+    {
+      "x": 0.92,
+      "id": "e1e803e7e",
+      "box": [
+        -1.6,
+        -2.2,
+        1.6,
+        2.2
+      ],
+      "name": "Reeds by the water",
+      "color": "#0a101c",
+      "height": 1.5,
+      "distance": 6
+    }
+  ]
+}
