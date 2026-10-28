@@ -1,0 +1,223 @@
+{
+  "light": {
+    "haze": 0.2,
+    "tint": "#6a7fc0",
+    "grain": 0.22,
+    "vignette": 0.46,
+    "hazeColor": "#25304f",
+    "tintStrength": 0.14
+  },
+  "music": {
+    "bpm": 56,
+    "density": 0.15,
+    "prompts": [
+      {
+        "text": "moonlit lake at night, soft ambient pad, very slow, hushed and secret",
+        "weight": 1
+      },
+      {
+        "text": "field-recording ambience: water lapping under boards, reeds whispering, blended into music",
+        "weight": 0.6
+      },
+      {
+        "text": "music box melody far away, tender and a little sad",
+        "weight": 0.35
+      },
+      {
+        "text": "bowed vibraphone, shimmering sustained tones",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi piano with vinyl crackle, a quiet memory",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
+  "state": {
+    "dusk": 0.35,
+    "ripples": 0.35,
+    "shed_lab": 0,
+    "night_day": 0,
+    "shed_ship": 0,
+    "bench_legs": 0,
+    "box_locked": true,
+    "child_pose": "stand",
+    "boat_shadow": 0.6,
+    "box_visible": 0.3,
+    "light_level": 0.7,
+    "child_walking": false,
+    "boathouse_lamp": false,
+    "child_position": 0
+  },
+  "title": "Cove by the Boathouse",
+  "camera": {
+    "mode": "walk",
+    "walk": {
+      "back": 1.5,
+      "side": 1.2,
+      "forward": 3
+    }
+  },
+  "caption": "Beyond the reeds the water whispers what isn't said by day.",
+  "horizon": 0.5,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "twilight sky and moon",
+      "color": "#1b2747"
+    },
+    {
+      "x": 0.68,
+      "id": "far_shore",
+      "box": [
+        -1900,
+        -40,
+        1900,
+        30
+      ],
+      "name": "far wooded shore",
+      "color": "#0b1020",
+      "height": 20,
+      "distance": 300
+    },
+    {
+      "x": 0.68,
+      "id": "water",
+      "box": [
+        -90,
+        -1,
+        90,
+        45
+      ],
+      "name": "dark water of the cove and the moon path",
+      "color": "#18223c",
+      "height": 40,
+      "distance": 40
+    },
+    {
+      "x": 0.5,
+      "id": "shore",
+      "name": "sandy shore by the water",
+      "color": "#1e2336",
+      "depth": 9,
+      "plane": true,
+      "width": 40,
+      "distance": 4.5,
+      "elevation": 0
+    },
+    {
+      "x": 0.2,
+      "id": "boathouse",
+      "box": [
+        -3.6,
+        -9.4,
+        5.2,
+        1
+      ],
+      "name": "old boathouse on stilts",
+      "color": "#141a2a",
+      "height": 6,
+      "flicker": 0.25,
+      "reflect": true,
+      "distance": 15
+    },
+    {
+      "x": 0.65,
+      "id": "boat",
+      "box": [
+        -2.6,
+        -1.1,
+        2.6,
+        0.55
+      ],
+      "name": "upturned boat",
+      "color": "#26304a",
+      "height": 0.8,
+      "distance": 6.6
+    },
+    {
+      "x": 0.4,
+      "id": "bench",
+      "box": [
+        -11,
+        -1.4,
+        1.4,
+        0.35
+      ],
+      "name": "old bench",
+      "color": "#2a2a36",
+      "height": 1,
+      "distance": 5.4
+    },
+    {
+      "x": 0.4,
+      "id": "box",
+      "box": [
+        -0.3,
+        -0.45,
+        0.8,
+        0.15
+      ],
+      "name": "tin box under the bench",
+      "color": "#5d6886",
+      "height": 0.2,
+      "distance": 5.35
+    },
+    {
+      "x": 0.4,
+      "id": "child",
+      "box": [
+        -0.6,
+        -1.4,
+        9.2,
+        0.2
+      ],
+      "name": "child in a red scarf",
+      "color": "#0f1322",
+      "height": 1.2,
+      "distance": 5.3
+    },
+    {
+      "x": 0.9,
+      "id": "reeds",
+      "box": [
+        -1.8,
+        -2.1,
+        1.8,
+        0.4
+      ],
+      "name": "whispering reeds",
+      "color": "#0c0f1a",
+      "height": 1.7,
+      "distance": 3.4
+    }
+  ],
+  "directions": [
+    {
+      "key": "shed_ship",
+      "name": "shed → spaceship",
+      "excludes": [
+        "shed_lab"
+      ]
+    },
+    {
+      "key": "shed_lab",
+      "name": "shed → secret laboratory",
+      "excludes": [
+        "shed_ship"
+      ]
+    },
+    {
+      "key": "bench_legs",
+      "name": "the bench crawls away",
+      "excludes": []
+    },
+    {
+      "key": "night_day",
+      "name": "night → morning",
+      "excludes": []
+    }
+  ]
+}

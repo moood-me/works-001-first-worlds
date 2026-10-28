@@ -1,0 +1,216 @@
+{
+  "light": {
+    "haze": 0.3,
+    "tint": "#ff9a56",
+    "grain": 0.22,
+    "vignette": 0.5,
+    "hazeColor": "#7a4c5c",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 56,
+    "density": 0.15,
+    "prompts": [
+      {
+        "text": "still lake at sunset, slow ambient guitar swells, endless reverb, very calm",
+        "weight": 0.5
+      },
+      {
+        "text": "field-recording ambience: pine forest at dusk, a far bird, needles, blended into music",
+        "weight": 0.8
+      },
+      {
+        "text": "choir pad singing 'ah', very soft and distant, like the sky",
+        "weight": 0.35
+      },
+      {
+        "text": "single sustained piano chords fading like the sun going down",
+        "weight": 0.3
+      },
+      {
+        "text": "low uneasy drone with a faint metallic shimmer, expectant",
+        "weight": 0.25
+      }
+    ],
+    "brightness": 0.4
+  },
+  "state": {
+    "gust": 0,
+    "light_fade": 0.15,
+    "path_depth": 0.55,
+    "ribbons_move": 0.25,
+    "water_glimpse": 0.6,
+    "figure_present": 0
+  },
+  "title": "Path under the Pines",
+  "camera": {
+    "mode": "walk",
+    "walk": {
+      "back": 1.5,
+      "side": 1.2,
+      "forward": 6
+    }
+  },
+  "caption": "Beyond the lake the path goes into the pines, and someone has tied ribbons to an old stump.",
+  "horizon": 0.55,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "sunset sky through the crowns",
+      "color": "#a65c62"
+    },
+    {
+      "x": 0.5,
+      "id": "deep_woods",
+      "box": [
+        -170,
+        -46,
+        170,
+        10
+      ],
+      "name": "depths of the pine forest",
+      "color": "#33243a",
+      "height": 40,
+      "distance": 90
+    },
+    {
+      "x": 0.5,
+      "id": "forest_floor",
+      "name": "forest floor and the path",
+      "color": "#2c202c",
+      "depth": 48,
+      "plane": true,
+      "width": 60,
+      "distance": 22,
+      "elevation": 0
+    },
+    {
+      "x": 0.5,
+      "id": "lake_glimpse",
+      "box": [
+        -96,
+        -2.6,
+        -4,
+        1
+      ],
+      "name": "lake between the trunks",
+      "color": "#c47a66",
+      "height": 3,
+      "distance": 50
+    },
+    {
+      "x": 0.5,
+      "id": "pines_far",
+      "box": [
+        -70,
+        -36,
+        70,
+        0.6
+      ],
+      "name": "far pines",
+      "color": "#2c2030",
+      "height": 30,
+      "distance": 40
+    },
+    {
+      "x": 0.5,
+      "id": "sun_shafts",
+      "box": [
+        -50,
+        -36,
+        50,
+        1
+      ],
+      "name": "sunset rays between the pines",
+      "color": "#ffb47a",
+      "height": 30,
+      "distance": 20
+    },
+    {
+      "x": 0.5,
+      "id": "watcher",
+      "box": [
+        -1,
+        -2.2,
+        0.8,
+        0.2
+      ],
+      "name": "the one who waits on the path",
+      "color": "#150f1a",
+      "height": 1.9,
+      "distance": 26
+    },
+    {
+      "x": 0.5,
+      "id": "pines_mid",
+      "box": [
+        -28,
+        -32,
+        28,
+        0.5
+      ],
+      "name": "pines by the path",
+      "color": "#1f1622",
+      "height": 28,
+      "distance": 16
+    },
+    {
+      "x": 0.5,
+      "id": "shrine_stump",
+      "box": [
+        0.6,
+        -1.8,
+        3.6,
+        0.3
+      ],
+      "name": "stump shrine with ribbons",
+      "color": "#2a1d24",
+      "height": 1.7,
+      "distance": 9
+    },
+    {
+      "x": 0.5,
+      "id": "falling_feather",
+      "box": [
+        -2,
+        -3.1,
+        1.5,
+        0.2
+      ],
+      "name": "falling feather",
+      "color": "#d4c8c2",
+      "height": 3,
+      "distance": 6
+    },
+    {
+      "x": 0.52,
+      "id": "motes",
+      "box": [
+        -2.6,
+        -1.6,
+        2.6,
+        1.1
+      ],
+      "name": "dust motes in the rays",
+      "color": "#ffe4b4",
+      "height": 2.7,
+      "distance": 7,
+      "elevation": 1.1
+    },
+    {
+      "x": 0.5,
+      "id": "near_pines",
+      "box": [
+        -5.5,
+        -16,
+        5.5,
+        0.5
+      ],
+      "name": "near trunks",
+      "color": "#140e16",
+      "height": 14,
+      "distance": 4
+    }
+  ]
+}

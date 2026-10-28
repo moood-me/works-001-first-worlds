@@ -1,0 +1,309 @@
+{
+  "light": {
+    "haze": 0.22,
+    "tint": "#ff9a56",
+    "grain": 0.2,
+    "vignette": 0.38,
+    "hazeColor": "#eaa472",
+    "tintStrength": 0.14
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.18,
+    "prompts": [
+      {
+        "text": "still lake at sunset, slow ambient guitar swells, endless reverb, very calm",
+        "weight": 1
+      },
+      {
+        "text": "single sustained piano chords fading like the sun going down",
+        "weight": 0.5
+      },
+      {
+        "text": "soft warm analog pad, golden light, almost silent",
+        "weight": 0.5
+      },
+      {
+        "text": "bowed vibraphone, shimmering sustained tones, faintly uncanny",
+        "weight": 0.3
+      },
+      {
+        "text": "Brian Eno style ambient loops, gentle and airy, water and light",
+        "weight": 0
+      },
+      {
+        "text": "solo wooden flute, slow and meditative, over still water",
+        "weight": 0
+      },
+      {
+        "text": "distant church bell harmonics blending into a drone",
+        "weight": 0
+      },
+      {
+        "text": "Japanese koto, sparse plucks, contemplative evening",
+        "weight": 0
+      },
+      {
+        "text": "quiet post-rock guitar with a slow crescendo that never quite arrives",
+        "weight": 0
+      },
+      {
+        "text": "tape-warped lullaby melody, nostalgic summer evening",
+        "weight": 0
+      },
+      {
+        "text": "soft hang drum patterns, gentle and round",
+        "weight": 0
+      },
+      {
+        "text": "choir pad singing 'ah', very soft and distant, like the sky",
+        "weight": 0
+      },
+      {
+        "text": "acoustic bass harmonics, slow and deep, like the lake floor",
+        "weight": 0
+      },
+      {
+        "text": "glass harmonica tones, eerie and delicate, a secret kept in a box",
+        "weight": 0
+      },
+      {
+        "text": "Russian folk lullaby hummed by a cello, slow, fairy-tale mystery",
+        "weight": 0
+      },
+      {
+        "text": "field-recording ambience: still water, reeds, a far bird, blended into music",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi piano with vinyl crackle, a quiet memory",
+        "weight": 0
+      },
+      {
+        "text": "early morning mist, soft celesta and string harmonics, cool and pale",
+        "weight": 0
+      },
+      {
+        "text": "orchestral strings swell like the last warm light, cinematic",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.5
+  },
+  "state": {
+    "rings": 0.12,
+    "sunset": 0.12,
+    "boxGlow": 0,
+    "boxOpen": 0,
+    "morning": 0,
+    "shedDoor": 0,
+    "shedRise": 0,
+    "benchWalk": 0,
+    "shedLight": 0,
+    "waterGlow": 0,
+    "benchShift": 0,
+    "footprints": 0
+  },
+  "title": "Quiet Shore",
+  "camera": {
+    "area": [
+      -9,
+      12,
+      0,
+      10
+    ],
+    "mode": "walk"
+  },
+  "caption": "A sandy shore, a motionless lake and a dark box right by the water.",
+  "horizon": 0.52,
+  "objects": [
+    {
+      "id": "ec5e3fd7b",
+      "sky": true,
+      "name": "sunset sky and sun",
+      "color": "#ffb35c"
+    },
+    {
+      "x": 0.3,
+      "id": "ed43c18ee",
+      "box": [
+        -1760,
+        -190,
+        1760,
+        4
+      ],
+      "name": "far hills in the haze",
+      "color": "#8e5a68",
+      "height": 160,
+      "distance": 1800
+    },
+    {
+      "x": 0.57,
+      "id": "eab4abb65",
+      "box": [
+        -960,
+        -44,
+        960,
+        130
+      ],
+      "name": "forest on the far shore and its reflection",
+      "color": "#221a28",
+      "height": 36,
+      "distance": 600
+    },
+    {
+      "x": 0.57,
+      "id": "ee007bd43",
+      "box": [
+        -75,
+        -1,
+        75,
+        92
+      ],
+      "name": "lake and the sun path",
+      "color": "#c0705a",
+      "height": 42,
+      "distance": 45
+    },
+    {
+      "id": "shore",
+      "name": "sandy shore",
+      "color": "#96664f",
+      "depth": 40,
+      "plane": true,
+      "width": 120,
+      "across": 0,
+      "distance": 14,
+      "elevation": 0
+    },
+    {
+      "id": "rings",
+      "name": "rings and glow on the water",
+      "color": "#ffd6ac",
+      "depth": 10,
+      "plane": true,
+      "width": 16,
+      "across": -0.6,
+      "distance": 12,
+      "elevation": 0.005
+    },
+    {
+      "id": "box",
+      "box": [
+        -1.7,
+        -1.8,
+        1.7,
+        1.15
+      ],
+      "name": "dark box on the sand",
+      "color": "#1e151b",
+      "across": -0.6,
+      "height": 0.32,
+      "flicker": 0.08,
+      "distance": 8.4
+    },
+    {
+      "id": "shed",
+      "box": [
+        -3.2,
+        -6.9,
+        8,
+        3.3
+      ],
+      "name": "old plank shed",
+      "color": "#2c2026",
+      "across": 5.5,
+      "height": 3.1,
+      "flicker": 0.15,
+      "distance": 13.5
+    },
+    {
+      "id": "bench",
+      "box": [
+        -16,
+        -1.8,
+        6,
+        1.75
+      ],
+      "name": "bench by the water",
+      "color": "#2e2226",
+      "across": -3.2,
+      "height": 0.9,
+      "distance": 6.2
+    },
+    {
+      "id": "e2aecef0e",
+      "box": [
+        -1.3,
+        -1.7,
+        1.5,
+        1.7
+      ],
+      "name": "sparse reeds in the water",
+      "color": "#1a1218",
+      "across": -6.8,
+      "height": 1.4,
+      "distance": 8.6
+    },
+    {
+      "id": "reeds2",
+      "box": [
+        -1.3,
+        -1.5,
+        1.5,
+        1.5
+      ],
+      "name": "reeds behind the shed",
+      "color": "#1a1218",
+      "across": 12.5,
+      "height": 1.2,
+      "distance": 19.5
+    },
+    {
+      "id": "tuft",
+      "box": [
+        -1,
+        -0.9,
+        1,
+        0.2
+      ],
+      "name": "tuft of shore grass",
+      "color": "#1e161a",
+      "across": -2.4,
+      "height": 0.7,
+      "distance": 3.4
+    },
+    {
+      "x": 0.52,
+      "id": "e69c6116b",
+      "box": [
+        -2.6,
+        -1.6,
+        2.6,
+        1.1
+      ],
+      "name": "dust motes in the sunset light",
+      "color": "#ffe4b4",
+      "height": 2.7,
+      "distance": 6.5,
+      "elevation": 1.1
+    }
+  ],
+  "directions": [
+    {
+      "key": "morning",
+      "name": "Morning comes",
+      "excludes": []
+    },
+    {
+      "key": "benchWalk",
+      "name": "The bench grows legs and walks off along the shore",
+      "excludes": []
+    },
+    {
+      "key": "shedRise",
+      "name": "The shed stands up on chicken legs",
+      "excludes": []
+    }
+  ]
+}
