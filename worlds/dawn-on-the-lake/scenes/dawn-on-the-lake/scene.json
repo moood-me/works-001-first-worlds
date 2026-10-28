@@ -1,0 +1,134 @@
+{
+  "light": {
+    "haze": 0.55,
+    "grain": 0.35,
+    "vignette": 0.45,
+    "hazeColor": "#c9b8b4"
+  },
+  "title": "Dawn on the Lake",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "The mist hasn't yet made up its mind whether to leave.",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Sky and lake"
+    },
+    {
+      "id": "ripples",
+      "sky": true,
+      "name": "Ripples"
+    },
+    {
+      "x": 0.42,
+      "id": "mountains",
+      "box": [
+        -14000,
+        -560,
+        14000,
+        10
+      ],
+      "name": "Mountains",
+      "height": 520,
+      "reflect": true,
+      "distance": 4000
+    },
+    {
+      "x": 0.5,
+      "id": "shore",
+      "box": [
+        -2600,
+        -32,
+        2600,
+        2
+      ],
+      "name": "Far shore",
+      "height": 24,
+      "reflect": true,
+      "distance": 700
+    },
+    {
+      "x": 0.5,
+      "id": "mist",
+      "box": [
+        -700,
+        -9,
+        700,
+        3
+      ],
+      "name": "Mist",
+      "height": 6,
+      "distance": 160
+    },
+    {
+      "x": 0.6,
+      "id": "fisher",
+      "box": [
+        -3.2,
+        -2.4,
+        4.6,
+        0.4
+      ],
+      "name": "Fisherman in a boat",
+      "height": 1.8,
+      "period": 8,
+      "reflect": true,
+      "distance": 30
+    },
+    {
+      "x": 0.09,
+      "id": "reeds-left",
+      "box": [
+        -1.2,
+        -2.3,
+        1.0,
+        0.1
+      ],
+      "name": "Reeds",
+      "height": 2.1,
+      "distance": 2.6
+    },
+    {
+      "x": 0.95,
+      "id": "reeds-right",
+      "box": [
+        -1.0,
+        -1.8,
+        1.4,
+        0.1
+      ],
+      "name": "Reeds",
+      "height": 1.6,
+      "distance": 3.4
+    },
+    {
+      "x": 0.08,
+      "id": "branch",
+      "box": [
+        -1.4,
+        -0.4,
+        1.3,
+        0.95
+      ],
+      "name": "Willow branch",
+      "height": 0.9,
+      "distance": 2.4,
+      "elevation": 2.6
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 9,
+      "text": "The fisherman has been sitting here since four. Not a single bite yet."
+    },
+    {
+      "at": 14,
+      "for": 9,
+      "text": "He says he doesn't come for the fish."
+    }
+  ]
+}
