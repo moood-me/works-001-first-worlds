@@ -1,0 +1,191 @@
+{
+  "light": {
+    "haze": 0.15,
+    "tint": "#7080b8",
+    "grain": 0.22,
+    "vignette": 0.55,
+    "hazeColor": "#2a3060",
+    "tintStrength": 0.1
+  },
+  "music": {
+    "bpm": 66,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "Solo upright piano, soft felt hammers, intimate close-miked, slow late-evening jazz ballad",
+        "weight": 0.9
+      },
+      {
+        "text": "Ambient drone with distant city hum and soft evolving pads",
+        "weight": 0.8
+      },
+      {
+        "text": "Spacious Nordic jazz, ECM style, double bass and piano, lots of silence",
+        "weight": 0.7
+      },
+      {
+        "text": "Gentle neo-classical piano, sparse notes, long sustain pedal, calm and tender",
+        "weight": 0.5
+      },
+      {
+        "text": "Lo-fi jazz piano with warm vinyl crackle, brushed snare, mellow upright bass",
+        "weight": 0.2
+      },
+      {
+        "text": "Dreamy retro 80s synth pads, night city glow",
+        "weight": 0.2
+      }
+    ],
+    "brightness": 0.35
+  },
+  "state": {
+    "dusk": 0.15,
+    "wind": 0.4,
+    "cityGlow": 0.6,
+    "roofDoorOpen": 0,
+    "someoneWaiting": 0
+  },
+  "title": "The Roof",
+  "camera": {
+    "mode": "diorama"
+  },
+  "caption": "Blue hour, wind in the sheets and lights below.",
+  "horizon": 0.45,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Blue-hour sky"
+    },
+    {
+      "x": 0.5,
+      "id": "city",
+      "box": [
+        -800,
+        -130,
+        800,
+        45
+      ],
+      "name": "City below",
+      "height": 60,
+      "distance": 320,
+      "elevation": -18
+    },
+    {
+      "x": 0.5,
+      "id": "citylights",
+      "box": [
+        -800,
+        -130,
+        800,
+        45
+      ],
+      "name": "Lights on the rooftops and the streets",
+      "height": 60,
+      "distance": 318,
+      "elevation": -18
+    },
+    {
+      "x": 0.5,
+      "id": "roof",
+      "name": "The Roof",
+      "color": "#23243a",
+      "depth": 9,
+      "plane": true,
+      "width": 26,
+      "distance": 4.5
+    },
+    {
+      "x": 0.88,
+      "id": "cables",
+      "box": [
+        -42,
+        -9,
+        4,
+        0.3
+      ],
+      "name": "Aerial and wires",
+      "height": 5.6,
+      "distance": 10.5
+    },
+    {
+      "x": 0.5,
+      "id": "parapet",
+      "box": [
+        -16,
+        -1.2,
+        16,
+        0.2
+      ],
+      "name": "Low parapet",
+      "height": 1,
+      "distance": 8.4
+    },
+    {
+      "x": 0.705,
+      "id": "mug",
+      "box": [
+        -0.2,
+        -0.75,
+        0.6,
+        0.05
+      ],
+      "name": "Mug on the parapet",
+      "height": 0.12,
+      "distance": 8.3,
+      "elevation": 0.99
+    },
+    {
+      "x": 0.64,
+      "id": "waiting",
+      "box": [
+        -0.5,
+        -1.5,
+        0.8,
+        0.1
+      ],
+      "name": "The one who waits",
+      "height": 1.3,
+      "distance": 7.32
+    },
+    {
+      "x": 0.64,
+      "id": "chair",
+      "box": [
+        -0.4,
+        -1,
+        0.4,
+        0.08
+      ],
+      "name": "Metal chair",
+      "height": 0.9,
+      "distance": 7.2
+    },
+    {
+      "x": 0.36,
+      "id": "laundry",
+      "box": [
+        -2.7,
+        -2.4,
+        3.2,
+        0.1
+      ],
+      "name": "Washing on the line",
+      "height": 2.2,
+      "distance": 5.6
+    },
+    {
+      "x": 0.12,
+      "id": "stairhouse",
+      "box": [
+        -1.6,
+        -3.1,
+        1.8,
+        1.4
+      ],
+      "name": "Stairway hut with a door",
+      "height": 2.6,
+      "distance": 4.6
+    }
+  ]
+}

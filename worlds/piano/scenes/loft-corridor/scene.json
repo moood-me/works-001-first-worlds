@@ -1,0 +1,182 @@
+{
+  "light": {
+    "haze": 0.06,
+    "tint": "#ffb070",
+    "grain": 0.25,
+    "vignette": 0.62,
+    "hazeColor": "#2a2026",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 72,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "Solo upright piano heard through a closed door, muffled, distant, slow late-evening jazz ballad",
+        "weight": 1.2
+      },
+      {
+        "text": "Ambient piano with long reverb tails and quiet apartment field recordings",
+        "weight": 0.8
+      },
+      {
+        "text": "Gentle neo-classical piano, sparse notes, long sustain pedal, calm and tender",
+        "weight": 0.5
+      },
+      {
+        "text": "Lo-fi jazz piano with warm vinyl crackle, brushed snare, mellow upright bass",
+        "weight": 0.3
+      },
+      {
+        "text": "Spacious Nordic jazz, ECM style, double bass and piano, lots of silence",
+        "weight": 0
+      },
+      {
+        "text": "Minimal Satie-like gymnopedie, slow waltz on a slightly detuned piano",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "steam": 0.8,
+    "doorOpen": 0.12,
+    "cupInHand": 0,
+    "sconceLit": 1,
+    "loftLights": 1,
+    "catFollowing": 0,
+    "caretakerHere": 1
+  },
+  "title": "Corridor by the Loft Door",
+  "camera": {
+    "mode": "diorama"
+  },
+  "caption": "Brick, old wood and a single sconce for the whole corridor.",
+  "horizon": 0.4,
+  "objects": [
+    {
+      "x": 0.5,
+      "id": "stairwell",
+      "box": [
+        -7.2,
+        -4.2,
+        -2.4,
+        1.5
+      ],
+      "name": "Stairwell",
+      "height": 4,
+      "distance": 7
+    },
+    {
+      "x": 0.5,
+      "id": "wall",
+      "box": [
+        -9,
+        -7,
+        9,
+        0.3
+      ],
+      "name": "Brick wall of the corridor",
+      "height": 3,
+      "distance": 4
+    },
+    {
+      "x": 0.5,
+      "id": "ceiling",
+      "name": "Beamed ceiling",
+      "depth": 2.5,
+      "plane": true,
+      "width": 20,
+      "distance": 2.75,
+      "elevation": 3
+    },
+    {
+      "x": 0.5,
+      "id": "floor",
+      "name": "Plank floor with a runner",
+      "depth": 2.5,
+      "plane": true,
+      "width": 20,
+      "distance": 2.75
+    },
+    {
+      "x": 0.5,
+      "id": "door",
+      "box": [
+        0.3,
+        -2.4,
+        1.7,
+        0.05
+      ],
+      "name": "Loft door",
+      "height": 2.3,
+      "distance": 3.98
+    },
+    {
+      "x": 0.5,
+      "id": "sconce",
+      "box": [
+        -0.8,
+        -2.6,
+        0,
+        -1.5
+      ],
+      "name": "Wall sconce",
+      "height": 0.4,
+      "flicker": 0.08,
+      "distance": 3.95
+    },
+    {
+      "x": 0.5,
+      "id": "motes",
+      "box": [
+        -2,
+        -3,
+        1.4,
+        0.1
+      ],
+      "name": "Dust motes by the sconce",
+      "height": 2.6,
+      "distance": 3.6
+    },
+    {
+      "x": 0.5,
+      "id": "cup",
+      "box": [
+        0.15,
+        -0.5,
+        0.5,
+        0.05
+      ],
+      "name": "Cup at the threshold",
+      "height": 0.1,
+      "distance": 3.85
+    },
+    {
+      "x": 0.5,
+      "id": "caretaker",
+      "box": [
+        -5,
+        -1.95,
+        0.8,
+        0.15
+      ],
+      "name": "Caretaker",
+      "height": 1.75,
+      "distance": 3.3
+    },
+    {
+      "x": 0.5,
+      "id": "cat",
+      "box": [
+        -5,
+        -0.6,
+        1.3,
+        0.1
+      ],
+      "name": "Cat",
+      "height": 0.45,
+      "distance": 3.2
+    }
+  ]
+}
