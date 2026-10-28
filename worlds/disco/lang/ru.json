@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Disco","translation":"Дискотека","where":"world.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"Огни сверкают, музыка не умолкает","where":"world.json description"}
+]}

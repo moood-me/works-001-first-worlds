@@ -1,0 +1,372 @@
+{
+  "light": {
+    "haze": 0.22,
+    "tint": "#ff2fd6",
+    "grain": 0.12,
+    "vignette": 0.4,
+    "hazeColor": "#7a2a86",
+    "tintStrength": 0.18
+  },
+  "music": {
+    "bpm": 118,
+    "density": 0.75,
+    "prompts": [
+      {
+        "text": "joyful disco, four-on-the-floor, funky bass, shimmering strings, glitter ball",
+        "weight": 1
+      },
+      {
+        "text": "nu-disco with bright synth stabs and handclaps, open-air dance floor at night",
+        "weight": 0.7
+      },
+      {
+        "text": "funky rhythm guitar chicks and a slap bass groove",
+        "weight": 0.4
+      },
+      {
+        "text": "Italo disco arpeggiated synths, retro and dreamy",
+        "weight": 0
+      },
+      {
+        "text": "French house filter sweeps, warm and bouncy",
+        "weight": 0
+      },
+      {
+        "text": "70s soul horn section, celebratory riffs",
+        "weight": 0
+      },
+      {
+        "text": "roller-disco boogie with talkbox-like synth lead",
+        "weight": 0
+      },
+      {
+        "text": "tropical house marimba and steel drums, sunny and light",
+        "weight": 0
+      },
+      {
+        "text": "city pop groove, glossy chords, playful bass",
+        "weight": 0
+      },
+      {
+        "text": "deep house piano chords, late-night warmth",
+        "weight": 0
+      },
+      {
+        "text": "funky clavinet and wah guitar, party energy",
+        "weight": 0
+      },
+      {
+        "text": "synthwave pads and gated drums, neon night",
+        "weight": 0
+      },
+      {
+        "text": "Afro-disco percussion, congas and shakers, dancing in a circle",
+        "weight": 0
+      },
+      {
+        "text": "string disco break, soaring violins, pure joy",
+        "weight": 0
+      },
+      {
+        "text": "electro swing with brass and a bouncy beat",
+        "weight": 0
+      },
+      {
+        "text": "dreamy balearic groove, soft and sunny, cool-down",
+        "weight": 0
+      },
+      {
+        "text": "chiptune disco, playful 8-bit bleeps over a dance beat",
+        "weight": 0
+      },
+      {
+        "text": "gospel-house piano and claps, uplifting, everyone joins in",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.75
+  },
+  "title": "Disco",
+  "caption": "The lights sparkle, the music never stops",
+  "horizon": 0.6,
+  "objects": [
+    {
+      "id": "e85a05a25",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "e25d1c2a9",
+      "sky": true,
+      "name": "Stars"
+    },
+    {
+      "id": "ea6955f98",
+      "sky": true,
+      "name": "Pink clouds"
+    },
+    {
+      "id": "ee9cdf415",
+      "sky": true,
+      "name": "Moon",
+      "color": "#f2f2ff"
+    },
+    {
+      "id": "edee3506a",
+      "sky": true,
+      "name": "Mint planet",
+      "color": "#7cffda"
+    },
+    {
+      "x": 0.5,
+      "y": 0.603,
+      "id": "e32d0fe06",
+      "box": [
+        -800,
+        -110,
+        800,
+        6
+      ],
+      "name": "Distant mountains",
+      "color": "#3a1f5d",
+      "height": 70
+    },
+    {
+      "x": 0.5,
+      "y": 0.608,
+      "id": "e86eeabe7",
+      "box": [
+        -430,
+        -100,
+        430,
+        4
+      ],
+      "name": "City in lights",
+      "color": "#2a1140",
+      "height": 60,
+      "flicker": 0.25
+    },
+    {
+      "x": 0.5,
+      "y": 0.7,
+      "id": "ebd603d9e",
+      "box": [
+        -70,
+        -2,
+        70,
+        10
+      ],
+      "name": "Square",
+      "color": "#1c0a2e",
+      "height": 1
+    },
+    {
+      "x": 0.5,
+      "y": 0.72,
+      "id": "e06948719",
+      "box": [
+        -15,
+        -12,
+        15,
+        0
+      ],
+      "name": "Sparkles in the air",
+      "color": "#ffe07a",
+      "height": 10
+    },
+    {
+      "x": 0.5,
+      "y": 0.75,
+      "id": "e1cac7e57",
+      "box": [
+        -40,
+        -2,
+        40,
+        8
+      ],
+      "name": "Dance floor",
+      "color": "#170a26",
+      "height": 1
+    },
+    {
+      "x": 0.5,
+      "y": 0.765,
+      "id": "e075cd084",
+      "box": [
+        -9,
+        -9.5,
+        9,
+        0.4
+      ],
+      "name": "Disco tower",
+      "color": "#140a22",
+      "height": 5
+    },
+    {
+      "x": 0.32,
+      "y": 0.78,
+      "id": "e9655c445",
+      "box": [
+        -25,
+        -48,
+        25,
+        0.4
+      ],
+      "name": "Blue spotlight",
+      "color": "#140a22",
+      "height": 2.5
+    },
+    {
+      "x": 0.68,
+      "y": 0.78,
+      "id": "e3972d8e4",
+      "box": [
+        -25,
+        -48,
+        25,
+        0.4
+      ],
+      "name": "Yellow spotlight",
+      "color": "#140a22",
+      "height": 2.6
+    },
+    {
+      "x": 0.21,
+      "y": 0.8,
+      "id": "e2bc948c8",
+      "box": [
+        -1,
+        -9.5,
+        1,
+        1
+      ],
+      "name": "Pink lantern",
+      "sway": 2.5,
+      "color": "#ff2fd6",
+      "height": 0.4,
+      "flicker": 0.2,
+      "elevation": 2.35
+    },
+    {
+      "x": 0.615,
+      "y": 0.8,
+      "id": "e77cfbf4a",
+      "box": [
+        -1,
+        -9.5,
+        1,
+        1.2
+      ],
+      "name": "Yellow star lantern",
+      "sway": 1.8,
+      "color": "#fff23d",
+      "height": 0.6,
+      "flicker": 0.15,
+      "elevation": 3.1
+    },
+    {
+      "x": 0.79,
+      "y": 0.8,
+      "id": "e3291d53b",
+      "box": [
+        -1,
+        -9.5,
+        1,
+        1.2
+      ],
+      "name": "Blue lantern",
+      "sway": 2.2,
+      "color": "#29e0ff",
+      "height": 0.6,
+      "flicker": 0.2,
+      "elevation": 2.45
+    },
+    {
+      "x": 0.25,
+      "y": 0.86,
+      "id": "ec9bc93e3",
+      "box": [
+        -0.9,
+        -2.3,
+        0.9,
+        0.15
+      ],
+      "name": "Dancer with raised arms",
+      "color": "#170b26",
+      "height": 1.8
+    },
+    {
+      "x": 0.42,
+      "y": 0.885,
+      "id": "e62763500",
+      "box": [
+        -0.9,
+        -2.1,
+        0.9,
+        0.15
+      ],
+      "name": "Girl in a dress",
+      "color": "#170b26",
+      "height": 1.7
+    },
+    {
+      "x": 0.6,
+      "y": 0.88,
+      "id": "e6fcb3e12",
+      "box": [
+        -0.9,
+        -2.3,
+        0.9,
+        0.15
+      ],
+      "name": "Jumper",
+      "color": "#170b26",
+      "height": 1.75
+    },
+    {
+      "x": 0.78,
+      "y": 0.85,
+      "id": "e66b3de8d",
+      "box": [
+        -0.9,
+        -2.3,
+        0.9,
+        0.15
+      ],
+      "name": "Guy in a cap",
+      "color": "#170b26",
+      "height": 1.8
+    },
+    {
+      "x": 0.5,
+      "y": 0.9,
+      "id": "ea091c14e",
+      "box": [
+        -6.5,
+        -8,
+        6.5,
+        0.3
+      ],
+      "name": "Confetti",
+      "color": "#ff4fd8",
+      "height": 7
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "The ball above the stage scatters sparkles on every shoulder"
+    },
+    {
+      "at": 12,
+      "for": 7,
+      "text": "Someone has found the nerve to step into the circle for the first time"
+    },
+    {
+      "at": 21,
+      "for": 8,
+      "text": "The yellow spotlight is looking for someone else to call over"
+    }
+  ]
+}
