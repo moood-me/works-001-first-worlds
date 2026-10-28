@@ -1,0 +1,331 @@
+{
+  "light": {
+    "haze": 0.04,
+    "tint": "#d4ecdc",
+    "grain": 0.22,
+    "vignette": 0.5,
+    "hazeColor": "#e2ece6",
+    "tintStrength": 0.16
+  },
+  "music": {
+    "bpm": 76,
+    "density": 0.3,
+    "prompts": [
+      {
+        "text": "Sterile clinical ambient, soft sine pads, faint fluorescent hum, sparse and cold",
+        "weight": 1.2
+      },
+      {
+        "text": "Minimalist ticking clock rhythm with muted pizzicato strings, tense waiting room",
+        "weight": 1
+      },
+      {
+        "text": "Polite elevator bossa nova on a slightly detuned electric piano, too cheerful for the room",
+        "weight": 0.7
+      },
+      {
+        "text": "Music box melody played slowly, one note slightly off, unsettling lullaby",
+        "weight": 0.5
+      },
+      {
+        "text": "Cool vibraphone and brushed snare lounge jazz, sly and knowing",
+        "weight": 0.4
+      },
+      {
+        "text": "Dry analog synth arpeggio in a minor key, 1980s psychological thriller score",
+        "weight": 0
+      },
+      {
+        "text": "Breathy glass harmonica drones, eerie calm",
+        "weight": 0
+      },
+      {
+        "text": "Hospital waiting room muzak with soft flute and nylon guitar",
+        "weight": 0
+      },
+      {
+        "text": "Restrained Bernard Herrmann style string stabs, suspense held in check",
+        "weight": 0
+      },
+      {
+        "text": "Lo-fi tape-warped piano, clinical and detached",
+        "weight": 0
+      },
+      {
+        "text": "Satie-like gymnopedie on an out-of-tune upright piano",
+        "weight": 0
+      },
+      {
+        "text": "Deep sub bass pulse like a slow heartbeat under soft white noise",
+        "weight": 0
+      },
+      {
+        "text": "Plucked harp arpeggios, too perfect, sweetly sinister",
+        "weight": 0
+      },
+      {
+        "text": "Rigid baroque harpsichord minuet, precise and cold",
+        "weight": 0
+      },
+      {
+        "text": "Granular textures of rustling paper and scratching pen, minimal clicks",
+        "weight": 0
+      },
+      {
+        "text": "Ironic corporate motivational ukulele and soft claps",
+        "weight": 0
+      },
+      {
+        "text": "Cold Scandinavian electronic minimalism, crisp clicks and glassy tones",
+        "weight": 0
+      },
+      {
+        "text": "Theremin melody over a soft organ, retro sci-fi bedside manner",
+        "weight": 0
+      },
+      {
+        "text": "Muted trumpet noir ballad, smoky and knowing",
+        "weight": 0
+      },
+      {
+        "text": "Wordless dark choral pad with long cathedral reverb",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.5
+  },
+  "state": {
+    "lamp": 0.5,
+    "lean": 0,
+    "tilt": 0,
+    "notes": 4,
+    "smile": 0.6,
+    "flicker": 0.25,
+    "minutes": 0,
+    "writing": false,
+    "recording": true,
+    "doorLocked": true
+  },
+  "title": "Dr Strogova's Office",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Make yourself comfortable. As far as that's possible.",
+  "horizon": 0.4,
+  "objects": [
+    {
+      "id": "bg",
+      "sky": true,
+      "name": "Background"
+    },
+    {
+      "id": "ceiling",
+      "name": "Ceiling",
+      "color": "#dfe6e1",
+      "depth": 4.5,
+      "plane": true,
+      "width": 14,
+      "across": 0,
+      "distance": 2.75,
+      "elevation": 2.9
+    },
+    {
+      "id": "wall",
+      "box": [
+        -7,
+        -3,
+        7,
+        0.02
+      ],
+      "name": "Wall",
+      "color": "#e3eae5",
+      "across": 0,
+      "height": 3,
+      "distance": 5
+    },
+    {
+      "id": "floor",
+      "name": "Floor",
+      "color": "#bccbc2",
+      "depth": 5,
+      "plane": true,
+      "width": 14,
+      "across": 0,
+      "distance": 3,
+      "elevation": 0
+    },
+    {
+      "id": "plantL",
+      "box": [
+        -0.25,
+        -1,
+        0.25,
+        0.05
+      ],
+      "name": "Snake plant",
+      "color": "#4d6b5b",
+      "across": -1.45,
+      "height": 0.95,
+      "distance": 4.85
+    },
+    {
+      "id": "plantR",
+      "box": [
+        -0.25,
+        -1,
+        0.25,
+        0.05
+      ],
+      "name": "Snake plant (the same one)",
+      "color": "#4d6b5b",
+      "across": 1.45,
+      "height": 0.95,
+      "distance": 4.85
+    },
+    {
+      "id": "chairL",
+      "box": [
+        -0.5,
+        -0.9,
+        0.5,
+        0.06
+      ],
+      "name": "Armchair",
+      "color": "#8aa899",
+      "across": -2.3,
+      "height": 0.88,
+      "distance": 4.4
+    },
+    {
+      "id": "chairR",
+      "box": [
+        -0.5,
+        -0.9,
+        0.5,
+        0.06
+      ],
+      "name": "Armchair (the same one)",
+      "color": "#8aa899",
+      "across": 2.3,
+      "height": 0.88,
+      "distance": 4.4
+    },
+    {
+      "id": "doctor",
+      "box": [
+        -0.4,
+        -1.45,
+        0.4,
+        0.05
+      ],
+      "name": "Doctor Strogova",
+      "color": "#f4f7f5",
+      "across": 0,
+      "height": 1.4,
+      "distance": 2.6
+    },
+    {
+      "id": "hands",
+      "box": [
+        -0.4,
+        -0.26,
+        0.4,
+        0.04
+      ],
+      "name": "The doctor's hands",
+      "color": "#e2d6ca",
+      "across": 0,
+      "height": 0.25,
+      "distance": 2.25,
+      "elevation": 0.76
+    },
+    {
+      "id": "desk",
+      "name": "Desk",
+      "color": "#e6ebe8",
+      "depth": 0.85,
+      "plane": true,
+      "width": 1.8,
+      "across": 0,
+      "distance": 2.3,
+      "elevation": 0.76
+    },
+    {
+      "id": "deskfront",
+      "box": [
+        -0.93,
+        -0.78,
+        0.93,
+        0.03
+      ],
+      "name": "Front of the desk",
+      "color": "#c3cfc8",
+      "across": 0,
+      "height": 0.76,
+      "distance": 1.875
+    },
+    {
+      "id": "tissues",
+      "box": [
+        -0.13,
+        -0.18,
+        0.13,
+        0.01
+      ],
+      "name": "Tissues",
+      "color": "#e1e9e4",
+      "across": -0.76,
+      "height": 0.17,
+      "distance": 2.15,
+      "elevation": 0.76
+    },
+    {
+      "id": "nameplate",
+      "box": [
+        -0.2,
+        -0.09,
+        0.2,
+        0.01
+      ],
+      "name": "Nameplate",
+      "color": "#2f3d38",
+      "across": -0.55,
+      "height": 0.09,
+      "distance": 1.93,
+      "elevation": 0.76
+    },
+    {
+      "id": "lamp",
+      "box": [
+        -0.25,
+        -0.52,
+        0.2,
+        0.02
+      ],
+      "name": "Lamp",
+      "color": "#3c4944",
+      "across": 0.72,
+      "height": 0.5,
+      "flicker": 0.04,
+      "distance": 2.28,
+      "elevation": 0.76
+    }
+  ],
+  "captions": [
+    {
+      "at": 2,
+      "for": 7,
+      "text": "Sit down. The armchair is exactly where it should be."
+    },
+    {
+      "at": 13,
+      "for": 7,
+      "text": "Your file is already open. It's thicker than you thought."
+    },
+    {
+      "at": 26,
+      "for": 7,
+      "text": "Tissues: one at a time. That is part of the therapy too."
+    }
+  ]
+}
