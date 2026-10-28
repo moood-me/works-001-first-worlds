@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"Край моста","where":"world.json title"},
+  {"text":"An old stone bridge breaks off above a sea of clouds. Every evening a keeper sits at the very edge with a lantern and shines it into the void, in case someone on the floating island opposite answers.","translation":"Старый каменный мост обрывается над морем облаков. На самом краю каждый вечер сидит хранительница с фонарём и светит в пустоту, вдруг с парящего острова напротив кто-нибудь ответит.","where":"world.json description"}
+]}

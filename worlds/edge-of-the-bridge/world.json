@@ -1,0 +1,9 @@
+{
+  "title": "The Edge of the Bridge",
+  "description": "An old stone bridge breaks off above a sea of clouds. Every evening a keeper sits at the very edge with a lantern and shines it into the void, in case someone on the floating island opposite answers.",
+  "themes": {
+    "fantasy": 60,
+    "loneliness": 40
+  },
+  "main": "edge-of-the-bridge"
+}

@@ -1,0 +1,231 @@
+{
+  "light": {
+    "haze": 0.45,
+    "tint": "#7d7298",
+    "grain": 0.32,
+    "vignette": 0.6,
+    "hazeColor": "#8a7f98",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.25,
+    "prompts": [
+      {
+        "text": "solo celesta and soft music box, sparse notes drifting in a cold empty hall, slow and fragile",
+        "weight": 1.2
+      },
+      {
+        "text": "distant wordless choir pad, airy and far away, like wind over a chasm",
+        "weight": 0.9
+      },
+      {
+        "text": "slow bowed cello drone, low and lonely, long sustained notes with silence between",
+        "weight": 1
+      },
+      {
+        "text": "ambient fantasy soundscape, shimmering glass harmonics, misty, dusk",
+        "weight": 0.7
+      },
+      {
+        "text": "lone wooden flute playing a simple folk melody, reverb of mountains",
+        "weight": 0
+      },
+      {
+        "text": "harp arpeggios slowly falling, gentle and melancholic, minor key",
+        "weight": 0
+      },
+      {
+        "text": "warm analog synth pad swelling and fading like breathing",
+        "weight": 0
+      },
+      {
+        "text": "felt piano, single notes, intimate and close, soft pedal noise",
+        "weight": 0
+      },
+      {
+        "text": "tibetan singing bowl resonance, meditative, endless sustain",
+        "weight": 0
+      },
+      {
+        "text": "nordic hardanger fiddle, mournful slow air, old ballad",
+        "weight": 0
+      },
+      {
+        "text": "deep low brass chord far below, like a giant sleeping under clouds",
+        "weight": 0
+      },
+      {
+        "text": "dulcimer plucked softly, medieval lullaby, candlelit",
+        "weight": 0
+      },
+      {
+        "text": "granular ambient texture, frozen strings, very slow evolution",
+        "weight": 0
+      },
+      {
+        "text": "whale song inspired synth, low gliding tones in a vast sky",
+        "weight": 0
+      },
+      {
+        "text": "lyre and frame drum heartbeat, quiet ritual at night",
+        "weight": 0
+      },
+      {
+        "text": "music for a lighthouse keeper, minimal repetitive piano, patient waiting",
+        "weight": 0
+      },
+      {
+        "text": "dark fairytale strings, pizzicato and tremolo, hushed",
+        "weight": 0
+      },
+      {
+        "text": "glass armonica, eerie and tender, crystalline overtones",
+        "weight": 0
+      },
+      {
+        "text": "solo nyckelharpa, slow and resonant, Scandinavian dusk",
+        "weight": 0
+      },
+      {
+        "text": "cinematic ambient, wide stereo, soft tape hiss, nostalgic loneliness",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "state": {
+    "gaze": "down",
+    "night": 0.3,
+    "whale": false,
+    "answer": 0,
+    "keeper": "sit",
+    "whaleX": -0.25,
+    "lantern": 1
+  },
+  "title": "The Edge of the Bridge",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "She shines her light into the void, in case someone answers.",
+  "horizon": 0.58,
+  "objects": [
+    {
+      "id": "sky",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "stars",
+      "sky": true,
+      "name": "Stars"
+    },
+    {
+      "id": "moons",
+      "sky": true,
+      "name": "Two moons"
+    },
+    {
+      "id": "clouds",
+      "sky": true,
+      "name": "High clouds"
+    },
+    {
+      "id": "whale",
+      "sky": true,
+      "name": "Sky whale"
+    },
+    {
+      "id": "mistsea",
+      "sky": true,
+      "name": "Sea of clouds"
+    },
+    {
+      "x": 0.75,
+      "id": "island",
+      "bob": 1.5,
+      "box": [
+        -70,
+        -60,
+        70,
+        60
+      ],
+      "name": "The island opposite",
+      "height": 90,
+      "period": 40,
+      "distance": 700,
+      "elevation": 30
+    },
+    {
+      "id": "bridge",
+      "box": [
+        -85,
+        -3,
+        6,
+        40
+      ],
+      "name": "Broken bridge",
+      "across": -2.6,
+      "height": 10,
+      "distance": 18
+    },
+    {
+      "id": "keeper",
+      "box": [
+        -0.6,
+        -2.2,
+        1.2,
+        0.8
+      ],
+      "name": "Keeper",
+      "across": -2.9,
+      "height": 1,
+      "distance": 18
+    },
+    {
+      "id": "lantern",
+      "box": [
+        -0.4,
+        -2.4,
+        1.3,
+        0.2
+      ],
+      "name": "Lantern",
+      "across": -3.4,
+      "height": 0.4,
+      "flicker": 0.3,
+      "distance": 18
+    },
+    {
+      "x": 0.4,
+      "id": "mistnear",
+      "box": [
+        -70,
+        -8,
+        70,
+        10
+      ],
+      "name": "Mist around the piers",
+      "height": 6,
+      "distance": 30,
+      "elevation": -7
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "For three hundred years the bridge has broken off here."
+    },
+    {
+      "at": 12,
+      "for": 9,
+      "text": "Every evening she lights the lantern, in case someone is still left over there."
+    },
+    {
+      "at": 25,
+      "for": 7,
+      "text": "The mist below doesn't remember where the bridge once led."
+    }
+  ]
+}
