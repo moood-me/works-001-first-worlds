@@ -1,0 +1,42 @@
+const w = g.createLinearGradient(0, -0.36, 0, 0);
+w.addColorStop(0, "#7a4a28");
+w.addColorStop(1, "#4a2a16");
+g.fillStyle = w;
+g.beginPath();
+g.moveTo(-0.26, 0);
+g.lineTo(-0.26, -0.26);
+g.quadraticCurveTo(-0.26, -0.34, -0.18, -0.34);
+g.lineTo(0.18, -0.34);
+g.quadraticCurveTo(0.26, -0.34, 0.26, -0.26);
+g.lineTo(0.26, 0);
+g.fill();
+g.fillStyle = "#4a3522";
+g.fillRect(-0.22, -0.3, 0.44, 0.15);
+g.strokeStyle = "#1a110a";
+g.lineWidth = 0.012;
+g.beginPath();
+for (let j = 0; j < 11; j++) {
+  g.moveTo(-0.2 + j * 0.04, -0.29);
+  g.lineTo(-0.2 + j * 0.04, -0.16);
+}
+g.stroke();
+g.fillStyle = "rgba(210,180,110,0.35)";
+g.fillRect(-0.22, -0.12, 0.44, 0.045);
+g.strokeStyle = "#8a1a10";
+g.lineWidth = 0.006;
+g.beginPath();
+g.moveTo(-0.08, -0.12);
+g.lineTo(-0.08, -0.075);
+g.stroke();
+g.fillStyle = "#2e1c10";
+g.beginPath();
+g.arc(-0.17, -0.04, 0.02, 0, 7);
+g.fill();
+g.beginPath();
+g.arc(0.17, -0.04, 0.02, 0, 7);
+g.fill();
+// the magic eye, cold: the lamps haven't been on for years
+g.fillStyle = "#1f3a24";
+g.beginPath();
+g.arc(0, -0.04, 0.016, 0, 7);
+g.fill();

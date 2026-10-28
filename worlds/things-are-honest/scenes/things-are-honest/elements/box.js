@@ -1,0 +1,16 @@
+const t = g.createLinearGradient(0, -0.1, 0, 0);
+t.addColorStop(0, "#9a7a44");
+t.addColorStop(1, "#5a4020");
+g.fillStyle = t;
+g.fillRect(-0.12, -0.075, 0.24, 0.075);
+g.fillStyle = "#b08a4a";
+g.fillRect(-0.13, -0.1, 0.26, 0.03);
+g.fillStyle = "#e6c27a";
+g.fillRect(-0.13, -0.072, 0.26, 0.005);
+g.strokeStyle = "#e6c27a";
+g.lineWidth = 0.004;
+g.beginPath();
+g.ellipse(0, -0.04, 0.045, 0.02, 0, 0, 7);
+g.stroke();
+g.fillStyle = "rgba(255,255,255,0.35)";
+g.fillRect(-0.13, -0.1, 0.1, 0.008);
