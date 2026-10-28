@@ -1,0 +1,9 @@
+{
+  "title": "Twelve Lanterns",
+  "description": "A village shrine in the mountains, an hour after the summer matsuri. On the steps up to the torii the lanterns are still lit, and they go out one by one. With each one gone, a girl in a fox mask comes down one step.",
+  "themes": {
+    "anime": 60,
+    "horror": 40
+  },
+  "main": "twelve-lanterns"
+}
