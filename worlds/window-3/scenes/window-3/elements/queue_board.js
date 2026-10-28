@@ -1,0 +1,34 @@
+const s = e.state,
+  t = e.t,
+  open = s.window === "open";
+g.fillStyle = "#181b22";
+g.fillRect(-0.12, -3.4, 0.24, 3.4);
+g.fillRect(-0.55, -0.15, 1.1, 0.15);
+g.fillStyle = "#0b0d12";
+g.fillRect(-2.4, -6.7, 4.8, 3.3);
+g.strokeStyle = "#3b404c";
+g.lineWidth = 0.09;
+g.strokeRect(-2.4, -6.7, 4.8, 3.3);
+g.strokeStyle = "rgba(255,235,210,0.3)";
+g.beginPath();
+g.moveTo(2.45, -6.7);
+g.lineTo(2.45, -3.4);
+g.stroke();
+const pad = (n) => String(Math.round(n || 0)).padStart(4, "0");
+const fl = 0.85 + 0.1 * Math.sin(t * 13) * Math.sin(t * 0.7);
+g.textBaseline = "middle";
+g.font = "bold 0.36px monospace";
+g.textAlign = "left";
+g.fillStyle = "rgba(255,170,60,0.55)";
+g.fillText(tr('NOW SERVING'), -2.15, -6.35);
+g.fillText(tr('YOUR NUMBER'), -2.15, -4.85);
+g.font = "bold 0.85px monospace";
+g.textAlign = "right";
+const blink = open || Math.sin(t * 3) > 0;
+g.fillStyle = "rgba(255,180,70," + (blink ? fl : 0.15) + ")";
+g.fillText(open ? pad(s.now) : "----", 2.15, -5.6);
+g.fillStyle = "rgba(255,180,70," + fl + ")";
+g.fillText(pad(s.mine), 2.15, -4.05);
+g.fillStyle = "rgba(11,13,18,0.85)";
+g.fillRect(-2.3, -4.2, 4.6, 0.07);
+e.light(0, -5, 3, "#ffa040", 0.3);
