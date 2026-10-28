@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Колодец шёпотов","where":"scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"Колодец помнит каждое слово, сказанное над ним.","where":"scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"Сто лет колодец стоял заколоченным. Этой ночью из щелей сочится свет.","where":"scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"Говорят, он отвечает — но только тем, кто спрашивает шёпотом.","where":"scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"Крышка колодца откинута — изнутри поднимается холодный свет.","where":"scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"Крышка колодца снова легла на место, свет ушёл в щели.","where":"scenes/well-of-whispers/script.js"}
+]}

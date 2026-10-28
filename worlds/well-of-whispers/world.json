@@ -1,0 +1,9 @@
+{
+  "title": "The Well of Whispers",
+  "description": "A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.",
+  "themes": {
+    "mystery": 40,
+    "fantasy": 60
+  },
+  "main": "well-of-whispers"
+}
