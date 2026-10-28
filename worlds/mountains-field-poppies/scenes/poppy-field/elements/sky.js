@@ -1,0 +1,38 @@
+var A = e.aspect;
+var gr = g.createLinearGradient(0, -0.35, 0, 1.25);
+gr.addColorStop(0, "#46638c");
+gr.addColorStop(0.2, "#6f8db4");
+gr.addColorStop(0.42, "#b4c5d8");
+gr.addColorStop(0.52, "#e6d6cf");
+gr.addColorStop(0.58, "#f4dcc6");
+gr.addColorStop(0.7, "#e6d4c8");
+gr.addColorStop(1, "#d8ccc8");
+g.fillStyle = gr;
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
+var r = g.createRadialGradient(-0.1 * A, 0.6, 0, -0.1 * A, 0.6, 1.2);
+r.addColorStop(0, "rgba(255,212,165,0.75)");
+r.addColorStop(0.35, "rgba(255,205,170,0.3)");
+r.addColorStop(1, "rgba(255,205,170,0)");
+g.fillStyle = r;
+g.fillRect(-0.35, -0.4, A + 0.7, 1.7);
+var b = g.createLinearGradient(0, 0.38, 0, 0.58);
+b.addColorStop(0, "rgba(226,186,200,0)");
+b.addColorStop(0.6, "rgba(226,186,200,0.35)");
+b.addColorStop(1, "rgba(226,186,200,0)");
+g.fillStyle = b;
+g.fillRect(-0.35, 0.38, A + 0.7, 0.2);
+var mx = 0.8 * A,
+  my = 0.13,
+  mr = 0.016;
+var mg = g.createRadialGradient(mx, my, 0, mx, my, mr * 4);
+mg.addColorStop(0, "rgba(240,244,250,0.18)");
+mg.addColorStop(1, "rgba(240,244,250,0)");
+g.fillStyle = mg;
+g.fillRect(mx - mr * 4, my - mr * 4, mr * 8, mr * 8);
+g.globalAlpha = 0.7;
+g.fillStyle = "#f2f3f6";
+g.beginPath();
+g.arc(mx, my, mr, -Math.PI / 2, Math.PI / 2, true);
+g.ellipse(mx, my, mr * 0.45, mr, 0, Math.PI / 2, Math.PI * 1.5, false);
+g.fill();
+g.globalAlpha = 1;

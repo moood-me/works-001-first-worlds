@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"A Poppy Field by the Mountains","translation":"Маковое поле у гор","where":"scenes/poppy-field/scene.json title"},
+  {"text":"Early morning. Dew and silence.","translation":"Раннее утро. Роса и тишина.","where":"scenes/poppy-field/scene.json caption"},
+  {"text":"The first light comes to the peaks first.","translation":"Первый свет сначала приходит к вершинам.","where":"scenes/poppy-field/scene.json captions[0] text"},
+  {"text":"The dew still lies on the petals.","translation":"Роса ещё лежит на лепестках.","where":"scenes/poppy-field/scene.json captions[1] text"}
+]}
