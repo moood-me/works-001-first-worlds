@@ -1,0 +1,324 @@
+{
+  "light": {
+    "haze": 0.04,
+    "tint": "#ffb070",
+    "grain": 0.22,
+    "vignette": 0.55,
+    "hazeColor": "#3a3029",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 64,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "Sparse felt piano, soft single notes with long pauses, intimate small room, close-miked, gentle",
+        "weight": 1.2
+      },
+      {
+        "text": "Warm slow ambient pads, breathing textures, feeling of safety and quiet, analog warmth",
+        "weight": 1
+      },
+      {
+        "text": "Low sustained cello drone with faint uneasy harmonics, quiet inner tension, very slow",
+        "weight": 0.5
+      },
+      {
+        "text": "Muted lo-fi ambient with tape hiss, distant soft rain mood, evening interior",
+        "weight": 0.4
+      },
+      {
+        "text": "Minimal modern classical, string quartet playing pianissimo, long held chords",
+        "weight": 0
+      },
+      {
+        "text": "Soft Rhodes electric piano, slow jazz ballad chords, late evening, brushed drums barely there",
+        "weight": 0
+      },
+      {
+        "text": "Glassy music-box melody slowed down, fragile and nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "Nylon-string guitar fingerpicking, slow and tender, warm room reverb",
+        "weight": 0
+      },
+      {
+        "text": "Dark ambient drone, subtle dissonance, unresolved, heartbeat-slow pulse",
+        "weight": 0
+      },
+      {
+        "text": "Ticking clock rhythm with soft marimba and warm bass, patient and steady",
+        "weight": 0
+      },
+      {
+        "text": "Erik Satie style gymnopedie piano, melancholic and calm",
+        "weight": 0
+      },
+      {
+        "text": "Solo clarinet, breathy low register, lonely and searching",
+        "weight": 0
+      },
+      {
+        "text": "Gentle harp arpeggios over soft strings, consoling, release of tears",
+        "weight": 0
+      },
+      {
+        "text": "Slow-motion granular piano textures, memory fragments, blurred",
+        "weight": 0
+      },
+      {
+        "text": "Warm string orchestra swell, hopeful resolution, cathartic but restrained",
+        "weight": 0
+      },
+      {
+        "text": "Minimalist pulsing synth arpeggio, anxious undercurrent, soft and steady",
+        "weight": 0
+      },
+      {
+        "text": "Scandinavian chamber folk, soft accordion and piano, cozy winter evening",
+        "weight": 0
+      },
+      {
+        "text": "Deep meditative singing bowls and soft sub bass, grounding and steady",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.35
+  },
+  "state": {
+    "lamp": 1,
+    "rain": 0.6,
+    "water": 0.8,
+    "minutes": 12,
+    "patient": "tense",
+    "tissues": 1,
+    "therapist": "listening"
+  },
+  "title": "The Psychotherapist's Office",
+  "camera": {
+    "mode": "picture"
+  },
+  "caption": "Here you can stay silent for as long as you need.",
+  "horizon": 0.35,
+  "objects": [
+    {
+      "id": "outside",
+      "sky": true,
+      "name": "Evening outside the window"
+    },
+    {
+      "id": "wall",
+      "box": [
+        -12,
+        -5.2,
+        12,
+        0.05
+      ],
+      "name": "Wall",
+      "color": "#4a4238",
+      "across": 0,
+      "height": 5,
+      "distance": 6.5
+    },
+    {
+      "id": "floor",
+      "name": "Floor and rug",
+      "color": "#33251c",
+      "depth": 13,
+      "plane": true,
+      "width": 26,
+      "across": 0,
+      "distance": 6.8,
+      "elevation": 0
+    },
+    {
+      "id": "window",
+      "box": [
+        -1.35,
+        -2.95,
+        1.35,
+        -0.45
+      ],
+      "name": "Window",
+      "across": -2.3,
+      "height": 2.9,
+      "distance": 6.45
+    },
+    {
+      "id": "shelves",
+      "box": [
+        -1.3,
+        -2.75,
+        1.3,
+        0.05
+      ],
+      "name": "Bookshelves",
+      "across": 2.6,
+      "height": 2.3,
+      "distance": 6.25
+    },
+    {
+      "id": "clock",
+      "box": [
+        -0.2,
+        -0.2,
+        0.2,
+        0.2
+      ],
+      "name": "Wall clock",
+      "across": 0.3,
+      "height": 0.34,
+      "distance": 6.45,
+      "elevation": 1.95
+    },
+    {
+      "id": "lamp",
+      "box": [
+        -0.5,
+        -1.9,
+        0.5,
+        0.05
+      ],
+      "name": "Floor lamp",
+      "across": 2.4,
+      "height": 1.8,
+      "flicker": 0.03,
+      "distance": 4.5
+    },
+    {
+      "id": "plant",
+      "box": [
+        -0.8,
+        -1.85,
+        0.8,
+        0.05
+      ],
+      "name": "Ficus in the corner",
+      "across": -4,
+      "height": 1.7,
+      "distance": 5.6
+    },
+    {
+      "id": "doctorChair",
+      "box": [
+        -0.6,
+        -1.25,
+        0.5,
+        0.05
+      ],
+      "name": "Therapist's armchair",
+      "across": 1.2,
+      "height": 1.15,
+      "distance": 3.95
+    },
+    {
+      "id": "therapist",
+      "box": [
+        -0.75,
+        -1.45,
+        0.45,
+        0.05
+      ],
+      "name": "Therapist",
+      "across": 1.2,
+      "height": 1.35,
+      "distance": 3.9
+    },
+    {
+      "id": "patient",
+      "box": [
+        -0.6,
+        -1.4,
+        0.8,
+        0.05
+      ],
+      "name": "Patient",
+      "across": -1.4,
+      "height": 1.25,
+      "distance": 2.42
+    },
+    {
+      "id": "patientChair",
+      "box": [
+        -0.6,
+        -1.05,
+        0.6,
+        0.05
+      ],
+      "name": "Patient's armchair",
+      "across": -1.4,
+      "height": 1,
+      "distance": 2.33
+    },
+    {
+      "id": "tableLeg",
+      "box": [
+        -0.3,
+        -0.55,
+        0.3,
+        0.03
+      ],
+      "name": "Side table leg",
+      "across": -0.1,
+      "height": 0.5,
+      "distance": 3.42
+    },
+    {
+      "id": "tableTop",
+      "name": "Side table",
+      "color": "#4a3426",
+      "depth": 0.8,
+      "plane": true,
+      "width": 0.8,
+      "across": -0.1,
+      "distance": 3.4,
+      "elevation": 0.5
+    },
+    {
+      "id": "tissues",
+      "box": [
+        -0.14,
+        -0.24,
+        0.14,
+        0.02
+      ],
+      "name": "Box of tissues",
+      "across": -0.02,
+      "height": 0.12,
+      "distance": 3.32,
+      "elevation": 0.5
+    },
+    {
+      "id": "glass",
+      "box": [
+        -0.06,
+        -0.15,
+        0.06,
+        0.02
+      ],
+      "name": "Glass of water",
+      "across": -0.22,
+      "height": 0.13,
+      "distance": 3.28,
+      "elevation": 0.5
+    }
+  ],
+  "captions": [
+    {
+      "at": 3,
+      "for": 7,
+      "text": "The clock ticks. Nobody rushes you here."
+    },
+    {
+      "at": 14,
+      "for": 7,
+      "text": "She waits for the pause to finish speaking for itself."
+    },
+    {
+      "at": 26,
+      "for": 7,
+      "text": "The glass of water still stands untouched."
+    }
+  ]
+}
