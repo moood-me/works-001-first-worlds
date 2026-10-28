@@ -1,0 +1,302 @@
+{
+  "light": {
+    "haze": 0.45,
+    "tint": "#6a7a9a",
+    "grain": 0.35,
+    "vignette": 0.6,
+    "hazeColor": "#7e8693",
+    "tintStrength": 0.12
+  },
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "prompts": [
+      {
+        "text": "old pier at night, solo piano, few notes, deep silence between them, longing",
+        "weight": 1
+      },
+      {
+        "text": "warm distant organ drone like a single lit window across the lake",
+        "weight": 0.5
+      },
+      {
+        "text": "soft moonlight string pad, very slow, silver and cold",
+        "weight": 0.35
+      },
+      {
+        "text": "lonely oboe melody over still water, tender and sad",
+        "weight": 0
+      },
+      {
+        "text": "harp harmonics like moonlight on ripples",
+        "weight": 0
+      },
+      {
+        "text": "whispered choir, far away, one voice among many silent ones",
+        "weight": 0
+      },
+      {
+        "text": "felt piano and tape hiss, intimate and fragile",
+        "weight": 0
+      },
+      {
+        "text": "deep bowed double bass, night heaviness, slow",
+        "weight": 0
+      },
+      {
+        "text": "Ólafur Arnalds style piano and strings, quiet hope",
+        "weight": 0
+      },
+      {
+        "text": "music box counting lights on the other shore, one, two, one",
+        "weight": 0
+      },
+      {
+        "text": "gentle guitar harmonics and reverb, misty night",
+        "weight": 0
+      },
+      {
+        "text": "low hum of a distant boat engine turned into a drone",
+        "weight": 0
+      },
+      {
+        "text": "crystal bowl tones, meditative, cold air",
+        "weight": 0
+      },
+      {
+        "text": "slow waltz on a faraway accordion, memory of summer",
+        "weight": 0
+      },
+      {
+        "text": "sparse vibraphone, blue night, a jazz ballad without drums",
+        "weight": 0
+      },
+      {
+        "text": "ambient field of reeds and water, softly musical",
+        "weight": 0
+      },
+      {
+        "text": "wordless lullaby hummed by a child, very quiet",
+        "weight": 0
+      },
+      {
+        "text": "cinematic swell with a single French horn, hope rising and falling",
+        "weight": 0
+      }
+    ],
+    "brightness": 0.3
+  },
+  "title": "Hope",
+  "caption": "Night. An old pier. Silence.",
+  "horizon": 0.56,
+  "objects": [
+    {
+      "id": "ee3349ac2",
+      "sky": true,
+      "name": "Sky"
+    },
+    {
+      "id": "ee88e0c63",
+      "sky": true,
+      "name": "Stars"
+    },
+    {
+      "id": "e99f551e4",
+      "sky": true,
+      "name": "Moon and its path on the water"
+    },
+    {
+      "id": "e87e949df",
+      "sky": true,
+      "name": "Clouds"
+    },
+    {
+      "x": 0.5,
+      "id": "ecd532172",
+      "box": [
+        -4500,
+        -115,
+        4500,
+        10
+      ],
+      "name": "Distant mountains",
+      "color": "#596373",
+      "height": 95,
+      "distance": 2400
+    },
+    {
+      "x": 0.5,
+      "id": "e72a26bed",
+      "box": [
+        -1900,
+        -24,
+        1900,
+        8
+      ],
+      "name": "Hills beyond the forest",
+      "color": "#434c5b",
+      "height": 16,
+      "distance": 900
+    },
+    {
+      "x": 0.5,
+      "id": "ef4220464",
+      "box": [
+        -800,
+        -26,
+        800,
+        3
+      ],
+      "name": "Forest on the far shore",
+      "color": "#2e3744",
+      "height": 14,
+      "reflect": true,
+      "distance": 250
+    },
+    {
+      "x": 0.7,
+      "id": "ee070e573",
+      "box": [
+        -9,
+        -11,
+        9,
+        1
+      ],
+      "name": "House on the far shore",
+      "color": "#252c37",
+      "height": 5,
+      "period": 30,
+      "flicker": 0.25,
+      "reflect": true,
+      "distance": 240,
+      "elevation": 0
+    },
+    {
+      "x": 0.7,
+      "id": "ea27f01ac",
+      "box": [
+        -12,
+        -1,
+        12,
+        30
+      ],
+      "name": "A window's glint on the water",
+      "color": "#f0b870",
+      "height": 2,
+      "distance": 238
+    },
+    {
+      "x": 0.8,
+      "id": "ec243a03b",
+      "box": [
+        -220,
+        -1.6,
+        180,
+        70
+      ],
+      "name": "Lake",
+      "color": "#394455",
+      "height": 2,
+      "distance": 40
+    },
+    {
+      "x": 0.5,
+      "id": "e43fd1ecf",
+      "box": [
+        -140,
+        -3,
+        140,
+        0.5
+      ],
+      "name": "Mist by the far shore",
+      "color": "#8a929d",
+      "height": 1,
+      "distance": 30
+    },
+    {
+      "x": 0.5,
+      "id": "e0a57a245",
+      "box": [
+        -70,
+        -1.2,
+        70,
+        0.4
+      ],
+      "name": "Haze over the water",
+      "color": "#6c7685",
+      "height": 0.5,
+      "distance": 16
+    },
+    {
+      "x": 0.4,
+      "id": "e5da580dd",
+      "box": [
+        -15.5,
+        -1.9,
+        0.7,
+        0.3
+      ],
+      "name": "Old pier and the girl",
+      "color": "#1b2029",
+      "height": 1.8,
+      "period": 60,
+      "reflect": true,
+      "distance": 10,
+      "elevation": 0
+    },
+    {
+      "x": 0.93,
+      "y": 0.99,
+      "id": "e338371a3",
+      "box": [
+        -0.9,
+        -1.8,
+        0.9,
+        0.1
+      ],
+      "name": "Reeds",
+      "sway": 1.5,
+      "color": "#151a21",
+      "height": 1.7,
+      "period": 40,
+      "reflect": true,
+      "elevation": 0
+    },
+    {
+      "x": 0.45,
+      "id": "e0a1f31c9",
+      "box": [
+        -8,
+        -4,
+        8,
+        0.5
+      ],
+      "name": "Dust motes in the air",
+      "color": "#c8ccd6",
+      "height": 3,
+      "distance": 5
+    }
+  ],
+  "captions": [
+    {
+      "at": 4,
+      "for": 8,
+      "text": "Every evening she comes to the old pier."
+    },
+    {
+      "at": 14,
+      "for": 7,
+      "text": "She counts the lights on the far shore."
+    },
+    {
+      "at": 23,
+      "for": 7,
+      "text": "Tonight there is one."
+    },
+    {
+      "at": 32,
+      "for": 10,
+      "text": "So someone is still awake."
+    }
+  ]
+}
