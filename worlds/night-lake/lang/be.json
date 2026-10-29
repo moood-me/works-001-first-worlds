@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Night Lake","translation":"Начное возера","where":"worlds/night-lake/world.json title"},
+  {"text":"A small quiet light sways over the dark water.","translation":"Ціхі агеньчык калышацца над цёмнай вадой.","where":"worlds/night-lake/world.json description"}
+]}

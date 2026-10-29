@@ -3,5 +3,5 @@
   "description": "The cat knows where it's warmer.",
   "themes": {},
   "main": "room",
-  "languages": ["en", "ru", "uk", "de", "es", "ja"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be"]
 }

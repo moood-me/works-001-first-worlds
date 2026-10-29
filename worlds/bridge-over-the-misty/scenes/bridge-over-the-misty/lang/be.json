@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Мост праз Туманную","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"Сярэдзіна моста — адзінае месца, дзе сустракаюцца два берагі.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"Мост трымаецца, пакуль на ім нехта чакае.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"З таго берага, з туману, — крокі.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"Падарожнік дайшоў да захавальніцы і спыніўся за крок ад яе ліхтара","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/script.js"}
+]}

@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Hope","translation":"Надзея","where":"worlds/hope-2/scenes/hope/scene.json title"},
+  {"text":"it's quiet here, and only a small light keeps hope from going out","translation":"тут ціха, і толькі маленькі агеньчык не дае пагаснуць надзеі","where":"worlds/hope-2/scenes/hope/scene.json caption"},
+  {"text":"she sits by the empty lake and counts the ripples on the water","translation":"яна сядзіць ля пустога возера і лічыць кругі на вадзе","where":"worlds/hope-2/scenes/hope/scene.json captions[0] text"},
+  {"text":"somewhere on the far shore a single window is lit","translation":"дзесьці на тым беразе гарыць адно акно","where":"worlds/hope-2/scenes/hope/scene.json captions[1] text"},
+  {"text":"hope is when you walk towards a light that may not even be there","translation":"надзея — гэта калі ідзеш на святло, якога, можа, там і няма","where":"worlds/hope-2/scenes/hope/scene.json captions[2] text"}
+]}

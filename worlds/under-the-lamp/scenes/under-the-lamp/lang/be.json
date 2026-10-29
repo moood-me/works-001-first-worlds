@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"HOTEL","translation":"ГАТЭЛЬ","where":"worlds/under-the-lamp/scenes/under-the-lamp/elements/hotel.js"},
+  {"text":"Under the Lamp","translation":"Пад ліхтаром","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json title"},
+  {"text":"He said: at two, outside the Metropol, under the lamp.","translation":"Ён сказаў: а другой, ля «Метраполя», пад ліхтаром.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json caption"},
+  {"text":"A quarter to three. Her third cigarette.","translation":"Без чвэрці тры. Цыгарэта — трэцяя.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[0] text"},
+  {"text":"You hear the footsteps before you see the hat.","translation":"Крокі чуваць раней, чым відаць капялюш.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[1] text"}
+]}

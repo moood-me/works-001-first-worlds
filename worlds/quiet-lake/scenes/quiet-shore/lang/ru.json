@@ -1,9 +1,9 @@
 {"strings": [
-  {"text":"Quiet Shore","translation":"Тихий берег","where":"quiet-lake/scenes/quiet-shore/scene.json title"},
-  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Песчаный берег, неподвижное озеро и тёмная коробка у самой воды.","where":"quiet-lake/scenes/quiet-shore/scene.json caption"},
-  {"text":"The sun has touched the forest on the far shore.","translation":"Солнце коснулось леса на том берегу.","where":"quiet-lake/scenes/quiet-shore/script.js"},
-  {"text":"The sun has set; twilight is left over the lake.","translation":"Солнце село; над озером остались сумерки.","where":"quiet-lake/scenes/quiet-shore/script.js"},
-  {"text":"Dawn over the lake; mist creeps over the water.","translation":"Над озером рассвело, по воде стелется туман.","where":"quiet-lake/scenes/quiet-shore/script.js"},
-  {"text":"The bench has walked off along the shore and is out of sight.","translation":"Скамейка ушла вдоль берега и скрылась из виду.","where":"quiet-lake/scenes/quiet-shore/script.js"},
-  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"Сарай поднялся на курьих ножках и стоит, переминаясь.","where":"quiet-lake/scenes/quiet-shore/script.js"}
+  {"text":"Quiet Shore","translation":"Тихий берег","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Песчаный берег, неподвижное озеро и тёмная коробка у самой воды.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"Солнце коснулось леса на том берегу.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"Солнце село; над озером остались сумерки.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"Над озером рассвело, по воде стелется туман.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"Скамейка ушла вдоль берега и скрылась из виду.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"Сарай поднялся на курьих ножках и стоит, переминаясь.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
 ]}

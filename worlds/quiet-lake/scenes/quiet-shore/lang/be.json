@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"Ціхі бераг","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Пясчаны бераг, нерухомае возера і цёмная скрынка ля самай вады.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"Сонца дакранулася да лесу на тым беразе.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"Сонца села; над возерам засталося змярканне.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"Над возерам развіднела, па вадзе сцелецца туман.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"Лаўка пайшла ўздоўж берага і знікла з вачэй.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"Хлеў падняўся на курыных ножках і стаіць, пераступаючы з нагі на нагу.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

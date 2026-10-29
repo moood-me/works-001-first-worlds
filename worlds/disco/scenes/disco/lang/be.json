@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Disco","translation":"Дыскатэка","where":"worlds/disco/scenes/disco/scene.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"Агні зіхацяць, музыка не сціхае","where":"worlds/disco/scenes/disco/scene.json caption"},
+  {"text":"The ball above the stage scatters sparkles on every shoulder","translation":"Шар над сцэнай рассыпае зайчыкаў па ўсіх плячах","where":"worlds/disco/scenes/disco/scene.json captions[0] text"},
+  {"text":"Someone has found the nerve to step into the circle for the first time","translation":"Нехта ўпершыню наважыўся выйсці ў кола","where":"worlds/disco/scenes/disco/scene.json captions[1] text"},
+  {"text":"The yellow spotlight is looking for someone else to call over","translation":"Жоўты пражэктар шукае, каго б яшчэ паклікаць","where":"worlds/disco/scenes/disco/scene.json captions[2] text"}
+]}

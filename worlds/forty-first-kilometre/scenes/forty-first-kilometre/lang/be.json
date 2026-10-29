@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"41 km","translation":"41 км","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/elements/shelter.js"},
+  {"text":"The Forty-First Kilometre","translation":"Сорак першы кіламетр","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json title"},
+  {"text":"The last bus has gone. Someone is meeting you anyway.","translation":"Апошні аўтобус пайшоў. Цябе ўсё роўна сустракаюць.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json caption"},
+  {"text":"The last bus left at 11:40 pm.","translation":"Апошні аўтобус пайшоў а 23:40.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[0] text"},
+  {"text":"Someone is standing on the road. With flowers.","translation":"На дарозе нехта стаіць. З кветкамі.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[1] text"},
+  {"text":"He has come to meet someone. You.","translation":"Ён прыйшоў сустракаць. Цябе.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[2] text"},
+  {"text":"He reached the bus stop and stopped under the lamp.","translation":"Ён дайшоў да прыпынку і спыніўся пад ліхтаром.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/script.js"}
+]}
