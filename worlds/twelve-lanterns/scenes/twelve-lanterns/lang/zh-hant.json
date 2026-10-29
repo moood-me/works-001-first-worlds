@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"十二盞燈籠","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json title"},
+  {"text":"The festival ended an hour ago. Someone forgot to put out the lanterns on the shrine steps. Or didn't forget.","translation":"祭典一小時前就結束了。有人忘了熄掉神社石階上的燈籠。也可能沒忘。","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json caption"},
+  {"text":"Twelve lanterns on the steps up to the torii. The matsuri is over, everyone has gone home.","translation":"通往鳥居的石階上有十二盞燈籠。祭典結束了，大家都回家了。","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[0] text"},
+  {"text":"Each time a lantern goes out, the girl in the fox mask comes down a step.","translation":"每熄一盞燈籠，戴狐狸面具的女孩就往下走一階。","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[1] text"},
+  {"text":"The goldfish in the bag looks one way only. Toward where you stand.","translation":"袋子裡的金魚只望著一個方向。望著你站的地方。","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[2] text"},
+  {"text":"Half the lanterns on the steps are out. The girl in the fox mask is halfway down.","translation":"石階上的燈籠熄了一半。戴狐狸面具的女孩已經走到一半了。","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"},
+  {"text":"The last lantern is out. The vending machine barely glows. The girl in the mask stands at the bottom step.","translation":"最後一盞燈籠熄了。自動販賣機的光微弱得幾乎看不見。戴面具的女孩站在最下面一階。","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"}
+]}

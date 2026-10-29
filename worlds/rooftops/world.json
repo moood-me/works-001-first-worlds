@@ -3,5 +3,5 @@
   "description": "← → to run, space to jump.",
   "themes": {},
   "main": "rooftops",
-  "languages": ["en", "ru"]
+  "languages": ["en", "ru", "zh-hant"]
 }

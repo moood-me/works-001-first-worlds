@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"The dacha, June 1952.\nAll of us together.","translation":"別墅，1952年6月。\n大家都在。","where":"worlds/things-are-honest/scenes/photo-1952/elements/photo.js"},
+  {"text":"PHOTO","translation":"照片","where":"worlds/things-are-honest/scenes/photo-1952/elements/photo.js"},
+  {"text":"The 1952 Photograph","translation":"1952年的照片","where":"worlds/things-are-honest/scenes/photo-1952/scene.json title"},
+  {"text":"A thing remembers who was taken out of it.","translation":"物品記得誰被從它身上拿走了。","where":"worlds/things-are-honest/scenes/photo-1952/scene.json caption"},
+  {"text":"The edges are wavy: that's how the studio trimmed them. The paper is warm from the lamp.","translation":"邊緣是波浪形的：照相館都這樣裁。紙被燈烘得溫溫的。","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[0] text"},
+  {"text":"The scissors followed the outline slowly. Only at the collar did the hand shake.","translation":"剪刀沿著輪廓慢慢剪下。只有到了衣領那裡，手抖了一下。","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[1] text"},
+  {"text":"On the shoulder of the woman in white, someone else's hand remains.","translation":"白衣女人的肩上，留著另一個人的手。","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[2] text"},
+  {"text":"The photograph has been turned over: on the back it says “{text}”.","translation":"照片被翻了過來：背面寫著「{text}」。","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"A corner of the photograph has curled: the first letters of the inscription show on the back.","translation":"照片的一角捲了起來：背面露出了字跡的頭幾個字。","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"The lamp has nearly gone out: the photograph can barely be made out.","translation":"燈快熄了：照片幾乎看不清。","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"The photograph has been put down on the table.","translation":"照片被放回桌上。","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"Notebook","translation":"筆記本","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"1953年3月14日的那一夜。沒有人提起它。","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"1952年的全家福上，有一個人被整齊地剪掉了。","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"去問人，也去問物品。把它記下來。拿物品說的話去質問人。","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"close","translation":"關閉","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Send-Off","translation":"送行","where":"worlds/send-off/world.json title"},
+  {"text":"A tower-block suburb, five in the morning. Sery is being called up: the lads sit out the last of the night by the entrance, the tape recorder plays out its cassette, his mum watches from the window.","translation":"國宅區，清晨五點。謝雷要去當兵了：小伙子們在公寓門口坐完這夜的最後一段，錄音機把卡帶放到盡頭，他媽媽在窗邊看著。","where":"worlds/send-off/world.json description"}
+]}

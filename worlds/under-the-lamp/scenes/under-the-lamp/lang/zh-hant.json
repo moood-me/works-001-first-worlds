@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"HOTEL","translation":"旅館","where":"worlds/under-the-lamp/scenes/under-the-lamp/elements/hotel.js"},
+  {"text":"Under the Lamp","translation":"路燈下","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json title"},
+  {"text":"He said: at two, outside the Metropol, under the lamp.","translation":"他說：兩點，大都會飯店門口，路燈下。","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json caption"},
+  {"text":"A quarter to three. Her third cigarette.","translation":"兩點四十五分。第三根菸。","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[0] text"},
+  {"text":"You hear the footsteps before you see the hat.","translation":"還沒看見帽子，就先聽見了腳步聲。","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[1] text"}
+]}

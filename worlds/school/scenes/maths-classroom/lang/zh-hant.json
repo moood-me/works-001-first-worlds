@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"2nd October","translation":"10月2日","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"Classwork","translation":"課堂練習","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"HW: ex. 214, 217","translation":"作業：第 214、217 題","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"PYTHAGORAS","translation":"畢達哥拉斯","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"DESCARTES","translation":"笛卡兒","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"LOBACHEVSKY","translation":"羅巴切夫斯基","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"KOVALEVSKAYA","translation":"柯瓦列夫斯卡婭","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"GEOMETRIC SOLIDS","translation":"立體幾何圖形","where":"worlds/school/scenes/maths-classroom/elements/poster_bodies.js"},
+  {"text":"PYTHAGOREAN THEOREM","translation":"畢氏定理","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"TABLE OF SQUARES","translation":"平方表","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"The Maths Classroom","translation":"數學教室","where":"worlds/school/scenes/maths-classroom/scene.json title"},
+  {"text":"After lessons. You can hear the clock ticking.","translation":"放學後。聽得見時鐘的滴答聲。","where":"worlds/school/scenes/maths-classroom/scene.json caption"},
+  {"text":"The bell rang long ago. The formulas are still on the board.","translation":"鐘聲早就響過了。公式還留在黑板上。","where":"worlds/school/scenes/maths-classroom/scene.json captions[0] text"},
+  {"text":"The dust in the sunbeam is slowly working out its own problem.","translation":"陽光裡的灰塵正慢慢解著自己的題目。","where":"worlds/school/scenes/maths-classroom/scene.json captions[1] text"},
+  {"text":"The second hand is counting the silence.","translation":"秒針在數著寂靜。","where":"worlds/school/scenes/maths-classroom/scene.json captions[2] text"}
+]}

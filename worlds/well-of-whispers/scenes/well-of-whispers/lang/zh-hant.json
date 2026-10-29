@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"低語之井","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"這口井記得在它上方說過的每一句話。","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"這口井被木板封了一百年。今夜，光從縫隙裡滲了出來。","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"據說它會回答，但只回答那些低聲發問的人。","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"井蓋掀開了，一道冷光從裡面升起。","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"井蓋又落回原位，光退回了縫隙裡。","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}
