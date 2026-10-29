@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"VIEWING DECK · TANKER LADOGA","translation":"전망 갑판 · 유조선 라도가호","where":"worlds/comms-window/scenes/comms-window/elements/sillface.js"},
+  {"text":"Comms Window","translation":"교신의 창","where":"worlds/comms-window/scenes/comms-window/scene.json title"},
+  {"text":"Forty minutes before the last relay goes behind Saturn.","translation":"마지막 중계기가 토성 뒤로 넘어가기까지 사십 분.","where":"worlds/comms-window/scenes/comms-window/scene.json caption"},
+  {"text":"The tanker Ladoga is passing Saturn. The red dot by the rings is the last relay.","translation":"유조선 라도가호가 토성 곁을 지나고 있다. 고리 옆의 붉은 점이 마지막 중계기다.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[0] text"},
+  {"text":"Forty minutes, and it goes behind the planet. After that, a year of silence all the way to Earth.","translation":"사십 분이면 중계기는 행성 뒤로 넘어간다. 그 뒤로는 지구까지 일 년의 침묵.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[1] text"},
+  {"text":"Vera holds her mug in both hands. The tea went cold long ago, but it's warmer this way.","translation":"베라는 머그잔을 두 손으로 감싸 쥐고 있다. 차는 진작 식었지만, 이렇게 쥐고 있으면 더 따뜻하다.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[2] text"},
+  {"text":"The message from Earth has come through in full.","translation":"지구에서 온 메시지가 끝까지 수신되었다.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. Reception cut off mid-word.","translation":"중계기가 행성 뒤로 넘어갔다. 수신이 말 중간에 끊겼다.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. The comms window has closed.","translation":"중계기가 행성 뒤로 넘어갔다. 교신의 창이 닫혔다.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"{m} min left","translation":"{m}분 남음","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"closed","translation":"닫힘","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"receiving a message · {p}%","translation":"메시지 수신 중 · {p}%","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"message received","translation":"메시지 수신 완료","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"reception cut off · {p}%","translation":"수신 끊김 · {p}%","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"waiting for a message from Earth","translation":"지구의 메시지를 기다리는 중","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"comms window · relay","translation":"교신의 창 · 중계기","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"}
+]}

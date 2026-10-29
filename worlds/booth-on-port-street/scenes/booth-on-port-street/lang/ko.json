@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"전화","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/elements/booth.js"},
+  {"text":"HOTEL","translation":"호텔","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/elements/hotel.js"},
+  {"text":"The Booth on Port Street","translation":"항구 거리의 전화 부스","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json title"},
+  {"text":"Rain, a street lamp, and a booth that doesn't ring.","translation":"비, 가로등, 그리고 울리지 않는 부스.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json caption"},
+  {"text":"Three in the morning. The port is asleep.","translation":"새벽 세 시. 항구는 잠들어 있다.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[0] text"},
+  {"text":"For forty minutes the phone in the booth has been silent.","translation":"사십 분째 부스의 전화는 조용하다.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[1] text"},
+  {"text":"He counts the windows opposite. One is lit.","translation":"그는 맞은편 창문을 센다. 불 켜진 창은 하나.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[2] text"},
+  {"text":"A car went by and didn't slow down.","translation":"차 한 대가 속도를 늦추지 않고 지나갔다.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/script.js"}
+]}

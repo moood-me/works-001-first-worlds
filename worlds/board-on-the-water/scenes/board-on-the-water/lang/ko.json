@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"A Board on the Water","translation":"물 위의 체스판","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json title"},
+  {"text":"A game with no reason to hurry.","translation":"서두를 까닭이 없는 한 판.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json caption"},
+  {"text":"Black to move. They have been thinking it over since last summer.","translation":"흑의 차례. 지난여름부터 수를 궁리하고 있다.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[0] text"},
+  {"text":"The pieces' shadows reach all the way to the edge of the board.","translation":"기물들의 그림자가 판 가장자리까지 길게 뻗어 있다.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[1] text"},
+  {"text":"The knight looks at the sunset and takes its time.","translation":"나이트는 노을을 바라보며 서두르지 않는다.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[2] text"},
+  {"text":"The dragon has surfaced to watch the game. It won't give any hints.","translation":"용이 대국을 구경하러 물 위로 떠올랐다. 훈수는 두지 않을 것이다.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[3] text"}
+]}

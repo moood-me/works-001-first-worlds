@@ -1,0 +1,20 @@
+{"strings": [
+  {"text":"FILE No. 0417","translation":"파일 제0417호","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/desk.js"},
+  {"text":"UNDER OBSERVATION","translation":"관찰 중","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/desk.js"},
+  {"text":"CASE FILES","translation":"환자 기록","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/deskfront.js"},
+  {"text":"Dr I. V. Strogova","translation":"I. V. 스트로고바 박사","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/nameplate.js"},
+  {"text":"psychotherapist","translation":"심리 치료사","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/nameplate.js"},
+  {"text":"ONE AT A TIME","translation":"한 장씩","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/tissues.js"},
+  {"text":"it's just a mirror","translation":"그냥 거울입니다","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"EXIT","translation":"출구","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"only after the session","translation":"상담이 끝난 뒤에만","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"YOUR FEELINGS MATTER*","translation":"당신의 감정은 소중합니다*","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"*and will be noted","translation":"*그리고 기록됩니다","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"Dr Strogova's Office","translation":"스트로고바 박사의 진료실","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json title"},
+  {"text":"Make yourself comfortable. As far as that's possible.","translation":"편히 앉으세요. 가능한 만큼은요.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json caption"},
+  {"text":"Sit down. The armchair is exactly where it should be.","translation":"앉으세요. 안락의자는 정확히 있어야 할 자리에 있습니다.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[0] text"},
+  {"text":"Your file is already open. It's thicker than you thought.","translation":"당신의 파일은 이미 펼쳐져 있다. 생각보다 두껍다.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[1] text"},
+  {"text":"Tissues: one at a time. That is part of the therapy too.","translation":"티슈는 한 장씩. 그것도 치료의 일부다.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[2] text"},
+  {"text":"The clock on the wall says ten to three: the session's time is up.","translation":"벽시계가 세 시 십 분 전을 가리킨다. 상담 시간이 끝났다.","where":"worlds/evil-therapist/scenes/dr-strogova-office/script.js"},
+  {"text":"The page in the file is full: the doctor has written it from top to bottom.","translation":"파일의 한 페이지가 꽉 찼다. 박사가 위에서 아래까지 빼곡히 적었다.","where":"worlds/evil-therapist/scenes/dr-strogova-office/script.js"}
+]}

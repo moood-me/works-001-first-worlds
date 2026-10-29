@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"호수의 새벽","where":"worlds/dawn-on-the-lake/world.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"안개는 떠날지 말지 아직 마음을 정하지 못했다.","where":"worlds/dawn-on-the-lake/world.json description"}
+]}

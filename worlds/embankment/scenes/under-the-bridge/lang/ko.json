@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Under the Bridge","translation":"다리 밑","where":"worlds/embankment/scenes/under-the-bridge/scene.json title"},
+  {"text":"Granite steps down to the water under an old bridge.","translation":"오래된 다리 아래, 물가로 내려가는 화강암 계단.","where":"worlds/embankment/scenes/under-the-bridge/scene.json caption"},
+  {"text":"A river bus with its lights on has come out from under the far bridge","translation":"먼 다리 밑에서 불을 밝힌 유람선이 빠져나왔다","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have risen: the bridge is up","translation":"먼 다리의 상판이 들어 올려졌다. 다리가 열렸다","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have come down: the bridge is closed","translation":"먼 다리의 상판이 내려왔다. 다리가 닫혔다","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has come on","translation":"아치 아래 가로등이 켜졌다","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has gone out","translation":"아치 아래 가로등이 꺼졌다","where":"worlds/embankment/scenes/under-the-bridge/script.js"}
+]}

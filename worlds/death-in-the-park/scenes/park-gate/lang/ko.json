@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"공원 문 앞에서","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"앞에는 문. 뒤에는 누군가.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"오솔길이 문 앞에서 두 갈래로 갈라진다.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"쪽문 옆 가로등이 꺼졌다가, 자기가 가로등이라는 걸 다시 떠올린다.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"당신은 문에 다다랐다. 문은 닫혀 있고 쇠사슬이 감겨 있다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"당신은 문에 다다랐다. 문은 닫혀 있다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"당신은 문을 나서 건너편 안개 속으로 사라졌다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"당신은 쪽문을 잡아당긴다. 쇠사슬이 쩔그렁거리지만, 자물쇠는 버틴다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"문이 삐걱거리며 열린다. 그 너머에는 희뿌연 안개.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"당신은 문 너머에서 오솔길로 돌아왔다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"죽음은 잠긴 문을 통과해 건너편 안개 속에서 기다린다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"죽음은 열린 문을 지나 건너편 안개 속에서 기다린다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"죽음이 다가와 당신 곁에 멈춰 섰다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"죽음이 당신을 따라잡았다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"당신은 공원 문 앞에 이르렀다. 젖은 쇠창살, 쇠사슬, 그 너머엔 안개. 오솔길은 공원 더 깊은 곳으로도 이어진다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"안개가 에워쌌다. 돌아갈 길은 거의 보이지 않고, 문 옆의 가로등들만 보인다.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}

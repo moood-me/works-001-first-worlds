@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"다리의 끝","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json title"},
+  {"text":"She shines her light into the void, in case someone answers.","translation":"그녀는 허공을 비춘다. 혹시 누가 대답할까 해서.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json caption"},
+  {"text":"For three hundred years the bridge has broken off here.","translation":"다리는 삼백 년째 여기서 끊겨 있다.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[0] text"},
+  {"text":"Every evening she lights the lantern, in case someone is still left over there.","translation":"매일 저녁 그녀는 등불을 켠다. 혹시 건너편에 아직 누가 남아 있을지 몰라서.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[1] text"},
+  {"text":"The mist below doesn't remember where the bridge once led.","translation":"아래의 안개는 다리가 예전에 어디로 이어졌는지 기억하지 못한다.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[2] text"},
+  {"text":"The sky whale has gone beyond the edge of the mist","translation":"하늘 고래가 안개 가장자리 너머로 사라졌다","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/script.js"}
+]}

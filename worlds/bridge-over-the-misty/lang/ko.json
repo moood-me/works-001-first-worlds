@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"안개강 위의 다리","where":"worlds/bridge-over-the-misty/world.json title"},
+  {"text":"An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.","translation":"안개가 가득 찬 협곡 위의 오래된 돌다리. 등불을 든 다리지기가 한가운데서 기다리고, 건너편 기슭에서 안개를 헤치고 누군가 그녀를 향해 걸어온다.","where":"worlds/bridge-over-the-misty/world.json description"}
+]}

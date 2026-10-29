@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"The Psychotherapist's Office","translation":"심리 치료사의 진료실","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json title"},
+  {"text":"Here you can stay silent for as long as you need.","translation":"여기서는 필요한 만큼 침묵해도 된다.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json caption"},
+  {"text":"The clock ticks. Nobody rushes you here.","translation":"시계가 째깍거린다. 여기서는 아무도 재촉하지 않는다.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[0] text"},
+  {"text":"She waits for the pause to finish speaking for itself.","translation":"그녀는 침묵이 스스로 말을 마칠 때까지 기다린다.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[1] text"},
+  {"text":"The glass of water still stands untouched.","translation":"물 한 잔이 아직 손대지 않은 채 놓여 있다.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[2] text"},
+  {"text":"Ten to six: five minutes left of the session.","translation":"여섯 시 십 분 전. 상담 시간이 오 분 남았다.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"},
+  {"text":"Five to six: the session's time is up.","translation":"여섯 시 오 분 전. 상담 시간이 끝났다.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"}
+]}
