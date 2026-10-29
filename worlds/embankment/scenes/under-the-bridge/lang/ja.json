@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Under the Bridge","translation":"橋の下","where":"worlds/embankment/scenes/under-the-bridge/scene.json title"},
+  {"text":"Granite steps down to the water under an old bridge.","translation":"古い橋の下、水辺へ降りる花崗岩の石段。","where":"worlds/embankment/scenes/under-the-bridge/scene.json caption"},
+  {"text":"A river bus with its lights on has come out from under the far bridge","translation":"遠くの橋の下から、灯りをともした水上バスが出てきた","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have risen: the bridge is up","translation":"遠くの橋の橋桁が上がった。跳ね橋が開いた","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have come down: the bridge is closed","translation":"遠くの橋の橋桁が下りた。跳ね橋が閉じた","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has come on","translation":"アーチの下の街灯がともった","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has gone out","translation":"アーチの下の街灯が消えた","where":"worlds/embankment/scenes/under-the-bridge/script.js"}
+]}

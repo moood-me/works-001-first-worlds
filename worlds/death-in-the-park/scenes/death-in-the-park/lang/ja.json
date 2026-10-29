@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Death in the Park","translation":"公園の死神","where":"worlds/death-in-the-park/scenes/death-in-the-park/scene.json title"},
+  {"text":"An ordinary evening. Almost.","translation":"ありふれた夜。ほとんどは。","where":"worlds/death-in-the-park/scenes/death-in-the-park/scene.json caption"},
+  {"text":"Death came up to him along the path and stopped beside him.","translation":"死神が小道をやって来て、彼の隣で立ち止まった。","where":"worlds/death-in-the-park/scenes/death-in-the-park/script.js"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Forty-First Kilometre","translation":"四十一キロ地点","where":"worlds/forty-first-kilometre/world.json title"},
+  {"text":"A night bus stop in the fog; the last bus left long ago. On the road stands someone who has come to meet you, with flowers.","translation":"霧の中の夜のバス停。最終バスはとうに出てしまった。道には、きみを迎えに来た誰かが花を持って立っている。","where":"worlds/forty-first-kilometre/world.json description"}
+]}

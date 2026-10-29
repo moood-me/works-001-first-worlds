@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"The Bench by the Lamp","translation":"街灯のそばのベンチ","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
+  {"text":"A bench under a street lamp. A place for two.","translation":"街灯の下のベンチ。ふたり分の場所。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
+  {"text":"Breath turns to steam. Only yours.","translation":"息が白くなる。きみの息だけが。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
+  {"text":"You came up to the bench. Death looked up at you.","translation":"きみはベンチに近づいた。死神が顔を上げ、きみを見た。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench next to Death.","translation":"きみは死神の隣、ベンチに腰を下ろした。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench.","translation":"きみはベンチに腰を下ろした。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You walked away from the bench along the path.","translation":"きみは小道を歩いて、ベンチから離れた。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"死神は小道を歩き去り、街灯の向こうに消えた。","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"}
+]}

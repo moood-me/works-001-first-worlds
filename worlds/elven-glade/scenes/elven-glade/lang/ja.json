@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Elven Glade","translation":"エルフの森の空き地","where":"worlds/elven-glade/scenes/elven-glade/scene.json title"},
+  {"text":"The night here is longer than it seems.","translation":"ここの夜は、思っているよりも長い。","where":"worlds/elven-glade/scenes/elven-glade/scene.json caption"},
+  {"text":"The glade is quiet. So quiet you can hear the mushrooms grow.","translation":"空き地は静かだ。茸の育つ音が聞こえるほどに。","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[0] text"},
+  {"text":"Someone is waiting by the stream. Has been for a long time.","translation":"小川のそばで誰かが待っている。ずっと前から。","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[1] text"}
+]}

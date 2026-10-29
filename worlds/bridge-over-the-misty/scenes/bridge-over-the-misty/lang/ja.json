@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"霧の川に架かる橋","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"橋の中ほどは、ふたつの岸が出会うただひとつの場所。","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"誰かが待っている限り、橋は持ちこたえる。","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"向こう岸の霧の中から――足音。","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"旅人は番人のところまで来て、ランタンの一歩手前で立ち止まった","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/script.js"}
+]}
