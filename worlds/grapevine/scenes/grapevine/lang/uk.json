@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"The Grapevine Engine","translation":"Сарафанний рушій","where":"worlds/grapevine/scenes/grapevine/scene.json title"},
+  {"text":"Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.","translation":"Скажи котові «я з міністерства» — до вечора ти таємний спадкоємець, який осушить ставок.","where":"worlds/grapevine/scenes/grapevine/scene.json caption"},
+  {"text":"I'm from the ministry, by the way.","translation":"Я, між іншим, із міністерства.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"I love fish. Fried, especially.","translation":"Люблю рибу. Особливо смажену.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"The pond's got a bit shallow.","translation":"Щось ставок обмілів.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"There's no one here to even talk to.","translation":"Мені тут і поговорити ні з ким.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Found a key. No idea what it opens.","translation":"Знайшов ключ. Не знаю, від чого.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"“{phrase}”","translation":"«{phrase}»","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.","translation":"Ранок. До вечора щонайменше п'ятеро у дворі мають бути певні: 🛡️ ставок охороняє держава. Ставок сьогодні не в гуморі — йому не шепочи.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.","translation":"Вибери фразу, клацни по мешканцю і шепни йому. Кожен перекаже сусідам по-своєму: кіт усе зводить до їжі, баба Зіна — до серіалу, голуб — до змови, ліхтар — до режимних об'єктів, Петько — до героїв, Люба передає слово в слово, а ставок усе бере на свій рахунок.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"}
+]}

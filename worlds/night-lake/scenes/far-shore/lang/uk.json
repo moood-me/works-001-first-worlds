@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Far Shore","translation":"Той берег","where":"worlds/night-lake/scenes/far-shore/scene.json title"},
+  {"text":"A narrow strip of pebbles, black trunks and mist between them.","translation":"Вузька смужка гальки, чорні стовбури й туман між ними.","where":"worlds/night-lake/scenes/far-shore/scene.json caption"},
+  {"text":"The light between the trunks went out for a moment, as if someone had passed in front of it, and came on again.","translation":"Вогник між стовбурами на мить згас, ніби хтось пройшов перед ним, і засвітився знову.","where":"worlds/night-lake/scenes/far-shore/script.js"},
+  {"text":"Between the trunks, left of the light, a motionless figure has appeared.","translation":"Між стовбурами, лівіше від вогника, проступила нерухома постать.","where":"worlds/night-lake/scenes/far-shore/script.js"}
+]}

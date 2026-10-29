@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Last Window","translation":"Останнє вікно","where":"worlds/last-window/world.json title"},
+  {"text":"The only house in the middle of a snowy field, the only lit window for miles around. Every night something stands at the edge of the forest, and every night a little closer.","translation":"Єдиний дім посеред засніженого поля, єдине освітлене вікно на десятки верст. Щоночі на узліссі щось стоїть — і щоночі трохи ближче.","where":"worlds/last-window/world.json description"}
+]}

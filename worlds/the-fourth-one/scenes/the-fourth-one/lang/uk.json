@@ -1,0 +1,14 @@
+{"strings": [
+  {"text":"Lenka's dumb","translation":"Ленка дурна","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"TSOI LIVES","translation":"ЦОЙ ЖИВИЙ","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"Спартак — чемпіон","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"The Fourth One Squatting","translation":"Четвертий навпочіпки","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json title"},
+  {"text":"The garages behind the nine-storey block, ten to three.","translation":"Гаражі за дев'ятиповерхівкою, за десять третя.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json caption"},
+  {"text":"The lamp by the garages has been blinking since winter.","translation":"Ліхтар біля гаражів блимає ще з зими.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[0] text"},
+  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"Шнир лузгає насіння і не дивиться праворуч.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[1] text"},
+  {"text":"There are three of them. Four are squatting.","translation":"Їх троє. Навпочіпки сидять четверо.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[2] text"},
+  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"Четвертий підсів упритул, у саме світло, і мовчки простягнув руку: закурити.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"Ворота третього гаража з рипінням прочинилися. Зсередини ніхто не вийшов.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"Поки ліхтар блимав, четвертий опинився на крок ближче.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"Shnyr has run out of seeds.","translation":"Насіння в Шниря скінчилося.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"A Knock on the Porthole","translation":"Стукіт в ілюмінатор","where":"worlds/knock-on-the-porthole/world.json title"},
+  {"text":"The cargo ship Ladoga has been drifting by a dead red dwarf for three days. In the observation bay the lights are going out, the oxygen is running low, and from outside someone knocks on the glass: the spacesuit of the navigator who went out on a spacewalk on Tuesday.","translation":"Вантажний корабель «Ладога» третю добу дрейфує біля мертвого червоного карлика. У оглядовому відсіку гасне світло, кисню дедалі менше, а в скло ззовні стукає скафандр штурмана, який вийшов у відкритий космос у вівторок.","where":"worlds/knock-on-the-porthole/world.json description"}
+]}

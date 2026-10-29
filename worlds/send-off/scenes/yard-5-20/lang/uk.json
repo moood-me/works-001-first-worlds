@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"SERY + LENA","translation":"СІРИЙ + ЛЕНА","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"KINO","translation":"КІНО","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"TSOI LIVES","translation":"ЦОЙ ЖИВИЙ","where":"worlds/send-off/scenes/yard-5-20/elements/house.js"},
+  {"text":"The Yard on Zavodskaya, 5:20","translation":"Двір на Заводській, 5:20","where":"worlds/send-off/scenes/yard-5-20/scene.json title"},
+  {"text":"The send-off is over, and the morning hasn't come yet.","translation":"Проводи скінчилися, а ранок ще ні.","where":"worlds/send-off/scenes/yard-5-20/scene.json caption"},
+  {"text":"Five twenty. The cassette is going round for the third time.","translation":"П'ята двадцять. Касета пішла на третє коло.","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[0] text"},
+  {"text":"At six the UAZ van from the draft office will come for Sery.","translation":"О шостій по Сірого приїде «буханка» з військкомату.","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[1] text"},
+  {"text":"Vitek cracks sunflower seeds and doesn't know what to say. Neither does his mum at the window.","translation":"Вітьок лузгає насіння і не знає, що сказати. Мама у вікні — теж.","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[2] text"},
+  {"text":"The draft office's UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.","translation":"Із-за гаражів викотилася військкоматська «буханка» й стала біля під'їзду. Шарик підняв голову.","where":"worlds/send-off/scenes/yard-5-20/script.js"},
+  {"text":"The van has disappeared behind the garages.","translation":"«Буханка» зникла за гаражами.","where":"worlds/send-off/scenes/yard-5-20/script.js"}
+]}

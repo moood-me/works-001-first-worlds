@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"Світанок на озері","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"Туман ще не вирішив, чи йти.","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json caption"},
+  {"text":"The fisherman has been sitting here since four. Not a single bite yet.","translation":"Рибалка сидить тут із четвертої. Поки що жодної.","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json captions[0] text"},
+  {"text":"He says he doesn't come for the fish.","translation":"Каже, що приходить не по рибу.","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json captions[1] text"}
+]}

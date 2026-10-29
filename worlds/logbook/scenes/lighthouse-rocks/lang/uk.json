@@ -1,0 +1,13 @@
+{"strings": [
+  {"text":"The Rocks Below the Lighthouse","translation":"Каміння під маяком","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json title"},
+  {"text":"Black rocks, foam, and something glassy right at the water's edge.","translation":"Чорне каміння, піна — і щось скляне біля самої води.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json caption"},
+  {"text":"Down by the rocks it's colder. Salt settles on your lips.","translation":"Унизу, біля каміння, холодніше. Сіль осідає на губах.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[0] text"},
+  {"text":"When the beam passes, green glass flashes right at the water's edge.","translation":"Коли проходить промінь, біля самої води спалахує зелене скло.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[1] text"},
+  {"text":"The heavy surf knocked the bottle out of the rocks; a wave rolled it almost to your feet.","translation":"Сильний прибій вибив пляшку з каміння — хвиля підкотила її майже до ніг.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The lighthouse beam swept the shore; right at the water, between the rocks, green glass flashed.","translation":"Промінь маяка пройшов берегом — біля самої води, між камінням, спалахнуло зелене скло.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player reaches for the bottle between the rocks: icy water, foam up to the ankles.","translation":"Гравець тягнеться до пляшки між камінням — крижана вода, піна по кісточки.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player has picked the bottle out of the foam. Inside, a rolled-up note tied with red thread; the neck is sealed with wax.","translation":"Гравець підняв пляшку з піни. Усередині — згорнута записка з червоною ниткою; шийку залито сургучем.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player bends over the shards: the note is soaked, but still holding together.","translation":"Гравець нахиляється до уламків — записка намокла, але ще тримається.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player turns the bottle over in their hands, peering at the note through the wet glass.","translation":"Гравець крутить пляшку в руках, роздивляється записку крізь мокре скло.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"Wick doesn't take his eyes off the bottle; his ears are flattened against the wind.","translation":"Ґніт не зводить очей із пляшки; вуха притиснуті від вітру.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"}
+]}

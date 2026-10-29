@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"Granny Nina's Bedroom","translation":"Спальня бабусі Ніни","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json title"},
+  {"text":"The things are waiting to see who speaks first.","translation":"Речі чекають, хто заговорить першим.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json caption"},
+  {"text":"You hold the photograph so that Granny can see it.","translation":"Ти тримаєш фотографію так, щоб бабуся бачила.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[0] text"},
+  {"text":"The lamp shows through the cut-out place: a warm person who isn't there.","translation":"Крізь вирізане місце просвічує лампа — тепла людина, якої нема.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[1] text"},
+  {"text":"The box is open. On top, an envelope addressed in a hand that isn't Granny's.","translation":"Скринька відкрита. Згори — конверт, підписаний не бабусиним почерком.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[2] text"},
+  {"text":"The wall clock struck {time}.","translation":"Ходики пробили {time}.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"The photograph is right by Granny Nina's hands.","translation":"Фотографія біля самих рук бабусі Ніни.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Granny Nina's fingers have touched the photograph, right at the cut-out place.","translation":"Пальці бабусі Ніни торкнулися фотографії — біля самого вирізаного місця.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Granny Nina reaches for the photograph but can't reach it.","translation":"Бабуся Ніна тягнеться до фотографії, але не дістає.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"In the open box the letters have shifted a little by themselves: the top envelope has slid to one side.","translation":"У відкритій скриньці листи самі трохи зсунулися: верхній конверт з'їхав набік.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Notebook","translation":"Блокнот","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Ніч на 14 березня 1953 року. Про неї не говорять.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Із загальної фотографії 1952 року акуратно вирізано людину.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Розпитуй людей і речі. Записуй. Пред'являй людям те, що сказали речі.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"close","translation":"закрити","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"}
+]}

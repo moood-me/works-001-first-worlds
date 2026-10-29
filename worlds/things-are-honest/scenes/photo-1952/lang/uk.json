@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"The dacha, June 1952.\nAll of us together.","translation":"Дача, червень 1952.\nУсі разом.","where":"worlds/things-are-honest/scenes/photo-1952/elements/photo.js"},
+  {"text":"PHOTO","translation":"ФОТО","where":"worlds/things-are-honest/scenes/photo-1952/elements/photo.js"},
+  {"text":"The 1952 Photograph","translation":"Знімок 1952 року","where":"worlds/things-are-honest/scenes/photo-1952/scene.json title"},
+  {"text":"A thing remembers who was taken out of it.","translation":"Річ пам'ятає, кого з неї вийняли.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json caption"},
+  {"text":"The edges are wavy: that's how the studio trimmed them. The paper is warm from the lamp.","translation":"Краї хвилясті — так обрізали в ательє. Папір теплий від лампи.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[0] text"},
+  {"text":"The scissors followed the outline slowly. Only at the collar did the hand shake.","translation":"Ножиці йшли по контуру повільно. Тільки біля коміра рука здригнулася.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[1] text"},
+  {"text":"On the shoulder of the woman in white, someone else's hand remains.","translation":"На плечі жінки в білому лишилася чужа рука.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[2] text"},
+  {"text":"The photograph has been turned over: on the back it says “{text}”.","translation":"Фотографію перевернули: на звороті напис — «{text}».","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"A corner of the photograph has curled: the first letters of the inscription show on the back.","translation":"Куточок знімка відігнувся — на звороті видно перші літери напису.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"The lamp has nearly gone out: the photograph can barely be made out.","translation":"Лампа майже згасла — знімок ледве видно.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"The photograph has been put down on the table.","translation":"Фотографію поклали на стіл.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"Notebook","translation":"Блокнот","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Ніч на 14 березня 1953 року. Про неї не говорять.","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Із загальної фотографії 1952 року акуратно вирізано людину.","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Розпитуй людей і речі. Записуй. Пред'являй людям те, що сказали речі.","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"close","translation":"закрити","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"}
+]}

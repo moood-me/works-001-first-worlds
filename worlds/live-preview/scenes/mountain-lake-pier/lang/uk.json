@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"A Pier on a Mountain Lake","translation":"Причал на гірському озері","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json title"},
+  {"text":"The water went still before the light went out.","translation":"Вода стихла раніше, ніж згасло світло.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json caption"},
+  {"text":"The last light is slipping behind the ridge.","translation":"Останнє світло йде за хребет.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[0] text"},
+  {"text":"The lantern was lit a little earlier than it needed to be.","translation":"Ліхтар запалили трохи раніше, ніж було треба.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[1] text"},
+  {"text":"The boat quietly tugs at its rope and goes still again.","translation":"Човен тихо смикає мотузку й знову завмирає.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[2] text"}
+]}

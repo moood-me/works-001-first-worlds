@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Quiet Lake","translation":"Тихе озеро","where":"worlds/quiet-lake/scenes/quiet-lake/scene.json title"},
+  {"text":"A lake so quiet you can hear the sun going down.","translation":"Озеро таке тихе, що чути, як сідає сонце.","where":"worlds/quiet-lake/scenes/quiet-lake/scene.json caption"}
+]}

@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"ТЕЛЕФОН","where":"worlds/kilometre-41/scenes/booth-at-km-41/elements/booth.js"},
+  {"text":"The Booth at Km 41","translation":"Будка біля 41-го км","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json title"},
+  {"text":"Nobody has run a line out here since ninety-eight.","translation":"Сюди не тягнули лінію з дев'яносто восьмого року.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json caption"},
+  {"text":"Kilometre 41. Three in the morning.","translation":"41-й кілометр. Третя ночі.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[0] text"},
+  {"text":"The receiver hangs loose. Someone is breathing on the line.","translation":"Слухавка висить. У ній хтось дихає.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[1] text"},
+  {"text":"There is a note on the glass. The handwriting is yours.","translation":"На склі записка. Почерк — твій.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[2] text"},
+  {"text":"The phone in the booth rang, then fell silent.","translation":"Телефон у будці дзвонив і замовк.","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"},
+  {"text":"Someone lifted the receiver, and the ringing broke off.","translation":"Слухавку зняли — дзвінок обірвався.","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"}
+]}

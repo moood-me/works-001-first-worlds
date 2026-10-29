@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"7  TOWN","translation":"7  МІСТО","where":"worlds/last-number-seven/scenes/last-number-seven/elements/bus.js"},
+  {"text":"The Last Number Seven","translation":"Останній сьомий","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json title"},
+  {"text":"A bus stop by the rice fields. The last bus to town is at 18:47.","translation":"Зупинка біля рисових полів. Останній автобус до міста — о 18:47.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json caption"},
+  {"text":"The last number seven leaves for town at 18:47.","translation":"Останній сьомий іде до міста о 18:47.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[0] text"},
+  {"text":"It took her three days to pack the suitcase. In three years she never found the time to tell him.","translation":"Валізу вона збирала три дні. Сказати йому — не встигла за три роки.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[1] text"},
+  {"text":"He stands at the bend, pretending to fix his chain.","translation":"Він стоїть біля повороту й удає, що поправляє ланцюг.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[2] text"},
+  {"text":"Over the bench a fluorescent lamp blinks and comes on.","translation":"Над лавкою, поблимавши, засвітилася лампа денного світла.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has pulled up at the shelter and opened its doors. The driver looks at the bench and waits.","translation":"Сьомий зупинився біля навісу й відчинив двері. Водій дивиться на лавку й чекає.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town. The bench is empty; only the furin rings.","translation":"Сьомий поїхав до міста. На лавці порожньо, тільки фурін дзвенить.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town without her. Haruna is still on the bench.","translation":"Сьомий поїхав до міста без неї. Харуна лишилася на лавці.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"the seven has gone","translation":"сьомий поїхав","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is at the stop","translation":"сьомий на зупинці","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is coming","translation":"сьомий під'їжджає","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is leaving","translation":"сьомий від'їжджає","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"{left} min to the seven","translation":"до сьомого {left} хв","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is late","translation":"сьомий запізнюється","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"}
+]}

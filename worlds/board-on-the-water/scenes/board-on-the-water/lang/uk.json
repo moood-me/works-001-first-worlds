@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"A Board on the Water","translation":"Дошка на воді","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json title"},
+  {"text":"A game with no reason to hurry.","translation":"Партія, яку нікуди квапити.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json caption"},
+  {"text":"Black to move. They have been thinking it over since last summer.","translation":"Хід чорних. Його обмірковують із минулого літа.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[0] text"},
+  {"text":"The pieces' shadows reach all the way to the edge of the board.","translation":"Тіні фігур сягають аж до краю дошки.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[1] text"},
+  {"text":"The knight looks at the sunset and takes its time.","translation":"Кінь дивиться на захід сонця й не поспішає.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[2] text"},
+  {"text":"The dragon has surfaced to watch the game. It won't give any hints.","translation":"Дракон виринув подивитися партію. Підказувати не буде.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[3] text"}
+]}

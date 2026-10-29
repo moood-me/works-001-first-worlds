@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Abandoned Station in the Steppe","translation":"Покинута станція в степу","where":"worlds/steppe-station/scenes/steppe-station/scene.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"Степ мовчить, ліхтар горить, а перекотиполе котиться назустріч заходу.","where":"worlds/steppe-station/scenes/steppe-station/scene.json caption"},
+  {"text":"The last train came through here so long ago that the rails have forgotten its weight.","translation":"Останній поїзд пройшов тут так давно, що рейки забули його вагу.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[0] text"},
+  {"text":"The wind counts the sleepers and loses count every time.","translation":"Вітер перелічує шпали і щоразу збивається.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[1] text"},
+  {"text":"And the lamp still comes on anyway, out of habit.","translation":"А ліхтар однаково засвічується — за звичкою.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[2] text"}
+]}

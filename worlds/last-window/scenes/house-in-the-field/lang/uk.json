@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"House in the Field","translation":"Дім у полі","where":"worlds/last-window/scenes/house-in-the-field/scene.json title"},
+  {"text":"She doesn't put the light out. Let them know someone is still here.","translation":"Світла вона не гасить. Хай знають, що тут іще хтось є.","where":"worlds/last-window/scenes/house-in-the-field/scene.json caption"},
+  {"text":"The phone has been silent for three weeks.","translation":"Телефон мовчить уже третій тиждень.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[0] text"},
+  {"text":"Someone is standing by the forest again.","translation":"Біля лісу знову хтось стоїть.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[1] text"},
+  {"text":"Every night, a few steps closer.","translation":"Щоночі — на кілька кроків ближче.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[2] text"},
+  {"text":"It is standing right by the house, under the window.","translation":"Воно стоїть біля самого дому, під вікном.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"It has come out of the forest and stands in the middle of the field.","translation":"Воно вийшло з лісу й стоїть посеред поля.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"A tall pale figure stands at the edge of the forest.","translation":"На узліссі стоїть висока бліда постать.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The light in the window has gone out.","translation":"Світло у вікні згасло.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The door of the house is open; light spills onto the snow.","translation":"Двері дому відчинені, світло лягло на сніг.","where":"worlds/last-window/scenes/house-in-the-field/script.js"}
+]}
