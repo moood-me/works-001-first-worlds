@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"The Forty-First Kilometre","translation":"Сорок первый километр","where":"forty-first-kilometre/world.json title"},
-  {"text":"A night bus stop in the fog; the last bus left long ago. On the road stands someone who has come to meet you, with flowers.","translation":"Ночная остановка в тумане, последний автобус давно ушёл. На дороге стоит тот, кто пришёл тебя встретить — с цветами.","where":"forty-first-kilometre/world.json description"}
+  {"text":"The Forty-First Kilometre","translation":"Сорок первый километр","where":"worlds/forty-first-kilometre/world.json title"},
+  {"text":"A night bus stop in the fog; the last bus left long ago. On the road stands someone who has come to meet you, with flowers.","translation":"Ночная остановка в тумане, последний автобус давно ушёл. На дороге стоит тот, кто пришёл тебя встретить — с цветами.","where":"worlds/forty-first-kilometre/world.json description"}
 ]}

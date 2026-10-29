@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"The Embankment","translation":"Набережная","where":"embankment/world.json title"},
-  {"text":"An evening as long as the embankment itself.","translation":"Вечер длинный, как сама набережная.","where":"embankment/world.json description"}
+  {"text":"The Embankment","translation":"Набережная","where":"worlds/embankment/world.json title"},
+  {"text":"An evening as long as the embankment itself.","translation":"Вечер длинный, как сама набережная.","where":"worlds/embankment/world.json description"}
 ]}

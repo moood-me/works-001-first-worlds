@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Elven Glade","translation":"Die Elfenlichtung","where":"worlds/elven-glade/scenes/elven-glade/scene.json title"},
+  {"text":"The night here is longer than it seems.","translation":"Die Nacht ist hier länger, als sie scheint.","where":"worlds/elven-glade/scenes/elven-glade/scene.json caption"},
+  {"text":"The glade is quiet. So quiet you can hear the mushrooms grow.","translation":"Auf der Lichtung ist es still. So still, dass man die Pilze wachsen hört.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[0] text"},
+  {"text":"Someone is waiting by the stream. Has been for a long time.","translation":"Am Bach wartet jemand. Schon lange.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[1] text"}
+]}
