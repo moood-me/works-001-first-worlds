@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Die Brücke über den Nebelfluss","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"Die Mitte der Brücke ist der einzige Ort, an dem sich die beiden Ufer begegnen.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"Die Brücke hält, solange jemand auf ihr wartet.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"Vom anderen Ufer, aus dem Nebel: Schritte.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"Der Wanderer hat die Hüterin erreicht und ist einen Schritt vor ihrer Laterne stehen geblieben","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/script.js"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Embankment","translation":"Die Uferpromenade","where":"worlds/embankment/scenes/embankment/scene.json title"},
+  {"text":"An evening as long as the embankment itself.","translation":"Ein Abend, so lang wie die Promenade selbst.","where":"worlds/embankment/scenes/embankment/scene.json caption"}
+]}

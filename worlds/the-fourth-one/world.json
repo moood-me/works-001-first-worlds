@@ -6,5 +6,5 @@
     "gopnik": 60
   },
   "main": "the-fourth-one",
-  "languages": ["en", "ru", "uk"]
+  "languages": ["en", "ru", "uk", "de"]
 }

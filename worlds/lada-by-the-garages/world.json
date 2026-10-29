@@ -6,5 +6,5 @@
     "gopnik": 60
   },
   "main": "lada-by-the-garages",
-  "languages": ["en", "ru", "uk"]
+  "languages": ["en", "ru", "uk", "de"]
 }

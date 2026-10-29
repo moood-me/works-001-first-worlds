@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Cove by the Boathouse","translation":"Die Bucht am Bootshaus","where":"worlds/quiet-lake/scenes/boathouse-cove/scene.json title"},
+  {"text":"Beyond the reeds the water whispers what isn't said by day.","translation":"Hinter dem Schilf flüstert das Wasser, was man am Tag nicht sagt.","where":"worlds/quiet-lake/scenes/boathouse-cove/scene.json caption"}
+]}

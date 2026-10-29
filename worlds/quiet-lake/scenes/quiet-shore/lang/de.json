@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"Das stille Ufer","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Ein Sandufer, ein regloser See und eine dunkle Kiste direkt am Wasser.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"Die Sonne hat den Wald am anderen Ufer berührt.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"Die Sonne ist untergegangen, über dem See bleibt die Dämmerung.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"Über dem See ist es hell geworden, Nebel kriecht über das Wasser.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"Die Bank ist am Ufer entlang davongelaufen und nicht mehr zu sehen.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"Der Schuppen hat sich auf seine Hühnerbeine erhoben und tritt von einem Fuß auf den anderen.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

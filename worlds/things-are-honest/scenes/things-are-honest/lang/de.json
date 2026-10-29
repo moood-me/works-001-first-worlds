@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Things Are Honest","translation":"Die Dinge sind ehrlich","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"Ein Familienrätsel für einen Abend.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"Herbst. Du bist gekommen, um dich von Oma Nina zu verabschieden. Der Arzt sagte: eine Woche, vielleicht zwei.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"Aus dem Familienfoto von 1952 hat jemand sorgfältig einen Menschen ausgeschnitten, am Umriss entlang, wie aus einer Zeitschrift.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"Die Menschen wissen, was wichtig ist, aber sie sagen nicht die Wahrheit. Die Dinge lügen nicht, aber sie nehmen alles wörtlich.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"Notizbuch","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Die Nacht zum 14. März 1953. Niemand spricht darüber.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Aus dem Familienfoto von 1952 hat jemand sorgfältig einen Menschen ausgeschnitten.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Frag die Menschen und die Dinge. Schreib es auf. Halte den Menschen vor, was die Dinge gesagt haben.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"schließen","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+]}

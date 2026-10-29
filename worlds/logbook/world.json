@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "logbook",
-  "languages": ["en", "ru", "uk"]
+  "languages": ["en", "ru", "uk", "de"]
 }

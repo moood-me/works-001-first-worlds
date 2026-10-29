@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Night Lake","translation":"Der nächtliche See","where":"worlds/night-lake/scenes/night-lake/scene.json title"},
+  {"text":"A small quiet light sways over the dark water.","translation":"Ein kleines, stilles Licht schaukelt über dem dunklen Wasser.","where":"worlds/night-lake/scenes/night-lake/scene.json caption"},
+  {"text":"The torch beam touches the black water.","translation":"Der Strahl der Taschenlampe berührt das schwarze Wasser.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[0] text"},
+  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"Irgendwo unten hat ein Fisch geplätschert, die Kreise breiten sich langsam aus.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[1] text"},
+  {"text":"He counts the fireflies and loses count at seven.","translation":"Er zählt die Glühwürmchen und verzählt sich bei sieben.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[2] text"}
+]}

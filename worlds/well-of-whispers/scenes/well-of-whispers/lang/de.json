@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Der Brunnen des Flüsterns","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"Der Brunnen erinnert sich an jedes Wort, das über ihm gesprochen wurde.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"Hundert Jahre stand der Brunnen vernagelt. Heute Nacht sickert Licht durch die Ritzen.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"Man sagt, er antwortet, aber nur denen, die flüsternd fragen.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"Der Deckel des Brunnens ist aufgeklappt, und von innen steigt kaltes Licht auf.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"Der Deckel des Brunnens hat sich wieder an seinen Platz gelegt, und das Licht ist in die Ritzen zurückgekehrt.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}

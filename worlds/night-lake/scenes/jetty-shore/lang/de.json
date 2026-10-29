@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Shore by the Jetty","translation":"Das Ufer am Steg","where":"worlds/night-lake/scenes/jetty-shore/scene.json title"},
+  {"text":"Wet grass, an old stake and a boat tied up by the dark water.","translation":"Nasses Gras, ein alter Pflock und ein angebundenes Boot am dunklen Wasser.","where":"worlds/night-lake/scenes/jetty-shore/scene.json caption"},
+  {"text":"A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.","translation":"Ein Windstoß: Das Schilf raschelte, das Boot zerrte am Seil am Pflock.","where":"worlds/night-lake/scenes/jetty-shore/script.js"},
+  {"text":"A gust of wind: the reeds rustled, a shiver ran over the water at the edge.","translation":"Ein Windstoß: Das Schilf raschelte, ein Zittern lief über das Wasser am Ufer.","where":"worlds/night-lake/scenes/jetty-shore/script.js"}
+]}

@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"VIEWING DECK · TANKER LADOGA","translation":"AUSSICHTSDECK · TANKER LADOGA","where":"worlds/comms-window/scenes/comms-window/elements/sillface.js"},
+  {"text":"Comms Window","translation":"Funkfenster","where":"worlds/comms-window/scenes/comms-window/scene.json title"},
+  {"text":"Forty minutes before the last relay goes behind Saturn.","translation":"Vierzig Minuten, bis das letzte Relais hinter dem Saturn verschwindet.","where":"worlds/comms-window/scenes/comms-window/scene.json caption"},
+  {"text":"The tanker Ladoga is passing Saturn. The red dot by the rings is the last relay.","translation":"Der Tanker „Ladoga“ zieht am Saturn vorbei. Der rote Punkt bei den Ringen ist das letzte Relais.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[0] text"},
+  {"text":"Forty minutes, and it goes behind the planet. After that, a year of silence all the way to Earth.","translation":"Vierzig Minuten, dann verschwindet es hinter dem Planeten. Danach ein Jahr Stille bis zur Erde.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[1] text"},
+  {"text":"Vera holds her mug in both hands. The tea went cold long ago, but it's warmer this way.","translation":"Vera hält ihren Becher mit beiden Händen. Der Tee ist längst kalt, aber so ist es wärmer.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[2] text"},
+  {"text":"The message from Earth has come through in full.","translation":"Die Nachricht von der Erde ist vollständig angekommen.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. Reception cut off mid-word.","translation":"Das Relais ist hinter dem Planeten verschwunden. Der Empfang brach mitten im Wort ab.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. The comms window has closed.","translation":"Das Relais ist hinter dem Planeten verschwunden. Das Funkfenster hat sich geschlossen.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"{m} min left","translation":"noch {m} Min.","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"closed","translation":"geschlossen","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"receiving a message · {p}%","translation":"Nachricht wird empfangen · {p} %","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"message received","translation":"Nachricht empfangen","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"reception cut off · {p}%","translation":"Empfang abgebrochen · {p} %","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"waiting for a message from Earth","translation":"warten auf eine Nachricht von der Erde","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"comms window · relay","translation":"Funkfenster · Relais","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"}
+]}

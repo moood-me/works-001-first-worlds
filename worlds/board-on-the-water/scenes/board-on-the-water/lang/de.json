@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"A Board on the Water","translation":"Ein Brett auf dem Wasser","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json title"},
+  {"text":"A game with no reason to hurry.","translation":"Eine Partie, die keine Eile kennt.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json caption"},
+  {"text":"Black to move. They have been thinking it over since last summer.","translation":"Schwarz am Zug. Darüber wird seit letztem Sommer nachgedacht.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[0] text"},
+  {"text":"The pieces' shadows reach all the way to the edge of the board.","translation":"Die Schatten der Figuren reichen bis an den Rand des Bretts.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[1] text"},
+  {"text":"The knight looks at the sunset and takes its time.","translation":"Der Springer schaut in den Sonnenuntergang und lässt sich Zeit.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[2] text"},
+  {"text":"The dragon has surfaced to watch the game. It won't give any hints.","translation":"Der Drache ist aufgetaucht, um der Partie zuzusehen. Vorsagen wird er nichts.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[3] text"}
+]}

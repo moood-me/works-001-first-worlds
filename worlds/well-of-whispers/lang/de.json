@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Der Brunnen des Flüsterns","where":"worlds/well-of-whispers/world.json title"},
+  {"text":"A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.","translation":"Ein vernagelter Brunnen mitten in einem nächtlichen Fichtenwald, durch seine Ritzen sickert kaltes Licht. Man sagt, er antwortet denen, die flüsternd fragen.","where":"worlds/well-of-whispers/world.json description"}
+]}

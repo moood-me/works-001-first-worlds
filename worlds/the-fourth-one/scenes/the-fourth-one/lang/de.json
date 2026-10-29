@@ -1,0 +1,14 @@
+{"strings": [
+  {"text":"Lenka's dumb","translation":"Lenka ist doof","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"TSOI LIVES","translation":"ZOI LEBT","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"SPARTAK IST MEISTER","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"The Fourth One Squatting","translation":"Der Vierte in der Hocke","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json title"},
+  {"text":"The garages behind the nine-storey block, ten to three.","translation":"Die Garagen hinter dem Neungeschosser, zehn vor drei.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json caption"},
+  {"text":"The lamp by the garages has been blinking since winter.","translation":"Die Laterne an den Garagen flackert schon seit dem Winter.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[0] text"},
+  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"Schnyr knackt seine Kerne und schaut nicht nach rechts.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[1] text"},
+  {"text":"There are three of them. Four are squatting.","translation":"Sie sind zu dritt. In der Hocke sitzen vier.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[2] text"},
+  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"Der Vierte ist ganz dicht herangerückt, mitten ins Licht, und streckt stumm die Hand aus: Hast du mal 'ne Kippe?","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"Das Tor der dritten Garage öffnet sich knarrend einen Spalt. Niemand kommt heraus.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"Während die Laterne flackerte, ist der Vierte einen Schritt näher gerückt.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"Shnyr has run out of seeds.","translation":"Schnyr sind die Kerne ausgegangen.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"}
+]}

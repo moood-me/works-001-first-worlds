@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Abandoned Station in the Steppe","translation":"Verlassene Station in der Steppe","where":"worlds/steppe-station/world.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"Die Steppe schweigt, die Laterne brennt, und ein Steppenroller rollt in den Sonnenuntergang.","where":"worlds/steppe-station/world.json description"}
+]}

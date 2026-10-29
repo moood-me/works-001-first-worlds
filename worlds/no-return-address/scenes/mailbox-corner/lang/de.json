@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Corner by the Mailbox","translation":"Die Ecke am Briefkasten","where":"worlds/no-return-address/scenes/mailbox-corner/scene.json title"},
+  {"text":"A letter with no return address","translation":"Ein Brief ohne Absender","where":"worlds/no-return-address/scenes/mailbox-corner/scene.json caption"},
+  {"text":"The rain knows every address.","translation":"Der Regen kennt jede Adresse.","where":"worlds/no-return-address/scenes/mailbox-corner/scene.json captions[0] text"},
+  {"text":"She writes with no return address.","translation":"Sie schreibt ohne Absender.","where":"worlds/no-return-address/scenes/mailbox-corner/scene.json captions[1] text"},
+  {"text":"In the window across the street, someone is still awake.","translation":"Im Fenster gegenüber ist noch jemand wach.","where":"worlds/no-return-address/scenes/mailbox-corner/scene.json captions[2] text"}
+]}
