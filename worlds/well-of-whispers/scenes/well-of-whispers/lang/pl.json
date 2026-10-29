@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Studnia szeptów","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"Studnia pamięta każde słowo wypowiedziane nad nią.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"Przez sto lat studnia stała zabita deskami. Tej nocy przez szczeliny sączy się światło.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"Mówią, że odpowiada – ale tylko tym, którzy pytają szeptem.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"Pokrywa studni się odchyliła – ze środka wznosi się zimne światło.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"Pokrywa studni znów opadła na miejsce, światło wróciło w szczeliny.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}

@@ -1,0 +1,13 @@
+{"strings": [
+  {"text":"The Rocks Below the Lighthouse","translation":"Kamienie pod latarnią","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json title"},
+  {"text":"Black rocks, foam, and something glassy right at the water's edge.","translation":"Czarne kamienie, piana – i coś szklanego nad samą wodą.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json caption"},
+  {"text":"Down by the rocks it's colder. Salt settles on your lips.","translation":"Na dole, przy kamieniach, jest zimniej. Sól osiada na wargach.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[0] text"},
+  {"text":"When the beam passes, green glass flashes right at the water's edge.","translation":"Kiedy przechodzi snop światła, nad samą wodą błyska zielone szkło.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[1] text"},
+  {"text":"The heavy surf knocked the bottle out of the rocks; a wave rolled it almost to your feet.","translation":"Silny przybój wybił butelkę spomiędzy kamieni – fala podtoczyła ją niemal pod nogi.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The lighthouse beam swept the shore; right at the water, between the rocks, green glass flashed.","translation":"Snop światła latarni przeszedł po brzegu – nad samą wodą, między kamieniami, błysnęło zielone szkło.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player reaches for the bottle between the rocks: icy water, foam up to the ankles.","translation":"Gracz sięga po butelkę między kamieniami – lodowata woda, piana po kostki.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player has picked the bottle out of the foam. Inside, a rolled-up note tied with red thread; the neck is sealed with wax.","translation":"Gracz wyłowił butelkę z piany. W środku zwinięta kartka przewiązana czerwoną nitką; szyjka zalana lakiem.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player bends over the shards: the note is soaked, but still holding together.","translation":"Gracz pochyla się nad odłamkami – kartka przemokła, ale jeszcze się trzyma.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player turns the bottle over in their hands, peering at the note through the wet glass.","translation":"Gracz obraca butelkę w rękach, przygląda się kartce przez mokre szkło.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"Wick doesn't take his eyes off the bottle; his ears are flattened against the wind.","translation":"Knot nie spuszcza oczu z butelki; uszy położył po sobie od wiatru.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"}
+]}

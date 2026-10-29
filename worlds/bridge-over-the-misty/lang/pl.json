@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Most nad Mglistą","where":"worlds/bridge-over-the-misty/world.json title"},
+  {"text":"An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.","translation":"Stary kamienny most nad wąwozem pełnym mgły. Strażniczka z latarnią czeka na środku, a z drugiego brzegu, z mgły, ktoś idzie jej naprzeciw.","where":"worlds/bridge-over-the-misty/world.json description"}
+]}

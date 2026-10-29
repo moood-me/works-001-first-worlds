@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Night Lake","translation":"Nocne jezioro","where":"worlds/night-lake/scenes/night-lake/scene.json title"},
+  {"text":"A small quiet light sways over the dark water.","translation":"Cichy płomyk kołysze się nad ciemną wodą.","where":"worlds/night-lake/scenes/night-lake/scene.json caption"},
+  {"text":"The torch beam touches the black water.","translation":"Snop światła latarki dotyka czarnej wody.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[0] text"},
+  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"Gdzieś w dole plusnęła ryba – kręgi rozchodzą się powoli.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[1] text"},
+  {"text":"He counts the fireflies and loses count at seven.","translation":"Liczy świetliki i myli się na siódmym.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[2] text"}
+]}

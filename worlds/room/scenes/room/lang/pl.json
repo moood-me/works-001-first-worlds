@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Room","translation":"Pokój","where":"worlds/room/scenes/room/scene.json title"},
+  {"text":"The cat knows where it's warmer.","translation":"Kot wie, gdzie cieplej.","where":"worlds/room/scenes/room/scene.json caption"}
+]}

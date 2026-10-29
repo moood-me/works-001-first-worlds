@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Elven Glade","translation":"Elfia polana","where":"worlds/elven-glade/scenes/elven-glade/scene.json title"},
+  {"text":"The night here is longer than it seems.","translation":"Noc trwa tu dłużej, niż się wydaje.","where":"worlds/elven-glade/scenes/elven-glade/scene.json caption"},
+  {"text":"The glade is quiet. So quiet you can hear the mushrooms grow.","translation":"Na polanie cicho. Tak cicho, że słychać, jak rosną grzyby.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[0] text"},
+  {"text":"Someone is waiting by the stream. Has been for a long time.","translation":"Przy strumieniu ktoś czeka. Od dawna.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[1] text"}
+]}

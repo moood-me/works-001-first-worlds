@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Last Number Seven","translation":"Ostatnia siódemka","where":"worlds/last-number-seven/world.json title"},
+  {"text":"A village bus stop by the flooded rice fields, a summer sunset. Haruna sits with her suitcase, waiting for the last bus to town. Sota stands at the bend with his bike and says nothing. Twenty-seven minutes until 18:47.","translation":"Wiejski przystanek przy zalanych polach ryżowych, letni zachód słońca. Haruna siedzi z walizką i czeka na ostatni autobus do miasta. Sota stoi przy zakręcie z rowerem i milczy. Do 18:47 – dwadzieścia siedem minut.","where":"worlds/last-number-seven/world.json description"}
+]}

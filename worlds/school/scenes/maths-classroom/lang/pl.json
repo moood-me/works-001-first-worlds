@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"2nd October","translation":"2 października","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"Classwork","translation":"Praca na lekcji","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"HW: ex. 214, 217","translation":"Pr. dom.: zad. 214, 217","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"PYTHAGORAS","translation":"PITAGORAS","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"DESCARTES","translation":"KARTEZJUSZ","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"LOBACHEVSKY","translation":"ŁOBACZEWSKI","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"KOVALEVSKAYA","translation":"KOWALEWSKA","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"GEOMETRIC SOLIDS","translation":"BRYŁY GEOMETRYCZNE","where":"worlds/school/scenes/maths-classroom/elements/poster_bodies.js"},
+  {"text":"PYTHAGOREAN THEOREM","translation":"TWIERDZENIE PITAGORASA","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"TABLE OF SQUARES","translation":"TABLICA KWADRATÓW","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"The Maths Classroom","translation":"Sala matematyczna","where":"worlds/school/scenes/maths-classroom/scene.json title"},
+  {"text":"After lessons. You can hear the clock ticking.","translation":"Po lekcjach. Słychać tykanie zegara.","where":"worlds/school/scenes/maths-classroom/scene.json caption"},
+  {"text":"The bell rang long ago. The formulas are still on the board.","translation":"Dzwonek był dawno. Wzory zostały na tablicy.","where":"worlds/school/scenes/maths-classroom/scene.json captions[0] text"},
+  {"text":"The dust in the sunbeam is slowly working out its own problem.","translation":"Kurz w promieniu słońca powoli rozwiązuje własne zadanie.","where":"worlds/school/scenes/maths-classroom/scene.json captions[1] text"},
+  {"text":"The second hand is counting the silence.","translation":"Wskazówka sekundowa odlicza ciszę.","where":"worlds/school/scenes/maths-classroom/scene.json captions[2] text"}
+]}

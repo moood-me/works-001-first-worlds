@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"The Grapevine Engine","translation":"Silnik poczty pantoflowej","where":"worlds/grapevine/scenes/grapevine/scene.json title"},
+  {"text":"Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.","translation":"Powiedz kotu „jestem z ministerstwa”, a do wieczora będziesz tajnym dziedzicem, który osuszy staw.","where":"worlds/grapevine/scenes/grapevine/scene.json caption"},
+  {"text":"I'm from the ministry, by the way.","translation":"Ja, tak między nami, jestem z ministerstwa.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"I love fish. Fried, especially.","translation":"Uwielbiam ryby. Zwłaszcza smażone.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"The pond's got a bit shallow.","translation":"Coś ten staw zrobił się płytki.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"There's no one here to even talk to.","translation":"Nie mam tu nawet z kim pogadać.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Found a key. No idea what it opens.","translation":"Znalazłem klucz. Nie wiem od czego.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"“{phrase}”","translation":"„{phrase}”","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.","translation":"Ranek. Do wieczora co najmniej pięć osób na podwórku ma być pewnych: 🛡️ staw jest pod ochroną państwa. Staw jest dziś nie w humorze – jemu nie szepcz.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.","translation":"Wybierz zdanie, kliknij mieszkańca i szepnij mu je. Każdy przekaże je sąsiadom po swojemu: kot wszystko sprowadza do jedzenia, babcia Zina – do serialu, gołąb – do spisku, latarnia – do obiektów strzeżonych, Pietka – do bohaterów, Luba powtarza słowo w słowo, a staw wszystko bierze do siebie.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"}
+]}
