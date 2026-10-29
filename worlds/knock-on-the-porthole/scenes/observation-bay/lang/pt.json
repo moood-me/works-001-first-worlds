@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"LIDA · BAY 4","translation":"LIDA · BAIA 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"O2 {oxygen}%   PWR {power}%","translation":"O2 {oxygen}%   ENER {power}%","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"CREW ON BOARD: 3/3","translation":"TRIPULAÇÃO A BORDO: 3/3","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"NOISE: HULL, SECT. 4","translation":"RUÍDO: CASCO, SEÇ. 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"CRYO-3","translation":"CRIO-3","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/pod.js"},
+  {"text":"OBSERVATION BAY · 4","translation":"BAIA DE OBSERVAÇÃO · 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/wall.js"},
+  {"text":"The Ladoga's Observation Bay","translation":"A baia de observação da Ladoga","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json title"},
+  {"text":"Day three adrift by a dead star. The oxygen is running out. Someone is knocking on the glass from outside.","translation":"Terceiro dia à deriva perto de uma estrela morta. O oxigênio está acabando. Alguém está batendo no vidro do lado de fora.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json caption"},
+  {"text":"For three days the Ladoga has been drifting by a dead star. No contact.","translation":"Há três dias a Ladoga está à deriva perto de uma estrela morta. Sem contato.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[0] text"},
+  {"text":"Gordeev went outside on Tuesday. The tether was reeled in empty.","translation":"Gordeev saiu na terça-feira. O cabo voltou vazio.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[1] text"},
+  {"text":"LIDA counts the crew again. Three out of three on board.","translation":"LIDA conta a tripulação de novo. Três de três a bordo.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[2] text"},
+  {"text":"Someone knocked on the glass from outside: three times, evenly, the way you knock on a door.","translation":"Alguém bateu no vidro do lado de fora: três vezes, compassadas, como quem bate numa porta.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"On the frost of pod 3 a handprint has appeared from the inside.","translation":"Na geada da cápsula 3 apareceu uma marca de mão, por dentro.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"The spacesuit has drifted right up and pressed its glove to the glass.","translation":"O traje espacial chegou bem perto e encostou a luva no vidro.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"Ten percent of the oxygen is left in the bay.","translation":"Restam dez por cento de oxigênio na baia.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"}
+]}

@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"Margem quieta","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Uma margem de areia, um lago imóvel e uma caixa escura bem à beira d’água.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"O sol tocou a floresta na outra margem.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"O sol se pôs; sobre o lago ficou o crepúsculo.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"Amanheceu sobre o lago; a névoa se arrasta sobre a água.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"O banco saiu andando pela margem e sumiu de vista.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"O galpão se levantou sobre suas pernas de galinha e está lá, trocando o peso de um pé para o outro.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

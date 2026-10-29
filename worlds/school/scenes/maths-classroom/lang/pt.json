@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"2nd October","translation":"2 de outubro","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"Classwork","translation":"Exercícios em classe","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"HW: ex. 214, 217","translation":"Lição de casa: ex. 214, 217","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"PYTHAGORAS","translation":"PITÁGORAS","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"DESCARTES","translation":"DESCARTES","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"LOBACHEVSKY","translation":"LOBATCHEVSKI","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"KOVALEVSKAYA","translation":"KOVALEVSKAIA","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"GEOMETRIC SOLIDS","translation":"SÓLIDOS GEOMÉTRICOS","where":"worlds/school/scenes/maths-classroom/elements/poster_bodies.js"},
+  {"text":"PYTHAGOREAN THEOREM","translation":"TEOREMA DE PITÁGORAS","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"TABLE OF SQUARES","translation":"TABELA DE QUADRADOS","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"The Maths Classroom","translation":"A sala de matemática","where":"worlds/school/scenes/maths-classroom/scene.json title"},
+  {"text":"After lessons. You can hear the clock ticking.","translation":"Depois das aulas. Dá para ouvir o relógio fazendo tique-taque.","where":"worlds/school/scenes/maths-classroom/scene.json caption"},
+  {"text":"The bell rang long ago. The formulas are still on the board.","translation":"O sinal tocou faz tempo. As fórmulas continuam na lousa.","where":"worlds/school/scenes/maths-classroom/scene.json captions[0] text"},
+  {"text":"The dust in the sunbeam is slowly working out its own problem.","translation":"A poeira no raio de sol vai resolvendo devagar o seu próprio problema.","where":"worlds/school/scenes/maths-classroom/scene.json captions[1] text"},
+  {"text":"The second hand is counting the silence.","translation":"O ponteiro dos segundos conta o silêncio.","where":"worlds/school/scenes/maths-classroom/scene.json captions[2] text"}
+]}

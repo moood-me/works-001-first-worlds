@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"A beira da ponte","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json title"},
+  {"text":"She shines her light into the void, in case someone answers.","translation":"Ela ilumina o vazio, caso alguém responda.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json caption"},
+  {"text":"For three hundred years the bridge has broken off here.","translation":"Há trezentos anos a ponte termina aqui.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[0] text"},
+  {"text":"Every evening she lights the lantern, in case someone is still left over there.","translation":"Toda noite ela acende a lanterna, caso ainda tenha restado alguém do outro lado.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[1] text"},
+  {"text":"The mist below doesn't remember where the bridge once led.","translation":"A névoa lá embaixo não se lembra para onde a ponte levava.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[2] text"},
+  {"text":"The sky whale has gone beyond the edge of the mist","translation":"A baleia do céu passou para além da beira da névoa","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/script.js"}
+]}

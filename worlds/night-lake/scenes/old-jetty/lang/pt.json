@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Old Jetty","translation":"O velho trapiche","where":"worlds/night-lake/scenes/old-jetty/scene.json title"},
+  {"text":"Black water under the boards, a boat tied up at the edge.","translation":"Água preta debaixo das tábuas, um barco amarrado na beirada.","where":"worlds/night-lake/scenes/old-jetty/scene.json caption"}
+]}

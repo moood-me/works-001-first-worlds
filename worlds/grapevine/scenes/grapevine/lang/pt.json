@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"The Grapevine Engine","translation":"O motor do boca a boca","where":"worlds/grapevine/scenes/grapevine/scene.json title"},
+  {"text":"Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.","translation":"Diga ao gato “sou do ministério”, e à noite você já é o herdeiro secreto que vai drenar o lago.","where":"worlds/grapevine/scenes/grapevine/scene.json caption"},
+  {"text":"I'm from the ministry, by the way.","translation":"Aliás, eu sou do ministério.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"I love fish. Fried, especially.","translation":"Eu adoro peixe. Frito, principalmente.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"The pond's got a bit shallow.","translation":"O lago anda meio raso.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"There's no one here to even talk to.","translation":"Aqui não tenho nem com quem conversar.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Found a key. No idea what it opens.","translation":"Achei uma chave. Não faço ideia do que ela abre.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"“{phrase}”","translation":"“{phrase}”","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.","translation":"Manhã. Até a noite, pelo menos cinco pessoas no pátio têm que ter certeza: 🛡️ o lago é protegido pelo governo. O lago está de mau humor hoje, então não cochiche com ele.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.","translation":"Escolha uma frase, clique num morador e cochiche para ele. Cada um reconta aos vizinhos do seu jeito: o gato leva tudo para a comida, a vó Zina para a novela dela, o pombo para uma conspiração, o poste para áreas restritas, o Petka para heróis, a Liuba passa adiante palavra por palavra, e o lago leva tudo para o lado pessoal.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"}
+]}

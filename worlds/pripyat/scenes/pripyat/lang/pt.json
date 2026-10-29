@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Pripyat","translation":"Pripyat","where":"worlds/pripyat/scenes/pripyat/scene.json title"},
+  {"text":"Only the wind and the trees live here now.","translation":"Agora só o vento e as árvores moram aqui.","where":"worlds/pripyat/scenes/pripyat/scene.json caption"},
+  {"text":"They left for three days. They took only their papers.","translation":"Saíram por três dias. Levaram só os documentos.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[0] text"},
+  {"text":"The wheel was meant to start turning on the first of May.","translation":"A roda-gigante ia começar a girar no primeiro de maio.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[1] text"},
+  {"text":"The cabins still sway. Only from the wind.","translation":"As cabines ainda balançam. Só por causa do vento.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[2] text"},
+  {"text":"Forty years of silence.","translation":"Quarenta anos de silêncio.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[3] text"}
+]}

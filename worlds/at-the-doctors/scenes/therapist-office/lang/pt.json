@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"The Psychotherapist's Office","translation":"O consultório da psicoterapeuta","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json title"},
+  {"text":"Here you can stay silent for as long as you need.","translation":"Aqui você pode ficar em silêncio o tempo que precisar.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json caption"},
+  {"text":"The clock ticks. Nobody rushes you here.","translation":"O relógio faz tique-taque. Aqui ninguém te apressa.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[0] text"},
+  {"text":"She waits for the pause to finish speaking for itself.","translation":"Ela espera que a pausa termine de falar sozinha.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[1] text"},
+  {"text":"The glass of water still stands untouched.","translation":"O copo d’água continua lá, intocado.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[2] text"},
+  {"text":"Ten to six: five minutes left of the session.","translation":"Dez para as seis: faltam cinco minutos para o fim da sessão.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"},
+  {"text":"Five to six: the session's time is up.","translation":"Cinco para as seis: o tempo da sessão acabou.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"}
+]}

@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"A ponte sobre o Rio Nevoento","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"O meio da ponte é o único lugar onde as duas margens se encontram.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"A ponte se sustenta enquanto alguém espera nela.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"Da outra margem, saindo da névoa: passos.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"O viajante chegou até a guardiã e parou a um passo da lanterna dela","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/script.js"}
+]}

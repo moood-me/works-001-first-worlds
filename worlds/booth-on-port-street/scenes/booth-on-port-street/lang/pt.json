@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"TELEFONE","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/elements/booth.js"},
+  {"text":"HOTEL","translation":"HOTEL","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/elements/hotel.js"},
+  {"text":"The Booth on Port Street","translation":"A cabine da Rua do Porto","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json title"},
+  {"text":"Rain, a street lamp, and a booth that doesn't ring.","translation":"Chuva, um poste e uma cabine que não toca.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json caption"},
+  {"text":"Three in the morning. The port is asleep.","translation":"Três da manhã. O porto dorme.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[0] text"},
+  {"text":"For forty minutes the phone in the booth has been silent.","translation":"Há quarenta minutos o telefone da cabine está mudo.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[1] text"},
+  {"text":"He counts the windows opposite. One is lit.","translation":"Ele conta as janelas em frente. Uma está acesa.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[2] text"},
+  {"text":"A car went by and didn't slow down.","translation":"Um carro passou e não diminuiu a velocidade.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/script.js"}
+]}

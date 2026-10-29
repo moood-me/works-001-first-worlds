@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Things Are Honest","translation":"As coisas são honestas","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"Um mistério de família para uma noite.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"Outono. Você veio se despedir da vó Nina. O médico disse uma semana, talvez duas.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"Alguém foi recortado com cuidado da fotografia de família de 1952, pelo contorno, como de uma revista.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"As pessoas sabem o que importa, mas não dizem a verdade. As coisas não mentem, mas entendem tudo ao pé da letra.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"Caderno","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"A noite de 14 de março de 1953. Ninguém fala dela.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Alguém foi recortado com cuidado da fotografia de família de 1952.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Pergunte às pessoas e às coisas. Anote. Confronte as pessoas com o que as coisas disseram.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"fechar","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+]}

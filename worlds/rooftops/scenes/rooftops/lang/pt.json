@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Rooftops","translation":"Telhados","where":"worlds/rooftops/scenes/rooftops/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → para correr, espaço para pular.","where":"worlds/rooftops/scenes/rooftops/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"Ele chegou até a gata na beira dos telhados. A gata: “Miau. Daqui em diante, só a lua.”","where":"worlds/rooftops/scenes/rooftops/script.js"}
+]}

@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"No portão do parque","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"O portão à frente. Alguém atrás.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"A trilha se divide no portão.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"O poste junto ao portãozinho se apaga e depois se lembra de novo de que é um poste.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"Você chegou ao portão: está fechado e acorrentado.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"Você chegou ao portão: está fechado.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"Você saiu pelo portão e desapareceu na névoa do outro lado.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"Você puxa o portãozinho: a corrente tilinta, o cadeado aguenta.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"O portão se abre rangendo. Do outro lado, uma névoa pálida.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"Você voltou do outro lado do portão para a trilha.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"A Morte atravessou o portão trancado e espera do outro lado, na névoa.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"A Morte atravessou o portão aberto e espera do outro lado, na névoa.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"A Morte se aproximou e parou ao seu lado.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"A Morte alcançou você.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Você chegou ao portão do parque. Grades molhadas, uma corrente e névoa do outro lado. A trilha também segue adiante, para dentro do parque.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"A névoa se fechou: mal dá para ver a trilha de volta, só os postes junto ao portão.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}

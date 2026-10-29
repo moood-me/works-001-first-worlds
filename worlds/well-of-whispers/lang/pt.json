@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"O poço dos sussurros","where":"worlds/well-of-whispers/world.json title"},
+  {"text":"A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.","translation":"Um poço tapado com tábuas no meio de um bosque de abetos à noite, com uma luz fria vazando pelas frestas. Dizem que ele responde a quem pergunta sussurrando.","where":"worlds/well-of-whispers/world.json description"}
+]}

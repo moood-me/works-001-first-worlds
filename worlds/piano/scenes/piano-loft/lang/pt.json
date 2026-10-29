@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Loft with a Piano","translation":"Loft com um piano","where":"worlds/piano/scenes/piano-loft/scene.json title"},
+  {"text":"Warm light, brick and the silence between the notes.","translation":"Luz quente, tijolo e o silêncio entre as notas.","where":"worlds/piano/scenes/piano-loft/scene.json caption"},
+  {"text":"The city outside the window is lighting its windows.","translation":"A cidade lá fora está acendendo suas janelas.","where":"worlds/piano/scenes/piano-loft/scene.json captions[0] text"},
+  {"text":"The lid is open: someone has just been playing.","translation":"A tampa está aberta: alguém acabou de tocar.","where":"worlds/piano/scenes/piano-loft/scene.json captions[1] text"},
+  {"text":"The cat has taken the bench and has no plans to give it up.","translation":"O gato tomou o banquinho e não pretende sair.","where":"worlds/piano/scenes/piano-loft/scene.json captions[2] text"},
+  {"text":"One click on the bulbs, and the light goes out.","translation":"Um clique nas lâmpadas, e a luz se apaga.","where":"worlds/piano/scenes/piano-loft/scene.json captions[3] text"}
+]}

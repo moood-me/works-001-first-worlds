@@ -1,0 +1,14 @@
+{"strings": [
+  {"text":"Lenka's dumb","translation":"Lenka é boba","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"TSOI LIVES","translation":"TSOI VIVE","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"SPARTAK CAMPEÃO","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"The Fourth One Squatting","translation":"O quarto cara de cócoras","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json title"},
+  {"text":"The garages behind the nine-storey block, ten to three.","translation":"As garagens atrás do prédio de nove andares, dez para as três.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json caption"},
+  {"text":"The lamp by the garages has been blinking since winter.","translation":"O poste perto das garagens está piscando desde o inverno.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[0] text"},
+  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"O Chnyr quebra as sementes e não olha para a direita.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[1] text"},
+  {"text":"There are three of them. Four are squatting.","translation":"Eles são três. De cócoras estão quatro.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[2] text"},
+  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"O quarto se agachou bem do lado deles, bem na luz, e em silêncio estende a mão: tem um cigarro?","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"A porta da terceira garagem se entreabre rangendo. Ninguém sai.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"Enquanto o poste piscava, o quarto chegou um passo mais perto.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"Shnyr has run out of seeds.","translation":"As sementes do Chnyr acabaram.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"}
+]}

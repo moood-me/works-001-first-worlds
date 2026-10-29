@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Roof","translation":"O telhado","where":"worlds/piano/scenes/roof/scene.json title"},
+  {"text":"Blue hour, wind in the sheets and lights below.","translation":"Hora azul, vento nos lençóis e luzes lá embaixo.","where":"worlds/piano/scenes/roof/scene.json caption"},
+  {"text":"The blue hour is over: real night above the roof.","translation":"A hora azul acabou: noite de verdade sobre o telhado.","where":"worlds/piano/scenes/roof/script.js"},
+  {"text":"The city below has lit nearly all its windows.","translation":"A cidade lá embaixo acendeu quase todas as janelas.","where":"worlds/piano/scenes/roof/script.js"}
+]}

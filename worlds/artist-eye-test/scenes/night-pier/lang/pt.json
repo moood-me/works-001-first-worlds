@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Night Pier","translation":"O píer à noite","where":"worlds/artist-eye-test/scenes/night-pier/scene.json title"},
+  {"text":"Mist lies on the water, and the boat seems to hang in the air.","translation":"A névoa se deita sobre a água, e o barco parece flutuar no ar.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json caption"},
+  {"text":"The lantern burns at the very end, for whoever hasn't rowed in yet.","translation":"A lanterna arde bem na ponta, para quem ainda não chegou remando.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[0] text"},
+  {"text":"Somewhere in the mist an oar knocked softly against a boat.","translation":"Em algum lugar na névoa, um remo bateu de leve num barco.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[1] text"},
+  {"text":"The fisherman isn't watching his float. He watches the mist moving toward the boat.","translation":"O pescador não olha para a boia. Ele olha a névoa vindo em direção ao barco.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[2] text"}
+]}

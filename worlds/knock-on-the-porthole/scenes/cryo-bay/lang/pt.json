@@ -1,0 +1,20 @@
+{"strings": [
+  {"text":"LIDA · O2 {oxygen}%","translation":"LIDA · O2 {oxygen}%","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/lida.js"},
+  {"text":"MANUAL RELEASE","translation":"ABERTURA MANUAL","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · OPEN","translation":"CRIO-3 · ABERTA","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · READY","translation":"CRIO-3 · PRONTA","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · LOCKED","translation":"CRIO-3 · TRAVADA","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"PULL DOWN","translation":"PUXE PARA BAIXO","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-2","translation":"CRIO-2","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/pod2.js"},
+  {"text":"CRYO-3","translation":"CRIO-3","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/pod3.js"},
+  {"text":"CRYO-4","translation":"CRIO-4","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/pod4.js"},
+  {"text":"The Ladoga's Cryo Bay","translation":"A baia criogênica da Ladoga","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/scene.json title"},
+  {"text":"A cramped cluster of pods. Frost on the third.","translation":"Um amontoado apertado de cápsulas. Geada na terceira.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/scene.json caption"},
+  {"text":"Behind the frost of pod 3 a dark silhouette seemed to stir, and went still again.","translation":"Atrás da geada da cápsula 3, uma silhueta escura pareceu se mexer, e ficou imóvel de novo.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The frost on the glass of pod 3 has almost gone; the glass is wet, and a silhouette shows through it.","translation":"A geada no vidro da cápsula 3 quase sumiu; o vidro está molhado, e uma silhueta aparece através dele.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The glass of pod 3 has fogged up from Vera's breath.","translation":"O vidro da cápsula 3 embaçou com a respiração de Vera.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The lock of pod 3 has clicked; icy vapour seeps from the gap.","translation":"A trava da cápsula 3 estalou; um vapor gelado escapa pela fresta.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The door of pod 3 is flung wide open, vapour creeps across the floor.","translation":"A porta da cápsula 3 está escancarada, o vapor se arrasta pelo chão.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"All three safety catches of the manual panel are off: the lever is free.","translation":"As três travas de segurança do painel manual estão soltas: a alavanca está livre.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"Ten percent of the oxygen is left on board.","translation":"Restam dez por cento de oxigênio a bordo.","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"}
+]}

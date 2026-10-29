@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"The Bench by the Lamp","translation":"O banco junto ao poste","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
+  {"text":"A bench under a street lamp. A place for two.","translation":"Um banco sob um poste de luz. Um lugar para dois.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
+  {"text":"Breath turns to steam. Only yours.","translation":"A respiração vira vapor. Só a sua.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
+  {"text":"You came up to the bench. Death looked up at you.","translation":"Você chegou ao banco. A Morte ergueu os olhos para você.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench next to Death.","translation":"Você se sentou no banco ao lado da Morte.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench.","translation":"Você se sentou no banco.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You walked away from the bench along the path.","translation":"Você se afastou do banco pela trilha.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"A Morte foi embora pela trilha e sumiu para além dos postes.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"}
+]}

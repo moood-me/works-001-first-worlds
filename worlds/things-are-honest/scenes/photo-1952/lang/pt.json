@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"The dacha, June 1952.\nAll of us together.","translation":"A datcha, junho de 1952.\nTodos nós juntos.","where":"worlds/things-are-honest/scenes/photo-1952/elements/photo.js"},
+  {"text":"PHOTO","translation":"FOTO","where":"worlds/things-are-honest/scenes/photo-1952/elements/photo.js"},
+  {"text":"The 1952 Photograph","translation":"A fotografia de 1952","where":"worlds/things-are-honest/scenes/photo-1952/scene.json title"},
+  {"text":"A thing remembers who was taken out of it.","translation":"Uma coisa se lembra de quem foi tirado dela.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json caption"},
+  {"text":"The edges are wavy: that's how the studio trimmed them. The paper is warm from the lamp.","translation":"As bordas são onduladas: era assim que o estúdio cortava. O papel está quente da lâmpada.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[0] text"},
+  {"text":"The scissors followed the outline slowly. Only at the collar did the hand shake.","translation":"A tesoura seguiu o contorno devagar. Só na gola a mão tremeu.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[1] text"},
+  {"text":"On the shoulder of the woman in white, someone else's hand remains.","translation":"No ombro da mulher de branco ficou a mão de outra pessoa.","where":"worlds/things-are-honest/scenes/photo-1952/scene.json captions[2] text"},
+  {"text":"The photograph has been turned over: on the back it says “{text}”.","translation":"Viraram a fotografia: no verso está escrito “{text}”.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"A corner of the photograph has curled: the first letters of the inscription show on the back.","translation":"Um canto da fotografia se curvou: no verso aparecem as primeiras letras da inscrição.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"The lamp has nearly gone out: the photograph can barely be made out.","translation":"A lâmpada quase se apagou: mal dá para distinguir a fotografia.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"The photograph has been put down on the table.","translation":"Puseram a fotografia na mesa.","where":"worlds/things-are-honest/scenes/photo-1952/script.js"},
+  {"text":"Notebook","translation":"Caderno","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"A noite de 14 de março de 1953. Ninguém fala dela.","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Alguém foi recortado com cuidado da fotografia de família de 1952.","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Pergunte às pessoas e às coisas. Anote. Confronte as pessoas com o que as coisas disseram.","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"},
+  {"text":"close","translation":"fechar","where":"worlds/things-are-honest/scenes/photo-1952/widgets/notebook.html"}
+]}

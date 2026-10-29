@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"HOTEL","translation":"HOTEL","where":"worlds/under-the-lamp/scenes/under-the-lamp/elements/hotel.js"},
+  {"text":"Under the Lamp","translation":"Debaixo do poste","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json title"},
+  {"text":"He said: at two, outside the Metropol, under the lamp.","translation":"Ele disse: às duas, em frente ao Metropol, debaixo do poste.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json caption"},
+  {"text":"A quarter to three. Her third cigarette.","translation":"Quinze para as três. O terceiro cigarro dela.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[0] text"},
+  {"text":"You hear the footsteps before you see the hat.","translation":"Você ouve os passos antes de ver o chapéu.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[1] text"}
+]}

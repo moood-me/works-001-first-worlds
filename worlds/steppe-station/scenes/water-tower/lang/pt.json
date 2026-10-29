@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"A caixa-d’água","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Uma velha caixa-d’água; a sombra dela se estende sobre os dormentes.","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"O viajante chegou e está parado junto à caixa-d’água.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"O viajante chegou e está parado junto ao prédio da estação, ao lado do poste.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"O viajante chegou e está parado junto ao velho galpão.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"A portinhola enferrujada na base da torre cedeu com um rangido e se abriu; dentro está escuro e cheira a água velha.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"A portinhola está escancarada.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"A portinhola bateu com um baque surdo de ferro.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"O amaranto-bravo rolou até a torre e ficou preso no mato junto à base de concreto.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"O vento arrancou o amaranto-bravo da torre e o levou rolando para a estepe.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"A corrente começou a balançar e tilinta contra a escada enferrujada.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"O poste junto à estação se apagou.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"O poste junto à estação voltou a acender, piscando.","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}

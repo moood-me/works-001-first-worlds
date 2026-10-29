@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"Amanhecer no lago","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"A névoa ainda não decidiu se vai embora.","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json caption"},
+  {"text":"The fisherman has been sitting here since four. Not a single bite yet.","translation":"O pescador está sentado aqui desde as quatro. Nenhuma mordida até agora.","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json captions[0] text"},
+  {"text":"He says he doesn't come for the fish.","translation":"Ele diz que não vem pelos peixes.","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json captions[1] text"}
+]}

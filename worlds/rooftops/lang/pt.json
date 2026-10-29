@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Rooftops","translation":"Telhados","where":"worlds/rooftops/world.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → para correr, espaço para pular.","where":"worlds/rooftops/world.json description"}
+]}

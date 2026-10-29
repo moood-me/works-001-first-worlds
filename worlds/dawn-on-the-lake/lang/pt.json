@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"Amanhecer no lago","where":"worlds/dawn-on-the-lake/world.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"A névoa ainda não decidiu se vai embora.","where":"worlds/dawn-on-the-lake/world.json description"}
+]}

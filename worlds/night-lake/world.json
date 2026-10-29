@@ -3,5 +3,5 @@
   "description": "A small quiet light sways over the dark water.",
   "themes": {},
   "main": "night-lake",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant", "pt"]
 }

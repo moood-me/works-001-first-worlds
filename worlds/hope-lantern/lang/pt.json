@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Hope","translation":"Esperança","where":"worlds/hope-lantern/world.json title"},
+  {"text":"The lantern burns as long as someone is waiting.","translation":"A lanterna arde enquanto alguém está esperando.","where":"worlds/hope-lantern/world.json description"}
+]}

@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"O poço dos sussurros","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"O poço se lembra de cada palavra dita sobre ele.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"Por cem anos o poço ficou tapado com tábuas. Esta noite a luz está vazando pelas frestas.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"Dizem que ele responde, mas só a quem pergunta sussurrando.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"A tampa do poço se abriu, e uma luz fria sobe lá de dentro.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"A tampa do poço voltou para o lugar, e a luz voltou para as frestas.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}

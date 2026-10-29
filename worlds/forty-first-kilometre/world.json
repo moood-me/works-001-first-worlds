@@ -6,5 +6,5 @@
     "encounter": 40
   },
   "main": "forty-first-kilometre",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant", "pt"]
 }
