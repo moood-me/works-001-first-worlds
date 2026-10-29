@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Old Jetty","translation":"老碼頭","where":"worlds/night-lake/scenes/old-jetty/scene.json title"},
+  {"text":"Black water under the boards, a boat tied up at the edge.","translation":"木板底下是黑色的水，邊上繫著一艘小船。","where":"worlds/night-lake/scenes/old-jetty/scene.json caption"}
+]}

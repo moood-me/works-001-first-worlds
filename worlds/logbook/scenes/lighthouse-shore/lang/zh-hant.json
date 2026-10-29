@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"The Shore Below the Lighthouse","translation":"燈塔下的海岸","where":"worlds/logbook/scenes/lighthouse-shore/scene.json title"},
+  {"text":"Wet stones, surf, the moon path. Up above, on the left, the beam goes round.","translation":"濕石頭、浪、月光鋪成的路。上方左邊，光束緩緩繞著。","where":"worlds/logbook/scenes/lighthouse-shore/scene.json caption"},
+  {"text":"Shore","translation":"海岸","where":"worlds/logbook/scenes/lighthouse-shore/widgets/clock.html"}
+]}

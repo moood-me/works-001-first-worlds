@@ -1,0 +1,13 @@
+{"strings": [
+  {"text":"The Rocks Below the Lighthouse","translation":"燈塔下的岩石","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json title"},
+  {"text":"Black rocks, foam, and something glassy right at the water's edge.","translation":"黑色的岩石、浪花，還有水邊某個像玻璃的東西。","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json caption"},
+  {"text":"Down by the rocks it's colder. Salt settles on your lips.","translation":"下面的岩石邊更冷。鹽沾在嘴唇上。","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[0] text"},
+  {"text":"When the beam passes, green glass flashes right at the water's edge.","translation":"光束掃過時，水邊有綠色的玻璃一閃。","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[1] text"},
+  {"text":"The heavy surf knocked the bottle out of the rocks; a wave rolled it almost to your feet.","translation":"大浪把瓶子從岩石間打了出來；一道浪把它推到幾乎就在你腳邊。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The lighthouse beam swept the shore; right at the water, between the rocks, green glass flashed.","translation":"燈塔的光束掃過海岸；就在水邊的岩石之間，有綠色的玻璃一閃。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player reaches for the bottle between the rocks: icy water, foam up to the ankles.","translation":"玩家伸手去拿岩石間的瓶子：冰冷的海水，浪花淹到腳踝。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player has picked the bottle out of the foam. Inside, a rolled-up note tied with red thread; the neck is sealed with wax.","translation":"玩家從浪花裡撿起了瓶子。裡面有一張用紅線綁著的捲起來的字條；瓶口用火漆封住。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player bends over the shards: the note is soaked, but still holding together.","translation":"玩家彎腰看著碎片：字條濕透了，但還沒散開。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player turns the bottle over in their hands, peering at the note through the wet glass.","translation":"玩家把瓶子拿在手裡翻來翻去，隔著濕玻璃看裡面的字條。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"Wick doesn't take his eyes off the bottle; his ears are flattened against the wind.","translation":"燈芯的眼睛一直盯著瓶子；耳朵被風吹得貼平。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"}
+]}

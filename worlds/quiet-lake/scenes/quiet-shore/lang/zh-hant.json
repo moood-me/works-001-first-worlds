@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"寧靜的岸邊","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"沙岸、一動也不動的湖，還有水邊一個黑色的箱子。","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"太陽碰到了對岸的森林。","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"太陽下山了；湖上只剩暮色。","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"湖上天亮了；霧貼著水面蔓延。","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"長椅沿著岸邊走掉了，看不見了。","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"棚屋用它的雞腳站了起來，站在那裡左右換著腳。","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"A Pier on a Mountain Lake","translation":"山中湖畔的碼頭","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json title"},
+  {"text":"The water went still before the light went out.","translation":"光還沒熄，水就先靜了。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json caption"},
+  {"text":"The last light is slipping behind the ridge.","translation":"最後的光正滑向山脊後方。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[0] text"},
+  {"text":"The lantern was lit a little earlier than it needed to be.","translation":"燈點得比需要的時候早了一點。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[1] text"},
+  {"text":"The boat quietly tugs at its rope and goes still again.","translation":"小船輕輕扯了一下繩子，又靜止不動。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[2] text"}
+]}

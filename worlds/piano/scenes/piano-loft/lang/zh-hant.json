@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Loft with a Piano","translation":"有鋼琴的閣樓","where":"worlds/piano/scenes/piano-loft/scene.json title"},
+  {"text":"Warm light, brick and the silence between the notes.","translation":"溫暖的燈光、磚牆，和音符之間的寂靜。","where":"worlds/piano/scenes/piano-loft/scene.json caption"},
+  {"text":"The city outside the window is lighting its windows.","translation":"窗外的城市正一扇扇點亮它的窗。","where":"worlds/piano/scenes/piano-loft/scene.json captions[0] text"},
+  {"text":"The lid is open: someone has just been playing.","translation":"琴蓋開著：剛剛有人在彈。","where":"worlds/piano/scenes/piano-loft/scene.json captions[1] text"},
+  {"text":"The cat has taken the bench and has no plans to give it up.","translation":"貓佔了琴凳，完全沒打算讓出來。","where":"worlds/piano/scenes/piano-loft/scene.json captions[2] text"},
+  {"text":"One click on the bulbs, and the light goes out.","translation":"在燈泡上點一下，燈就會熄。","where":"worlds/piano/scenes/piano-loft/scene.json captions[3] text"}
+]}
