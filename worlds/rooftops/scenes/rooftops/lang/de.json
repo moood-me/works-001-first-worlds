@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Rooftops","translation":"Dächer","where":"worlds/rooftops/scenes/rooftops/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → zum Laufen, Leertaste zum Springen.","where":"worlds/rooftops/scenes/rooftops/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"Er hat es bis zur Katze am Rand der Dächer geschafft. Die Katze: „Miau. Ab hier nur noch der Mond.“","where":"worlds/rooftops/scenes/rooftops/script.js"}
+]}

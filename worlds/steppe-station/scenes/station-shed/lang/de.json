@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"In the Old Shed by the Station","translation":"Im alten Schuppen an der Station","where":"worlds/steppe-station/scenes/station-shed/scene.json title"},
+  {"text":"Dust hangs in the slits of light, and everything here has been tidied by someone.","translation":"Staub steht in den Lichtspalten, und alles hier hat jemand aufgeräumt.","where":"worlds/steppe-station/scenes/station-shed/scene.json caption"},
+  {"text":"The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.","translation":"Die Spalten in der Wand sind fast dunkel geworden: Die Sonne ist hinter der Steppe versunken, im Schuppen bleibt nur das Licht aus der Tür.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"The swallow darted off the beam and flew out through the open door, toward the sunset.","translation":"Die Schwalbe schoss vom Balken auf und flog durch die offene Tür hinaus, dem Sonnenuntergang entgegen.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.","translation":"Unter dem Sackleinen ein verzinkter Eimer mit klarem Wasser. Jemand hat es vor Kurzem gebracht.","where":"worlds/steppe-station/scenes/station-shed/script.js"}
+]}

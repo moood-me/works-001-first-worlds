@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"Der Wasserturm","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Ein alter Wasserturm, sein Schatten liegt quer über den Schwellen.","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"Der Wanderer ist angekommen und steht am Wasserturm.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"Der Wanderer ist angekommen und steht am Stationsgebäude, neben der Laterne.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"Der Wanderer ist angekommen und steht am alten Schuppen.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"Die rostige Lukentür am Fuß des Turms gab knarrend nach und ging auf, drinnen ist es dunkel und riecht nach altem Wasser.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"Die Lukentür steht sperrangelweit offen.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"Die Lukentür fiel mit einem dumpfen eisernen Klirren zu.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"Der Steppenroller ist bis zum Turm gerollt und im Gras am Betonsockel hängen geblieben.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"Der Wind riss den Steppenroller vom Turm los und rollte ihn hinaus in die Steppe.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"Die Kette ist ins Schwingen geraten und klirrt gegen die rostige Leiter.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"Die Laterne an der Station ist erloschen.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"Die Laterne an der Station ist flackernd wieder angegangen.","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}
