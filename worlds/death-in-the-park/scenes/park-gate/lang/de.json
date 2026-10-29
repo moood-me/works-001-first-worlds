@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"Am Parktor","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"Vorn das Tor. Hinten jemand.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"Am Tor gabelt sich der Weg.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"Die Laterne an der Pforte erlischt und erinnert sich dann wieder, dass sie eine Laterne ist.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"Du hast das Tor erreicht: Es ist geschlossen und mit einer Kette versperrt.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"Du hast das Tor erreicht: Es ist geschlossen.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"Du bist durch das Tor gegangen und im Nebel auf der anderen Seite verschwunden.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"Du rüttelst an der Pforte: Die Kette klirrt, das Schloss hält.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"Das Tor öffnet sich knarrend. Dahinter fahler Nebel.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"Du bist von jenseits des Tores auf den Weg zurückgekehrt.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"Der Tod ist durch das verschlossene Tor gegangen und wartet auf der anderen Seite, im Nebel.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"Der Tod ist durch das offene Tor gegangen und wartet auf der anderen Seite, im Nebel.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"Der Tod kam heran und blieb neben dir stehen.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"Der Tod hat dich eingeholt.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Du bist zum Parktor gegangen. Nasse Gitterstäbe, eine Kette, dahinter Nebel. Der Weg führt auch weiter, tiefer in den Park hinein.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"Der Nebel hat sich geschlossen: Den Weg zurück siehst du kaum noch, nur die Laternen am Tor.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}

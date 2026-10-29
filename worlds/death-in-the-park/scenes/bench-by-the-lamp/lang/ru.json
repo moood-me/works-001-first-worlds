@@ -1,10 +1,10 @@
 {"strings": [
-  {"text":"The Bench by the Lamp","translation":"Скамейка у фонаря","where":"death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
-  {"text":"A bench under a street lamp. A place for two.","translation":"Скамейка под фонарём. Место для двоих.","where":"death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
-  {"text":"Breath turns to steam. Only yours.","translation":"Пар от дыхания — только у тебя.","where":"death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
-  {"text":"You came up to the bench. Death looked up at you.","translation":"Ты подошла к скамейке. Смерть подняла глаза и посмотрела на тебя.","where":"death-in-the-park/scenes/bench-by-the-lamp/script.js"},
-  {"text":"You sat down on the bench next to Death.","translation":"Ты села на скамейку рядом со Смертью.","where":"death-in-the-park/scenes/bench-by-the-lamp/script.js"},
-  {"text":"You sat down on the bench.","translation":"Ты села на скамейку.","where":"death-in-the-park/scenes/bench-by-the-lamp/script.js"},
-  {"text":"You walked away from the bench along the path.","translation":"Ты ушла от скамейки по дорожке.","where":"death-in-the-park/scenes/bench-by-the-lamp/script.js"},
-  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"Смерть ушла по дорожке и пропала за фонарями.","where":"death-in-the-park/scenes/bench-by-the-lamp/script.js"}
+  {"text":"The Bench by the Lamp","translation":"Скамейка у фонаря","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
+  {"text":"A bench under a street lamp. A place for two.","translation":"Скамейка под фонарём. Место для двоих.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
+  {"text":"Breath turns to steam. Only yours.","translation":"Пар от дыхания — только у тебя.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
+  {"text":"You came up to the bench. Death looked up at you.","translation":"Ты подошла к скамейке. Смерть подняла глаза и посмотрела на тебя.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench next to Death.","translation":"Ты села на скамейку рядом со Смертью.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench.","translation":"Ты села на скамейку.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You walked away from the bench along the path.","translation":"Ты ушла от скамейки по дорожке.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"Смерть ушла по дорожке и пропала за фонарями.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"}
 ]}
