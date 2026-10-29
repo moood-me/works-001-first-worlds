@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"Granny Nina's Bedroom","translation":"ニーナおばあちゃんの寝室","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json title"},
+  {"text":"The things are waiting to see who speaks first.","translation":"物たちは、誰が最初に口を開くかを待っている。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json caption"},
+  {"text":"You hold the photograph so that Granny can see it.","translation":"おばあちゃんに見えるように、きみは写真を掲げている。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[0] text"},
+  {"text":"The lamp shows through the cut-out place: a warm person who isn't there.","translation":"切り抜かれた場所から、ランプの光が透けて見える。そこにいない、温かな人。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[1] text"},
+  {"text":"The box is open. On top, an envelope addressed in a hand that isn't Granny's.","translation":"小箱が開いている。いちばん上に、おばあちゃんのものではない筆跡で宛名を書いた封筒。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[2] text"},
+  {"text":"The wall clock struck {time}.","translation":"柱時計が{time}を打った。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"The photograph is right by Granny Nina's hands.","translation":"写真はニーナおばあちゃんの手のすぐそばにある。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Granny Nina's fingers have touched the photograph, right at the cut-out place.","translation":"ニーナおばあちゃんの指が、写真に触れた。切り抜かれた場所のすぐそばに。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Granny Nina reaches for the photograph but can't reach it.","translation":"ニーナおばあちゃんは写真に手を伸ばすが、届かない。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"In the open box the letters have shifted a little by themselves: the top envelope has slid to one side.","translation":"開いた小箱の中で、手紙がひとりでに少し動いた。いちばん上の封筒が横にずれた。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Notebook","translation":"手帳","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"1953年3月14日の夜。そのことは誰も話さない。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"1952年の家族写真から、ひとりがきれいに切り抜かれている。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"人にも物にも尋ねること。書きとめること。物が言ったことを、人に突きつけること。","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"close","translation":"閉じる","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"}
+]}

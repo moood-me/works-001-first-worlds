@@ -3,5 +3,5 @@
   "description": "The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.",
   "themes": {},
   "main": "steppe-station",
-  "languages": ["en", "ru"]
+  "languages": ["en", "ru", "ja"]
 }

@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"ささやきの井戸","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"井戸は、その上で語られた言葉をひとつ残らず覚えている。","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"百年のあいだ、井戸は板でふさがれていた。今夜、隙間から光がにじみ出ている。","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"答えてくれるという。ただし、ささやき声で尋ねる者にだけ。","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"井戸の蓋が跳ね上がり、中から冷たい光が立ちのぼっている。","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"井戸の蓋がまた元の場所に収まり、光は隙間の中へ戻っていった。","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}

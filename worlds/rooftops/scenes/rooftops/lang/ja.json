@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Rooftops","translation":"屋根の上","where":"worlds/rooftops/scenes/rooftops/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → で走る、スペースでジャンプ。","where":"worlds/rooftops/scenes/rooftops/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"屋根の端の猫のところまでたどり着いた。猫は言う。「ニャア。ここから先は月だけだよ」","where":"worlds/rooftops/scenes/rooftops/script.js"}
+]}

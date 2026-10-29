@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"給水塔","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"古い給水塔。その影が枕木を横切って伸びている。","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"旅人はたどり着き、給水塔のそばに立っている。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"旅人はたどり着き、駅舎のそば、街灯の隣に立っている。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"旅人はたどり着き、古い小屋のそばに立っている。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"塔の根元の錆びた点検口の扉が、きしみながら開いた。中は暗く、古い水の匂いがする。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"点検口の扉は開け放たれている。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"点検口の扉が、鈍い鉄の音を立てて閉まった。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"回転草が塔まで転がってきて、コンクリートの土台のそばの草に引っかかった。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"風が回転草を塔から引きはがし、草原へ転がしていった。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"鎖が揺れはじめ、錆びたはしごに当たって鳴っている。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"駅のそばの街灯が消えた。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"駅のそばの街灯が、またほのかにともった。","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}

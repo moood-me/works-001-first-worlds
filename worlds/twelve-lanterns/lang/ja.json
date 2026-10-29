@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"十二の灯籠","where":"worlds/twelve-lanterns/world.json title"},
+  {"text":"A village shrine in the mountains, an hour after the summer matsuri. On the steps up to the torii the lanterns are still lit, and they go out one by one. With each one gone, a girl in a fox mask comes down one step.","translation":"山あいの村の神社、夏祭りが終わって一時間。鳥居へ続く石段では灯籠がまだともっていて、ひとつ、またひとつと消えていく。ひとつ消えるたびに、狐の面の少女が一段下りてくる。","where":"worlds/twelve-lanterns/world.json description"}
+]}
