@@ -3,5 +3,5 @@
   "description": "a test of the look tool",
   "themes": {},
   "main": "night-pier",
-  "languages": ["en", "ru"]
+  "languages": ["en", "ru", "de"]
 }

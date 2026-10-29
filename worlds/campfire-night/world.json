@@ -3,5 +3,5 @@
   "description": "Look around. It's all here, all around you.",
   "themes": {},
   "main": "campfire-night",
-  "languages": ["en", "ru"]
+  "languages": ["en", "ru", "de"]
 }

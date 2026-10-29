@@ -1,9 +1,9 @@
 {"strings": [
-  {"text":"The Psychotherapist's Office","translation":"Кабинет психотерапевта","where":"at-the-doctors/scenes/therapist-office/scene.json title"},
-  {"text":"Here you can stay silent for as long as you need.","translation":"Здесь можно молчать столько, сколько нужно.","where":"at-the-doctors/scenes/therapist-office/scene.json caption"},
-  {"text":"The clock ticks. Nobody rushes you here.","translation":"Тикают часы. Здесь никто не торопит.","where":"at-the-doctors/scenes/therapist-office/scene.json captions[0] text"},
-  {"text":"She waits for the pause to finish speaking for itself.","translation":"Она ждёт, пока пауза договорит сама.","where":"at-the-doctors/scenes/therapist-office/scene.json captions[1] text"},
-  {"text":"The glass of water still stands untouched.","translation":"Стакан воды так и стоит нетронутым.","where":"at-the-doctors/scenes/therapist-office/scene.json captions[2] text"},
-  {"text":"Ten to six: five minutes left of the session.","translation":"Без десяти шесть: до конца приёма пять минут.","where":"at-the-doctors/scenes/therapist-office/script.js"},
-  {"text":"Five to six: the session's time is up.","translation":"Без пяти шесть — время приёма вышло.","where":"at-the-doctors/scenes/therapist-office/script.js"}
+  {"text":"The Psychotherapist's Office","translation":"Кабинет психотерапевта","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json title"},
+  {"text":"Here you can stay silent for as long as you need.","translation":"Здесь можно молчать столько, сколько нужно.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json caption"},
+  {"text":"The clock ticks. Nobody rushes you here.","translation":"Тикают часы. Здесь никто не торопит.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[0] text"},
+  {"text":"She waits for the pause to finish speaking for itself.","translation":"Она ждёт, пока пауза договорит сама.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[1] text"},
+  {"text":"The glass of water still stands untouched.","translation":"Стакан воды так и стоит нетронутым.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[2] text"},
+  {"text":"Ten to six: five minutes left of the session.","translation":"Без десяти шесть: до конца приёма пять минут.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"},
+  {"text":"Five to six: the session's time is up.","translation":"Без пяти шесть — время приёма вышло.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"}
 ]}

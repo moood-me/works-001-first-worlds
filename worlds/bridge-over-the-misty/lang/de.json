@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Die Brücke über den Nebelfluss","where":"worlds/bridge-over-the-misty/world.json title"},
+  {"text":"An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.","translation":"Eine alte Steinbrücke über einer Schlucht voller Nebel. Eine Hüterin mit einer Laterne wartet in der Mitte, und vom anderen Ufer kommt jemand aus dem Nebel auf sie zu.","where":"worlds/bridge-over-the-misty/world.json description"}
+]}
