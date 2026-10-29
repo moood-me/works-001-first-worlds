@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"The Shore Below the Lighthouse","translation":"La orilla bajo el faro","where":"worlds/logbook/scenes/lighthouse-shore/scene.json title"},
+  {"text":"Wet stones, surf, the moon path. Up above, on the left, the beam goes round.","translation":"Piedras mojadas, oleaje, el camino de la luna. Arriba, a la izquierda, gira el haz.","where":"worlds/logbook/scenes/lighthouse-shore/scene.json caption"},
+  {"text":"Shore","translation":"Orilla","where":"worlds/logbook/scenes/lighthouse-shore/widgets/clock.html"}
+]}

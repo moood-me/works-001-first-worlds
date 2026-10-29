@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Hope","translation":"Esperanza","where":"worlds/hope-lantern/scenes/hope/scene.json title"},
+  {"text":"The lantern burns as long as someone is waiting.","translation":"El farol arde mientras alguien espera.","where":"worlds/hope-lantern/scenes/hope/scene.json caption"},
+  {"text":"Every evening she comes to the old pier.","translation":"Cada tarde ella viene al viejo muelle.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[0] text"},
+  {"text":"And lights the lantern.","translation":"Y enciende el farol.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[1] text"},
+  {"text":"So that from the far shore they can see where to row.","translation":"Para que desde la otra orilla se vea hacia dónde remar.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[2] text"},
+  {"text":"Over there it's still dark.","translation":"Allí todavía está oscuro.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[3] text"},
+  {"text":"But the lantern burns.","translation":"Pero el farol arde.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[4] text"}
+]}

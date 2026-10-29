@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Disco","translation":"Discoteca","where":"worlds/disco/scenes/disco/scene.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"Las luces centellean, la música no para","where":"worlds/disco/scenes/disco/scene.json caption"},
+  {"text":"The ball above the stage scatters sparkles on every shoulder","translation":"La bola sobre el escenario derrama destellos sobre todos los hombros","where":"worlds/disco/scenes/disco/scene.json captions[0] text"},
+  {"text":"Someone has found the nerve to step into the circle for the first time","translation":"Alguien se ha atrevido por primera vez a salir al corro","where":"worlds/disco/scenes/disco/scene.json captions[1] text"},
+  {"text":"The yellow spotlight is looking for someone else to call over","translation":"El foco amarillo busca a quién más llamar","where":"worlds/disco/scenes/disco/scene.json captions[2] text"}
+]}

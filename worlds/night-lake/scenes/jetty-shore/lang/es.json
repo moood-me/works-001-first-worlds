@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Shore by the Jetty","translation":"La orilla junto al embarcadero","where":"worlds/night-lake/scenes/jetty-shore/scene.json title"},
+  {"text":"Wet grass, an old stake and a boat tied up by the dark water.","translation":"Hierba mojada, una vieja estaca y una barca amarrada junto al agua oscura.","where":"worlds/night-lake/scenes/jetty-shore/scene.json caption"},
+  {"text":"A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.","translation":"Una ráfaga de viento: los juncos susurraron, la barca tiró de la cuerda atada a la estaca.","where":"worlds/night-lake/scenes/jetty-shore/script.js"},
+  {"text":"A gust of wind: the reeds rustled, a shiver ran over the water at the edge.","translation":"Una ráfaga de viento: los juncos susurraron, un estremecimiento recorrió el agua de la orilla.","where":"worlds/night-lake/scenes/jetty-shore/script.js"}
+]}

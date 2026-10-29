@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Far Shore","translation":"La otra orilla","where":"worlds/night-lake/scenes/far-shore/scene.json title"},
+  {"text":"A narrow strip of pebbles, black trunks and mist between them.","translation":"Una estrecha franja de guijarros, troncos negros y niebla entre ellos.","where":"worlds/night-lake/scenes/far-shore/scene.json caption"},
+  {"text":"The light between the trunks went out for a moment, as if someone had passed in front of it, and came on again.","translation":"La lucecita entre los troncos se apagó un instante, como si alguien hubiera pasado por delante, y volvió a encenderse.","where":"worlds/night-lake/scenes/far-shore/script.js"},
+  {"text":"Between the trunks, left of the light, a motionless figure has appeared.","translation":"Entre los troncos, a la izquierda de la lucecita, ha aparecido una figura inmóvil.","where":"worlds/night-lake/scenes/far-shore/script.js"}
+]}

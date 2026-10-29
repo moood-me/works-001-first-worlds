@@ -1,0 +1,14 @@
+{"strings": [
+  {"text":"Lenka's dumb","translation":"Lenka es tonta","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"TSOI LIVES","translation":"TSOI VIVE","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"SPARTAK CAMPEÓN","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"The Fourth One Squatting","translation":"El cuarto en cuclillas","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json title"},
+  {"text":"The garages behind the nine-storey block, ten to three.","translation":"Los garajes detrás del edificio de nueve plantas, las tres menos diez.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json caption"},
+  {"text":"The lamp by the garages has been blinking since winter.","translation":"La farola de los garajes lleva parpadeando desde el invierno.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[0] text"},
+  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"Shnyr come pipas y no mira a la derecha.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[1] text"},
+  {"text":"There are three of them. Four are squatting.","translation":"Son tres. En cuclillas hay cuatro.","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[2] text"},
+  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"El cuarto se ha agachado pegado a ellos, en plena luz, y en silencio tiende la mano: ¿tienes un cigarro?","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"La puerta del tercer garaje se entreabre con un chirrido. No sale nadie.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"Mientras la farola parpadeaba, el cuarto se ha acercado un paso.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"Shnyr has run out of seeds.","translation":"A Shnyr se le han acabado las pipas.","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"}
+]}

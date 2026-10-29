@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"El depósito de agua","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Un viejo depósito de agua; su sombra cae de través sobre las traviesas.","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"El viajero ha llegado y está junto al depósito de agua.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"El viajero ha llegado y está junto al edificio de la estación, al lado de la farola.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"El viajero ha llegado y está junto al viejo cobertizo.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"La portezuela oxidada de la trampilla, al pie del depósito, cedió con un chirrido y se abrió; dentro está oscuro y huele a agua vieja.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"La portezuela de la trampilla está abierta de par en par.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"La portezuela de la trampilla se cerró de golpe con un sordo estruendo de hierro.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"La planta rodadora llegó rodando hasta el depósito y se quedó enganchada en la hierba junto a la base de hormigón.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"El viento arrancó la planta rodadora del depósito y se la llevó rodando a la estepa.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"La cadena ha empezado a balancearse y tintinea contra la escalera oxidada.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"La farola de la estación se ha apagado.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"La farola de la estación ha vuelto a encenderse, titilando.","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}

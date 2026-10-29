@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"La orilla tranquila","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Una orilla de arena, un lago inmóvil y una caja oscura junto al agua.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"El sol ha tocado el bosque de la otra orilla.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"El sol se ha puesto; sobre el lago queda el crepúsculo.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"Amanece sobre el lago; la niebla se arrastra por el agua.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"El banco se ha ido andando por la orilla y ya no se ve.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"El cobertizo se ha alzado sobre sus patas de gallina y se queda ahí, cambiando el peso de una pata a otra.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

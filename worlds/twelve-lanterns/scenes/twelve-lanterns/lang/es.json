@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"Doce farolillos","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json title"},
+  {"text":"The festival ended an hour ago. Someone forgot to put out the lanterns on the shrine steps. Or didn't forget.","translation":"La fiesta terminó hace una hora. Alguien olvidó apagar los farolillos de la escalinata del santuario. O no lo olvidó.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json caption"},
+  {"text":"Twelve lanterns on the steps up to the torii. The matsuri is over, everyone has gone home.","translation":"Doce farolillos en la escalinata que sube al torii. El matsuri ha terminado, todos se han ido a casa.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[0] text"},
+  {"text":"Each time a lantern goes out, the girl in the fox mask comes down a step.","translation":"Cada vez que se apaga un farolillo, la niña de la máscara de zorro baja un peldaño.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[1] text"},
+  {"text":"The goldfish in the bag looks one way only. Toward where you stand.","translation":"El pez de colores de la bolsa mira solo hacia un lado. Hacia donde estás tú.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[2] text"},
+  {"text":"Half the lanterns on the steps are out. The girl in the fox mask is halfway down.","translation":"La mitad de los farolillos de la escalinata se han apagado. La niña de la máscara de zorro ya está a mitad de camino.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"},
+  {"text":"The last lantern is out. The vending machine barely glows. The girl in the mask stands at the bottom step.","translation":"Se ha apagado el último farolillo. La máquina expendedora apenas da luz. La niña de la máscara está en el último peldaño.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"Doce farolillos","where":"worlds/twelve-lanterns/world.json title"},
+  {"text":"A village shrine in the mountains, an hour after the summer matsuri. On the steps up to the torii the lanterns are still lit, and they go out one by one. With each one gone, a girl in a fox mask comes down one step.","translation":"Un santuario de pueblo en las montañas, una hora después del matsuri de verano. En la escalinata que sube al torii los farolillos siguen encendidos, y se apagan uno a uno. Con cada uno que se apaga, una niña con máscara de zorro baja un peldaño.","where":"worlds/twelve-lanterns/world.json description"}
+]}

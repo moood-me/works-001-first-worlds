@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "grapevine",
-  "languages": ["en", "ru", "uk", "de"]
+  "languages": ["en", "ru", "uk", "de", "es"]
 }

@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"Junto a la verja del parque","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"La verja, delante. Alguien, detrás.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"El sendero se bifurca junto a la verja.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"La farola junto a la portezuela se apaga y luego vuelve a recordar que es una farola.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"Llegaste a la verja: está cerrada y con cadena.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"Llegaste a la verja: está cerrada.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"Saliste por la verja y desapareciste en la niebla del otro lado.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"Tiras de la portezuela: la cadena tintinea, el candado aguanta.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"La verja se abre con un chirrido. Detrás, una niebla pálida.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"Volviste del otro lado de la verja al sendero.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"La Muerte ha atravesado la verja cerrada y espera al otro lado, en la niebla.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"La Muerte ha cruzado la verja abierta y espera al otro lado, en la niebla.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"La Muerte se acercó y se detuvo a tu lado.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"La Muerte te alcanzó.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Te acercaste a la verja del parque. Barrotes mojados, una cadena y, detrás, niebla. El sendero también sigue, hacia el interior del parque.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"La niebla se ha cerrado: apenas se ve el sendero de vuelta, solo las farolas junto a la verja.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}
