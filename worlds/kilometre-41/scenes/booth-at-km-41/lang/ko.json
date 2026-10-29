@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"전화","where":"worlds/kilometre-41/scenes/booth-at-km-41/elements/booth.js"},
+  {"text":"The Booth at Km 41","translation":"41킬로미터 지점의 부스","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json title"},
+  {"text":"Nobody has run a line out here since ninety-eight.","translation":"98년 이후로 여기까지 선을 끌어온 사람은 없다.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json caption"},
+  {"text":"Kilometre 41. Three in the morning.","translation":"41킬로미터 지점. 새벽 세 시.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[0] text"},
+  {"text":"The receiver hangs loose. Someone is breathing on the line.","translation":"수화기가 늘어져 있다. 그 너머에서 누군가 숨을 쉰다.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[1] text"},
+  {"text":"There is a note on the glass. The handwriting is yours.","translation":"유리에 쪽지가 붙어 있다. 당신의 글씨다.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[2] text"},
+  {"text":"The phone in the booth rang, then fell silent.","translation":"부스의 전화가 울리다가 잠잠해졌다.","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"},
+  {"text":"Someone lifted the receiver, and the ringing broke off.","translation":"누군가 수화기를 들었고, 벨 소리가 뚝 끊겼다.","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"}
+]}

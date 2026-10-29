@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Kilometre 41","translation":"41킬로미터 지점","where":"worlds/kilometre-41/world.json title"},
+  {"text":"A night highway through a spruce forest and a lone phone booth with no line running to it. The receiver hangs loose, and someone is breathing on the line.","translation":"가문비나무 숲을 지나는 한밤의 국도, 그리고 전화선이 들어오지 않는 외딴 공중전화 부스. 수화기가 늘어져 있고, 선 너머로 누군가 숨을 쉬고 있다.","where":"worlds/kilometre-41/world.json description"}
+]}

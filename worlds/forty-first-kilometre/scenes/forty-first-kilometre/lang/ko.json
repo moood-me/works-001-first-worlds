@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"41 km","translation":"41km","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/elements/shelter.js"},
+  {"text":"The Forty-First Kilometre","translation":"마흔한 번째 킬로미터","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json title"},
+  {"text":"The last bus has gone. Someone is meeting you anyway.","translation":"막차는 떠났다. 그래도 누군가 마중을 나와 있다.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json caption"},
+  {"text":"The last bus left at 11:40 pm.","translation":"막차는 밤 11시 40분에 떠났다.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[0] text"},
+  {"text":"Someone is standing on the road. With flowers.","translation":"도로 위에 누군가 서 있다. 꽃을 들고.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[1] text"},
+  {"text":"He has come to meet someone. You.","translation":"그는 누군가를 마중 나왔다. 당신을.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[2] text"},
+  {"text":"He reached the bus stop and stopped under the lamp.","translation":"그는 정류장까지 와서 가로등 아래 멈춰 섰다.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/script.js"}
+]}

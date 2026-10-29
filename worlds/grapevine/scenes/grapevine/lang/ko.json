@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"The Grapevine Engine","translation":"소문 엔진","where":"worlds/grapevine/scenes/grapevine/scene.json title"},
+  {"text":"Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.","translation":"고양이에게 “나 정부에서 나왔거든”이라고 해 보세요. 저녁이면 당신은 연못 물을 빼 버릴 숨은 상속자가 되어 있을 거예요.","where":"worlds/grapevine/scenes/grapevine/scene.json caption"},
+  {"text":"I'm from the ministry, by the way.","translation":"나 실은 정부에서 나왔거든.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"I love fish. Fried, especially.","translation":"생선 좋아해. 특히 튀긴 거.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"The pond's got a bit shallow.","translation":"연못이 좀 얕아진 것 같아.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"There's no one here to even talk to.","translation":"여긴 말 붙일 사람도 없어.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Found a key. No idea what it opens.","translation":"열쇠를 주웠어. 뭘 여는 건지 모르겠어.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"“{phrase}”","translation":"“{phrase}”","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.","translation":"아침. 저녁까지 마당 사람 적어도 다섯이 이렇게 믿게 만들어야 해요: 🛡️ 연못은 국가가 보호한다. 연못은 오늘 기분이 별로니까, 연못에게는 속삭이지 마세요.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.","translation":"문구를 고르고, 주민을 클릭해 속삭여 주세요. 저마다 이웃에게 제 식으로 옮겨요. 고양이는 뭐든 먹을 얘기로, 지나 할머니는 드라마 얘기로, 비둘기는 음모로, 가로등은 보안 시설로, 페티카는 영웅담으로 바꾸고, 류바는 한 마디도 틀리지 않고 그대로 전하고, 연못은 모든 걸 자기 얘기로 받아들여요.","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"}
+]}

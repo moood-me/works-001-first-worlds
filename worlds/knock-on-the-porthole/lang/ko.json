@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"A Knock on the Porthole","translation":"현창을 두드리는 소리","where":"worlds/knock-on-the-porthole/world.json title"},
+  {"text":"The cargo ship Ladoga has been drifting by a dead red dwarf for three days. In the observation bay the lights are going out, the oxygen is running low, and from outside someone knocks on the glass: the spacesuit of the navigator who went out on a spacewalk on Tuesday.","translation":"화물선 라도가호가 죽은 적색 왜성 곁을 사흘째 표류하고 있다. 관측실의 불은 꺼져 가고, 산소는 줄어드는데, 바깥에서 누군가 유리를 두드린다. 화요일에 우주 유영을 나간 항해사의 우주복이다.","where":"worlds/knock-on-the-porthole/world.json description"}
+]}
