@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Hope","translation":"希望 · Hope","where":"worlds/hope-lantern/scenes/hope/scene.json title"},
+  {"text":"The lantern burns as long as someone is waiting.","translation":"只要還有人在等，燈就亮著。","where":"worlds/hope-lantern/scenes/hope/scene.json caption"},
+  {"text":"Every evening she comes to the old pier.","translation":"每天傍晚，她都來到老碼頭。","where":"worlds/hope-lantern/scenes/hope/scene.json captions[0] text"},
+  {"text":"And lights the lantern.","translation":"點亮那盞燈。","where":"worlds/hope-lantern/scenes/hope/scene.json captions[1] text"},
+  {"text":"So that from the far shore they can see where to row.","translation":"好讓對岸的人看得見該往哪裡划。","where":"worlds/hope-lantern/scenes/hope/scene.json captions[2] text"},
+  {"text":"Over there it's still dark.","translation":"那邊還是一片黑。","where":"worlds/hope-lantern/scenes/hope/scene.json captions[3] text"},
+  {"text":"But the lantern burns.","translation":"但燈亮著。","where":"worlds/hope-lantern/scenes/hope/scene.json captions[4] text"}
+]}

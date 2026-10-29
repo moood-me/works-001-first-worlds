@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Disco","translation":"迪斯可舞廳","where":"worlds/disco/scenes/disco/scene.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"燈光閃爍，音樂從不停歇","where":"worlds/disco/scenes/disco/scene.json caption"},
+  {"text":"The ball above the stage scatters sparkles on every shoulder","translation":"舞台上方的燈球，把光點灑在每個人的肩上","where":"worlds/disco/scenes/disco/scene.json captions[0] text"},
+  {"text":"Someone has found the nerve to step into the circle for the first time","translation":"有人第一次鼓起勇氣，走進了舞圈","where":"worlds/disco/scenes/disco/scene.json captions[1] text"},
+  {"text":"The yellow spotlight is looking for someone else to call over","translation":"黃色的聚光燈正在找下一個要叫過來的人","where":"worlds/disco/scenes/disco/scene.json captions[2] text"}
+]}

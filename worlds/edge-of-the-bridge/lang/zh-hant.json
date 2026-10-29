@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"橋的盡頭","where":"worlds/edge-of-the-bridge/world.json title"},
+  {"text":"An old stone bridge breaks off above a sea of clouds. Every evening a keeper sits at the very edge with a lantern and shines it into the void, in case someone on the floating island opposite answers.","translation":"一座古老的石橋，在雲海上方斷開。每天傍晚，守橋人都提著燈坐在最邊緣，朝虛空照去，萬一對面那座浮空島上有人回應呢。","where":"worlds/edge-of-the-bridge/world.json description"}
+]}

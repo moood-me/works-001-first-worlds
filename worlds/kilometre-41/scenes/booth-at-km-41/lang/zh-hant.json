@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"電話","where":"worlds/kilometre-41/scenes/booth-at-km-41/elements/booth.js"},
+  {"text":"The Booth at Km 41","translation":"41 公里處的電話亭","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json title"},
+  {"text":"Nobody has run a line out here since ninety-eight.","translation":"從九八年起，就沒人把線路拉到這裡了。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json caption"},
+  {"text":"Kilometre 41. Three in the morning.","translation":"41 公里處。凌晨三點。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[0] text"},
+  {"text":"The receiver hangs loose. Someone is breathing on the line.","translation":"話筒垂掛著。線路那頭有人在呼吸。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[1] text"},
+  {"text":"There is a note on the glass. The handwriting is yours.","translation":"玻璃上貼著一張字條。是你的筆跡。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[2] text"},
+  {"text":"The phone in the booth rang, then fell silent.","translation":"電話亭裡的電話響了，然後又安靜下來。","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"},
+  {"text":"Someone lifted the receiver, and the ringing broke off.","translation":"有人拿起了話筒，鈴聲戛然而止。","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"}
+]}

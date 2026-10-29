@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"The Grapevine Engine","translation":"口耳相傳引擎","where":"worlds/grapevine/scenes/grapevine/scene.json title"},
+  {"text":"Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.","translation":"跟貓說一句「我是部裡來的」，到了傍晚，你就成了要把池塘抽乾的神祕繼承人。","where":"worlds/grapevine/scenes/grapevine/scene.json caption"},
+  {"text":"I'm from the ministry, by the way.","translation":"順帶一提，我是部裡來的。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"I love fish. Fried, especially.","translation":"我愛吃魚。尤其是炸的。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"The pond's got a bit shallow.","translation":"這池塘好像變淺了。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"There's no one here to even talk to.","translation":"我在這裡連個說話的人都沒有。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Found a key. No idea what it opens.","translation":"撿到一把鑰匙。不知道是開什麼的。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"“{phrase}”","translation":"「{phrase}」","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.","translation":"早上。到傍晚前，院子裡至少要有五個人深信：🛡️ 這座池塘受國家保護。池塘今天心情不好，別跟它說悄悄話。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.","translation":"選一句話，點一位住戶，悄悄告訴他。每個人都會用自己的方式轉述給鄰居：貓什麼都扯到吃的，吉娜奶奶扯到她的連續劇，鴿子扯到陰謀，路燈扯到管制設施，小彼佳扯到英雄，柳芭一字不差地傳下去，而池塘什麼都當成在說它。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"}
+]}
