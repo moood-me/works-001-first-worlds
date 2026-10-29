@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"Artist's Eye Test","translation":"Проба глаз художника","where":"worlds/artist-eye-test/world.json title"},
-  {"text":"a test of the look tool","translation":"проверка инструмента look","where":"worlds/artist-eye-test/world.json description"}
+  {"text":"Artist's Eye Test","translation":"Проба глаз художника","where":"artist-eye-test/world.json title"},
+  {"text":"a test of the look tool","translation":"проверка инструмента look","where":"artist-eye-test/world.json description"}
 ]}

@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"Rooftops","translation":"Крыши","where":"worlds/rooftops/world.json title"},
-  {"text":"← → to run, space to jump.","translation":"← → бежать, пробел — прыгать.","where":"worlds/rooftops/world.json description"}
+  {"text":"Rooftops","translation":"Крыши","where":"rooftops/world.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → бежать, пробел — прыгать.","where":"rooftops/world.json description"}
 ]}

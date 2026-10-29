@@ -1,7 +1,7 @@
 {"strings": [
-  {"text":"Night Lake","translation":"Ночное озеро","where":"worlds/night-lake/scenes/night-lake/scene.json title"},
-  {"text":"A small quiet light sways over the dark water.","translation":"Тихий огонёк качается над тёмной водой.","where":"worlds/night-lake/scenes/night-lake/scene.json caption"},
-  {"text":"The torch beam touches the black water.","translation":"Луч фонарика трогает чёрную воду.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[0] text"},
-  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"Где-то внизу плеснула рыба — круги расходятся медленно.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[1] text"},
-  {"text":"He counts the fireflies and loses count at seven.","translation":"Он считает светлячков и сбивается на седьмом.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[2] text"}
+  {"text":"Night Lake","translation":"Ночное озеро","where":"night-lake/scenes/night-lake/scene.json title"},
+  {"text":"A small quiet light sways over the dark water.","translation":"Тихий огонёк качается над тёмной водой.","where":"night-lake/scenes/night-lake/scene.json caption"},
+  {"text":"The torch beam touches the black water.","translation":"Луч фонарика трогает чёрную воду.","where":"night-lake/scenes/night-lake/scene.json captions[0] text"},
+  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"Где-то внизу плеснула рыба — круги расходятся медленно.","where":"night-lake/scenes/night-lake/scene.json captions[1] text"},
+  {"text":"He counts the fireflies and loses count at seven.","translation":"Он считает светлячков и сбивается на седьмом.","where":"night-lake/scenes/night-lake/scene.json captions[2] text"}
 ]}

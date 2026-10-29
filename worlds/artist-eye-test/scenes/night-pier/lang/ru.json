@@ -1,7 +1,7 @@
 {"strings": [
-  {"text":"Night Pier","translation":"Ночная пристань","where":"worlds/artist-eye-test/scenes/night-pier/scene.json title"},
-  {"text":"Mist lies on the water, and the boat seems to hang in the air.","translation":"Туман лежит на воде, и лодка будто висит в воздухе.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json caption"},
-  {"text":"The lantern burns at the very end, for whoever hasn't rowed in yet.","translation":"Фонарь горит на самом краю — для того, кто ещё не приплыл.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[0] text"},
-  {"text":"Somewhere in the mist an oar knocked softly against a boat.","translation":"Где-то в тумане тихо стукнуло весло о борт.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[1] text"},
-  {"text":"The fisherman isn't watching his float. He watches the mist moving toward the boat.","translation":"Рыбак не смотрит на поплавок. Он смотрит, как туман идёт к лодке.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[2] text"}
+  {"text":"Night Pier","translation":"Ночная пристань","where":"artist-eye-test/scenes/night-pier/scene.json title"},
+  {"text":"Mist lies on the water, and the boat seems to hang in the air.","translation":"Туман лежит на воде, и лодка будто висит в воздухе.","where":"artist-eye-test/scenes/night-pier/scene.json caption"},
+  {"text":"The lantern burns at the very end, for whoever hasn't rowed in yet.","translation":"Фонарь горит на самом краю — для того, кто ещё не приплыл.","where":"artist-eye-test/scenes/night-pier/scene.json captions[0] text"},
+  {"text":"Somewhere in the mist an oar knocked softly against a boat.","translation":"Где-то в тумане тихо стукнуло весло о борт.","where":"artist-eye-test/scenes/night-pier/scene.json captions[1] text"},
+  {"text":"The fisherman isn't watching his float. He watches the mist moving toward the boat.","translation":"Рыбак не смотрит на поплавок. Он смотрит, как туман идёт к лодке.","where":"artist-eye-test/scenes/night-pier/scene.json captions[2] text"}
 ]}

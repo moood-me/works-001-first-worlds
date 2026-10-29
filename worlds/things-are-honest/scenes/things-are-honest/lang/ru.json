@@ -1,12 +1,12 @@
 {"strings": [
-  {"text":"Things Are Honest","translation":"Вещи честны","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
-  {"text":"A family mystery for one evening.","translation":"Семейная загадка на один вечер.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
-  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"Осень. Ты приехала попрощаться с бабушкой Ниной. Врач сказал — неделя, может, две.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
-  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"С общей фотографии 1952 года кто-то аккуратно вырезан — по контуру, как из журнала.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
-  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"Люди знают, что важно, но говорят неправду. Вещи не врут — но понимают всё буквально.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
-  {"text":"Notebook","translation":"Блокнот","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
-  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Ночь на 14 марта 1953 года. О ней не говорят.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
-  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"С общей фотографии 1952 года аккуратно вырезан человек.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
-  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Спрашивай людей и вещи. Записывай. Предъявляй людям то, что сказали вещи.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
-  {"text":"close","translation":"закрыть","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+  {"text":"Things Are Honest","translation":"Вещи честны","where":"things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"Семейная загадка на один вечер.","where":"things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"Осень. Ты приехала попрощаться с бабушкой Ниной. Врач сказал — неделя, может, две.","where":"things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"С общей фотографии 1952 года кто-то аккуратно вырезан — по контуру, как из журнала.","where":"things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"Люди знают, что важно, но говорят неправду. Вещи не врут — но понимают всё буквально.","where":"things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"Блокнот","where":"things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Ночь на 14 марта 1953 года. О ней не говорят.","where":"things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"С общей фотографии 1952 года аккуратно вырезан человек.","where":"things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Спрашивай людей и вещи. Записывай. Предъявляй людям то, что сказали вещи.","where":"things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"закрыть","where":"things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
 ]}

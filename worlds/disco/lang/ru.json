@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"Disco","translation":"Дискотека","where":"worlds/disco/world.json title"},
-  {"text":"The lights sparkle, the music never stops","translation":"Огни сверкают, музыка не умолкает","where":"worlds/disco/world.json description"}
+  {"text":"Disco","translation":"Дискотека","where":"disco/world.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"Огни сверкают, музыка не умолкает","where":"disco/world.json description"}
 ]}
