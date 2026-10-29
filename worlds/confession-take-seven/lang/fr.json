@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Confession, Take Seven","translation":"Déclaration, prise sept","where":"worlds/confession-take-seven/world.json title"},
+  {"text":"A school roof at sunset, like in the best anime: the wind tousles her hair, sakura petals fall, Hikari holds a letter. Only the wind comes from the drama club's fan, Kenta pours the petals out of a bag from the water tower, and senpai is late for the seventh sunset now.","translation":"Un toit d’école au coucher du soleil, comme dans les meilleurs animes : le vent ébouriffe ses cheveux, des pétales de sakura tombent, Hikari tient une lettre. Sauf que le vent sort du ventilateur du club de théâtre, que Kenta verse les pétales d’un sac depuis le château d’eau, et que le senpai en est déjà à son septième coucher de soleil de retard.","where":"worlds/confession-take-seven/world.json description"}
+]}

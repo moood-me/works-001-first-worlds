@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Le pont sur la Brumeuse","where":"worlds/bridge-over-the-misty/world.json title"},
+  {"text":"An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.","translation":"Un vieux pont de pierre au-dessus d’une gorge pleine de brume. Une gardienne attend au milieu, sa lanterne à la main, et de l’autre rive, sortant de la brume, quelqu’un marche vers elle.","where":"worlds/bridge-over-the-misty/world.json description"}
+]}

@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"Night by the Campfire","translation":"Ночь у костра","where":"campfire-night/scenes/campfire-night/scene.json title"},
-  {"text":"Look around. It's all here, all around you.","translation":"Оглянись. Здесь всё вокруг.","where":"campfire-night/scenes/campfire-night/scene.json caption"}
+  {"text":"Night by the Campfire","translation":"Ночь у костра","where":"worlds/campfire-night/scenes/campfire-night/scene.json title"},
+  {"text":"Look around. It's all here, all around you.","translation":"Оглянись. Здесь всё вокруг.","where":"worlds/campfire-night/scenes/campfire-night/scene.json caption"}
 ]}

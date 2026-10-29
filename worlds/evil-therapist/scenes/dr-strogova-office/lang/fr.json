@@ -1,0 +1,20 @@
+{"strings": [
+  {"text":"FILE No. 0417","translation":"DOSSIER N° 0417","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/desk.js"},
+  {"text":"UNDER OBSERVATION","translation":"SOUS OBSERVATION","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/desk.js"},
+  {"text":"CASE FILES","translation":"DOSSIERS DES PATIENTS","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/deskfront.js"},
+  {"text":"Dr I. V. Strogova","translation":"Dr I. V. Strogova","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/nameplate.js"},
+  {"text":"psychotherapist","translation":"psychothérapeute","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/nameplate.js"},
+  {"text":"ONE AT A TIME","translation":"UN À LA FOIS","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/tissues.js"},
+  {"text":"it's just a mirror","translation":"ce n’est qu’un miroir","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"EXIT","translation":"SORTIE","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"only after the session","translation":"uniquement après la séance","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"YOUR FEELINGS MATTER*","translation":"VOS SENTIMENTS COMPTENT*","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"*and will be noted","translation":"*et seront pris en note","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"Dr Strogova's Office","translation":"Le cabinet du Dr Strogova","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json title"},
+  {"text":"Make yourself comfortable. As far as that's possible.","translation":"Mettez-vous à l’aise. Dans la mesure du possible.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json caption"},
+  {"text":"Sit down. The armchair is exactly where it should be.","translation":"Asseyez-vous. Le fauteuil est exactement là où il doit être.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[0] text"},
+  {"text":"Your file is already open. It's thicker than you thought.","translation":"Votre dossier est déjà ouvert. Il est plus épais que vous ne le pensiez.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[1] text"},
+  {"text":"Tissues: one at a time. That is part of the therapy too.","translation":"Les mouchoirs, c’est un à la fois. Cela fait aussi partie de la thérapie.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[2] text"},
+  {"text":"The clock on the wall says ten to three: the session's time is up.","translation":"L’horloge murale indique trois heures moins dix : la séance est terminée.","where":"worlds/evil-therapist/scenes/dr-strogova-office/script.js"},
+  {"text":"The page in the file is full: the doctor has written it from top to bottom.","translation":"La page du dossier est pleine : la doctoresse l’a noircie de haut en bas.","where":"worlds/evil-therapist/scenes/dr-strogova-office/script.js"}
+]}

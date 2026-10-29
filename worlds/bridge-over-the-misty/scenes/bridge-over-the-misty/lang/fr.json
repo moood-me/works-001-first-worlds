@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Le pont sur la Brumeuse","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"Le milieu du pont est le seul endroit où les deux rives se rejoignent.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"Le pont tient tant que quelqu’un y attend.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"De l’autre rive, sortant de la brume : des pas.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"Le voyageur a rejoint la gardienne et s’est arrêté à un pas de sa lanterne","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/script.js"}
+]}

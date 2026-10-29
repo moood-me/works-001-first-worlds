@@ -3,5 +3,5 @@
   "description": "A game with no reason to hurry.",
   "themes": {},
   "main": "board-on-the-water",
-  "languages": ["en", "ru"]
+  "languages": ["en", "ru", "fr"]
 }

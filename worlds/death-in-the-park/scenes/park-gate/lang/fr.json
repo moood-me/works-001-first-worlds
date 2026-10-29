@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"Aux grilles du parc","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"Les grilles devant. Quelqu’un derrière.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"L’allée se divise devant les grilles.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"Le réverbère près du portillon s’éteint, puis se rappelle qu’il est un réverbère.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"Tu es arrivée aux grilles : elles sont fermées par une chaîne.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"Tu es arrivée aux grilles : elles sont fermées.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"Tu as franchi les grilles et tu as disparu dans la brume, de l’autre côté.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"Tu secoues le portillon : la chaîne tinte, le cadenas tient bon.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"Les grilles s’ouvrent en grinçant. Au-delà, une brume pâle.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"Tu es revenue de l’autre côté des grilles, sur l’allée.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"La Mort a traversé les grilles fermées et attend de l’autre côté, dans la brume.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"La Mort a franchi les grilles ouvertes et attend de l’autre côté, dans la brume.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"La Mort s’est approchée et s’est arrêtée à côté de toi.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"La Mort t’a rattrapée.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Tu es arrivée aux grilles du parc. Des barreaux mouillés, une chaîne, et la brume au-delà. L’allée continue aussi, plus loin dans le parc.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"La brume s’est refermée : on distingue à peine l’allée du retour, seulement les réverbères près des grilles.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}

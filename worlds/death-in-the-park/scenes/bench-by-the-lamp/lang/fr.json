@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"The Bench by the Lamp","translation":"Le banc sous le réverbère","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
+  {"text":"A bench under a street lamp. A place for two.","translation":"Un banc sous un réverbère. Une place pour deux.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
+  {"text":"Breath turns to steam. Only yours.","translation":"Le souffle fait de la buée. Seulement le tien.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
+  {"text":"You came up to the bench. Death looked up at you.","translation":"Tu t’es approchée du banc. La Mort a levé les yeux vers toi.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench next to Death.","translation":"Tu t’es assise sur le banc, à côté de la Mort.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench.","translation":"Tu t’es assise sur le banc.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You walked away from the bench along the path.","translation":"Tu t’es éloignée du banc par l’allée.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"La Mort s’en est allée par l’allée et a disparu au-delà des réverbères.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"}
+]}

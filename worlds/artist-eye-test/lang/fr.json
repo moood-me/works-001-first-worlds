@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Artist's Eye Test","translation":"L’œil de l’artiste à l’essai","where":"worlds/artist-eye-test/world.json title"},
+  {"text":"a test of the look tool","translation":"un essai de l’outil look","where":"worlds/artist-eye-test/world.json description"}
+]}

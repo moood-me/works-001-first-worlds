@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"A Board on the Water","translation":"Un échiquier sur l’eau","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json title"},
+  {"text":"A game with no reason to hurry.","translation":"Une partie qu’on n’a aucune raison de presser.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json caption"},
+  {"text":"Black to move. They have been thinking it over since last summer.","translation":"Aux noirs de jouer. On réfléchit à ce coup depuis l’été dernier.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[0] text"},
+  {"text":"The pieces' shadows reach all the way to the edge of the board.","translation":"L’ombre des pièces s’étire jusqu’au bord de l’échiquier.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[1] text"},
+  {"text":"The knight looks at the sunset and takes its time.","translation":"Le cavalier regarde le coucher du soleil et prend son temps.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[2] text"},
+  {"text":"The dragon has surfaced to watch the game. It won't give any hints.","translation":"Le dragon a fait surface pour regarder la partie. Il ne soufflera rien.","where":"worlds/board-on-the-water/scenes/board-on-the-water/scene.json captions[3] text"}
+]}

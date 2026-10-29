@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"LIDA · BAY 4","translation":"LIDA · MODULE 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"O2 {oxygen}%   PWR {power}%","translation":"O2 {oxygen} %   ÉNERG. {power} %","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"CREW ON BOARD: 3/3","translation":"ÉQUIPAGE À BORD : 3/3","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"NOISE: HULL, SECT. 4","translation":"BRUIT : COQUE, SECT. 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"CRYO-3","translation":"CRYO-3","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/pod.js"},
+  {"text":"OBSERVATION BAY · 4","translation":"MODULE D’OBSERVATION · 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/wall.js"},
+  {"text":"The Ladoga's Observation Bay","translation":"Le module d’observation du Ladoga","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json title"},
+  {"text":"Day three adrift by a dead star. The oxygen is running out. Someone is knocking on the glass from outside.","translation":"Troisième jour de dérive près d’une étoile morte. L’oxygène s’épuise. Quelqu’un frappe à la vitre, dehors.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json caption"},
+  {"text":"For three days the Ladoga has been drifting by a dead star. No contact.","translation":"Depuis trois jours, le Ladoga dérive près d’une étoile morte. Aucune liaison.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[0] text"},
+  {"text":"Gordeev went outside on Tuesday. The tether was reeled in empty.","translation":"Gordeïev est sorti mardi. On a ramené le filin vide.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[1] text"},
+  {"text":"LIDA counts the crew again. Three out of three on board.","translation":"LIDA recompte l’équipage. Trois sur trois à bord.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[2] text"},
+  {"text":"Someone knocked on the glass from outside: three times, evenly, the way you knock on a door.","translation":"Quelqu’un a frappé à la vitre, dehors : trois coups, réguliers, comme on frappe à une porte.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"On the frost of pod 3 a handprint has appeared from the inside.","translation":"Sur le givre de la capsule 3, l’empreinte d’une main est apparue, de l’intérieur.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"The spacesuit has drifted right up and pressed its glove to the glass.","translation":"Le scaphandre s’est approché tout contre la vitre et y a plaqué son gant.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"Ten percent of the oxygen is left in the bay.","translation":"Il ne reste dans le module que dix pour cent d’oxygène.","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"}
+]}
