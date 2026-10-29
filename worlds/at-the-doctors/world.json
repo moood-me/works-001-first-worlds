@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "therapist-office",
-  "languages": ["en", "ru"]
+  "languages": ["en", "ru", "es"]
 }

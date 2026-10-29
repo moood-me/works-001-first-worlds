@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Under the Bridge","translation":"Bajo el puente","where":"worlds/embankment/scenes/under-the-bridge/scene.json title"},
+  {"text":"Granite steps down to the water under an old bridge.","translation":"Una escalinata de granito que baja al agua bajo un viejo puente.","where":"worlds/embankment/scenes/under-the-bridge/scene.json caption"},
+  {"text":"A river bus with its lights on has come out from under the far bridge","translation":"Un barco fluvial con las luces encendidas ha salido de debajo del puente lejano","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have risen: the bridge is up","translation":"Los tramos del puente lejano se han levantado: el puente está abierto","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have come down: the bridge is closed","translation":"Los tramos del puente lejano han bajado: el puente está cerrado","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has come on","translation":"La farola bajo el arco se ha encendido","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has gone out","translation":"La farola bajo el arco se ha apagado","where":"worlds/embankment/scenes/under-the-bridge/script.js"}
+]}

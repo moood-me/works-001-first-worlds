@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Elven Glade","translation":"El claro de los elfos","where":"worlds/elven-glade/scenes/elven-glade/scene.json title"},
+  {"text":"The night here is longer than it seems.","translation":"Aquí la noche es más larga de lo que parece.","where":"worlds/elven-glade/scenes/elven-glade/scene.json caption"},
+  {"text":"The glade is quiet. So quiet you can hear the mushrooms grow.","translation":"En el claro reina el silencio. Tanto que se oye crecer las setas.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[0] text"},
+  {"text":"Someone is waiting by the stream. Has been for a long time.","translation":"Alguien espera junto al arroyo. Desde hace mucho.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[1] text"}
+]}
