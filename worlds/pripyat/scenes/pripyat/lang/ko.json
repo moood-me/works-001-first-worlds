@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Pripyat","translation":"프리피야트","where":"worlds/pripyat/scenes/pripyat/scene.json title"},
+  {"text":"Only the wind and the trees live here now.","translation":"이제 여기엔 바람과 나무만 산다.","where":"worlds/pripyat/scenes/pripyat/scene.json caption"},
+  {"text":"They left for three days. They took only their papers.","translation":"사흘만 떠나 있을 거라 했다. 서류만 챙겼다.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[0] text"},
+  {"text":"The wheel was meant to start turning on the first of May.","translation":"관람차는 5월 1일에 처음 돌아갈 예정이었다.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[1] text"},
+  {"text":"The cabins still sway. Only from the wind.","translation":"곤돌라들은 아직도 흔들린다. 바람 때문에.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[2] text"},
+  {"text":"Forty years of silence.","translation":"사십 년의 침묵.","where":"worlds/pripyat/scenes/pripyat/scene.json captions[3] text"}
+]}

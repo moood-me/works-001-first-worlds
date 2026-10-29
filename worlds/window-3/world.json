@@ -6,5 +6,5 @@
     "space": 60
   },
   "main": "window-3",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant", "pt", "pl"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant", "pt", "pl", "ko"]
 }

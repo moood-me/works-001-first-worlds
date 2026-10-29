@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Abandoned Station in the Steppe","translation":"초원의 버려진 역","where":"worlds/steppe-station/scenes/steppe-station/scene.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"초원은 말이 없고, 가로등은 켜져 있고, 회전초는 노을 속으로 굴러간다.","where":"worlds/steppe-station/scenes/steppe-station/scene.json caption"},
+  {"text":"The last train came through here so long ago that the rails have forgotten its weight.","translation":"마지막 기차가 이곳을 지난 건 너무 오래전이라, 레일은 그 무게를 잊어버렸다.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[0] text"},
+  {"text":"The wind counts the sleepers and loses count every time.","translation":"바람이 침목을 세다가 매번 헷갈린다.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[1] text"},
+  {"text":"And the lamp still comes on anyway, out of habit.","translation":"그런데도 가로등은 여전히 켜진다. 습관처럼.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[2] text"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Artist's Eye Test","translation":"아티스트의 눈 시험","where":"worlds/artist-eye-test/world.json title"},
+  {"text":"a test of the look tool","translation":"look 도구 시험","where":"worlds/artist-eye-test/world.json description"}
+]}

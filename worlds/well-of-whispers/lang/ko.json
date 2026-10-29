@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"속삭임의 우물","where":"worlds/well-of-whispers/world.json title"},
+  {"text":"A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.","translation":"밤의 가문비나무 숲 한가운데 판자로 막힌 우물. 그 틈새로 차가운 빛이 스며 나온다. 속삭여 묻는 이에게는 대답한다고들 한다.","where":"worlds/well-of-whispers/world.json description"}
+]}

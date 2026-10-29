@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Savanna","translation":"사바나","where":"worlds/savanna/scenes/savanna/scene.json title"},
+  {"text":"Evening is near, and the air is still shimmering with heat.","translation":"저녁이 가까운데, 공기는 아직도 열기로 일렁인다.","where":"worlds/savanna/scenes/savanna/scene.json caption"},
+  {"text":"The heat still holds, but the shadows are already long.","translation":"더위는 아직 버티지만, 그림자는 벌써 길다.","where":"worlds/savanna/scenes/savanna/scene.json captions[0] text"},
+  {"text":"The giraffe calf never leaves its mother's side.","translation":"새끼 기린은 어미 곁을 한 발짝도 떠나지 않는다.","where":"worlds/savanna/scenes/savanna/scene.json captions[1] text"},
+  {"text":"Vultures circle over the savanna, patient, in no hurry at all.","translation":"독수리들이 사바나 위를 맴돈다. 참을성 있게, 조금도 서두르지 않고.","where":"worlds/savanna/scenes/savanna/scene.json captions[2] text"}
+]}

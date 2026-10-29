@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"고요한 물가","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"모래 물가, 미동도 없는 호수, 그리고 물가 바로 옆의 어두운 상자.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"해가 건너편 기슭의 숲에 닿았다.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"해가 졌다. 호수 위에 땅거미가 남았다.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"호수 위로 날이 밝았다. 물 위로 안개가 깔린다.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"벤치가 물가를 따라 걸어가 버려 보이지 않는다.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"헛간이 닭다리를 딛고 일어나, 이 발 저 발 옮겨 디디며 서 있다.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

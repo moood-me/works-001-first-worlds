@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Forty-First Kilometre","translation":"마흔한 번째 킬로미터","where":"worlds/forty-first-kilometre/world.json title"},
+  {"text":"A night bus stop in the fog; the last bus left long ago. On the road stands someone who has come to meet you, with flowers.","translation":"안개 낀 한밤의 버스 정류장. 막차는 오래전에 떠났다. 도로 위에 누군가 서 있다. 당신을 마중 나온 사람이, 꽃을 들고.","where":"worlds/forty-first-kilometre/world.json description"}
+]}

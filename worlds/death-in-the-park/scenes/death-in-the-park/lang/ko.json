@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Death in the Park","translation":"공원의 죽음","where":"worlds/death-in-the-park/scenes/death-in-the-park/scene.json title"},
+  {"text":"An ordinary evening. Almost.","translation":"평범한 저녁. 거의.","where":"worlds/death-in-the-park/scenes/death-in-the-park/scene.json caption"},
+  {"text":"Death came up to him along the path and stopped beside him.","translation":"죽음이 오솔길을 따라 그에게 다가와 곁에 멈춰 섰다.","where":"worlds/death-in-the-park/scenes/death-in-the-park/script.js"}
+]}

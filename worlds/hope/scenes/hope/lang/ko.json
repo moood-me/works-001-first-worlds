@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Hope","translation":"희망","where":"worlds/hope/scenes/hope/scene.json title"},
+  {"text":"Night. An old pier. Silence.","translation":"밤. 오래된 선착장. 고요.","where":"worlds/hope/scenes/hope/scene.json caption"},
+  {"text":"Every evening she comes to the old pier.","translation":"매일 저녁 그녀는 오래된 선착장에 온다.","where":"worlds/hope/scenes/hope/scene.json captions[0] text"},
+  {"text":"She counts the lights on the far shore.","translation":"건너편 기슭의 불빛을 센다.","where":"worlds/hope/scenes/hope/scene.json captions[1] text"},
+  {"text":"Tonight there is one.","translation":"오늘 밤은 하나.","where":"worlds/hope/scenes/hope/scene.json captions[2] text"},
+  {"text":"So someone is still awake.","translation":"그러니까 누군가 아직 깨어 있다.","where":"worlds/hope/scenes/hope/scene.json captions[3] text"}
+]}

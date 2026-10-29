@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Abandoned Station in the Steppe","translation":"초원의 버려진 역","where":"worlds/steppe-station/world.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"초원은 말이 없고, 가로등은 켜져 있고, 회전초는 노을 속으로 굴러간다.","where":"worlds/steppe-station/world.json description"}
+]}

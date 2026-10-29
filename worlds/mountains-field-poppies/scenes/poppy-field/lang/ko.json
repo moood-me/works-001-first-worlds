@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"A Poppy Field by the Mountains","translation":"산자락의 양귀비 들판","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json title"},
+  {"text":"Early morning. Dew and silence.","translation":"이른 아침. 이슬과 고요.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json caption"},
+  {"text":"The first light comes to the peaks first.","translation":"첫 햇살은 봉우리에 먼저 닿는다.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json captions[0] text"},
+  {"text":"The dew still lies on the petals.","translation":"이슬이 아직 꽃잎 위에 맺혀 있다.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json captions[1] text"}
+]}

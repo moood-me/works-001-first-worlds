@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"다리의 끝","where":"worlds/edge-of-the-bridge/world.json title"},
+  {"text":"An old stone bridge breaks off above a sea of clouds. Every evening a keeper sits at the very edge with a lantern and shines it into the void, in case someone on the floating island opposite answers.","translation":"오래된 돌다리가 구름바다 위에서 뚝 끊겨 있다. 매일 저녁 다리지기가 등불을 들고 맨 끝에 앉아 허공을 비춘다. 혹시 맞은편 떠 있는 섬에서 누군가 대답할까 해서.","where":"worlds/edge-of-the-bridge/world.json description"}
+]}

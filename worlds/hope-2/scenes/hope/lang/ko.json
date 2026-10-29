@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Hope","translation":"희망","where":"worlds/hope-2/scenes/hope/scene.json title"},
+  {"text":"it's quiet here, and only a small light keeps hope from going out","translation":"여기는 고요하고, 작은 불빛 하나만이 희망이 꺼지지 않게 지켜 준다","where":"worlds/hope-2/scenes/hope/scene.json caption"},
+  {"text":"she sits by the empty lake and counts the ripples on the water","translation":"그녀는 텅 빈 호숫가에 앉아 물 위에 번지는 동그라미를 센다","where":"worlds/hope-2/scenes/hope/scene.json captions[0] text"},
+  {"text":"somewhere on the far shore a single window is lit","translation":"저 건너편 기슭 어딘가에 창 하나가 불을 밝히고 있다","where":"worlds/hope-2/scenes/hope/scene.json captions[1] text"},
+  {"text":"hope is when you walk towards a light that may not even be there","translation":"희망이란, 어쩌면 거기 없을지도 모르는 빛을 향해 걸어가는 것","where":"worlds/hope-2/scenes/hope/scene.json captions[2] text"}
+]}

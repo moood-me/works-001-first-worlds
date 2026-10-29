@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Disco","translation":"디스코","where":"worlds/disco/scenes/disco/scene.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"조명은 반짝이고, 음악은 멈추지 않는다","where":"worlds/disco/scenes/disco/scene.json caption"},
+  {"text":"The ball above the stage scatters sparkles on every shoulder","translation":"무대 위 미러볼이 모든 어깨 위에 반짝이를 흩뿌린다","where":"worlds/disco/scenes/disco/scene.json captions[0] text"},
+  {"text":"Someone has found the nerve to step into the circle for the first time","translation":"누군가 처음으로 용기를 내어 원 안으로 들어섰다","where":"worlds/disco/scenes/disco/scene.json captions[1] text"},
+  {"text":"The yellow spotlight is looking for someone else to call over","translation":"노란 스포트라이트가 또 누구를 불러낼지 찾고 있다","where":"worlds/disco/scenes/disco/scene.json captions[2] text"}
+]}

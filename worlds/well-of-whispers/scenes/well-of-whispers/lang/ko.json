@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"속삭임의 우물","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"우물은 그 위에서 한 모든 말을 기억한다.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"백 년 동안 우물은 판자로 막혀 있었다. 오늘 밤, 틈새로 빛이 스며 나온다.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"대답한다고들 한다. 다만 속삭여 묻는 이에게만.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"우물 뚜껑이 젖혀지고, 안에서 차가운 빛이 솟아오른다.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"우물 뚜껑이 다시 제자리에 내려앉았고, 빛은 틈새로 돌아갔다.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}

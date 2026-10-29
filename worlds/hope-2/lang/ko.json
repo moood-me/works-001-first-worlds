@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Hope","translation":"희망","where":"worlds/hope-2/world.json title"},
+  {"text":"it's quiet here, and only a small light keeps hope from going out","translation":"여기는 고요하고, 작은 불빛 하나만이 희망이 꺼지지 않게 지켜 준다","where":"worlds/hope-2/world.json description"}
+]}

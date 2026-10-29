@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Night Pier","translation":"밤의 부두","where":"worlds/artist-eye-test/scenes/night-pier/scene.json title"},
+  {"text":"Mist lies on the water, and the boat seems to hang in the air.","translation":"안개가 물 위에 깔려, 배가 허공에 떠 있는 것만 같다.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json caption"},
+  {"text":"The lantern burns at the very end, for whoever hasn't rowed in yet.","translation":"등불은 맨 끝에서 타오른다. 아직 노 저어 돌아오지 않은 누군가를 위해.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[0] text"},
+  {"text":"Somewhere in the mist an oar knocked softly against a boat.","translation":"안개 속 어딘가에서 노가 뱃전에 가만히 부딪쳤다.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[1] text"},
+  {"text":"The fisherman isn't watching his float. He watches the mist moving toward the boat.","translation":"낚시꾼은 찌를 보지 않는다. 그는 안개가 배 쪽으로 다가오는 것을 바라본다.","where":"worlds/artist-eye-test/scenes/night-pier/scene.json captions[2] text"}
+]}

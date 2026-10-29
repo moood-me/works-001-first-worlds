@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"The Bench by the Lamp","translation":"가로등 옆 벤치","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
+  {"text":"A bench under a street lamp. A place for two.","translation":"가로등 아래 벤치. 두 사람을 위한 자리.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
+  {"text":"Breath turns to steam. Only yours.","translation":"입김이 하얗게 피어오른다. 당신에게서만.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
+  {"text":"You came up to the bench. Death looked up at you.","translation":"당신은 벤치로 다가갔다. 죽음이 고개를 들어 당신을 바라보았다.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench next to Death.","translation":"당신은 벤치에, 죽음 곁에 앉았다.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench.","translation":"당신은 벤치에 앉았다.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You walked away from the bench along the path.","translation":"당신은 오솔길을 따라 벤치에서 멀어졌다.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"죽음은 오솔길을 따라 걸어가 가로등들 너머로 사라졌다.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"}
+]}
