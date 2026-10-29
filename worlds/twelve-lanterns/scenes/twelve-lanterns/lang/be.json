@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"Дванаццаць ліхтароў","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json title"},
+  {"text":"The festival ended an hour ago. Someone forgot to put out the lanterns on the shrine steps. Or didn't forget.","translation":"Свята скончылася гадзіну таму. Ліхтары на лесвіцы да храма забыліся пагасіць — або не забыліся.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json caption"},
+  {"text":"Twelve lanterns on the steps up to the torii. The matsuri is over, everyone has gone home.","translation":"Дванаццаць ліхтароў на лесвіцы да торыі. Мацуры скончыўся, людзі разышліся.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[0] text"},
+  {"text":"Each time a lantern goes out, the girl in the fox mask comes down a step.","translation":"Кожны раз, калі гасне ліхтар, дзяўчынка ў масцы лісы спускаецца на прыступку.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[1] text"},
+  {"text":"The goldfish in the bag looks one way only. Toward where you stand.","translation":"Залатая рыбка ў пакеце глядзіць толькі ў адзін бок. Туды, дзе стаіш ты.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[2] text"},
+  {"text":"Half the lanterns on the steps are out. The girl in the fox mask is halfway down.","translation":"Палова ліхтароў на лесвіцы пагасла. Дзяўчынка ў масцы лісы ўжо на сярэдзіне прыступак.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"},
+  {"text":"The last lantern is out. The vending machine barely glows. The girl in the mask stands at the bottom step.","translation":"Пагас апошні ліхтар. Аўтамат амаль не свеціць. Дзяўчынка ў масцы стаіць ля ніжняй прыступкі.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"}
+]}

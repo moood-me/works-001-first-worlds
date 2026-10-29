@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Мост праз Туманную","where":"worlds/bridge-over-the-misty/world.json title"},
+  {"text":"An old stone bridge over a gorge full of mist. A keeper with a lantern waits in the middle, and from the other side, out of the mist, someone is walking towards her.","translation":"Стары каменны мост над цяснінай, поўнай туману. Захавальніца з ліхтаром чакае пасярэдзіне, а з другога берага, з туману, нехта ідзе ёй насустрач.","where":"worlds/bridge-over-the-misty/world.json description"}
+]}

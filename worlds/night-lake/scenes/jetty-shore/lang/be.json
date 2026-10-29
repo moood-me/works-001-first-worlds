@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Shore by the Jetty","translation":"Бераг ля масточка","where":"worlds/night-lake/scenes/jetty-shore/scene.json title"},
+  {"text":"Wet grass, an old stake and a boat tied up by the dark water.","translation":"Мокрая трава, стары калок і лодка на прывязі ля цёмнай вады.","where":"worlds/night-lake/scenes/jetty-shore/scene.json caption"},
+  {"text":"A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.","translation":"Парыў ветру: чарот зашамацеў, лодка тузанула вяроўку на калку.","where":"worlds/night-lake/scenes/jetty-shore/script.js"},
+  {"text":"A gust of wind: the reeds rustled, a shiver ran over the water at the edge.","translation":"Парыў ветру: чарот зашамацеў, па вадзе ля берага прайшло дрыжанне.","where":"worlds/night-lake/scenes/jetty-shore/script.js"}
+]}

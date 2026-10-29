@@ -1,7 +1,7 @@
 {"strings": [
-  {"text":"The Lighthouse on the Cape","translation":"Маяк на мысе","where":"lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json title"},
-  {"text":"One warm window on the whole cold shore.","translation":"Одно тёплое окно на весь холодный берег.","where":"lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json caption"},
-  {"text":"The lamp isn't lit yet: the dusk is in no hurry.","translation":"Фонарь ещё не зажгли — сумерки не торопятся.","where":"lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[0] text"},
-  {"text":"Snowflakes go out the moment they touch the water.","translation":"Снежинки гаснут, едва коснувшись воды.","where":"lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[1] text"},
-  {"text":"In the window someone is putting the kettle on.","translation":"В окне кто-то ставит чайник.","where":"lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[2] text"}
+  {"text":"The Lighthouse on the Cape","translation":"Маяк на мысе","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json title"},
+  {"text":"One warm window on the whole cold shore.","translation":"Одно тёплое окно на весь холодный берег.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json caption"},
+  {"text":"The lamp isn't lit yet: the dusk is in no hurry.","translation":"Фонарь ещё не зажгли — сумерки не торопятся.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[0] text"},
+  {"text":"Snowflakes go out the moment they touch the water.","translation":"Снежинки гаснут, едва коснувшись воды.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[1] text"},
+  {"text":"In the window someone is putting the kettle on.","translation":"В окне кто-то ставит чайник.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[2] text"}
 ]}

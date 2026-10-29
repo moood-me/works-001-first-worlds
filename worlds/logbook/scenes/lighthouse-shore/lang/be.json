@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"The Shore Below the Lighthouse","translation":"Бераг пад маяком","where":"worlds/logbook/scenes/lighthouse-shore/scene.json title"},
+  {"text":"Wet stones, surf, the moon path. Up above, on the left, the beam goes round.","translation":"Мокрыя камяні, прыбой, месячная дарожка. Наверсе, злева, ходзіць прамень.","where":"worlds/logbook/scenes/lighthouse-shore/scene.json caption"},
+  {"text":"Shore","translation":"Бераг","where":"worlds/logbook/scenes/lighthouse-shore/widgets/clock.html"}
+]}

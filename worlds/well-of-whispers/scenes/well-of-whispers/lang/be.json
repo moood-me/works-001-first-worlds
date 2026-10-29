@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Калодзеж шэптаў","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"Калодзеж памятае кожнае слова, сказанае над ім.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"Сто гадоў калодзеж стаяў забіты. Гэтай ноччу са шчылін сочыцца святло.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"Кажуць, ён адказвае — але толькі тым, хто пытаецца шэптам.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"Вечка калодзежа адкінута — знутры падымаецца халоднае святло.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"Вечка калодзежа зноў легла на месца, святло сышло ў шчыліны.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}

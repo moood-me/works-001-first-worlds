@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"SKY","translation":"НЕБА","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/asphalt.js"},
+  {"text":"TSOI LIVES","translation":"ЦОЙ ЖЫВЫ","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"VITEK + LENA","translation":"ВІЦЁК + ЛЕНА","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"TRIES: {tries}","translation":"ЗАВОДЗІМ: {tries}","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"The Lada by the Garages","translation":"Капейка ля гаражоў","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json title"},
+  {"text":"Friday, twenty to nine. They've been trying to start the Lada since April.","translation":"Пятніца, без дваццаці дзевяць. Капейку заводзяць з красавіка.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json caption"},
+  {"text":"The bench is free: nobody sits on it, they stand on it.","translation":"Лаўка вольная: на ёй не сядзяць, на ёй стаяць нагамі.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[1] text"},
+  {"text":"Granny Zina sees everything. Granny Zina remembers everything. Since ninety-three.","translation":"Баба Зіна ўсё бачыць. Баба Зіна ўсё памятае. З дзевяноста трэцяга года.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[2] text"},
+  {"text":"The street lamp over the garages has come on, at the third try.","translation":"Над гаражамі запаліўся ліхтар — з трэцяй спробы.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada started! Try number {n}.","translation":"Капейка завялася! Спроба №{n}.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada ran for five seconds and stalled.","translation":"Капейка папрацавала пяць секунд і заглохла.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The boombox on the roof has chewed the tape.","translation":"Магнітолу на даху зажавала.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"Someone wound the cassette back with a pencil. It plays on.","translation":"Касету перамоталі алоўкам. Іграе далей.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"}
+]}

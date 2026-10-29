@@ -1,3 +1,3 @@
 {"strings": [
-  {"text":"The Elven Glade","translation":"Эльфийская поляна","where":"elven-glade/world.json title"}
+  {"text":"The Elven Glade","translation":"Эльфийская поляна","where":"worlds/elven-glade/world.json title"}
 ]}

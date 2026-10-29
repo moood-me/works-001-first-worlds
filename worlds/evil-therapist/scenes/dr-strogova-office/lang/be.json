@@ -1,0 +1,20 @@
+{"strings": [
+  {"text":"FILE No. 0417","translation":"СПРАВА № 0417","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/desk.js"},
+  {"text":"UNDER OBSERVATION","translation":"ПАД НАЗІРАННЕМ","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/desk.js"},
+  {"text":"CASE FILES","translation":"АСАБІСТЫЯ СПРАВЫ","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/deskfront.js"},
+  {"text":"Dr I. V. Strogova","translation":"Д-р І. В. Строгава","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/nameplate.js"},
+  {"text":"psychotherapist","translation":"псіхатэрапеўт","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/nameplate.js"},
+  {"text":"ONE AT A TIME","translation":"ПА АДНОЙ","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/tissues.js"},
+  {"text":"it's just a mirror","translation":"гэта проста люстэрка","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"EXIT","translation":"ВЫХАД —","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"only after the session","translation":"па заканчэнні сеанса","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"YOUR FEELINGS MATTER*","translation":"ВАШЫ ПАЧУЦЦІ ВАЖНЫЯ*","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"*and will be noted","translation":"*і будуць улічаны","where":"worlds/evil-therapist/scenes/dr-strogova-office/elements/wall.js"},
+  {"text":"Dr Strogova's Office","translation":"Кабінет д-ра Строгавай","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json title"},
+  {"text":"Make yourself comfortable. As far as that's possible.","translation":"Уладкоўвайцеся зручней. Наколькі гэта магчыма.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json caption"},
+  {"text":"Sit down. The armchair is exactly where it should be.","translation":"Сядайце. Крэсла стаіць роўна там, дзе павінна.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[0] text"},
+  {"text":"Your file is already open. It's thicker than you thought.","translation":"Ваша справа ўжо адкрыта. Яна таўсцейшая, чым вы думалі.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[1] text"},
+  {"text":"Tissues: one at a time. That is part of the therapy too.","translation":"Сурвэткі — па адной. Гэта таксама частка тэрапіі.","where":"worlds/evil-therapist/scenes/dr-strogova-office/scene.json captions[2] text"},
+  {"text":"The clock on the wall says ten to three: the session's time is up.","translation":"Гадзіннік на сцяне паказвае 14:50 — час сеанса скончыўся.","where":"worlds/evil-therapist/scenes/dr-strogova-office/script.js"},
+  {"text":"The page in the file is full: the doctor has written it from top to bottom.","translation":"У справе скончылася старонка: доктар спісала яе цалкам.","where":"worlds/evil-therapist/scenes/dr-strogova-office/script.js"}
+]}

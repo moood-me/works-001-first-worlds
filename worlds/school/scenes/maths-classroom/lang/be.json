@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"2nd October","translation":"Другое кастрычніка","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"Classwork","translation":"Класная работа","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"HW: ex. 214, 217","translation":"Д/з: № 214, 217","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"PYTHAGORAS","translation":"ПІФАГОР","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"DESCARTES","translation":"ДЭКАРТ","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"LOBACHEVSKY","translation":"ЛАБАЧЭЎСКІ","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"KOVALEVSKAYA","translation":"КАВАЛЕЎСКАЯ","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"GEOMETRIC SOLIDS","translation":"ГЕАМЕТРЫЧНЫЯ ЦЕЛЫ","where":"worlds/school/scenes/maths-classroom/elements/poster_bodies.js"},
+  {"text":"PYTHAGOREAN THEOREM","translation":"ТЭАРЭМА ПІФАГОРА","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"TABLE OF SQUARES","translation":"ТАБЛІЦА КВАДРАТАЎ","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"The Maths Classroom","translation":"Кабінет матэматыкі","where":"worlds/school/scenes/maths-classroom/scene.json title"},
+  {"text":"After lessons. You can hear the clock ticking.","translation":"Пасля ўрокаў. Чуваць, як цікае гадзіннік.","where":"worlds/school/scenes/maths-classroom/scene.json caption"},
+  {"text":"The bell rang long ago. The formulas are still on the board.","translation":"Званок быў даўно. Формулы засталіся на дошцы.","where":"worlds/school/scenes/maths-classroom/scene.json captions[0] text"},
+  {"text":"The dust in the sunbeam is slowly working out its own problem.","translation":"Пыл у прамені павольна рашае сваю задачу.","where":"worlds/school/scenes/maths-classroom/scene.json captions[1] text"},
+  {"text":"The second hand is counting the silence.","translation":"Секундная стрэлка лічыць цішыню.","where":"worlds/school/scenes/maths-classroom/scene.json captions[2] text"}
+]}

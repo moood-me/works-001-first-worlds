@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"In the Old Shed by the Station","translation":"У старым хляве ля станцыі","where":"worlds/steppe-station/scenes/station-shed/scene.json title"},
+  {"text":"Dust hangs in the slits of light, and everything here has been tidied by someone.","translation":"Пыл стаіць у шчылінах святла, і ўсё тут кімсьці прыбрана.","where":"worlds/steppe-station/scenes/station-shed/scene.json caption"},
+  {"text":"The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.","translation":"Шчыліны ў сцяне амаль пагаслі: сонца пайшло за стэп, у хляве застаецца толькі святло з дзвярэй.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"The swallow darted off the beam and flew out through the open door, toward the sunset.","translation":"Ластаўка сарвалася з бэлькі і вылецела ў расчыненыя дзверы, да захаду.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.","translation":"Пад мешкавінай — ацынкаванае вядро, у ім чыстая вада. Нехта прынёс яе нядаўна.","where":"worlds/steppe-station/scenes/station-shed/script.js"}
+]}

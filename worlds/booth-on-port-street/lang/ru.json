@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"The Booth on Port Street","translation":"Будка на Портовой","where":"booth-on-port-street/world.json title"},
-  {"text":"Three in the morning, rain, the docks quarter. A man in a raincoat waits under a street lamp for a call to the phone booth, which stays silent.","translation":"Три часа ночи, дождь, портовый квартал. Человек в плаще ждёт у фонаря звонка в телефонной будке, которая молчит.","where":"booth-on-port-street/world.json description"}
+  {"text":"The Booth on Port Street","translation":"Будка на Портовой","where":"worlds/booth-on-port-street/world.json title"},
+  {"text":"Three in the morning, rain, the docks quarter. A man in a raincoat waits under a street lamp for a call to the phone booth, which stays silent.","translation":"Три часа ночи, дождь, портовый квартал. Человек в плаще ждёт у фонаря звонка в телефонной будке, которая молчит.","where":"worlds/booth-on-port-street/world.json description"}
 ]}

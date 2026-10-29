@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Night Lake","translation":"Начное возера","where":"worlds/night-lake/scenes/night-lake/scene.json title"},
+  {"text":"A small quiet light sways over the dark water.","translation":"Ціхі агеньчык калышацца над цёмнай вадой.","where":"worlds/night-lake/scenes/night-lake/scene.json caption"},
+  {"text":"The torch beam touches the black water.","translation":"Прамень ліхтарыка кранае чорную ваду.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[0] text"},
+  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"Дзесьці ўнізе плюхнула рыба — кругі разыходзяцца павольна.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[1] text"},
+  {"text":"He counts the fireflies and loses count at seven.","translation":"Ён лічыць светлячкоў і збіваецца на сёмым.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[2] text"}
+]}
