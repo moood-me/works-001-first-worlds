@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Night Lake","translation":"밤의 호수","where":"worlds/night-lake/scenes/night-lake/scene.json title"},
+  {"text":"A small quiet light sways over the dark water.","translation":"작고 조용한 불빛 하나가 어두운 물 위에서 흔들린다.","where":"worlds/night-lake/scenes/night-lake/scene.json caption"},
+  {"text":"The torch beam touches the black water.","translation":"손전등 불빛이 검은 물을 어루만진다.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[0] text"},
+  {"text":"Somewhere below a fish splashed; the rings spread slowly.","translation":"아래 어딘가에서 물고기가 첨벙했다. 물결이 천천히 번져 간다.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[1] text"},
+  {"text":"He counts the fireflies and loses count at seven.","translation":"그는 반딧불이를 세다가 일곱에서 헷갈린다.","where":"worlds/night-lake/scenes/night-lake/scene.json captions[2] text"}
+]}

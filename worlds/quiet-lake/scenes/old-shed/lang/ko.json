@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"By the Old Shed","translation":"오래된 헛간 곁에서","where":"worlds/quiet-lake/scenes/old-shed/scene.json title"},
+  {"text":"An old shed right by the water.","translation":"물가 바로 옆의 오래된 헛간.","where":"worlds/quiet-lake/scenes/old-shed/scene.json caption"}
+]}

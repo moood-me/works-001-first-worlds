@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Things Are Honest","translation":"물건은 정직하다","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"하룻저녁의 가족 수수께끼.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"가을. 니나 할머니께 작별 인사를 하러 왔다. 의사는 일주일, 어쩌면 이 주라고 했다.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"1952년 가족사진에서 누군가 깔끔하게 오려져 나갔다. 잡지에서 오려 내듯, 윤곽을 따라.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"사람들은 무엇이 중요한지 알지만, 진실을 말하지 않는다. 물건들은 거짓말을 하지 않지만, 모든 걸 곧이곧대로 받아들인다.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"수첩","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"1953년 3월 14일 밤. 아무도 그 밤 이야기를 하지 않는다.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"1952년 가족사진에서 누군가 깔끔하게 오려져 나갔다.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"사람들과 물건들에게 물어보세요. 적어 두세요. 물건들이 한 말을 사람들 앞에 내밀어 보세요.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"닫기","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+]}

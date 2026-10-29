@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"HOTEL","translation":"호텔","where":"worlds/under-the-lamp/scenes/under-the-lamp/elements/hotel.js"},
+  {"text":"Under the Lamp","translation":"가로등 아래","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json title"},
+  {"text":"He said: at two, outside the Metropol, under the lamp.","translation":"그가 말했다. 두 시에, 메트로폴 앞, 가로등 아래서.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json caption"},
+  {"text":"A quarter to three. Her third cigarette.","translation":"세 시 십오 분 전. 세 번째 담배.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[0] text"},
+  {"text":"You hear the footsteps before you see the hat.","translation":"모자가 보이기 전에 발소리가 먼저 들린다.","where":"worlds/under-the-lamp/scenes/under-the-lamp/scene.json captions[1] text"}
+]}

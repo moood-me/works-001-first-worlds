@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Shore by the Jetty","translation":"잔교 옆 물가","where":"worlds/night-lake/scenes/jetty-shore/scene.json title"},
+  {"text":"Wet grass, an old stake and a boat tied up by the dark water.","translation":"젖은 풀, 오래된 말뚝, 어두운 물가에 매인 배.","where":"worlds/night-lake/scenes/jetty-shore/scene.json caption"},
+  {"text":"A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.","translation":"바람이 한 줄기 불었다. 갈대가 사각거리고, 배가 말뚝에 맨 밧줄을 잡아당겼다.","where":"worlds/night-lake/scenes/jetty-shore/script.js"},
+  {"text":"A gust of wind: the reeds rustled, a shiver ran over the water at the edge.","translation":"바람이 한 줄기 불었다. 갈대가 사각거리고, 물가의 수면에 잔떨림이 지나갔다.","where":"worlds/night-lake/scenes/jetty-shore/script.js"}
+]}

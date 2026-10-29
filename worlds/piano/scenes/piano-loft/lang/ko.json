@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Loft with a Piano","translation":"피아노가 있는 로프트","where":"worlds/piano/scenes/piano-loft/scene.json title"},
+  {"text":"Warm light, brick and the silence between the notes.","translation":"따뜻한 빛, 벽돌, 그리고 음과 음 사이의 고요.","where":"worlds/piano/scenes/piano-loft/scene.json caption"},
+  {"text":"The city outside the window is lighting its windows.","translation":"창밖 도시가 제 창들에 불을 켜고 있다.","where":"worlds/piano/scenes/piano-loft/scene.json captions[0] text"},
+  {"text":"The lid is open: someone has just been playing.","translation":"뚜껑이 열려 있다. 누군가 방금까지 연주했다.","where":"worlds/piano/scenes/piano-loft/scene.json captions[1] text"},
+  {"text":"The cat has taken the bench and has no plans to give it up.","translation":"고양이가 피아노 의자를 차지했고, 내줄 생각이 없다.","where":"worlds/piano/scenes/piano-loft/scene.json captions[2] text"},
+  {"text":"One click on the bulbs, and the light goes out.","translation":"전구를 한 번 클릭하면, 불이 꺼진다.","where":"worlds/piano/scenes/piano-loft/scene.json captions[3] text"}
+]}

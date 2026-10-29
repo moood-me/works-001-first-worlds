@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"In the Old Shed by the Station","translation":"역 옆 오래된 헛간 안에서","where":"worlds/steppe-station/scenes/station-shed/scene.json title"},
+  {"text":"Dust hangs in the slits of light, and everything here has been tidied by someone.","translation":"빛줄기 틈마다 먼지가 떠 있고, 이곳의 모든 것은 누군가 정돈해 두었다.","where":"worlds/steppe-station/scenes/station-shed/scene.json caption"},
+  {"text":"The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.","translation":"벽 틈의 빛이 거의 꺼졌다. 해가 초원 너머로 지고, 헛간에는 문에서 들어오는 빛만 남는다.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"The swallow darted off the beam and flew out through the open door, toward the sunset.","translation":"제비가 들보에서 날아올라 활짝 열린 문으로, 노을 쪽으로 빠져나갔다.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.","translation":"삼베 자루 아래, 아연 도금 양동이에 깨끗한 물. 누군가 얼마 전에 가져다 놓았다.","where":"worlds/steppe-station/scenes/station-shed/script.js"}
+]}

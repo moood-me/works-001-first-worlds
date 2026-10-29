@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"SERY + LENA","translation":"세리 + 레나","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"KINO","translation":"키노","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"TSOI LIVES","translation":"빅토르 최는 살아 있다","where":"worlds/send-off/scenes/yard-5-20/elements/house.js"},
+  {"text":"The Yard on Zavodskaya, 5:20","translation":"자보츠카야 거리의 마당, 5:20","where":"worlds/send-off/scenes/yard-5-20/scene.json title"},
+  {"text":"The send-off is over, and the morning hasn't come yet.","translation":"배웅은 끝났고, 아침은 아직 오지 않았다.","where":"worlds/send-off/scenes/yard-5-20/scene.json caption"},
+  {"text":"Five twenty. The cassette is going round for the third time.","translation":"다섯 시 이십 분. 카세트가 세 바퀴째 돌고 있다.","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[0] text"},
+  {"text":"At six the UAZ van from the draft office will come for Sery.","translation":"여섯 시에 징병 사무소의 우아즈 승합차가 세리를 데리러 온다.","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[1] text"},
+  {"text":"Vitek cracks sunflower seeds and doesn't know what to say. Neither does his mum at the window.","translation":"비툐크는 해바라기씨를 까며 무슨 말을 해야 할지 모른다. 창가의 엄마도.","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[2] text"},
+  {"text":"The draft office's UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.","translation":"징병 사무소의 우아즈 승합차가 차고 뒤에서 굴러 나와 현관 앞에 선다. 샤리크가 고개를 든다.","where":"worlds/send-off/scenes/yard-5-20/script.js"},
+  {"text":"The van has disappeared behind the garages.","translation":"승합차가 차고 뒤로 사라졌다.","where":"worlds/send-off/scenes/yard-5-20/script.js"}
+]}

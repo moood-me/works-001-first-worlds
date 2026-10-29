@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Corridor by the Loft Door","translation":"로프트 문 앞 복도","where":"worlds/piano/scenes/loft-corridor/scene.json title"},
+  {"text":"Brick, old wood and a single sconce for the whole corridor.","translation":"벽돌, 오래된 나무, 그리고 복도 전체에 벽등 하나.","where":"worlds/piano/scenes/loft-corridor/scene.json caption"}
+]}

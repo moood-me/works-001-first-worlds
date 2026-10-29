@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Rooftops","translation":"지붕들","where":"worlds/rooftops/scenes/rooftops/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → 로 달리고, 스페이스로 점프하세요.","where":"worlds/rooftops/scenes/rooftops/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"그는 지붕 끝의 고양이에게까지 달려갔다. 고양이: “야옹. 여기서부턴 달뿐이야.”","where":"worlds/rooftops/scenes/rooftops/script.js"}
+]}

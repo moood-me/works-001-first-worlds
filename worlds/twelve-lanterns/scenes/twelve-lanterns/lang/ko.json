@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"열두 개의 초롱","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json title"},
+  {"text":"The festival ended an hour ago. Someone forgot to put out the lanterns on the shrine steps. Or didn't forget.","translation":"축제는 한 시간 전에 끝났다. 누군가 신사 계단의 초롱 끄는 걸 잊었다. 아니면 잊지 않았거나.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json caption"},
+  {"text":"Twelve lanterns on the steps up to the torii. The matsuri is over, everyone has gone home.","translation":"도리이로 오르는 계단의 초롱 열두 개. 마쓰리는 끝났고, 모두 집으로 돌아갔다.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[0] text"},
+  {"text":"Each time a lantern goes out, the girl in the fox mask comes down a step.","translation":"초롱이 하나 꺼질 때마다, 여우 가면을 쓴 소녀가 한 계단 내려온다.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[1] text"},
+  {"text":"The goldfish in the bag looks one way only. Toward where you stand.","translation":"봉지 속 금붕어는 한쪽만 바라본다. 당신이 서 있는 쪽을.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[2] text"},
+  {"text":"Half the lanterns on the steps are out. The girl in the fox mask is halfway down.","translation":"계단의 초롱이 절반 꺼졌다. 여우 가면을 쓴 소녀는 벌써 계단 중간까지 내려왔다.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"},
+  {"text":"The last lantern is out. The vending machine barely glows. The girl in the mask stands at the bottom step.","translation":"마지막 초롱이 꺼졌다. 자판기만 희미하게 빛난다. 가면 쓴 소녀가 맨 아래 계단에 서 있다.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"}
+]}

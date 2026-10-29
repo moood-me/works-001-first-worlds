@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"2nd October","translation":"10월 2일","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"Classwork","translation":"수업 활동","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"HW: ex. 214, 217","translation":"숙제: 214, 217번","where":"worlds/school/scenes/maths-classroom/elements/board.js"},
+  {"text":"PYTHAGORAS","translation":"피타고라스","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"DESCARTES","translation":"데카르트","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"LOBACHEVSKY","translation":"로바쳅스키","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"KOVALEVSKAYA","translation":"코발렙스카야","where":"worlds/school/scenes/maths-classroom/elements/portraits.js"},
+  {"text":"GEOMETRIC SOLIDS","translation":"입체 도형","where":"worlds/school/scenes/maths-classroom/elements/poster_bodies.js"},
+  {"text":"PYTHAGOREAN THEOREM","translation":"피타고라스의 정리","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"TABLE OF SQUARES","translation":"제곱수 표","where":"worlds/school/scenes/maths-classroom/elements/posters_right.js"},
+  {"text":"The Maths Classroom","translation":"수학 교실","where":"worlds/school/scenes/maths-classroom/scene.json title"},
+  {"text":"After lessons. You can hear the clock ticking.","translation":"수업이 끝난 뒤. 시계 째깍거리는 소리가 들린다.","where":"worlds/school/scenes/maths-classroom/scene.json caption"},
+  {"text":"The bell rang long ago. The formulas are still on the board.","translation":"종은 한참 전에 울렸다. 칠판에는 공식이 그대로 남아 있다.","where":"worlds/school/scenes/maths-classroom/scene.json captions[0] text"},
+  {"text":"The dust in the sunbeam is slowly working out its own problem.","translation":"햇살 속 먼지가 천천히 제 문제를 풀고 있다.","where":"worlds/school/scenes/maths-classroom/scene.json captions[1] text"},
+  {"text":"The second hand is counting the silence.","translation":"초침이 고요를 세고 있다.","where":"worlds/school/scenes/maths-classroom/scene.json captions[2] text"}
+]}
