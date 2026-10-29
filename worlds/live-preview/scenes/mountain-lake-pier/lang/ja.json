@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"A Pier on a Mountain Lake","translation":"山の湖の桟橋","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json title"},
+  {"text":"The water went still before the light went out.","translation":"光が消えるより先に、水が静まった。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json caption"},
+  {"text":"The last light is slipping behind the ridge.","translation":"最後の光が尾根の向こうへ去っていく。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[0] text"},
+  {"text":"The lantern was lit a little earlier than it needed to be.","translation":"ランタンは、必要より少しだけ早くともされた。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[1] text"},
+  {"text":"The boat quietly tugs at its rope and goes still again.","translation":"ボートがそっとロープを引き、また静かになる。","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[2] text"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Lighthouse Doorstep","translation":"灯台の戸口","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-doorstep/scene.json title"},
+  {"text":"The lighthouse door open, a wind off the sea.","translation":"開いた灯台の扉、海からの風。","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-doorstep/scene.json caption"}
+]}

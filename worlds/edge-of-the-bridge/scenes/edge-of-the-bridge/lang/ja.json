@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"橋の果て","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json title"},
+  {"text":"She shines her light into the void, in case someone answers.","translation":"彼女は虚空を照らす。誰かが応えてくれるかもしれないから。","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json caption"},
+  {"text":"For three hundred years the bridge has broken off here.","translation":"橋は三百年前から、ここで途切れている。","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[0] text"},
+  {"text":"Every evening she lights the lantern, in case someone is still left over there.","translation":"毎晩、彼女はランタンを灯す。向こうにまだ誰かが残っているかもしれないから。","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[1] text"},
+  {"text":"The mist below doesn't remember where the bridge once led.","translation":"下の霧は、橋がかつてどこへ続いていたかを覚えていない。","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[2] text"},
+  {"text":"The sky whale has gone beyond the edge of the mist","translation":"空のクジラが霧の果ての向こうへ去った","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/script.js"}
+]}

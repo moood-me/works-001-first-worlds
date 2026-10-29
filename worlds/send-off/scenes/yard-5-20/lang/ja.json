@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"SERY + LENA","translation":"セールイ + レーナ","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"KINO","translation":"キノー","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"TSOI LIVES","translation":"ツォイは生きている","where":"worlds/send-off/scenes/yard-5-20/elements/house.js"},
+  {"text":"The Yard on Zavodskaya, 5:20","translation":"ザヴォツカヤ通りの中庭、5時20分","where":"worlds/send-off/scenes/yard-5-20/scene.json title"},
+  {"text":"The send-off is over, and the morning hasn't come yet.","translation":"見送りは終わった。でも、朝はまだ来ない。","where":"worlds/send-off/scenes/yard-5-20/scene.json caption"},
+  {"text":"Five twenty. The cassette is going round for the third time.","translation":"五時二十分。カセットが三周目に入った。","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[0] text"},
+  {"text":"At six the UAZ van from the draft office will come for Sery.","translation":"六時には、徴兵事務所の「ブハンカ」がセールイを迎えに来る。","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[1] text"},
+  {"text":"Vitek cracks sunflower seeds and doesn't know what to say. Neither does his mum at the window.","translation":"ヴィチョークはひまわりの種をかじりながら、何と言えばいいかわからない。窓辺の母親も同じだ。","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[2] text"},
+  {"text":"The draft office's UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.","translation":"ガレージの陰から徴兵事務所の「ブハンカ」が出てきて、玄関先に停まった。シャーリクが顔を上げた。","where":"worlds/send-off/scenes/yard-5-20/script.js"},
+  {"text":"The van has disappeared behind the garages.","translation":"「ブハンカ」はガレージの陰に消えた。","where":"worlds/send-off/scenes/yard-5-20/script.js"}
+]}

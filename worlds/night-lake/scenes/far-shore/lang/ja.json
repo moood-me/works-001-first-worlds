@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Far Shore","translation":"向こう岸","where":"worlds/night-lake/scenes/far-shore/scene.json title"},
+  {"text":"A narrow strip of pebbles, black trunks and mist between them.","translation":"細い砂利の浜、黒い幹、その間に霧。","where":"worlds/night-lake/scenes/far-shore/scene.json caption"},
+  {"text":"The light between the trunks went out for a moment, as if someone had passed in front of it, and came on again.","translation":"幹の間の灯りが一瞬消えた。誰かがその前を横切ったかのように。そしてまたともった。","where":"worlds/night-lake/scenes/far-shore/script.js"},
+  {"text":"Between the trunks, left of the light, a motionless figure has appeared.","translation":"幹の間、灯りの左に、じっと動かない人影が浮かび上がった。","where":"worlds/night-lake/scenes/far-shore/script.js"}
+]}

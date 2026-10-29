@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Roof","translation":"屋上","where":"worlds/piano/scenes/roof/scene.json title"},
+  {"text":"Blue hour, wind in the sheets and lights below.","translation":"ブルーアワー、シーツを揺らす風、眼下の灯り。","where":"worlds/piano/scenes/roof/scene.json caption"},
+  {"text":"The blue hour is over: real night above the roof.","translation":"ブルーアワーが終わった。屋上の上は、もう本物の夜。","where":"worlds/piano/scenes/roof/script.js"},
+  {"text":"The city below has lit nearly all its windows.","translation":"眼下の街は、ほとんどすべての窓に灯りをともした。","where":"worlds/piano/scenes/roof/script.js"}
+]}

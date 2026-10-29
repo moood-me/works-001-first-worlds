@@ -3,5 +3,5 @@
   "description": "An evening as long as the embankment itself.",
   "themes": {},
   "main": "embankment",
-  "languages": ["en", "ru", "uk", "de", "es"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja"]
 }

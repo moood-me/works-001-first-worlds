@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "poppy-field",
-  "languages": ["en", "ru", "uk", "de", "es"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja"]
 }

@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"41 km","translation":"41 km","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/elements/shelter.js"},
+  {"text":"The Forty-First Kilometre","translation":"四十一キロ地点","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json title"},
+  {"text":"The last bus has gone. Someone is meeting you anyway.","translation":"最終バスは行ってしまった。それでも、きみを迎えに来た人がいる。","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json caption"},
+  {"text":"The last bus left at 11:40 pm.","translation":"最終バスは午後十一時四十分に出た。","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[0] text"},
+  {"text":"Someone is standing on the road. With flowers.","translation":"道に誰かが立っている。花を持って。","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[1] text"},
+  {"text":"He has come to meet someone. You.","translation":"彼は誰かを迎えに来た。きみを。","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[2] text"},
+  {"text":"He reached the bus stop and stopped under the lamp.","translation":"彼はバス停まで来て、街灯の下で立ち止まった。","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/script.js"}
+]}

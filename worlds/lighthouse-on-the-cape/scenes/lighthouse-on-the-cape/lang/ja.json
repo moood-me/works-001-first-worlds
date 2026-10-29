@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Lighthouse on the Cape","translation":"岬の灯台","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json title"},
+  {"text":"One warm window on the whole cold shore.","translation":"冷たい海辺に、温かい窓がひとつだけ。","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json caption"},
+  {"text":"The lamp isn't lit yet: the dusk is in no hurry.","translation":"灯りはまだともされていない。夕闇は急がない。","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[0] text"},
+  {"text":"Snowflakes go out the moment they touch the water.","translation":"雪のひとひらは、水に触れたとたんに消える。","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[1] text"},
+  {"text":"In the window someone is putting the kettle on.","translation":"窓の中で、誰かがやかんを火にかけている。","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[2] text"}
+]}

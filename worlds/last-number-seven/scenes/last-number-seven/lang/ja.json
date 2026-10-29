@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"7  TOWN","translation":"7  町","where":"worlds/last-number-seven/scenes/last-number-seven/elements/bus.js"},
+  {"text":"The Last Number Seven","translation":"最終の七番","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json title"},
+  {"text":"A bus stop by the rice fields. The last bus to town is at 18:47.","translation":"田んぼのそばのバス停。町行きの最終バスは18時47分。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json caption"},
+  {"text":"The last number seven leaves for town at 18:47.","translation":"町行きの最終の七番は18時47分に出る。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[0] text"},
+  {"text":"It took her three days to pack the suitcase. In three years she never found the time to tell him.","translation":"スーツケースを詰めるのに三日かかった。彼に伝えるには、三年かけても間に合わなかった。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[1] text"},
+  {"text":"He stands at the bend, pretending to fix his chain.","translation":"彼は曲がり角に立ち、チェーンを直すふりをしている。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[2] text"},
+  {"text":"Over the bench a fluorescent lamp blinks and comes on.","translation":"ベンチの上で、蛍光灯が瞬いてから灯った。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has pulled up at the shelter and opened its doors. The driver looks at the bench and waits.","translation":"七番が待合所に停まり、ドアを開けた。運転手はベンチを見て、待っている。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town. The bench is empty; only the furin rings.","translation":"七番は町へ去っていった。ベンチは空っぽで、風鈴だけが鳴っている。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town without her. Haruna is still on the bench.","translation":"七番は彼女を乗せずに町へ去っていった。ハルナはまだベンチにいる。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"the seven has gone","translation":"七番は行ってしまった","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is at the stop","translation":"七番が停留所に","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is coming","translation":"七番が近づいてくる","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is leaving","translation":"七番が発車する","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"{left} min to the seven","translation":"七番まであと{left}分","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is late","translation":"七番が遅れている","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"}
+]}

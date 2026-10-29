@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Booth on Port Street","translation":"港通りの電話ボックス","where":"worlds/booth-on-port-street/world.json title"},
+  {"text":"Three in the morning, rain, the docks quarter. A man in a raincoat waits under a street lamp for a call to the phone booth, which stays silent.","translation":"午前三時、雨、港の街。レインコートの男が街灯の下で、電話ボックスのベルを待っている。ボックスは黙ったままだ。","where":"worlds/booth-on-port-street/world.json description"}
+]}

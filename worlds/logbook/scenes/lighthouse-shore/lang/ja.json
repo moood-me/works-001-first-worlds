@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"The Shore Below the Lighthouse","translation":"灯台の下の浜","where":"worlds/logbook/scenes/lighthouse-shore/scene.json title"},
+  {"text":"Wet stones, surf, the moon path. Up above, on the left, the beam goes round.","translation":"濡れた石、打ち寄せる波、月の道。上の左手で、光の帯がめぐっている。","where":"worlds/logbook/scenes/lighthouse-shore/scene.json caption"},
+  {"text":"Shore","translation":"浜","where":"worlds/logbook/scenes/lighthouse-shore/widgets/clock.html"}
+]}

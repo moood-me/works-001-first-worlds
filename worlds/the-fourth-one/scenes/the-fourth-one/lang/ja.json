@@ -1,0 +1,14 @@
+{"strings": [
+  {"text":"Lenka's dumb","translation":"レンカのバカ","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/entrance.js"},
+  {"text":"TSOI LIVES","translation":"ツォイは生きている","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"SPARTAK CHAMPIONS","translation":"スパルタク優勝","where":"worlds/the-fourth-one/scenes/the-fourth-one/elements/garages.js"},
+  {"text":"The Fourth One Squatting","translation":"しゃがむ四人目","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json title"},
+  {"text":"The garages behind the nine-storey block, ten to three.","translation":"九階建ての裏のガレージ、三時十分前。","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json caption"},
+  {"text":"The lamp by the garages has been blinking since winter.","translation":"ガレージのそばの街灯は、冬からずっと点滅している。","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[0] text"},
+  {"text":"Shnyr cracks his seeds and doesn't look to the right.","translation":"シヌイリはひまわりの種をかじり、右を見ようとしない。","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[1] text"},
+  {"text":"There are three of them. Four are squatting.","translation":"彼らは三人。しゃがんでいるのは四人。","where":"worlds/the-fourth-one/scenes/the-fourth-one/scene.json captions[2] text"},
+  {"text":"The fourth one has squatted down right next to them, in the very light, and silently holds out his hand: got a smoke?","translation":"四人目がすぐ隣、光のど真ん中にしゃがみこみ、黙って手を差し出した。一本くれ、と。","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"The door of the third garage creaks ajar. Nobody comes out.","translation":"三番目のガレージの扉が、きしみながら少し開いた。中からは誰も出てこない。","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"While the lamp was blinking, the fourth one got a step closer.","translation":"街灯が点滅しているあいだに、四人目が一歩近づいていた。","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"},
+  {"text":"Shnyr has run out of seeds.","translation":"シヌイリのひまわりの種が尽きた。","where":"worlds/the-fourth-one/scenes/the-fourth-one/script.js"}
+]}

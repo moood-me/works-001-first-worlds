@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"SKY","translation":"空","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/asphalt.js"},
+  {"text":"TSOI LIVES","translation":"ツォイは生きている","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"VITEK + LENA","translation":"ヴィチョーク + レーナ","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"TRIES: {tries}","translation":"始動：{tries}","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"The Lada by the Garages","translation":"ガレージ裏のラーダ","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json title"},
+  {"text":"Friday, twenty to nine. They've been trying to start the Lada since April.","translation":"金曜、八時四十分。ラーダのエンジンは四月からかからない。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json caption"},
+  {"text":"The bench is free: nobody sits on it, they stand on it.","translation":"ベンチは空いている。座るためじゃない、上に立つためのものだ。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[1] text"},
+  {"text":"Granny Zina sees everything. Granny Zina remembers everything. Since ninety-three.","translation":"ジーナばあさんはすべてお見通し。ジーナばあさんはすべて覚えている。九三年から。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[2] text"},
+  {"text":"The street lamp over the garages has come on, at the third try.","translation":"ガレージの上の街灯がともった。三度目で。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada started! Try number {n}.","translation":"ラーダがかかった！ {n}回目のトライ。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada ran for five seconds and stalled.","translation":"ラーダは五秒動いて、エンストした。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The boombox on the roof has chewed the tape.","translation":"屋根の上のラジカセが、テープを噛んだ。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"Someone wound the cassette back with a pencil. It plays on.","translation":"誰かが鉛筆でカセットを巻き戻した。音楽はまた流れる。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"}
+]}

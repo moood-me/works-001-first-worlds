@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"ささやきの井戸","where":"worlds/well-of-whispers/world.json title"},
+  {"text":"A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.","translation":"夜のトウヒの森の真ん中に、板でふさがれた井戸がある。その隙間から冷たい光がにじみ出ている。ささやき声で尋ねる者には答えてくれるという。","where":"worlds/well-of-whispers/world.json description"}
+]}

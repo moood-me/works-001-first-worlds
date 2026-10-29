@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Loft with a Piano","translation":"ピアノのあるロフト","where":"worlds/piano/scenes/piano-loft/scene.json title"},
+  {"text":"Warm light, brick and the silence between the notes.","translation":"温かな光、煉瓦、そして音と音のあいだの静けさ。","where":"worlds/piano/scenes/piano-loft/scene.json caption"},
+  {"text":"The city outside the window is lighting its windows.","translation":"窓の外の街が、自分の窓に灯りをともしていく。","where":"worlds/piano/scenes/piano-loft/scene.json captions[0] text"},
+  {"text":"The lid is open: someone has just been playing.","translation":"蓋が開いている。誰かがついさっきまで弾いていた。","where":"worlds/piano/scenes/piano-loft/scene.json captions[1] text"},
+  {"text":"The cat has taken the bench and has no plans to give it up.","translation":"猫がピアノ椅子を占領して、譲る気はない。","where":"worlds/piano/scenes/piano-loft/scene.json captions[2] text"},
+  {"text":"One click on the bulbs, and the light goes out.","translation":"電球をカチリと押せば、灯りが消える。","where":"worlds/piano/scenes/piano-loft/scene.json captions[3] text"}
+]}

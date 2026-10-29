@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"The Scroll with the Red Thread","translation":"赤い糸の巻紙","where":"worlds/logbook/scenes/red-thread-scroll/scene.json title"},
+  {"text":"Salt on your fingers, heavy wet paper, and the beam going over the slope again.","translation":"指に塩、濡れた重い紙――そして光の帯が、また斜面を渡っていく。","where":"worlds/logbook/scenes/red-thread-scroll/scene.json caption"},
+  {"text":"The paper is cold and heavy, like a sheet pulled out of a puddle.","translation":"紙は冷たくて重い。水たまりから引き上げた一枚のように。","where":"worlds/logbook/scenes/red-thread-scroll/scene.json captions[0] text"},
+  {"text":"Red thread, sealing wax. Someone really wanted this to arrive.","translation":"赤い糸、封蝋。誰かが、これがどうしても届いてほしいと願ったのだ。","where":"worlds/logbook/scenes/red-thread-scroll/scene.json captions[1] text"},
+  {"text":"A wave broke over the stone; the bottle slipped off and got stuck in a crack between the rocks.","translation":"波が岩を越えた。瓶が滑り落ち、岩の割れ目にはまりこんだ。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The next wave tore the bottle out of the crack; the glass burst against the stone. Shards glitter on the wet granite.","translation":"次の波が瓶を割れ目から引きはがし、ガラスは岩に当たって砕けた。濡れた花崗岩の上で破片がきらめく。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"Rain is falling on the unrolled paper; the lower lines are starting to run.","translation":"広げた紙に雨が落ちる。下のほうの行がにじみはじめた。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"For a moment the lighthouse beam lay on the sheet: the first lines showed clearly, the ink glistened.","translation":"灯台の光が一瞬、紙の上にとどまった。最初の数行がはっきり見え、インクが光った。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player prised the wax up with a fingernail: the seal cracked, the thread loosened, the scroll began to unroll.","translation":"プレイヤーが爪で封蝋をこじ上げた。封が割れ、糸がゆるみ、巻紙がほどけはじめた。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player has unrolled the sheet all the way. The paper is wet, but the first lines can be read.","translation":"プレイヤーが紙を最後まで広げた。紙は濡れているが、最初の数行は読める。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player tilts the sheet to the moonlight, peering at the lines.","translation":"プレイヤーは紙を月明かりに傾け、行に目を凝らす。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player touches the bottle on the stone: is something still rolling about inside? No, only water.","translation":"プレイヤーが岩の上の瓶に触れる。中でまだ何か転がっている？　いや、水だけだ。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player reaches for the bottle in the crack: fingers slide on the wet glass.","translation":"プレイヤーが割れ目の瓶に手を伸ばす。指が濡れたガラスの上で滑る。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player looks at the shards: green glass, the neck with its sealing wax.","translation":"プレイヤーが破片を見る。緑のガラス、封蝋のついた瓶の口。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"Wick isn't looking at the bottle; he's looking at the scroll. The tip of his tail twitches.","translation":"シンは瓶ではなく、巻紙を見ている。しっぽの先がぴくぴく動いている。","where":"worlds/logbook/scenes/red-thread-scroll/script.js"}
+]}

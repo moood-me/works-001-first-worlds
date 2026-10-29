@@ -1,0 +1,20 @@
+{"strings": [
+  {"text":"LIDA · O2 {oxygen}%","translation":"リダ · O2 {oxygen}%","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/lida.js"},
+  {"text":"MANUAL RELEASE","translation":"手動開放","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · OPEN","translation":"クライオ-3 · 開放","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · READY","translation":"クライオ-3 · 準備完了","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-3 · LOCKED","translation":"クライオ-3 · ロック","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"PULL DOWN","translation":"下に引く","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/panel.js"},
+  {"text":"CRYO-2","translation":"クライオ-2","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/pod2.js"},
+  {"text":"CRYO-3","translation":"クライオ-3","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/pod3.js"},
+  {"text":"CRYO-4","translation":"クライオ-4","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/elements/pod4.js"},
+  {"text":"The Ladoga's Cryo Bay","translation":"〈ラドガ〉の冷凍睡眠室","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/scene.json title"},
+  {"text":"A cramped cluster of pods. Frost on the third.","translation":"ポッドが窮屈に寄り集まっている。三つ目に霜。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/scene.json caption"},
+  {"text":"Behind the frost of pod 3 a dark silhouette seemed to stir, and went still again.","translation":"三番ポッドの霜の向こうで、黒い人影が動いたように見えた――そしてまた静止した。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The frost on the glass of pod 3 has almost gone; the glass is wet, and a silhouette shows through it.","translation":"三番ポッドのガラスの霜はほとんど溶けた。ガラスは濡れ、その向こうに人影が透けて見える。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The glass of pod 3 has fogged up from Vera's breath.","translation":"三番ポッドのガラスが、ヴェーラの息で曇った。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The lock of pod 3 has clicked; icy vapour seeps from the gap.","translation":"三番ポッドのロックがカチリと鳴った。隙間から氷のような冷気が漏れ出す。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"The door of pod 3 is flung wide open, vapour creeps across the floor.","translation":"三番ポッドの扉が大きく開け放たれ、冷気が床を這う。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"All three safety catches of the manual panel are off: the lever is free.","translation":"手動パネルの安全装置が三つとも外れた。レバーは自由に動く。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"},
+  {"text":"Ten percent of the oxygen is left on board.","translation":"船内の酸素は残り十パーセント。","where":"worlds/knock-on-the-porthole/scenes/cryo-bay/script.js"}
+]}

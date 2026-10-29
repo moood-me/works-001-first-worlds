@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Path under the Pines","translation":"松林の小道","where":"worlds/quiet-lake/scenes/pine-path/scene.json title"},
+  {"text":"Beyond the lake the path goes into the pines, and someone has tied ribbons to an old stump.","translation":"湖の向こうで小道は松林に入っていく。誰かが古い切り株にリボンを結んでいる。","where":"worlds/quiet-lake/scenes/pine-path/scene.json caption"}
+]}
