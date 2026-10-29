@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"水塔","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"一座老水塔；它的影子橫躺在枕木上。","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"旅人到了，站在水塔旁。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"旅人到了，站在車站的建築旁，路燈邊。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"旅人到了，站在老棚屋旁。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"塔底生鏽的檢修門嘎吱一聲鬆動，打開了；裡面一片漆黑，有股陳年積水的氣味。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"檢修門大大敞開著。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"檢修門砰地關上，發出沉悶的鐵響。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"風滾草滾到水塔前，卡在水泥底座旁的草叢裡。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"風把風滾草從水塔邊扯開，滾回了草原。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"鐵鍊開始晃動，叮叮噹噹地敲著生鏽的梯子。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"車站旁的路燈熄了。","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"車站旁的路燈閃了幾下，又亮了起來。","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}

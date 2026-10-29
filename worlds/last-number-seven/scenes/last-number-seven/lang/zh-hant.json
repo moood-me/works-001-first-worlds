@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"7  TOWN","translation":"7  往城裡","where":"worlds/last-number-seven/scenes/last-number-seven/elements/bus.js"},
+  {"text":"The Last Number Seven","translation":"最後一班七路","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json title"},
+  {"text":"A bus stop by the rice fields. The last bus to town is at 18:47.","translation":"水田旁的公車站。開往城裡的末班車是 18:47。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json caption"},
+  {"text":"The last number seven leaves for town at 18:47.","translation":"最後一班七路公車 18:47 開往城裡。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[0] text"},
+  {"text":"It took her three days to pack the suitcase. In three years she never found the time to tell him.","translation":"行李箱她整理了三天。三年來，她始終沒找到機會告訴他。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[1] text"},
+  {"text":"He stands at the bend, pretending to fix his chain.","translation":"他站在轉角，假裝在修腳踏車的鏈條。","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[2] text"},
+  {"text":"Over the bench a fluorescent lamp blinks and comes on.","translation":"長椅上方的日光燈閃了幾下，亮了。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has pulled up at the shelter and opened its doors. The driver looks at the bench and waits.","translation":"七路公車停在候車亭前，打開了車門。司機看著長椅，等著。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town. The bench is empty; only the furin rings.","translation":"七路公車往城裡開走了。長椅空了，只有風鈴在響。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town without her. Haruna is still on the bench.","translation":"七路公車往城裡開走了，沒有載她。春奈還坐在長椅上。","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"the seven has gone","translation":"七路已經開走","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is at the stop","translation":"七路停在站牌","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is coming","translation":"七路快到了","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is leaving","translation":"七路正在開走","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"{left} min to the seven","translation":"七路還有 {left} 分鐘","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is late","translation":"七路誤點","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"}
+]}

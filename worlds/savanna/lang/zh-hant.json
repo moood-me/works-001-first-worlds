@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Savanna","translation":"莽原","where":"worlds/savanna/world.json title"},
+  {"text":"Evening is near, and the air is still shimmering with heat.","translation":"傍晚將近，空氣仍在熱浪中顫動。","where":"worlds/savanna/world.json description"}
+]}

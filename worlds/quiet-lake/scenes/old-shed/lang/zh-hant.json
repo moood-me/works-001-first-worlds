@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"By the Old Shed","translation":"老棚屋旁","where":"worlds/quiet-lake/scenes/old-shed/scene.json title"},
+  {"text":"An old shed right by the water.","translation":"一間緊挨著水邊的老棚屋。","where":"worlds/quiet-lake/scenes/old-shed/scene.json caption"}
+]}

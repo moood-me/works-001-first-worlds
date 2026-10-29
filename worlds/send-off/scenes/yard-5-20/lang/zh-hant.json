@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"SERY + LENA","translation":"謝雷 + 蓮娜","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"KINO","translation":"KINO","where":"worlds/send-off/scenes/yard-5-20/elements/garages.js"},
+  {"text":"TSOI LIVES","translation":"崔還活著","where":"worlds/send-off/scenes/yard-5-20/elements/house.js"},
+  {"text":"The Yard on Zavodskaya, 5:20","translation":"工廠街的院子，5:20","where":"worlds/send-off/scenes/yard-5-20/scene.json title"},
+  {"text":"The send-off is over, and the morning hasn't come yet.","translation":"送行已經結束，早晨卻還沒到。","where":"worlds/send-off/scenes/yard-5-20/scene.json caption"},
+  {"text":"Five twenty. The cassette is going round for the third time.","translation":"五點二十分。卡帶已經轉到第三輪了。","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[0] text"},
+  {"text":"At six the UAZ van from the draft office will come for Sery.","translation":"六點，兵役處的 UAZ 麵包車會來接謝雷。","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[1] text"},
+  {"text":"Vitek cracks sunflower seeds and doesn't know what to say. Neither does his mum at the window.","translation":"維提克嗑著瓜子，不知道該說什麼。窗邊的媽媽也是。","where":"worlds/send-off/scenes/yard-5-20/scene.json captions[2] text"},
+  {"text":"The draft office's UAZ van rolls out from behind the garages and stops by the entrance. Sharik lifts his head.","translation":"兵役處的 UAZ 麵包車從車庫後面開出來，停在公寓門口。沙里克抬起了頭。","where":"worlds/send-off/scenes/yard-5-20/script.js"},
+  {"text":"The van has disappeared behind the garages.","translation":"麵包車消失在車庫後面。","where":"worlds/send-off/scenes/yard-5-20/script.js"}
+]}

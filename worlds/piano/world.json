@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "piano-loft",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant"]
 }

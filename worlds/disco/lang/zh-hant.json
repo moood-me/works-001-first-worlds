@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Disco","translation":"迪斯可舞廳","where":"worlds/disco/world.json title"},
+  {"text":"The lights sparkle, the music never stops","translation":"燈光閃爍，音樂從不停歇","where":"worlds/disco/world.json description"}
+]}

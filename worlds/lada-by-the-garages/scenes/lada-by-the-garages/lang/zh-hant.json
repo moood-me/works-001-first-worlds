@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"SKY","translation":"天空","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/asphalt.js"},
+  {"text":"TSOI LIVES","translation":"崔還活著","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"VITEK + LENA","translation":"維提克 + 蓮娜","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"TRIES: {tries}","translation":"發動次數：{tries}","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"The Lada by the Garages","translation":"車庫旁的拉達","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json title"},
+  {"text":"Friday, twenty to nine. They've been trying to start the Lada since April.","translation":"星期五，八點四十分。從四月起就一直想發動這輛拉達。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json caption"},
+  {"text":"The bench is free: nobody sits on it, they stand on it.","translation":"長椅空著：沒人坐在上面，大家都站在上面。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[1] text"},
+  {"text":"Granny Zina sees everything. Granny Zina remembers everything. Since ninety-three.","translation":"吉娜奶奶什麼都看在眼裡。吉娜奶奶什麼都記得。從九三年起就是這樣。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[2] text"},
+  {"text":"The street lamp over the garages has come on, at the third try.","translation":"車庫上方的路燈亮了，試了第三次才亮。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada started! Try number {n}.","translation":"拉達發動了！第 {n} 次嘗試。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada ran for five seconds and stalled.","translation":"拉達跑了五秒鐘，又熄火了。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The boombox on the roof has chewed the tape.","translation":"車頂上的手提音響把錄音帶捲進去了。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"Someone wound the cassette back with a pencil. It plays on.","translation":"有人用鉛筆把卡帶捲了回去。繼續播。","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"}
+]}
