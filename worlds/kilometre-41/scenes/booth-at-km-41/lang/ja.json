@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"電話","where":"worlds/kilometre-41/scenes/booth-at-km-41/elements/booth.js"},
+  {"text":"The Booth at Km 41","translation":"41キロ地点の電話ボックス","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json title"},
+  {"text":"Nobody has run a line out here since ninety-eight.","translation":"九八年から、ここへ線を引いた者はいない。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json caption"},
+  {"text":"Kilometre 41. Three in the morning.","translation":"41キロ地点。午前三時。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[0] text"},
+  {"text":"The receiver hangs loose. Someone is breathing on the line.","translation":"受話器が垂れ下がっている。その中で誰かが息をしている。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[1] text"},
+  {"text":"There is a note on the glass. The handwriting is yours.","translation":"ガラスにメモが貼ってある。筆跡は、きみのものだ。","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[2] text"},
+  {"text":"The phone in the booth rang, then fell silent.","translation":"ボックスの電話が鳴り、そして黙った。","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"},
+  {"text":"Someone lifted the receiver, and the ringing broke off.","translation":"誰かが受話器を取り、ベルが途切れた。","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"}
+]}

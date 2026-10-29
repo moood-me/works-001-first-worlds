@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Lada by the Garages","translation":"ガレージ裏のラーダ","where":"worlds/lada-by-the-garages/world.json title"},
+  {"text":"An August evening behind a khrushchyovka: the lads squatting, sunflower seeds, a boombox on the roof of the Lada that Seryoga has been trying to start since April. Granny Zina sees everything.","translation":"フルシチョフカの裏の八月の夕暮れ。しゃがみこむ若い連中、ひまわりの種、ラーダの屋根の上のラジカセ。そのラーダを、セリョーガは四月からかけようとしている。ジーナばあさんはすべてお見通し。","where":"worlds/lada-by-the-garages/world.json description"}
+]}

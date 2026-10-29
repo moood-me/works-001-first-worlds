@@ -1,0 +1,13 @@
+{"strings": [
+  {"text":"The Rocks Below the Lighthouse","translation":"灯台の下の岩場","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json title"},
+  {"text":"Black rocks, foam, and something glassy right at the water's edge.","translation":"黒い岩、泡――そして波打ち際に、ガラスのような何か。","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json caption"},
+  {"text":"Down by the rocks it's colder. Salt settles on your lips.","translation":"下の岩場は寒い。唇に潮が残る。","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[0] text"},
+  {"text":"When the beam passes, green glass flashes right at the water's edge.","translation":"光の帯が通り過ぎると、波打ち際で緑のガラスがきらめく。","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[1] text"},
+  {"text":"The heavy surf knocked the bottle out of the rocks; a wave rolled it almost to your feet.","translation":"強い波が岩の間から瓶をはじき出し、足もとすれすれまで転がしてきた。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The lighthouse beam swept the shore; right at the water, between the rocks, green glass flashed.","translation":"灯台の光が岸を撫でた。波打ち際、岩の間で緑のガラスがきらめいた。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player reaches for the bottle between the rocks: icy water, foam up to the ankles.","translation":"プレイヤーが岩の間の瓶に手を伸ばす。氷のような水、くるぶしまでの泡。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player has picked the bottle out of the foam. Inside, a rolled-up note tied with red thread; the neck is sealed with wax.","translation":"プレイヤーが泡の中から瓶を拾い上げた。中には赤い糸で結んだ巻紙。瓶の口は封蝋で閉じられている。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player bends over the shards: the note is soaked, but still holding together.","translation":"プレイヤーが破片の上にかがみこむ。手紙は濡れているが、まだ形を保っている。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player turns the bottle over in their hands, peering at the note through the wet glass.","translation":"プレイヤーは瓶を手の中で回し、濡れたガラス越しに手紙をのぞきこむ。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"Wick doesn't take his eyes off the bottle; his ears are flattened against the wind.","translation":"シンは瓶から目を離さない。風に耳を伏せている。","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"}
+]}

@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"House in the Field","translation":"野原の家","where":"worlds/last-window/scenes/house-in-the-field/scene.json title"},
+  {"text":"She doesn't put the light out. Let them know someone is still here.","translation":"彼女は灯りを消さない。ここにまだ誰かいると、知らせておくために。","where":"worlds/last-window/scenes/house-in-the-field/scene.json caption"},
+  {"text":"The phone has been silent for three weeks.","translation":"電話はもう三週間鳴っていない。","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[0] text"},
+  {"text":"Someone is standing by the forest again.","translation":"森のそばに、また誰かが立っている。","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[1] text"},
+  {"text":"Every night, a few steps closer.","translation":"毎晩、何歩かずつ近くなる。","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[2] text"},
+  {"text":"It is standing right by the house, under the window.","translation":"それは家のすぐそば、窓の下に立っている。","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"It has come out of the forest and stands in the middle of the field.","translation":"それは森から出てきて、野原の真ん中に立っている。","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"A tall pale figure stands at the edge of the forest.","translation":"森の縁に、背の高い青白い人影が立っている。","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The light in the window has gone out.","translation":"窓の灯りが消えた。","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The door of the house is open; light spills onto the snow.","translation":"家の扉が開いている。光が雪の上に落ちる。","where":"worlds/last-window/scenes/house-in-the-field/script.js"}
+]}

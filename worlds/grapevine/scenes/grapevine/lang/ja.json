@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"The Grapevine Engine","translation":"うわさエンジン","where":"worlds/grapevine/scenes/grapevine/scene.json title"},
+  {"text":"Tell the cat “I'm from the ministry”, and by evening you're the secret heir who's going to drain the pond.","translation":"猫に「わたし、省庁の者です」と言ってごらん。夕方には、きみは池を干上がらせる隠し子の跡取りになっている。","where":"worlds/grapevine/scenes/grapevine/scene.json caption"},
+  {"text":"I'm from the ministry, by the way.","translation":"わたし、実は省庁の者なんです。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"I love fish. Fried, especially.","translation":"魚が好きなんだ。特にフライが。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"The pond's got a bit shallow.","translation":"なんだか池が浅くなったね。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"There's no one here to even talk to.","translation":"ここには話し相手もいない。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Found a key. No idea what it opens.","translation":"鍵を拾った。どこの鍵かわからない。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"“{phrase}”","translation":"「{phrase}」","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Morning. By evening at least five people in the yard must be sure of it: 🛡️ the pond is protected by the state. The pond is in a mood today, so don't whisper to it.","translation":"朝。夕方までに、中庭の少なくとも五人にこう信じさせること：🛡️ 池は国に保護されている。池は今日ご機嫌ななめ。池にはささやかないこと。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"},
+  {"text":"Pick a phrase, click a resident and whisper it to them. Each retells it to the neighbours in their own way: the cat makes it all about food, Granny Zina about her TV series, the pigeon about a conspiracy, the street lamp about restricted sites, Petka about heroes, Lyuba passes it on word for word, and the pond takes everything personally.","translation":"フレーズを選び、住人をクリックしてささやこう。それぞれが自分なりに隣人へ話を伝える。猫はなんでも食べ物の話に、ジーナばあさんは連続ドラマの話に、ハトは陰謀の話に、街灯は立入禁止区域の話に、ペーチカは英雄の話にしてしまう。リューバは一言一句そのまま伝え、池はなんでも自分のことだと受け取る。","where":"worlds/grapevine/scenes/grapevine/widgets/rules.html"}
+]}

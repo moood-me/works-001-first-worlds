@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"LIDA · BAY 4","translation":"リダ · 区画 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"O2 {oxygen}%   PWR {power}%","translation":"O2 {oxygen}%   電力 {power}%","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"CREW ON BOARD: 3/3","translation":"乗員在船：3/3","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"NOISE: HULL, SECT. 4","translation":"異音：船体、第4区画","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/lida.js"},
+  {"text":"CRYO-3","translation":"クライオ-3","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/pod.js"},
+  {"text":"OBSERVATION BAY · 4","translation":"観測室 · 4","where":"worlds/knock-on-the-porthole/scenes/observation-bay/elements/wall.js"},
+  {"text":"The Ladoga's Observation Bay","translation":"〈ラドガ〉の観測室","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json title"},
+  {"text":"Day three adrift by a dead star. The oxygen is running out. Someone is knocking on the glass from outside.","translation":"死んだ星のそばで漂流三日目。酸素は尽きかけている。誰かが外からガラスを叩いている。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json caption"},
+  {"text":"For three days the Ladoga has been drifting by a dead star. No contact.","translation":"〈ラドガ〉は死んだ星のそばを漂流して三日目。通信はない。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[0] text"},
+  {"text":"Gordeev went outside on Tuesday. The tether was reeled in empty.","translation":"ゴルデーエフは火曜日に船外へ出た。命綱は空のまま巻き取られた。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[1] text"},
+  {"text":"LIDA counts the crew again. Three out of three on board.","translation":"リダがまた乗員を数える。三人中三人、在船。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/scene.json captions[2] text"},
+  {"text":"Someone knocked on the glass from outside: three times, evenly, the way you knock on a door.","translation":"外から誰かがガラスを叩いた。三回、規則正しく、ドアをノックするように。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"On the frost of pod 3 a handprint has appeared from the inside.","translation":"三番ポッドの霜に、内側から手のひらの跡が浮かび上がった。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"The spacesuit has drifted right up and pressed its glove to the glass.","translation":"宇宙服がすぐそばまで漂ってきて、手袋をガラスに押し当てた。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"},
+  {"text":"Ten percent of the oxygen is left in the bay.","translation":"観測室の酸素は残り十パーセント。","where":"worlds/knock-on-the-porthole/scenes/observation-bay/script.js"}
+]}
