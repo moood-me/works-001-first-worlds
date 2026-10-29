@@ -346,5 +346,92 @@
       "height": 1.75,
       "distance": 6.0
     }
-  ]
+  ],
+  "music": {
+    "bpm": 72,
+    "density": 0.3,
+    "brightness": 0.45,
+    "prompts": [
+      {
+        "text": "soft brushed jazz drums and walking double bass, an evening stroll along the river, unhurried",
+        "weight": 0.7
+      },
+      {
+        "text": "slow solo upright piano, sparse chords, an evening walk along a river, the lamps coming on, tender",
+        "weight": 0.8
+      },
+      {
+        "text": "slow solo upright piano, sparse chords with long sustain, night by a river, melancholic and tender",
+        "weight": 0
+      },
+      {
+        "text": "soft brushed jazz drums and walking double bass, late-night city ballad, smoky and unhurried",
+        "weight": 0
+      },
+      {
+        "text": "distant muted trumpet echoing under a stone bridge, reverb-drenched, lonely",
+        "weight": 0
+      },
+      {
+        "text": "warm ambient pads with gentle tape hiss, slow swells like river water",
+        "weight": 0
+      },
+      {
+        "text": "lo-fi hip hop beat, dusty vinyl crackle, mellow Rhodes chords",
+        "weight": 0
+      },
+      {
+        "text": "accordion waltz played quietly far away, old European embankment, nostalgic",
+        "weight": 1.1
+      },
+      {
+        "text": "solo cello, long bowed notes, introspective, minor key",
+        "weight": 0
+      },
+      {
+        "text": "music box melody slowly winding down, fragile and childlike",
+        "weight": 0
+      },
+      {
+        "text": "dripping water percussion, cavernous echo, minimal and hypnotic",
+        "weight": 0
+      },
+      {
+        "text": "Russian romance on seven-string guitar, gentle fingerpicking, wistful",
+        "weight": 0
+      },
+      {
+        "text": "dawn ambient, rising strings and soft choir pads without words, hopeful light",
+        "weight": 0
+      },
+      {
+        "text": "foggy drone, low synth, distant ship horn tones, eerie calm",
+        "weight": 0
+      },
+      {
+        "text": "cool 1950s noir jazz, vibraphone and soft saxophone, rain-slick streets",
+        "weight": 0
+      },
+      {
+        "text": "clarinet melody over pizzicato strings, quiet whimsical night walk",
+        "weight": 0
+      },
+      {
+        "text": "Satie-like gymnopedie, slow and floating, sparse piano",
+        "weight": 0
+      },
+      {
+        "text": "electric guitar with heavy reverb and tremolo, slow shoegaze haze",
+        "weight": 0
+      },
+      {
+        "text": "soft harp arpeggios like ripples on water, calm and luminous",
+        "weight": 0
+      },
+      {
+        "text": "minimalist pulsing marimba, slow repeating patterns, city lights reflected",
+        "weight": 0.4
+      }
+    ]
+  }
 }

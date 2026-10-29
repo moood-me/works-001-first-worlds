@@ -262,5 +262,77 @@
       "distance": 8,
       "elevation": 3.2
     }
-  ]
+  ],
+  "music": {
+    "bpm": 66,
+    "density": 0.25,
+    "brightness": 0.4,
+    "scale": "G_MAJOR_E_MINOR",
+    "prompts": [
+      {
+        "text": "warm fingerpicked acoustic guitar by a campfire at night, slow and unhurried, friends sitting in silence",
+        "weight": 1.2
+      },
+      {
+        "text": "crackling campfire and night forest ambience, an owl far off, crickets, soft wind in the pines",
+        "weight": 0.8
+      },
+      {
+        "text": "soft harmonica, a few long notes drifting over the trees, lonesome and warm",
+        "weight": 0.6
+      },
+      {
+        "text": "low warm drone under sparse felt piano notes, stars over a forest clearing",
+        "weight": 0.4
+      },
+      {
+        "text": "quiet folk song hummed without words, close and tender, late at night",
+        "weight": 0
+      },
+      {
+        "text": "slow bowed double bass, deep and woody, the dark between the trees",
+        "weight": 0
+      },
+      {
+        "text": "gentle banjo picked very softly, old American folk, a tent and a lantern",
+        "weight": 0
+      },
+      {
+        "text": "airy ambient pads like smoke rising into a cold starry sky",
+        "weight": 0
+      },
+      {
+        "text": "solo cello, long warm phrases, an old friendship, few words needed",
+        "weight": 0
+      },
+      {
+        "text": "soft hand drum played lightly with the fingers, a slow heartbeat by the fire",
+        "weight": 0
+      },
+      {
+        "text": "distant wooden flute over a forest at night, breathy and calm",
+        "weight": 0
+      },
+      {
+        "text": "music box melody slowed down, sleepy and nostalgic",
+        "weight": 0
+      },
+      {
+        "text": "Nordic kantele plucked softly, open fifths, a northern forest",
+        "weight": 0
+      },
+      {
+        "text": "warm Rhodes chords and vinyl crackle, lo-fi and mellow",
+        "weight": 0
+      },
+      {
+        "text": "string quartet chorale, very slow, a night that does not want to end",
+        "weight": 0
+      },
+      {
+        "text": "glassy celesta notes like sparks rising from a fire",
+        "weight": 0
+      }
+    ]
+  }
 }

@@ -228,5 +228,77 @@
       "for": 7,
       "text": "The lamp by the wicket goes out and then remembers again that it is a lamp."
     }
-  ]
+  ],
+  "music": {
+    "bpm": 60,
+    "density": 0.25,
+    "brightness": 0.3,
+    "scale": "F_MAJOR_D_MINOR",
+    "prompts": [
+      {
+        "text": "slow waltz on a muted piano in an empty park at evening, melancholic with a faint wry smile",
+        "weight": 0
+      },
+      {
+        "text": "solo cello, long low phrases under street lamps, a quiet companion walking beside you",
+        "weight": 0
+      },
+      {
+        "text": "pizzicato strings tiptoeing like slow footsteps on a gravel path, gently macabre",
+        "weight": 0
+      },
+      {
+        "text": "celesta and music box, a lullaby slowed down, autumn leaves falling past a lamp",
+        "weight": 0
+      },
+      {
+        "text": "low clarinet, dry and a little ironic, an unhurried conversation with Death",
+        "weight": 0
+      },
+      {
+        "text": "foggy ambient drone, cold mist rising from wet grass, a distant city hum",
+        "weight": 1.1
+      },
+      {
+        "text": "soft brushed snare and double bass, a late evening stroll, unhurried",
+        "weight": 0
+      },
+      {
+        "text": "wordless distant choir, faint and cold, a gate opening onto pale mist",
+        "weight": 0.8
+      },
+      {
+        "text": "a creaking iron gate and dripping leaves turned into sparse percussion",
+        "weight": 0.5
+      },
+      {
+        "text": "accordion waltz far away across the park, nostalgic and fading",
+        "weight": 0
+      },
+      {
+        "text": "harp glissandi dissolving into reverb, a passage into another world",
+        "weight": 0.4
+      },
+      {
+        "text": "slow bowed vibraphone, cool violet evening light, stillness",
+        "weight": 0
+      },
+      {
+        "text": "string quartet chorale, very slow, a tender farewell",
+        "weight": 0
+      },
+      {
+        "text": "a ticking pocket watch rhythm under low strings, time running out gently",
+        "weight": 0.3
+      },
+      {
+        "text": "solo violin melody, wistful, an old romance played in the dusk",
+        "weight": 0
+      },
+      {
+        "text": "sparse felt piano, single notes with long silences, rain about to fall",
+        "weight": 0
+      }
+    ]
+  }
 }

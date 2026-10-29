@@ -130,5 +130,77 @@
       "for": 9,
       "text": "He says he doesn't come for the fish."
     }
-  ]
+  ],
+  "music": {
+    "bpm": 60,
+    "density": 0.2,
+    "brightness": 0.55,
+    "scale": "D_MAJOR_B_MINOR",
+    "prompts": [
+      {
+        "text": "slow ambient strings rising very gently, mist over a still mountain lake at dawn, pale pink light",
+        "weight": 1.2
+      },
+      {
+        "text": "soft harp arpeggios like ripples spreading on calm water, luminous and quiet",
+        "weight": 0.9
+      },
+      {
+        "text": "solo wooden flute, a simple slow melody far across the water, breathy",
+        "weight": 0.6
+      },
+      {
+        "text": "distant birdsong and the faint lap of water by the reeds, early morning stillness",
+        "weight": 0.4
+      },
+      {
+        "text": "sparse felt piano, single notes with long silences, a fisherman waiting",
+        "weight": 0
+      },
+      {
+        "text": "warm wordless choir far away, a sunrise behind the mountains, hopeful",
+        "weight": 0
+      },
+      {
+        "text": "glass harmonica, high and fragile, cold clear morning air",
+        "weight": 0
+      },
+      {
+        "text": "solo cello, a long tender line, the mist lifting slowly",
+        "weight": 0
+      },
+      {
+        "text": "Satie-like gymnopedie, slow and floating, sparse piano",
+        "weight": 0
+      },
+      {
+        "text": "soft kantele plucked in open fifths, a northern lake",
+        "weight": 0
+      },
+      {
+        "text": "low drone like a still lake breathing, minimal ambient",
+        "weight": 0
+      },
+      {
+        "text": "gentle nylon-string guitar picking, quiet and intimate",
+        "weight": 0
+      },
+      {
+        "text": "shimmering synth pads with tape warmth, pastel colours, calm",
+        "weight": 0
+      },
+      {
+        "text": "clarinet in its low register, a few slow notes, patient",
+        "weight": 0
+      },
+      {
+        "text": "slow string quartet adagio, luminous and peaceful",
+        "weight": 0
+      },
+      {
+        "text": "wind chimes far off, a light breeze over the water",
+        "weight": 0
+      }
+    ]
+  }
 }

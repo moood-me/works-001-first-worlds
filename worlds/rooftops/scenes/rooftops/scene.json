@@ -390,5 +390,77 @@
       "distance": 4,
       "elevation": -2.2
     }
-  ]
+  ],
+  "music": {
+    "bpm": 112,
+    "density": 0.5,
+    "brightness": 0.55,
+    "scale": "C_MAJOR_A_MINOR",
+    "prompts": [
+      {
+        "text": "playful pizzicato strings and glockenspiel chasing each other, a kid running over moonlit rooftops",
+        "weight": 1.2
+      },
+      {
+        "text": "bouncy upright bass and brushed drums, a light jazzy night chase, cheeky and quick",
+        "weight": 0.8
+      },
+      {
+        "text": "clarinet melody skipping over the rhythm, mischievous and warm, a city asleep below",
+        "weight": 0.6
+      },
+      {
+        "text": "soft synth arpeggios twinkling like antennas and stars, modern indie game score",
+        "weight": 0.4
+      },
+      {
+        "text": "chiptune-tinged plucks over warm strings, a jump and a landing, bright",
+        "weight": 0
+      },
+      {
+        "text": "marimba ostinato, quick and light, tiles clattering under small feet",
+        "weight": 0
+      },
+      {
+        "text": "whistled melody over acoustic guitar strums, carefree and cheeky",
+        "weight": 0
+      },
+      {
+        "text": "accordion and pizzicato, a Parisian rooftop chase, comic and quick",
+        "weight": 0
+      },
+      {
+        "text": "muted trumpet phrases, cool night jazz, the moon over chimneys",
+        "weight": 0
+      },
+      {
+        "text": "celesta and harp, the moon getting closer, wonder",
+        "weight": 0
+      },
+      {
+        "text": "driving cellos in a light gallop, adventurous but gentle",
+        "weight": 0
+      },
+      {
+        "text": "a cat's meow turned into a playful glissando on a violin",
+        "weight": 0
+      },
+      {
+        "text": "soft lo-fi beat with Rhodes chords, mellow night city",
+        "weight": 0
+      },
+      {
+        "text": "glockenspiel and toy piano, childlike and bright",
+        "weight": 0
+      },
+      {
+        "text": "synth pads and distant traffic hum, the city far below",
+        "weight": 0
+      },
+      {
+        "text": "tap of light percussion on tin roofs, rhythmic and nimble",
+        "weight": 0
+      }
+    ]
+  }
 }

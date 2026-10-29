@@ -162,5 +162,77 @@
       "bearing": -11.77,
       "distance": 2.452
     }
-  ]
+  ],
+  "music": {
+    "bpm": 64,
+    "density": 0.2,
+    "brightness": 0.45,
+    "scale": "E_FLAT_MAJOR_C_MINOR",
+    "prompts": [
+      {
+        "text": "warm lo-fi felt piano in a small room at night, a lamp glowing, cosy and unhurried",
+        "weight": 1.2
+      },
+      {
+        "text": "a cat's purring turned into soft brushed percussion, gentle and drowsy",
+        "weight": 0.8
+      },
+      {
+        "text": "soft vinyl crackle and Rhodes chords, a quiet evening at home",
+        "weight": 0.6
+      },
+      {
+        "text": "rain on a window far off under a warm low pad, safe inside",
+        "weight": 0.4
+      },
+      {
+        "text": "solo nylon-string guitar, slow and close, a sleepy room",
+        "weight": 0
+      },
+      {
+        "text": "music box lullaby, a little detuned, warm and small",
+        "weight": 0
+      },
+      {
+        "text": "soft clarinet melody, homely and a little sleepy",
+        "weight": 0
+      },
+      {
+        "text": "gentle upright bass and brushes, a late quiet jazz ballad",
+        "weight": 0
+      },
+      {
+        "text": "warm string pad with tape hiss, a radiator ticking",
+        "weight": 0
+      },
+      {
+        "text": "celesta notes like dust in lamplight",
+        "weight": 0
+      },
+      {
+        "text": "a ticking clock and the hum of a lamp, no melody",
+        "weight": 0
+      },
+      {
+        "text": "slow solo cello, tender and warm, someone reading in bed",
+        "weight": 0
+      },
+      {
+        "text": "Satie-like gymnopedie, slow and floating",
+        "weight": 0
+      },
+      {
+        "text": "soft accordion chords far away through the wall, an old neighbour",
+        "weight": 0
+      },
+      {
+        "text": "dreamy ambient pads, slow swells, about to fall asleep",
+        "weight": 0
+      },
+      {
+        "text": "harp arpeggios, gentle and slow, a warm corner",
+        "weight": 0
+      }
+    ]
+  }
 }
