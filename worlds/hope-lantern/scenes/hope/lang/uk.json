@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Hope","translation":"Надія · Hope","where":"worlds/hope-lantern/scenes/hope/scene.json title"},
+  {"text":"The lantern burns as long as someone is waiting.","translation":"Ліхтар горить, доки хтось чекає.","where":"worlds/hope-lantern/scenes/hope/scene.json caption"},
+  {"text":"Every evening she comes to the old pier.","translation":"Щовечора вона приходить на старий причал.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[0] text"},
+  {"text":"And lights the lantern.","translation":"І запалює ліхтар.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[1] text"},
+  {"text":"So that from the far shore they can see where to row.","translation":"Щоб із того берега було видно, куди пливти.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[2] text"},
+  {"text":"Over there it's still dark.","translation":"Там поки темно.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[3] text"},
+  {"text":"But the lantern burns.","translation":"Але ліхтар горить.","where":"worlds/hope-lantern/scenes/hope/scene.json captions[4] text"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Room","translation":"Кімната","where":"worlds/room/world.json title"},
+  {"text":"The cat knows where it's warmer.","translation":"Кіт знає, де тепліше.","where":"worlds/room/world.json description"}
+]}

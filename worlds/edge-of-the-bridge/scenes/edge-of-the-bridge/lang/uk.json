@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Edge of the Bridge","translation":"Край мосту","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json title"},
+  {"text":"She shines her light into the void, in case someone answers.","translation":"Вона світить у порожнечу — а раптом хтось відповість.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json caption"},
+  {"text":"For three hundred years the bridge has broken off here.","translation":"Міст уривається тут уже триста років.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[0] text"},
+  {"text":"Every evening she lights the lantern, in case someone is still left over there.","translation":"Щовечора вона запалює ліхтар — на випадок, якщо навпроти хтось лишився.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[1] text"},
+  {"text":"The mist below doesn't remember where the bridge once led.","translation":"Туман унизу не пам'ятає, куди вів міст.","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/scene.json captions[2] text"},
+  {"text":"The sky whale has gone beyond the edge of the mist","translation":"Небесний кит пішов за край туману","where":"worlds/edge-of-the-bridge/scenes/edge-of-the-bridge/script.js"}
+]}

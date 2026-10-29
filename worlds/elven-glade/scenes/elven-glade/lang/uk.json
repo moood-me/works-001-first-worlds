@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Elven Glade","translation":"Ельфійська галявина","where":"worlds/elven-glade/scenes/elven-glade/scene.json title"},
+  {"text":"The night here is longer than it seems.","translation":"Тут ніч довша, ніж здається.","where":"worlds/elven-glade/scenes/elven-glade/scene.json caption"},
+  {"text":"The glade is quiet. So quiet you can hear the mushrooms grow.","translation":"На галявині тихо. Так тихо, що чути, як ростуть гриби.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[0] text"},
+  {"text":"Someone is waiting by the stream. Has been for a long time.","translation":"Біля струмка хтось чекає. Давно.","where":"worlds/elven-glade/scenes/elven-glade/scene.json captions[1] text"}
+]}

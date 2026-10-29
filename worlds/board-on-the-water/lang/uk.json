@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"A Board on the Water","translation":"Дошка на воді","where":"worlds/board-on-the-water/world.json title"},
+  {"text":"A game with no reason to hurry.","translation":"Партія, яку нікуди квапити.","where":"worlds/board-on-the-water/world.json description"}
+]}

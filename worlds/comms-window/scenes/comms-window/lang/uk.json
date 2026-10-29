@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"VIEWING DECK · TANKER LADOGA","translation":"ОГЛЯДОВА ПАЛУБА · ТК «ЛАДОГА»","where":"worlds/comms-window/scenes/comms-window/elements/sillface.js"},
+  {"text":"Comms Window","translation":"Вікно зв'язку","where":"worlds/comms-window/scenes/comms-window/scene.json title"},
+  {"text":"Forty minutes before the last relay goes behind Saturn.","translation":"Сорок хвилин до того, як останній ретранслятор зайде за Сатурн.","where":"worlds/comms-window/scenes/comms-window/scene.json caption"},
+  {"text":"The tanker Ladoga is passing Saturn. The red dot by the rings is the last relay.","translation":"Танкер «Ладога» йде повз Сатурн. Червона точка біля кілець — останній ретранслятор.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[0] text"},
+  {"text":"Forty minutes, and it goes behind the planet. After that, a year of silence all the way to Earth.","translation":"Сорок хвилин — і він зайде за планету. Далі рік тиші аж до Землі.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[1] text"},
+  {"text":"Vera holds her mug in both hands. The tea went cold long ago, but it's warmer this way.","translation":"Віра тримає кухоль обома руками. Чай давно вистиг, але так тепліше.","where":"worlds/comms-window/scenes/comms-window/scene.json captions[2] text"},
+  {"text":"The message from Earth has come through in full.","translation":"Повідомлення з Землі прийнято повністю.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. Reception cut off mid-word.","translation":"Ретранслятор зайшов за планету — прийом обірвався на півслові.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. The comms window has closed.","translation":"Ретранслятор зайшов за планету. Вікно зв'язку закрилося.","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"{m} min left","translation":"лишилося {m} хв","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"closed","translation":"закрито","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"receiving a message · {p}%","translation":"прийом повідомлення · {p}%","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"message received","translation":"повідомлення прийнято","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"reception cut off · {p}%","translation":"прийом обірвано · {p}%","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"waiting for a message from Earth","translation":"чекаємо повідомлення з Землі","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"comms window · relay","translation":"вікно зв'язку · ретранслятор","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"}
+]}

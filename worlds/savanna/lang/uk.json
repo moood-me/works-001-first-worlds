@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Savanna","translation":"Савана","where":"worlds/savanna/world.json title"},
+  {"text":"Evening is near, and the air is still shimmering with heat.","translation":"Вечір близько, а повітря все ще тремтить від спеки.","where":"worlds/savanna/world.json description"}
+]}

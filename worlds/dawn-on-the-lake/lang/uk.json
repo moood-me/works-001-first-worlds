@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"Світанок на озері","where":"worlds/dawn-on-the-lake/world.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"Туман ще не вирішив, чи йти.","where":"worlds/dawn-on-the-lake/world.json description"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Under the Lamp","translation":"Під ліхтарем","where":"worlds/under-the-lamp/world.json title"},
+  {"text":"A rainy night, an empty street outside a hotel with a neon sign: she waits under the only street lamp, and someone is walking towards her out of the fog.","translation":"Дощова ніч, порожня вулиця біля готелю з неоновою вивіскою: вона чекає під єдиним ліхтарем, а з туману до неї хтось іде.","where":"worlds/under-the-lamp/world.json description"}
+]}

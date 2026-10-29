@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"ТЕЛЕФОН","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/elements/booth.js"},
+  {"text":"HOTEL","translation":"ГОТЕЛЬ","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/elements/hotel.js"},
+  {"text":"The Booth on Port Street","translation":"Будка на Портовій","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json title"},
+  {"text":"Rain, a street lamp, and a booth that doesn't ring.","translation":"Дощ, ліхтар і будка, яка не дзвонить.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json caption"},
+  {"text":"Three in the morning. The port is asleep.","translation":"Третя ночі. Порт спить.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[0] text"},
+  {"text":"For forty minutes the phone in the booth has been silent.","translation":"Сорок хвилин телефон у будці мовчить.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[1] text"},
+  {"text":"He counts the windows opposite. One is lit.","translation":"Він рахує вікна навпроти. Світиться одне.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/scene.json captions[2] text"},
+  {"text":"A car went by and didn't slow down.","translation":"Повз проїхала машина й не збавила ходу.","where":"worlds/booth-on-port-street/scenes/booth-on-port-street/script.js"}
+]}

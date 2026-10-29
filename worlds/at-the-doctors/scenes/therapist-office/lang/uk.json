@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"The Psychotherapist's Office","translation":"Кабінет психотерапевта","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json title"},
+  {"text":"Here you can stay silent for as long as you need.","translation":"Тут можна мовчати стільки, скільки треба.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json caption"},
+  {"text":"The clock ticks. Nobody rushes you here.","translation":"Цокає годинник. Тут ніхто не квапить.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[0] text"},
+  {"text":"She waits for the pause to finish speaking for itself.","translation":"Вона чекає, доки пауза договорить сама.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[1] text"},
+  {"text":"The glass of water still stands untouched.","translation":"Склянка води так і стоїть недоторкана.","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[2] text"},
+  {"text":"Ten to six: five minutes left of the session.","translation":"За десять шоста: до кінця прийому п'ять хвилин.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"},
+  {"text":"Five to six: the session's time is up.","translation":"За п'ять шоста — час прийому вийшов.","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"}
+]}

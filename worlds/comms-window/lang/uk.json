@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Comms Window","translation":"Вікно зв'язку","where":"worlds/comms-window/world.json title"},
+  {"text":"The observation deck of the tanker Ladoga, off Saturn. Forty minutes before the last relay goes behind the planet, and then a year of silence all the way to Earth.","translation":"Оглядова палуба танкера «Ладога» біля Сатурна. Сорок хвилин до того, як останній ретранслятор зайде за планету, — а потім рік тиші аж до Землі.","where":"worlds/comms-window/world.json description"}
+]}

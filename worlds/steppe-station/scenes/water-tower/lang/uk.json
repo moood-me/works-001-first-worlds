@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"Водонапірна вежа","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Стара водонапірна вежа; її тінь лежить упоперек шпал.","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"Подорожній дійшов і стоїть біля водонапірної вежі.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"Подорожній дійшов і стоїть біля будівлі станції, поруч із ліхтарем.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"Подорожній дійшов і стоїть біля старого сараю.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"Іржаві дверцята люка біля основи вежі з рипінням піддалися й відчинилися; усередині темно, пахне старою водою.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"Дверцята люка відчинені навстіж.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"Дверцята люка зачинилися з глухим залізним брязкотом.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"Перекотиполе докотилося до вежі й застрягло в траві біля бетонної основи.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"Вітер зірвав перекотиполе від вежі й покотив у степ.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"Ланцюг розгойдався і дзенькає об іржаву драбину.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"Ліхтар біля станції згас.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"Ліхтар біля станції знову ледь засвітився.","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}

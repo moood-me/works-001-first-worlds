@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Under the Bridge","translation":"Під мостом","where":"worlds/embankment/scenes/under-the-bridge/scene.json title"},
+  {"text":"Granite steps down to the water under an old bridge.","translation":"Гранітний спуск до води під старим мостом.","where":"worlds/embankment/scenes/under-the-bridge/scene.json caption"},
+  {"text":"A river bus with its lights on has come out from under the far bridge","translation":"З-під дальнього мосту вийшов річковий трамвайчик із вогнями","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have risen: the bridge is up","translation":"Прольоти дальнього мосту піднялися — міст розведено","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The spans of the far bridge have come down: the bridge is closed","translation":"Прольоти дальнього мосту опустилися, міст зведено","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has come on","translation":"Ліхтар під аркою засвітився","where":"worlds/embankment/scenes/under-the-bridge/script.js"},
+  {"text":"The lamp under the arch has gone out","translation":"Ліхтар під аркою погас","where":"worlds/embankment/scenes/under-the-bridge/script.js"}
+]}

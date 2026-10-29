@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"The Bench by the Lamp","translation":"Лавка біля ліхтаря","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json title"},
+  {"text":"A bench under a street lamp. A place for two.","translation":"Лавка під ліхтарем. Місце для двох.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json caption"},
+  {"text":"Breath turns to steam. Only yours.","translation":"Пара від дихання — тільки в тебе.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/scene.json captions[0] text"},
+  {"text":"You came up to the bench. Death looked up at you.","translation":"Ти підійшла до лавки. Смерть підвела очі й подивилася на тебе.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench next to Death.","translation":"Ти сіла на лавку поруч зі Смертю.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You sat down on the bench.","translation":"Ти сіла на лавку.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"You walked away from the bench along the path.","translation":"Ти пішла від лавки стежкою.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"},
+  {"text":"Death walked off along the path and vanished beyond the lamps.","translation":"Смерть пішла стежкою і зникла за ліхтарями.","where":"worlds/death-in-the-park/scenes/bench-by-the-lamp/script.js"}
+]}

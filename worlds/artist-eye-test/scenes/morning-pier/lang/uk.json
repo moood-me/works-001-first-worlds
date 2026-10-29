@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Pier in the Morning","translation":"Пристань уранці","where":"worlds/artist-eye-test/scenes/morning-pier/scene.json title"},
+  {"text":"Mist over the water. The fisherman and his dog watch the float.","translation":"Туман над водою. Рибалка й пес дивляться на поплавець.","where":"worlds/artist-eye-test/scenes/morning-pier/scene.json caption"},
+  {"text":"The sun has risen above the mist; the water has brightened","translation":"Сонце піднялося над туманом, вода посвітлішала","where":"worlds/artist-eye-test/scenes/morning-pier/script.js"},
+  {"text":"The float has gone under: the fisherman has a bite","translation":"Поплавець пішов під воду — у рибалки клює","where":"worlds/artist-eye-test/scenes/morning-pier/script.js"},
+  {"text":"Ducks have landed on the water near the boat","translation":"Качки сіли на воду біля човна","where":"worlds/artist-eye-test/scenes/morning-pier/script.js"}
+]}

@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Rooftops","translation":"Дахи","where":"worlds/rooftops/scenes/rooftops/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → бігти, пробіл — стрибати.","where":"worlds/rooftops/scenes/rooftops/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"Добіг до кішки на краю дахів. Кішка: «Няв. Далі тільки місяць».","where":"worlds/rooftops/scenes/rooftops/script.js"}
+]}

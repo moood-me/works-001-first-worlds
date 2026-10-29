@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Window 3","translation":"Вікно №3","where":"worlds/window-3/world.json title"},
+  {"text":"A checkpoint at the asteroid belt. They invented the warp drive, and the electronic queue too. Your number is 4812; now serving 0417.","translation":"Пропускний пункт біля поясу астероїдів. Варп-двигун винайшли, електронну чергу — теж. Ваш номер 4812, зараз обслуговують 0417.","where":"worlds/window-3/world.json description"}
+]}

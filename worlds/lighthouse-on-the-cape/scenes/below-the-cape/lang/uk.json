@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Below the Cape, at the Water's Edge","translation":"Під мисом, біля краю води","where":"worlds/lighthouse-on-the-cape/scenes/below-the-cape/scene.json title"},
+  {"text":"Black wet stones, foam and a narrow path up to the lighthouse.","translation":"Чорне мокре каміння, піна й вузька стежка вгору, до маяка.","where":"worlds/lighthouse-on-the-cape/scenes/below-the-cape/scene.json caption"}
+]}
