@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"A Pier on a Mountain Lake","translation":"Ein Steg an einem Bergsee","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json title"},
+  {"text":"The water went still before the light went out.","translation":"Das Wasser wurde still, noch bevor das Licht erlosch.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json caption"},
+  {"text":"The last light is slipping behind the ridge.","translation":"Das letzte Licht gleitet hinter den Grat.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[0] text"},
+  {"text":"The lantern was lit a little earlier than it needed to be.","translation":"Die Laterne wurde ein wenig früher angezündet als nötig.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[1] text"},
+  {"text":"The boat quietly tugs at its rope and goes still again.","translation":"Das Boot zupft leise am Seil und wird wieder still.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[2] text"}
+]}

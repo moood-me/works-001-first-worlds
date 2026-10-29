@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"A Poppy Field by the Mountains","translation":"Ein Mohnfeld vor den Bergen","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json title"},
+  {"text":"Early morning. Dew and silence.","translation":"Früher Morgen. Tau und Stille.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json caption"},
+  {"text":"The first light comes to the peaks first.","translation":"Das erste Licht kommt zuerst zu den Gipfeln.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json captions[0] text"},
+  {"text":"The dew still lies on the petals.","translation":"Der Tau liegt noch auf den Blütenblättern.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json captions[1] text"}
+]}

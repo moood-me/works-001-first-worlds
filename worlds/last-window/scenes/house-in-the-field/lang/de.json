@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"House in the Field","translation":"Das Haus im Feld","where":"worlds/last-window/scenes/house-in-the-field/scene.json title"},
+  {"text":"She doesn't put the light out. Let them know someone is still here.","translation":"Sie macht das Licht nicht aus. Sollen sie ruhig wissen, dass hier noch jemand ist.","where":"worlds/last-window/scenes/house-in-the-field/scene.json caption"},
+  {"text":"The phone has been silent for three weeks.","translation":"Das Telefon schweigt seit drei Wochen.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[0] text"},
+  {"text":"Someone is standing by the forest again.","translation":"Am Wald steht wieder jemand.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[1] text"},
+  {"text":"Every night, a few steps closer.","translation":"Jede Nacht ein paar Schritte näher.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[2] text"},
+  {"text":"It is standing right by the house, under the window.","translation":"Es steht direkt am Haus, unter dem Fenster.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"It has come out of the forest and stands in the middle of the field.","translation":"Es ist aus dem Wald gekommen und steht mitten auf dem Feld.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"A tall pale figure stands at the edge of the forest.","translation":"Am Waldrand steht eine große, bleiche Gestalt.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The light in the window has gone out.","translation":"Das Licht im Fenster ist erloschen.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The door of the house is open; light spills onto the snow.","translation":"Die Haustür steht offen, Licht fällt auf den Schnee.","where":"worlds/last-window/scenes/house-in-the-field/script.js"}
+]}

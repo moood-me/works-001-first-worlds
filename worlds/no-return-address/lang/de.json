@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"No Return Address","translation":"Ohne Absender","where":"worlds/no-return-address/world.json title"},
+  {"text":"A rainy crossroads at night: a woman in a raincoat by a mailbox, holding a letter that must not be sent. In a window across the street, someone parts the blinds with their fingers.","translation":"Eine Kreuzung bei Nacht im Regen: eine Frau im Regenmantel an einem Briefkasten, mit einem Brief, der nicht abgeschickt werden darf. In einem Fenster gegenüber schiebt jemand mit den Fingern die Jalousie auseinander.","where":"worlds/no-return-address/world.json description"}
+]}
