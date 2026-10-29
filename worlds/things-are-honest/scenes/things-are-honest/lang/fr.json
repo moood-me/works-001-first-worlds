@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Things Are Honest","translation":"Les choses sont honnêtes","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"Un mystère de famille, le temps d’une soirée.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"L’automne. Tu es venue dire adieu à mamie Nina. Le médecin a dit une semaine, peut-être deux.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"Quelqu’un a été soigneusement découpé de la photo de famille de 1952, en suivant le contour, comme dans un magazine.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"Les gens savent ce qui compte, mais ne disent pas la vérité. Les choses ne mentent pas, mais prennent tout au pied de la lettre.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"Carnet","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"La nuit du 14 mars 1953. Personne n’en parle.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Quelqu’un a été soigneusement découpé de la photo de famille de 1952.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Interroge les gens et les choses. Note tout. Mets les gens face à ce qu’ont dit les choses.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"fermer","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+]}

@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"In the Old Shed by the Station","translation":"Dans le vieux cabanon près de la gare","where":"worlds/steppe-station/scenes/station-shed/scene.json title"},
+  {"text":"Dust hangs in the slits of light, and everything here has been tidied by someone.","translation":"La poussière flotte dans les fentes de lumière, et tout ici a été rangé par quelqu’un.","where":"worlds/steppe-station/scenes/station-shed/scene.json caption"},
+  {"text":"The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.","translation":"Les fentes du mur se sont presque éteintes : le soleil est passé derrière la steppe, et il ne reste dans le cabanon que la lumière de la porte.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"The swallow darted off the beam and flew out through the open door, toward the sunset.","translation":"L’hirondelle s’est élancée de la poutre et est sortie par la porte grande ouverte, vers le couchant.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.","translation":"Sous la toile de jute, un seau galvanisé plein d’eau claire. Quelqu’un l’a apporté il n’y a pas longtemps.","where":"worlds/steppe-station/scenes/station-shed/script.js"}
+]}

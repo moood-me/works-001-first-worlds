@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Abandoned Station in the Steppe","translation":"Une gare abandonnée dans la steppe","where":"worlds/steppe-station/scenes/steppe-station/scene.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"La steppe se tait, le réverbère brûle, et un virevoltant roule vers le couchant.","where":"worlds/steppe-station/scenes/steppe-station/scene.json caption"},
+  {"text":"The last train came through here so long ago that the rails have forgotten its weight.","translation":"Le dernier train est passé ici il y a si longtemps que les rails ont oublié son poids.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[0] text"},
+  {"text":"The wind counts the sleepers and loses count every time.","translation":"Le vent compte les traverses et se trompe à chaque fois.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[1] text"},
+  {"text":"And the lamp still comes on anyway, out of habit.","translation":"Et le réverbère s’allume quand même, par habitude.","where":"worlds/steppe-station/scenes/steppe-station/scene.json captions[2] text"}
+]}

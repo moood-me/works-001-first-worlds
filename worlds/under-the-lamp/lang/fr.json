@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Under the Lamp","translation":"Sous le réverbère","where":"worlds/under-the-lamp/world.json title"},
+  {"text":"A rainy night, an empty street outside a hotel with a neon sign: she waits under the only street lamp, and someone is walking towards her out of the fog.","translation":"Une nuit de pluie, une rue déserte devant un hôtel à l’enseigne de néon : elle attend sous l’unique réverbère, et quelqu’un vient vers elle à travers le brouillard.","where":"worlds/under-the-lamp/world.json description"}
+]}

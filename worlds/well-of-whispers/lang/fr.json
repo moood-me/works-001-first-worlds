@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Le Puits aux murmures","where":"worlds/well-of-whispers/world.json title"},
+  {"text":"A boarded-up well in the middle of a night spruce forest, cold light seeping through its cracks. They say it answers those who ask in a whisper.","translation":"Un puits condamné au milieu d’une sapinière, la nuit, une lumière froide suintant par ses fentes. On dit qu’il répond à ceux qui l’interrogent en chuchotant.","where":"worlds/well-of-whispers/world.json description"}
+]}

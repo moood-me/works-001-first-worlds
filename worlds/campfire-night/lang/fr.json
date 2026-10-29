@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Night by the Campfire","translation":"Une nuit au coin du feu","where":"worlds/campfire-night/world.json title"},
+  {"text":"Look around. It's all here, all around you.","translation":"Regarde autour de toi. Tout est là, tout autour.","where":"worlds/campfire-night/world.json description"}
+]}

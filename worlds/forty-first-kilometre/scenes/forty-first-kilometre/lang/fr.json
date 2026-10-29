@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"41 km","translation":"41 km","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/elements/shelter.js"},
+  {"text":"The Forty-First Kilometre","translation":"Le quarante et unième kilomètre","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json title"},
+  {"text":"The last bus has gone. Someone is meeting you anyway.","translation":"Le dernier bus est parti. Quelqu’un t’attend quand même.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json caption"},
+  {"text":"The last bus left at 11:40 pm.","translation":"Le dernier bus est parti à 23 h 40.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[0] text"},
+  {"text":"Someone is standing on the road. With flowers.","translation":"Quelqu’un se tient sur la route. Avec des fleurs.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[1] text"},
+  {"text":"He has come to meet someone. You.","translation":"Il est venu attendre quelqu’un. Toi.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/scene.json captions[2] text"},
+  {"text":"He reached the bus stop and stopped under the lamp.","translation":"Il est arrivé à l’arrêt et s’est arrêté sous le réverbère.","where":"worlds/forty-first-kilometre/scenes/forty-first-kilometre/script.js"}
+]}

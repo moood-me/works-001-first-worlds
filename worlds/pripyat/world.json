@@ -3,5 +3,5 @@
   "description": "Only the wind and the trees live here now.",
   "themes": {},
   "main": "pripyat",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr"]
 }

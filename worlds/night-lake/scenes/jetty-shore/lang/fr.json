@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Shore by the Jetty","translation":"La Rive près du ponton","where":"worlds/night-lake/scenes/jetty-shore/scene.json title"},
+  {"text":"Wet grass, an old stake and a boat tied up by the dark water.","translation":"De l’herbe mouillée, un vieux piquet et une barque amarrée au bord de l’eau sombre.","where":"worlds/night-lake/scenes/jetty-shore/scene.json caption"},
+  {"text":"A gust of wind: the reeds rustled, the boat tugged at its rope on the stake.","translation":"Un coup de vent : les roseaux ont bruissé, la barque a tiré sur son amarre au piquet.","where":"worlds/night-lake/scenes/jetty-shore/script.js"},
+  {"text":"A gust of wind: the reeds rustled, a shiver ran over the water at the edge.","translation":"Un coup de vent : les roseaux ont bruissé, un frisson a couru sur l’eau du bord.","where":"worlds/night-lake/scenes/jetty-shore/script.js"}
+]}

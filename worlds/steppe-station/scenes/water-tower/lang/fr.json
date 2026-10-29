@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"Le Château d’eau","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Un vieux château d’eau ; son ombre barre les traverses.","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"Le voyageur est arrivé et se tient près du château d’eau.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"Le voyageur est arrivé et se tient près du bâtiment de la gare, à côté du réverbère.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"Le voyageur est arrivé et se tient près du vieux cabanon.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"La petite porte rouillée de la trappe, au pied du château d’eau, a cédé en grinçant et s’est ouverte ; dedans, il fait noir et ça sent la vieille eau.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"La porte de la trappe est grande ouverte.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"La porte de la trappe s’est refermée avec un sourd fracas de fer.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"Le virevoltant a roulé jusqu’au château d’eau et s’est pris dans l’herbe au pied du socle de béton.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"Le vent a arraché le virevoltant au château d’eau et l’a emporté dans la steppe.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"La chaîne s’est mise à se balancer et tinte contre l’échelle rouillée.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"Le réverbère près de la gare s’est éteint.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"Le réverbère près de la gare s’est remis à luire.","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}

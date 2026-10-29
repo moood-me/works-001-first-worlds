@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Window 3","translation":"Guichet 3","where":"worlds/window-3/world.json title"},
+  {"text":"A checkpoint at the asteroid belt. They invented the warp drive, and the electronic queue too. Your number is 4812; now serving 0417.","translation":"Un poste de contrôle à la ceinture d’astéroïdes. On a inventé la propulsion warp, et la file d’attente électronique aussi. Ton numéro : 4812 ; en ce moment, on sert le 0417.","where":"worlds/window-3/world.json description"}
+]}

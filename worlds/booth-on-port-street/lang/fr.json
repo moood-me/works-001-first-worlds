@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Booth on Port Street","translation":"La cabine de la rue du Port","where":"worlds/booth-on-port-street/world.json title"},
+  {"text":"Three in the morning, rain, the docks quarter. A man in a raincoat waits under a street lamp for a call to the phone booth, which stays silent.","translation":"Trois heures du matin, la pluie, le quartier du port. Un homme en imperméable attend sous un réverbère un appel dans la cabine téléphonique, qui reste muette.","where":"worlds/booth-on-port-street/world.json description"}
+]}

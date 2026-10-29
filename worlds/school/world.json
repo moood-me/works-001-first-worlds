@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "maths-classroom",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr"]
 }

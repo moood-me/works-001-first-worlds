@@ -3,5 +3,5 @@
   "description": "",
   "themes": {},
   "main": "elven-glade",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr"]
 }

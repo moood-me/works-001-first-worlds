@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Pier in the Morning","translation":"Le ponton au matin","where":"worlds/artist-eye-test/scenes/morning-pier/scene.json title"},
+  {"text":"Mist over the water. The fisherman and his dog watch the float.","translation":"La brume sur l’eau. Le pêcheur et son chien regardent le bouchon.","where":"worlds/artist-eye-test/scenes/morning-pier/scene.json caption"},
+  {"text":"The sun has risen above the mist; the water has brightened","translation":"Le soleil s’est levé au-dessus de la brume ; l’eau s’est éclaircie","where":"worlds/artist-eye-test/scenes/morning-pier/script.js"},
+  {"text":"The float has gone under: the fisherman has a bite","translation":"Le bouchon a plongé : ça mord pour le pêcheur","where":"worlds/artist-eye-test/scenes/morning-pier/script.js"},
+  {"text":"Ducks have landed on the water near the boat","translation":"Des canards se sont posés sur l’eau près de la barque","where":"worlds/artist-eye-test/scenes/morning-pier/script.js"}
+]}

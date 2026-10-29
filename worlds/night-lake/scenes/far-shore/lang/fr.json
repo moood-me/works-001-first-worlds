@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"The Far Shore","translation":"L’Autre Rive","where":"worlds/night-lake/scenes/far-shore/scene.json title"},
+  {"text":"A narrow strip of pebbles, black trunks and mist between them.","translation":"Une étroite bande de galets, des troncs noirs et de la brume entre eux.","where":"worlds/night-lake/scenes/far-shore/scene.json caption"},
+  {"text":"The light between the trunks went out for a moment, as if someone had passed in front of it, and came on again.","translation":"La lumière entre les troncs s’est éteinte un instant, comme si quelqu’un était passé devant, puis s’est rallumée.","where":"worlds/night-lake/scenes/far-shore/script.js"},
+  {"text":"Between the trunks, left of the light, a motionless figure has appeared.","translation":"Entre les troncs, à gauche de la lumière, une silhouette immobile est apparue.","where":"worlds/night-lake/scenes/far-shore/script.js"}
+]}
