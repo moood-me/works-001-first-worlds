@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Lighthouse on the Cape","translation":"Latarnia morska na przylądku","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json title"},
+  {"text":"One warm window on the whole cold shore.","translation":"Jedno ciepłe okno na cały zimny brzeg.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json caption"},
+  {"text":"The lamp isn't lit yet: the dusk is in no hurry.","translation":"Światła latarni jeszcze nie zapalono – zmierzch się nie spieszy.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[0] text"},
+  {"text":"Snowflakes go out the moment they touch the water.","translation":"Płatki śniegu gasną, ledwie dotkną wody.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[1] text"},
+  {"text":"In the window someone is putting the kettle on.","translation":"W oknie ktoś nastawia czajnik.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-on-the-cape/scene.json captions[2] text"}
+]}

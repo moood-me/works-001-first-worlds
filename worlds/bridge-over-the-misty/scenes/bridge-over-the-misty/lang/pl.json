@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"The Bridge over the Misty River","translation":"Most nad Mglistą","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json title"},
+  {"text":"The middle of the bridge is the only place where the two banks meet.","translation":"Środek mostu to jedyne miejsce, gdzie spotykają się oba brzegi.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json caption"},
+  {"text":"The bridge holds as long as someone waits on it.","translation":"Most trzyma się, dopóki ktoś na nim czeka.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[0] text"},
+  {"text":"From the far bank, out of the mist: footsteps.","translation":"Z tamtego brzegu, z mgły – kroki.","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/scene.json captions[1] text"},
+  {"text":"The traveller reached the keeper and stopped one step from her lantern","translation":"Wędrowiec doszedł do strażniczki i zatrzymał się krok od jej latarni","where":"worlds/bridge-over-the-misty/scenes/bridge-over-the-misty/script.js"}
+]}

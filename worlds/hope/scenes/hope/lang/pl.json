@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"Hope","translation":"Nadzieja","where":"worlds/hope/scenes/hope/scene.json title"},
+  {"text":"Night. An old pier. Silence.","translation":"Noc. Stary pomost. Cisza.","where":"worlds/hope/scenes/hope/scene.json caption"},
+  {"text":"Every evening she comes to the old pier.","translation":"Co wieczór przychodzi na stary pomost.","where":"worlds/hope/scenes/hope/scene.json captions[0] text"},
+  {"text":"She counts the lights on the far shore.","translation":"Liczy światła na drugim brzegu.","where":"worlds/hope/scenes/hope/scene.json captions[1] text"},
+  {"text":"Tonight there is one.","translation":"Dziś – jedno.","where":"worlds/hope/scenes/hope/scene.json captions[2] text"},
+  {"text":"So someone is still awake.","translation":"Czyli ktoś jeszcze nie śpi.","where":"worlds/hope/scenes/hope/scene.json captions[3] text"}
+]}

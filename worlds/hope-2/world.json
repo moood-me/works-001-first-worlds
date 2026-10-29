@@ -3,5 +3,5 @@
   "description": "it's quiet here, and only a small light keeps hope from going out",
   "themes": {},
   "main": "hope",
-  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant", "pt"]
+  "languages": ["en", "ru", "uk", "de", "es", "ja", "be", "fr", "zh-hant", "pt", "pl"]
 }

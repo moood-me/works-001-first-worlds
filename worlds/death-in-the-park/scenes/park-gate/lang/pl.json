@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"Przy bramie parku","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"Brama przed tobą. Ktoś – za tobą.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"Przy bramie alejka się rozwidla.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"Latarnia przy furtce gaśnie i znów sobie przypomina, że jest latarnią.","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"Doszłaś do bramy – jest zamknięta i spięta łańcuchem.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"Doszłaś do bramy – jest zamknięta.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"Wyszłaś za bramę i zniknęłaś we mgle po tamtej stronie.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"Szarpiesz furtkę – łańcuch brzęczy, kłódka trzyma.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"Brama ze skrzypieniem się otwiera. Za nią – blada mgła.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"Wróciłaś zza bramy na alejkę.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"Śmierć przeszła przez zamkniętą bramę i czeka po tamtej stronie, we mgle.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"Śmierć przeszła przez otwartą bramę i czeka po tamtej stronie, we mgle.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"Śmierć podeszła i zatrzymała się obok ciebie.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"Śmierć cię dogoniła.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"Podeszłaś do bramy parku. Mokre pręty, łańcuch, za nimi – mgła. Alejka biegnie też dalej, w głąb parku.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"Mgła zgęstniała: ścieżki z powrotem prawie nie widać, tylko latarnie przy bramie.","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}

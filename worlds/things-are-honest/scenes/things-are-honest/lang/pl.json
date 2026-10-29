@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Things Are Honest","translation":"Rzeczy są uczciwe","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"Rodzinna zagadka na jeden wieczór.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"Jesień. Przyjechałaś pożegnać się z babcią Niną. Lekarz powiedział: tydzień, może dwa.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"Z rodzinnej fotografii z 1952 roku ktoś został starannie wycięty – po konturze, jak z gazety.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"Ludzie wiedzą, co ważne, ale nie mówią prawdy. Rzeczy nie kłamią – ale wszystko rozumieją dosłownie.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"Notes","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"Noc na 14 marca 1953 roku. Nie mówi się o niej.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Z rodzinnej fotografii z 1952 roku starannie wycięto człowieka.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Pytaj ludzi i rzeczy. Zapisuj. Pokazuj ludziom to, co powiedziały rzeczy.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"zamknij","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+]}

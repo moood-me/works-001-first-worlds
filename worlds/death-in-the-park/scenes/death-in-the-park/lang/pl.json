@@ -1,0 +1,5 @@
+{"strings": [
+  {"text":"Death in the Park","translation":"Śmierć w parku","where":"worlds/death-in-the-park/scenes/death-in-the-park/scene.json title"},
+  {"text":"An ordinary evening. Almost.","translation":"Zwyczajny wieczór. Prawie.","where":"worlds/death-in-the-park/scenes/death-in-the-park/scene.json caption"},
+  {"text":"Death came up to him along the path and stopped beside him.","translation":"Śmierć podeszła do niego alejką i zatrzymała się obok.","where":"worlds/death-in-the-park/scenes/death-in-the-park/script.js"}
+]}

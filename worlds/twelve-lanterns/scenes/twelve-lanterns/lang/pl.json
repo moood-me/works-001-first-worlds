@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Twelve Lanterns","translation":"Dwanaście lampionów","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json title"},
+  {"text":"The festival ended an hour ago. Someone forgot to put out the lanterns on the shrine steps. Or didn't forget.","translation":"Święto skończyło się godzinę temu. Ktoś zapomniał zgasić lampiony na schodach świątyni. Albo nie zapomniał.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json caption"},
+  {"text":"Twelve lanterns on the steps up to the torii. The matsuri is over, everyone has gone home.","translation":"Dwanaście lampionów na schodach do torii. Matsuri się skończyło, wszyscy rozeszli się do domów.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[0] text"},
+  {"text":"Each time a lantern goes out, the girl in the fox mask comes down a step.","translation":"Za każdym razem, gdy gaśnie lampion, dziewczynka w masce lisa schodzi o stopień.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[1] text"},
+  {"text":"The goldfish in the bag looks one way only. Toward where you stand.","translation":"Złota rybka w woreczku patrzy tylko w jedną stronę. Tam, gdzie stoisz ty.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/scene.json captions[2] text"},
+  {"text":"Half the lanterns on the steps are out. The girl in the fox mask is halfway down.","translation":"Połowa lampionów na schodach zgasła. Dziewczynka w masce lisa jest już w połowie schodów.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"},
+  {"text":"The last lantern is out. The vending machine barely glows. The girl in the mask stands at the bottom step.","translation":"Zgasł ostatni lampion. Automat z napojami ledwie świeci. Dziewczynka w masce stoi przy najniższym stopniu.","where":"worlds/twelve-lanterns/scenes/twelve-lanterns/script.js"}
+]}

@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Hope","translation":"Nadzieja","where":"worlds/hope/world.json title"},
+  {"text":"Night. An old pier. Silence.","translation":"Noc. Stary pomost. Cisza.","where":"worlds/hope/world.json description"}
+]}

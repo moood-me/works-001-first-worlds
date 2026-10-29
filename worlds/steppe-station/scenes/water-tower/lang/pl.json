@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"The Water Tower","translation":"Wieża ciśnień","where":"worlds/steppe-station/scenes/water-tower/scene.json title"},
+  {"text":"An old water tower; its shadow lies across the sleepers.","translation":"Stara wieża ciśnień; jej cień leży w poprzek podkładów.","where":"worlds/steppe-station/scenes/water-tower/scene.json caption"},
+  {"text":"The traveller has got there and stands by the water tower.","translation":"Wędrowiec doszedł i stoi przy wieży ciśnień.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the station building, next to the lamp.","translation":"Wędrowiec doszedł i stoi przy budynku stacji, obok latarni.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The traveller has got there and stands by the old shed.","translation":"Wędrowiec doszedł i stoi przy starej szopie.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The rusty hatch door at the foot of the tower gave with a creak and opened; it is dark inside and smells of old water.","translation":"Zardzewiałe drzwiczki włazu u podstawy wieży ze zgrzytem ustąpiły i się otworzyły; w środku jest ciemno, pachnie starą wodą.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door is wide open.","translation":"Drzwiczki włazu są otwarte na oścież.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The hatch door slammed shut with a dull iron clang.","translation":"Drzwiczki włazu zatrzasnęły się z głuchym żelaznym szczękiem.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The tumbleweed rolled up to the tower and got stuck in the grass by the concrete base.","translation":"Biegacz stepowy dotoczył się do wieży i utknął w trawie przy betonowej podstawie.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The wind tore the tumbleweed away from the tower and rolled it off into the steppe.","translation":"Wiatr oderwał biegacz stepowy od wieży i potoczył go w step.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The chain has started swinging and clinks against the rusty ladder.","translation":"Łańcuch się rozkołysał i pobrzękuje o zardzewiałą drabinę.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has gone out.","translation":"Latarnia przy stacji zgasła.","where":"worlds/steppe-station/scenes/water-tower/script.js"},
+  {"text":"The lamp by the station has flickered back to life.","translation":"Latarnia przy stacji znów się zatliła.","where":"worlds/steppe-station/scenes/water-tower/script.js"}
+]}
