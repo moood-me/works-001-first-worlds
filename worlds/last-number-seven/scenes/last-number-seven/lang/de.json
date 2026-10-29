@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"7  TOWN","translation":"7  STADT","where":"worlds/last-number-seven/scenes/last-number-seven/elements/bus.js"},
+  {"text":"The Last Number Seven","translation":"Die letzte Sieben","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json title"},
+  {"text":"A bus stop by the rice fields. The last bus to town is at 18:47.","translation":"Eine Haltestelle an den Reisfeldern. Der letzte Bus in die Stadt fährt um 18:47.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json caption"},
+  {"text":"The last number seven leaves for town at 18:47.","translation":"Die letzte Sieben fährt um 18:47 in die Stadt.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[0] text"},
+  {"text":"It took her three days to pack the suitcase. In three years she never found the time to tell him.","translation":"Drei Tage hat sie gebraucht, um den Koffer zu packen. In drei Jahren hat sie es nicht geschafft, es ihm zu sagen.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[1] text"},
+  {"text":"He stands at the bend, pretending to fix his chain.","translation":"Er steht an der Kurve und tut so, als richte er seine Kette.","where":"worlds/last-number-seven/scenes/last-number-seven/scene.json captions[2] text"},
+  {"text":"Over the bench a fluorescent lamp blinks and comes on.","translation":"Über der Bank flackert eine Leuchtstoffröhre und geht an.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has pulled up at the shelter and opened its doors. The driver looks at the bench and waits.","translation":"Die Sieben hat am Unterstand gehalten und die Türen geöffnet. Der Fahrer schaut zur Bank und wartet.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town. The bench is empty; only the furin rings.","translation":"Die Sieben ist in Richtung Stadt abgefahren. Die Bank ist leer, nur das Furin klingt.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"The seven has gone off toward town without her. Haruna is still on the bench.","translation":"Die Sieben ist ohne sie in Richtung Stadt abgefahren. Haruna sitzt noch auf der Bank.","where":"worlds/last-number-seven/scenes/last-number-seven/script.js"},
+  {"text":"the seven has gone","translation":"die Sieben ist weg","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is at the stop","translation":"die Sieben steht an der Haltestelle","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is coming","translation":"die Sieben kommt","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is leaving","translation":"die Sieben fährt ab","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"{left} min to the seven","translation":"noch {left} Min. bis zur Sieben","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"},
+  {"text":"the seven is late","translation":"die Sieben hat Verspätung","where":"worlds/last-number-seven/scenes/last-number-seven/widgets/clock.html"}
+]}

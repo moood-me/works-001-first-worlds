@@ -1,0 +1,10 @@
+{"strings": [
+  {"text":"PHONE","translation":"TELEFON","where":"worlds/kilometre-41/scenes/booth-at-km-41/elements/booth.js"},
+  {"text":"The Booth at Km 41","translation":"Die Zelle bei Km 41","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json title"},
+  {"text":"Nobody has run a line out here since ninety-eight.","translation":"Seit achtundneunzig hat hier niemand eine Leitung verlegt.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json caption"},
+  {"text":"Kilometre 41. Three in the morning.","translation":"Kilometer 41. Drei Uhr nachts.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[0] text"},
+  {"text":"The receiver hangs loose. Someone is breathing on the line.","translation":"Der Hörer hängt herab. In der Leitung atmet jemand.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[1] text"},
+  {"text":"There is a note on the glass. The handwriting is yours.","translation":"Am Glas klebt ein Zettel. Die Handschrift ist deine.","where":"worlds/kilometre-41/scenes/booth-at-km-41/scene.json captions[2] text"},
+  {"text":"The phone in the booth rang, then fell silent.","translation":"Das Telefon in der Zelle klingelte und verstummte.","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"},
+  {"text":"Someone lifted the receiver, and the ringing broke off.","translation":"Jemand hat den Hörer abgenommen, und das Klingeln brach ab.","where":"worlds/kilometre-41/scenes/booth-at-km-41/script.js"}
+]}

@@ -1,0 +1,15 @@
+{"strings": [
+  {"text":"SKY","translation":"HIMMEL","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/asphalt.js"},
+  {"text":"TSOI LIVES","translation":"ZOI LEBT","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"VITEK + LENA","translation":"WITJOK + LENA","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"TRIES: {tries}","translation":"VERSUCHE: {tries}","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/elements/garages.js"},
+  {"text":"The Lada by the Garages","translation":"Der Lada bei den Garagen","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json title"},
+  {"text":"Friday, twenty to nine. They've been trying to start the Lada since April.","translation":"Freitag, zwanzig vor neun. Seit April versuchen sie, den Lada anzuwerfen.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json caption"},
+  {"text":"The bench is free: nobody sits on it, they stand on it.","translation":"Die Bank ist frei: Auf ihr sitzt man nicht, auf ihr steht man.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[1] text"},
+  {"text":"Granny Zina sees everything. Granny Zina remembers everything. Since ninety-three.","translation":"Oma Sina sieht alles. Oma Sina merkt sich alles. Seit dreiundneunzig.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/scene.json captions[2] text"},
+  {"text":"The street lamp over the garages has come on, at the third try.","translation":"Die Straßenlaterne über den Garagen ist angegangen, beim dritten Versuch.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada started! Try number {n}.","translation":"Der Lada ist angesprungen! Versuch Nummer {n}.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The Lada ran for five seconds and stalled.","translation":"Der Lada lief fünf Sekunden und ging wieder aus.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"The boombox on the roof has chewed the tape.","translation":"Der Kassettenrekorder auf dem Dach hat das Band zerkaut.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"},
+  {"text":"Someone wound the cassette back with a pencil. It plays on.","translation":"Jemand hat die Kassette mit einem Bleistift zurückgespult. Sie spielt weiter.","where":"worlds/lada-by-the-garages/scenes/lada-by-the-garages/script.js"}
+]}
