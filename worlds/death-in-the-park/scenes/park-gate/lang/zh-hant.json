@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"At the Park Gate","translation":"公園大門口","where":"worlds/death-in-the-park/scenes/park-gate/scene.json title"},
+  {"text":"The gate ahead. Someone behind.","translation":"大門在前。有人在後。","where":"worlds/death-in-the-park/scenes/park-gate/scene.json caption"},
+  {"text":"The path forks at the gate.","translation":"小徑在大門前分岔。","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[0] text"},
+  {"text":"The lamp by the wicket goes out and then remembers again that it is a lamp.","translation":"小門邊的路燈熄了，接著又想起自己是一盞燈。","where":"worlds/death-in-the-park/scenes/park-gate/scene.json captions[1] text"},
+  {"text":"You reached the gate: it is shut and chained.","translation":"你走到大門前：門關著，還用鐵鍊鎖上了。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You reached the gate: it is shut.","translation":"你走到大門前：門關著。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You went out through the gate and disappeared into the mist on the other side.","translation":"你走出大門，消失在另一頭的霧裡。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You tug at the wicket gate: the chain clinks, the lock holds.","translation":"你拉了拉小門：鐵鍊噹啷作響，鎖紋風不動。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The gate creaks open. Beyond it, pale mist.","translation":"大門嘎吱一聲打開了。門外是蒼白的霧。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came back from beyond the gate to the path.","translation":"你從大門外回到了小徑上。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the locked gate and waits on the other side, in the mist.","translation":"死神穿過上了鎖的大門，在另一頭的霧裡等著。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death has passed through the open gate and waits on the other side, in the mist.","translation":"死神穿過敞開的大門，在另一頭的霧裡等著。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death came up and stopped beside you.","translation":"死神走過來，停在你身旁。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"Death caught up with you.","translation":"死神追上你了。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"You came up to the park gate. Wet bars, a chain, and mist beyond. The path goes on as well, deeper into the park.","translation":"你走到公園大門前。濕漉漉的鐵欄、一條鐵鍊，門外是霧。小徑也繼續延伸，通往公園深處。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"},
+  {"text":"The mist has closed in: you can hardly see the path back, only the lamps by the gate.","translation":"霧合攏了：回去的小徑幾乎看不見，只剩大門邊的路燈。","where":"worlds/death-in-the-park/scenes/park-gate/script.js"}
+]}

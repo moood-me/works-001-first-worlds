@@ -1,0 +1,6 @@
+{"strings": [
+  {"text":"Dawn on the Lake","translation":"湖上的黎明","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json title"},
+  {"text":"The mist hasn't yet made up its mind whether to leave.","translation":"霧還沒決定要不要散去。","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json caption"},
+  {"text":"The fisherman has been sitting here since four. Not a single bite yet.","translation":"漁夫從四點就坐在這裡了。到現在一條都沒上鉤。","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json captions[0] text"},
+  {"text":"He says he doesn't come for the fish.","translation":"他說，他不是為了魚才來的。","where":"worlds/dawn-on-the-lake/scenes/dawn-on-the-lake/scene.json captions[1] text"}
+]}

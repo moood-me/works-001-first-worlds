@@ -1,0 +1,18 @@
+{"strings": [
+  {"text":"VIEWING DECK · TANKER LADOGA","translation":"觀景甲板 · 拉多加號油輪","where":"worlds/comms-window/scenes/comms-window/elements/sillface.js"},
+  {"text":"Comms Window","translation":"通訊窗口","where":"worlds/comms-window/scenes/comms-window/scene.json title"},
+  {"text":"Forty minutes before the last relay goes behind Saturn.","translation":"再過四十分鐘，最後一座中繼站就會轉到土星背後。","where":"worlds/comms-window/scenes/comms-window/scene.json caption"},
+  {"text":"The tanker Ladoga is passing Saturn. The red dot by the rings is the last relay.","translation":"拉多加號油輪正從土星旁駛過。環邊的那個紅點，就是最後一座中繼站。","where":"worlds/comms-window/scenes/comms-window/scene.json captions[0] text"},
+  {"text":"Forty minutes, and it goes behind the planet. After that, a year of silence all the way to Earth.","translation":"四十分鐘後，它就會轉到行星背後。之後，一路到地球都是一整年的寂靜。","where":"worlds/comms-window/scenes/comms-window/scene.json captions[1] text"},
+  {"text":"Vera holds her mug in both hands. The tea went cold long ago, but it's warmer this way.","translation":"薇拉用雙手捧著杯子。茶早就涼了，但這樣比較暖。","where":"worlds/comms-window/scenes/comms-window/scene.json captions[2] text"},
+  {"text":"The message from Earth has come through in full.","translation":"來自地球的訊息已經完整收到。","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. Reception cut off mid-word.","translation":"中繼站轉到行星背後了。接收在話說到一半時中斷。","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"The relay has gone behind the planet. The comms window has closed.","translation":"中繼站轉到行星背後了。通訊窗口已經關閉。","where":"worlds/comms-window/scenes/comms-window/script.js"},
+  {"text":"{m} min left","translation":"還剩 {m} 分鐘","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"closed","translation":"已關閉","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"receiving a message · {p}%","translation":"正在接收訊息 · {p}%","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"message received","translation":"訊息已收到","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"reception cut off · {p}%","translation":"接收中斷 · {p}%","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"waiting for a message from Earth","translation":"等待來自地球的訊息","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"},
+  {"text":"comms window · relay","translation":"通訊窗口 · 中繼站","where":"worlds/comms-window/scenes/comms-window/widgets/hud.html"}
+]}

@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"The Psychotherapist's Office","translation":"心理治療師的診間","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json title"},
+  {"text":"Here you can stay silent for as long as you need.","translation":"在這裡，你想沉默多久都可以。","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json caption"},
+  {"text":"The clock ticks. Nobody rushes you here.","translation":"時鐘滴答作響。這裡沒有人催你。","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[0] text"},
+  {"text":"She waits for the pause to finish speaking for itself.","translation":"她等著那段沉默自己把話說完。","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[1] text"},
+  {"text":"The glass of water still stands untouched.","translation":"那杯水還放在那裡，沒人碰過。","where":"worlds/at-the-doctors/scenes/therapist-office/scene.json captions[2] text"},
+  {"text":"Ten to six: five minutes left of the session.","translation":"五點五十分：這次會談還剩五分鐘。","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"},
+  {"text":"Five to six: the session's time is up.","translation":"五點五十五分：會談時間到了。","where":"worlds/at-the-doctors/scenes/therapist-office/script.js"}
+]}
