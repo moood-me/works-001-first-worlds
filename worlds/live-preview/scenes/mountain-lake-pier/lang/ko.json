@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"A Pier on a Mountain Lake","translation":"산정 호수의 부두","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json title"},
+  {"text":"The water went still before the light went out.","translation":"빛이 꺼지기 전에 물이 먼저 잠잠해졌다.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json caption"},
+  {"text":"The last light is slipping behind the ridge.","translation":"마지막 빛이 능선 너머로 미끄러져 간다.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[0] text"},
+  {"text":"The lantern was lit a little earlier than it needed to be.","translation":"등불은 필요보다 조금 일찍 켜졌다.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[1] text"},
+  {"text":"The boat quietly tugs at its rope and goes still again.","translation":"배가 가만히 밧줄을 당겼다가 다시 멎는다.","where":"worlds/live-preview/scenes/mountain-lake-pier/scene.json captions[2] text"}
+]}

@@ -1,0 +1,13 @@
+{"strings": [
+  {"text":"The Rocks Below the Lighthouse","translation":"등대 아래 바위","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json title"},
+  {"text":"Black rocks, foam, and something glassy right at the water's edge.","translation":"검은 바위, 물거품, 그리고 물가에 무언가 유리 같은 것.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json caption"},
+  {"text":"Down by the rocks it's colder. Salt settles on your lips.","translation":"아래 바위 곁은 더 춥다. 입술에 소금기가 내려앉는다.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[0] text"},
+  {"text":"When the beam passes, green glass flashes right at the water's edge.","translation":"불빛이 지나갈 때면, 바로 물가에서 초록 유리가 번쩍인다.","where":"worlds/logbook/scenes/lighthouse-rocks/scene.json captions[1] text"},
+  {"text":"The heavy surf knocked the bottle out of the rocks; a wave rolled it almost to your feet.","translation":"거센 파도가 바위 틈에서 병을 쳐 냈다. 물결이 병을 거의 발치까지 굴려 왔다.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The lighthouse beam swept the shore; right at the water, between the rocks, green glass flashed.","translation":"등대 불빛이 바닷가를 훑고 지나갔다. 바로 물가, 바위 사이에서 초록 유리가 번쩍였다.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player reaches for the bottle between the rocks: icy water, foam up to the ankles.","translation":"플레이어가 바위 사이의 병으로 손을 뻗는다. 얼음장 같은 물, 발목까지 차오르는 물거품.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player has picked the bottle out of the foam. Inside, a rolled-up note tied with red thread; the neck is sealed with wax.","translation":"플레이어가 물거품 속에서 병을 건져 올렸다. 안에는 붉은 실로 묶은 돌돌 만 쪽지가 있고, 병목은 봉랍으로 막혀 있다.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player bends over the shards: the note is soaked, but still holding together.","translation":"플레이어가 유리 조각들 위로 몸을 숙인다. 쪽지는 흠뻑 젖었지만, 아직 찢어지지 않았다.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"The player turns the bottle over in their hands, peering at the note through the wet glass.","translation":"플레이어가 병을 손에 쥐고 돌려 보며, 젖은 유리 너머로 쪽지를 들여다본다.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"},
+  {"text":"Wick doesn't take his eyes off the bottle; his ears are flattened against the wind.","translation":"심지는 병에서 눈을 떼지 않는다. 바람에 귀가 납작하게 눌려 있다.","where":"worlds/logbook/scenes/lighthouse-rocks/script.js"}
+]}

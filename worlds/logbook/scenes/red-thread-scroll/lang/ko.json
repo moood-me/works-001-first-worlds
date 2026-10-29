@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"The Scroll with the Red Thread","translation":"붉은 실로 묶은 두루마리","where":"worlds/logbook/scenes/red-thread-scroll/scene.json title"},
+  {"text":"Salt on your fingers, heavy wet paper, and the beam going over the slope again.","translation":"손가락에 묻은 소금기, 무겁게 젖은 종이, 그리고 다시 비탈을 훑고 지나가는 불빛.","where":"worlds/logbook/scenes/red-thread-scroll/scene.json caption"},
+  {"text":"The paper is cold and heavy, like a sheet pulled out of a puddle.","translation":"종이는 차갑고 무겁다. 웅덩이에서 건져 낸 종잇장처럼.","where":"worlds/logbook/scenes/red-thread-scroll/scene.json captions[0] text"},
+  {"text":"Red thread, sealing wax. Someone really wanted this to arrive.","translation":"붉은 실, 봉랍. 누군가 이것이 꼭 닿기를 바랐다.","where":"worlds/logbook/scenes/red-thread-scroll/scene.json captions[1] text"},
+  {"text":"A wave broke over the stone; the bottle slipped off and got stuck in a crack between the rocks.","translation":"파도가 바위를 덮쳤다. 병이 미끄러져 바위 사이 틈에 끼었다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The next wave tore the bottle out of the crack; the glass burst against the stone. Shards glitter on the wet granite.","translation":"다음 파도가 틈에서 병을 낚아챘고, 유리가 바위에 부딪혀 깨졌다. 젖은 화강암 위에서 조각들이 반짝인다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"Rain is falling on the unrolled paper; the lower lines are starting to run.","translation":"펼친 종이 위로 비가 떨어진다. 아래쪽 줄부터 번지기 시작한다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"For a moment the lighthouse beam lay on the sheet: the first lines showed clearly, the ink glistened.","translation":"등대 불빛이 잠깐 종이 위에 머물렀다. 첫 줄들이 또렷이 드러나고, 잉크가 반짝였다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player prised the wax up with a fingernail: the seal cracked, the thread loosened, the scroll began to unroll.","translation":"플레이어가 손톱으로 봉랍을 들어 올렸다. 봉인이 갈라지고, 실이 느슨해지고, 두루마리가 풀리기 시작했다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player has unrolled the sheet all the way. The paper is wet, but the first lines can be read.","translation":"플레이어가 종이를 끝까지 펼쳤다. 종이는 젖었지만, 첫 줄들은 읽을 수 있다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player tilts the sheet to the moonlight, peering at the lines.","translation":"플레이어가 종이를 달빛 쪽으로 기울이며 글줄을 들여다본다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player touches the bottle on the stone: is something still rolling about inside? No, only water.","translation":"플레이어가 바위 위의 병을 건드린다. 안에서 아직 뭔가 굴러다니나? 아니, 물뿐이다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player reaches for the bottle in the crack: fingers slide on the wet glass.","translation":"플레이어가 틈에 낀 병으로 손을 뻗는다. 손가락이 젖은 유리 위에서 미끄러진다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"The player looks at the shards: green glass, the neck with its sealing wax.","translation":"플레이어가 유리 조각들을 바라본다. 초록 유리, 봉랍이 붙은 병목.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"},
+  {"text":"Wick isn't looking at the bottle; he's looking at the scroll. The tip of his tail twitches.","translation":"심지는 병이 아니라 두루마리를 보고 있다. 꼬리 끝이 움찔거린다.","where":"worlds/logbook/scenes/red-thread-scroll/script.js"}
+]}

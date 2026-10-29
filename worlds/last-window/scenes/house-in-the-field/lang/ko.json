@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"House in the Field","translation":"들판의 집","where":"worlds/last-window/scenes/house-in-the-field/scene.json title"},
+  {"text":"She doesn't put the light out. Let them know someone is still here.","translation":"그녀는 불을 끄지 않는다. 여기 아직 누군가 있다는 걸 알도록.","where":"worlds/last-window/scenes/house-in-the-field/scene.json caption"},
+  {"text":"The phone has been silent for three weeks.","translation":"전화는 삼 주째 조용하다.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[0] text"},
+  {"text":"Someone is standing by the forest again.","translation":"숲가에 또 누군가 서 있다.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[1] text"},
+  {"text":"Every night, a few steps closer.","translation":"밤마다, 몇 걸음씩 더 가까이.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[2] text"},
+  {"text":"It is standing right by the house, under the window.","translation":"그것이 집 바로 앞, 창 아래에 서 있다.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"It has come out of the forest and stands in the middle of the field.","translation":"그것이 숲에서 나와 들판 한가운데 서 있다.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"A tall pale figure stands at the edge of the forest.","translation":"숲 가장자리에 키 크고 창백한 형체가 서 있다.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The light in the window has gone out.","translation":"창의 불이 꺼졌다.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The door of the house is open; light spills onto the snow.","translation":"집의 문이 열려 있다. 불빛이 눈 위로 쏟아진다.","where":"worlds/last-window/scenes/house-in-the-field/script.js"}
+]}
