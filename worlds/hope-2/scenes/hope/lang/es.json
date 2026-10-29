@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Hope","translation":"Esperanza","where":"worlds/hope-2/scenes/hope/scene.json title"},
+  {"text":"it's quiet here, and only a small light keeps hope from going out","translation":"aquí hay silencio, y solo una lucecita impide que se apague la esperanza","where":"worlds/hope-2/scenes/hope/scene.json caption"},
+  {"text":"she sits by the empty lake and counts the ripples on the water","translation":"ella se sienta junto al lago vacío y cuenta los círculos en el agua","where":"worlds/hope-2/scenes/hope/scene.json captions[0] text"},
+  {"text":"somewhere on the far shore a single window is lit","translation":"en algún lugar de la otra orilla hay una sola ventana encendida","where":"worlds/hope-2/scenes/hope/scene.json captions[1] text"},
+  {"text":"hope is when you walk towards a light that may not even be there","translation":"la esperanza es caminar hacia una luz que quizá ni siquiera esté ahí","where":"worlds/hope-2/scenes/hope/scene.json captions[2] text"}
+]}

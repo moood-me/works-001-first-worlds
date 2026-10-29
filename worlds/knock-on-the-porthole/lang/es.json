@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"A Knock on the Porthole","translation":"Un golpe en el ojo de buey","where":"worlds/knock-on-the-porthole/world.json title"},
+  {"text":"The cargo ship Ladoga has been drifting by a dead red dwarf for three days. In the observation bay the lights are going out, the oxygen is running low, and from outside someone knocks on the glass: the spacesuit of the navigator who went out on a spacewalk on Tuesday.","translation":"La nave de carga Ládoga lleva tres días a la deriva junto a una enana roja muerta. En el módulo de observación se apagan las luces, el oxígeno se acaba, y desde fuera alguien golpea el cristal: el traje espacial del navegante que salió al espacio el martes.","where":"worlds/knock-on-the-porthole/world.json description"}
+]}
