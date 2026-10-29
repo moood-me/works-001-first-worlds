@@ -1,4 +1,4 @@
 {"strings": [
-  {"text":"Abandoned Station in the Steppe","translation":"Заброшенная станция в степи","where":"steppe-station/world.json title"},
-  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"Степь молчит, фонарь горит, а перекати-поле катится в закат.","where":"steppe-station/world.json description"}
+  {"text":"Abandoned Station in the Steppe","translation":"Заброшенная станция в степи","where":"worlds/steppe-station/world.json title"},
+  {"text":"The steppe is silent, the lamp is lit, and a tumbleweed rolls off into the sunset.","translation":"Степь молчит, фонарь горит, а перекати-поле катится в закат.","where":"worlds/steppe-station/world.json description"}
 ]}

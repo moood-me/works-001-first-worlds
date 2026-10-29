@@ -1,6 +1,6 @@
 {"strings": [
-  {"text":"A Poppy Field by the Mountains","translation":"Маковое поле у гор","where":"mountains-field-poppies/scenes/poppy-field/scene.json title"},
-  {"text":"Early morning. Dew and silence.","translation":"Раннее утро. Роса и тишина.","where":"mountains-field-poppies/scenes/poppy-field/scene.json caption"},
-  {"text":"The first light comes to the peaks first.","translation":"Первый свет сначала приходит к вершинам.","where":"mountains-field-poppies/scenes/poppy-field/scene.json captions[0] text"},
-  {"text":"The dew still lies on the petals.","translation":"Роса ещё лежит на лепестках.","where":"mountains-field-poppies/scenes/poppy-field/scene.json captions[1] text"}
+  {"text":"A Poppy Field by the Mountains","translation":"Маковое поле у гор","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json title"},
+  {"text":"Early morning. Dew and silence.","translation":"Раннее утро. Роса и тишина.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json caption"},
+  {"text":"The first light comes to the peaks first.","translation":"Первый свет сначала приходит к вершинам.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json captions[0] text"},
+  {"text":"The dew still lies on the petals.","translation":"Роса ещё лежит на лепестках.","where":"worlds/mountains-field-poppies/scenes/poppy-field/scene.json captions[1] text"}
 ]}

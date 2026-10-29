@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Send-Off","translation":"Les Adieux","where":"worlds/send-off/world.json title"},
+  {"text":"A tower-block suburb, five in the morning. Sery is being called up: the lads sit out the last of the night by the entrance, the tape recorder plays out its cassette, his mum watches from the window.","translation":"Une cité-dortoir, cinq heures du matin. Séry part à l’armée : les gars finissent la nuit devant l’entrée de l’immeuble, le magnétophone joue la fin de sa cassette, sa mère regarde par la fenêtre.","where":"worlds/send-off/world.json description"}
+]}

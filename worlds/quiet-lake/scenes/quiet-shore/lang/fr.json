@@ -1,0 +1,9 @@
+{"strings": [
+  {"text":"Quiet Shore","translation":"La Rive tranquille","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json title"},
+  {"text":"A sandy shore, a motionless lake and a dark box right by the water.","translation":"Une rive de sable, un lac immobile et une boîte sombre tout au bord de l’eau.","where":"worlds/quiet-lake/scenes/quiet-shore/scene.json caption"},
+  {"text":"The sun has touched the forest on the far shore.","translation":"Le soleil a touché la forêt de l’autre rive.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The sun has set; twilight is left over the lake.","translation":"Le soleil s’est couché ; il reste le crépuscule sur le lac.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"Dawn over the lake; mist creeps over the water.","translation":"L’aube sur le lac ; la brume rampe sur l’eau.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The bench has walked off along the shore and is out of sight.","translation":"Le banc s’en est allé le long de la rive et a disparu.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"},
+  {"text":"The shed has risen on its chicken legs and stands there, shifting from foot to foot.","translation":"Le cabanon s’est dressé sur ses pattes de poule et se tient là, se dandinant d’une patte sur l’autre.","where":"worlds/quiet-lake/scenes/quiet-shore/script.js"}
+]}

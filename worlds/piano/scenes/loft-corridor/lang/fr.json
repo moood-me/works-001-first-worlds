@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Corridor by the Loft Door","translation":"Le Couloir devant la porte du loft","where":"worlds/piano/scenes/loft-corridor/scene.json title"},
+  {"text":"Brick, old wood and a single sconce for the whole corridor.","translation":"De la brique, du vieux bois et une seule applique pour tout le couloir.","where":"worlds/piano/scenes/loft-corridor/scene.json caption"}
+]}

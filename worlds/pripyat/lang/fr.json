@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Pripyat","translation":"Pripiat","where":"worlds/pripyat/world.json title"},
+  {"text":"Only the wind and the trees live here now.","translation":"Seuls le vent et les arbres vivent ici désormais.","where":"worlds/pripyat/world.json description"}
+]}

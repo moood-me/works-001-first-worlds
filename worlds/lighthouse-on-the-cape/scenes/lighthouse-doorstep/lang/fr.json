@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Lighthouse Doorstep","translation":"Le Seuil du phare","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-doorstep/scene.json title"},
+  {"text":"The lighthouse door open, a wind off the sea.","translation":"La porte du phare ouverte, un vent du large.","where":"worlds/lighthouse-on-the-cape/scenes/lighthouse-doorstep/scene.json caption"}
+]}

@@ -1,5 +1,5 @@
 {"strings": [
-  {"text":"Rooftops","translation":"Крыши","where":"rooftops/scenes/rooftops/scene.json title"},
-  {"text":"← → to run, space to jump.","translation":"← → бежать, пробел — прыгать.","where":"rooftops/scenes/rooftops/scene.json caption"},
-  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"Добежал до кошки на краю крыш. Кошка: «Мяу. Дальше только луна.»","where":"rooftops/scenes/rooftops/script.js"}
+  {"text":"Rooftops","translation":"Крыши","where":"worlds/rooftops/scenes/rooftops/scene.json title"},
+  {"text":"← → to run, space to jump.","translation":"← → бежать, пробел — прыгать.","where":"worlds/rooftops/scenes/rooftops/scene.json caption"},
+  {"text":"He made it to the cat at the edge of the rooftops. The cat: “Meow. Only the moon from here on.”","translation":"Добежал до кошки на краю крыш. Кошка: «Мяу. Дальше только луна.»","where":"worlds/rooftops/scenes/rooftops/script.js"}
 ]}

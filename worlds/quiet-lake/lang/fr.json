@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"Quiet Lake","translation":"Le Lac tranquille","where":"worlds/quiet-lake/world.json title"},
+  {"text":"A lake so quiet you can hear the sun going down.","translation":"Un lac si tranquille qu’on entend le soleil se coucher.","where":"worlds/quiet-lake/world.json description"}
+]}

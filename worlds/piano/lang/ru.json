@@ -1,3 +1,3 @@
 {"strings": [
-  {"text":"The Piano","translation":"Пианино","where":"piano/world.json title"}
+  {"text":"The Piano","translation":"Пианино","where":"worlds/piano/world.json title"}
 ]}

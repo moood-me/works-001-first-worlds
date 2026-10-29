@@ -1,0 +1,7 @@
+{"strings": [
+  {"text":"Savanna","translation":"La Savane","where":"worlds/savanna/scenes/savanna/scene.json title"},
+  {"text":"Evening is near, and the air is still shimmering with heat.","translation":"Le soir approche, et l’air tremble encore de chaleur.","where":"worlds/savanna/scenes/savanna/scene.json caption"},
+  {"text":"The heat still holds, but the shadows are already long.","translation":"La chaleur tient encore, mais les ombres sont déjà longues.","where":"worlds/savanna/scenes/savanna/scene.json captions[0] text"},
+  {"text":"The giraffe calf never leaves its mother's side.","translation":"Le girafon ne quitte pas sa mère d’un pas.","where":"worlds/savanna/scenes/savanna/scene.json captions[1] text"},
+  {"text":"Vultures circle over the savanna, patient, in no hurry at all.","translation":"Des vautours tournoient au-dessus de la savane, patients, sans se presser le moins du monde.","where":"worlds/savanna/scenes/savanna/scene.json captions[2] text"}
+]}

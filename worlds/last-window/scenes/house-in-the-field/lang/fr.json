@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"House in the Field","translation":"La Maison dans le champ","where":"worlds/last-window/scenes/house-in-the-field/scene.json title"},
+  {"text":"She doesn't put the light out. Let them know someone is still here.","translation":"Elle n’éteint pas la lumière. Qu’ils sachent qu’il reste encore quelqu’un ici.","where":"worlds/last-window/scenes/house-in-the-field/scene.json caption"},
+  {"text":"The phone has been silent for three weeks.","translation":"Le téléphone se tait depuis trois semaines.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[0] text"},
+  {"text":"Someone is standing by the forest again.","translation":"Quelqu’un se tient de nouveau près de la forêt.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[1] text"},
+  {"text":"Every night, a few steps closer.","translation":"Chaque nuit, quelques pas plus près.","where":"worlds/last-window/scenes/house-in-the-field/scene.json captions[2] text"},
+  {"text":"It is standing right by the house, under the window.","translation":"La chose se tient tout contre la maison, sous la fenêtre.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"It has come out of the forest and stands in the middle of the field.","translation":"La chose est sortie de la forêt et se tient au milieu du champ.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"A tall pale figure stands at the edge of the forest.","translation":"Une haute silhouette pâle se tient à la lisière de la forêt.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The light in the window has gone out.","translation":"La lumière de la fenêtre s’est éteinte.","where":"worlds/last-window/scenes/house-in-the-field/script.js"},
+  {"text":"The door of the house is open; light spills onto the snow.","translation":"La porte de la maison est ouverte ; la lumière se répand sur la neige.","where":"worlds/last-window/scenes/house-in-the-field/script.js"}
+]}

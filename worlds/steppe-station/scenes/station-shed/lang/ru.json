@@ -1,7 +1,7 @@
 {"strings": [
-  {"text":"In the Old Shed by the Station","translation":"В старом сарае у станции","where":"steppe-station/scenes/station-shed/scene.json title"},
-  {"text":"Dust hangs in the slits of light, and everything here has been tidied by someone.","translation":"Пыль стоит в щелях света, и всё здесь кем-то прибрано.","where":"steppe-station/scenes/station-shed/scene.json caption"},
-  {"text":"The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.","translation":"Щели в стене почти погасли: солнце ушло за степь, в сарае остаётся только свет из двери.","where":"steppe-station/scenes/station-shed/script.js"},
-  {"text":"The swallow darted off the beam and flew out through the open door, toward the sunset.","translation":"Ласточка сорвалась с балки и вылетела в распахнутую дверь, к закату.","where":"steppe-station/scenes/station-shed/script.js"},
-  {"text":"Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.","translation":"Под мешковиной — оцинкованное ведро, в нём чистая вода. Кто-то принёс её недавно.","where":"steppe-station/scenes/station-shed/script.js"}
+  {"text":"In the Old Shed by the Station","translation":"В старом сарае у станции","where":"worlds/steppe-station/scenes/station-shed/scene.json title"},
+  {"text":"Dust hangs in the slits of light, and everything here has been tidied by someone.","translation":"Пыль стоит в щелях света, и всё здесь кем-то прибрано.","where":"worlds/steppe-station/scenes/station-shed/scene.json caption"},
+  {"text":"The slits in the wall have almost gone dark: the sun has gone down beyond the steppe, and only the light from the door is left in the shed.","translation":"Щели в стене почти погасли: солнце ушло за степь, в сарае остаётся только свет из двери.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"The swallow darted off the beam and flew out through the open door, toward the sunset.","translation":"Ласточка сорвалась с балки и вылетела в распахнутую дверь, к закату.","where":"worlds/steppe-station/scenes/station-shed/script.js"},
+  {"text":"Under the sacking, a galvanised bucket of clean water. Someone brought it not long ago.","translation":"Под мешковиной — оцинкованное ведро, в нём чистая вода. Кто-то принёс её недавно.","where":"worlds/steppe-station/scenes/station-shed/script.js"}
 ]}

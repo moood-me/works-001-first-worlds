@@ -1,0 +1,17 @@
+{"strings": [
+  {"text":"Granny Nina's Bedroom","translation":"La Chambre de mamie Nina","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json title"},
+  {"text":"The things are waiting to see who speaks first.","translation":"Les choses attendent de voir qui parlera le premier.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json caption"},
+  {"text":"You hold the photograph so that Granny can see it.","translation":"Tu tiens la photographie de sorte que Mamie puisse la voir.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[0] text"},
+  {"text":"The lamp shows through the cut-out place: a warm person who isn't there.","translation":"La lampe transparaît par l’endroit découpé : une personne chaleureuse qui n’est pas là.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[1] text"},
+  {"text":"The box is open. On top, an envelope addressed in a hand that isn't Granny's.","translation":"Le coffret est ouvert. Dessus, une enveloppe dont l’adresse n’est pas de la main de Mamie.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/scene.json captions[2] text"},
+  {"text":"The wall clock struck {time}.","translation":"La pendule a sonné {time}.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"The photograph is right by Granny Nina's hands.","translation":"La photographie est tout près des mains de mamie Nina.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Granny Nina's fingers have touched the photograph, right at the cut-out place.","translation":"Les doigts de mamie Nina ont touché la photographie, juste à l’endroit découpé.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Granny Nina reaches for the photograph but can't reach it.","translation":"Mamie Nina tend la main vers la photographie, mais ne l’atteint pas.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"In the open box the letters have shifted a little by themselves: the top envelope has slid to one side.","translation":"Dans le coffret ouvert, les lettres ont un peu bougé d’elles-mêmes : l’enveloppe du dessus a glissé de côté.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/script.js"},
+  {"text":"Notebook","translation":"Carnet","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"La nuit du 14 mars 1953. Personne n’en parle.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"Quelqu’un a été soigneusement découpé de la photo de famille de 1952.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Interroge les gens et les choses. Note tout. Mets les gens face à ce qu’ont dit les choses.","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"},
+  {"text":"close","translation":"fermer","where":"worlds/things-are-honest/scenes/granny-ninas-bedroom/widgets/notebook.html"}
+]}

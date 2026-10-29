@@ -1,0 +1,8 @@
+{"strings": [
+  {"text":"The Well of Whispers","translation":"Le Puits aux murmures","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json title"},
+  {"text":"The well remembers every word spoken over it.","translation":"Le puits se souvient de chaque mot prononcé au-dessus de lui.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json caption"},
+  {"text":"For a hundred years the well stood boarded up. Tonight light is seeping through the cracks.","translation":"Pendant cent ans, le puits est resté condamné. Cette nuit, de la lumière suinte par les fentes.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[0] text"},
+  {"text":"They say it answers, but only those who ask in a whisper.","translation":"On dit qu’il répond, mais seulement à ceux qui demandent en chuchotant.","where":"worlds/well-of-whispers/scenes/well-of-whispers/scene.json captions[1] text"},
+  {"text":"The well's lid has swung open, and a cold light is rising from inside.","translation":"Le couvercle du puits s’est soulevé, et une lumière froide monte de l’intérieur.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"},
+  {"text":"The well's lid has settled back into place, and the light has gone back into the cracks.","translation":"Le couvercle du puits est retombé à sa place, et la lumière est rentrée dans les fentes.","where":"worlds/well-of-whispers/scenes/well-of-whispers/script.js"}
+]}
