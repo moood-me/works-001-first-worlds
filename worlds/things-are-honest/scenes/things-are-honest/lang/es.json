@@ -1,0 +1,12 @@
+{"strings": [
+  {"text":"Things Are Honest","translation":"Las cosas son honestas","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json title"},
+  {"text":"A family mystery for one evening.","translation":"Un misterio familiar para una tarde.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json caption"},
+  {"text":"Autumn. You've come to say goodbye to Granny Nina. The doctor said a week, maybe two.","translation":"Otoño. Has venido a despedirte de la abuela Nina. El médico ha dicho que una semana, quizá dos.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[0] text"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph, along the outline, as if from a magazine.","translation":"De la foto familiar de 1952 alguien ha sido recortado con cuidado, siguiendo el contorno, como de una revista.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[1] text"},
+  {"text":"People know what matters, but they don't tell the truth. Things don't lie, but they take everything literally.","translation":"Las personas saben lo que importa, pero no dicen la verdad. Las cosas no mienten, pero lo entienden todo al pie de la letra.","where":"worlds/things-are-honest/scenes/things-are-honest/scene.json captions[2] text"},
+  {"text":"Notebook","translation":"Libreta","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"The night of 14 March 1953. Nobody talks about it.","translation":"La noche del 14 de marzo de 1953. De ella no se habla.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Someone has been neatly cut out of the 1952 family photograph.","translation":"De la foto familiar de 1952 han recortado con cuidado a una persona.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"Ask the people and the things. Write it down. Confront the people with what the things said.","translation":"Pregunta a las personas y a las cosas. Apúntalo. Enfrenta a las personas con lo que dijeron las cosas.","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"},
+  {"text":"close","translation":"cerrar","where":"worlds/things-are-honest/scenes/things-are-honest/widgets/notebook.html"}
+]}

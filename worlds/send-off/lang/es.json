@@ -1,0 +1,4 @@
+{"strings": [
+  {"text":"The Send-Off","translation":"La despedida","where":"worlds/send-off/world.json title"},
+  {"text":"A tower-block suburb, five in the morning. Sery is being called up: the lads sit out the last of the night by the entrance, the tape recorder plays out its cassette, his mum watches from the window.","translation":"Un barrio de bloques, las cinco de la mañana. A Seri se lo llevan a la mili: los chavales apuran lo que queda de la noche junto al portal, el radiocasete termina la cinta, su madre mira desde la ventana.","where":"worlds/send-off/world.json description"}
+]}
